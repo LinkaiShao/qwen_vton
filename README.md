@@ -69,3 +69,10 @@ final = prediction   inside  grey_hole(agnostic)
 - `figures/tryon/` — the five deployed try-on results and full raw|deployed|GT panels
 
 *Base model: Qwen-Image-Edit. Benchmark: VITON-HD. Trained on a single RTX PRO 6000 Blackwell.*
+
+
+## Molmo/DINO crop-supervised continuation — September 22, 2026
+
+[Open the interactive comparison](https://LinkaiShao.github.io/qwen_vton/molmo-20260922/) · [Report files](docs/molmo-20260922/)
+
+Three selected training examples show full original generation, ground truth, and new generation, followed by marked detail crops and an original/new slider. The earlier overnight run shows a raised leopard neckline, removal of an extra line on a sheer chest, and a smaller button appearance improvement. These report images are raw full-frame renders without reference-pixel compositing. This illustrative selection does not establish held-out improvement or isolate Molmo’s effect.

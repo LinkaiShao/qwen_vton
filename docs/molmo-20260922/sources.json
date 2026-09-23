@@ -1,0 +1,184 @@
+[
+  {
+    "id": "08439_00",
+    "source_run": "MOLMO_OVERNIGHT_20260922/final",
+    "crop": [
+      0.44,
+      0.31,
+      0.7,
+      0.49
+    ],
+    "source_images": {
+      "before": "assets/08439_00_before.png",
+      "gt": "assets/08439_00_gt.jpg",
+      "after": "assets/08439_00_after.png"
+    },
+    "sha256": {
+      "before": "a026472336a37a278458e2bd8a27556869a63cba800e25461e707ddec4526ea1",
+      "gt": "9b83b713b9eb8bb02350f2db6b6a67b45525dcb0c317647b7564cb805be7dd1e",
+      "after": "a6b639d28542a38a94f5f62a6f2005b189bf172d30d9013169388bd60be674e9"
+    },
+    "review": {
+      "id": "08439_00",
+      "status": "improved",
+      "title": "Leopard-print top \u00b7 neckline moves toward GT",
+      "box": [
+        0.44,
+        0.31,
+        0.7,
+        0.49
+      ],
+      "finding": "The previous neckline sits too low. After tuning it rises noticeably toward the GT neckline, reducing the excess exposed chest.",
+      "before": "The neckline is too low, exposing too much chest.",
+      "gt": "A higher neckline covers more of the upper chest.",
+      "after": "The neckline rises toward the GT position.",
+      "verdict": "A visible structural improvement, but not a complete fix.",
+      "remaining": "The neckline is still below GT, and the print arrangement is still different.",
+      "metric": "Predefined neckline window: MAE 34.79 \u2192 21.67 (37.7% lower); SSIM 0.481 \u2192 0.527.",
+      "point_note": "Fresh Molmo points at the lower print before and the torso after, not this neckline. This improvement was found by visual review."
+    },
+    "molmo_points": {
+      "before": [
+        [
+          0.42566421750992056,
+          0.7868794320913461
+        ]
+      ],
+      "after": [
+        [
+          0.49572870163690474,
+          0.6001737530048077
+        ]
+      ]
+    }
+  },
+  {
+    "id": "00967_00",
+    "source_run": "MOLMO_OVERNIGHT_20260922/final",
+    "crop": [
+      0.405,
+      0.39,
+      0.615,
+      0.51
+    ],
+    "source_images": {
+      "before": "assets/00967_00_before.png",
+      "gt": "assets/00967_00_gt.jpg",
+      "after": "assets/00967_00_after.png"
+    },
+    "sha256": {
+      "before": "da4581a66e03671751979d72708212f86c6c01bea09eac9c97c45ddadedf3346",
+      "gt": "a78e5f1374a34568047888e8be1330a00418c80e859453331100d78aa5c02d49",
+      "after": "a0e5598d1df496c386c9b67c7ab93402ba387898886115635750ec63020796a5"
+    },
+    "review": {
+      "id": "00967_00",
+      "status": "fixed",
+      "title": "Black sheer top \u00b7 extra chest line removed",
+      "box": [
+        0.405,
+        0.39,
+        0.615,
+        0.51
+      ],
+      "finding": "The extra horizontal dark line in the previous generation is absent from GT and no longer visibly crosses the chest after tuning.",
+      "before": "An extra line bridges the sheer chest between the lace panels.",
+      "gt": "The chest is sheer here, with no horizontal bridge.",
+      "after": "The spurious horizontal bridge is removed.",
+      "verdict": "That specific extra line is fixed locally.",
+      "remaining": "The surrounding lace motifs still differ from GT. This is a training example, not evidence of a general fix.",
+      "point_note": "Its after point lands on the jeans, not on this chest detail. The fix verdict comes from comparing these pixels with GT."
+    },
+    "molmo_points": {
+      "before": [
+        [
+          0.49217199900793657,
+          0.44107666015625
+        ]
+      ],
+      "after": [
+        [
+          0.5255425347222223,
+          0.6800799295176629
+        ]
+      ]
+    }
+  },
+  {
+    "id": "14138_00",
+    "source_run": "MOLMO_OVERNIGHT_20260922/final",
+    "crop": [
+      0.355,
+      0.38,
+      0.49,
+      0.535
+    ],
+    "source_images": {
+      "before": "assets/14138_00_before.png",
+      "gt": "assets/14138_00_gt.jpg",
+      "after": "assets/14138_00_after.png"
+    },
+    "sha256": {
+      "before": "5e203bf3179beb1779c432fee8de63fad5ada9be80b04324627b70031ad387f7",
+      "gt": "a6253c309625f79c96935ed289a642b4166ad5d05157c79e39df0f48964998f9",
+      "after": "bd9d3cb53c122995153d9926b80752905464e47884a39fd224aa1fb8d68539aa"
+    },
+    "review": {
+      "id": "14138_00",
+      "status": "improved",
+      "title": "Black button top \u00b7 buttons look less hollow",
+      "box": [
+        0.355,
+        0.38,
+        0.49,
+        0.535
+      ],
+      "finding": "The lower buttons become brighter and less ring-like, moving toward the solid light buttons in GT. The change is modest, not a reconstruction of the placket.",
+      "before": "Dark, hollow-looking rings at the button positions.",
+      "gt": "Brighter, more solid-looking buttons.",
+      "after": "The lower buttons have lighter, more filled centers.",
+      "verdict": "Partial improvement in button appearance.",
+      "remaining": "Button position, spacing and precise shape still do not match GT.",
+      "metric": "Predefined lower-button window: MAE 10.58 \u2192 9.61 (9.1% lower); SSIM 0.776 \u2192 0.784.",
+      "point_note": "Molmo marks all four button positions both before and after; the visual gain does not amount to a full fix."
+    },
+    "molmo_points": {
+      "before": [
+        [
+          0.4375080128205129,
+          0.4195508873980978
+        ],
+        [
+          0.42756570512820513,
+          0.4634537406589674
+        ],
+        [
+          0.41747275641025644,
+          0.507356593919837
+        ],
+        [
+          0.4073798076923077,
+          0.5549911897078804
+        ]
+      ],
+      "after": [
+        [
+          0.4375080128205129,
+          0.4195508873980978
+        ],
+        [
+          0.42756570512820513,
+          0.4634537406589674
+        ],
+        [
+          0.4224439102564103,
+          0.507356593919837
+        ],
+        [
+          0.41250160256410257,
+          0.5512594471807064
+        ]
+      ]
+    }
+  }
+]
