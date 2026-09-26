@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Eight VTON models on 128 matched VITON-HD cases, evaluated by garment region using Molmo and frozen DINO experts.">
+<title>VTON regional comparison — 8 models, 128 cases</title>
+<style>
+*{box-sizing:border-box}html{color-scheme:light}body{margin:0;background:#f5f7fa;color:#182238;font:16px/1.55 system-ui,-apple-system,sans-serif}main{max-width:1500px;margin:auto;padding:24px clamp(14px,3vw,40px) 48px}header{display:flex;gap:20px;justify-content:space-between;align-items:center;flex-wrap:wrap}h1{font-size:clamp(24px,3vw,34px);line-height:1.2;margin:0 0 8px}h2{font-size:22px;margin:0 0 12px}p{margin:8px 0;color:#49576b}strong{color:#182238}a{color:#135bb5;text-underline-offset:3px}a:focus-visible{outline:3px solid #135bb5;outline-offset:4px}.button{display:inline-block;padding:10px 16px;border-radius:7px;background:#1558af;color:white;text-decoration:none;font-weight:600}.meta{font-size:14px}section{margin-top:24px}figure{margin:0;background:white;border:1px solid #d8e0eb;border-radius:8px;overflow-x:auto}img{display:block;width:100%;height:auto;min-width:950px}figcaption{padding:10px 16px;border-top:1px solid #e1e7ef;font-size:14px}nav{display:flex;gap:12px 24px;flex-wrap:wrap;margin-top:16px}footer{margin-top:28px;border-top:1px solid #d8e0eb;padding-top:16px}.caption{margin:8px 0 0;font-size:14px}
+</style>
+</head>
+<body><main>
+<header><div><h1>VTON regional comparison</h1><p>8 published models · 128 matched VITON-HD cases · 1,024 generated images</p></div><a class="button" href="report.html">View images &amp; full report</a></header>
+<p><strong>Lower scores are better.</strong> Molmo locates garment parts; frozen DINO experts compare each output with GT at the same locations.</p>
+<section aria-label="Regional score heatmap"><figure><img src="region_heatmap.svg" alt="Mean regional error for eight VTON models. Leffa has the lowest mean for collar, cuff, button, sleeve, shoulder and logo. CatVTON-FLUX has the lowest pocket mean on three cases."><figcaption><strong>n</strong> = scored cases for that region. <strong>N/A</strong> = no eligible GT examples. These are feature distances, not accuracy percentages. <a href="region_heatmap.png">Open full-size graph</a></figcaption></figure></section>
+<section aria-labelledby="intervals"><h2 id="intervals">Scores with uncertainty</h2><figure><img loading="lazy" src="region_scores.svg" alt="Regional mean distances with 95 percent image-bootstrap intervals across the same eight models."><figcaption>Intervals resample the matched images 2,000 times. Buttons and pockets have few examples; lapels, buttonholes and zippers have no eligible examples in this run.</figcaption></figure></section>
+<footer><nav aria-label="Results and related reports"><a href="report.html">GT, outputs and Molmo locations</a><a href="scores.csv" download>Download regional scores</a><a href="summary.json" download>Download summary</a><a href="../molmo-20260922/">Previous training comparison</a></nav><p class="caption">Completed September 26, 2026. All 1,024 outputs and scores passed final verification. Controlled adapted-input evaluation; these are not paper leaderboard numbers.</p></footer>
+</main></body></html>
