@@ -1,0 +1,1549 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "farfetch_36065205",
+  "title": "adidas logo-embroidered zip-up sweatshirt",
+  "cohort": "validation",
+  "expected_views": [
+    "36065205_00",
+    "36065205_01",
+    "36065205_02",
+    "36065205_03"
+  ],
+  "unique_views": [
+    "36065205_00",
+    "36065205_01",
+    "36065205_02",
+    "36065205_03"
+  ],
+  "aliases": {},
+  "groups": {
+    "36065205_00": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      },
+      {
+        "id": 4,
+        "parts": [
+          4
+        ]
+      },
+      {
+        "id": 5,
+        "parts": [
+          5
+        ]
+      },
+      {
+        "id": 6,
+        "parts": [
+          6
+        ]
+      }
+    ],
+    "36065205_01": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "36065205_02": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "36065205_03": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "36065205_00",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              1,
+              3
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "beige track pants with brown side stripes",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 6,
+        "parts": [
+          6
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36065205_01",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              1,
+              3
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_01",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "beige track pants with brown side stripes",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              1,
+              3
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_02",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "beige track pants with brown side stripes",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "beige track pants with brown side stripes",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_03",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        },
+        "keep_basis": "Disputed fragment belongs to a confirmed all-view garment in both same-image orders"
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "36065205_00",
+          1
+        ],
+        [
+          "36065205_01",
+          1
+        ],
+        [
+          "36065205_02",
+          1
+        ],
+        [
+          "36065205_03",
+          1
+        ],
+        [
+          "36065205_03",
+          3
+        ]
+      ],
+      [
+        [
+          "36065205_00",
+          2
+        ],
+        [
+          "36065205_01",
+          2
+        ],
+        [
+          "36065205_02",
+          2
+        ],
+        [
+          "36065205_03",
+          2
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
+    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+  },
+  "joint_evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36065205",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36065205_00",
+          1
+        ],
+        "R002": [
+          "36065205_00",
+          2
+        ],
+        "R003": [
+          "36065205_00",
+          3
+        ],
+        "R004": [
+          "36065205_00",
+          4
+        ],
+        "R005": [
+          "36065205_00",
+          5
+        ],
+        "R006": [
+          "36065205_00",
+          6
+        ],
+        "R007": [
+          "36065205_01",
+          1
+        ],
+        "R008": [
+          "36065205_01",
+          2
+        ],
+        "R009": [
+          "36065205_02",
+          1
+        ],
+        "R010": [
+          "36065205_02",
+          2
+        ],
+        "R011": [
+          "36065205_03",
+          1
+        ],
+        "R012": [
+          "36065205_03",
+          2
+        ],
+        "R013": [
+          "36065205_03",
+          3
+        ]
+      },
+      "raw": "After analyzing all views and their corresponding mask regions, we identify the garments that are visible in **every view** (i.e., appear in at least one mask region in each of the four views: 00, 01, 02, 03).\n\n---\n\n### Step-by-step Analysis:\n\n#### View 00 (Full outfit):\n- **R001**: Jacket (front, open) \u2014 beige body, brown sleeves with white stripes.\n- **R002**: Pants (full length) \u2014 beige with brown side stripes.\n- **R003**: T-shirt (under jacket) \u2014 gray with graphic print.\n- **R004**: Left shoe \u2014 silver/reflective with beige sole.\n- **R005**: Right shoe \u2014 same as R004.\n- **R006**: Side detail (possibly zipper or seam) \u2014 small fragment.\n\n#### View 01 (Front close-up of jacket):\n- **R007**: Jacket (front, zipped) \u2014 same as R001, but zipped.\n- **R008**: Pants (waist to knee) \u2014 same as R002, but cropped.\n\n#### View 02 (Side profile):\n- **R009**: Jacket (side view) \u2014 same jacket, showing sleeve stripes.\n- **R010**: Pants (side view) \u2014 same pants, showing side stripe.\n\n#### View 03 (Back view):\n- **R011**: Jacket (back) \u2014 same jacket, back view.\n- **R012**: Pants (back) \u2014 same pants, back view.\n- **R013**: Brown fabric strip \u2014 likely waistband or hem of jacket? But not clearly part of the same garment as others.\n\n---\n\n### Garment Identification:\n\nWe need to find garments that appear in **every view** (i.e., at least one region per view).\n\n#### 1. **Jacket**:\n- View 00: R001\n- View 01: R007\n- View 02: R009\n- View 03: R011\n\u2192 **Present in all views.**\n\n#### 2. **Pants**:\n- View 00: R002\n- View 01: R008\n- View 02: R010\n- View 03: R012\n\u2192 **Present in all views.**\n\n#### 3. **T-shirt (R003)**:\n- Only in View 00 \u2192 **Not in all views.**\n\n#### 4. **Shoes (R004, R005)**:\n- Only in View 00 \u2192 **Not in all views.**\n\n#### 5. **R006**:\n- Only in View 00 \u2192 **Not in all views.**\n\n#### 6. **R013**:\n- Only in View 03 \u2192 **Not in all views.**\n\n---\n\n### Conclusion:\n\nOnly **two garments** are visible in **every view**:\n- The **jacket** (R001, R007, R009, R011)\n- The **pants** (R002, R008, R010, R012)\n\nAll other regions appear in only one view and thus do not qualify.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"beige and brown track jacket with white stripes on sleeves\",\n      \"regions\": [\"R001\", \"R007\", \"R009\", \"R011\"]\n    },\n    {\n      \"garment\": \"beige track pants with brown side stripes\",\n      \"regions\": [\"R002\", \"R008\", \"R010\", \"R012\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 26.737249607685953,
+      "batch_seconds": 26.737249607685953,
+      "input_signature": "2b0e657210ef5750571b9b3fa9070e619588bdb6d873c0e0d7fb2e5ea17cd1ee",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "beige and brown track jacket with white stripes on sleeves",
+          "regions": [
+            "R001",
+            "R007",
+            "R009",
+            "R011"
+          ],
+          "nodes": [
+            [
+              "36065205_00",
+              1
+            ],
+            [
+              "36065205_01",
+              1
+            ],
+            [
+              "36065205_02",
+              1
+            ],
+            [
+              "36065205_03",
+              1
+            ]
+          ]
+        },
+        {
+          "garment": "beige track pants with brown side stripes",
+          "regions": [
+            "R002",
+            "R008",
+            "R010",
+            "R012"
+          ],
+          "nodes": [
+            [
+              "36065205_00",
+              2
+            ],
+            [
+              "36065205_01",
+              2
+            ],
+            [
+              "36065205_02",
+              2
+            ],
+            [
+              "36065205_03",
+              2
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36065205",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36065205_03",
+          3
+        ],
+        "R002": [
+          "36065205_03",
+          2
+        ],
+        "R003": [
+          "36065205_03",
+          1
+        ],
+        "R004": [
+          "36065205_02",
+          2
+        ],
+        "R005": [
+          "36065205_02",
+          1
+        ],
+        "R006": [
+          "36065205_01",
+          2
+        ],
+        "R007": [
+          "36065205_01",
+          1
+        ],
+        "R008": [
+          "36065205_00",
+          6
+        ],
+        "R009": [
+          "36065205_00",
+          5
+        ],
+        "R010": [
+          "36065205_00",
+          4
+        ],
+        "R011": [
+          "36065205_00",
+          3
+        ],
+        "R012": [
+          "36065205_00",
+          2
+        ],
+        "R013": [
+          "36065205_00",
+          1
+        ]
+      },
+      "raw": "We are given four views (VIEW 36065205_00 to _03), each with an original photograph and a set of mask regions (R001 to R013). The task is to identify **visually distinct garments** that appear in **every view** (i.e., have at least one visible region in each view), using the provided region IDs.\n\nWe must match garments by **fabric, construction, color, and context**, and **each region ID must be assigned to at most one track**. A garment must appear in **every view** to be included. If a garment is only visible in some views, it is excluded.\n\n---\n\n### Step-by-step Analysis:\n\n#### VIEW 36065205_03 (Back view)\n- **R001**: Brown waistband of the jacket (bottom hem)\n- **R002**: Beige pants (front view, but likely same as in other views)\n- **R003**: Back of the beige and brown jacket (full back)\n\n#### VIEW 36065205_02 (Side view)\n- **R004**: Side panel of beige pants (with brown stripe)\n- **R005**: Side view of the jacket (brown sleeve with white stripes)\n\n#### VIEW 36065205_01 (Front view)\n- **R006**: Front of beige pants (with brown side stripes)\n- **R007**: Front of the beige and brown jacket (with zipper and Adidas logo)\n\n#### VIEW 36065205_00 (Full outfit, unzipped)\n- **R008**: Zipper pull (part of jacket)\n- **R009**: Left shoe (silver/white sneaker)\n- **R010**: Right shoe (silver/white sneaker)\n- **R011**: Gray t-shirt with graphic (worn under jacket)\n- **R012**: Beige pants (full front view, with side stripes)\n- **R013**: Front of the jacket (unzipped, showing inner lining and t-shirt)\n\n---\n\n### Identify Garments That Appear in Every View:\n\nWe need to find garments that have **at least one region in each of the four views**.\n\n---\n\n#### 1. **Beige and Brown Track Jacket**\n\n- **VIEW 03**: R003 (back of jacket), R001 (waistband)\n- **VIEW 02**: R005 (side of jacket)\n- **VIEW 01**: R007 (front of jacket)\n- **VIEW 00**: R013 (front of jacket, unzipped), R008 (zipper pull)\n\n\u2192 **Appears in all 4 views.**\n\n\u2192 **Regions: R001, R003, R005, R007, R008, R013**\n\nNote: R001 is the waistband \u2014 part of the jacket. R008 is the zipper pull \u2014 also part of the jacket. So all these regions belong to the same garment.\n\n---\n\n#### 2. **Beige Track Pants with Brown Side Stripes**\n\n- **VIEW 03**: R002 (front of pants)\n- **VIEW 02**: R004 (side panel of pants)\n- **VIEW 01**: R006 (front of pants)\n- **VIEW 00**: R012 (full front of pants)\n\n\u2192 **Appears in all 4 views.**\n\n\u2192 **Regions: R002, R004, R006, R012**\n\n---\n\n#### 3. **Gray Graphic T-shirt (worn under jacket)**\n\n- **VIEW 00**: R011 (visible under unzipped jacket)\n\n\u2192 **Only appears in VIEW 00.** Not in other views \u2192 **Excluded.**\n\n---\n\n#### 4. **Shoes (silver/white sneakers)**\n\n- **VIEW 00**: R009 (left shoe), R010 (right shoe)\n\n\u2192 **Only in VIEW 00.** Not in other views \u2192 **Excluded.**\n\n---\n\n#### 5. **Zipper Pull (R008)**\n\n\u2192 Already included in the jacket track (R008 is part of the jacket).\n\n---\n\n### Final Tracks:\n\nOnly two garments appear in **every view**:\n\n1. **Beige and Brown Track Jacket** \u2014 regions: R001, R003, R005, R007, R008, R013  \n2. **Beige Track Pants with Brown Side Stripes** \u2014 regions: R002, R004, R006, R012\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Beige and brown track jacket with white stripes on sleeves and zipper\",\n      \"regions\": [\"R001\", \"R003\", \"R005\", \"R007\", \"R008\", \"R013\"]\n    },\n    {\n      \"garment\": \"Beige track pants with brown side stripes\",\n      \"regions\": [\"R002\", \"R004\", \"R006\", \"R012\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 37.853636405896395,
+      "batch_seconds": 37.853636405896395,
+      "input_signature": "2b0e657210ef5750571b9b3fa9070e619588bdb6d873c0e0d7fb2e5ea17cd1ee",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "Beige and brown track jacket with white stripes on sleeves and zipper",
+          "regions": [
+            "R001",
+            "R003",
+            "R005",
+            "R007",
+            "R008",
+            "R013"
+          ],
+          "nodes": [
+            [
+              "36065205_03",
+              3
+            ],
+            [
+              "36065205_03",
+              1
+            ],
+            [
+              "36065205_02",
+              1
+            ],
+            [
+              "36065205_01",
+              1
+            ],
+            [
+              "36065205_00",
+              6
+            ],
+            [
+              "36065205_00",
+              1
+            ]
+          ]
+        },
+        {
+          "garment": "Beige track pants with brown side stripes",
+          "regions": [
+            "R002",
+            "R004",
+            "R006",
+            "R012"
+          ],
+          "nodes": [
+            [
+              "36065205_03",
+              2
+            ],
+            [
+              "36065205_02",
+              2
+            ],
+            [
+              "36065205_01",
+              2
+            ],
+            [
+              "36065205_00",
+              2
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 64.59088601358235,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790531116.070649,
+  "training": false,
+  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
+  "fragment_reviews": [
+    {
+      "view": "36065205_00",
+      "part": 6,
+      "track": 0,
+      "anchor_part": 1,
+      "both_orders_same": false,
+      "evidence": [
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "48e8893622fae89a451d463e5c5468b49562133fffa286b7016e3fbc05186554",
+            "partition": "5978beec2eb412ecb1bfa2c4ea4c67f36c0a64dd0688827cec0551197884db73",
+            "a": 6,
+            "b": 1,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                246,
+                112,
+                384,
+                576
+              ],
+              "2": [
+                214,
+                50,
+                418,
+                298
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -4.625,
+          "relative_logits": [
+            -4.625,
+            0.0,
+            -7.125
+          ],
+          "at": 1790531109.8296008
+        },
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "48e8893622fae89a451d463e5c5468b49562133fffa286b7016e3fbc05186554",
+            "partition": "5978beec2eb412ecb1bfa2c4ea4c67f36c0a64dd0688827cec0551197884db73",
+            "a": 1,
+            "b": 6,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                214,
+                50,
+                418,
+                298
+              ],
+              "2": [
+                246,
+                112,
+                384,
+                576
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -3.75,
+          "relative_logits": [
+            -3.75,
+            0.0,
+            -7.375
+          ],
+          "at": 1790531109.83795
+        }
+      ],
+      "contextual_review": [
+        {
+          "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+          "view": "36065205_00",
+          "a": 6,
+          "b": 1,
+          "raw": "{\"region1\":\"gray graphic t-shirt with printed image\", \"region2\":\"cream and brown track jacket with three stripes on sleeves\", \"reason\":\"Region 1 is the exposed t-shirt under the unzipped jacket; region 2 is the jacket\u2019s front panels. They are separate garments with distinct fabric and design. The jacket\u2019s hem and sleeves are clearly separate from the t-shirt\u2019s body.\", \"verdict\":\"B\"}",
+          "seconds": 3.181569713167846,
+          "valid": true,
+          "choice": "B",
+          "explanation": {
+            "region1": "gray graphic t-shirt with printed image",
+            "region2": "cream and brown track jacket with three stripes on sleeves",
+            "reason": "Region 1 is the exposed t-shirt under the unzipped jacket; region 2 is the jacket\u2019s front panels. They are separate garments with distinct fabric and design. The jacket\u2019s hem and sleeves are clearly separate from the t-shirt\u2019s body.",
+            "verdict": "B"
+          },
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "boxes": {
+            "1": [
+              246,
+              112,
+              384,
+              576
+            ],
+            "2": [
+              214,
+              50,
+              418,
+              298
+            ]
+          },
+          "identity": {
+            "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+            "code": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+            "renderer": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "image": "48e8893622fae89a451d463e5c5468b49562133fffa286b7016e3fbc05186554",
+            "partition": "5978beec2eb412ecb1bfa2c4ea4c67f36c0a64dd0688827cec0551197884db73",
+            "a": 6,
+            "b": 1,
+            "context_views": [
+              {
+                "id": "36065205_00",
+                "pixels": "48e8893622fae89a451d463e5c5468b49562133fffa286b7016e3fbc05186554"
+              },
+              {
+                "id": "36065205_01",
+                "pixels": "d9d883e71226e43cbd81d50b19d5e74886e0566ba3435cd5d70f8fdc24c0c572"
+              },
+              {
+                "id": "36065205_02",
+                "pixels": "cb0cd375712aac48b89a3dd14ab39ebc043bb44a86bee6c0437606bd3d8b25b4"
+              },
+              {
+                "id": "36065205_03",
+                "pixels": "704e27e4a378f9f3ac62276a265505092a5e016e7b30f2f9d4cc18e861b15a94"
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+          "view": "36065205_00",
+          "a": 1,
+          "b": 6,
+          "raw": "{\"region1\":\"beige and brown track jacket with three stripes on sleeves\", \"region2\":\"gray graphic t-shirt with printed image\", \"reason\":\"Region 1 covers the jacket's front body and sleeves; region 2 is the t-shirt visible through the open jacket. The garments are layered, not connected.\", \"verdict\":\"B\"}",
+          "seconds": 2.650974386371672,
+          "valid": true,
+          "choice": "B",
+          "explanation": {
+            "region1": "beige and brown track jacket with three stripes on sleeves",
+            "region2": "gray graphic t-shirt with printed image",
+            "reason": "Region 1 covers the jacket's front body and sleeves; region 2 is the t-shirt visible through the open jacket. The garments are layered, not connected.",
+            "verdict": "B"
+          },
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "boxes": {
+            "1": [
+              214,
+              50,
+              418,
+              298
+            ],
+            "2": [
+              246,
+              112,
+              384,
+              576
+            ]
+          },
+          "identity": {
+            "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+            "code": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+            "renderer": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "image": "48e8893622fae89a451d463e5c5468b49562133fffa286b7016e3fbc05186554",
+            "partition": "5978beec2eb412ecb1bfa2c4ea4c67f36c0a64dd0688827cec0551197884db73",
+            "a": 1,
+            "b": 6,
+            "context_views": [
+              {
+                "id": "36065205_03",
+                "pixels": "704e27e4a378f9f3ac62276a265505092a5e016e7b30f2f9d4cc18e861b15a94"
+              },
+              {
+                "id": "36065205_02",
+                "pixels": "cb0cd375712aac48b89a3dd14ab39ebc043bb44a86bee6c0437606bd3d8b25b4"
+              },
+              {
+                "id": "36065205_01",
+                "pixels": "d9d883e71226e43cbd81d50b19d5e74886e0566ba3435cd5d70f8fdc24c0c572"
+              },
+              {
+                "id": "36065205_00",
+                "pixels": "48e8893622fae89a451d463e5c5468b49562133fffa286b7016e3fbc05186554"
+              }
+            ]
+          }
+        }
+      ],
+      "decision_basis": "reasoned comparison with every SKU photograph"
+    },
+    {
+      "view": "36065205_03",
+      "part": 3,
+      "track": 0,
+      "anchor_part": 1,
+      "both_orders_same": true,
+      "evidence": [
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "704e27e4a378f9f3ac62276a265505092a5e016e7b30f2f9d4cc18e861b15a94",
+            "partition": "21dd2c4bfe9aec7cf14bdf69da3b9ffaae747445bae134b304114fc3e3df4f5a",
+            "a": 3,
+            "b": 1,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                198,
+                456,
+                428,
+                510
+              ],
+              "2": [
+                152,
+                82,
+                488,
+                544
+              ]
+            }
+          },
+          "choice": "A",
+          "margin": 0.0,
+          "relative_logits": [
+            0.0,
+            0.0,
+            -9.0
+          ],
+          "at": 1790531109.8445203
+        },
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "704e27e4a378f9f3ac62276a265505092a5e016e7b30f2f9d4cc18e861b15a94",
+            "partition": "21dd2c4bfe9aec7cf14bdf69da3b9ffaae747445bae134b304114fc3e3df4f5a",
+            "a": 1,
+            "b": 3,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                152,
+                82,
+                488,
+                544
+              ],
+              "2": [
+                198,
+                456,
+                428,
+                510
+              ]
+            }
+          },
+          "choice": "A",
+          "margin": 2.0,
+          "relative_logits": [
+            0.0,
+            -2.0,
+            -10.875
+          ],
+          "at": 1790531109.8512113
+        }
+      ],
+      "contextual_review": [],
+      "decision_basis": "both direct source comparisons agree"
+    }
+  ],
+  "presence_reviews": [],
+  "decision_before_presence_review": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "36065205_00",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "beige track pants with brown side stripes",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36065205_00",
+        "group": 6,
+        "parts": [
+          6
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36065205_01",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_01",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "beige track pants with brown side stripes",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_02",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "beige track pants with brown side stripes",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "beige and brown track jacket with white stripes on sleeves",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "beige track pants with brown side stripes",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36065205_01": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_02": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36065205_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36065205_03",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36065205_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36065205_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "36065205_00",
+          1
+        ],
+        [
+          "36065205_01",
+          1
+        ],
+        [
+          "36065205_02",
+          1
+        ],
+        [
+          "36065205_03",
+          1
+        ]
+      ],
+      [
+        [
+          "36065205_00",
+          2
+        ],
+        [
+          "36065205_01",
+          2
+        ],
+        [
+          "36065205_02",
+          2
+        ],
+        [
+          "36065205_03",
+          2
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
+  "finalization_seconds": 7.552191965747625,
+  "implementation_sha256": {
+    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
+    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
+    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
+}
