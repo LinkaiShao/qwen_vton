@@ -1,0 +1,377 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "control_01_similar_fabrics",
+  "title": "similar fabrics",
+  "cohort": "controlled",
+  "expected_views": [
+    "control_01_similar_fabrics_v0",
+    "control_01_similar_fabrics_v1",
+    "control_01_similar_fabrics_v2"
+  ],
+  "unique_views": [
+    "control_01_similar_fabrics_v0",
+    "control_01_similar_fabrics_v1",
+    "control_01_similar_fabrics_v2"
+  ],
+  "aliases": {},
+  "groups": {
+    "control_01_similar_fabrics_v0": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "control_01_similar_fabrics_v1": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "control_01_similar_fabrics_v2": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "control_01_similar_fabrics_v0",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Maroon crewneck sweater with ribbed cuffs and hem, small chest logo, and blue neck tag",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_01_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_01_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_01_similar_fabrics_v0",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_01_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_01_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_01_similar_fabrics_v1",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Maroon crewneck sweater with ribbed cuffs and hem, small chest logo, and blue neck tag",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_01_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_01_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_01_similar_fabrics_v1",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_01_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_01_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_01_similar_fabrics_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Maroon crewneck sweater with ribbed cuffs and hem, small chest logo, and blue neck tag",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_01_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_01_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_01_similar_fabrics_v2",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_01_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_01_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "control_01_similar_fabrics_v0",
+          1
+        ],
+        [
+          "control_01_similar_fabrics_v1",
+          1
+        ],
+        [
+          "control_01_similar_fabrics_v2",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "joint_evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_01_similar_fabrics",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_01_similar_fabrics_v0",
+          1
+        ],
+        "R002": [
+          "control_01_similar_fabrics_v0",
+          2
+        ],
+        "R003": [
+          "control_01_similar_fabrics_v1",
+          1
+        ],
+        "R004": [
+          "control_01_similar_fabrics_v1",
+          2
+        ],
+        "R005": [
+          "control_01_similar_fabrics_v2",
+          1
+        ],
+        "R006": [
+          "control_01_similar_fabrics_v2",
+          2
+        ]
+      },
+      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every view** with visible pixels in at least one mask region.\n\n---\n\n### Step-by-step Analysis:\n\n#### View 1: control_01_similar_fabrics_v0\n- **R001**: Maroon crewneck sweater (front view)\n- **R002**: Brown short-sleeve polo shirt (back view)\n\n#### View 2: control_01_similar_fabrics_v1\n- **R003**: Maroon crewneck sweater (front view \u2014 same as R001)\n- **R004**: Dark brown trousers (back view)\n\n#### View 3: control_01_similar_fabrics_v2\n- **R005**: Maroon crewneck sweater (front view \u2014 same as R001 and R003)\n- **R006**: Brown leather bomber jacket (front view)\n\n---\n\n### Garment Tracking:\n\nWe are to find garments that appear in **every view** (i.e., in at least one mask region per view).\n\n- **Maroon Crewneck Sweater**:\n  - Appears in View 1: R001\n  - Appears in View 2: R003\n  - Appears in View 3: R005\n  \u2192 **Present in all views** \u2192 Valid track.\n\n- **Brown Polo Shirt (R002)**:\n  - Only in View 1 \u2192 Not in View 2 or 3 \u2192 **Excluded**\n\n- **Dark Brown Trousers (R004)**:\n  - Only in View 2 \u2192 Not in View 1 or 3 \u2192 **Excluded**\n\n- **Brown Leather Jacket (R006)**:\n  - Only in View 3 \u2192 Not in View 1 or 2 \u2192 **Excluded**\n\n---\n\n### Conclusion:\n\nOnly the **maroon crewneck sweater** is visible in **every view**, via regions R001, R003, and R005.\n\nThese regions all depict the same garment: a maroon crewneck sweater with ribbed cuffs and hem, a small embroidered logo on the chest, and a blue tag at the neckline \u2014 consistent across all views.\n\n---\n\n### Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Maroon crewneck sweater with ribbed cuffs and hem, small chest logo, and blue neck tag\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "batch_size": 4,
+      "seconds": 13.18298386351671,
+      "batch_seconds": 52.73193545406684,
+      "input_signature": "03b90c9c3d704ac9eb02573510c86fe62dca826857b91e22bf6cb295d3a78ee8",
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "Maroon crewneck sweater with ribbed cuffs and hem, small chest logo, and blue neck tag",
+          "regions": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "control_01_similar_fabrics_v0",
+              1
+            ],
+            [
+              "control_01_similar_fabrics_v1",
+              1
+            ],
+            [
+              "control_01_similar_fabrics_v2",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_01_similar_fabrics",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_01_similar_fabrics_v2",
+          2
+        ],
+        "R002": [
+          "control_01_similar_fabrics_v2",
+          1
+        ],
+        "R003": [
+          "control_01_similar_fabrics_v1",
+          2
+        ],
+        "R004": [
+          "control_01_similar_fabrics_v1",
+          1
+        ],
+        "R005": [
+          "control_01_similar_fabrics_v0",
+          2
+        ],
+        "R006": [
+          "control_01_similar_fabrics_v0",
+          1
+        ]
+      },
+      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every view** (i.e., in at least one mask region per view).\n\n---\n\n### View Analysis:\n\n**VIEW control_01_similar_fabrics_v2 (R001, R002):**\n- R001: Brown leather bomber jacket\n- R002: Burgundy crewneck sweater\n\n**VIEW control_01_similar_fabrics_v1 (R003, R004):**\n- R003: Dark burgundy trousers\n- R004: Burgundy crewneck sweater (same as R002)\n\n**VIEW control_01_similar_fabrics_v0 (R005, R006):**\n- R005: Brown short-sleeve polo shirt (back view)\n- R006: Burgundy crewneck sweater (same as R002 and R004)\n\n---\n\n### Garment Tracking:\n\nWe are to find garments that appear in **every view** \u2014 meaning, for each view, at least one mask region must contain that garment.\n\nLet\u2019s check each garment:\n\n1. **Burgundy crewneck sweater**:\n   - Appears in R002 (v2), R004 (v1), R006 (v0) \u2192 **Present in all three views** \u2705\n   - Fabric: consistent knit, ribbed cuffs and hem, same color and construction across all views.\n   - This is the **only garment** that appears in every view.\n\n2. **Brown leather bomber jacket (R001)**:\n   - Only in v2 \u2192 \u274c Not in v1 or v0\n\n3. **Dark burgundy trousers (R003)**:\n   - Only in v1 \u2192 \u274c Not in v2 or v0\n\n4. **Brown short-sleeve polo shirt (R005)**:\n   - Only in v0 \u2192 \u274c Not in v1 or v2\n\n---\n\n### Conclusion:\n\nOnly the **burgundy crewneck sweater** is visible in **every view**, via regions R002, R004, and R006.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Burgundy crewneck sweater\",\n      \"regions\": [\"R002\", \"R004\", \"R006\"]\n    }\n  ]\n}\n```",
+      "batch_size": 4,
+      "seconds": 13.18298386351671,
+      "batch_seconds": 52.73193545406684,
+      "input_signature": "03b90c9c3d704ac9eb02573510c86fe62dca826857b91e22bf6cb295d3a78ee8",
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "Burgundy crewneck sweater",
+          "regions": [
+            "R002",
+            "R004",
+            "R006"
+          ],
+          "nodes": [
+            [
+              "control_01_similar_fabrics_v2",
+              1
+            ],
+            [
+              "control_01_similar_fabrics_v1",
+              1
+            ],
+            [
+              "control_01_similar_fabrics_v0",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 26.36596772703342,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790492354.1478226,
+  "training": false,
+  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "fragment_reviews": [],
+  "finalization_seconds": 0.10916692996397614,
+  "implementation_sha256": {
+    "run_joint": "ae1270eb5ff22bc739d93371a90efc5e1955d3f874a64669a1be37433baae0d3",
+    "joint_unique": "8e310cfa68e4443e26e1de40450a69e7cb5971d44f2c557c9bbd96746f051f63",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "fragment_completion": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
+}

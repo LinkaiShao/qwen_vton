@@ -1,0 +1,379 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "control_02_similar_fabrics",
+  "title": "similar fabrics",
+  "cohort": "controlled",
+  "expected_views": [
+    "control_02_similar_fabrics_v0",
+    "control_02_similar_fabrics_v1",
+    "control_02_similar_fabrics_v2"
+  ],
+  "unique_views": [
+    "control_02_similar_fabrics_v0",
+    "control_02_similar_fabrics_v1",
+    "control_02_similar_fabrics_v2"
+  ],
+  "aliases": {},
+  "groups": {
+    "control_02_similar_fabrics_v0": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "control_02_similar_fabrics_v1": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "control_02_similar_fabrics_v2": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "control_02_similar_fabrics_v0",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "gray short-sleeve shirt, side view",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_02_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_02_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_02_similar_fabrics_v0",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_02_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_02_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_02_similar_fabrics_v1",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "gray short-sleeve shirt, side view",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_02_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_02_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_02_similar_fabrics_v1",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_02_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_02_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_02_similar_fabrics_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "gray short-sleeve shirt, side view",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_02_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_02_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_02_similar_fabrics_v2",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_02_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_02_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "control_02_similar_fabrics_v0",
+          1
+        ],
+        [
+          "control_02_similar_fabrics_v1",
+          1
+        ],
+        [
+          "control_02_similar_fabrics_v2",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "joint_evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_02_similar_fabrics",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_02_similar_fabrics_v0",
+          1
+        ],
+        "R002": [
+          "control_02_similar_fabrics_v0",
+          2
+        ],
+        "R003": [
+          "control_02_similar_fabrics_v1",
+          1
+        ],
+        "R004": [
+          "control_02_similar_fabrics_v1",
+          2
+        ],
+        "R005": [
+          "control_02_similar_fabrics_v2",
+          1
+        ],
+        "R006": [
+          "control_02_similar_fabrics_v2",
+          2
+        ]
+      },
+      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every view** with visible pixels in at least one mask region.\n\n---\n\n### Step-by-step Analysis:\n\n#### View 0 (control_02_similar_fabrics_v0):\n- **R001**: Gray short-sleeve shirt (side view)\n- **R002**: Gray dress pants\n\n#### View 1 (control_02_similar_fabrics_v1):\n- **R003**: Gray short-sleeve shirt (same as R001, side view)\n- **R004**: Teal long-sleeve shirt with colorful pattern\n\n#### View 2 (control_02_similar_fabrics_v2):\n- **R005**: Gray short-sleeve shirt (same as R001 and R003)\n- **R006**: Brown checkered pants\n\n---\n\n### Garment Tracking:\n\nWe are to find garments that appear in **every view**.\n\n- The **gray short-sleeve shirt** appears in:\n  - View 0: R001\n  - View 1: R003\n  - View 2: R005\n  \u2192 This is the **same garment** across all views (same fabric, construction, color, and silhouette). It is consistently shown from the same angle (side view), and the mask regions are identical in content.\n\n- The **gray pants (R002)** appear only in View 0.\n- The **teal patterned shirt (R004)** appears only in View 1.\n- The **brown checkered pants (R006)** appear only in View 2.\n\nThus, **only the gray short-sleeve shirt** is visible in **every view**.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"gray short-sleeve shirt, side view\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 15.079535900149494,
+      "batch_seconds": 15.079535900149494,
+      "input_signature": "32070b950f5fee9e48dc9ac4504fa047f710eaa0f89714b60264416f420f97bd",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "gray short-sleeve shirt, side view",
+          "regions": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "control_02_similar_fabrics_v0",
+              1
+            ],
+            [
+              "control_02_similar_fabrics_v1",
+              1
+            ],
+            [
+              "control_02_similar_fabrics_v2",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_02_similar_fabrics",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_02_similar_fabrics_v2",
+          2
+        ],
+        "R002": [
+          "control_02_similar_fabrics_v2",
+          1
+        ],
+        "R003": [
+          "control_02_similar_fabrics_v1",
+          2
+        ],
+        "R004": [
+          "control_02_similar_fabrics_v1",
+          1
+        ],
+        "R005": [
+          "control_02_similar_fabrics_v0",
+          2
+        ],
+        "R006": [
+          "control_02_similar_fabrics_v0",
+          1
+        ]
+      },
+      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every** view.\n\n---\n\n### Step-by-step Analysis:\n\n#### View v2:\n- **R001**: Brown checkered pants (wide-leg, elastic waist)\n- **R002**: Gray short-sleeve t-shirt (side view, textured fabric)\n\n#### View v1:\n- **R003**: Teal long-sleeve shirt with colorful paisley print (side view)\n- **R004**: Gray short-sleeve t-shirt (same as R002, side view)\n\n#### View v0:\n- **R005**: Gray slim-fit trousers (with belt loops, front fly)\n- **R006**: Gray short-sleeve t-shirt (same as R002 and R004, side view)\n\n---\n\n### Garment Tracking:\n\nWe are to find garments that appear in **every view** (i.e., in at least one mask region per view).\n\n- **Gray short-sleeve t-shirt**:\n  - Appears in **R002 (v2)**, **R004 (v1)**, **R006 (v0)**\n  - Same garment: consistent color (gray), cut (short-sleeve, side view), fabric texture (slightly textured, possibly performance or technical fabric)\n  - Appears in every view \u2192 **valid track**\n\n- **Brown checkered pants (R001)**: Only in v2 \u2192 not in v1 or v0 \u2192 **excluded**\n\n- **Teal paisley shirt (R003)**: Only in v1 \u2192 not in v0 or v2 \u2192 **excluded**\n\n- **Gray slim-fit trousers (R005)**: Only in v0 \u2192 not in v1 or v2 \u2192 **excluded**\n\n---\n\n### Conclusion:\n\nOnly **one garment** appears in every view: the **gray short-sleeve t-shirt**, represented by regions **R002, R004, R006**.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"gray short-sleeve t-shirt with textured fabric, shown in side view\",\n      \"regions\": [\"R002\", \"R004\", \"R006\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 16.2099377582781,
+      "batch_seconds": 16.2099377582781,
+      "input_signature": "32070b950f5fee9e48dc9ac4504fa047f710eaa0f89714b60264416f420f97bd",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "gray short-sleeve t-shirt with textured fabric, shown in side view",
+          "regions": [
+            "R002",
+            "R004",
+            "R006"
+          ],
+          "nodes": [
+            [
+              "control_02_similar_fabrics_v2",
+              1
+            ],
+            [
+              "control_02_similar_fabrics_v1",
+              1
+            ],
+            [
+              "control_02_similar_fabrics_v0",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 31.289473658427596,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790492572.2972658,
+  "training": false,
+  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "fragment_reviews": [],
+  "finalization_seconds": 0.1140845981426537,
+  "implementation_sha256": {
+    "run_joint": "ae1270eb5ff22bc739d93371a90efc5e1955d3f874a64669a1be37433baae0d3",
+    "joint_unique": "8e310cfa68e4443e26e1de40450a69e7cb5971d44f2c557c9bbd96746f051f63",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "fragment_completion": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
+}
