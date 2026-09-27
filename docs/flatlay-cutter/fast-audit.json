@@ -1,0 +1,306 @@
+{
+  "records": [
+    {
+      "target": "12416975_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "12416975_02",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "12416975_03",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "13643172_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "13643172_02",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "13643172_03",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "13643170_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "13643170_02",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "13643170_03",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "33791076_00",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "33791076_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "33791076_02",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "pixel_overlap_with_previous": 0.9990759162568044
+    },
+    {
+      "target": "33791076_03",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36892437_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36892437_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36892437_02",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36892437_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36640328_00",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "pixel_overlap_with_previous": 0.9994321705518573
+    },
+    {
+      "target": "36640328_02",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "pixel_overlap_with_previous": 0.9994438464298528
+    },
+    {
+      "target": "36640328_03",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "pixel_overlap_with_previous": 0.9868251299894445
+    },
+    {
+      "target": "36545211_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36545211_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36545211_02",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36545211_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36757952_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36757952_02"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36718045_00",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36718045_03"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36053615_00",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36053615_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36053615_03",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36053615_06",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36152425_00",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "pixel_overlap_with_previous": 0.9989425329565894
+    },
+    {
+      "target": "36152425_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "pixel_overlap_with_previous": 0.9994539821451215
+    },
+    {
+      "target": "36152425_04",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36076478_01",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36076478_03",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36076478_04",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    },
+    {
+      "target": "36076478_06",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "pixel_overlap_with_previous": 1.0
+    }
+  ],
+  "cutouts": 33,
+  "semantic_accuracy_measured": false
+}

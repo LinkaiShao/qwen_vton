@@ -1,0 +1,1970 @@
+{
+  "model": "facebook/sam3",
+  "revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "records": [
+    {
+      "seconds": 0.10389497199503239,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "queries": [
+        "turtleneck sweater"
+      ],
+      "candidates": [
+        {
+          "query": "turtleneck sweater",
+          "score": 0.69921875,
+          "pixels": 19326,
+          "color_support": 1.0,
+          "keep": true
+        },
+        {
+          "query": "turtleneck sweater",
+          "score": 0.78515625,
+          "pixels": 18412,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        587,
+        32,
+        1032,
+        1204
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        445,
+        1172
+      ],
+      "mask_pixels": 19409,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "425042e599f07413a5054b90623014aad6c4153698fd243c7e51f6e5ee792247"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0a8e19c205094c060b68a3c8702db539cfdce75e9014b11f63283b81ab183c1b"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "eede462ab7809f04ea019d3b6eb46cfc7c30f351a59c3e3b1a4b61acbadaaebe"
+        }
+      },
+      "sku": "farfetch_12416975",
+      "view": "12416975_01",
+      "total_with_read_export_seconds": 0.21574926099856384,
+      "mask_file": "direct_v1/outputs/farfetch_12416975/12416975_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 19409,
+      "fast_pixels": 19409
+    },
+    {
+      "seconds": 0.10553614399395883,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "queries": [
+        "turtleneck sweater"
+      ],
+      "candidates": [
+        {
+          "query": "turtleneck sweater",
+          "score": 0.98828125,
+          "pixels": 1888219,
+          "color_support": 1.0,
+          "keep": true
+        },
+        {
+          "query": "turtleneck sweater",
+          "score": 0.234375,
+          "pixels": 68434,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        379,
+        105,
+        1599,
+        2187
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        1220,
+        2082
+      ],
+      "mask_pixels": 1888386,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "bc425f222cd9db95bc3e0cb3bd14f112f5a5d41dcf8e92e7c71a4d05c9eb8977"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "492b5ba4c7b78d8426d37648fe0cf9f98aad1a74933cb89e70dd51b10ebbdc07"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "3937672b0b8a45e980e772a9635719c5eddda24f2a9fb462726aef978009808d"
+        }
+      },
+      "sku": "farfetch_12416975",
+      "view": "12416975_02",
+      "total_with_read_export_seconds": 0.6063868580095004,
+      "mask_file": "direct_v1/outputs/farfetch_12416975/12416975_02/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 1888386,
+      "fast_pixels": 1888386
+    },
+    {
+      "seconds": 0.10597626499657054,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "queries": [
+        "turtleneck sweater"
+      ],
+      "candidates": [
+        {
+          "query": "turtleneck sweater",
+          "score": 0.96875,
+          "pixels": 2406841,
+          "color_support": 1.0,
+          "keep": true
+        },
+        {
+          "query": "turtleneck sweater",
+          "score": 0.2021484375,
+          "pixels": 51651,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        268,
+        0,
+        1648,
+        2189
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        1380,
+        2189
+      ],
+      "mask_pixels": 2407140,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "d6c1f006764a80d4d80a3a0f143e83cbb9a8b924c40ee5a0c96edb6527c2ab07"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0b459168f13b4bb1b6b083648f7f51bc3fb0cdf6994862d3fd6840a62734f4dd"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "8bf0fa4b3fe612f0765484098b13206d2edecf32aec0a91bc383c3becfb86f24"
+        }
+      },
+      "sku": "farfetch_12416975",
+      "view": "12416975_03",
+      "total_with_read_export_seconds": 0.7193362589896424,
+      "mask_file": "direct_v1/outputs/farfetch_12416975/12416975_03/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 2407140,
+      "fast_pixels": 2407140
+    },
+    {
+      "seconds": 0.08379290701122954,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "score": 0.65625,
+          "pixels": 36237,
+          "color_support": 0.946236559139785,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        748,
+        317,
+        959,
+        679
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        211,
+        362
+      ],
+      "mask_pixels": 36237,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "274806a99bb8dcde3f9893688b1051d940bdb9e8a079fc78b011cd039be5a14d"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "2becc1b0d104a52baa9b945da0534c59286a1970c21cd382e07e164ad3cd8757"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "8a48b959e8c56593821145c376bd179783fc071bca8544b0b0f3e334200ad2a3"
+        }
+      },
+      "sku": "farfetch_13643172",
+      "view": "13643172_01",
+      "total_with_read_export_seconds": 0.18737136900017504,
+      "mask_file": "direct_v1/outputs/farfetch_13643172/13643172_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 36237,
+      "fast_pixels": 36237
+    },
+    {
+      "seconds": 0.08396136100054719,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "score": 0.98046875,
+          "pixels": 857852,
+          "color_support": 0.9986541049798116,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        595,
+        350,
+        1427,
+        1833
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        832,
+        1483
+      ],
+      "mask_pixels": 857852,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "435c455a01dfecdc0f0db3b69d6c79bbdd9b17b6d6d99ed7ab77666424f1121d"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "8a01db4d73125f0242a3fb730e9db53ab9eeb875e70e7017611fda9e63d2dca6"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "fc966789209074c56610680d39b3871448d5b699fda00cd4a95cd356e5acbd58"
+        }
+      },
+      "sku": "farfetch_13643172",
+      "view": "13643172_02",
+      "total_with_read_export_seconds": 0.24812635401031002,
+      "mask_file": "direct_v1/outputs/farfetch_13643172/13643172_02/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 857852,
+      "fast_pixels": 857852
+    },
+    {
+      "seconds": 0.08383389399386942,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "score": 0.9765625,
+          "pixels": 899470,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        468,
+        262,
+        1391,
+        1819
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        923,
+        1557
+      ],
+      "mask_pixels": 899470,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "a60f9c8f2b95aa4b50fb7baacc5e039fb883553e39ad731f99318e880edc5958"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "6d413e47fc001fb97db0f4d038e78c5b15cb5e8a96336c62c84b31e40eeb551c"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "42fc6bbc87fb5a588ef57e47d1bd7c8db46f07670911e20c3f782975aaa3b1fc"
+        }
+      },
+      "sku": "farfetch_13643172",
+      "view": "13643172_03",
+      "total_with_read_export_seconds": 0.2228495860035764,
+      "mask_file": "direct_v1/outputs/farfetch_13643172/13643172_03/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 899470,
+      "fast_pixels": 899470
+    },
+    {
+      "seconds": 0.0846812130039325,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "score": 0.73046875,
+          "pixels": 9500,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        808,
+        261,
+        939,
+        455
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        131,
+        194
+      ],
+      "mask_pixels": 9500,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "89c6c9ce3af780cdfcf8dfdec6f3b12c6d88ef86c0f2e85e9df31010e6f7f957"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "45dd1302fece1ee3abc93557e5255c00c92cb73abd0d057ff7356badb133ba66"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "a34f789d3aeb3d88b06bc02d3304c4fa603d3af8decd442731e0c8c620630065"
+        }
+      },
+      "sku": "farfetch_13643170",
+      "view": "13643170_01",
+      "total_with_read_export_seconds": 0.1846962380077457,
+      "mask_file": "direct_v1/outputs/farfetch_13643170/13643170_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 9500,
+      "fast_pixels": 9500
+    },
+    {
+      "seconds": 0.08291175299382303,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "score": 0.984375,
+          "pixels": 780504,
+          "color_support": 0.9948339483394834,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        577,
+        326,
+        1417,
+        1746
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        840,
+        1420
+      ],
+      "mask_pixels": 780504,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "d18ccf010b65ed91f7761c0f1a1e96298fb78747db620187d388c23417dc2c5c"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "9ebe6318adadb89dfd9504eb5faa8f41bad7f164ac7c6eccd0f1663870ec575a"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "975c358563e2abc7492da9856bb9e3f54c7a03d512b8181c41770f8e03aedac8"
+        }
+      },
+      "sku": "farfetch_13643170",
+      "view": "13643170_02",
+      "total_with_read_export_seconds": 0.230361226000241,
+      "mask_file": "direct_v1/outputs/farfetch_13643170/13643170_02/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 780504,
+      "fast_pixels": 780504
+    },
+    {
+      "seconds": 0.08423752599628642,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "score": 0.9765625,
+          "pixels": 905478,
+          "color_support": 0.9934419293420774,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        480,
+        280,
+        1353,
+        1806
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        873,
+        1526
+      ],
+      "mask_pixels": 905478,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "e9b4e19aeb1f6bf71c0a001b0732dd4c29dc6b9bc6e2279525ee851d5b4b1239"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "33261a86ace250ea8e5e8a3ac81db17c0df11a8c9e797ceef62c4d047dccd9a6"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "8eaef9a2d7aeabfc2cfbff6ba0ca0c35f32fade78c84eb7c734d20970bdd34d5"
+        }
+      },
+      "sku": "farfetch_13643170",
+      "view": "13643170_03",
+      "total_with_read_export_seconds": 0.24649977899389341,
+      "mask_file": "direct_v1/outputs/farfetch_13643170/13643170_03/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 905478,
+      "fast_pixels": 905478
+    },
+    {
+      "seconds": 0.10540032100107055,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "score": 0.408203125,
+          "pixels": 1383803,
+          "color_support": 1.0,
+          "keep": true
+        },
+        {
+          "query": "sweater",
+          "score": 0.66015625,
+          "pixels": 945171,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        269,
+        271,
+        1651,
+        2227
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1382,
+        1956
+      ],
+      "mask_pixels": 2328974,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "a28e89f4ed300d2db88bec580e8130b388cf8c87dc2e2e3023d9c7c04df09c70"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "2c43b7ecab56b8dbc7d42f312017b596052539afe83a81207c8ea37794b6fb36"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "d193c3355c391486393623c80bf84e9ae88de7d638e1f81213f9f43a5d3843d7"
+        }
+      },
+      "sku": "farfetch_33791076",
+      "view": "33791076_00",
+      "total_with_read_export_seconds": 0.44691455700376537,
+      "mask_file": "direct_v1/outputs/farfetch_33791076/33791076_00/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 2328974,
+      "fast_pixels": 2328974
+    },
+    {
+      "seconds": 0.105918246001238,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "score": 0.5390625,
+          "pixels": 994142,
+          "color_support": 1.0,
+          "keep": true
+        },
+        {
+          "query": "sweater",
+          "score": 0.80859375,
+          "pixels": 669227,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        355,
+        291,
+        1558,
+        2064
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1203,
+        1773
+      ],
+      "mask_pixels": 1663366,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "fbe4b19e749118db7f925be69e78e266cb17a6c3f895588b79481fbe086ffeae"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "425a35d7e184d676b68ee239ef4064ac6bb35342537efea7231431bc7dff6801"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "3596f57dff2302f1d58c2a42000a1779d4b2a818cb9b09f01f1b0abdcecce767"
+        }
+      },
+      "sku": "farfetch_33791076",
+      "view": "33791076_01",
+      "total_with_read_export_seconds": 0.3714495050080586,
+      "mask_file": "direct_v1/outputs/farfetch_33791076/33791076_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 1663366,
+      "fast_pixels": 1663366
+    },
+    {
+      "seconds": 0.10370408599555958,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "score": 0.625,
+          "pixels": 401763,
+          "color_support": 1.0,
+          "keep": true
+        },
+        {
+          "query": "sweater",
+          "score": 0.54296875,
+          "pixels": 251679,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        527,
+        159,
+        1377,
+        1105
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        850,
+        946
+      ],
+      "mask_pixels": 593553,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "de47e5b301d409261c9e51b46732b6c2f522c81b210d94cc37c7074d2c26fd0e"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0a2f69ae162726bd6920fd512e1986c1c0db45b4fdcbabb5e6f3a18d44f96980"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "b3e731e35dd0a44115f2ead60d0512a231c3470488a10623f2c03b484bf06916"
+        }
+      },
+      "sku": "farfetch_33791076",
+      "view": "33791076_02",
+      "total_with_read_export_seconds": 0.27146177999384236,
+      "mask_file": "direct_v1/outputs/farfetch_33791076/33791076_02/mask.png",
+      "baseline_iou": 0.9990759162568044,
+      "baseline_pixels": 594102,
+      "fast_pixels": 593553
+    },
+    {
+      "seconds": 0.10766660700028297,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "score": 0.5625,
+          "pixels": 1066764,
+          "color_support": 1.0,
+          "keep": true
+        },
+        {
+          "query": "sweater",
+          "score": 0.3125,
+          "pixels": 1645863,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        153,
+        332,
+        1771,
+        2560
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1618,
+        2228
+      ],
+      "mask_pixels": 2712522,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "9dacb0d05424b5ab7618ea71887e4ab016872d6f8c48d8bc4f5ca259e059e7c6"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "10bb049778a67e0a296cdfbc6d0d0bdc4336d1e2078a25bf1769cd812614af54"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "925b90b9c942ee2dc02e29ba11ab2dae7fe435e9edfdefb46681643a36509943"
+        }
+      },
+      "sku": "farfetch_33791076",
+      "view": "33791076_03",
+      "total_with_read_export_seconds": 0.46847602499474306,
+      "mask_file": "direct_v1/outputs/farfetch_33791076/33791076_03/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 2712522,
+      "fast_pixels": 2712522
+    },
+    {
+      "seconds": 0.08506903699890245,
+      "reference_ids": [
+        "36892437_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "score": 0.9921875,
+          "pixels": 2173130,
+          "color_support": 0.949297765215087,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        111,
+        193,
+        1773,
+        2104
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1662,
+        1911
+      ],
+      "mask_pixels": 2173130,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "5c9fc13e26dd392b896969c7c1c01c0f812ab12944479c923e8d877313ce68f9"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "4cbdda6012f0f67636d44bbe51a1efcac6606d53e47bbe27d456370a217c1efd"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "dfa6c364500f7922fd794e79d7b3b39faa4aa3da652db72e2985291a2cf8c696"
+        }
+      },
+      "sku": "farfetch_36892437",
+      "view": "36892437_01",
+      "total_with_read_export_seconds": 0.49251841999648605,
+      "mask_file": "direct_v1/outputs/farfetch_36892437/36892437_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 2173130,
+      "fast_pixels": 2173130
+    },
+    {
+      "seconds": 0.08425624998926651,
+      "reference_ids": [
+        "36892437_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "score": 0.984375,
+          "pixels": 503770,
+          "color_support": 0.9671755725190839,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        566,
+        138,
+        1391,
+        1066
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        825,
+        928
+      ],
+      "mask_pixels": 503770,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "0a1e3ff43152ca75191293c0fdbfa8b674228374c00beefbe1207c1f988cf852"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "a73e4b86b9a1b6382ca8fc39eb4e6b96fbcda771aeb44148d234b43a72371f9a"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "e1c412a6aa710b82c7bf5b5820106e455dfef923dca107ff05c2967b0bc66e16"
+        }
+      },
+      "sku": "farfetch_36892437",
+      "view": "36892437_02",
+      "total_with_read_export_seconds": 0.25640464400930796,
+      "mask_file": "direct_v1/outputs/farfetch_36892437/36892437_02/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 503770,
+      "fast_pixels": 503770
+    },
+    {
+      "seconds": 0.08373430700157769,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "score": 0.97265625,
+          "pixels": 630113,
+          "color_support": 0.9993911719939117,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        655,
+        192,
+        1219,
+        1770
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        564,
+        1578
+      ],
+      "mask_pixels": 630113,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "4ac1c1c62ea3b54728eae83e7f8ca9a8ea43946439b3727df284f892a83f1b9b"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "5e3f1336436b6254f1debe8197bd2cb2fd03feb0572380ba79dac13db90efa0d"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "19a989ffb5803108c07d67b509593c15f2a2c2137a63b5005028e3ad5030e9ca"
+        }
+      },
+      "sku": "farfetch_36640328",
+      "view": "36640328_00",
+      "total_with_read_export_seconds": 0.2023859550099587,
+      "mask_file": "direct_v1/outputs/farfetch_36640328/36640328_00/mask.png",
+      "baseline_iou": 0.9994321705518573,
+      "baseline_pixels": 630471,
+      "fast_pixels": 630113
+    },
+    {
+      "seconds": 0.08292413600429427,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "score": 0.9609375,
+          "pixels": 668508,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        614,
+        160,
+        1259,
+        1709
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        645,
+        1549
+      ],
+      "mask_pixels": 668508,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "1a8fd8ea18ebd160af1ffb54757ec7695bd3c6e89863b6357d58d8600450e426"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "cab63f0b12545704cd526b4c6bd170999cc1a4cd827fb11b6940239aa2e98ccf"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "19a5562c15c8911e9c5930d41738dae099ec7baf403714981d561d4dae7861ef"
+        }
+      },
+      "sku": "farfetch_36640328",
+      "view": "36640328_02",
+      "total_with_read_export_seconds": 0.2027029860037146,
+      "mask_file": "direct_v1/outputs/farfetch_36640328/36640328_02/mask.png",
+      "baseline_iou": 0.9994438464298528,
+      "baseline_pixels": 668880,
+      "fast_pixels": 668508
+    },
+    {
+      "seconds": 0.08607327000936493,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "score": 0.86328125,
+          "pixels": 507629,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        632,
+        194,
+        1272,
+        1810
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        640,
+        1616
+      ],
+      "mask_pixels": 507629,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "03c8766a04ba6422eda6b6ba2f90a0e15bcf73ece1d4ec87f84439e5b2c15de1"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "889fe63dd35eee2f6a940749ae779a59c9ec4bd5d06cc339e81b692cc3583d0b"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "c407d247e1bcb15d55448cbd70098727fe3619307da970f8105ea2e2a45e9693"
+        }
+      },
+      "sku": "farfetch_36640328",
+      "view": "36640328_03",
+      "total_with_read_export_seconds": 0.21050253399880603,
+      "mask_file": "direct_v1/outputs/farfetch_36640328/36640328_03/mask.png",
+      "baseline_iou": 0.9868251299894445,
+      "baseline_pixels": 508791,
+      "fast_pixels": 507629
+    },
+    {
+      "seconds": 0.0852871430106461,
+      "reference_ids": [
+        "36545211_00"
+      ],
+      "queries": [
+        "shorts"
+      ],
+      "candidates": [
+        {
+          "query": "shorts",
+          "score": 0.92578125,
+          "pixels": 781468,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        532,
+        24,
+        1399,
+        1130
+      ],
+      "source_size": [
+        1920,
+        2563
+      ],
+      "cutout_size": [
+        867,
+        1106
+      ],
+      "mask_pixels": 781468,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "9008088e67b2986ed93306f7a3cda7915e390c5bb77c8c18c0343e9154d38d4c"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "8660694080d2bb8c0db08609682de7bdb12f890d5237b71065c39e7317f49b8e"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "c0a0c65e7c17dc07b2e6b954b67ef1f6a620c6b082cf7ef797f3d6cf19b394b0"
+        }
+      },
+      "sku": "farfetch_36545211",
+      "view": "36545211_01",
+      "total_with_read_export_seconds": 0.23627761099487543,
+      "mask_file": "direct_v1/outputs/farfetch_36545211/36545211_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 781468,
+      "fast_pixels": 781468
+    },
+    {
+      "seconds": 0.09377514600055292,
+      "reference_ids": [
+        "36545211_00"
+      ],
+      "queries": [
+        "shorts"
+      ],
+      "candidates": [
+        {
+          "query": "shorts",
+          "score": 0.96484375,
+          "pixels": 839651,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        621,
+        0,
+        1438,
+        1172
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        817,
+        1172
+      ],
+      "mask_pixels": 839651,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "7d03c942b7e888dc4d3b1ddb7ed21087d578e44614557ffbae9742a3e744836f"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "fe936adc2e7cbf0521f93cc9cda1fc349b7396316e3f3eb007c51175692fa7ee"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "df24d3f300c1bc55e20ea5c74517bb8ad28ffb54545edba45e2e2f804425c4ba"
+        }
+      },
+      "sku": "farfetch_36545211",
+      "view": "36545211_02",
+      "total_with_read_export_seconds": 0.2512120080064051,
+      "mask_file": "direct_v1/outputs/farfetch_36545211/36545211_02/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 839651,
+      "fast_pixels": 839651
+    },
+    {
+      "seconds": 0.0841821619978873,
+      "reference_ids": [
+        "36757952_02"
+      ],
+      "queries": [
+        "shirt"
+      ],
+      "candidates": [
+        {
+          "query": "shirt",
+          "score": 0.953125,
+          "pixels": 2099606,
+          "color_support": 0.9869987181834828,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        282,
+        230,
+        1638,
+        2124
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1356,
+        1894
+      ],
+      "mask_pixels": 2099606,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "5f51b66ce23a0621d10a6f7c2eac80cee03af1f13bdf7efa97770a48b1c96a3b"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "9e77c144c34985abe1622b275fe1d88f00af46459e0e8f599e1cebde086512ed"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "0e0d3066d4c1fb48cd745800f9a791fed2197abd31805cb9402bef4e79ca5f34"
+        }
+      },
+      "sku": "farfetch_36757952",
+      "view": "36757952_01",
+      "total_with_read_export_seconds": 0.6505597989889793,
+      "mask_file": "direct_v1/outputs/farfetch_36757952/36757952_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 2099606,
+      "fast_pixels": 2099606
+    },
+    {
+      "seconds": 0.08394757499627303,
+      "reference_ids": [
+        "36718045_03"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "score": 0.73046875,
+          "pixels": 1485257,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        316,
+        237,
+        1619,
+        1807
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1303,
+        1570
+      ],
+      "mask_pixels": 1485257,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "3ad492d1160155ba24ad620eb337728be85d21e68b7081f5ea4cf7f0a68262a3"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "1d3b7ce090f0fe78bb9d6b1c1abf3a2f3ec3a1da86d80ca5fe188beeddd79762"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "56d56f02f0a47a81fa18b846ca6d1d3bb07c1b5597b1ae47ea035ff5502b072d"
+        }
+      },
+      "sku": "farfetch_36718045",
+      "view": "36718045_00",
+      "total_with_read_export_seconds": 0.27135913699748926,
+      "mask_file": "direct_v1/outputs/farfetch_36718045/36718045_00/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 1485257,
+      "fast_pixels": 1485257
+    },
+    {
+      "seconds": 0.0857417009974597,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "score": 0.97265625,
+          "pixels": 666968,
+          "color_support": 0.9971223021582734,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        801,
+        150,
+        1452,
+        2148
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        651,
+        1998
+      ],
+      "mask_pixels": 666968,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "3282f507a5aa18c0fb4185ce5921f04b2f32def98f1e2ae3a0118575be4c9539"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0a01919babbbeadb75f94bcf98d72025b9122ca824efda84a66ab8fff73fa423"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "e9f20679c48d6863bcbe47dfcb0754537602539664806bc3021fd5e6e7e73b87"
+        }
+      },
+      "sku": "farfetch_36053615",
+      "view": "36053615_00",
+      "total_with_read_export_seconds": 0.3328827560035279,
+      "mask_file": "direct_v1/outputs/farfetch_36053615/36053615_00/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 666968,
+      "fast_pixels": 666968
+    },
+    {
+      "seconds": 0.08471839300182182,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "score": 0.98046875,
+          "pixels": 841808,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        678,
+        176,
+        1219,
+        2171
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        541,
+        1995
+      ],
+      "mask_pixels": 841808,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "8f5e42f180e5713061ae969b888a5276cb67616eda6b0c57acafc7438cb53f73"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "d33c985a6f14d5e5d2c49cac82ae67e61174917a9d626e44e0eb5ef08f324e38"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "e15a9d6f9c5633aaa45ccff72e65493cc096b39edc61d574c4f10a3e298854c7"
+        }
+      },
+      "sku": "farfetch_36053615",
+      "view": "36053615_01",
+      "total_with_read_export_seconds": 0.3713223660015501,
+      "mask_file": "direct_v1/outputs/farfetch_36053615/36053615_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 841808,
+      "fast_pixels": 841808
+    },
+    {
+      "seconds": 0.0837063049984863,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "score": 0.9453125,
+          "pixels": 689793,
+          "color_support": 0.9997218358831711,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        687,
+        214,
+        1224,
+        2182
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        537,
+        1968
+      ],
+      "mask_pixels": 689793,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "65f5644293fd54c9a897f52114f3d2ed204f26c09bc200f235bbeb229cbec991"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "e00c33d2843ca8419fe7397d3e114cd2a01dd0be0fc79b38aac6dcb97a131c1a"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "63070463dc630daaebb9d86ac5ed63ff2f0f208419aca12e2d435fea535c0192"
+        }
+      },
+      "sku": "farfetch_36053615",
+      "view": "36053615_03",
+      "total_with_read_export_seconds": 0.34285818198986817,
+      "mask_file": "direct_v1/outputs/farfetch_36053615/36053615_03/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 689793,
+      "fast_pixels": 689793
+    },
+    {
+      "seconds": 0.08583569699840154,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "score": 0.96484375,
+          "pixels": 882034,
+          "color_support": 0.9997822299651568,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        654,
+        168,
+        1304,
+        2135
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        650,
+        1967
+      ],
+      "mask_pixels": 882034,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "e06d3fc50b5fed00570b6de3145d5f0c85c501b489df0ec86e111c6b29400a63"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "3629c72bba21539c39ab012bccf0dac3a298093db6ef3bbc9daf13c6d03b104f"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "1b174221c7e1f01e18dd3aa243333be3dbbdf13b72cae948245e37ded43d82d4"
+        }
+      },
+      "sku": "farfetch_36053615",
+      "view": "36053615_06",
+      "total_with_read_export_seconds": 0.3709254559944384,
+      "mask_file": "direct_v1/outputs/farfetch_36053615/36053615_06/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 882034,
+      "fast_pixels": 882034
+    },
+    {
+      "seconds": 0.08326167501218151,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "queries": [
+        "jeans"
+      ],
+      "candidates": [
+        {
+          "query": "jeans",
+          "score": 0.9765625,
+          "pixels": 587576,
+          "color_support": 0.9990186457311089,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        713,
+        752,
+        1306,
+        2315
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        593,
+        1563
+      ],
+      "mask_pixels": 587576,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "17fd3e9b24ad01b773df6b6c654031bd6789433ca8267548c186bec104a7bb2d"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "a9a9b64b26b52acc45d1247ccbb264da984c1b141e8ecfdde1d8d87a17477fa2"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "0b3c6276720ada593d9bebd82cd35e11c022156f8935519c61f9911f498d4a2f"
+        }
+      },
+      "sku": "farfetch_36152425",
+      "view": "36152425_00",
+      "total_with_read_export_seconds": 0.3069370899902424,
+      "mask_file": "direct_v1/outputs/farfetch_36152425/36152425_00/mask.png",
+      "baseline_iou": 0.9989425329565894,
+      "baseline_pixels": 588198,
+      "fast_pixels": 587576
+    },
+    {
+      "seconds": 0.08473866000713315,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "queries": [
+        "jeans"
+      ],
+      "candidates": [
+        {
+          "query": "jeans",
+          "score": 0.97265625,
+          "pixels": 1056165,
+          "color_support": 0.9992731237506814,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        568,
+        173,
+        1336,
+        2225
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        768,
+        2052
+      ],
+      "mask_pixels": 1056165,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "e88f964403235ed56255e9461ba74d95d80729fe809f3c1cefa308fb24e11d64"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0b50563118335e95ca7cf6bfdb444f6b6435547a0fc0f495edc1aecaaeb0aa50"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "c6158f4c41e9fff110242c29bf0348752389b4d2721064aa50c410a6cb689c72"
+        }
+      },
+      "sku": "farfetch_36152425",
+      "view": "36152425_01",
+      "total_with_read_export_seconds": 0.3983983090001857,
+      "mask_file": "direct_v1/outputs/farfetch_36152425/36152425_01/mask.png",
+      "baseline_iou": 0.9994539821451215,
+      "baseline_pixels": 1056742,
+      "fast_pixels": 1056165
+    },
+    {
+      "seconds": 0.0875398159987526,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "queries": [
+        "jeans"
+      ],
+      "candidates": [
+        {
+          "query": "jeans",
+          "score": 0.97265625,
+          "pixels": 424121,
+          "color_support": 1.0,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        583,
+        1228,
+        1153,
+        2385
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        570,
+        1157
+      ],
+      "mask_pixels": 424121,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "d4ecbecd417e6b3f640b41cb81de9dfcadde3d15dbc1e281f73064a953a23c89"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "6fde1157c3adeb39a7420cbccc024edc27c42f8aab8ebe39bb94d88e8e46d9af"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "6a95880891fe56bb249e402262f04c0564ccb8d0dc2bf42f10d5e58b1e0db02f"
+        }
+      },
+      "sku": "farfetch_36152425",
+      "view": "36152425_04",
+      "total_with_read_export_seconds": 0.2790566850017058,
+      "mask_file": "direct_v1/outputs/farfetch_36152425/36152425_04/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 424121,
+      "fast_pixels": 424121
+    },
+    {
+      "seconds": 0.08335035100753885,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "score": 0.9765625,
+          "pixels": 427681,
+          "color_support": 0.9959605026929982,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        651,
+        173,
+        1385,
+        1096
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        734,
+        923
+      ],
+      "mask_pixels": 427681,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "724cab0255536fe01e41fb1afa91268993375dc0f650463df91186c42e8de2f8"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0eec9b0204c72b2ee5455259741b6eb3b9b7b163ab5b03a1e0ad793d6a0555f6"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "627cbfb890267c8b1bb64fc28a682d8535c175a5e416775225b5e2ca0cce52d8"
+        }
+      },
+      "sku": "farfetch_36076478",
+      "view": "36076478_01",
+      "total_with_read_export_seconds": 0.22743789201194886,
+      "mask_file": "direct_v1/outputs/farfetch_36076478/36076478_01/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 427681,
+      "fast_pixels": 427681
+    },
+    {
+      "seconds": 0.0847919599909801,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "score": 0.984375,
+          "pixels": 505472,
+          "color_support": 0.9901440485216073,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        526,
+        148,
+        1393,
+        1092
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        867,
+        944
+      ],
+      "mask_pixels": 505472,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "4cb84bdd353c15597d29d2526b603f6ffa6aff1ce56374d1c9f501913e5c749e"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "1e33362dba326fe282002568cffc6609e099de17d06683378b55cf3e90840f3c"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "327083751db9acee9ed7e1b7987595948f47e11551b10ede71bca2f46dfad72b"
+        }
+      },
+      "sku": "farfetch_36076478",
+      "view": "36076478_03",
+      "total_with_read_export_seconds": 0.23788662199513055,
+      "mask_file": "direct_v1/outputs/farfetch_36076478/36076478_03/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 505472,
+      "fast_pixels": 505472
+    },
+    {
+      "seconds": 0.08396923499822151,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "score": 0.9921875,
+          "pixels": 1832096,
+          "color_support": 0.9881588598973069,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        142,
+        279,
+        1777,
+        2067
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1635,
+        1788
+      ],
+      "mask_pixels": 1832096,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "cb204f5f1a96527e0737540dffbbe2f5b113eb5b635891c219d92540b4fb198d"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "bc6805d8bdc8886de88a260c88e67d7c2b61266f9b199bc71c2a31c065701d78"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "6fb8fe8568e2f9255143bdd020c287c4acc5680821f244cb8513852ec1f745d7"
+        }
+      },
+      "sku": "farfetch_36076478",
+      "view": "36076478_04",
+      "total_with_read_export_seconds": 0.4081284480053,
+      "mask_file": "direct_v1/outputs/farfetch_36076478/36076478_04/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 1832096,
+      "fast_pixels": 1832096
+    },
+    {
+      "seconds": 0.08547985299082939,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "score": 0.9921875,
+          "pixels": 1435010,
+          "color_support": 0.9941113490364025,
+          "keep": true
+        }
+      ],
+      "box_xyxy": [
+        346,
+        254,
+        1572,
+        2082
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1226,
+        1828
+      ],
+      "mask_pixels": 1435010,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "0b7b631c2e88125789cf41f746c69acaded79382a9c7ddf9e93867b1925340cf"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "75873dd61604482a48735885d232c389187dfd324521be6ab4be6561e0087672"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "3144671b977b6dbe0f0c6c4ff92e7bc7ab6a9c474817753007acd939a19c4c33"
+        }
+      },
+      "sku": "farfetch_36076478",
+      "view": "36076478_06",
+      "total_with_read_export_seconds": 0.34862844499002676,
+      "mask_file": "direct_v1/outputs/farfetch_36076478/36076478_06/mask.png",
+      "baseline_iou": 1.0,
+      "baseline_pixels": 1435010,
+      "fast_pixels": 1435010
+    }
+  ],
+  "reference_setup_seconds": {
+    "farfetch_12416975": 0.3838713159930194,
+    "farfetch_13643172": 0.0640268879942596,
+    "farfetch_13643170": 0.053073285991558805,
+    "farfetch_33791076": 0.05535937000240665,
+    "farfetch_36892437": 0.051296071003889665,
+    "farfetch_36759063": 0.04846951899526175,
+    "farfetch_36640328": 0.04917920300795231,
+    "farfetch_36906158": 0.05432960999314673,
+    "farfetch_36545211": 0.05091190499661025,
+    "farfetch_36757952": 0.06941934699716512,
+    "farfetch_36718045": 0.051635102994623594,
+    "farfetch_36932326": 0.18517979099124204,
+    "farfetch_36053615": 0.06671503200777806,
+    "farfetch_36152425": 0.10567338000691961,
+    "farfetch_36076478": 0.05484345900185872
+  },
+  "probes": [
+    {
+      "target": "12416975_02",
+      "foreign_reference": "farfetch_13643172",
+      "returned_pixels": 0,
+      "passed": true,
+      "evidence": {
+        "seconds": 0.0629156939976383,
+        "reference_ids": [
+          "13643172_00"
+        ],
+        "queries": [
+          "tank top"
+        ],
+        "candidates": []
+      }
+    },
+    {
+      "target": "13643172_02",
+      "foreign_reference": "farfetch_13643170",
+      "returned_pixels": 0,
+      "passed": true,
+      "evidence": {
+        "seconds": 0.09059337100188714,
+        "reference_ids": [
+          "13643170_00"
+        ],
+        "queries": [
+          "tank top"
+        ],
+        "candidates": [
+          {
+            "query": "tank top",
+            "score": 0.98046875,
+            "pixels": 857852,
+            "color_support": 0.0,
+            "keep": false
+          }
+        ]
+      }
+    },
+    {
+      "target": "33791076_00",
+      "foreign_reference": "farfetch_13643172",
+      "returned_pixels": 0,
+      "passed": true,
+      "evidence": {
+        "seconds": 0.06252129899803549,
+        "reference_ids": [
+          "13643172_00"
+        ],
+        "queries": [
+          "tank top"
+        ],
+        "candidates": []
+      }
+    },
+    {
+      "target": "36892437_01",
+      "foreign_reference": "farfetch_33791076",
+      "returned_pixels": 0,
+      "passed": true,
+      "evidence": {
+        "seconds": 0.06342730901087634,
+        "reference_ids": [
+          "33791076_04"
+        ],
+        "queries": [
+          "sweater"
+        ],
+        "candidates": []
+      }
+    }
+  ],
+  "per_image_vlm_calls": 0,
+  "reference_source": "Only cached product-only image classifications and reference masks; no titles or other worn views",
+  "limitation": "Color support is a coarse mismatch check, not complete visual identity verification. Reference-swap probes rerun segmentation with the foreign reference.",
+  "comparison": "Pixel agreement with the previous published cutter, not ground-truth segmentation accuracy",
+  "at": 1790535999.8688538
+}
