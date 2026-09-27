@@ -1,0 +1,140 @@
+{
+  "verified_cutouts": 19,
+  "records": [
+    {
+      "view": "12416975_00",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "13643172_00",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "13643170_00",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "33791076_04",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36892437_00",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36759063_00",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36640328_04",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36906158_00",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36545211_00",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36757952_02",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36718045_03",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36932326_01",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36932326_02",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36932326_03",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36932326_04",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36053615_05",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36152425_03",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36152425_05",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    },
+    {
+      "view": "36076478_00",
+      "source_unchanged": true,
+      "native_geometry_verified": true,
+      "rgb_unchanged_under_mask": true,
+      "single_image_only": true
+    }
+  ],
+  "gt_accuracy_claim": false,
+  "at": 1790533109.176672
+}
