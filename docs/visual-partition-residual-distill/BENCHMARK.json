@@ -1,0 +1,6 @@
+{
+  "median_ms": 9.33476800128119,
+  "p95_ms": 9.901688803802244,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "input": "cached GPU tokens+RGB to CPU640 labels; encoder excluded"
+}
