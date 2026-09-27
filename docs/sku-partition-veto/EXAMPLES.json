@@ -3,13 +3,18 @@
   "photographs": 11,
   "ignored_closeups": 2,
   "protocol": "strict_partition_veto_overview_v5",
-  "processing_errors": 0,
-  "pending_real_skus": 65,
+  "processing_errors": 4,
+  "pending_real_skus": 61,
   "skus": [
     "farfetch_36640328",
     "farfetch_36892437",
     "farfetch_36791128"
   ],
-  "error_skus": [],
-  "at": 1790531998.0187256
+  "error_skus": [
+    "farfetch_12416975",
+    "farfetch_13643172",
+    "farfetch_13643170",
+    "farfetch_33791076"
+  ],
+  "at": 1790532309.0451794
 }

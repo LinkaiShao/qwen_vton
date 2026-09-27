@@ -1,0 +1,354 @@
+{
+  "sku": "farfetch_33791076",
+  "forward": "Track lacks evidence in at least one required view",
+  "reverse": null,
+  "protocol": "strict_partition_veto_overview_v5",
+  "evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "farfetch_33791076",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "33791076_00",
+          1
+        ],
+        "R002": [
+          "33791076_00",
+          2
+        ],
+        "R003": [
+          "33791076_00",
+          3
+        ],
+        "R004": [
+          "33791076_00",
+          4
+        ],
+        "R005": [
+          "33791076_01",
+          1
+        ],
+        "R006": [
+          "33791076_01",
+          2
+        ],
+        "R007": [
+          "33791076_01",
+          3
+        ],
+        "R008": [
+          "33791076_01",
+          4
+        ],
+        "R009": [
+          "33791076_01",
+          5
+        ],
+        "R010": [
+          "33791076_01",
+          6
+        ],
+        "R011": [
+          "33791076_02",
+          1
+        ],
+        "R012": [
+          "33791076_02",
+          2
+        ],
+        "R013": [
+          "33791076_02",
+          3
+        ],
+        "R014": [
+          "33791076_02",
+          4
+        ],
+        "R015": [
+          "33791076_02",
+          5
+        ],
+        "R016": [
+          "33791076_02",
+          6
+        ],
+        "R017": [
+          "33791076_03",
+          1
+        ],
+        "R018": [
+          "33791076_03",
+          2
+        ],
+        "R019": [
+          "33791076_03",
+          3
+        ],
+        "R020": [
+          "33791076_03",
+          4
+        ],
+        "R021": [
+          "33791076_03",
+          5
+        ],
+        "R022": [
+          "33791076_03",
+          6
+        ],
+        "R023": [
+          "33791076_04",
+          1
+        ],
+        "R024": [
+          "33791076_04",
+          2
+        ],
+        "R025": [
+          "33791076_04",
+          3
+        ],
+        "R026": [
+          "33791076_04",
+          4
+        ]
+      },
+      "raw": "{\n  \"reason\": \"The outfit consists of a layered look with a white long-sleeve shirt worn under an olive green knitted sleeveless top, paired with olive green pleated pants and black loafers. The white shirt is visible in all views, as is the green knitted top. The pants are visible in multiple views, and the shoes appear in the front-facing view. The green top has a distinctive white graphic patch on the left side, which is visible in multiple views. The white shirt is consistently layered underneath and visible at the sleeves and hem. The pants are consistently olive green and pleated. The shoes are black loafers with silver detailing. All components are consistently present across views where they appear, and no other garments are layered or visible in every view.\",\n  \"tracks\": [\n    {\n      \"garment\": \"White long-sleeve shirt worn under olive green knitted top\",\n      \"regions\": [\n        \"R002\",\n        \"R007\",\n        \"R011\",\n        \"R017\",\n        \"R023\"\n      ]\n    },\n    {\n      \"garment\": \"Olive green knitted sleeveless top with white graphic patch\",\n      \"regions\": [\n        \"R003\",\n        \"R006\",\n        \"R013\",\n        \"R018\",\n        \"R024\"\n      ]\n    },\n    {\n      \"garment\": \"Olive green pleated pants\",\n      \"regions\": [\n        \"R001\",\n        \"R005\",\n        \"R012\",\n        \"R019\",\n        \"R020\"\n      ]\n    },\n    {\n      \"garment\": \"Black loafers with silver detailing\",\n      \"regions\": [\n        \"R014\",\n        \"R015\"\n      ]\n    }\n  ]\n}",
+      "batch_size": 1,
+      "seconds": 13.317281256895512,
+      "batch_seconds": 13.317281256895512,
+      "input_signature": "1554d12d5777f0dbb81890fa18bcb676d520dce44b22ac2ad5993505816b9d85",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "{\n  \"reason\": \"The outfit consists of a layered look with a white long-sleeve shirt worn under an olive green knitted sleeveless top, paired with olive green pleated pants and black loafers. The white shirt is visible in all views, as is the green knitted top. The pants are visible in multiple views, and the shoes appear in the front-facing view. The green top has a distinctive white graphic patch on the left side, which is visible in multiple views. The white shirt is consistently layered underneath and visible at the sleeves and hem. The pants are consistently olive green and pleated. The shoes are black loafers with silver detailing. All components are consistently present across views where they appear, and no other garments are layered or visible in every view.\",\n  \"tracks\": [\n    {\n      \"garment\": \"White long-sleeve shirt worn under olive green knitted top\",\n      \"regions\": [\n        \"R002\",\n        \"R007\",\n        \"R011\",\n        \"R017\",\n        \"R023\"\n      ]\n    },\n    {\n      \"garment\": \"Olive green knitted sleeveless top with white graphic patch\",\n      \"regions\": [\n        \"R003\",\n        \"R006\",\n        \"R013\",\n        \"R018\",\n        \"R024\"\n      ]\n    },\n    {\n      \"garment\": \"Olive green pleated pants\",\n      \"regions\": [\n        \"R001\",\n        \"R005\",\n        \"R012\",\n        \"R019\",\n        \"R020\"\n      ]\n    },\n    {\n      \"garment\": \"Black loafers with silver detailing\",\n      \"regions\": [\n        \"R014\",\n        \"R015\"\n      ]\n    }\n  ]\n}"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "farfetch_33791076",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "33791076_04",
+          4
+        ],
+        "R002": [
+          "33791076_04",
+          3
+        ],
+        "R003": [
+          "33791076_04",
+          2
+        ],
+        "R004": [
+          "33791076_04",
+          1
+        ],
+        "R005": [
+          "33791076_03",
+          6
+        ],
+        "R006": [
+          "33791076_03",
+          5
+        ],
+        "R007": [
+          "33791076_03",
+          4
+        ],
+        "R008": [
+          "33791076_03",
+          3
+        ],
+        "R009": [
+          "33791076_03",
+          2
+        ],
+        "R010": [
+          "33791076_03",
+          1
+        ],
+        "R011": [
+          "33791076_02",
+          6
+        ],
+        "R012": [
+          "33791076_02",
+          5
+        ],
+        "R013": [
+          "33791076_02",
+          4
+        ],
+        "R014": [
+          "33791076_02",
+          3
+        ],
+        "R015": [
+          "33791076_02",
+          2
+        ],
+        "R016": [
+          "33791076_02",
+          1
+        ],
+        "R017": [
+          "33791076_01",
+          6
+        ],
+        "R018": [
+          "33791076_01",
+          5
+        ],
+        "R019": [
+          "33791076_01",
+          4
+        ],
+        "R020": [
+          "33791076_01",
+          3
+        ],
+        "R021": [
+          "33791076_01",
+          2
+        ],
+        "R022": [
+          "33791076_01",
+          1
+        ],
+        "R023": [
+          "33791076_00",
+          4
+        ],
+        "R024": [
+          "33791076_00",
+          3
+        ],
+        "R025": [
+          "33791076_00",
+          2
+        ],
+        "R026": [
+          "33791076_00",
+          1
+        ]
+      },
+      "raw": "{\n  \"reason\": \"The garment consists of a white long-sleeve shirt layered under an olive green knitted vest with a graphic patch on the front. The vest is sleeveless and cropped, worn over the white shirt. The white shirt is visible at the sleeves and below the vest. In all views, the white shirt and green vest are consistently present as distinct layers. The green vest has a ribbed neckline and a graphic patch on the front left side. The white shirt has long sleeves and a relaxed fit. The green vest is consistently shown in front views (R003, R007, R009, R014, R021, R024) and back views (R024), while the white shirt is visible in sleeves (R001, R004, R005, R008, R010, R016, R020, R025) and lower body (R004, R010, R016, R020, R025). The green skirt is also consistently present in full-body views (R011, R015, R026) and is part of the outfit but not layered with the vest/shirt. The white shirt and green vest are the only two garments that appear in every view, with their respective regions covering all views.\",\n  \"tracks\": [\n    {\n      \"garment\": \"White long-sleeve shirt worn under olive green knitted vest\",\n      \"regions\": [\n        \"R001\",\n        \"R004\",\n        \"R005\",\n        \"R008\",\n        \"R010\",\n        \"R016\",\n        \"R020\",\n        \"R025\"\n      ]\n    },\n    {\n      \"garment\": \"Olive green knitted sleeveless vest with graphic patch\",\n      \"regions\": [\n        \"R002\",\n        \"R003\",\n        \"R006\",\n        \"R007\",\n        \"R009\",\n        \"R014\",\n        \"R021\",\n        \"R024\"\n      ]\n    }\n  ]\n}",
+      "batch_size": 1,
+      "seconds": 16.07906210795045,
+      "batch_seconds": 16.07906210795045,
+      "input_signature": "1554d12d5777f0dbb81890fa18bcb676d520dce44b22ac2ad5993505816b9d85",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "White long-sleeve shirt worn under olive green knitted vest",
+          "regions": [
+            "R001",
+            "R004",
+            "R005",
+            "R008",
+            "R010",
+            "R016",
+            "R020",
+            "R025"
+          ],
+          "nodes": [
+            [
+              "33791076_04",
+              4
+            ],
+            [
+              "33791076_04",
+              1
+            ],
+            [
+              "33791076_03",
+              6
+            ],
+            [
+              "33791076_03",
+              3
+            ],
+            [
+              "33791076_03",
+              1
+            ],
+            [
+              "33791076_02",
+              1
+            ],
+            [
+              "33791076_01",
+              3
+            ],
+            [
+              "33791076_00",
+              2
+            ]
+          ]
+        },
+        {
+          "garment": "Olive green knitted sleeveless vest with graphic patch",
+          "regions": [
+            "R002",
+            "R003",
+            "R006",
+            "R007",
+            "R009",
+            "R014",
+            "R021",
+            "R024"
+          ],
+          "nodes": [
+            [
+              "33791076_04",
+              3
+            ],
+            [
+              "33791076_04",
+              2
+            ],
+            [
+              "33791076_03",
+              5
+            ],
+            [
+              "33791076_03",
+              4
+            ],
+            [
+              "33791076_03",
+              2
+            ],
+            [
+              "33791076_02",
+              3
+            ],
+            [
+              "33791076_01",
+              2
+            ],
+            [
+              "33791076_00",
+              3
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "at": 1790532214.5993075
+}

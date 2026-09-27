@@ -1,0 +1,135 @@
+{
+  "sku": "farfetch_13643170",
+  "forward": "Track lacks evidence in at least one required view",
+  "reverse": "Track lacks evidence in at least one required view",
+  "protocol": "strict_partition_veto_overview_v5",
+  "evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "farfetch_13643170",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "13643170_00",
+          1
+        ],
+        "R002": [
+          "13643170_01",
+          1
+        ],
+        "R003": [
+          "13643170_01",
+          2
+        ],
+        "R004": [
+          "13643170_01",
+          3
+        ],
+        "R005": [
+          "13643170_02",
+          1
+        ],
+        "R006": [
+          "13643170_02",
+          2
+        ],
+        "R007": [
+          "13643170_02",
+          3
+        ],
+        "R008": [
+          "13643170_03",
+          1
+        ],
+        "R009": [
+          "13643170_03",
+          2
+        ],
+        "R010": [
+          "13643170_03",
+          3
+        ]
+      },
+      "raw": "{\n  \"reason\": \"The black ribbed tank top is consistently visible in all views, appearing as the base layer in VIEW 00, under the blazer in VIEW 01, and paired with the floral skirt in VIEWS 02 and 03. The floral skirt is also consistently present in VIEWS 01, 02, and 03, and the black blazer appears in VIEW 01. Each garment is identified by its unique visual characteristics across views, with regions assigned accordingly. The tank top is represented by R001, R005, R009; the floral skirt by R002, R006, R008; and the blazer by R003, R004. R007 and R010 are partial or non-usable regions and are excluded.\",\n  \"tracks\": [\n    {\n      \"garment\": \"black ribbed tank top\",\n      \"regions\": [\"R001\", \"R005\", \"R009\"]\n    },\n    {\n      \"garment\": \"black and white floral skirt\",\n      \"regions\": [\"R002\", \"R006\", \"R008\"]\n    },\n    {\n      \"garment\": \"black blazer with wrap detail\",\n      \"regions\": [\"R003\", \"R004\"]\n    }\n  ]\n}",
+      "batch_size": 1,
+      "seconds": 9.899354530032724,
+      "batch_seconds": 9.899354530032724,
+      "input_signature": "7ea169883cefcd0be1e63ee8145cd292f80fa30acd8fa936b56696837f113944",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "{\n  \"reason\": \"The black ribbed tank top is consistently visible in all views, appearing as the base layer in VIEW 00, under the blazer in VIEW 01, and paired with the floral skirt in VIEWS 02 and 03. The floral skirt is also consistently present in VIEWS 01, 02, and 03, and the black blazer appears in VIEW 01. Each garment is identified by its unique visual characteristics across views, with regions assigned accordingly. The tank top is represented by R001, R005, R006, R009; the floral skirt by R002, R006, R008; and the blazer by R003, R004. R007 and R010 are partial or non-usable regions and are excluded.\",\n  \"tracks\": [\n    {\n      \"garment\": \"black ribbed tank top\",\n      \"regions\": [\"R001\", \"R005\", \"R009\"]\n    },\n    {\n      \"garment\": \"black and white floral skirt\",\n      \"regions\": [\"R002\", \"R006\", \"R008\"]\n    },\n    {\n      \"garment\": \"black blazer with wrap detail\",\n      \"regions\": [\"R003\", \"R004\"]\n    }\n  ]\n}"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "farfetch_13643170",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "13643170_03",
+          3
+        ],
+        "R002": [
+          "13643170_03",
+          2
+        ],
+        "R003": [
+          "13643170_03",
+          1
+        ],
+        "R004": [
+          "13643170_02",
+          3
+        ],
+        "R005": [
+          "13643170_02",
+          2
+        ],
+        "R006": [
+          "13643170_02",
+          1
+        ],
+        "R007": [
+          "13643170_01",
+          3
+        ],
+        "R008": [
+          "13643170_01",
+          2
+        ],
+        "R009": [
+          "13643170_01",
+          1
+        ],
+        "R010": [
+          "13643170_00",
+          1
+        ]
+      },
+      "raw": "{\n  \"reason\": \"The black ribbed tank top is consistently visible across all four views: in VIEW 13643170_03 (R002, back view), VIEW 13643170_02 (R005 and R006, front views), and VIEW 13643170_00 (R010, front view). The floral skirt is visible in VIEW 13643170_03 (R003), VIEW 13643170_02 (R005), and VIEW 13643170_01 (R009), but is not present in VIEW 13643170_00, so it does not meet the requirement of being visible in every view. The black blazer is visible in VIEW 13643170_01 (R008) and partially in R007, but is not present in the other views. Therefore, only the black ribbed tank top qualifies as a garment visible in every view, with regions R002, R005, R006, and R010.\",\n  \"tracks\": [\n    {\n      \"garment\": \"black ribbed tank top\",\n      \"regions\": [\"R002\", \"R005\", \"R006\", \"R010\"]\n    }\n  ]\n}",
+      "batch_size": 1,
+      "seconds": 10.674255394842476,
+      "batch_seconds": 10.674255394842476,
+      "input_signature": "7ea169883cefcd0be1e63ee8145cd292f80fa30acd8fa936b56696837f113944",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "{\n  \"reason\": \"The black ribbed tank top is consistently visible across all views, appearing in R002 (back view), R005 (front view), R006 (front view), R010 (front view), and R007 (partial front under blazer). The floral skirt is also consistently visible in R003 (back view), R005 (front view), R009 (front view), and R008 (under blazer). The black blazer appears in R008 (front view) and is partially visible in R007 (under blazer). The tank top is the only garment visible in every view, with regions R002, R005, R006, and R010. The floral skirt is visible in all views except VIEW 13643170_00, so it does not meet the requirement of being present in every view. The blazer is not visible in all views. Therefore, only the tank top qualifies.\",\n  \"tracks\": [\n    {\n      \"garment\": \"black ribbed tank top\",\n      \"regions\": [\"R002\", \"R005\", \"R006\", \"R010\"]\n    }\n  ]\n}"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    }
+  },
+  "at": 1790532159.5258906
+}

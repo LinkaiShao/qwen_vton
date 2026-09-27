@@ -1,16 +1,100 @@
 {
   "protocol": "strict_partition_veto_overview_v5",
   "complete": false,
-  "skus": 0,
+  "skus": 3,
   "expected_skus": 32,
-  "persistent_parts": 0,
-  "persistent_parts_kept": 0,
-  "nonpersistent_parts": 0,
-  "nonpersistent_parts_removed": 0,
-  "retention": 0.0,
-  "removal": 0.0,
+  "persistent_parts": 15,
+  "persistent_parts_kept": 9,
+  "nonpersistent_parts": 5,
+  "nonpersistent_parts_removed": 4,
+  "retention": 0.6,
+  "removal": 0.8,
   "pass": false,
-  "overview_classification_errors": [],
-  "records": [],
+  "overview_classification_errors": [
+    {
+      "sku": "control_00_all_present",
+      "excluded_views": [
+        "control_00_all_present_v0"
+      ]
+    },
+    {
+      "sku": "control_00_last_view_absent",
+      "excluded_views": [
+        "control_00_last_view_absent_v0",
+        "control_00_last_view_absent_v2"
+      ]
+    },
+    {
+      "sku": "control_00_changing_distractors",
+      "excluded_views": [
+        "control_00_changing_distractors_v0"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "sku": "control_00_all_present",
+      "scenario": "all_present",
+      "passed": false,
+      "errors": [
+        {
+          "view": "control_00_all_present_v0",
+          "part": 1,
+          "expected_keep": true,
+          "actual_keep": false
+        },
+        {
+          "view": "control_00_all_present_v0",
+          "part": 2,
+          "expected_keep": true,
+          "actual_keep": false
+        },
+        {
+          "view": "control_00_all_present_v0",
+          "part": 3,
+          "expected_keep": true,
+          "actual_keep": false
+        }
+      ]
+    },
+    {
+      "sku": "control_00_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": false,
+      "errors": [
+        {
+          "view": "control_00_last_view_absent_v0",
+          "part": 1,
+          "expected_keep": true,
+          "actual_keep": false
+        },
+        {
+          "view": "control_00_last_view_absent_v1",
+          "part": 2,
+          "expected_keep": false,
+          "actual_keep": true
+        },
+        {
+          "view": "control_00_last_view_absent_v2",
+          "part": 1,
+          "expected_keep": true,
+          "actual_keep": false
+        }
+      ]
+    },
+    {
+      "sku": "control_00_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": false,
+      "errors": [
+        {
+          "view": "control_00_changing_distractors_v0",
+          "part": 1,
+          "expected_keep": true,
+          "actual_keep": false
+        }
+      ]
+    }
+  ],
   "scope": "Constructed identity controls, not real-view semantic accuracy"
 }

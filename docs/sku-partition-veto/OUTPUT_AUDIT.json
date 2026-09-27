@@ -2,15 +2,11 @@
   "protocol": "strict_partition_veto_overview_v5",
   "complete": false,
   "expected_skus": 100,
-  "completed_skus": 3,
-  "checked_views": 13,
+  "completed_skus": 6,
+  "checked_views": 22,
   "whole_region_invariants_passed": true,
   "source_row_order_unchanged": true,
   "pending_skus": [
-    "farfetch_12416975",
-    "farfetch_13643172",
-    "farfetch_13643170",
-    "farfetch_33791076",
     "farfetch_36906158",
     "farfetch_36730153",
     "farfetch_36545211",
@@ -72,9 +68,6 @@
     "farfetch_36112926",
     "farfetch_36586113",
     "farfetch_36931889",
-    "control_00_all_present",
-    "control_00_last_view_absent",
-    "control_00_changing_distractors",
     "control_00_similar_fabrics",
     "control_01_all_present",
     "control_01_last_view_absent",
@@ -105,8 +98,13 @@
     "control_07_changing_distractors",
     "control_07_similar_fabrics"
   ],
-  "processing_errors": [],
+  "processing_errors": [
+    "farfetch_12416975",
+    "farfetch_13643172",
+    "farfetch_13643170",
+    "farfetch_33791076"
+  ],
   "empty_skus": [],
   "natural_accuracy_measured": false,
-  "at": 1790531997.4524975
+  "at": 1790532308.2450554
 }

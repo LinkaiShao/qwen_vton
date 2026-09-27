@@ -1,5 +1,5 @@
 {
-  "protocol": "strict_partition_veto_joint_context_v1",
+  "protocol": "strict_partition_veto_overview_v5",
   "sku": "control_00_changing_distractors",
   "title": "changing distractors",
   "cohort": "controlled",
@@ -15,20 +15,6 @@
   ],
   "aliases": {},
   "groups": {
-    "control_00_changing_distractors_v0": [
-      {
-        "id": 1,
-        "parts": [
-          1
-        ]
-      },
-      {
-        "id": 2,
-        "parts": [
-          2
-        ]
-      }
-    ],
     "control_00_changing_distractors_v1": [
       {
         "id": 1,
@@ -62,54 +48,6 @@
     "status": "evaluated",
     "groups": [
       {
-        "view": "control_00_changing_distractors_v0",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "white button-up shirt",
-        "keep": true,
-        "reasons": [],
-        "evidence": {
-          "control_00_changing_distractors_v1": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_00_changing_distractors_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          }
-        }
-      },
-      {
-        "view": "control_00_changing_distractors_v0",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "control_00_changing_distractors_v1": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_00_changing_distractors_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
         "view": "control_00_changing_distractors_v1",
         "group": 1,
         "parts": [
@@ -120,19 +58,15 @@
         "keep": true,
         "reasons": [],
         "evidence": {
-          "control_00_changing_distractors_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
           "control_00_changing_distractors_v2": {
             "status": "matched",
             "group": [
               1
-            ]
+            ],
+            "basis": "overview_visible_part_adjudication_v5"
           }
-        }
+        },
+        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
       },
       {
         "view": "control_00_changing_distractors_v1",
@@ -147,10 +81,6 @@
           "No consistent visible garment identity in every image under both view and region-ID orders"
         ],
         "evidence": {
-          "control_00_changing_distractors_v0": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
           "control_00_changing_distractors_v2": {
             "status": "not_confirmed_in_both_sku_inspections",
             "group": null
@@ -168,19 +98,15 @@
         "keep": true,
         "reasons": [],
         "evidence": {
-          "control_00_changing_distractors_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
           "control_00_changing_distractors_v1": {
             "status": "matched",
             "group": [
               1
-            ]
+            ],
+            "basis": "overview_visible_part_adjudication_v5"
           }
-        }
+        },
+        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
       },
       {
         "view": "control_00_changing_distractors_v2",
@@ -189,16 +115,12 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "white button-up shirt with pointed collar and front placket",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
         ],
         "evidence": {
-          "control_00_changing_distractors_v0": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
           "control_00_changing_distractors_v1": {
             "status": "not_confirmed_in_both_sku_inspections",
             "group": null
@@ -208,10 +130,6 @@
     ],
     "tracks": [
       [
-        [
-          "control_00_changing_distractors_v0",
-          1
-        ],
         [
           "control_00_changing_distractors_v1",
           1
@@ -223,68 +141,98 @@
       ]
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
-    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+    "presence_policy": "overview_visible_part_adjudication_v5"
   },
+  "files": [
+    {
+      "view": "control_00_changing_distractors_v0",
+      "alias_of": null,
+      "keep_parts": [],
+      "source_parts": 2,
+      "kept_pixels": 0,
+      "removed_pixels": 0,
+      "ignored_pixels": 15755,
+      "status": "excluded_closeup",
+      "output": "joint_results/control_00_changing_distractors/control_00_changing_distractors_v0.npz",
+      "sha256": "8d2b20dca96c50cce87815178a80e64f75da75e9a7243ce5210c0108489cdbbd"
+    },
+    {
+      "view": "control_00_changing_distractors_v1",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 5508,
+      "removed_pixels": 7973,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_00_changing_distractors/control_00_changing_distractors_v1.npz",
+      "sha256": "e29866cacff0e7575ed64183ef79b2bf0a1ef599f7870abfed68ad5149c7cb09"
+    },
+    {
+      "view": "control_00_changing_distractors_v2",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 5541,
+      "removed_pixels": 6289,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_00_changing_distractors/control_00_changing_distractors_v2.npz",
+      "sha256": "cb362491053109b51bc9029d401e2d0367c9e9c15651fa752a3957e12daf27f1"
+    }
+  ],
   "joint_evidence": {
     "forward": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_00_changing_distractors",
       "reverse": false,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
-          "control_00_changing_distractors_v0",
+          "control_00_changing_distractors_v1",
           1
         ],
         "R002": [
-          "control_00_changing_distractors_v0",
+          "control_00_changing_distractors_v1",
           2
         ],
         "R003": [
-          "control_00_changing_distractors_v1",
-          1
-        ],
-        "R004": [
-          "control_00_changing_distractors_v1",
-          2
-        ],
-        "R005": [
           "control_00_changing_distractors_v2",
           1
         ],
-        "R006": [
+        "R004": [
           "control_00_changing_distractors_v2",
           2
         ]
       },
-      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every** view.\n\n---\n\n### Step-by-step Analysis:\n\n#### View v0:\n- **R001**: White button-up shirt (front view, collar and placket visible)\n- **R002**: Black satin skirt with lace trim (bottom portion)\n\n#### View v1:\n- **R003**: White button-up shirt (same as R001 \u2014 identical garment, same angle)\n- **R004**: Black turtleneck sweater (back view, long sleeves)\n\n#### View v2:\n- **R005**: White button-up shirt (same as R001 and R003 \u2014 identical garment, same angle)\n- **R006**: Faux fur coat (cream and brown, textured, side view)\n\n---\n\n### Cross-View Garment Tracking:\n\nWe are to find garments that appear in **every view** \u2014 meaning, for each view, at least one region must belong to the same garment.\n\n- The **white button-up shirt** appears in:\n  - v0: R001\n  - v1: R003\n  - v2: R005\n  \u2192 This is the **only** garment that appears in all three views.\n\n- The black satin skirt (R002) appears only in v0.\n- The black turtleneck (R004) appears only in v1.\n- The faux fur coat (R006) appears only in v2.\n\nThus, **only the white button-up shirt** is visible in every view.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"white button-up shirt\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
-      "batch_size": 4,
-      "seconds": 58.31144595320802,
-      "batch_seconds": 233.2457838128321,
-      "input_signature": "6029f99b8d231567ecc95a4da0765e62d488d348b8b04ea91280179c3231715f",
+      "raw": "{\"reason\": \"In VIEW control_00_changing_distractors_v1, R001 shows a white button-up shirt with a pointed collar and front placket. In VIEW control_00_changing_distractors_v2, R004 shows the same white button-up shirt, now positioned to the right of a fur coat. The shirt is visually consistent across both views: same color, collar style, and button placket. The black garment in R002 (VIEW v1) and the fur coat in R003 (VIEW v2) are distinct and do not appear in both views, so they cannot be matched across views. Thus, only the white shirt is visible in both views and can be tracked.\", \"tracks\": [{\"garment\": \"white button-up shirt with pointed collar and front placket\", \"regions\": [\"R001\", \"R004\"]}]}",
+      "batch_size": 1,
+      "seconds": 6.083789730910212,
+      "batch_seconds": 6.083789730910212,
+      "input_signature": "63006314b91be72758bc57b695d938fce2358a68ed637c25ce2df12a3c157a42",
+      "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "white button-up shirt",
+          "garment": "white button-up shirt with pointed collar and front placket",
           "regions": [
             "R001",
-            "R003",
-            "R005"
+            "R004"
           ],
           "nodes": [
-            [
-              "control_00_changing_distractors_v0",
-              1
-            ],
             [
               "control_00_changing_distractors_v1",
               1
             ],
             [
               "control_00_changing_distractors_v2",
-              1
+              2
             ]
           ]
         }
@@ -292,12 +240,12 @@
       "valid": true
     },
     "reverse": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_00_changing_distractors",
       "reverse": true,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_00_changing_distractors_v2",
@@ -314,29 +262,21 @@
         "R004": [
           "control_00_changing_distractors_v1",
           1
-        ],
-        "R005": [
-          "control_00_changing_distractors_v0",
-          2
-        ],
-        "R006": [
-          "control_00_changing_distractors_v0",
-          1
         ]
       },
-      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every** view.\n\n---\n\n### Step-by-step Analysis:\n\n#### View v2:\n- **R001**: Fur-like garment (cream with brown patches) \u2014 appears only in this view.\n- **R002**: White button-up shirt \u2014 appears in this view.\n\n#### View v1:\n- **R003**: Black turtleneck or high-neck top \u2014 appears only in this view.\n- **R004**: White button-up shirt \u2014 same as R002.\n\n#### View v0:\n- **R005**: Black satin garment with lace trim \u2014 appears only in this view.\n- **R006**: White button-up shirt \u2014 same as R002 and R004.\n\n---\n\n### Cross-View Matching:\n\nWe are to find garments that appear in **every view**.\n\n- The **white button-up shirt** appears in:\n  - v2 \u2192 R002\n  - v1 \u2192 R004\n  - v0 \u2192 R006\n\nThese are the same garment, confirmed by:\n- Consistent color (white)\n- Consistent construction (collar, button placket, visible buttons)\n- Same style across all views\n\nAll other garments (R001, R003, R005) appear in only one view and thus do not qualify.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"White button-up shirt with collar and front buttons\",\n      \"regions\": [\"R002\", \"R004\", \"R006\"]\n    }\n  ]\n}\n```",
-      "batch_size": 4,
-      "seconds": 58.31144595320802,
-      "batch_seconds": 233.2457838128321,
-      "input_signature": "6029f99b8d231567ecc95a4da0765e62d488d348b8b04ea91280179c3231715f",
+      "raw": "{\"reason\": \"In VIEW control_00_changing_distractors_v2, R001 shows a beige fur-like garment, while R002 shows a white button-up shirt. In VIEW control_00_changing_distractors_v1, R003 shows a black turtleneck top, and R004 shows the same white button-up shirt as in R002. The white button-up shirt is visually consistent across R002 and R004, appearing in both views. The fur-like garment (R001) and black turtleneck (R003) do not appear in both views, so they cannot be matched across all shown views. Therefore, only the white button-up shirt is present in every view.\", \"tracks\": [{\"garment\": \"white button-up shirt\", \"regions\": [\"R002\", \"R004\"]}]}",
+      "batch_size": 1,
+      "seconds": 6.156332408078015,
+      "batch_seconds": 6.156332408078015,
+      "input_signature": "63006314b91be72758bc57b695d938fce2358a68ed637c25ce2df12a3c157a42",
+      "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "White button-up shirt with collar and front buttons",
+          "garment": "white button-up shirt",
           "regions": [
             "R002",
-            "R004",
-            "R006"
+            "R004"
           ],
           "nodes": [
             [
@@ -345,10 +285,6 @@
             ],
             [
               "control_00_changing_distractors_v1",
-              1
-            ],
-            [
-              "control_00_changing_distractors_v0",
               1
             ]
           ]
@@ -358,168 +294,1127 @@
     }
   },
   "pairs": [],
-  "seconds": 116.62289190641604,
+  "seconds": 12.240122138988227,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529821.3833547,
+  "at": 1790532281.3873296,
   "training": false,
-  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
-  "fragment_reviews": [],
-  "presence_reviews": [],
-  "decision_before_presence_review": {
-    "status": "evaluated",
-    "groups": [
-      {
-        "view": "control_00_changing_distractors_v0",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "white button-up shirt",
-        "keep": true,
-        "reasons": [],
-        "evidence": {
-          "control_00_changing_distractors_v1": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_00_changing_distractors_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          }
+  "all_view_rule": "Every eligible overview must support a visible part of the same garment. Closeups are excluded from both matching and context. No full silhouette is required.",
+  "eligible_views": [
+    "control_00_changing_distractors_v1",
+    "control_00_changing_distractors_v2"
+  ],
+  "excluded_views": [
+    "control_00_changing_distractors_v0"
+  ],
+  "view_selection": {
+    "policy": "overview_only_v1",
+    "eligible_views": [
+      "control_00_changing_distractors_v1",
+      "control_00_changing_distractors_v2"
+    ],
+    "excluded_views": [
+      "control_00_changing_distractors_v0"
+    ],
+    "aliases": {},
+    "records": {
+      "control_00_changing_distractors_v0": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "e1599a1b7c585f11cd90352b2c5321685d07cec311e3b94969e90393f78d05bf",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"closeup\", \"reason\": \"The image shows only partial sections of two garments \u2014 a black skirt with lace hem and a white shirt collar \u2014 with the overall extent of each garment outside the frame, indicating a tight focus on specific details rather than the full product.\"}",
+        "valid": true,
+        "seconds": 1.8524631289765239,
+        "explanation": {
+          "role": "closeup",
+          "reason": "The image shows only partial sections of two garments \u2014 a black skirt with lace hem and a white shirt collar \u2014 with the overall extent of each garment outside the frame, indicating a tight focus on specific details rather than the full product."
         }
       },
-      {
-        "view": "control_00_changing_distractors_v0",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "control_00_changing_distractors_v1": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_00_changing_distractors_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
+      "control_00_changing_distractors_v1": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two complete garments \u2014 a white shirt and a black top \u2014 shown in full from front and back views respectively, with no visible framing that crops out key portions or focuses tightly on a specific detail. The overall shape and structure of each garment are clearly visible, consistent with a product overview composition.\"}",
+        "valid": true,
+        "seconds": 2.2428650832735,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two complete garments \u2014 a white shirt and a black top \u2014 shown in full from front and back views respectively, with no visible framing that crops out key portions or focuses tightly on a specific detail. The overall shape and structure of each garment are clearly visible, consistent with a product overview composition."
         }
       },
-      {
-        "view": "control_00_changing_distractors_v1",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "white button-up shirt",
-        "keep": true,
-        "reasons": [],
-        "evidence": {
-          "control_00_changing_distractors_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_00_changing_distractors_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          }
-        }
-      },
-      {
-        "view": "control_00_changing_distractors_v1",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "control_00_changing_distractors_v0": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_00_changing_distractors_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "control_00_changing_distractors_v2",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "white button-up shirt",
-        "keep": true,
-        "reasons": [],
-        "evidence": {
-          "control_00_changing_distractors_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_00_changing_distractors_v1": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          }
-        }
-      },
-      {
-        "view": "control_00_changing_distractors_v2",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "control_00_changing_distractors_v0": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_00_changing_distractors_v1": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
+      "control_00_changing_distractors_v2": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\": \"The image displays two distinct garment sections \u2014 a fur collar and a white shirt \u2014 presented side by side against a plain background. While each item is cropped, they are shown as complete, identifiable components of an outfit, not as isolated details. The framing suggests a product-only presentation of the overall items, consistent with an overview composition.\"}",
+        "valid": true,
+        "seconds": 2.4193484620191157,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two distinct garment sections \u2014 a fur collar and a white shirt \u2014 presented side by side against a plain background. While each item is cropped, they are shown as complete, identifiable components of an outfit, not as isolated details. The framing suggests a product-only presentation of the overall items, consistent with an overview composition."
         }
       }
-    ],
-    "tracks": [
-      [
-        [
-          "control_00_changing_distractors_v0",
-          1
+    },
+    "rule": "Only overview photographs participate. Closeups are neither required views nor context for the veto."
+  },
+  "fragment_reviews": [],
+  "presence_reviews": [
+    {
+      "candidate": {
+        "garment": "white button-up shirt with pointed collar and front placket",
+        "nodes": [
+          [
+            "control_00_changing_distractors_v1",
+            1
+          ],
+          [
+            "control_00_changing_distractors_v2",
+            2
+          ]
         ],
+        "proposed_by": [
+          "forward"
+        ]
+      },
+      "evidence": [
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "white button-up shirt with pointed collar and front placket",
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              ],
+              "proposed_by": [
+                "forward"
+              ]
+            },
+            "reference_node": [
+              "control_00_changing_distractors_v2",
+              2
+            ],
+            "reverse": false,
+            "mapping": {
+              "R001": [
+                "control_00_changing_distractors_v1",
+                1
+              ],
+              "R002": [
+                "control_00_changing_distractors_v2",
+                2
+              ]
+            },
+            "views": [
+              {
+                "id": "control_00_changing_distractors_v1",
+                "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+              },
+              {
+                "id": "control_00_changing_distractors_v2",
+                "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "white button-up shirt with pointed collar and front placket",
+                  "nodes": [
+                    [
+                      "control_00_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_00_changing_distractors_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_00_changing_distractors_v2",
+                  2
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_00_changing_distractors_v1",
+                    1
+                  ],
+                  "R002": [
+                    "control_00_changing_distractors_v2",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_00_changing_distractors_v1",
+                    "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                    "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+                  },
+                  {
+                    "id": "control_00_changing_distractors_v2",
+                    "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                    "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+                  }
+                ],
+                "node": [
+                  "control_00_changing_distractors_v1",
+                  1
+                ]
+              },
+              "node": [
+                "control_00_changing_distractors_v1",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ],
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"beige and brown patterned faux fur coat\", \"region2\":\"white button-up shirt with collar and placket\", \"reason\":\"The two masks show different garments: one is a textured fur coat, the other a white shirt with distinct collar and buttons.\", \"verdict\":\"B\"}",
+              "seconds": 2.22971025807783,
+              "valid": true,
+              "explanation": {
+                "region1": "beige and brown patterned faux fur coat",
+                "region2": "white button-up shirt with collar and placket",
+                "reason": "The two masks show different garments: one is a textured fur coat, the other a white shirt with distinct collar and buttons.",
+                "verdict": "B"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "white button-up shirt with pointed collar and front placket",
+                  "nodes": [
+                    [
+                      "control_00_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_00_changing_distractors_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_00_changing_distractors_v2",
+                  2
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_00_changing_distractors_v1",
+                    1
+                  ],
+                  "R002": [
+                    "control_00_changing_distractors_v2",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_00_changing_distractors_v1",
+                    "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                    "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+                  },
+                  {
+                    "id": "control_00_changing_distractors_v2",
+                    "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                    "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+                  }
+                ],
+                "node": [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              },
+              "node": [
+                "control_00_changing_distractors_v2",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"beige and brown patterned faux fur coat\", \"region2\":\"beige and brown patterned faux fur coat\", \"reason\":\"Both masks show identical fur texture, color pattern, and cut, indicating same garment.\", \"verdict\":\"A\"}",
+              "seconds": 1.9687793143093586,
+              "valid": true,
+              "explanation": {
+                "region1": "beige and brown patterned faux fur coat",
+                "region2": "beige and brown patterned faux fur coat",
+                "reason": "Both masks show identical fur texture, color pattern, and cut, indicating same garment.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 4.198489572387189,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_00_changing_distractors_v1",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 1: The two masks show different garments: one is a textured fur coat, the other a white shirt with distinct collar and buttons."
+            },
+            {
+              "view": "control_00_changing_distractors_v2",
+              "status": "visible_part",
+              "regions": [
+                "R002"
+              ],
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              ],
+              "evidence": "Region 2: Both masks show identical fur texture, color pattern, and cut, indicating same garment."
+            }
+          ]
+        },
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "white button-up shirt with pointed collar and front placket",
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              ],
+              "proposed_by": [
+                "forward"
+              ]
+            },
+            "reference_node": [
+              "control_00_changing_distractors_v2",
+              2
+            ],
+            "reverse": true,
+            "mapping": {
+              "R001": [
+                "control_00_changing_distractors_v2",
+                2
+              ],
+              "R002": [
+                "control_00_changing_distractors_v1",
+                1
+              ]
+            },
+            "views": [
+              {
+                "id": "control_00_changing_distractors_v1",
+                "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+              },
+              {
+                "id": "control_00_changing_distractors_v2",
+                "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "white button-up shirt with pointed collar and front placket",
+                  "nodes": [
+                    [
+                      "control_00_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_00_changing_distractors_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_00_changing_distractors_v2",
+                  2
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_00_changing_distractors_v2",
+                    2
+                  ],
+                  "R002": [
+                    "control_00_changing_distractors_v1",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_00_changing_distractors_v1",
+                    "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                    "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+                  },
+                  {
+                    "id": "control_00_changing_distractors_v2",
+                    "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                    "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+                  }
+                ],
+                "node": [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              },
+              "node": [
+                "control_00_changing_distractors_v2",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"cream fur coat with brown patches\", \"region2\":\"cream fur coat with brown patches\", \"reason\":\"Both masks show identical fur texture, color pattern, and shape, indicating same garment.\", \"verdict\":\"A\"}",
+              "seconds": 1.7852307190187275,
+              "valid": true,
+              "explanation": {
+                "region1": "cream fur coat with brown patches",
+                "region2": "cream fur coat with brown patches",
+                "reason": "Both masks show identical fur texture, color pattern, and shape, indicating same garment.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "white button-up shirt with pointed collar and front placket",
+                  "nodes": [
+                    [
+                      "control_00_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_00_changing_distractors_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_00_changing_distractors_v2",
+                  2
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_00_changing_distractors_v2",
+                    2
+                  ],
+                  "R002": [
+                    "control_00_changing_distractors_v1",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_00_changing_distractors_v1",
+                    "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                    "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+                  },
+                  {
+                    "id": "control_00_changing_distractors_v2",
+                    "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                    "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+                  }
+                ],
+                "node": [
+                  "control_00_changing_distractors_v1",
+                  1
+                ]
+              },
+              "node": [
+                "control_00_changing_distractors_v1",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"white button-up shirt with pointed collar and front placket\", \"region2\":\"cream fur coat with brown mottled pattern\", \"reason\":\"The two masks show different garments: one is a white shirt, the other a fur coat with distinct texture and color.\", \"verdict\":\"B\"}",
+              "seconds": 2.2439136230386794,
+              "valid": true,
+              "explanation": {
+                "region1": "white button-up shirt with pointed collar and front placket",
+                "region2": "cream fur coat with brown mottled pattern",
+                "reason": "The two masks show different garments: one is a white shirt, the other a fur coat with distinct texture and color.",
+                "verdict": "B"
+              }
+            }
+          ],
+          "seconds": 4.029144342057407,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_00_changing_distractors_v1",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 1: The two masks show different garments: one is a white shirt, the other a fur coat with distinct texture and color."
+            },
+            {
+              "view": "control_00_changing_distractors_v2",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  2
+                ]
+              ],
+              "evidence": "Region 2: Both masks show identical fur texture, color pattern, and shape, indicating same garment."
+            }
+          ]
+        }
+      ],
+      "agreed_nodes": [],
+      "accepted": false,
+      "outcome": "not_confirmed_in_every_view"
+    },
+    {
+      "candidate": {
+        "garment": "white button-up shirt",
+        "nodes": [
+          [
+            "control_00_changing_distractors_v1",
+            1
+          ],
+          [
+            "control_00_changing_distractors_v2",
+            1
+          ]
+        ],
+        "proposed_by": [
+          "reverse"
+        ]
+      },
+      "evidence": [
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "white button-up shirt",
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "proposed_by": [
+                "reverse"
+              ]
+            },
+            "reference_node": [
+              "control_00_changing_distractors_v2",
+              1
+            ],
+            "reverse": false,
+            "mapping": {
+              "R001": [
+                "control_00_changing_distractors_v1",
+                1
+              ],
+              "R002": [
+                "control_00_changing_distractors_v2",
+                1
+              ]
+            },
+            "views": [
+              {
+                "id": "control_00_changing_distractors_v1",
+                "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+              },
+              {
+                "id": "control_00_changing_distractors_v2",
+                "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "white button-up shirt",
+                  "nodes": [
+                    [
+                      "control_00_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_00_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_00_changing_distractors_v2",
+                  1
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_00_changing_distractors_v1",
+                    1
+                  ],
+                  "R002": [
+                    "control_00_changing_distractors_v2",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_00_changing_distractors_v1",
+                    "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                    "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+                  },
+                  {
+                    "id": "control_00_changing_distractors_v2",
+                    "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                    "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+                  }
+                ],
+                "node": [
+                  "control_00_changing_distractors_v1",
+                  1
+                ]
+              },
+              "node": [
+                "control_00_changing_distractors_v1",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"white button-up shirt with collar and front placket\", \"region2\":\"white button-up shirt with collar and front placket\", \"reason\":\"Both masks show identical white shirt with same collar, buttons, and fabric texture.\", \"verdict\":\"A\"}",
+              "seconds": 1.9991799662820995,
+              "valid": true,
+              "explanation": {
+                "region1": "white button-up shirt with collar and front placket",
+                "region2": "white button-up shirt with collar and front placket",
+                "reason": "Both masks show identical white shirt with same collar, buttons, and fabric texture.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "white button-up shirt",
+                  "nodes": [
+                    [
+                      "control_00_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_00_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_00_changing_distractors_v2",
+                  1
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_00_changing_distractors_v1",
+                    1
+                  ],
+                  "R002": [
+                    "control_00_changing_distractors_v2",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_00_changing_distractors_v1",
+                    "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                    "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+                  },
+                  {
+                    "id": "control_00_changing_distractors_v2",
+                    "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                    "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+                  }
+                ],
+                "node": [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              },
+              "node": [
+                "control_00_changing_distractors_v2",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"white button-up shirt with collar and front placket\", \"region2\":\"white button-up shirt with collar and front placket\", \"reason\":\"Both masks show identical white shirt with same collar, buttons, and fabric texture.\", \"verdict\":\"A\"}",
+              "seconds": 1.996867898851633,
+              "valid": true,
+              "explanation": {
+                "region1": "white button-up shirt with collar and front placket",
+                "region2": "white button-up shirt with collar and front placket",
+                "reason": "Both masks show identical white shirt with same collar, buttons, and fabric texture.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 3.9960478651337326,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_00_changing_distractors_v1",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical white shirt with same collar, buttons, and fabric texture."
+            },
+            {
+              "view": "control_00_changing_distractors_v2",
+              "status": "visible_part",
+              "regions": [
+                "R002"
+              ],
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical white shirt with same collar, buttons, and fabric texture."
+            }
+          ]
+        },
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "white button-up shirt",
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "proposed_by": [
+                "reverse"
+              ]
+            },
+            "reference_node": [
+              "control_00_changing_distractors_v2",
+              1
+            ],
+            "reverse": true,
+            "mapping": {
+              "R001": [
+                "control_00_changing_distractors_v2",
+                1
+              ],
+              "R002": [
+                "control_00_changing_distractors_v1",
+                1
+              ]
+            },
+            "views": [
+              {
+                "id": "control_00_changing_distractors_v1",
+                "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+              },
+              {
+                "id": "control_00_changing_distractors_v2",
+                "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "white button-up shirt",
+                  "nodes": [
+                    [
+                      "control_00_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_00_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_00_changing_distractors_v2",
+                  1
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_00_changing_distractors_v2",
+                    1
+                  ],
+                  "R002": [
+                    "control_00_changing_distractors_v1",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_00_changing_distractors_v1",
+                    "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                    "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+                  },
+                  {
+                    "id": "control_00_changing_distractors_v2",
+                    "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                    "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+                  }
+                ],
+                "node": [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              },
+              "node": [
+                "control_00_changing_distractors_v2",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"white button-up shirt with collar and front placket\", \"region2\":\"white button-up shirt with collar and front placket\", \"reason\":\"Both masks show identical white shirt with same collar, placket, and button details.\", \"verdict\":\"A\"}",
+              "seconds": 2.028942291159183,
+              "valid": true,
+              "explanation": {
+                "region1": "white button-up shirt with collar and front placket",
+                "region2": "white button-up shirt with collar and front placket",
+                "reason": "Both masks show identical white shirt with same collar, placket, and button details.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "white button-up shirt",
+                  "nodes": [
+                    [
+                      "control_00_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_00_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_00_changing_distractors_v2",
+                  1
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_00_changing_distractors_v2",
+                    1
+                  ],
+                  "R002": [
+                    "control_00_changing_distractors_v1",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_00_changing_distractors_v1",
+                    "pixel_sha256": "92761b83e0e76e0585dc1a9aaa688cde090b8b68e9f1dc5ad511bf25eef42724",
+                    "partition_sha256": "dd7787088f1a3761f79f91c1a928cff80941667162e9673fa88bffeb066daebe"
+                  },
+                  {
+                    "id": "control_00_changing_distractors_v2",
+                    "pixel_sha256": "581844ae3e3ae01c32af6f564dd164c73e9343c573ad50042fbcbd519bc9fbb1",
+                    "partition_sha256": "4c4658d6f1acd172e1546c53b3c620eb583a528f598e614e3c6e60779584e061"
+                  }
+                ],
+                "node": [
+                  "control_00_changing_distractors_v1",
+                  1
+                ]
+              },
+              "node": [
+                "control_00_changing_distractors_v1",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"white button-up shirt with pointed collar and visible buttons\", \"region2\":\"white button-up shirt with pointed collar and visible buttons\", \"reason\":\"Both masks show identical white shirt with same collar, buttons, and fabric texture.\", \"verdict\":\"A\"}",
+              "seconds": 1.999301241710782,
+              "valid": true,
+              "explanation": {
+                "region1": "white button-up shirt with pointed collar and visible buttons",
+                "region2": "white button-up shirt with pointed collar and visible buttons",
+                "reason": "Both masks show identical white shirt with same collar, buttons, and fabric texture.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 4.028243532869965,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_00_changing_distractors_v1",
+              "status": "visible_part",
+              "regions": [
+                "R002"
+              ],
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v1",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical white shirt with same collar, buttons, and fabric texture."
+            },
+            {
+              "view": "control_00_changing_distractors_v2",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_00_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical white shirt with same collar, placket, and button details."
+            }
+          ]
+        }
+      ],
+      "agreed_nodes": [
         [
           "control_00_changing_distractors_v1",
           1
@@ -528,20 +1423,105 @@
           "control_00_changing_distractors_v2",
           1
         ]
-      ]
+      ],
+      "accepted": true,
+      "outcome": "confirmed_visible_part_in_every_view"
+    }
+  ],
+  "decision_before_presence_review": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "control_00_changing_distractors_v1",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "white button-up shirt with pointed collar and front placket",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_00_changing_distractors_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_00_changing_distractors_v1",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_00_changing_distractors_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_00_changing_distractors_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_00_changing_distractors_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_00_changing_distractors_v2",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "white button-up shirt with pointed collar and front placket",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_00_changing_distractors_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
     ],
+    "tracks": [],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
-  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 0.14274917589500546,
+  "presence_policy": "overview_visible_part_adjudication_v5",
+  "finalization_seconds": 16.944525917060673,
   "implementation_sha256": {
-    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
-    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "run_joint": "611db311a7c7eecdeef5ce7a7554824650b2de924887fb401140972441bea146",
+    "view_policy": "17bd78799255d10180cc5d83dd833605a25ab547f29a912114028d51f3ff1cbc",
+    "joint_unique": "bee6f6c70a84f519d2c316220c71160d03a341a3cd0579d523958fabd58b66ef",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
-    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
-    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "visible_presence": "d6366043146048d8d05a5c0bc206956c0adfce1aa1c9023f056e6128b261209b",
+    "presence_regions": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+    "fragment_completion": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+    "fragment_reasoning": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
     "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
     "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"

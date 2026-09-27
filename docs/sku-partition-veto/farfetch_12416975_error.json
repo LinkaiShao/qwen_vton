@@ -1,0 +1,159 @@
+{
+  "sku": "farfetch_12416975",
+  "forward": "Track lacks evidence in at least one required view",
+  "reverse": "Track lacks evidence in at least one required view",
+  "protocol": "strict_partition_veto_overview_v5",
+  "evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "farfetch_12416975",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "12416975_00",
+          1
+        ],
+        "R002": [
+          "12416975_01",
+          1
+        ],
+        "R003": [
+          "12416975_01",
+          2
+        ],
+        "R004": [
+          "12416975_01",
+          3
+        ],
+        "R005": [
+          "12416975_01",
+          4
+        ],
+        "R006": [
+          "12416975_01",
+          5
+        ],
+        "R007": [
+          "12416975_01",
+          6
+        ],
+        "R008": [
+          "12416975_01",
+          7
+        ],
+        "R009": [
+          "12416975_02",
+          1
+        ],
+        "R010": [
+          "12416975_02",
+          2
+        ],
+        "R011": [
+          "12416975_03",
+          1
+        ],
+        "R012": [
+          "12416975_03",
+          2
+        ],
+        "R013": [
+          "12416975_03",
+          3
+        ]
+      },
+      "raw": "{\n  \"reason\": \"The gray turtleneck sweater is consistently visible across all views: front (VIEW 00, R001), side (VIEW 02, R009), and back (VIEW 03, R011). It is also visible under the jacket in VIEW 01 (R004). The maroon trousers are visible in VIEW 01 (R002), VIEW 02 (R010), and VIEW 03 (R012). The black jacket is visible in VIEW 01 (R003, R008). The blue inner layer is visible in VIEW 01 (R005). The white sneakers are visible in VIEW 01 (R006, R007). Each garment has at least one region per view where it appears, and visual continuity supports their identification as distinct garments. Regions are assigned based on visual matching across views, respecting unique region IDs per view.\",\n  \"tracks\": [\n    {\n      \"garment\": \"gray turtleneck sweater\",\n      \"regions\": [\n        \"R001\",\n        \"R004\",\n        \"R009\",\n        \"R011\",\n        \"R013\"\n      ]\n    },\n    {\n      \"garment\": \"maroon trousers\",\n      \"regions\": [\n        \"R002\",\n        \"R010\",\n        \"R012\"\n      ]\n    },\n    {\n      \"garment\": \"black jacket\",\n      \"regions\": [\n        \"R003\",\n        \"R008\"\n      ]\n    },\n    {\n      \"garment\": \"blue inner layer (vest/jacket)\",\n      \"regions\": [\n        \"R005\"\n      ]\n    },\n    {\n      \"garment\": \"white sneakers\",\n      \"regions\": [\n        \"R006\",\n        \"R007\"\n      ]\n    }\n  ]\n}",
+      "batch_size": 1,
+      "seconds": 20.102535899262875,
+      "batch_seconds": 20.102535899262875,
+      "input_signature": "8cea96bbd81db14a0d883ed8cf7c8df812f6bc840ec816376b1b5c671974afd4",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "{\n  \"reason\": \"The gray turtleneck sweater is consistently visible across all views, appearing in front, back, and side views. It is the primary garment in VIEW 00 and 02, and is worn under the jacket in VIEW 01. The maroon trousers are also consistently visible in VIEW 01, 02, and 03, and appear in the side and back views. The black jacket is visible in VIEW 01 and is the outermost layer. The blue inner layer (possibly a vest or jacket) is visible in VIEW 01. The white sneakers are visible in VIEW 01. Each of these garments appears in at least one region per view where they are present, and their visual continuity across views supports their identification as distinct garments. The regions are assigned based on visual matching across views, respecting the unique region IDs per view.\",\n  \"tracks\": [\n    {\n      \"garment\": \"gray turtleneck sweater\",\n      \"regions\": [\n        \"R001\",\n        \"R004\",\n        \"R009\",\n        \"R011\",\n        \"R013\"\n      ]\n    },\n    {\n      \"garment\": \"maroon trousers\",\n      \"regions\": [\n        \"R002\",\n        \"R010\",\n        \"R012\"\n      ]\n    },\n    {\n      \"garment\": \"black jacket\",\n      \"regions\": [\n        \"R003\",\n        \"R008\"\n      ]\n    },\n    {\n      \"garment\": \"blue inner layer (vest/jacket)\",\n      \"regions\": [\n        \"R005\"\n      ]\n    },\n    {\n      \"garment\": \"white sneakers\",\n      \"regions\": [\n        \"R006\",\n        \"R007\"\n      ]\n    }\n  ]\n}"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "farfetch_12416975",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "12416975_03",
+          3
+        ],
+        "R002": [
+          "12416975_03",
+          2
+        ],
+        "R003": [
+          "12416975_03",
+          1
+        ],
+        "R004": [
+          "12416975_02",
+          2
+        ],
+        "R005": [
+          "12416975_02",
+          1
+        ],
+        "R006": [
+          "12416975_01",
+          7
+        ],
+        "R007": [
+          "12416975_01",
+          6
+        ],
+        "R008": [
+          "12416975_01",
+          5
+        ],
+        "R009": [
+          "12416975_01",
+          4
+        ],
+        "R010": [
+          "12416975_01",
+          3
+        ],
+        "R011": [
+          "12416975_01",
+          2
+        ],
+        "R012": [
+          "12416975_01",
+          1
+        ],
+        "R013": [
+          "12416975_00",
+          1
+        ]
+      },
+      "raw": "{\n  \"reason\": \"The gray turtleneck sweater is consistently visible across all four views, appearing in different poses and angles. In VIEW 12416975_03, it is shown from the back (R003) and a partial front (R001). In VIEW 12416975_02, it is shown from the front (R005) and a partial lower section (R004). In VIEW 12416975_01, it is visible under the jacket (R010). In VIEW 12416975_00, it is shown front-on (R013). The maroon pants are also visible in all views: R002 (VIEW 03), R004 (VIEW 02), R012 (VIEW 01), and are implied in the full-body shot (VIEW 01). The white sneakers (R007, R008) and black jacket (R006, R011) are only visible in VIEW 01, so they cannot be tracked across all views. The blue inner layer (R009) is only visible in VIEW 01. Therefore, only the turtleneck sweater and maroon pants are present in every view.\",\n  \"tracks\": [\n    {\n      \"garment\": \"gray turtleneck sweater\",\n      \"regions\": [\"R001\", \"R003\", \"R005\", \"R010\", \"R013\"]\n    },\n    {\n      \"garment\": \"maroon pants\",\n      \"regions\": [\"R002\", \"R004\", \"R012\"]\n    }\n  ]\n}",
+      "batch_size": 1,
+      "seconds": 17.254488348960876,
+      "batch_seconds": 17.254488348960876,
+      "input_signature": "8cea96bbd81db14a0d883ed8cf7c8df812f6bc840ec816376b1b5c671974afd4",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "{\n  \"reason\": \"The gray turtleneck sweater is consistently visible across all four views, appearing in different poses and angles. In VIEW 12416975_03, it is shown from the back (R003) and a partial front (R001). In VIEW 12416975_02, it is shown from the front (R005) and a partial lower section (R004). In VIEW 12416975_01, it is visible under the jacket (R010). In VIEW 12416975_00, it is shown front-on (R013). The maroon pants are also visible in all views: R002 (VIEW 03), R004 (VIEW 02), R012 (VIEW 01), and are implied in the full-body shot (VIEW 01). The white sneakers (R007, R008) and black jacket (R006, R011) are only visible in VIEW 01, so they cannot be tracked across all views. The blue inner layer (R009) is only visible in VIEW 01. Therefore, only the turtleneck sweater and maroon pants are present in every view.\",\n  \"tracks\": [\n    {\n      \"garment\": \"gray turtleneck sweater\",\n      \"regions\": [\"R001\", \"R003\", \"R005\", \"R010\", \"R013\"]\n    },\n    {\n      \"garment\": \"maroon pants\",\n      \"regions\": [\"R002\", \"R004\", \"R012\"]\n    }\n  ]\n}"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    }
+  },
+  "at": 1790532055.45435
+}
