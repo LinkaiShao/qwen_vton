@@ -1,0 +1,618 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "control_05_all_present",
+  "title": "all present",
+  "cohort": "controlled",
+  "expected_views": [
+    "control_05_all_present_v0",
+    "control_05_all_present_v1",
+    "control_05_all_present_v2"
+  ],
+  "unique_views": [
+    "control_05_all_present_v0",
+    "control_05_all_present_v1",
+    "control_05_all_present_v2"
+  ],
+  "aliases": {},
+  "groups": {
+    "control_05_all_present_v0": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "control_05_all_present_v1": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "control_05_all_present_v2": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "control_05_all_present_v0",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Brown long-sleeved cut-out top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_05_all_present_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_all_present_v0",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Black halter-style top with keyhole cutout",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v2": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "control_05_all_present_v1": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_all_present_v0",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Black zip-up leather jacket",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v2": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          },
+          "control_05_all_present_v1": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_all_present_v1",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Brown long-sleeved cut-out top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_05_all_present_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_all_present_v1",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Black halter-style top with keyhole cutout",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v2": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "control_05_all_present_v0": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_all_present_v1",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Black zip-up leather jacket",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v2": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          },
+          "control_05_all_present_v0": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_all_present_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Brown long-sleeved cut-out top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_05_all_present_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_all_present_v2",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Black halter-style top with keyhole cutout",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v1": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "control_05_all_present_v0": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_all_present_v2",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Black zip-up leather jacket",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_all_present_v1": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          },
+          "control_05_all_present_v0": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "control_05_all_present_v0",
+          1
+        ],
+        [
+          "control_05_all_present_v1",
+          1
+        ],
+        [
+          "control_05_all_present_v2",
+          1
+        ]
+      ],
+      [
+        [
+          "control_05_all_present_v0",
+          2
+        ],
+        [
+          "control_05_all_present_v1",
+          2
+        ],
+        [
+          "control_05_all_present_v2",
+          2
+        ]
+      ],
+      [
+        [
+          "control_05_all_present_v0",
+          3
+        ],
+        [
+          "control_05_all_present_v1",
+          3
+        ],
+        [
+          "control_05_all_present_v2",
+          3
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "joint_evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_05_all_present",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_05_all_present_v0",
+          1
+        ],
+        "R002": [
+          "control_05_all_present_v0",
+          2
+        ],
+        "R003": [
+          "control_05_all_present_v0",
+          3
+        ],
+        "R004": [
+          "control_05_all_present_v1",
+          1
+        ],
+        "R005": [
+          "control_05_all_present_v1",
+          2
+        ],
+        "R006": [
+          "control_05_all_present_v1",
+          3
+        ],
+        "R007": [
+          "control_05_all_present_v2",
+          1
+        ],
+        "R008": [
+          "control_05_all_present_v2",
+          2
+        ],
+        "R009": [
+          "control_05_all_present_v2",
+          3
+        ]
+      },
+      "raw": "In each of the three views (v0, v1, v2), we are given an original photograph showing three garments arranged side-by-side, and a corresponding set of mask regions (R001\u2013R003 for v0, R004\u2013R006 for v1, R007\u2013R009 for v2). Each mask region corresponds to one of the garments in the photograph.\n\nWe are to identify garments that appear in **every view**, using the mask regions as evidence. The mask regions are labeled and correspond to specific garments in each view. Since each view has three garments, and each mask region is unique to that view (no ID repeats across views), we can map the garments across views by their visual characteristics.\n\n---\n\n### Step 1: Identify garments in each view\n\n**VIEW v0:**\n- R001: Brown, long-sleeved, cut-out top (left)\n- R002: Black, halter-style top with keyhole cutout (middle)\n- R003: Black, zip-up leather jacket (right)\n\n**VIEW v1:**\n- R004: Brown, long-sleeved, cut-out top (left) \u2014 visually identical to R001\n- R005: Black, halter-style top with keyhole cutout (middle) \u2014 visually identical to R002\n- R006: Black, zip-up leather jacket (right) \u2014 visually identical to R003\n\n**VIEW v2:**\n- R007: Brown, long-sleeved, cut-out top (left) \u2014 visually identical to R001 and R004\n- R008: Black, halter-style top with keyhole cutout (middle) \u2014 visually identical to R002 and R005\n- R009: Black, zip-up leather jacket (right) \u2014 visually identical to R003 and R006\n\n---\n\n### Step 2: Track garments across all views\n\nWe must assign each region to a garment track, ensuring that the garment is visually consistent across all views.\n\n- **Brown cut-out top**: Appears in R001 (v0), R004 (v1), R007 (v2) \u2014 same fabric, cut, color, style \u2192 **one track**\n- **Black halter top**: Appears in R002 (v0), R005 (v1), R008 (v2) \u2014 same fabric, cut, color, style \u2192 **one track**\n- **Black leather jacket**: Appears in R003 (v0), R006 (v1), R009 (v2) \u2014 same fabric, cut, color, style \u2192 **one track**\n\nAll three garments are present in every view, and each is uniquely identifiable by its visual characteristics and mask region.\n\n---\n\n### Step 3: Output JSON\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Brown long-sleeved cut-out top\",\n      \"regions\": [\"R001\", \"R004\", \"R007\"]\n    },\n    {\n      \"garment\": \"Black halter-style top with keyhole cutout\",\n      \"regions\": [\"R002\", \"R005\", \"R008\"]\n    },\n    {\n      \"garment\": \"Black zip-up leather jacket\",\n      \"regions\": [\"R003\", \"R006\", \"R009\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 24.544650426134467,
+      "batch_seconds": 24.544650426134467,
+      "input_signature": "4b92e0e4878e07f126bd3df7e8d09439c4b2543b29c8802700b114ec993014ed",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "Brown long-sleeved cut-out top",
+          "regions": [
+            "R001",
+            "R004",
+            "R007"
+          ],
+          "nodes": [
+            [
+              "control_05_all_present_v0",
+              1
+            ],
+            [
+              "control_05_all_present_v1",
+              1
+            ],
+            [
+              "control_05_all_present_v2",
+              1
+            ]
+          ]
+        },
+        {
+          "garment": "Black halter-style top with keyhole cutout",
+          "regions": [
+            "R002",
+            "R005",
+            "R008"
+          ],
+          "nodes": [
+            [
+              "control_05_all_present_v0",
+              2
+            ],
+            [
+              "control_05_all_present_v1",
+              2
+            ],
+            [
+              "control_05_all_present_v2",
+              2
+            ]
+          ]
+        },
+        {
+          "garment": "Black zip-up leather jacket",
+          "regions": [
+            "R003",
+            "R006",
+            "R009"
+          ],
+          "nodes": [
+            [
+              "control_05_all_present_v0",
+              3
+            ],
+            [
+              "control_05_all_present_v1",
+              3
+            ],
+            [
+              "control_05_all_present_v2",
+              3
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_05_all_present",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_05_all_present_v2",
+          3
+        ],
+        "R002": [
+          "control_05_all_present_v2",
+          2
+        ],
+        "R003": [
+          "control_05_all_present_v2",
+          1
+        ],
+        "R004": [
+          "control_05_all_present_v1",
+          3
+        ],
+        "R005": [
+          "control_05_all_present_v1",
+          2
+        ],
+        "R006": [
+          "control_05_all_present_v1",
+          1
+        ],
+        "R007": [
+          "control_05_all_present_v0",
+          3
+        ],
+        "R008": [
+          "control_05_all_present_v0",
+          2
+        ],
+        "R009": [
+          "control_05_all_present_v0",
+          1
+        ]
+      },
+      "raw": "After analyzing all three views (v0, v1, v2), we observe that each view contains three garments: a black leather jacket, a black halter-style top, and a brown top with a torn or cut-out neckline. The available regions for each view are labeled R001\u2013R003 (v2), R004\u2013R006 (v1), and R007\u2013R009 (v0).\n\nEach region corresponds to one of the three garments, and the mapping is consistent across views:\n\n- **R001, R004, R007** \u2192 Black leather jacket (same garment, same style, same position in each view)\n- **R002, R005, R008** \u2192 Black halter-style top (same garment, same style, same position in each view)\n- **R003, R006, R009** \u2192 Brown top with torn neckline (same garment, same style, same position in each view)\n\nEach garment appears in every view, and the regions for each garment are unique to that garment across all views. There is no mixing of garments in any mask, and each region clearly corresponds to one distinct garment.\n\nThus, we can form three tracks, each covering all three views with their respective region IDs.\n\n---\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"black leather jacket\",\n      \"regions\": [\"R001\", \"R004\", \"R007\"]\n    },\n    {\n      \"garment\": \"black halter-style top\",\n      \"regions\": [\"R002\", \"R005\", \"R008\"]\n    },\n    {\n      \"garment\": \"brown top with torn neckline\",\n      \"regions\": [\"R003\", \"R006\", \"R009\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 13.84912818716839,
+      "batch_seconds": 13.84912818716839,
+      "input_signature": "4b92e0e4878e07f126bd3df7e8d09439c4b2543b29c8802700b114ec993014ed",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "black leather jacket",
+          "regions": [
+            "R001",
+            "R004",
+            "R007"
+          ],
+          "nodes": [
+            [
+              "control_05_all_present_v2",
+              3
+            ],
+            [
+              "control_05_all_present_v1",
+              3
+            ],
+            [
+              "control_05_all_present_v0",
+              3
+            ]
+          ]
+        },
+        {
+          "garment": "black halter-style top",
+          "regions": [
+            "R002",
+            "R005",
+            "R008"
+          ],
+          "nodes": [
+            [
+              "control_05_all_present_v2",
+              2
+            ],
+            [
+              "control_05_all_present_v1",
+              2
+            ],
+            [
+              "control_05_all_present_v0",
+              2
+            ]
+          ]
+        },
+        {
+          "garment": "brown top with torn neckline",
+          "regions": [
+            "R003",
+            "R006",
+            "R009"
+          ],
+          "nodes": [
+            [
+              "control_05_all_present_v2",
+              1
+            ],
+            [
+              "control_05_all_present_v1",
+              1
+            ],
+            [
+              "control_05_all_present_v0",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 38.39377861330286,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790492912.6798868,
+  "training": false,
+  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "fragment_reviews": [],
+  "finalization_seconds": 0.13491604290902615,
+  "implementation_sha256": {
+    "run_joint": "ae1270eb5ff22bc739d93371a90efc5e1955d3f874a64669a1be37433baae0d3",
+    "joint_unique": "8e310cfa68e4443e26e1de40450a69e7cb5971d44f2c557c9bbd96746f051f63",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "fragment_completion": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
+}

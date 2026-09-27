@@ -1,0 +1,342 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "control_05_last_view_absent",
+  "title": "last view absent",
+  "cohort": "controlled",
+  "expected_views": [
+    "control_05_last_view_absent_v0",
+    "control_05_last_view_absent_v1",
+    "control_05_last_view_absent_v2"
+  ],
+  "unique_views": [
+    "control_05_last_view_absent_v0",
+    "control_05_last_view_absent_v1",
+    "control_05_last_view_absent_v2"
+  ],
+  "aliases": {},
+  "groups": {
+    "control_05_last_view_absent_v0": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "control_05_last_view_absent_v1": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "control_05_last_view_absent_v2": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "control_05_last_view_absent_v0",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "brown long-sleeve top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_last_view_absent_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_05_last_view_absent_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_last_view_absent_v0",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_05_last_view_absent_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_05_last_view_absent_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_05_last_view_absent_v1",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "brown long-sleeve top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_last_view_absent_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_05_last_view_absent_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_05_last_view_absent_v1",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_05_last_view_absent_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_05_last_view_absent_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_05_last_view_absent_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "brown long-sleeve top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_05_last_view_absent_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_05_last_view_absent_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "control_05_last_view_absent_v0",
+          1
+        ],
+        [
+          "control_05_last_view_absent_v1",
+          1
+        ],
+        [
+          "control_05_last_view_absent_v2",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "joint_evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_05_last_view_absent",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_05_last_view_absent_v0",
+          1
+        ],
+        "R002": [
+          "control_05_last_view_absent_v0",
+          2
+        ],
+        "R003": [
+          "control_05_last_view_absent_v1",
+          1
+        ],
+        "R004": [
+          "control_05_last_view_absent_v1",
+          2
+        ],
+        "R005": [
+          "control_05_last_view_absent_v2",
+          1
+        ]
+      },
+      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that are visible in **every** view.\n\n---\n\n### View Analysis:\n\n**VIEW control_05_last_view_absent_v0:**\n- Original: Two garments \u2014 a black halter-style top on the left, and a brown long-sleeve top on the right.\n- Available masks: R001 (brown top), R002 (black top)\n\n**VIEW control_05_last_view_absent_v1:**\n- Original: Same two garments as above.\n- Available masks: R003 (brown top), R004 (black top)\n\n**VIEW control_05_last_view_absent_v2:**\n- Original: Only the brown top is visible (black top is absent).\n- Available mask: R005 (brown top)\n\n---\n\n### Garment Tracking:\n\nWe are to find garments that appear in **every view** with at least one visible region.\n\n- **Black halter-style top**:\n  - Appears in View v0 (R002) and View v1 (R004).\n  - **Does NOT appear in View v2** \u2014 no mask or visible pixels.\n  - \u274c **Not present in every view** \u2192 **Excluded**.\n\n- **Brown long-sleeve top**:\n  - Appears in View v0 (R001), View v1 (R003), and View v2 (R005).\n  - \u2705 **Present in every view** \u2192 **Included**.\n\n---\n\n### Final Tracks:\n\nOnly one garment is visible in every view: the **brown long-sleeve top**, represented by regions R001, R003, and R005.\n\nNote: R001 and R003 are from different views but represent the same garment (same fabric, cut, color, context). R005 is the same garment in the final view.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"brown long-sleeve top\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 15.204329621046782,
+      "batch_seconds": 15.204329621046782,
+      "input_signature": "4ac8a0a88c01e5d464f665dd7c0e65eb5462c40bd4f252a8c871f15e50fd9407",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "brown long-sleeve top",
+          "regions": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "control_05_last_view_absent_v0",
+              1
+            ],
+            [
+              "control_05_last_view_absent_v1",
+              1
+            ],
+            [
+              "control_05_last_view_absent_v2",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_05_last_view_absent",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_05_last_view_absent_v2",
+          1
+        ],
+        "R002": [
+          "control_05_last_view_absent_v1",
+          2
+        ],
+        "R003": [
+          "control_05_last_view_absent_v1",
+          1
+        ],
+        "R004": [
+          "control_05_last_view_absent_v0",
+          2
+        ],
+        "R005": [
+          "control_05_last_view_absent_v0",
+          1
+        ]
+      },
+      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments present in each view and track their visibility across all views.\n\n---\n\n**View Analysis:**\n\n- **VIEW control_05_last_view_absent_v2 (View 2):**\n  - Contains only one mask region: **R001** \u2014 a brown, short-sleeved top with a rounded neckline, visible from the chest up. No other garments are present.\n\n- **VIEW control_05_last_view_absent_v1 (View 1):**\n  - Contains two mask regions:\n    - **R002** \u2014 a dark navy or black halter-style top with a keyhole cutout at the chest.\n    - **R003** \u2014 a brown, short-sleeved top, identical in cut and color to R001.\n\n- **VIEW control_05_last_view_absent_v0 (View 0):**\n  - Contains two mask regions:\n    - **R004** \u2014 a dark navy or black halter-style top, identical to R002.\n    - **R005** \u2014 a brown, short-sleeved top, identical to R001 and R003.\n\n---\n\n**Garment Tracking Across All Views:**\n\nWe must find garments that appear in **every view** (i.e., in at least one mask region per view).\n\n1. **Brown short-sleeved top:**\n   - Appears in View 2: **R001**\n   - Appears in View 1: **R003**\n   - Appears in View 0: **R005**\n   - \u2192 This is the same garment across all views (same color, cut, neckline). It is visible in every view.\n\n2. **Dark navy/black halter top:**\n   - Appears in View 1: **R002**\n   - Appears in View 0: **R004**\n   - \u2192 **Does NOT appear in View 2** (no corresponding mask region). Therefore, it does not appear in every view.\n\n---\n\n**Conclusion:**\n\nOnly the **brown short-sleeved top** is visible in every view. The dark navy halter top is absent in View 2, so it cannot be tracked across all views.\n\n---\n\n**Output:**\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"brown short-sleeved top with rounded neckline\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 17.52939584199339,
+      "batch_seconds": 17.52939584199339,
+      "input_signature": "4ac8a0a88c01e5d464f665dd7c0e65eb5462c40bd4f252a8c871f15e50fd9407",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "brown short-sleeved top with rounded neckline",
+          "regions": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "control_05_last_view_absent_v2",
+              1
+            ],
+            [
+              "control_05_last_view_absent_v1",
+              1
+            ],
+            [
+              "control_05_last_view_absent_v0",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 32.73372546304017,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790492945.8637311,
+  "training": false,
+  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "fragment_reviews": [],
+  "finalization_seconds": 0.11212255293503404,
+  "implementation_sha256": {
+    "run_joint": "ae1270eb5ff22bc739d93371a90efc5e1955d3f874a64669a1be37433baae0d3",
+    "joint_unique": "8e310cfa68e4443e26e1de40450a69e7cb5971d44f2c557c9bbd96746f051f63",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "fragment_completion": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
+}

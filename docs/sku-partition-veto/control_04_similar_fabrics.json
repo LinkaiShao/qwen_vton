@@ -1,0 +1,401 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "control_04_similar_fabrics",
+  "title": "similar fabrics",
+  "cohort": "controlled",
+  "expected_views": [
+    "control_04_similar_fabrics_v0",
+    "control_04_similar_fabrics_v1",
+    "control_04_similar_fabrics_v2"
+  ],
+  "unique_views": [
+    "control_04_similar_fabrics_v0",
+    "control_04_similar_fabrics_v1",
+    "control_04_similar_fabrics_v2"
+  ],
+  "aliases": {},
+  "groups": {
+    "control_04_similar_fabrics_v0": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "control_04_similar_fabrics_v1": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "control_04_similar_fabrics_v2": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "control_04_similar_fabrics_v0",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Navy blue zip-up hoodie with front pockets and left sleeve patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_04_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_04_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v0",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_04_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_04_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v1",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Navy blue zip-up hoodie with front pockets and left sleeve patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_04_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_04_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v1",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_04_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_04_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Navy blue zip-up hoodie with front pockets and left sleeve patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_04_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_04_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v2",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_04_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_04_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "control_04_similar_fabrics_v0",
+          1
+        ],
+        [
+          "control_04_similar_fabrics_v1",
+          1
+        ],
+        [
+          "control_04_similar_fabrics_v2",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "joint_evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_04_similar_fabrics",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_04_similar_fabrics_v0",
+          1
+        ],
+        "R002": [
+          "control_04_similar_fabrics_v0",
+          2
+        ],
+        "R003": [
+          "control_04_similar_fabrics_v1",
+          1
+        ],
+        "R004": [
+          "control_04_similar_fabrics_v1",
+          2
+        ],
+        "R005": [
+          "control_04_similar_fabrics_v2",
+          1
+        ],
+        "R006": [
+          "control_04_similar_fabrics_v2",
+          2
+        ]
+      },
+      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments present in each view and determine which garments are consistently visible across all views.\n\n---\n\n**View 1 (control_04_similar_fabrics_v0):**\n- R001: Navy blue zip-up hoodie with front pockets and a small patch on the left sleeve.\n- R002: Black cargo-style pants with multiple pockets and visible buttons.\n\n**View 2 (control_04_similar_fabrics_v1):**\n- R003: Same navy blue zip-up hoodie as R001 \u2014 identical in fabric, color, and construction.\n- R004: Black pants, but with a different cut \u2014 more relaxed, fewer visible pockets, and no buttons \u2014 different from R002.\n\n**View 3 (control_04_similar_fabrics_v2):**\n- R005: Same navy blue zip-up hoodie as R001 and R003 \u2014 consistent in all views.\n- R006: Black pants with drawstring waist and a large side pocket \u2014 different from R002 and R004.\n\n---\n\n**Analysis:**\n\n- The **navy blue zip-up hoodie** is present in **all three views** (R001, R003, R005). It is visually identical across all views: same color, same front zipper, same pocket placement, same sleeve patch. This is a consistent garment.\n\n- The **black pants** vary significantly across views:\n  - R002: Cargo-style with buttons and multiple pockets.\n  - R004: Relaxed fit, fewer pockets, no visible buttons.\n  - R006: Drawstring waist, large side pocket, different cut.\n\nThese are **not the same garment** \u2014 they differ in construction, pocket placement, and waist closure. Therefore, **no single black pant garment is visible in every view**.\n\n---\n\n**Conclusion:**\n\nOnly the **navy blue zip-up hoodie** is consistently present in every view, with matching fabric, construction, and color. The black pants in each view are distinct garments.\n\n---\n\n**Output:**\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Navy blue zip-up hoodie with front pockets and left sleeve patch\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 16.69927667779848,
+      "batch_seconds": 16.69927667779848,
+      "input_signature": "da59067cc3820db6efbb4158d92e0ba2dabe5aa9741037abe21a848c2f236053",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "Navy blue zip-up hoodie with front pockets and left sleeve patch",
+          "regions": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "control_04_similar_fabrics_v0",
+              1
+            ],
+            [
+              "control_04_similar_fabrics_v1",
+              1
+            ],
+            [
+              "control_04_similar_fabrics_v2",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "control_04_similar_fabrics",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_04_similar_fabrics_v2",
+          2
+        ],
+        "R002": [
+          "control_04_similar_fabrics_v2",
+          1
+        ],
+        "R003": [
+          "control_04_similar_fabrics_v1",
+          2
+        ],
+        "R004": [
+          "control_04_similar_fabrics_v1",
+          1
+        ],
+        "R005": [
+          "control_04_similar_fabrics_v0",
+          2
+        ],
+        "R006": [
+          "control_04_similar_fabrics_v0",
+          1
+        ]
+      },
+      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments present in each view and determine which garments are consistently visible across all views.\n\n---\n\n### Step-by-step Analysis:\n\n#### View control_04_similar_fabrics_v2:\n- **R001**: Black wide-leg pants with drawstring waist and side cargo pocket.\n- **R002**: Navy blue zip-up hoodie with hood, front pockets, and a patch on the left sleeve.\n\n#### View control_04_similar_fabrics_v1:\n- **R003**: Black wide-leg pants (same style as R001 \u2014 same cut, pockets, drawstring).\n- **R004**: Navy blue zip-up hoodie (same as R002 \u2014 same color, design, patch).\n\n#### View control_04_similar_fabrics_v0:\n- **R005**: Black wide-leg pants (same style \u2014 though slightly different pocket placement or stitching, but overall construction and fabric match R001/R003).\n- **R006**: Navy blue zip-up hoodie (identical to R002/R004).\n\n---\n\n### Garment Identification:\n\nWe are to find garments that appear in **every view** with at least one visible region.\n\n- **Black wide-leg pants**:\n  - Appears in R001 (v2), R003 (v1), R005 (v0) \u2192 **All views**.\n  - Fabric, construction, and style are consistent: wide-leg, drawstring waist, cargo pockets.\n\n- **Navy blue zip-up hoodie**:\n  - Appears in R002 (v2), R004 (v1), R006 (v0) \u2192 **All views**.\n  - Fabric, color, design (zipper, hood, pockets, sleeve patch) are consistent.\n\n---\n\n### Conclusion:\n\nBoth garments are present in every view, with matching fabric, construction, and context. No other garments are consistently visible across all views.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Black wide-leg cargo pants with drawstring waist\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    },\n    {\n      \"garment\": \"Navy blue zip-up hoodie with hood and sleeve patch\",\n      \"regions\": [\"R002\", \"R004\", \"R006\"]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 17.628797691781074,
+      "batch_seconds": 17.628797691781074,
+      "input_signature": "da59067cc3820db6efbb4158d92e0ba2dabe5aa9741037abe21a848c2f236053",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "Black wide-leg cargo pants with drawstring waist",
+          "regions": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "control_04_similar_fabrics_v2",
+              2
+            ],
+            [
+              "control_04_similar_fabrics_v1",
+              2
+            ],
+            [
+              "control_04_similar_fabrics_v0",
+              2
+            ]
+          ]
+        },
+        {
+          "garment": "Navy blue zip-up hoodie with hood and sleeve patch",
+          "regions": [
+            "R002",
+            "R004",
+            "R006"
+          ],
+          "nodes": [
+            [
+              "control_04_similar_fabrics_v2",
+              1
+            ],
+            [
+              "control_04_similar_fabrics_v1",
+              1
+            ],
+            [
+              "control_04_similar_fabrics_v0",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 34.328074369579554,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790492873.6952808,
+  "training": false,
+  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "fragment_reviews": [],
+  "finalization_seconds": 0.12981533305719495,
+  "implementation_sha256": {
+    "run_joint": "ae1270eb5ff22bc739d93371a90efc5e1955d3f874a64669a1be37433baae0d3",
+    "joint_unique": "8e310cfa68e4443e26e1de40450a69e7cb5971d44f2c557c9bbd96746f051f63",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "fragment_completion": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
+}

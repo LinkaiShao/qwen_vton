@@ -1,12 +1,12 @@
 {
   "protocol": "strict_partition_veto_joint_context_v1",
   "complete": false,
-  "skus": 12,
+  "skus": 27,
   "expected_skus": 32,
-  "persistent_parts": 54,
-  "persistent_parts_kept": 54,
-  "nonpersistent_parts": 24,
-  "nonpersistent_parts_removed": 24,
+  "persistent_parts": 123,
+  "persistent_parts_kept": 123,
+  "nonpersistent_parts": 53,
+  "nonpersistent_parts_removed": 53,
   "retention": 1.0,
   "removal": 1.0,
   "pass": false,
@@ -80,6 +80,96 @@
     {
       "sku": "control_02_similar_fabrics",
       "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_03_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_03_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_03_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_03_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_04_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_04_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_04_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_04_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_05_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_05_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_05_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_05_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_06_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_06_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_06_changing_distractors",
+      "scenario": "changing_distractors",
       "passed": true,
       "errors": []
     }
