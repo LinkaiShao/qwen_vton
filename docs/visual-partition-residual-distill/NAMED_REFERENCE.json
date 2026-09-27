@@ -1,0 +1,22 @@
+{
+  "mapping": {
+    "12416975": {
+      "region": 5,
+      "iou_to_original_requested_region": 1.0
+    },
+    "13643172": {
+      "region": 3,
+      "iou_to_original_requested_region": 1.0
+    },
+    "13643170": {
+      "region": 5,
+      "iou_to_original_requested_region": 0.9514285714285714
+    },
+    "33791076": {
+      "region": 3,
+      "iou_to_original_requested_region": 0.9838349678728441
+    }
+  },
+  "sam3_revision": null,
+  "source": "same _partition as single targets_part4 export"
+}

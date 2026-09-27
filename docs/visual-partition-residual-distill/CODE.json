@@ -1,0 +1,8 @@
+{
+  "/home/link/Desktop/Code/fashion_gen_testing/super_garment_net/06_experiments/sgn-distillation(codex)/experiments/visual_partition_v3/run.py": "164f0246f948ec4d1f6be16049a32589503089eac3a31dd87c09407871deda76",
+  "/home/link/Desktop/Code/fashion_gen_testing/super_garment_net/06_experiments/sgn-distillation(codex)/experiments/visual_partition_v3/watchdog.py": "0d660f74239399944ecb47acb7569eb9b6b769535f52eda37f7c49ea1bc79f1f",
+  "/home/link/Desktop/Code/fashion_gen_testing/super_garment_net/06_experiments/sgn-distillation(codex)/experiments/visual_partition_v3/objective.py": "32d0a8811fa7a2038337d9b6f3cc88290b6c8335845c0a88cabe61330a953abe",
+  "/home/link/Desktop/Code/fashion_gen_testing/super_garment_net/06_experiments/sgn-distillation(codex)/experiments/visual_partition_v3/refiner.py": "961b2e0e21aea35335657e236c3cf52e848c461204f903394afe89d89205edfc",
+  "/home/link/Desktop/Code/fashion_gen_testing/super_garment_net/06_experiments/sgn-distillation(codex)/experiments/visual_partition_v2/train.py": "43bf5f78b7c1299a7f0e4828a15aba54ab3967fd441c50627431fd363bbb7e7b",
+  "/home/link/Desktop/Code/fashion_gen_testing/super_garment_net/06_experiments/sgn-distillation(codex)/experiments/visual_partition_v2/legacy_metrics.py": "5228ffb9db6d71beb4996eb7373e3f3191ade3823cd769a0262a3f659a42b2de"
+}

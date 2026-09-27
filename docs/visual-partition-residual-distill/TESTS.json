@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "split/merge residual targets",
+    "exact initial abstention",
+    "no frozen-baseline gradients",
+    "finite live detector gradients",
+    "foreground conservation"
+  ],
+  "loss": {
+    "total": 3.636431932449341,
+    "seg": 1.7886204719543457,
+    "presence": 3.0024757385253906,
+    "quality": 0.6931471824645996,
+    "target_regions": 10
+  },
+  "live_gradient_tensors": 55
+}

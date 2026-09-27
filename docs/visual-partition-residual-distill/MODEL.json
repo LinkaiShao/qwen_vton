@@ -1,0 +1,6 @@
+{
+  "total_parameters": 13791079,
+  "trainable_parameters": 1988676,
+  "frozen_base_parameters": 11802403,
+  "gpu": "NVIDIA GeForce RTX 5090"
+}
