@@ -1,15 +1,15 @@
 {
   "protocol": "strict_partition_veto_joint_context_v1",
-  "complete": false,
-  "skus": 27,
+  "complete": true,
+  "skus": 32,
   "expected_skus": 32,
-  "persistent_parts": 123,
-  "persistent_parts_kept": 123,
-  "nonpersistent_parts": 53,
-  "nonpersistent_parts_removed": 53,
+  "persistent_parts": 144,
+  "persistent_parts_kept": 144,
+  "nonpersistent_parts": 64,
+  "nonpersistent_parts_removed": 64,
   "retention": 1.0,
   "removal": 1.0,
-  "pass": false,
+  "pass": true,
   "records": [
     {
       "sku": "control_00_all_present",
@@ -170,6 +170,36 @@
     {
       "sku": "control_06_changing_distractors",
       "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_06_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_07_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_07_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_07_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_07_similar_fabrics",
+      "scenario": "similar_fabrics",
       "passed": true,
       "errors": []
     }

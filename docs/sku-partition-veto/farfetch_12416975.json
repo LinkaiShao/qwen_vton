@@ -982,7 +982,7 @@
   "seconds": 388.75440370617434,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790491538.299255,
+  "at": 1790493963.4810207,
   "training": false,
   "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
   "fragment_reviews": [
@@ -995,8 +995,8 @@
       "evidence": [
         {
           "identity": {
-            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
             "model": "Qwen/Qwen3-VL-32B-Instruct",
             "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
             "quantization": "1",
@@ -1020,18 +1020,18 @@
             }
           },
           "choice": "A",
-          "margin": 1.25,
+          "margin": 2.5,
           "relative_logits": [
             0.0,
-            -1.25,
-            -10.875
+            -2.5,
+            -11.25
           ],
-          "at": 1790491537.3629282
+          "at": 1790493962.7737617
         },
         {
           "identity": {
-            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
             "model": "Qwen/Qwen3-VL-32B-Instruct",
             "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
             "quantization": "1",
@@ -1055,15 +1055,17 @@
             }
           },
           "choice": "A",
-          "margin": 3.25,
+          "margin": 4.5,
           "relative_logits": [
             0.0,
-            -3.25,
-            -12.375
+            -4.5,
+            -12.5
           ],
-          "at": 1790491537.3704581
+          "at": 1790493962.787942
         }
-      ]
+      ],
+      "contextual_review": [],
+      "decision_basis": "both direct source comparisons agree"
     },
     {
       "view": "12416975_04",
@@ -1074,8 +1076,8 @@
       "evidence": [
         {
           "identity": {
-            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
             "model": "Qwen/Qwen3-VL-32B-Instruct",
             "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
             "quantization": "1",
@@ -1099,18 +1101,18 @@
             }
           },
           "choice": "A",
-          "margin": 6.0,
+          "margin": 3.25,
           "relative_logits": [
             0.0,
-            -6.0,
-            -13.25
+            -3.25,
+            -11.125
           ],
-          "at": 1790491537.376707
+          "at": 1790493962.7953858
         },
         {
           "identity": {
-            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
             "model": "Qwen/Qwen3-VL-32B-Instruct",
             "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
             "quantization": "1",
@@ -1134,15 +1136,17 @@
             }
           },
           "choice": "A",
-          "margin": 6.0,
+          "margin": 3.25,
           "relative_logits": [
             0.0,
-            -6.0,
-            -13.875
+            -3.25,
+            -11.5
           ],
-          "at": 1790491537.3864558
+          "at": 1790493962.8024635
         }
-      ]
+      ],
+      "contextual_review": [],
+      "decision_basis": "both direct source comparisons agree"
     },
     {
       "view": "12416975_04",
@@ -1153,8 +1157,8 @@
       "evidence": [
         {
           "identity": {
-            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
             "model": "Qwen/Qwen3-VL-32B-Instruct",
             "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
             "quantization": "1",
@@ -1178,18 +1182,18 @@
             }
           },
           "choice": "A",
-          "margin": 4.75,
+          "margin": 3.25,
           "relative_logits": [
             0.0,
-            -4.75,
-            -12.875
+            -3.25,
+            -11.125
           ],
-          "at": 1790491538.1217504
+          "at": 1790493963.286742
         },
         {
           "identity": {
-            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
             "model": "Qwen/Qwen3-VL-32B-Instruct",
             "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
             "quantization": "1",
@@ -1213,15 +1217,28 @@
             }
           },
           "choice": "A",
-          "margin": 5.25,
+          "margin": 3.0,
           "relative_logits": [
             0.0,
-            -5.25,
-            -13.75
+            -3.0,
+            -11.25
           ],
-          "at": 1790491538.1296325
+          "at": 1790493963.2951045
         }
-      ]
+      ],
+      "contextual_review": [],
+      "decision_basis": "both direct source comparisons agree"
     }
-  ]
+  ],
+  "finalization_seconds": 2.1398136182688177,
+  "implementation_sha256": {
+    "run_joint": "86671cbb7cb2bbdd1058e288015bfb385f9d9e4c2700f7de707a49bc55318593",
+    "joint_unique": "916ad163c46384f69d9df14b07570894a91ab12094a67b6e8d74f77f9f9bdbe2",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
 }
