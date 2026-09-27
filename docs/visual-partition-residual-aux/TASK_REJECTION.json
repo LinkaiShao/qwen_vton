@@ -1,0 +1,44 @@
+{
+  "status": "rejected",
+  "task_accepted": false,
+  "production_replacement": false,
+  "reason": "Fails visual garment partition quality despite passing weak relative metrics.",
+  "checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/control/step_01000.pt",
+  "reviewed_at": 1790484120.7059598,
+  "historical_metric_receipts_unchanged": true,
+  "verified_findings": [
+    {
+      "source": "visual_partition_v3/refiner.py and objective.py",
+      "finding": "The original head is frozen. The differentiable loss trains individual correction masks, presence and matched IoU; it does not directly supervise the final score-ordered partition. Rejected corrections leave baseline cuts unchanged. Accepted masks can also leave baseline fragments."
+    },
+    {
+      "source": "named_targets/named_12416975.npz",
+      "finding": "Teacher regions 7\u201310 are prompt=bag, score 0.30\u20130.53, on visible jacket pockets; whole garment targets are carved into component regions."
+    },
+    {
+      "source": "named_targets/named_13643170.npz",
+      "finding": "The requested region 5, score 0.1801, groups the neckline and disconnected pixels at the blazer/skirt boundary. The neckline component has 159 of 333 region pixels. Region 6, jewellery score 0.1277, covers face/neck pixels."
+    },
+    {
+      "source": "named_targets/named_33791076.npz",
+      "finding": "Teacher shoe proposals 4\u20136 have scores 0.105\u20130.110 and lie at wrists and neckline, not shoes."
+    },
+    {
+      "source": "visual_partition_v2/train.py:acceptance",
+      "finding": "The hard recall gate needs only +0.05 over a baseline of zero. Passing it can leave 95 percent of the hard cohort unrecovered. It is not a SAM3-parity gate."
+    },
+    {
+      "source": "stable_named.json",
+      "finding": "62.2 percent of predicted internal edge pixels in white-tank image and 75.7 percent in GR10K are inside an eroded single teacher region. Improved focus-region IoU did not fix the full partition."
+    }
+  ],
+  "unresolved_requirements": [
+    "Correct automatic supervision at visually distinct garment-piece level",
+    "Train final whole-image partition rather than preserve erroneous baseline labels",
+    "Evaluate complete garment masks including internal cuts and coverage",
+    "Meet latency target after correct batch-one inference"
+  ],
+  "new_gpu_run_started": false,
+  "prior_gpu_deadline": 1790481395.34889,
+  "scope": "CPU inspection of existing artifacts; no new training or model-quality improvement claimed."
+}

@@ -10,5 +10,8 @@
   "feature_contract": "Fresh C-RADIO float32 tokens quantized through fp16 to match feats.f16",
   "stable_runtime_verified": true,
   "head_latency_ms": 13.522449997253716,
-  "meets_11ms_target": false
+  "meets_11ms_target": false,
+  "task_accepted": false,
+  "status": "rejected",
+  "rejection_receipt": "TASK_REJECTION.json"
 }
