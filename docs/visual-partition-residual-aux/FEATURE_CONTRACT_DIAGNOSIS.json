@@ -1,0 +1,110 @@
+[
+  {
+    "tf32": false,
+    "quantize_fp16": false,
+    "radio_output_dtype": "torch.float32",
+    "tokens_rmse": 0.00037165338289923966,
+    "tokens_max_abs": 0.00728607177734375,
+    "tokens_equal_fraction": 0.0008623047033324838,
+    "changed_label_pixels": 327,
+    "fresh_labels": [
+      0,
+      1,
+      2,
+      3,
+      27,
+      31,
+      34
+    ],
+    "cached_labels": [
+      0,
+      1,
+      2,
+      3,
+      27,
+      31,
+      34
+    ]
+  },
+  {
+    "tf32": false,
+    "quantize_fp16": true,
+    "radio_output_dtype": "torch.float32",
+    "tokens_rmse": 0.0,
+    "tokens_max_abs": 0.0,
+    "tokens_equal_fraction": 1.0,
+    "changed_label_pixels": 0,
+    "fresh_labels": [
+      0,
+      1,
+      2,
+      3,
+      27,
+      31,
+      34
+    ],
+    "cached_labels": [
+      0,
+      1,
+      2,
+      3,
+      27,
+      31,
+      34
+    ]
+  },
+  {
+    "tf32": true,
+    "quantize_fp16": false,
+    "radio_output_dtype": "torch.float32",
+    "tokens_rmse": 0.00037165338289923966,
+    "tokens_max_abs": 0.00728607177734375,
+    "tokens_equal_fraction": 0.0008623047033324838,
+    "changed_label_pixels": 327,
+    "fresh_labels": [
+      0,
+      1,
+      2,
+      3,
+      27,
+      31,
+      34
+    ],
+    "cached_labels": [
+      0,
+      1,
+      2,
+      3,
+      27,
+      31,
+      34
+    ]
+  },
+  {
+    "tf32": true,
+    "quantize_fp16": true,
+    "radio_output_dtype": "torch.float32",
+    "tokens_rmse": 0.0,
+    "tokens_max_abs": 0.0,
+    "tokens_equal_fraction": 1.0,
+    "changed_label_pixels": 0,
+    "fresh_labels": [
+      0,
+      1,
+      2,
+      3,
+      27,
+      31,
+      34
+    ],
+    "cached_labels": [
+      0,
+      1,
+      2,
+      3,
+      27,
+      31,
+      34
+    ]
+  }
+]

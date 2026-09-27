@@ -1,0 +1,14 @@
+{
+  "checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/control/step_01000.pt",
+  "baseline": "/mnt/nvme0/visual_partition/20260926_residual_aux/baseline.pt",
+  "threshold": 0.35,
+  "gate": "presence times learned query-quality; conservative validation selection",
+  "calibrator_used": false,
+  "sam3_required_for_inference": false,
+  "teacher_required_for_training": true,
+  "head_precision": "float32 with TF32 enabled",
+  "feature_contract": "Fresh C-RADIO float32 tokens quantized through fp16 to match feats.f16",
+  "stable_runtime_verified": true,
+  "head_latency_ms": 13.522449997253716,
+  "meets_11ms_target": false
+}

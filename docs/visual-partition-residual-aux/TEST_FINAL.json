@@ -1,0 +1,99 @@
+{
+  "model": "selected segmentation model with original product gate",
+  "threshold": 0.35,
+  "images": 513,
+  "selection_frozen_before_test": true,
+  "baseline": {
+    "foreground_iou": 0.7773231664883954,
+    "pq": 0.3602404992135415,
+    "boundary_f1": 0.3116843221307183,
+    "merge_n": 1.4951267056530215,
+    "split_n": 1.4483430799220274,
+    "false_positive": 1.4269005847953216,
+    "images": 513,
+    "parts": 3073,
+    "pair_iou": 0.2950724458013269,
+    "recall50": 0.2879921900423039,
+    "tiny": {
+      "n": 974,
+      "pair_iou": 0.06932980979408938,
+      "recall50": 0.024640657084188913
+    },
+    "small": {
+      "n": 848,
+      "pair_iou": 0.12866035612495724,
+      "recall50": 0.08372641509433962
+    },
+    "large": {
+      "n": 1251,
+      "pair_iou": 0.5836342199952603,
+      "recall50": 0.6314948041566747
+    },
+    "same_object_agreement": 0.6629844333013744,
+    "different_object_collision": 0.22680226452744953,
+    "false_internal_edge_fraction": 0.415585423684161,
+    "hard": {
+      "n": 320,
+      "iou": 0.12294076775669105,
+      "recall50": 0.0
+    },
+    "easy": {
+      "n": 25,
+      "iou": 0.8495572646744278,
+      "recall50": 1.0
+    },
+    "retention650": {
+      "n": 711,
+      "iou": 0.9049064479229364,
+      "recall50": 1.0
+    }
+  },
+  "selected": {
+    "foreground_iou": 0.8355878462340703,
+    "pq": 0.42744870239696736,
+    "boundary_f1": 0.38818244887949227,
+    "merge_n": 1.3216374269005848,
+    "split_n": 1.3742690058479532,
+    "false_positive": 2.0194931773879143,
+    "images": 513,
+    "parts": 3073,
+    "pair_iou": 0.38708002426786964,
+    "recall50": 0.40676863000325414,
+    "tiny": {
+      "n": 974,
+      "pair_iou": 0.1700366223594157,
+      "recall50": 0.1673511293634497
+    },
+    "small": {
+      "n": 848,
+      "pair_iou": 0.2439463403756341,
+      "recall50": 0.23820754716981132
+    },
+    "large": {
+      "n": 1251,
+      "pair_iou": 0.6530893267454474,
+      "recall50": 0.7074340527577938
+    },
+    "same_object_agreement": 0.7258141071413863,
+    "different_object_collision": 0.2101275332279436,
+    "false_internal_edge_fraction": 0.3132036325295058,
+    "hard": {
+      "n": 320,
+      "iou": 0.20873024021751402,
+      "recall50": 0.153125
+    },
+    "easy": {
+      "n": 25,
+      "iou": 0.8541488125878981,
+      "recall50": 1.0
+    },
+    "retention650": {
+      "n": 711,
+      "iou": 0.9055377639547246,
+      "recall50": 0.9971870604781997
+    }
+  },
+  "delta_pq": 0.06720820318342585,
+  "delta_hard_recall": 0.153125,
+  "at": 1790480533.422135
+}

@@ -1,0 +1,10 @@
+{
+  "images": 3072,
+  "proposals": 36030,
+  "parameters": 337793,
+  "updates": 1000,
+  "train_mse_last_batch": 0.004978178068995476,
+  "feature_cache_seconds": 43.93101239204407,
+  "mask_and_base_weights_frozen": true,
+  "teacher_target": "best hard-mask IoU against any teacher region, for all valid proposals; named and validation images excluded"
+}

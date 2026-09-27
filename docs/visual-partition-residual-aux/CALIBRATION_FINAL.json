@@ -1,0 +1,74 @@
+{
+  "candidate": {
+    "mode": "product",
+    "threshold": 0.65,
+    "scores": {
+      "foreground_iou": 0.7992732550282188,
+      "pq": 0.4318827368067266,
+      "boundary_f1": 0.3498900614013214,
+      "merge_n": 1.2653061224489797,
+      "split_n": 1.2061224489795919,
+      "false_positive": 1.4836734693877551,
+      "images": 490,
+      "parts": 2830,
+      "pair_iou": 0.36116380876576537,
+      "recall50": 0.3784452296819788,
+      "tiny": {
+        "n": 922,
+        "pair_iou": 0.13224531145049742,
+        "recall50": 0.12255965292841649
+      },
+      "small": {
+        "n": 763,
+        "pair_iou": 0.23020656597344016,
+        "recall50": 0.22411533420707733
+      },
+      "large": {
+        "n": 1145,
+        "pair_iou": 0.6327648836786223,
+        "recall50": 0.6873362445414847
+      },
+      "same_object_agreement": 0.6977015112916044,
+      "different_object_collision": 0.20550422862629428,
+      "false_internal_edge_fraction": 0.3313719950372818,
+      "hard": {
+        "n": 251,
+        "iou": 0.14664158719960116,
+        "recall50": 0.06374501992031872
+      },
+      "easy": {
+        "n": 25,
+        "iou": 0.8755798880127521,
+        "recall50": 1.0
+      },
+      "retention650": {
+        "n": 650,
+        "iou": 0.9082195695663544,
+        "recall50": 0.9984615384615385
+      }
+    },
+    "gates": {
+      "hard_recall_gain_5pp": true,
+      "easy_iou_within_1pp": true,
+      "foreground_within_1pp": true,
+      "pq_not_worse": true,
+      "merges_not_worse": true,
+      "splits_not_worse": true,
+      "false_seams_not_worse": true,
+      "all650_iou_within_1pp": true
+    },
+    "pass": true
+  },
+  "passes_quality": true,
+  "improves_selected_model": false,
+  "calibrator": "/mnt/nvme0/visual_partition/20260926_residual_aux/calibrator.pt",
+  "head_checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/control/step_01000.pt",
+  "benchmark": {
+    "median_ms": 10.505278492928483,
+    "p95_ms": 11.483822696027346,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "encoder_excluded": true
+  },
+  "at": 1790480508.7395108,
+  "deadline": 1790481395.34889
+}
