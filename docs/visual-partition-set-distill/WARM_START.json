@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "sku": "36053101",
+      "idx": 16466,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36076478",
+      "idx": 16490,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36112926",
+      "idx": 16516,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36168297",
+      "idx": 16560,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36202202",
+      "idx": 16582,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36281303",
+      "idx": 16640,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36328511",
+      "idx": 16689,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36335844",
+      "idx": 16708,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36431887",
+      "idx": 16764,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36436266",
+      "idx": 16791,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36448650",
+      "idx": 16815,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36498034",
+      "idx": 16931,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36520727",
+      "idx": 16964,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36543320",
+      "idx": 16999,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36556199",
+      "idx": 17025,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36616282",
+      "idx": 17087,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36640328",
+      "idx": 17118,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36658141",
+      "idx": 17151,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36718045",
+      "idx": 17326,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36736812",
+      "idx": 17350,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36757972",
+      "idx": 17380,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36777578",
+      "idx": 17398,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36782943",
+      "idx": 17414,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36797463",
+      "idx": 17465,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36813031",
+      "idx": 17481,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36911235",
+      "idx": 17573,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36931889",
+      "idx": 17593,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36962553",
+      "idx": 17648,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "36980915",
+      "idx": 17684,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "37001681",
+      "idx": 17734,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "37109238",
+      "idx": 17825,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "12416975",
+      "idx": -1,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "13643172",
+      "idx": -1,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "13643170",
+      "idx": -1,
+      "changed_pixels": 0
+    },
+    {
+      "sku": "33791076",
+      "idx": -1,
+      "changed_pixels": 0
+    }
+  ],
+  "dtype": "float32, TF32 disabled",
+  "exact_label_preservation": true,
+  "parameter_count": 12296228,
+  "inference_parameter_count": 11804324
+}

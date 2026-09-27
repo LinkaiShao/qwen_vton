@@ -1,0 +1,9 @@
+{
+  "pid": 382555,
+  "at": 1790475308.633097,
+  "gpu": "RTX 5090",
+  "microbatch": 4,
+  "accumulation": 3,
+  "effective_batch": 12,
+  "reason": "H200 has 2 MiB free and rejected initial model loading; no H200 optimizer updates occurred."
+}
