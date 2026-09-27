@@ -1,0 +1,35 @@
+{
+  "completed_real_skus": 22,
+  "photographs": 94,
+  "processing_errors": 2,
+  "pending_real_skus": 44,
+  "skus": [
+    "farfetch_36791128",
+    "farfetch_12416975",
+    "farfetch_13643172",
+    "farfetch_13643170",
+    "farfetch_33791076",
+    "farfetch_36906158",
+    "farfetch_36730153",
+    "farfetch_36892437",
+    "farfetch_36545211",
+    "farfetch_36757952",
+    "farfetch_36718045",
+    "farfetch_36824009",
+    "farfetch_36601262",
+    "farfetch_36053615",
+    "farfetch_36152425",
+    "farfetch_36126166",
+    "farfetch_36759063",
+    "farfetch_36466147",
+    "farfetch_36466139",
+    "farfetch_36501242",
+    "farfetch_36543320",
+    "farfetch_36640328"
+  ],
+  "error_skus": [
+    "farfetch_36932326",
+    "farfetch_36076478"
+  ],
+  "at": 1790530589.3575082
+}
