@@ -1,0 +1,737 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "farfetch_13643172",
+  "title": "Dolce & Gabbana ribbed tank top",
+  "cohort": "named",
+  "expected_views": [
+    "13643172_00",
+    "13643172_01",
+    "13643172_02",
+    "13643172_03",
+    "13643172_04"
+  ],
+  "unique_views": [
+    "13643172_00",
+    "13643172_01",
+    "13643172_02",
+    "13643172_03",
+    "13643172_04"
+  ],
+  "aliases": {},
+  "groups": {
+    "13643172_00": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      }
+    ],
+    "13643172_01": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "13643172_02": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "13643172_03": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "13643172_04": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "13643172_00",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "white ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643172_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "13643172_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643172_01",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643172_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643172_01",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643172_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643172_01",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "white ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643172_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "13643172_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643172_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "white ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643172_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "13643172_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643172_02",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643172_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643172_02",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643172_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643172_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643172_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643172_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "white ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643172_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643172_03",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643172_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643172_04",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "white ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643172_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_03": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "13643172_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643172_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643172_04",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643172_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643172_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "13643172_00",
+          1
+        ],
+        [
+          "13643172_01",
+          3
+        ],
+        [
+          "13643172_02",
+          1
+        ],
+        [
+          "13643172_03",
+          2
+        ],
+        [
+          "13643172_04",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "joint_evidence": {
+    "forward": {
+      "sku": "farfetch_13643172",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "13643172_00",
+          1
+        ],
+        "R002": [
+          "13643172_01",
+          1
+        ],
+        "R003": [
+          "13643172_01",
+          2
+        ],
+        "R004": [
+          "13643172_01",
+          3
+        ],
+        "R005": [
+          "13643172_02",
+          1
+        ],
+        "R006": [
+          "13643172_02",
+          2
+        ],
+        "R007": [
+          "13643172_02",
+          3
+        ],
+        "R008": [
+          "13643172_03",
+          1
+        ],
+        "R009": [
+          "13643172_03",
+          2
+        ],
+        "R010": [
+          "13643172_03",
+          3
+        ],
+        "R011": [
+          "13643172_04",
+          1
+        ],
+        "R012": [
+          "13643172_04",
+          2
+        ]
+      },
+      "raw": "We are given 5 views (VIEW 00 to 04) of a clothing SKU, each with an original photograph and a set of mask regions (R001 to R012). The task is to identify **visually distinct garments** that appear in **every view** (i.e., have at least one visible mask region in each view), and to group their corresponding region IDs into tracks.\n\n---\n\n### Step 1: Understand the garments visible in each view\n\nWe will go view by view and note which garments are visible and which mask regions correspond to them.\n\n---\n\n#### VIEW 00: Original photo \u2014 white ribbed tank top, front view\n- **Garment**: White ribbed tank top (Dolce & Gabbana label visible)\n- **Mask regions**: R001 (full tank top)\n\n\u2192 Only one garment: white tank top.\n\n---\n\n#### VIEW 01: Original photo \u2014 woman wearing white tank top under black blazer, with polka dot skirt\n- **Garments**:\n  - White tank top (underneath)\n  - Black blazer\n  - Black polka dot skirt\n- **Mask regions**:\n  - R002: polka dot skirt\n  - R003: black blazer\n  - R004: white tank top (isolated, but same as in VIEW 00)\n\n\u2192 Three garments: tank top, blazer, skirt.\n\n---\n\n#### VIEW 02: Original photo \u2014 woman wearing white tank top with polka dot skirt (front, cropped)\n- **Garments**:\n  - White tank top\n  - Polka dot skirt\n- **Mask regions**:\n  - R005: white tank top (front, same as before)\n  - R006: polka dot skirt\n  - R007: small black strip \u2014 likely part of the skirt\u2019s hem or waistband? But not clearly a separate garment.\n\n\u2192 Two garments: tank top, skirt.\n\n---\n\n#### VIEW 03: Original photo \u2014 woman wearing white tank top with polka dot skirt (back view)\n- **Garments**:\n  - White tank top\n  - Polka dot skirt\n- **Mask regions**:\n  - R008: polka dot skirt (back)\n  - R009: white tank top (back)\n  - R010: small black strip \u2014 likely waistband or hem of skirt\n\n\u2192 Two garments: tank top, skirt.\n\n---\n\n#### VIEW 04: Original photo \u2014 close-up of white ribbed tank top fabric\n- **Garments**:\n  - White tank top (fabric detail)\n- **Mask regions**:\n  - R011: white tank top (close-up of ribbed fabric)\n  - R012: small black strip \u2014 likely part of the skirt\u2019s hem or waistband\n\n\u2192 One garment: tank top.\n\n---\n\n### Step 2: Identify garments that appear in **every view**\n\nWe need to find garments that have **at least one mask region visible in every view** (VIEW 00 to 04).\n\n---\n\n#### Candidate 1: White ribbed tank top\n\n- VIEW 00: R001\n- VIEW 01: R004\n- VIEW 02: R005\n- VIEW 03: R009\n- VIEW 04: R011\n\n\u2192 Appears in all 5 views. \u2705\n\n---\n\n#### Candidate 2: Black polka dot skirt\n\n- VIEW 00: **No region** \u2014 only tank top shown\n- VIEW 01: R002\n- VIEW 02: R006\n- VIEW 03: R008\n- VIEW 04: R012 (but R012 is a small black strip \u2014 is it part of the skirt? Possibly, but not clearly the full skirt)\n\n\u2192 **Missing in VIEW 00** \u2192 \u274c Not present in every view.\n\n---\n\n#### Candidate 3: Black blazer\n\n- Only in VIEW 01: R003\n- Not in any other view \u2192 \u274c\n\n---\n\n#### Candidate 4: Small black strips (R007, R010, R012)\n\nThese are small fragments \u2014 likely waistbands or hems of the skirt. But since the skirt is not visible in VIEW 00, and these fragments are not clearly a separate garment, we cannot confidently assign them to a garment that appears in every view.\n\n---\n\n### Step 3: Final decision\n\nOnly the **white ribbed tank top** appears in every view, with corresponding mask regions in each.\n\nWe must assign **all regions that belong to this garment** across all views.\n\nFrom above:\n\n- R001 (VIEW 00)\n- R004 (VIEW 01)\n- R005 (VIEW 02)\n- R009 (VIEW 03)\n- R011 (VIEW 04)\n\nNote: R004, R005, R009, R011 are all different crops of the same garment \u2014 the white tank top \u2014 from different angles and zooms.\n\nR001 is the full front view.\n\nThus, all these regions belong to the same garment.\n\n---\n\n### Final Output\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"white ribbed tank top\",\n      \"regions\": [\"R001\", \"R004\", \"R005\", \"R009\", \"R011\"]\n    }\n  ]\n}\n```",
+      "seconds": 98.86851417180151,
+      "input_tokens": 3260,
+      "tracks": [
+        {
+          "garment": "white ribbed tank top",
+          "regions": [
+            "R001",
+            "R004",
+            "R005",
+            "R009",
+            "R011"
+          ],
+          "nodes": [
+            [
+              "13643172_00",
+              1
+            ],
+            [
+              "13643172_01",
+              3
+            ],
+            [
+              "13643172_02",
+              1
+            ],
+            [
+              "13643172_03",
+              2
+            ],
+            [
+              "13643172_04",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "sku": "farfetch_13643172",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "13643172_04",
+          2
+        ],
+        "R002": [
+          "13643172_04",
+          1
+        ],
+        "R003": [
+          "13643172_03",
+          3
+        ],
+        "R004": [
+          "13643172_03",
+          2
+        ],
+        "R005": [
+          "13643172_03",
+          1
+        ],
+        "R006": [
+          "13643172_02",
+          3
+        ],
+        "R007": [
+          "13643172_02",
+          2
+        ],
+        "R008": [
+          "13643172_02",
+          1
+        ],
+        "R009": [
+          "13643172_01",
+          3
+        ],
+        "R010": [
+          "13643172_01",
+          2
+        ],
+        "R011": [
+          "13643172_01",
+          1
+        ],
+        "R012": [
+          "13643172_00",
+          1
+        ]
+      },
+      "raw": "We are given 5 views (VIEW 00 to VIEW 04) of a clothing SKU, each with an original photograph and a set of mask regions (R001 to R012). The task is to identify **visually distinct garments** that appear in **every view** (i.e., have at least one visible region in each view), using the provided region IDs.\n\n---\n\n### Step 1: Understand the views and regions\n\nWe will go view by view and note which regions are available and what they represent.\n\n---\n\n#### VIEW 13643172_04 (Close-up of white ribbed top, bottom edge)\n- Regions: R001 (black polka dot skirt bottom), R002 (white ribbed top)\n- R002: white ribbed tank top, bottom portion\n- R001: black fabric with white polka dots \u2014 likely the skirt\n\n---\n\n#### VIEW 13643172_03 (Back view of model wearing white tank and polka dot skirt)\n- Regions: R003 (black line \u2014 possibly waistband or seam), R004 (white tank top, back view), R005 (black polka dot skirt)\n- R004: white tank top, back\n- R005: black polka dot skirt, front/back\n\n---\n\n#### VIEW 13643172_02 (Front view of model wearing white tank and polka dot skirt)\n- Regions: R006 (black line \u2014 possibly waistband or seam), R007 (black polka dot skirt), R008 (white tank top, front)\n- R008: white tank top, front\n- R007: black polka dot skirt\n\n---\n\n#### VIEW 13643172_01 (Full outfit: black blazer, white tank, polka dot skirt, bag, shoes)\n- Regions: R009 (white tank top, front, under blazer), R010 (black blazer), R011 (black polka dot skirt)\n- R009: white tank top, visible under blazer\n- R010: black blazer\n- R011: black polka dot skirt\n\n---\n\n#### VIEW 13643172_00 (Flat lay of white tank top)\n- Regions: R012 (white tank top, front, flat)\n- R012: white tank top, full front view\n\n---\n\n### Step 2: Identify garments that appear in every view\n\nWe need to find garments that have **at least one region visible in every view**.\n\n---\n\n#### Candidate 1: White ribbed tank top\n\n- VIEW 04: R002 (bottom of tank)\n- VIEW 03: R004 (back of tank)\n- VIEW 02: R008 (front of tank)\n- VIEW 01: R009 (tank under blazer)\n- VIEW 00: R012 (flat lay of tank)\n\n\u2705 Appears in all 5 views.\n\nThis is one consistent garment: **white ribbed tank top**.\n\n---\n\n#### Candidate 2: Black polka dot skirt\n\n- VIEW 04: R001 (bottom of skirt)\n- VIEW 03: R005 (skirt)\n- VIEW 02: R007 (skirt)\n- VIEW 01: R011 (skirt)\n- VIEW 00: \u274c No region for skirt \u2014 only tank top is shown.\n\n\u274c Does **not** appear in VIEW 00.\n\nSo, **not present in every view**.\n\n---\n\n#### Candidate 3: Black blazer\n\n- Appears only in VIEW 01: R010\n- Not present in other views.\n\n\u274c Not in every view.\n\n---\n\n#### Candidate 4: Other regions (R003, R006) \u2014 black lines\n\nThese appear to be seams or waistbands, not full garments. They are not consistent across views and do not represent a full garment.\n\n---\n\n### Step 3: Final decision\n\nOnly **one garment** appears in **every view**: the **white ribbed tank top**, represented by regions:\n\n- R002 (VIEW 04)\n- R004 (VIEW 03)\n- R008 (VIEW 02)\n- R009 (VIEW 01)\n- R012 (VIEW 00)\n\nAll these regions show the same garment: a white ribbed tank top, from different angles and contexts (flat, worn, under blazer, etc.).\n\n---\n\n### Output JSON\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"white ribbed tank top\",\n      \"regions\": [\"R002\", \"R004\", \"R008\", \"R009\", \"R012\"]\n    }\n  ]\n}\n```",
+      "seconds": 35.684216713067144,
+      "input_tokens": 3260,
+      "tracks": [
+        {
+          "garment": "white ribbed tank top",
+          "regions": [
+            "R002",
+            "R004",
+            "R008",
+            "R009",
+            "R012"
+          ],
+          "nodes": [
+            [
+              "13643172_04",
+              1
+            ],
+            [
+              "13643172_03",
+              2
+            ],
+            [
+              "13643172_02",
+              1
+            ],
+            [
+              "13643172_01",
+              3
+            ],
+            [
+              "13643172_00",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 134.55273088486865,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790491538.7111397,
+  "training": false,
+  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "fragment_reviews": []
+}

@@ -1,0 +1,876 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "farfetch_13643170",
+  "title": "Dolce & Gabbana ribbed tank top",
+  "cohort": "named",
+  "expected_views": [
+    "13643170_00",
+    "13643170_01",
+    "13643170_02",
+    "13643170_03",
+    "13643170_04"
+  ],
+  "unique_views": [
+    "13643170_00",
+    "13643170_01",
+    "13643170_02",
+    "13643170_03",
+    "13643170_04"
+  ],
+  "aliases": {},
+  "groups": {
+    "13643170_00": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      }
+    ],
+    "13643170_01": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "13643170_02": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "13643170_03": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "13643170_04": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "13643170_00",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "black ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643170_03": {
+            "status": "matched",
+            "group": [
+              2,
+              3
+            ]
+          },
+          "13643170_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          },
+          "13643170_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643170_01",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643170_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643170_01",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643170_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643170_01",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "black ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643170_03": {
+            "status": "matched",
+            "group": [
+              2,
+              3
+            ]
+          },
+          "13643170_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643170_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "black ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643170_03": {
+            "status": "matched",
+            "group": [
+              2,
+              3
+            ]
+          },
+          "13643170_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          },
+          "13643170_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643170_02",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643170_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643170_02",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643170_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643170_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "13643170_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "13643170_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "13643170_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "black ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643170_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          },
+          "13643170_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "13643170_03",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "black ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643170_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          },
+          "13643170_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        },
+        "keep_basis": "Disputed fragment belongs to a confirmed all-view garment in both same-image orders"
+      },
+      {
+        "view": "13643170_04",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "black ribbed tank top",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "13643170_03": {
+            "status": "matched",
+            "group": [
+              2,
+              3
+            ]
+          },
+          "13643170_01": {
+            "status": "matched",
+            "group": [
+              3
+            ]
+          },
+          "13643170_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "13643170_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "13643170_00",
+          1
+        ],
+        [
+          "13643170_01",
+          3
+        ],
+        [
+          "13643170_02",
+          1
+        ],
+        [
+          "13643170_03",
+          2
+        ],
+        [
+          "13643170_03",
+          3
+        ],
+        [
+          "13643170_04",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "joint_evidence": {
+    "forward": {
+      "sku": "farfetch_13643170",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "13643170_00",
+          1
+        ],
+        "R002": [
+          "13643170_01",
+          1
+        ],
+        "R003": [
+          "13643170_01",
+          2
+        ],
+        "R004": [
+          "13643170_01",
+          3
+        ],
+        "R005": [
+          "13643170_02",
+          1
+        ],
+        "R006": [
+          "13643170_02",
+          2
+        ],
+        "R007": [
+          "13643170_02",
+          3
+        ],
+        "R008": [
+          "13643170_03",
+          1
+        ],
+        "R009": [
+          "13643170_03",
+          2
+        ],
+        "R010": [
+          "13643170_03",
+          3
+        ],
+        "R011": [
+          "13643170_04",
+          1
+        ]
+      },
+      "raw": "We are given 5 views (VIEW 00 to 04) of a clothing SKU, each with an original photograph and a set of mask regions (R001 to R011). The task is to identify **visually distinct garments** that appear in **every view** (i.e., have at least one visible mask region in each view), and to group the region IDs that belong to the same garment across all views.\n\n---\n\n### Step 1: Understand the garments visible in each view\n\n#### VIEW 00:\n- **Original**: Black ribbed tank top (front view, alone).\n- **Mask regions**: R001 \u2192 shows the full tank top.\n\n\u2192 Garment: **Black ribbed tank top** (front view, alone).\n\n#### VIEW 01:\n- **Original**: Model wearing black blazer over black top, with black-and-white floral skirt, holding a blue bag.\n- **Mask regions**:\n  - R002 \u2192 floral skirt\n  - R003 \u2192 black blazer\n  - R004 \u2192 black top (under blazer, visible at neckline)\n\n\u2192 Garments: **Black blazer**, **black-and-white floral skirt**, **black top** (underneath).\n\nNote: The black top under the blazer is likely the same as in VIEW 00 \u2014 same color, style, and context.\n\n#### VIEW 02:\n- **Original**: Model wearing black tank top with floral skirt (side view).\n- **Mask regions**:\n  - R005 \u2192 black tank top (side view)\n  - R006 \u2192 floral skirt\n  - R007 \u2192 small fragment (possibly a strap or edge \u2014 unclear)\n\n\u2192 Garments: **Black tank top**, **floral skirt**.\n\n#### VIEW 03:\n- **Original**: Model wearing black tank top with floral skirt (back view).\n- **Mask regions**:\n  - R008 \u2192 floral skirt\n  - R009 \u2192 black tank top (back view)\n  - R010 \u2192 small fragment (possibly a strap or edge)\n\n\u2192 Garments: **Black tank top**, **floral skirt**.\n\n#### VIEW 04:\n- **Original**: Close-up of black ribbed fabric (likely the tank top).\n- **Mask regions**:\n  - R011 \u2192 black ribbed fabric (detail)\n\n\u2192 Garment: **Black ribbed fabric** \u2014 likely the same tank top.\n\n---\n\n### Step 2: Identify garments that appear in **every view**\n\nWe need to find garments that have **at least one mask region in every view**.\n\nLet\u2019s check each garment candidate:\n\n---\n\n#### Candidate 1: **Black ribbed tank top**\n\n- VIEW 00: R001 \u2192 present\n- VIEW 01: R004 \u2192 visible as undershirt under blazer \u2192 same garment? Let\u2019s check.\n  - R004 shows a black top at the neckline \u2014 same color, likely same fabric as R001.\n  - Also, in VIEW 02 and 03, R005 and R009 show the same tank top from different angles.\n  - VIEW 04: R011 \u2192 fabric detail \u2014 same ribbed texture as R001.\n  \u2192 **Consistent across all views**.\n\n\u2192 **YES, this garment appears in every view**.\n\nRegions: R001 (VIEW 00), R004 (VIEW 01), R005 (VIEW 02), R009 (VIEW 03), R011 (VIEW 04)\n\n---\n\n#### Candidate 2: **Black-and-white floral skirt**\n\n- VIEW 01: R002 \u2192 present\n- VIEW 02: R006 \u2192 present\n- VIEW 03: R008 \u2192 present\n- VIEW 00: **No mask region** \u2192 R001 is only the tank top.\n- VIEW 04: **No mask region** \u2192 R011 is fabric detail of tank top.\n\n\u2192 **Missing in VIEW 00 and 04** \u2192 **Not present in every view** \u2192 **Excluded**.\n\n---\n\n#### Candidate 3: **Black blazer**\n\n- VIEW 01: R003 \u2192 present\n- Other views: **No mask region** \u2192 **Not present in every view** \u2192 **Excluded**.\n\n---\n\n#### Candidate 4: **Other fragments (R007, R010)**\n\n- R007 (VIEW 02): small fragment \u2014 unclear what it is. Could be a strap or edge of the skirt or top? But not clearly part of the tank top or skirt.\n- R010 (VIEW 03): similar \u2014 small fragment.\n- R004 (VIEW 01): visible as neckline of top \u2014 already assigned to tank top.\n\n\u2192 These are ambiguous and not clearly part of a garment that appears in every view. We cannot assign them to a consistent garment across all views.\n\n---\n\n### Step 3: Final Assignment\n\nOnly **one garment** appears in every view: the **black ribbed tank top**, represented by regions:\n\n- R001 (VIEW 00)\n- R004 (VIEW 01) \u2014 visible as undershirt\n- R005 (VIEW 02) \u2014 side view\n- R009 (VIEW 03) \u2014 back view\n- R011 (VIEW 04) \u2014 fabric detail\n\nAll these regions show the same garment: black ribbed tank top, from different angles and contexts.\n\n---\n\n### Final Output\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"black ribbed tank top\",\n      \"regions\": [\"R001\", \"R004\", \"R005\", \"R009\", \"R011\"]\n    }\n  ]\n}\n```",
+      "seconds": 58.42880864907056,
+      "input_tokens": 3199,
+      "tracks": [
+        {
+          "garment": "black ribbed tank top",
+          "regions": [
+            "R001",
+            "R004",
+            "R005",
+            "R009",
+            "R011"
+          ],
+          "nodes": [
+            [
+              "13643170_00",
+              1
+            ],
+            [
+              "13643170_01",
+              3
+            ],
+            [
+              "13643170_02",
+              1
+            ],
+            [
+              "13643170_03",
+              2
+            ],
+            [
+              "13643170_04",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "sku": "farfetch_13643170",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "13643170_04",
+          1
+        ],
+        "R002": [
+          "13643170_03",
+          3
+        ],
+        "R003": [
+          "13643170_03",
+          2
+        ],
+        "R004": [
+          "13643170_03",
+          1
+        ],
+        "R005": [
+          "13643170_02",
+          3
+        ],
+        "R006": [
+          "13643170_02",
+          2
+        ],
+        "R007": [
+          "13643170_02",
+          1
+        ],
+        "R008": [
+          "13643170_01",
+          3
+        ],
+        "R009": [
+          "13643170_01",
+          2
+        ],
+        "R010": [
+          "13643170_01",
+          1
+        ],
+        "R011": [
+          "13643170_00",
+          1
+        ]
+      },
+      "raw": "After analyzing all views and their corresponding mask regions, we must identify garments that are **visibly present in at least one mask region in every view** (i.e., in VIEW 00, 01, 02, 03, 04). The key is to track garments by their **fabric, construction, color, and context**, even if they appear in different forms (e.g., alone, worn, from behind, as a detail).\n\n---\n\n### Step-by-step Analysis:\n\n#### VIEW 04 (R001): Close-up of black ribbed fabric.\n- R001: Black ribbed fabric \u2014 likely the **tank top**.\n\n#### VIEW 03 (R002, R003, R004):\n- R002: Black horizontal band \u2014 likely the **hem of the tank top**.\n- R003: Black tank top \u2014 full silhouette.\n- R004: Black and white floral skirt \u2014 **floral skirt**.\n\n#### VIEW 02 (R005, R006, R007):\n- R005: Black horizontal band \u2014 again, likely **tank top hem**.\n- R006: Floral skirt \u2014 same as R004.\n- R007: Black tank top \u2014 same as R003.\n\n#### VIEW 01 (R008, R009, R010):\n- R008: Black V-neck shape \u2014 likely **undershirt or tank top neckline**.\n- R009: Black blazer \u2014 **blazer**.\n- R010: Floral skirt \u2014 same as R004 and R006.\n\n#### VIEW 00 (R011):\n- R011: Black tank top \u2014 full front view.\n\n---\n\n### Garment Tracking:\n\nWe need garments that appear in **every view** (i.e., in at least one mask region per view).\n\n#### 1. **Black Ribbed Tank Top**\n- Appears in:\n  - VIEW 04: R001 (fabric detail)\n  - VIEW 03: R003 (full top)\n  - VIEW 02: R007 (full top)\n  - VIEW 01: R008 (neckline detail \u2014 likely same garment)\n  - VIEW 00: R011 (full front)\n- Also appears as hem in R002 and R005 \u2014 but these are parts of the same garment.\n- **Conclusion**: This garment is visible in every view, even if only as a detail (like neckline or hem).\n\n#### 2. **Black and White Floral Skirt**\n- Appears in:\n  - VIEW 03: R004\n  - VIEW 02: R006\n  - VIEW 01: R010\n- **Missing in VIEW 04 and VIEW 00** \u2014 not present in every view.\n- **Conclusion**: Not a track.\n\n#### 3. **Black Blazer**\n- Appears only in VIEW 01: R009\n- **Missing in other views** \u2014 not present in every view.\n- **Conclusion**: Not a track.\n\n#### 4. **Other regions (R002, R005)** \u2014 these are parts of the tank top (hem), so they are included in the tank top track.\n\n---\n\n### Final Tracks:\n\nOnly **one garment** is visible in **every view**: the **black ribbed tank top**, represented by regions:\n\n- R001 (VIEW 04 \u2014 fabric detail)\n- R002 (VIEW 03 \u2014 hem)\n- R003 (VIEW 03 \u2014 full top)\n- R005 (VIEW 02 \u2014 hem)\n- R007 (VIEW 02 \u2014 full top)\n- R008 (VIEW 01 \u2014 neckline)\n- R011 (VIEW 00 \u2014 full front)\n\nNote: R004, R006, R010 are the skirt \u2014 not present in every view. R009 is the blazer \u2014 not present in every view.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Black ribbed tank top\",\n      \"regions\": [\"R001\", \"R002\", \"R003\", \"R005\", \"R007\", \"R008\", \"R011\"]\n    }\n  ]\n}\n```",
+      "seconds": 32.76912879291922,
+      "input_tokens": 3199,
+      "tracks": [
+        {
+          "garment": "Black ribbed tank top",
+          "regions": [
+            "R001",
+            "R002",
+            "R003",
+            "R005",
+            "R007",
+            "R008",
+            "R011"
+          ],
+          "nodes": [
+            [
+              "13643170_04",
+              1
+            ],
+            [
+              "13643170_03",
+              3
+            ],
+            [
+              "13643170_03",
+              2
+            ],
+            [
+              "13643170_02",
+              3
+            ],
+            [
+              "13643170_02",
+              1
+            ],
+            [
+              "13643170_01",
+              3
+            ],
+            [
+              "13643170_00",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 91.19793744198978,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790491540.2463267,
+  "training": false,
+  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "fragment_reviews": [
+    {
+      "view": "13643170_02",
+      "part": 3,
+      "track": 0,
+      "anchor_part": 1,
+      "both_orders_same": false,
+      "evidence": [
+        {
+          "identity": {
+            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "d73af22376028252a0dda1d26674e3b2ba0f72f901e1104fa2bb5f05a0d04288",
+            "partition": "12b6adb1b7cbc737294861615bb594835160dc5d86a5473ee6611ddcace8af2a",
+            "a": 3,
+            "b": 1,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                226,
+                416,
+                432,
+                534
+              ],
+              "2": [
+                226,
+                84,
+                430,
+                432
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -2.5,
+          "relative_logits": [
+            -2.5,
+            0.0,
+            -12.375
+          ],
+          "at": 1790491540.0500426
+        },
+        {
+          "identity": {
+            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "d73af22376028252a0dda1d26674e3b2ba0f72f901e1104fa2bb5f05a0d04288",
+            "partition": "12b6adb1b7cbc737294861615bb594835160dc5d86a5473ee6611ddcace8af2a",
+            "a": 1,
+            "b": 3,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                226,
+                84,
+                430,
+                432
+              ],
+              "2": [
+                226,
+                416,
+                432,
+                534
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -5.25,
+          "relative_logits": [
+            -5.25,
+            0.0,
+            -11.5
+          ],
+          "at": 1790491540.0585797
+        }
+      ]
+    },
+    {
+      "view": "13643170_03",
+      "part": 3,
+      "track": 0,
+      "anchor_part": 2,
+      "both_orders_same": true,
+      "evidence": [
+        {
+          "identity": {
+            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "93fdbb9d64f6bd7ddd2ff65b2227c178daed0b84aa866e7eed72399ee0068f72",
+            "partition": "97abebb4e1345f70ad0a6e1eab7aba1861f1872c27a89816ab6503100a66fa77",
+            "a": 3,
+            "b": 2,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                194,
+                430,
+                418,
+                478
+              ],
+              "2": [
+                204,
+                72,
+                416,
+                446
+              ]
+            }
+          },
+          "choice": "A",
+          "margin": 4.0,
+          "relative_logits": [
+            0.0,
+            -4.0,
+            -14.0
+          ],
+          "at": 1790491540.065257
+        },
+        {
+          "identity": {
+            "prompt": "Image 1 is the full SOURCE photograph: REGION 1 is outlined blue, REGION 2 red. Images 2 and 3 isolate their exact mask pixels. The regions come from the SAME photograph. Are they fragments of ONE visually distinct garment? Use their positions and garment boundaries in the full photograph, not only the enlarged crop colors. A collar, sleeve, hem, or printed/embroidered graphic can belong to the same garment as its main fabric body. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Background outlines, mixed unrelated masks, and unidentifiable fragments must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "e13c477c1d66c969f7223a7013609dd8c58992723910e2f5a26929bbd9f7e341",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "93fdbb9d64f6bd7ddd2ff65b2227c178daed0b84aa866e7eed72399ee0068f72",
+            "partition": "97abebb4e1345f70ad0a6e1eab7aba1861f1872c27a89816ab6503100a66fa77",
+            "a": 2,
+            "b": 3,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                204,
+                72,
+                416,
+                446
+              ],
+              "2": [
+                194,
+                430,
+                418,
+                478
+              ]
+            }
+          },
+          "choice": "A",
+          "margin": 1.75,
+          "relative_logits": [
+            0.0,
+            -1.75,
+            -12.75
+          ],
+          "at": 1790491540.0714355
+        }
+      ]
+    }
+  ]
+}
