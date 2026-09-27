@@ -1,0 +1,1707 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "farfetch_36798322",
+  "title": "Sportmax tassel-detail leather shoulder bag",
+  "cohort": "validation",
+  "expected_views": [
+    "36798322_00",
+    "36798322_01",
+    "36798322_02",
+    "36798322_03",
+    "36798322_04"
+  ],
+  "unique_views": [
+    "36798322_00",
+    "36798322_01",
+    "36798322_02",
+    "36798322_03",
+    "36798322_04"
+  ],
+  "aliases": {},
+  "groups": {
+    "36798322_00": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "36798322_01": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      },
+      {
+        "id": 4,
+        "parts": [
+          4
+        ]
+      },
+      {
+        "id": 5,
+        "parts": [
+          5
+        ]
+      },
+      {
+        "id": 6,
+        "parts": [
+          6
+        ]
+      }
+    ],
+    "36798322_02": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "36798322_03": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      },
+      {
+        "id": 4,
+        "parts": [
+          4
+        ]
+      },
+      {
+        "id": 5,
+        "parts": [
+          5
+        ]
+      }
+    ],
+    "36798322_04": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      },
+      {
+        "id": 4,
+        "parts": [
+          4
+        ]
+      },
+      {
+        "id": 5,
+        "parts": [
+          5
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "36798322_00",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_00",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 6,
+        "parts": [
+          6
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_02",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_02",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
+    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+  },
+  "joint_evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36798322",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36798322_00",
+          1
+        ],
+        "R002": [
+          "36798322_00",
+          2
+        ],
+        "R003": [
+          "36798322_01",
+          1
+        ],
+        "R004": [
+          "36798322_01",
+          2
+        ],
+        "R005": [
+          "36798322_01",
+          3
+        ],
+        "R006": [
+          "36798322_01",
+          4
+        ],
+        "R007": [
+          "36798322_01",
+          5
+        ],
+        "R008": [
+          "36798322_01",
+          6
+        ],
+        "R009": [
+          "36798322_02",
+          1
+        ],
+        "R010": [
+          "36798322_02",
+          2
+        ],
+        "R011": [
+          "36798322_02",
+          3
+        ],
+        "R012": [
+          "36798322_03",
+          1
+        ],
+        "R013": [
+          "36798322_03",
+          2
+        ],
+        "R014": [
+          "36798322_03",
+          3
+        ],
+        "R015": [
+          "36798322_03",
+          4
+        ],
+        "R016": [
+          "36798322_03",
+          5
+        ],
+        "R017": [
+          "36798322_04",
+          1
+        ],
+        "R018": [
+          "36798322_04",
+          2
+        ],
+        "R019": [
+          "36798322_04",
+          3
+        ],
+        "R020": [
+          "36798322_04",
+          4
+        ],
+        "R021": [
+          "36798322_04",
+          5
+        ]
+      },
+      "raw": "After analyzing all views and their corresponding mask regions, we are tasked with identifying garments that are **visibly present in at least one mask region in every view** (i.e., in VIEW 36798322_00 through VIEW 36798322_04). The garment must be identifiable by fabric, construction, color, and context across all views \u2014 not just by color alone.\n\n---\n\n### Step-by-step Analysis:\n\n#### VIEW 36798322_00:\n- **R001**: Gray fuzzy sweater (upper body, sleeve, back)\n- **R002**: Black skirt or pants (lower body, waist area)\n\n#### VIEW 36798322_01:\n- **R003\u2013R008**: All regions are parts of the **black leather bag** (zipper, strap, tassels, etc.). No garment is visible.\n\n#### VIEW 36798322_02:\n- **R009**: Black leather bag (full view)\n- **R010**: White silhouette \u2014 likely a mask for the bag\u2019s shape, not a garment\n- **R011**: Bag strap \u2014 part of the bag\n\n#### VIEW 36798322_03:\n- **R012**: Bag tassels\n- **R013**: Bag body\n- **R014**: Strap details\n- **R015**: White silhouette \u2014 mask for bag shape\n- **R016**: Strap\n\n#### VIEW 36798322_04:\n- **R017\u2013R021**: All regions are parts of the **bag\u2019s tassels and strap** \u2014 no garment visible.\n\n---\n\n### Key Observation:\n\nThe **only garment** visible in **VIEW 36798322_00** is the gray fuzzy sweater (R001) and black pants/skirt (R002). However, **in all other views (01\u201304), there are no garments visible at all** \u2014 only the black leather bag and its components.\n\nTherefore, **no garment is visible in every view**. The gray sweater (R001) and black pants (R002) are only present in VIEW 00, and the bag is present in all other views, but it is not a garment.\n\n---\n\n### Conclusion:\n\nSince **no garment appears in every view**, the tracks list is empty.\n\n```json\n{\"tracks\":[]}\n```",
+      "batch_size": 1,
+      "seconds": 18.120105769950897,
+      "batch_seconds": 18.120105769950897,
+      "input_signature": "ab61c88c568a75a91a0e01f0801f29bb0839d0d775be61e6685a430655a1ffe4",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36798322",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36798322_04",
+          5
+        ],
+        "R002": [
+          "36798322_04",
+          4
+        ],
+        "R003": [
+          "36798322_04",
+          3
+        ],
+        "R004": [
+          "36798322_04",
+          2
+        ],
+        "R005": [
+          "36798322_04",
+          1
+        ],
+        "R006": [
+          "36798322_03",
+          5
+        ],
+        "R007": [
+          "36798322_03",
+          4
+        ],
+        "R008": [
+          "36798322_03",
+          3
+        ],
+        "R009": [
+          "36798322_03",
+          2
+        ],
+        "R010": [
+          "36798322_03",
+          1
+        ],
+        "R011": [
+          "36798322_02",
+          3
+        ],
+        "R012": [
+          "36798322_02",
+          2
+        ],
+        "R013": [
+          "36798322_02",
+          1
+        ],
+        "R014": [
+          "36798322_01",
+          6
+        ],
+        "R015": [
+          "36798322_01",
+          5
+        ],
+        "R016": [
+          "36798322_01",
+          4
+        ],
+        "R017": [
+          "36798322_01",
+          3
+        ],
+        "R018": [
+          "36798322_01",
+          2
+        ],
+        "R019": [
+          "36798322_01",
+          1
+        ],
+        "R020": [
+          "36798322_00",
+          2
+        ],
+        "R021": [
+          "36798322_00",
+          1
+        ]
+      },
+      "raw": "After analyzing all views and their corresponding mask regions, we are tasked with identifying **visually distinct garments** that appear in **every view** (i.e., in at least one mask region per view). The garment must be consistent in fabric, construction, color, and context across all views. We must not invent unseen pixels or combine regions from different garments.\n\n---\n\n### Step-by-step Analysis:\n\nWe have 5 views (00 to 04), each with its own set of mask regions.\n\n---\n\n#### VIEW 36798322_04 (Regions: R001, R002, R003, R004, R005)\n\n- **R001**: A single black leather leaf-shaped tassel (part of the bag\u2019s decoration).\n- **R002**: A thin black leather strap (part of the bag\u2019s strap).\n- **R003**: A mask of the bag\u2019s body \u2014 but it\u2019s mostly white, suggesting it\u2019s a mask of the background or a non-visual region.\n- **R004**: A curved black leather section \u2014 likely part of the bag\u2019s body.\n- **R005**: The full cluster of black leather tassels (feather-like decoration).\n\n\u2192 **No garment** is visible here \u2014 only parts of the **handbag**.\n\n---\n\n#### VIEW 36798322_03 (Regions: R006, R007, R008, R009, R10)\n\n- **R006**: The full black leather shoulder strap.\n- **R007**: A mask of the bag\u2019s body \u2014 again, mostly white.\n- **R008**: Small black leather pieces \u2014 likely parts of the strap or hardware.\n- **R009**: The main body of the black leather bag.\n- **R010**: The cluster of black leather tassels.\n\n\u2192 Again, **only the handbag** is visible.\n\n---\n\n#### VIEW 36798322_02 (Regions: R011, R012, R013)\n\n- **R011**: The full black leather shoulder strap.\n- **R012**: A mask of the bag\u2019s body \u2014 mostly white.\n- **R013**: The main body of the black leather bag.\n\n\u2192 Still, **only the handbag**.\n\n---\n\n#### VIEW 36798322_01 (Regions: R014, R015, R016, R017, R018, R019)\n\n- **R014**: The gold zipper and black leather edge \u2014 part of the bag\u2019s opening.\n- **R015**: A close-up of the bag\u2019s top edge with hardware.\n- **R016**: The cluster of black leather tassels.\n- **R017**: A thin black leather strap.\n- **R018**: A mask of the bag\u2019s body \u2014 mostly white.\n- **R019**: The bag\u2019s opening with zipper and hardware.\n\n\u2192 Again, **only the handbag**.\n\n---\n\n#### VIEW 36798322_00 (Regions: R020, R021)\n\n- **R020**: A black garment \u2014 likely the bottom of a dress or skirt \u2014 worn by the model.\n- **R021**: A gray, fuzzy sweater \u2014 worn by the model.\n\n\u2192 **Here, we see garments worn by the model**.\n\n---\n\n### Key Insight:\n\nIn **all views except VIEW 00**, the only visible object is the **black leather handbag**. In **VIEW 00**, we see the **model wearing a gray sweater and black bottom garment**.\n\nThe problem requires us to find garments that have **visible pixels in an available mask in EVERY VIEW**.\n\nBut in **VIEWs 01\u201304**, **no garment is visible** \u2014 only the handbag. The handbag is not a garment (it\u2019s an accessory). The gray sweater and black bottom garment are only visible in **VIEW 00**.\n\nTherefore, **no garment appears in every view**.\n\n---\n\n### Conclusion:\n\nThere is **no garment** that appears in **every view** (i.e., in at least one mask region per view). The handbag is not a garment. The garments (sweater and bottom) are only visible in VIEW 00.\n\nThus, the answer is an empty list.\n\n---\n\n```json\n{\"tracks\":[]}\n```",
+      "batch_size": 1,
+      "seconds": 31.38835891103372,
+      "batch_seconds": 31.38835891103372,
+      "input_signature": "ab61c88c568a75a91a0e01f0801f29bb0839d0d775be61e6685a430655a1ffe4",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 49.508464680984616,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790530608.7335768,
+  "training": false,
+  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
+  "fragment_reviews": [],
+  "presence_reviews": [],
+  "decision_before_presence_review": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "36798322_00",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_00",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_01",
+        "group": 6,
+        "parts": [
+          6
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_02",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_02",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_03",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36798322_04",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36798322_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36798322_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
+  "finalization_seconds": 0.20921448478475213,
+  "implementation_sha256": {
+    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
+    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
+    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
+}

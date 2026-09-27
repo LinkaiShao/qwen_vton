@@ -1,0 +1,2475 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "sku": "farfetch_36928543",
+  "title": "Closed ribbed roll-neck sweater",
+  "cohort": "validation",
+  "expected_views": [
+    "36928543_00",
+    "36928543_01",
+    "36928543_02",
+    "36928543_03",
+    "36928543_04",
+    "36928543_05",
+    "36928543_06"
+  ],
+  "unique_views": [
+    "36928543_00",
+    "36928543_01",
+    "36928543_02",
+    "36928543_03",
+    "36928543_04",
+    "36928543_05",
+    "36928543_06"
+  ],
+  "aliases": {},
+  "groups": {
+    "36928543_00": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      },
+      {
+        "id": 4,
+        "parts": [
+          4
+        ]
+      },
+      {
+        "id": 5,
+        "parts": [
+          5
+        ]
+      }
+    ],
+    "36928543_01": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      }
+    ],
+    "36928543_02": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      }
+    ],
+    "36928543_03": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "36928543_04": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      }
+    ],
+    "36928543_05": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ],
+    "36928543_06": [
+      {
+        "id": 1,
+        "parts": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "parts": [
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "parts": [
+          3
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "36928543_00",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_00",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_00",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_00",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_00",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_01",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_03",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_04",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_04",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_05",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_05",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_05",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_06",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_06",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_06",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "36928543_00",
+          2
+        ],
+        [
+          "36928543_01",
+          1
+        ],
+        [
+          "36928543_02",
+          1
+        ],
+        [
+          "36928543_03",
+          1
+        ],
+        [
+          "36928543_03",
+          2
+        ],
+        [
+          "36928543_03",
+          3
+        ],
+        [
+          "36928543_04",
+          1
+        ],
+        [
+          "36928543_05",
+          2
+        ],
+        [
+          "36928543_06",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
+    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+  },
+  "joint_evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36928543",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36928543_00",
+          1
+        ],
+        "R002": [
+          "36928543_00",
+          2
+        ],
+        "R003": [
+          "36928543_00",
+          3
+        ],
+        "R004": [
+          "36928543_00",
+          4
+        ],
+        "R005": [
+          "36928543_00",
+          5
+        ],
+        "R006": [
+          "36928543_01",
+          1
+        ],
+        "R007": [
+          "36928543_02",
+          1
+        ],
+        "R008": [
+          "36928543_03",
+          1
+        ],
+        "R009": [
+          "36928543_03",
+          2
+        ],
+        "R010": [
+          "36928543_03",
+          3
+        ],
+        "R011": [
+          "36928543_04",
+          1
+        ],
+        "R012": [
+          "36928543_04",
+          2
+        ],
+        "R013": [
+          "36928543_05",
+          1
+        ],
+        "R014": [
+          "36928543_05",
+          2
+        ],
+        "R015": [
+          "36928543_05",
+          3
+        ],
+        "R016": [
+          "36928543_06",
+          1
+        ],
+        "R017": [
+          "36928543_06",
+          2
+        ],
+        "R018": [
+          "36928543_06",
+          3
+        ]
+      },
+      "raw": "After analyzing all views and their associated mask regions, we must identify garments that are **visibly present in at least one mask region in every view**. The key is to track garments by their **fabric, construction, color, and context**, and ensure that each region assigned to a garment is from a view where that garment is visible.\n\n---\n\n### Step-by-step Analysis:\n\nWe have 7 views (VIEW 36928543_00 to _06). Each view has one or more mask regions. We must find garments that appear in **at least one region in every view**.\n\n---\n\n#### View 00: Full outfit\nRegions: R001 (pants), R002 (sweater), R003 (undershirt), R004 (shoes), R005 (shoes)\n\n- R001: black pants\n- R002: light blue turtleneck sweater\n- R003: white undershirt (visible at hem)\n- R004 & R005: black loafers (same item, different angles)\n\n#### View 01: Close-up of sweater collar\nRegions: R006 (sweater collar)\n\n- R006: light blue turtleneck sweater (same as R002)\n\n#### View 02: Flat lay of sweater\nRegions: R007 (sweater)\n\n- R007: light blue turtleneck sweater (same as R002, R006)\n\n#### View 03: Close-up of sweater cuff\nRegions: R008, R009, R010 (all parts of sweater cuff)\n\n- All are parts of the same light blue sweater\n\n#### View 04: Side view of sweater and pants\nRegions: R011 (sweater sleeve), R012 (pants)\n\n- R011: sweater sleeve (same sweater)\n- R012: black pants (same as R001)\n\n#### View 05: Front view, hand in pocket\nRegions: R013 (pants), R014 (sweater), R015 (undershirt)\n\n- R013: pants (same as R001, R012)\n- R014: sweater (same as R002, R006, R007)\n- R015: white undershirt (same as R003)\n\n#### View 06: Back view\nRegions: R016 (sweater back), R017 (pants), R018 (undershirt)\n\n- R016: sweater (same as R002, R006, R007, R014)\n- R017: pants (same as R001, R012, R013)\n- R018: undershirt (same as R003, R015)\n\n---\n\n### Garment Tracking:\n\nWe now check which garments appear in **every view** (i.e., at least one region per view).\n\n---\n\n#### 1. Light Blue Turtleneck Sweater\n\n- View 00: R002\n- View 01: R006\n- View 02: R007\n- View 03: R008, R009, R010\n- View 04: R011\n- View 05: R014\n- View 06: R016\n\n\u2705 Appears in every view.\n\n---\n\n#### 2. Black Pants\n\n- View 00: R001\n- View 04: R012\n- View 05: R013\n- View 06: R017\n\n\u274c Missing in Views 01, 02, 03 \u2192 Not present in every view.\n\n---\n\n#### 3. White Undershirt\n\n- View 00: R003\n- View 05: R015\n- View 06: R018\n\n\u274c Missing in Views 01, 02, 03, 04 \u2192 Not present in every view.\n\n---\n\n#### 4. Black Loafers\n\n- View 00: R004, R005\n\n\u274c Not present in any other view \u2192 Not in every view.\n\n---\n\n### Conclusion:\n\nOnly the **light blue turtleneck sweater** is visible in **every view** (via at least one region).\n\nAll other garments are missing in at least one view.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"light blue turtleneck sweater\",\n      \"regions\": [\n        \"R002\",\n        \"R006\",\n        \"R007\",\n        \"R008\",\n        \"R009\",\n        \"R010\",\n        \"R011\",\n        \"R014\",\n        \"R016\"\n      ]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 36.36669891094789,
+      "batch_seconds": 36.36669891094789,
+      "input_signature": "8f71d7be89f8cb0f01d837bdddd0a9dbe0551794fbe83be97d2cde412501ff49",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "light blue turtleneck sweater",
+          "regions": [
+            "R002",
+            "R006",
+            "R007",
+            "R008",
+            "R009",
+            "R010",
+            "R011",
+            "R014",
+            "R016"
+          ],
+          "nodes": [
+            [
+              "36928543_00",
+              2
+            ],
+            [
+              "36928543_01",
+              1
+            ],
+            [
+              "36928543_02",
+              1
+            ],
+            [
+              "36928543_03",
+              1
+            ],
+            [
+              "36928543_03",
+              2
+            ],
+            [
+              "36928543_03",
+              3
+            ],
+            [
+              "36928543_04",
+              1
+            ],
+            [
+              "36928543_05",
+              2
+            ],
+            [
+              "36928543_06",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36928543",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36928543_06",
+          3
+        ],
+        "R002": [
+          "36928543_06",
+          2
+        ],
+        "R003": [
+          "36928543_06",
+          1
+        ],
+        "R004": [
+          "36928543_05",
+          3
+        ],
+        "R005": [
+          "36928543_05",
+          2
+        ],
+        "R006": [
+          "36928543_05",
+          1
+        ],
+        "R007": [
+          "36928543_04",
+          2
+        ],
+        "R008": [
+          "36928543_04",
+          1
+        ],
+        "R009": [
+          "36928543_03",
+          3
+        ],
+        "R010": [
+          "36928543_03",
+          2
+        ],
+        "R011": [
+          "36928543_03",
+          1
+        ],
+        "R012": [
+          "36928543_02",
+          1
+        ],
+        "R013": [
+          "36928543_01",
+          1
+        ],
+        "R014": [
+          "36928543_00",
+          5
+        ],
+        "R015": [
+          "36928543_00",
+          4
+        ],
+        "R016": [
+          "36928543_00",
+          3
+        ],
+        "R017": [
+          "36928543_00",
+          2
+        ],
+        "R018": [
+          "36928543_00",
+          1
+        ]
+      },
+      "raw": "After analyzing all views and their associated mask regions, we are to identify garments that are **visibly present in at least one mask region in every view**. The key is to track garments by their **fabric, construction, color, and context**, and ensure that the same garment appears in **every view** (even if partially visible or in different crops).\n\n---\n\n### Step-by-step Analysis:\n\nWe have 7 views (VIEW 36928543_00 to _06), each with its own set of mask regions.\n\nWe will go view by view and note which regions correspond to which garments.\n\n---\n\n#### VIEW 36928543_06 (Back view of model)\n- **R001**: White undershirt hem (visible at bottom of sweater)\n- **R002**: Dark trousers (bottom portion)\n- **R003**: Light blue turtleneck sweater (back view)\n\n\u2192 Garments: Sweater (R003), Trousers (R002), Undershirt (R001)\n\n---\n\n#### VIEW 36928543_05 (Front view of model)\n- **R004**: White undershirt hem (visible at bottom of sweater)\n- **R005**: Light blue turtleneck sweater (front view)\n- **R006**: Dark trousers (bottom portion)\n\n\u2192 Garments: Sweater (R005), Trousers (R006), Undershirt (R004)\n\n---\n\n#### VIEW 36928543_04 (Side view, close-up of sweater and trousers)\n- **R007**: Dark trousers (side view, near hem)\n- **R008**: Light blue sweater (side view, sleeve and hem)\n\n\u2192 Garments: Sweater (R008), Trousers (R007)\n\n---\n\n#### VIEW 36928543_03 (Close-up of sweater fabric)\n- **R009**: Light blue sweater sleeve cuff\n- **R010**: Light blue sweater ribbed cuff\n- **R011**: Light blue sweater body (folded)\n\n\u2192 Garments: Sweater (R009, R010, R011)\n\n---\n\n#### VIEW 36928543_02 (Flat lay of sweater)\n- **R012**: Light blue turtleneck sweater (full front)\n\n\u2192 Garment: Sweater (R012)\n\n---\n\n#### VIEW 36928543_01 (Close-up of turtleneck collar)\n- **R013**: Light blue turtleneck collar\n\n\u2192 Garment: Sweater (R013)\n\n---\n\n#### VIEW 36928543_00 (Full body, model wearing outfit)\n- **R014**: Black loafers (left shoe)\n- **R015**: Black loafers (right shoe)\n- **R016**: White undershirt hem\n- **R017**: Light blue turtleneck sweater (front, partial)\n- **R018**: Dark trousers (full length)\n\n\u2192 Garments: Sweater (R017), Trousers (R018), Undershirt (R016), Shoes (R014, R015)\n\n---\n\n### Now, track garments that appear in **every view**.\n\nWe need to find garments that have **at least one region in every view**.\n\n---\n\n#### 1. **Light Blue Turtleneck Sweater**\n\nCheck each view:\n\n- VIEW 06: R003 \u2705\n- VIEW 05: R005 \u2705\n- VIEW 04: R008 \u2705\n- VIEW 03: R009, R010, R011 \u2705\n- VIEW 02: R012 \u2705\n- VIEW 01: R013 \u2705\n- VIEW 00: R017 \u2705\n\n\u2192 **Present in every view.**\n\n---\n\n#### 2. **Dark Trousers**\n\nCheck each view:\n\n- VIEW 06: R002 \u2705\n- VIEW 05: R006 \u2705\n- VIEW 04: R007 \u2705\n- VIEW 03: \u274c (No trousers in this close-up)\n- VIEW 02: \u274c (Flat lay of sweater only)\n- VIEW 01: \u274c (Close-up of collar)\n- VIEW 00: R018 \u2705\n\n\u2192 **Missing in VIEW 02, 01, 03 \u2192 Not present in every view.**\n\n---\n\n#### 3. **White Undershirt**\n\nCheck each view:\n\n- VIEW 06: R001 \u2705\n- VIEW 05: R004 \u2705\n- VIEW 04: \u274c (No undershirt visible)\n- VIEW 03: \u274c\n- VIEW 02: \u274c\n- VIEW 01: \u274c\n- VIEW 00: R016 \u2705\n\n\u2192 **Missing in VIEW 02, 03, 04, 01 \u2192 Not present in every view.**\n\n---\n\n#### 4. **Black Loafers**\n\nOnly appear in VIEW 00 (R014, R015). Not in any other view \u2192 \u274c\n\n---\n\n### Conclusion:\n\nOnly the **light blue turtleneck sweater** is visible in **every view**, through at least one mask region.\n\nAll other garments (trousers, undershirt, shoes) are missing in at least one view.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Light blue turtleneck sweater\",\n      \"regions\": [\n        \"R003\",\n        \"R005\",\n        \"R008\",\n        \"R009\",\n        \"R010\",\n        \"R011\",\n        \"R012\",\n        \"R013\",\n        \"R017\"\n      ]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 43.36753475572914,
+      "batch_seconds": 43.36753475572914,
+      "input_signature": "8f71d7be89f8cb0f01d837bdddd0a9dbe0551794fbe83be97d2cde412501ff49",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "Light blue turtleneck sweater",
+          "regions": [
+            "R003",
+            "R005",
+            "R008",
+            "R009",
+            "R010",
+            "R011",
+            "R012",
+            "R013",
+            "R017"
+          ],
+          "nodes": [
+            [
+              "36928543_06",
+              1
+            ],
+            [
+              "36928543_05",
+              2
+            ],
+            [
+              "36928543_04",
+              1
+            ],
+            [
+              "36928543_03",
+              3
+            ],
+            [
+              "36928543_03",
+              2
+            ],
+            [
+              "36928543_03",
+              1
+            ],
+            [
+              "36928543_02",
+              1
+            ],
+            [
+              "36928543_01",
+              1
+            ],
+            [
+              "36928543_00",
+              2
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    }
+  },
+  "pairs": [],
+  "seconds": 79.73423366667703,
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+  "at": 1790530762.6888304,
+  "training": false,
+  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
+  "fragment_reviews": [
+    {
+      "view": "36928543_03",
+      "part": 2,
+      "track": 0,
+      "anchor_part": 1,
+      "both_orders_same": true,
+      "evidence": [
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "a02f24715f0801fddf31e75b72a631b14464f6aa103823eea13cd1868029e232",
+            "partition": "0524b225c9c0f3f4f4ff72c93f42de37ddcb6ee98c5aa470986fc84f3392d2f0",
+            "a": 2,
+            "b": 1,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                80,
+                0,
+                364,
+                446
+              ],
+              "2": [
+                80,
+                0,
+                560,
+                640
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -0.25,
+          "relative_logits": [
+            -0.25,
+            0.0,
+            -8.5
+          ],
+          "at": 1790530755.0784376
+        },
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "a02f24715f0801fddf31e75b72a631b14464f6aa103823eea13cd1868029e232",
+            "partition": "0524b225c9c0f3f4f4ff72c93f42de37ddcb6ee98c5aa470986fc84f3392d2f0",
+            "a": 1,
+            "b": 2,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                80,
+                0,
+                560,
+                640
+              ],
+              "2": [
+                80,
+                0,
+                364,
+                446
+              ]
+            }
+          },
+          "choice": "A",
+          "margin": 1.25,
+          "relative_logits": [
+            0.0,
+            -1.25,
+            -10.5
+          ],
+          "at": 1790530755.0868456
+        }
+      ],
+      "contextual_review": [
+        {
+          "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+          "view": "36928543_03",
+          "a": 2,
+          "b": 1,
+          "raw": "{\"region1\":\"light blue ribbed knit sweater sleeve\", \"region2\":\"light blue plain knit sweater body\", \"reason\":\"Region 1 is the ribbed cuff and lower sleeve of the sweater; region 2 is the main body. Both are part of the same garment, shown in full in 36928543_02 and 36928543_05.\", \"verdict\":\"A\"}",
+          "seconds": 3.5997058767825365,
+          "valid": true,
+          "choice": "A",
+          "explanation": {
+            "region1": "light blue ribbed knit sweater sleeve",
+            "region2": "light blue plain knit sweater body",
+            "reason": "Region 1 is the ribbed cuff and lower sleeve of the sweater; region 2 is the main body. Both are part of the same garment, shown in full in 36928543_02 and 36928543_05.",
+            "verdict": "A"
+          },
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "boxes": {
+            "1": [
+              80,
+              0,
+              364,
+              446
+            ],
+            "2": [
+              80,
+              0,
+              560,
+              640
+            ]
+          },
+          "identity": {
+            "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+            "code": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+            "renderer": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "image": "a02f24715f0801fddf31e75b72a631b14464f6aa103823eea13cd1868029e232",
+            "partition": "0524b225c9c0f3f4f4ff72c93f42de37ddcb6ee98c5aa470986fc84f3392d2f0",
+            "a": 2,
+            "b": 1,
+            "context_views": [
+              {
+                "id": "36928543_00",
+                "pixels": "cd98a3eebffc79eae1bbbe53c09b6b712c3cd1324ba2e0963f355dd8e1e29fe5"
+              },
+              {
+                "id": "36928543_01",
+                "pixels": "949b2a8e08d329e6f4a9721b01358e331168bb6f75b97ac2ff807f8c7e2d97db"
+              },
+              {
+                "id": "36928543_02",
+                "pixels": "ff1ff25ed26cd96654ac21210b98c240edd0bc96d729ebdfb275405ca82ff181"
+              },
+              {
+                "id": "36928543_03",
+                "pixels": "a02f24715f0801fddf31e75b72a631b14464f6aa103823eea13cd1868029e232"
+              },
+              {
+                "id": "36928543_04",
+                "pixels": "9c0041e044de3bd1d0bf0f09801871eb91b2fe76458b6e7bb64f166448d7ae5f"
+              },
+              {
+                "id": "36928543_05",
+                "pixels": "f61356efb986cdeb50c1a496caa0905d29d5ba4894d90d30c7752a12c2ffe2cd"
+              },
+              {
+                "id": "36928543_06",
+                "pixels": "30f7a2cc4df853f3b0daa7a0ebc4ba001bc8161bb6b0d53de06fbbc7530b6ad9"
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+          "view": "36928543_03",
+          "a": 1,
+          "b": 2,
+          "raw": "{\"region1\":\"light blue knitted sweater body\", \"region2\":\"light blue knitted sweater sleeve ribbing\", \"reason\":\"Both regions show the same light blue knitted fabric with consistent stitch pattern; region 1 is the main body, region 2 is the sleeve ribbing of the same sweater, confirmed by continuity in texture and color across the source image and other views.\", \"verdict\":\"A\"}",
+          "seconds": 3.3209176412783563,
+          "valid": true,
+          "choice": "A",
+          "explanation": {
+            "region1": "light blue knitted sweater body",
+            "region2": "light blue knitted sweater sleeve ribbing",
+            "reason": "Both regions show the same light blue knitted fabric with consistent stitch pattern; region 1 is the main body, region 2 is the sleeve ribbing of the same sweater, confirmed by continuity in texture and color across the source image and other views.",
+            "verdict": "A"
+          },
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "boxes": {
+            "1": [
+              80,
+              0,
+              560,
+              640
+            ],
+            "2": [
+              80,
+              0,
+              364,
+              446
+            ]
+          },
+          "identity": {
+            "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+            "code": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+            "renderer": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "image": "a02f24715f0801fddf31e75b72a631b14464f6aa103823eea13cd1868029e232",
+            "partition": "0524b225c9c0f3f4f4ff72c93f42de37ddcb6ee98c5aa470986fc84f3392d2f0",
+            "a": 1,
+            "b": 2,
+            "context_views": [
+              {
+                "id": "36928543_06",
+                "pixels": "30f7a2cc4df853f3b0daa7a0ebc4ba001bc8161bb6b0d53de06fbbc7530b6ad9"
+              },
+              {
+                "id": "36928543_05",
+                "pixels": "f61356efb986cdeb50c1a496caa0905d29d5ba4894d90d30c7752a12c2ffe2cd"
+              },
+              {
+                "id": "36928543_04",
+                "pixels": "9c0041e044de3bd1d0bf0f09801871eb91b2fe76458b6e7bb64f166448d7ae5f"
+              },
+              {
+                "id": "36928543_03",
+                "pixels": "a02f24715f0801fddf31e75b72a631b14464f6aa103823eea13cd1868029e232"
+              },
+              {
+                "id": "36928543_02",
+                "pixels": "ff1ff25ed26cd96654ac21210b98c240edd0bc96d729ebdfb275405ca82ff181"
+              },
+              {
+                "id": "36928543_01",
+                "pixels": "949b2a8e08d329e6f4a9721b01358e331168bb6f75b97ac2ff807f8c7e2d97db"
+              },
+              {
+                "id": "36928543_00",
+                "pixels": "cd98a3eebffc79eae1bbbe53c09b6b712c3cd1324ba2e0963f355dd8e1e29fe5"
+              }
+            ]
+          }
+        }
+      ],
+      "decision_basis": "reasoned comparison with every SKU photograph"
+    },
+    {
+      "view": "36928543_03",
+      "part": 3,
+      "track": 0,
+      "anchor_part": 1,
+      "both_orders_same": true,
+      "evidence": [
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "a02f24715f0801fddf31e75b72a631b14464f6aa103823eea13cd1868029e232",
+            "partition": "0524b225c9c0f3f4f4ff72c93f42de37ddcb6ee98c5aa470986fc84f3392d2f0",
+            "a": 3,
+            "b": 1,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                80,
+                224,
+                436,
+                576
+              ],
+              "2": [
+                80,
+                0,
+                560,
+                640
+              ]
+            }
+          },
+          "choice": "A",
+          "margin": 0.5,
+          "relative_logits": [
+            0.0,
+            -0.5,
+            -9.75
+          ],
+          "at": 1790530755.0935636
+        },
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "a02f24715f0801fddf31e75b72a631b14464f6aa103823eea13cd1868029e232",
+            "partition": "0524b225c9c0f3f4f4ff72c93f42de37ddcb6ee98c5aa470986fc84f3392d2f0",
+            "a": 1,
+            "b": 3,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                80,
+                0,
+                560,
+                640
+              ],
+              "2": [
+                80,
+                224,
+                436,
+                576
+              ]
+            }
+          },
+          "choice": "A",
+          "margin": 2.5,
+          "relative_logits": [
+            0.0,
+            -2.5,
+            -10.875
+          ],
+          "at": 1790530755.1000926
+        }
+      ],
+      "contextual_review": [],
+      "decision_basis": "both direct source comparisons agree"
+    }
+  ],
+  "presence_reviews": [],
+  "decision_before_presence_review": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "36928543_00",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_00",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_00",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_00",
+        "group": 4,
+        "parts": [
+          4
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_00",
+        "group": 5,
+        "parts": [
+          5
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_01",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_03",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_04",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_04",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_05",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_05",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_06": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_05",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_06": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_06",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "light blue turtleneck sweater",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36928543_01": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_05": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          },
+          "36928543_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2,
+              3
+            ]
+          },
+          "36928543_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36928543_00": {
+            "status": "matched",
+            "group": [
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36928543_06",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "36928543_06",
+        "group": 3,
+        "parts": [
+          3
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "36928543_01": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_05": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_02": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_03": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_04": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "36928543_00": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "36928543_00",
+          2
+        ],
+        [
+          "36928543_01",
+          1
+        ],
+        [
+          "36928543_02",
+          1
+        ],
+        [
+          "36928543_03",
+          1
+        ],
+        [
+          "36928543_03",
+          2
+        ],
+        [
+          "36928543_03",
+          3
+        ],
+        [
+          "36928543_04",
+          1
+        ],
+        [
+          "36928543_05",
+          2
+        ],
+        [
+          "36928543_06",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
+  "finalization_seconds": 9.08563284901902,
+  "implementation_sha256": {
+    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
+    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
+    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
+    "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
+    "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
+  }
+}

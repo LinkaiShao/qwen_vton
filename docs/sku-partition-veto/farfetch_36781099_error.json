@@ -1,0 +1,227 @@
+{
+  "sku": "farfetch_36781099",
+  "forward": "Track lacks evidence in at least one required view",
+  "reverse": null,
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36781099",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36781099_00",
+          1
+        ],
+        "R002": [
+          "36781099_00",
+          2
+        ],
+        "R003": [
+          "36781099_00",
+          3
+        ],
+        "R004": [
+          "36781099_01",
+          1
+        ],
+        "R005": [
+          "36781099_01",
+          2
+        ],
+        "R006": [
+          "36781099_01",
+          3
+        ],
+        "R007": [
+          "36781099_02",
+          1
+        ],
+        "R008": [
+          "36781099_02",
+          2
+        ],
+        "R009": [
+          "36781099_02",
+          3
+        ],
+        "R010": [
+          "36781099_03",
+          1
+        ],
+        "R011": [
+          "36781099_03",
+          2
+        ],
+        "R012": [
+          "36781099_03",
+          3
+        ],
+        "R013": [
+          "36781099_03",
+          4
+        ],
+        "R014": [
+          "36781099_04",
+          1
+        ],
+        "R015": [
+          "36781099_04",
+          2
+        ],
+        "R016": [
+          "36781099_04",
+          3
+        ],
+        "R017": [
+          "36781099_04",
+          4
+        ],
+        "R018": [
+          "36781099_05",
+          1
+        ],
+        "R019": [
+          "36781099_05",
+          2
+        ],
+        "R020": [
+          "36781099_05",
+          3
+        ],
+        "R021": [
+          "36781099_05",
+          4
+        ],
+        "R022": [
+          "36781099_05",
+          5
+        ]
+      },
+      "raw": "```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Teal quilted bag with silver hardware and chain strap\",\n      \"regions\": [\n        \"R004\",\n        \"R005\",\n        \"R007\",\n        \"R008\",\n        \"R009\",\n        \"R010\",\n        \"R012\",\n        \"R013\",\n        \"R014\",\n        \"R015\",\n        \"R017\",\n        \"R018\",\n        \"R019\",\n        \"R020\",\n        \"R021\",\n        \"R022\"\n      ]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 5.8911073775961995,
+      "batch_seconds": 5.8911073775961995,
+      "input_signature": "8d9fc0d3737bad1709c856102cbc1e6996f9dc0092fa902f93d8bad5a4a01b8e",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "After analyzing all views and their corresponding mask regions, we are tasked with identifying garments that are **visibly present in at least one mask region in every view**. The key is to track the same garment across all views by fabric, construction, color, and context \u2014 even if it appears in different forms (e.g., worn, close-up, partial).\n\n---\n\n### Step-by-step Analysis:\n\n#### VIEW 36781099_00:\n- **R001**: Full white dress (skirt portion)\n- **R002**: White top (upper body, sleeveless)\n- **R003**: Black shoes\n\nThis view shows a woman wearing a white dress (R001 and R002 together form the full dress) and black shoes (R003).\n\n#### VIEW 36781099_01:\n- **R004**: Teal quilted bag (front with pocket)\n- **R005**: Teal quilted bag (fragmented front)\n- **R006**: White background (not a garment)\n\nOnly the bag is visible. No clothing.\n\n#### VIEW 36781099_02:\n- **R007**: Teal bag (front flap, curved top)\n- **R008**: Teal bag (fragmented side)\n- **R009**: Teal bag (front flap, rectangular cutout)\n\nAgain, only the bag. No clothing.\n\n#### VIEW 36781099_03:\n- **R010**: Teal bag (bottom view)\n- **R011**: White background\n- **R012**: Teal bag (top edge)\n- **R013**: Teal bag (top flap)\n\nOnly the bag.\n\n#### VIEW 36781099_04:\n- **R014**: Teal bag (front with chain)\n- **R015**: Teal bag (top edge fragment)\n- **R016**: White background\n- **R017**: Teal bag chain\n\nOnly the bag.\n\n#### VIEW 36781099_05:\n- **R018**: Teal bag interior (with \"CHANEL\" stamp)\n- **R019**: Teal bag interior (curved edge)\n- **R020**: Teal bag interior (edge fragment)\n- **R021**: Teal bag interior (curved edge)\n- **R022**: Teal bag interior (small fragments)\n\nOnly the bag interior.\n\n---\n\n### Conclusion:\n\nThe only garment that appears in **every view** is the **teal quilted bag**, which is shown in various forms and angles across all views. The white dress (R001, R002) and black shoes (R003) appear only in the first view. The bag is consistently present in every view, with different mask regions capturing different parts of it (front, back, flap, chain, interior, etc.).\n\nTherefore, we can form one track for the **teal quilted bag**, using all mask regions that belong to it across all views.\n\n---\n\n### Final JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Teal quilted bag with silver hardware and chain strap\",\n      \"regions\": [\n        \"R004\",\n        \"R005\",\n        \"R007\",\n        \"R008\",\n        \"R009\",\n        \"R010\",\n        \"R012\",\n        \"R013\",\n        \"R014\",\n        \"R015\",\n        \"R017\",\n        \"R018\",\n        \"R019\",\n        \"R020\",\n        \"R021\",\n        \"R022\"\n      ]\n    }\n  ]\n}\n```"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36781099",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36781099_05",
+          5
+        ],
+        "R002": [
+          "36781099_05",
+          4
+        ],
+        "R003": [
+          "36781099_05",
+          3
+        ],
+        "R004": [
+          "36781099_05",
+          2
+        ],
+        "R005": [
+          "36781099_05",
+          1
+        ],
+        "R006": [
+          "36781099_04",
+          4
+        ],
+        "R007": [
+          "36781099_04",
+          3
+        ],
+        "R008": [
+          "36781099_04",
+          2
+        ],
+        "R009": [
+          "36781099_04",
+          1
+        ],
+        "R010": [
+          "36781099_03",
+          4
+        ],
+        "R011": [
+          "36781099_03",
+          3
+        ],
+        "R012": [
+          "36781099_03",
+          2
+        ],
+        "R013": [
+          "36781099_03",
+          1
+        ],
+        "R014": [
+          "36781099_02",
+          3
+        ],
+        "R015": [
+          "36781099_02",
+          2
+        ],
+        "R016": [
+          "36781099_02",
+          1
+        ],
+        "R017": [
+          "36781099_01",
+          3
+        ],
+        "R018": [
+          "36781099_01",
+          2
+        ],
+        "R019": [
+          "36781099_01",
+          1
+        ],
+        "R020": [
+          "36781099_00",
+          3
+        ],
+        "R021": [
+          "36781099_00",
+          2
+        ],
+        "R022": [
+          "36781099_00",
+          1
+        ]
+      },
+      "raw": "After analyzing all views and their corresponding mask regions, we are tasked with identifying garments that appear in **every view** (i.e., in at least one mask region per view) and are visually distinct based on fabric, construction, color, and context.\n\n---\n\n### Step-by-step Analysis:\n\nWe have 6 views (VIEW 36781099_00 to _05), each with a photograph and associated mask regions.\n\nWe must find garments that have **at least one visible region in every view**.\n\nLet\u2019s go view by view and note which regions are present and what they represent.\n\n---\n\n#### VIEW 36781099_05 (Interior of bag)\n- Regions: R001, R002, R003, R004, R005\n- All regions are **interior leather** of the bag \u2014 teal, quilted, with \u201cCHANEL MADE IN ITALY\u201d stamp.\n- **No garment** is visible here \u2014 only the bag\u2019s interior.\n\n#### VIEW 36781099_04 (Front of bag)\n- Regions: R006, R007, R008, R009\n- R006: chain strap\n- R007: white background (not a garment)\n- R008: small fragment of teal leather\n- R009: front of bag (teal quilted leather, clasp)\n- **No garment** visible \u2014 only the bag.\n\n#### VIEW 36781099_03 (Back of bag)\n- Regions: R010, R011, R012, R013\n- R010: top edge of bag\n- R011: bottom edge\n- R012: white background\n- R013: back of bag (teal quilted leather)\n- **No garment** visible \u2014 only the bag.\n\n#### VIEW 36781099_02 (Close-up of clasp)\n- Regions: R014, R015, R016\n- R014: flap around clasp\n- R015: small fragment of quilted leather\n- R016: flap with white mask (not a garment)\n- **No garment** visible \u2014 only bag details.\n\n#### VIEW 36781099_01 (Side of bag)\n- Regions: R017, R018, R019\n- R017: white background\n- R018: side of bag (teal quilted leather)\n- R019: side with cutout (teal leather)\n- **No garment** visible \u2014 only bag.\n\n#### VIEW 36781099_00 (Model wearing bag)\n- Regions: R020, R021, R022\n- R020: black shoe\n- R021: white top (back/side view)\n- R022: white dress/skirt\n- **Garments visible**: white top (R021), white dress/skirt (R022), black shoe (R020)\n\n---\n\n### Key Insight:\n\nIn **all other views (01\u201305)**, **no garment is visible** \u2014 only the bag. The only view that shows garments is **VIEW 36781099_00**.\n\nThe task requires that a garment must be **visible in every view** \u2014 meaning **at least one region per view** must contain that garment.\n\nSince **no garment appears in views 01\u201305**, **no garment can be tracked across all views**.\n\nEven if we consider the bag as a garment (which it is not \u2014 it\u2019s an accessory), the regions in other views are parts of the bag, not garments.\n\n---\n\n### Conclusion:\n\nThere is **no garment** that appears in **every view** with visible pixels in an available mask region.\n\nTherefore, the output is an empty list.\n\n---\n\n```json\n{\"tracks\":[]}\n```",
+      "batch_size": 1,
+      "seconds": 29.15063714887947,
+      "batch_seconds": 29.15063714887947,
+      "input_signature": "8d9fc0d3737bad1709c856102cbc1e6996f9dc0092fa902f93d8bad5a4a01b8e",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [],
+      "valid": true
+    }
+  },
+  "at": 1790530672.7294333
+}
