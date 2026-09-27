@@ -1,0 +1,42 @@
+[
+  {
+    "sku": "12416975",
+    "best_raw_proposal_iou": 0.38795986771583557,
+    "best_raw_query": 19,
+    "best_raw_score": 0.09226787090301514,
+    "presence": 0.14608724415302277,
+    "quality": 0.6315943002700806,
+    "accepted": false,
+    "best_final_region_iou_unmatched": 0.14767254889011383
+  },
+  {
+    "sku": "13643172",
+    "best_raw_proposal_iou": 0.8087248206138611,
+    "best_raw_query": 20,
+    "best_raw_score": 0.25225120782852173,
+    "presence": 0.709019124507904,
+    "quality": 0.3557748794555664,
+    "accepted": false,
+    "best_final_region_iou_unmatched": 0.49641576409339905
+  },
+  {
+    "sku": "13643170",
+    "best_raw_proposal_iou": 0.3333333432674408,
+    "best_raw_query": 2,
+    "best_raw_score": 0.2260327786207199,
+    "presence": 0.5367985367774963,
+    "quality": 0.42107561230659485,
+    "accepted": false,
+    "best_final_region_iou_unmatched": 0.29925188422203064
+  },
+  {
+    "sku": "33791076",
+    "best_raw_proposal_iou": 0.9608579277992249,
+    "best_raw_query": 20,
+    "best_raw_score": 0.1982789933681488,
+    "presence": 0.9643214344978333,
+    "quality": 0.20561504364013672,
+    "accepted": false,
+    "best_final_region_iou_unmatched": 0.5527898669242859
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "clothing": {
+    "total": 3353,
+    "small": 1291
+  },
+  "shoes": {
+    "total": 1104,
+    "small": 1055
+  },
+  "jewellery": {
+    "total": 472,
+    "small": 450
+  },
+  "bag": {
+    "total": 897,
+    "small": 671
+  }
+}

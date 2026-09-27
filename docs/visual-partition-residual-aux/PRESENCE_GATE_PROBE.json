@@ -1,0 +1,420 @@
+{
+  "decoder": "correction-presence only; invalid parent queries remain disabled",
+  "checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_distill/checkpoints/step_04000.pt",
+  "results": [
+    {
+      "threshold": 0.5,
+      "scores": {
+        "foreground_iou": 0.7065235213050928,
+        "pq": 0.30605074791022346,
+        "boundary_f1": 0.33982135691565946,
+        "merge_n": 1.457142857142857,
+        "split_n": 2.416326530612245,
+        "false_positive": 5.189795918367347,
+        "images": 490,
+        "parts": 2830,
+        "pair_iou": 0.39782432838666426,
+        "recall50": 0.4028268551236749,
+        "tiny": {
+          "n": 922,
+          "pair_iou": 0.2107765133564982,
+          "recall50": 0.1843817787418655
+        },
+        "small": {
+          "n": 763,
+          "pair_iou": 0.2743177728693212,
+          "recall50": 0.23722149410222804
+        },
+        "large": {
+          "n": 1145,
+          "pair_iou": 0.6307444919827742,
+          "recall50": 0.6890829694323144
+        },
+        "same_object_agreement": 0.7119421439819842,
+        "different_object_collision": 0.1602120106571975,
+        "false_internal_edge_fraction": 0.41846047614758775,
+        "hard": {
+          "n": 251,
+          "iou": 0.15544026316413295,
+          "recall50": 0.08366533864541832
+        },
+        "easy": {
+          "n": 25,
+          "iou": 0.7529743360203202,
+          "recall50": 0.84
+        },
+        "retention650": {
+          "n": 650,
+          "iou": 0.8041682688407454,
+          "recall50": 0.9246153846153846
+        }
+      },
+      "gates": {
+        "hard_recall_gain_5pp": true,
+        "easy_iou_within_1pp": false,
+        "foreground_within_1pp": false,
+        "pq_not_worse": false,
+        "merges_not_worse": false,
+        "splits_not_worse": false,
+        "false_seams_not_worse": false,
+        "all650_iou_within_1pp": false
+      },
+      "pass": false
+    },
+    {
+      "threshold": 0.65,
+      "scores": {
+        "foreground_iou": 0.720998577669799,
+        "pq": 0.32048759666367693,
+        "boundary_f1": 0.3457862143061784,
+        "merge_n": 1.4653061224489796,
+        "split_n": 2.320408163265306,
+        "false_positive": 4.736734693877551,
+        "images": 490,
+        "parts": 2830,
+        "pair_iou": 0.3955453027139827,
+        "recall50": 0.3992932862190813,
+        "tiny": {
+          "n": 922,
+          "pair_iou": 0.20326688412522917,
+          "recall50": 0.17678958785249457
+        },
+        "small": {
+          "n": 763,
+          "pair_iou": 0.27206946100132107,
+          "recall50": 0.23722149410222804
+        },
+        "large": {
+          "n": 1145,
+          "pair_iou": 0.6326568915048923,
+          "recall50": 0.6864628820960699
+        },
+        "same_object_agreement": 0.712999437450254,
+        "different_object_collision": 0.16433998730210903,
+        "false_internal_edge_fraction": 0.4163615856815324,
+        "hard": {
+          "n": 251,
+          "iou": 0.15468774265636615,
+          "recall50": 0.08764940239043825
+        },
+        "easy": {
+          "n": 25,
+          "iou": 0.7574358882493455,
+          "recall50": 0.84
+        },
+        "retention650": {
+          "n": 650,
+          "iou": 0.818923565072569,
+          "recall50": 0.9307692307692308
+        }
+      },
+      "gates": {
+        "hard_recall_gain_5pp": true,
+        "easy_iou_within_1pp": false,
+        "foreground_within_1pp": false,
+        "pq_not_worse": false,
+        "merges_not_worse": false,
+        "splits_not_worse": false,
+        "false_seams_not_worse": false,
+        "all650_iou_within_1pp": false
+      },
+      "pass": false
+    },
+    {
+      "threshold": 0.75,
+      "scores": {
+        "foreground_iou": 0.7386427137122888,
+        "pq": 0.33216096200767103,
+        "boundary_f1": 0.34659506051312805,
+        "merge_n": 1.469387755102041,
+        "split_n": 2.2510204081632654,
+        "false_positive": 4.371428571428571,
+        "images": 490,
+        "parts": 2830,
+        "pair_iou": 0.3932088409097825,
+        "recall50": 0.39752650176678445,
+        "tiny": {
+          "n": 922,
+          "pair_iou": 0.19687488531021638,
+          "recall50": 0.17136659436008678
+        },
+        "small": {
+          "n": 763,
+          "pair_iou": 0.2702115594621003,
+          "recall50": 0.23853211009174313
+        },
+        "large": {
+          "n": 1145,
+          "pair_iou": 0.6332672101738711,
+          "recall50": 0.6855895196506551
+        },
+        "same_object_agreement": 0.7152401861311544,
+        "different_object_collision": 0.16768393839245546,
+        "false_internal_edge_fraction": 0.4155751771615684,
+        "hard": {
+          "n": 251,
+          "iou": 0.1509472719768877,
+          "recall50": 0.09163346613545817
+        },
+        "easy": {
+          "n": 25,
+          "iou": 0.7796979910245999,
+          "recall50": 0.88
+        },
+        "retention650": {
+          "n": 650,
+          "iou": 0.8291354015253178,
+          "recall50": 0.9384615384615385
+        }
+      },
+      "gates": {
+        "hard_recall_gain_5pp": true,
+        "easy_iou_within_1pp": false,
+        "foreground_within_1pp": true,
+        "pq_not_worse": false,
+        "merges_not_worse": false,
+        "splits_not_worse": false,
+        "false_seams_not_worse": false,
+        "all650_iou_within_1pp": false
+      },
+      "pass": false
+    },
+    {
+      "threshold": 0.85,
+      "scores": {
+        "foreground_iou": 0.751234719498287,
+        "pq": 0.36174372178894176,
+        "boundary_f1": 0.3596425079406694,
+        "merge_n": 1.4551020408163264,
+        "split_n": 2.0183673469387755,
+        "false_positive": 3.5816326530612246,
+        "images": 490,
+        "parts": 2830,
+        "pair_iou": 0.38551388294371247,
+        "recall50": 0.3901060070671378,
+        "tiny": {
+          "n": 922,
+          "pair_iou": 0.1813058423149963,
+          "recall50": 0.1594360086767896
+        },
+        "small": {
+          "n": 763,
+          "pair_iou": 0.26152038155483137,
+          "recall50": 0.23328964613368283
+        },
+        "large": {
+          "n": 1145,
+          "pair_iou": 0.6325766384191643,
+          "recall50": 0.6803493449781659
+        },
+        "same_object_agreement": 0.7144038552728781,
+        "different_object_collision": 0.17881000994732976,
+        "false_internal_edge_fraction": 0.41381979689983933,
+        "hard": {
+          "n": 251,
+          "iou": 0.14351486020119086,
+          "recall50": 0.0796812749003984
+        },
+        "easy": {
+          "n": 25,
+          "iou": 0.8105104701556429,
+          "recall50": 0.92
+        },
+        "retention650": {
+          "n": 650,
+          "iou": 0.8512053918739403,
+          "recall50": 0.9523076923076923
+        }
+      },
+      "gates": {
+        "hard_recall_gain_5pp": true,
+        "easy_iou_within_1pp": false,
+        "foreground_within_1pp": true,
+        "pq_not_worse": false,
+        "merges_not_worse": false,
+        "splits_not_worse": false,
+        "false_seams_not_worse": false,
+        "all650_iou_within_1pp": false
+      },
+      "pass": false
+    },
+    {
+      "threshold": 0.9,
+      "scores": {
+        "foreground_iou": 0.7652378212686258,
+        "pq": 0.3851911729957118,
+        "boundary_f1": 0.35423806356928833,
+        "merge_n": 1.3959183673469389,
+        "split_n": 1.720408163265306,
+        "false_positive": 2.753061224489796,
+        "images": 490,
+        "parts": 2830,
+        "pair_iou": 0.36904024907650756,
+        "recall50": 0.37703180212014137,
+        "tiny": {
+          "n": 922,
+          "pair_iou": 0.1558300909778779,
+          "recall50": 0.13882863340563992
+        },
+        "small": {
+          "n": 763,
+          "pair_iou": 0.24539877500476837,
+          "recall50": 0.22935779816513763
+        },
+        "large": {
+          "n": 1145,
+          "pair_iou": 0.6231172888002399,
+          "recall50": 0.6672489082969433
+        },
+        "same_object_agreement": 0.7060559484724684,
+        "different_object_collision": 0.19661839709522305,
+        "false_internal_edge_fraction": 0.41052155173175825,
+        "hard": {
+          "n": 251,
+          "iou": 0.138525671642505,
+          "recall50": 0.0796812749003984
+        },
+        "easy": {
+          "n": 25,
+          "iou": 0.8418590906754568,
+          "recall50": 0.96
+        },
+        "retention650": {
+          "n": 650,
+          "iou": 0.8735987284481278,
+          "recall50": 0.9707692307692307
+        }
+      },
+      "gates": {
+        "hard_recall_gain_5pp": true,
+        "easy_iou_within_1pp": false,
+        "foreground_within_1pp": true,
+        "pq_not_worse": true,
+        "merges_not_worse": true,
+        "splits_not_worse": false,
+        "false_seams_not_worse": false,
+        "all650_iou_within_1pp": false
+      },
+      "pass": false
+    },
+    {
+      "threshold": 0.95,
+      "scores": {
+        "foreground_iou": 0.7469107727557054,
+        "pq": 0.39551445714493655,
+        "boundary_f1": 0.29987361124649325,
+        "merge_n": 1.310204081632653,
+        "split_n": 1.3224489795918368,
+        "false_positive": 1.6306122448979592,
+        "images": 490,
+        "parts": 2830,
+        "pair_iou": 0.33119764422271347,
+        "recall50": 0.34169611307420494,
+        "tiny": {
+          "n": 922,
+          "pair_iou": 0.10385109709252616,
+          "recall50": 0.08893709327548807
+        },
+        "small": {
+          "n": 763,
+          "pair_iou": 0.21535336619731982,
+          "recall50": 0.20576671035386632
+        },
+        "large": {
+          "n": 1145,
+          "pair_iou": 0.5914620115479609,
+          "recall50": 0.6358078602620088
+        },
+        "same_object_agreement": 0.658303471712276,
+        "different_object_collision": 0.20603031170349123,
+        "false_internal_edge_fraction": 0.3958260249792582,
+        "hard": {
+          "n": 251,
+          "iou": 0.13662276301954213,
+          "recall50": 0.04780876494023904
+        },
+        "easy": {
+          "n": 25,
+          "iou": 0.8448728706918456,
+          "recall50": 0.96
+        },
+        "retention650": {
+          "n": 650,
+          "iou": 0.9023864988605804,
+          "recall50": 0.9953846153846154
+        }
+      },
+      "gates": {
+        "hard_recall_gain_5pp": false,
+        "easy_iou_within_1pp": false,
+        "foreground_within_1pp": true,
+        "pq_not_worse": true,
+        "merges_not_worse": true,
+        "splits_not_worse": true,
+        "false_seams_not_worse": true,
+        "all650_iou_within_1pp": true
+      },
+      "pass": false
+    }
+  ],
+  "selected": {
+    "threshold": 0.75,
+    "scores": {
+      "foreground_iou": 0.7386427137122888,
+      "pq": 0.33216096200767103,
+      "boundary_f1": 0.34659506051312805,
+      "merge_n": 1.469387755102041,
+      "split_n": 2.2510204081632654,
+      "false_positive": 4.371428571428571,
+      "images": 490,
+      "parts": 2830,
+      "pair_iou": 0.3932088409097825,
+      "recall50": 0.39752650176678445,
+      "tiny": {
+        "n": 922,
+        "pair_iou": 0.19687488531021638,
+        "recall50": 0.17136659436008678
+      },
+      "small": {
+        "n": 763,
+        "pair_iou": 0.2702115594621003,
+        "recall50": 0.23853211009174313
+      },
+      "large": {
+        "n": 1145,
+        "pair_iou": 0.6332672101738711,
+        "recall50": 0.6855895196506551
+      },
+      "same_object_agreement": 0.7152401861311544,
+      "different_object_collision": 0.16768393839245546,
+      "false_internal_edge_fraction": 0.4155751771615684,
+      "hard": {
+        "n": 251,
+        "iou": 0.1509472719768877,
+        "recall50": 0.09163346613545817
+      },
+      "easy": {
+        "n": 25,
+        "iou": 0.7796979910245999,
+        "recall50": 0.88
+      },
+      "retention650": {
+        "n": 650,
+        "iou": 0.8291354015253178,
+        "recall50": 0.9384615384615385
+      }
+    },
+    "gates": {
+      "hard_recall_gain_5pp": true,
+      "easy_iou_within_1pp": false,
+      "foreground_within_1pp": true,
+      "pq_not_worse": false,
+      "merges_not_worse": false,
+      "splits_not_worse": false,
+      "false_seams_not_worse": false,
+      "all650_iou_within_1pp": false
+    },
+    "pass": false
+  },
+  "at": 1790479604.9919457
+}

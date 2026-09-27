@@ -691,5 +691,320 @@
       "all650_iou_within_1pp": true
     },
     "pass": false
+  },
+  {
+    "arm": "aux",
+    "step": 1000,
+    "total_step": 5000,
+    "threshold": 0.15,
+    "checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/aux/step_01000.pt",
+    "scores": {
+      "foreground_iou": 0.7752882081806454,
+      "pq": 0.38614289489647846,
+      "boundary_f1": 0.38648147861860704,
+      "merge_n": 1.3224489795918368,
+      "split_n": 1.7510204081632652,
+      "false_positive": 3.4285714285714284,
+      "images": 490,
+      "parts": 2830,
+      "pair_iou": 0.41433431301564166,
+      "recall50": 0.43745583038869257,
+      "tiny": {
+        "n": 922,
+        "pair_iou": 0.2229803587760496,
+        "recall50": 0.2158351409978308
+      },
+      "small": {
+        "n": 763,
+        "pair_iou": 0.27651388941813443,
+        "recall50": 0.2699868938401048
+      },
+      "large": {
+        "n": 1145,
+        "pair_iou": 0.6602603645560802,
+        "recall50": 0.7275109170305677
+      },
+      "same_object_agreement": 0.7349571925964374,
+      "different_object_collision": 0.18687837131309112,
+      "false_internal_edge_fraction": 0.324253200850656,
+      "hard": {
+        "n": 251,
+        "iou": 0.19758904230804694,
+        "recall50": 0.12749003984063745
+      },
+      "easy": {
+        "n": 25,
+        "iou": 0.8119499970279667,
+        "recall50": 0.96
+      },
+      "retention650": {
+        "n": 650,
+        "iou": 0.8648706055724313,
+        "recall50": 0.963076923076923
+      }
+    },
+    "gates": {
+      "hard_recall_gain_5pp": true,
+      "easy_iou_within_1pp": false,
+      "foreground_within_1pp": true,
+      "pq_not_worse": true,
+      "merges_not_worse": true,
+      "splits_not_worse": false,
+      "false_seams_not_worse": true,
+      "all650_iou_within_1pp": false
+    },
+    "pass": false
+  },
+  {
+    "arm": "aux",
+    "step": 1000,
+    "total_step": 5000,
+    "threshold": 0.25,
+    "checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/aux/step_01000.pt",
+    "scores": {
+      "foreground_iou": 0.806865920973101,
+      "pq": 0.4110848787660694,
+      "boundary_f1": 0.382880287132635,
+      "merge_n": 1.3061224489795917,
+      "split_n": 1.5326530612244897,
+      "false_positive": 2.593877551020408,
+      "images": 490,
+      "parts": 2830,
+      "pair_iou": 0.4054822376330047,
+      "recall50": 0.42473498233215545,
+      "tiny": {
+        "n": 922,
+        "pair_iou": 0.2116463045856629,
+        "recall50": 0.210412147505423
+      },
+      "small": {
+        "n": 763,
+        "pair_iou": 0.26754584746984655,
+        "recall50": 0.254259501965924
+      },
+      "large": {
+        "n": 1145,
+        "pair_iou": 0.6534841555056151,
+        "recall50": 0.7109170305676856
+      },
+      "same_object_agreement": 0.7207602050099947,
+      "different_object_collision": 0.18641026096626342,
+      "false_internal_edge_fraction": 0.32183491761872735,
+      "hard": {
+        "n": 251,
+        "iou": 0.1931960093101268,
+        "recall50": 0.10756972111553785
+      },
+      "easy": {
+        "n": 25,
+        "iou": 0.8270436318185351,
+        "recall50": 0.96
+      },
+      "retention650": {
+        "n": 650,
+        "iou": 0.8829078620155179,
+        "recall50": 0.9692307692307692
+      }
+    },
+    "gates": {
+      "hard_recall_gain_5pp": true,
+      "easy_iou_within_1pp": false,
+      "foreground_within_1pp": true,
+      "pq_not_worse": true,
+      "merges_not_worse": true,
+      "splits_not_worse": false,
+      "false_seams_not_worse": true,
+      "all650_iou_within_1pp": false
+    },
+    "pass": false
+  },
+  {
+    "arm": "aux",
+    "step": 1000,
+    "total_step": 5000,
+    "threshold": 0.35,
+    "checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/aux/step_01000.pt",
+    "scores": {
+      "foreground_iou": 0.8064867339744555,
+      "pq": 0.4336226229773185,
+      "boundary_f1": 0.3805173102993078,
+      "merge_n": 1.2877551020408162,
+      "split_n": 1.4040816326530612,
+      "false_positive": 1.9959183673469387,
+      "images": 490,
+      "parts": 2830,
+      "pair_iou": 0.39724968185630666,
+      "recall50": 0.4204946996466431,
+      "tiny": {
+        "n": 922,
+        "pair_iou": 0.20350209473624034,
+        "recall50": 0.20715835140997832
+      },
+      "small": {
+        "n": 763,
+        "pair_iou": 0.2543993664043214,
+        "recall50": 0.24770642201834864
+      },
+      "large": {
+        "n": 1145,
+        "pair_iou": 0.6484549796856218,
+        "recall50": 0.7074235807860262
+      },
+      "same_object_agreement": 0.7227721995112878,
+      "different_object_collision": 0.19387638438974847,
+      "false_internal_edge_fraction": 0.3104490664018008,
+      "hard": {
+        "n": 251,
+        "iou": 0.1864745095880719,
+        "recall50": 0.10756972111553785
+      },
+      "easy": {
+        "n": 25,
+        "iou": 0.8398979203644096,
+        "recall50": 0.96
+      },
+      "retention650": {
+        "n": 650,
+        "iou": 0.9005406803084721,
+        "recall50": 0.9846153846153847
+      }
+    },
+    "gates": {
+      "hard_recall_gain_5pp": true,
+      "easy_iou_within_1pp": false,
+      "foreground_within_1pp": true,
+      "pq_not_worse": true,
+      "merges_not_worse": true,
+      "splits_not_worse": false,
+      "false_seams_not_worse": true,
+      "all650_iou_within_1pp": false
+    },
+    "pass": false
+  },
+  {
+    "arm": "aux",
+    "step": 1000,
+    "total_step": 5000,
+    "threshold": 0.5,
+    "checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/aux/step_01000.pt",
+    "scores": {
+      "foreground_iou": 0.8095403771384888,
+      "pq": 0.4439625870128776,
+      "boundary_f1": 0.372157000885653,
+      "merge_n": 1.2489795918367348,
+      "split_n": 1.2306122448979593,
+      "false_positive": 1.5530612244897959,
+      "images": 490,
+      "parts": 2830,
+      "pair_iou": 0.37652694607059606,
+      "recall50": 0.40141342756183745,
+      "tiny": {
+        "n": 922,
+        "pair_iou": 0.17005055405897698,
+        "recall50": 0.1735357917570499
+      },
+      "small": {
+        "n": 763,
+        "pair_iou": 0.23358588847062628,
+        "recall50": 0.23197903014416776
+      },
+      "large": {
+        "n": 1145,
+        "pair_iou": 0.6380424573225522,
+        "recall50": 0.6978165938864629
+      },
+      "same_object_agreement": 0.717511508454866,
+      "different_object_collision": 0.2064583905207959,
+      "false_internal_edge_fraction": 0.30700979027823233,
+      "hard": {
+        "n": 251,
+        "iou": 0.15889399133972432,
+        "recall50": 0.06772908366533864
+      },
+      "easy": {
+        "n": 25,
+        "iou": 0.8416543970717062,
+        "recall50": 0.96
+      },
+      "retention650": {
+        "n": 650,
+        "iou": 0.9070471711623619,
+        "recall50": 0.9923076923076923
+      }
+    },
+    "gates": {
+      "hard_recall_gain_5pp": true,
+      "easy_iou_within_1pp": false,
+      "foreground_within_1pp": true,
+      "pq_not_worse": true,
+      "merges_not_worse": true,
+      "splits_not_worse": true,
+      "false_seams_not_worse": true,
+      "all650_iou_within_1pp": true
+    },
+    "pass": false
+  },
+  {
+    "arm": "aux",
+    "step": 1000,
+    "total_step": 5000,
+    "threshold": 0.65,
+    "checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/aux/step_01000.pt",
+    "scores": {
+      "foreground_iou": 0.8020089608183318,
+      "pq": 0.4353044082109563,
+      "boundary_f1": 0.35599725595750653,
+      "merge_n": 1.2714285714285714,
+      "split_n": 1.1755102040816328,
+      "false_positive": 1.3448979591836734,
+      "images": 490,
+      "parts": 2830,
+      "pair_iou": 0.359207425568028,
+      "recall50": 0.3784452296819788,
+      "tiny": {
+        "n": 922,
+        "pair_iou": 0.13428318482469442,
+        "recall50": 0.12906724511930587
+      },
+      "small": {
+        "n": 763,
+        "pair_iou": 0.22162686675860427,
+        "recall50": 0.2162516382699869
+      },
+      "large": {
+        "n": 1145,
+        "pair_iou": 0.6320057804474548,
+        "recall50": 0.6873362445414847
+      },
+      "same_object_agreement": 0.7047252225488378,
+      "different_object_collision": 0.21208839522325024,
+      "false_internal_edge_fraction": 0.31724076061495116,
+      "hard": {
+        "n": 251,
+        "iou": 0.14039606958968578,
+        "recall50": 0.04780876494023904
+      },
+      "easy": {
+        "n": 25,
+        "iou": 0.8725150171818191,
+        "recall50": 1.0
+      },
+      "retention650": {
+        "n": 650,
+        "iou": 0.9133474499354468,
+        "recall50": 1.0
+      }
+    },
+    "gates": {
+      "hard_recall_gain_5pp": false,
+      "easy_iou_within_1pp": true,
+      "foreground_within_1pp": true,
+      "pq_not_worse": true,
+      "merges_not_worse": true,
+      "splits_not_worse": true,
+      "false_seams_not_worse": true,
+      "all650_iou_within_1pp": true
+    },
+    "pass": false
   }
 ]
