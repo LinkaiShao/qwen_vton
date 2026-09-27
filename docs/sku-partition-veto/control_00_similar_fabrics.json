@@ -1,5 +1,5 @@
 {
-  "protocol": "strict_partition_veto_joint_context_v1",
+  "protocol": "strict_partition_veto_overview_v5",
   "sku": "control_00_similar_fabrics",
   "title": "similar fabrics",
   "cohort": "controlled",
@@ -68,14 +68,15 @@
           1
         ],
         "kind": "garment",
-        "description": "light-colored button-down shirt with collar and buttons",
+        "description": "white button-up shirt",
         "keep": true,
         "reasons": [],
         "evidence": {
           "control_00_similar_fabrics_v1": {
             "status": "matched",
             "group": [
-              1
+              1,
+              2
             ]
           },
           "control_00_similar_fabrics_v2": {
@@ -93,21 +94,25 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
+        "description": "white button-up shirt",
+        "keep": true,
+        "reasons": [],
         "evidence": {
           "control_00_similar_fabrics_v1": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
+            "status": "matched",
+            "group": [
+              1,
+              2
+            ]
           },
           "control_00_similar_fabrics_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
+            "status": "matched",
+            "group": [
+              1
+            ]
           }
-        }
+        },
+        "keep_basis": "Disputed fragment belongs to a confirmed all-view garment in both same-image orders"
       },
       {
         "view": "control_00_similar_fabrics_v1",
@@ -116,7 +121,7 @@
           1
         ],
         "kind": "garment",
-        "description": "light-colored button-down shirt with collar and buttons",
+        "description": "white button-up shirt",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -129,7 +134,8 @@
           "control_00_similar_fabrics_v0": {
             "status": "matched",
             "group": [
-              1
+              1,
+              2
             ]
           }
         }
@@ -141,34 +147,11 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "control_00_similar_fabrics_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_00_similar_fabrics_v0": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "control_00_similar_fabrics_v2",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "light-colored button-down shirt with collar and buttons",
+        "description": "white button-up shirt",
         "keep": true,
         "reasons": [],
         "evidence": {
-          "control_00_similar_fabrics_v1": {
+          "control_00_similar_fabrics_v2": {
             "status": "matched",
             "group": [
               1
@@ -177,7 +160,36 @@
           "control_00_similar_fabrics_v0": {
             "status": "matched",
             "group": [
-              1
+              1,
+              2
+            ]
+          }
+        },
+        "keep_basis": "Disputed fragment belongs to a confirmed all-view garment in both same-image orders"
+      },
+      {
+        "view": "control_00_similar_fabrics_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "white button-up shirt",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_00_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1,
+              2
+            ]
+          },
+          "control_00_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1,
+              2
             ]
           }
         }
@@ -213,8 +225,16 @@
           1
         ],
         [
+          "control_00_similar_fabrics_v0",
+          2
+        ],
+        [
           "control_00_similar_fabrics_v1",
           1
+        ],
+        [
+          "control_00_similar_fabrics_v1",
+          2
         ],
         [
           "control_00_similar_fabrics_v2",
@@ -223,16 +243,62 @@
       ]
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
-    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+    "presence_policy": "overview_visible_part_adjudication_v5"
   },
+  "files": [
+    {
+      "view": "control_00_similar_fabrics_v0",
+      "alias_of": null,
+      "keep_parts": [
+        1,
+        2
+      ],
+      "source_parts": 2,
+      "kept_pixels": 14113,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_00_similar_fabrics/control_00_similar_fabrics_v0.npz",
+      "sha256": "1766429ff5da30e5f375d776af38b17ff880b4fa8b159aa17e470df053409117"
+    },
+    {
+      "view": "control_00_similar_fabrics_v1",
+      "alias_of": null,
+      "keep_parts": [
+        1,
+        2
+      ],
+      "source_parts": 2,
+      "kept_pixels": 14428,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_00_similar_fabrics/control_00_similar_fabrics_v1.npz",
+      "sha256": "288a0785b6c0b110c3e12c1b084152ad4b6cadd529ac1989bf9429d817bd8545"
+    },
+    {
+      "view": "control_00_similar_fabrics_v2",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 7278,
+      "removed_pixels": 10767,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_00_similar_fabrics/control_00_similar_fabrics_v2.npz",
+      "sha256": "d8dfc848e528bbd0e850aa67407dcef14c5b6dad71640639083ee9539c1bd8a9"
+    }
+  ],
   "joint_evidence": {
     "forward": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_00_similar_fabrics",
       "reverse": false,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_00_similar_fabrics_v0",
@@ -259,18 +325,21 @@
           2
         ]
       },
-      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every view** with at least one visible region.\n\n---\n\n### View Analysis:\n\n**VIEW control_00_similar_fabrics_v0:**\n- R001: Front of a light-colored, button-down shirt with a collar and visible buttons.\n- R002: Back of a white long-sleeved shirt with a high collar and cuffs.\n\n**VIEW control_00_similar_fabrics_v1:**\n- R003: Front of the same light-colored button-down shirt (identical to R001).\n- R004: Side/back view of a white garment \u2014 appears to be the same shirt as R002, but shown from a different angle (draped, possibly the same garment).\n\n**VIEW control_00_similar_fabrics_v2:**\n- R005: Front of the same light-colored button-down shirt (identical to R001 and R003).\n- R006: A white skirt with vertical pleats or stitching details.\n\n---\n\n### Garment Tracking:\n\nWe are to find garments that appear in **every view** with at least one visible region.\n\n1. **The light-colored button-down shirt**:\n   - Appears in R001 (v0), R003 (v1), R005 (v2) \u2014 all front views.\n   - Fabric, color, collar, buttons, and construction are consistent.\n   - This is the same garment across all views.\n\n2. **The white long-sleeved shirt**:\n   - Appears in R002 (v0) and R004 (v1) \u2014 back/side views.\n   - R004 is a different angle of the same garment as R002 \u2014 same fabric, color, high collar, and draping.\n   - However, **it does not appear in VIEW v2** (R006 is a skirt, not this shirt).\n   - Therefore, **this garment does not appear in every view** \u2192 **excluded**.\n\n3. **The white skirt**:\n   - Appears in R006 (v2).\n   - Not present in v0 or v1 \u2192 **excluded**.\n\n---\n\n### Conclusion:\n\nOnly **one garment** appears in **every view**:\n\n- The **light-colored button-down shirt**, visible in R001, R003, and R005.\n\nAll other garments are missing from at least one view.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"light-colored button-down shirt with collar and buttons\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
-      "batch_size": 4,
-      "seconds": 58.31144595320802,
-      "batch_seconds": 233.2457838128321,
-      "input_signature": "13d6461bc63b14887405ec0cfe7d130685d2b1b58363335dea38cb4ddfa0b573",
+      "raw": "{\"reason\": \"The white button-up shirt appears in all three views, consistently showing the same collar, placket, and fabric texture. In v0, it is shown front (R001) and back (R002). In v1, the front is shown again (R003) and the back is partially visible (R004). In v2, the front is shown again (R005). The back view in v1 (R004) is a partial view but matches the same garment as R002. The white skirt (R006) appears only in v2 and is not present in v0 or v1, so it cannot be tracked across all views. Therefore, only the white shirt is consistently visible across all views.\", \"tracks\": [{\"garment\": \"white button-up shirt\", \"regions\": [\"R001\", \"R002\", \"R003\", \"R004\", \"R005\"]}]}\n\n",
+      "batch_size": 1,
+      "seconds": 6.927821298129857,
+      "batch_seconds": 6.927821298129857,
+      "input_signature": "90cf4140ae1171f11223817c088c8b21a64ddcc1fbccc01380f56ef8419a063c",
+      "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "light-colored button-down shirt with collar and buttons",
+          "garment": "white button-up shirt",
           "regions": [
             "R001",
+            "R002",
             "R003",
+            "R004",
             "R005"
           ],
           "nodes": [
@@ -279,8 +348,16 @@
               1
             ],
             [
+              "control_00_similar_fabrics_v0",
+              2
+            ],
+            [
               "control_00_similar_fabrics_v1",
               1
+            ],
+            [
+              "control_00_similar_fabrics_v1",
+              2
             ],
             [
               "control_00_similar_fabrics_v2",
@@ -292,12 +369,12 @@
       "valid": true
     },
     "reverse": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_00_similar_fabrics",
       "reverse": true,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_00_similar_fabrics_v2",
@@ -324,15 +401,16 @@
           1
         ]
       },
-      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every view** (i.e., in at least one region per view) and are visually consistent across views in terms of fabric, construction, color, and context.\n\n---\n\n### Step-by-step Analysis:\n\n#### View v2 (R001, R002):\n- **R001**: White A-line skirt with vertical perforations or eyelets on the side.\n- **R002**: White button-down shirt, front view, with collar and buttons visible.\n\n#### View v1 (R003, R004):\n- **R003**: White garment, likely a sleeve or shoulder detail of a top \u2014 appears to be a draped or gathered fabric, possibly a blouse or top with a high neckline.\n- **R004**: Same white button-down shirt as in R002 \u2014 identical collar, buttons, and fabric.\n\n#### View v0 (R005, R006):\n- **R005**: White long-sleeve top, back view \u2014 high neckline, long sleeves, possibly a turtleneck or mock neck.\n- **R006**: Same white button-down shirt as in R002 and R004 \u2014 identical collar, buttons, and fabric.\n\n---\n\n### Garment Identification:\n\nWe are to find garments that appear in **every view** (v0, v1, v2), meaning at least one region per view must belong to the same garment.\n\n#### Candidate 1: The White Button-Down Shirt\n- Appears in:\n  - v2: R002\n  - v1: R004\n  - v0: R006\n- All three regions show the **same garment**: white button-down shirt with collar and buttons. The fabric, construction, and visible details (buttons, collar shape) are identical across all three views.\n- **This garment is present in every view.**\n\n#### Candidate 2: The White Top/Blouse\n- Appears in:\n  - v1: R003 (draped shoulder/sleeve detail)\n  - v0: R005 (back view of long-sleeve top with high neck)\n- But **not present in v2** \u2014 v2 shows a skirt and a button-down shirt, no such top.\n- Therefore, **does not appear in every view** \u2192 **excluded**.\n\n#### Candidate 3: The White Skirt\n- Appears in:\n  - v2: R001\n- Not present in v1 or v0 \u2192 **excluded**.\n\n---\n\n### Conclusion:\n\nOnly **one garment** appears in **every view**:\n\n- The **white button-down shirt**, identified by regions **R002 (v2), R004 (v1), R006 (v0)**.\n\nAll other garments appear in only one or two views and thus do not meet the requirement of being visible in every view.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"white button-down shirt with collar and buttons\",\n      \"regions\": [\"R002\", \"R004\", \"R006\"]\n    }\n  ]\n}\n```",
-      "batch_size": 4,
-      "seconds": 58.31144595320802,
-      "batch_seconds": 233.2457838128321,
-      "input_signature": "13d6461bc63b14887405ec0cfe7d130685d2b1b58363335dea38cb4ddfa0b573",
+      "raw": "{\"reason\": \"The white shirt appears in all three views, consistently showing the same collar, placket, and button details. In control_00_similar_fabrics_v2, it is shown as R002; in control_00_similar_fabrics_v1, as R004; and in control_00_similar_fabrics_v0, as R006. These regions correspond to the same garment across all views. The white skirt in control_00_similar_fabrics_v2 (R001) does not appear in the other views, and the back view of the shirt in control_00_similar_fabrics_v0 (R005) is a different perspective of the same shirt but not visible in the other views. Therefore, only the white shirt is consistently present across all views.\", \"tracks\": [{\"garment\": \"white button-up shirt with collar and placket\", \"regions\": [\"R002\", \"R004\", \"R006\"]}]}",
+      "batch_size": 1,
+      "seconds": 7.147291251923889,
+      "batch_seconds": 7.147291251923889,
+      "input_signature": "90cf4140ae1171f11223817c088c8b21a64ddcc1fbccc01380f56ef8419a063c",
+      "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "white button-down shirt with collar and buttons",
+          "garment": "white button-up shirt with collar and placket",
           "regions": [
             "R002",
             "R004",
@@ -358,13 +436,480 @@
     }
   },
   "pairs": [],
-  "seconds": 116.62289190641604,
+  "seconds": 14.075112550053746,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529821.7822366,
+  "at": 1790532316.2871623,
   "training": false,
-  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
-  "fragment_reviews": [],
+  "all_view_rule": "Every eligible overview must support a visible part of the same garment. Closeups are excluded from both matching and context. No full silhouette is required.",
+  "eligible_views": [
+    "control_00_similar_fabrics_v0",
+    "control_00_similar_fabrics_v1",
+    "control_00_similar_fabrics_v2"
+  ],
+  "excluded_views": [],
+  "view_selection": {
+    "policy": "overview_only_v1",
+    "eligible_views": [
+      "control_00_similar_fabrics_v0",
+      "control_00_similar_fabrics_v1",
+      "control_00_similar_fabrics_v2"
+    ],
+    "excluded_views": [],
+    "aliases": {},
+    "records": {
+      "control_00_similar_fabrics_v0": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two views of a garment \u2014 a front view (left) and a back view (right) \u2014 both showing the full extent of the shirt from collar to hem, with sleeves fully visible. Although the front view is cropped at the waist, the overall garment structure is clearly presented, consistent with a standard product overview composition.\"}",
+        "valid": true,
+        "seconds": 2.416975652333349,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two views of a garment \u2014 a front view (left) and a back view (right) \u2014 both showing the full extent of the shirt from collar to hem, with sleeves fully visible. Although the front view is cropped at the waist, the overall garment structure is clearly presented, consistent with a standard product overview composition."
+        }
+      },
+      "control_00_similar_fabrics_v1": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two separate garment sections \u2014 a front view of a shirt collar and placket, and a side/back view of a draped sleeve or shoulder area \u2014 both framed to show the overall structure of the garments, not isolated details. The framing includes enough context to identify the garment type and its key features, consistent with an overview composition.\"}",
+        "valid": true,
+        "seconds": 2.4450257350690663,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two separate garment sections \u2014 a front view of a shirt collar and placket, and a side/back view of a draped sleeve or shoulder area \u2014 both framed to show the overall structure of the garments, not isolated details. The framing includes enough context to identify the garment type and its key features, consistent with an overview composition."
+        }
+      },
+      "control_00_similar_fabrics_v2": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "eaa8bbb53371bc7a950ce2a7eab4c3ce7567f704c16d3664a8f61cdcbd071d29",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two separate garment pieces \u2014 a white skirt and a white shirt \u2014 shown in full view against a plain background. Both items are presented in their entirety, with no tight framing on specific details like fabric texture, fasteners, or seams. The composition is typical of a product-only photograph showing the overall object, fitting the definition of an overview.\"}",
+        "valid": true,
+        "seconds": 2.5356937372125685,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two separate garment pieces \u2014 a white skirt and a white shirt \u2014 shown in full view against a plain background. Both items are presented in their entirety, with no tight framing on specific details like fabric texture, fasteners, or seams. The composition is typical of a product-only photograph showing the overall object, fitting the definition of an overview."
+        }
+      }
+    },
+    "rule": "Only overview photographs participate. Closeups are neither required views nor context for the veto."
+  },
+  "fragment_reviews": [
+    {
+      "view": "control_00_similar_fabrics_v0",
+      "part": 2,
+      "track": 0,
+      "anchor_part": 1,
+      "both_orders_same": true,
+      "evidence": [
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. A dress's bodice and attached skirt are parts of ONE dress, including when separated by a waist seam or mesh panel. Use the source construction to distinguish these from two independent clothes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74",
+            "partition": "3fc030d5c4cebc00a0954bc8fa147ef6402bf0dfdad8f7ab9bfec1e2247a9c1f",
+            "a": 2,
+            "b": 1,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                440,
+                194,
+                608,
+                432
+              ],
+              "2": [
+                24,
+                228,
+                184,
+                396
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -3.875,
+          "relative_logits": [
+            -3.875,
+            0.0,
+            -8.875
+          ],
+          "at": 1790532304.5981226
+        },
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. A dress's bodice and attached skirt are parts of ONE dress, including when separated by a waist seam or mesh panel. Use the source construction to distinguish these from two independent clothes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74",
+            "partition": "3fc030d5c4cebc00a0954bc8fa147ef6402bf0dfdad8f7ab9bfec1e2247a9c1f",
+            "a": 1,
+            "b": 2,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                24,
+                228,
+                184,
+                396
+              ],
+              "2": [
+                440,
+                194,
+                608,
+                432
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -5.5,
+          "relative_logits": [
+            -5.5,
+            0.0,
+            -9.625
+          ],
+          "at": 1790532304.606302
+        }
+      ],
+      "contextual_review": [
+        {
+          "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. A dress's bodice, mesh waist panel, sleeves and attached skirt are parts of ONE dress, not separate clothes merely because SAM3 split them. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+          "view": "control_00_similar_fabrics_v0",
+          "a": 2,
+          "b": 1,
+          "raw": "{\"region1\":\"white long-sleeve shirt back with collar and cuffs\", \"region2\":\"white button-up shirt front with collar and placket\", \"reason\":\"Both regions show parts of the same white shirt: front (region 2) and back (region 1), with matching fabric, collar style, and sleeve cuffs. No separate garments or background are visible.\", \"verdict\":\"A\"}",
+          "seconds": 2.9373312979005277,
+          "valid": true,
+          "choice": "A",
+          "explanation": {
+            "region1": "white long-sleeve shirt back with collar and cuffs",
+            "region2": "white button-up shirt front with collar and placket",
+            "reason": "Both regions show parts of the same white shirt: front (region 2) and back (region 1), with matching fabric, collar style, and sleeve cuffs. No separate garments or background are visible.",
+            "verdict": "A"
+          },
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "boxes": {
+            "1": [
+              440,
+              194,
+              608,
+              432
+            ],
+            "2": [
+              24,
+              228,
+              184,
+              396
+            ]
+          },
+          "identity": {
+            "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. A dress's bodice, mesh waist panel, sleeves and attached skirt are parts of ONE dress, not separate clothes merely because SAM3 split them. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+            "code": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
+            "renderer": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "image": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74",
+            "partition": "3fc030d5c4cebc00a0954bc8fa147ef6402bf0dfdad8f7ab9bfec1e2247a9c1f",
+            "a": 2,
+            "b": 1,
+            "context_views": [
+              {
+                "id": "control_00_similar_fabrics_v0",
+                "pixels": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74"
+              },
+              {
+                "id": "control_00_similar_fabrics_v1",
+                "pixels": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce"
+              },
+              {
+                "id": "control_00_similar_fabrics_v2",
+                "pixels": "eaa8bbb53371bc7a950ce2a7eab4c3ce7567f704c16d3664a8f61cdcbd071d29"
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. A dress's bodice, mesh waist panel, sleeves and attached skirt are parts of ONE dress, not separate clothes merely because SAM3 split them. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+          "view": "control_00_similar_fabrics_v0",
+          "a": 1,
+          "b": 2,
+          "raw": "{\"region1\":\"light blue shirt front with collar and buttons\", \"region2\":\"white shirt back with long sleeves and cuffs\", \"reason\":\"Both regions show parts of the same white shirt: front (region 1) and back (region 2), matching fabric, cut, and sleeve continuity. No separate garments or background visible.\", \"verdict\":\"A\"}",
+          "seconds": 2.6817516279406846,
+          "valid": true,
+          "choice": "A",
+          "explanation": {
+            "region1": "light blue shirt front with collar and buttons",
+            "region2": "white shirt back with long sleeves and cuffs",
+            "reason": "Both regions show parts of the same white shirt: front (region 1) and back (region 2), matching fabric, cut, and sleeve continuity. No separate garments or background visible.",
+            "verdict": "A"
+          },
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "boxes": {
+            "1": [
+              24,
+              228,
+              184,
+              396
+            ],
+            "2": [
+              440,
+              194,
+              608,
+              432
+            ]
+          },
+          "identity": {
+            "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. A dress's bodice, mesh waist panel, sleeves and attached skirt are parts of ONE dress, not separate clothes merely because SAM3 split them. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+            "code": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
+            "renderer": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "image": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74",
+            "partition": "3fc030d5c4cebc00a0954bc8fa147ef6402bf0dfdad8f7ab9bfec1e2247a9c1f",
+            "a": 1,
+            "b": 2,
+            "context_views": [
+              {
+                "id": "control_00_similar_fabrics_v2",
+                "pixels": "eaa8bbb53371bc7a950ce2a7eab4c3ce7567f704c16d3664a8f61cdcbd071d29"
+              },
+              {
+                "id": "control_00_similar_fabrics_v1",
+                "pixels": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce"
+              },
+              {
+                "id": "control_00_similar_fabrics_v0",
+                "pixels": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74"
+              }
+            ]
+          }
+        }
+      ],
+      "decision_basis": "reasoned comparison with every SKU photograph"
+    },
+    {
+      "view": "control_00_similar_fabrics_v1",
+      "part": 2,
+      "track": 0,
+      "anchor_part": 1,
+      "both_orders_same": true,
+      "evidence": [
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. A dress's bodice and attached skirt are parts of ONE dress, including when separated by a waist seam or mesh panel. Use the source construction to distinguish these from two independent clothes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce",
+            "partition": "0c8cc90a4769a809f6902ac980551edcbcd9fbfb2c8fab1d26cff1bfc92bebf3",
+            "a": 2,
+            "b": 1,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                438,
+                200,
+                610,
+                428
+              ],
+              "2": [
+                10,
+                218,
+                198,
+                416
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -3.875,
+          "relative_logits": [
+            -3.875,
+            0.0,
+            -7.375
+          ],
+          "at": 1790532304.6148465
+        },
+        {
+          "identity": {
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. A dress's bodice and attached skirt are parts of ONE dress, including when separated by a waist seam or mesh panel. Use the source construction to distinguish these from two independent clothes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "pixels": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce",
+            "partition": "0c8cc90a4769a809f6902ac980551edcbcd9fbfb2c8fab1d26cff1bfc92bebf3",
+            "a": 1,
+            "b": 2,
+            "boxes_xyxy_in_640_source": {
+              "1": [
+                10,
+                218,
+                198,
+                416
+              ],
+              "2": [
+                438,
+                200,
+                610,
+                428
+              ]
+            }
+          },
+          "choice": "B",
+          "margin": -3.5,
+          "relative_logits": [
+            -3.5,
+            0.0,
+            -7.875
+          ],
+          "at": 1790532304.621991
+        }
+      ],
+      "contextual_review": [
+        {
+          "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. A dress's bodice, mesh waist panel, sleeves and attached skirt are parts of ONE dress, not separate clothes merely because SAM3 split them. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+          "view": "control_00_similar_fabrics_v1",
+          "a": 2,
+          "b": 1,
+          "raw": "{\"region1\":\"white fabric with soft folds, likely a shirt sleeve or shoulder area\", \"region2\":\"white shirt front with collar, buttons, and pocket, showing garment construction\", \"reason\":\"Region 1 is the right shoulder/sleeve of the same shirt as region 2; both are part of one garment, confirmed by matching fabric, color, and continuity in the source image.\", \"verdict\":\"A\"}",
+          "seconds": 3.049245957285166,
+          "valid": true,
+          "choice": "A",
+          "explanation": {
+            "region1": "white fabric with soft folds, likely a shirt sleeve or shoulder area",
+            "region2": "white shirt front with collar, buttons, and pocket, showing garment construction",
+            "reason": "Region 1 is the right shoulder/sleeve of the same shirt as region 2; both are part of one garment, confirmed by matching fabric, color, and continuity in the source image.",
+            "verdict": "A"
+          },
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "boxes": {
+            "1": [
+              438,
+              200,
+              610,
+              428
+            ],
+            "2": [
+              10,
+              218,
+              198,
+              416
+            ]
+          },
+          "identity": {
+            "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. A dress's bodice, mesh waist panel, sleeves and attached skirt are parts of ONE dress, not separate clothes merely because SAM3 split them. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+            "code": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
+            "renderer": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "image": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce",
+            "partition": "0c8cc90a4769a809f6902ac980551edcbcd9fbfb2c8fab1d26cff1bfc92bebf3",
+            "a": 2,
+            "b": 1,
+            "context_views": [
+              {
+                "id": "control_00_similar_fabrics_v0",
+                "pixels": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74"
+              },
+              {
+                "id": "control_00_similar_fabrics_v1",
+                "pixels": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce"
+              },
+              {
+                "id": "control_00_similar_fabrics_v2",
+                "pixels": "eaa8bbb53371bc7a950ce2a7eab4c3ce7567f704c16d3664a8f61cdcbd071d29"
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. A dress's bodice, mesh waist panel, sleeves and attached skirt are parts of ONE dress, not separate clothes merely because SAM3 split them. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+          "view": "control_00_similar_fabrics_v1",
+          "a": 1,
+          "b": 2,
+          "raw": "{\"region1\":\"white button-up shirt front with collar and placket\", \"region2\":\"white shirt sleeve and shoulder area\", \"reason\":\"Both regions show continuous white fabric of the same shirt; region 1 is front, region 2 is side/shoulder, connected by garment structure.\", \"verdict\":\"A\"}",
+          "seconds": 2.4362046038731933,
+          "valid": true,
+          "choice": "A",
+          "explanation": {
+            "region1": "white button-up shirt front with collar and placket",
+            "region2": "white shirt sleeve and shoulder area",
+            "reason": "Both regions show continuous white fabric of the same shirt; region 1 is front, region 2 is side/shoulder, connected by garment structure.",
+            "verdict": "A"
+          },
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "boxes": {
+            "1": [
+              10,
+              218,
+              198,
+              416
+            ],
+            "2": [
+              438,
+              200,
+              610,
+              428
+            ]
+          },
+          "identity": {
+            "prompt": "All four images refer to ONE source photograph. Image 1 is the unaltered source. Image 2 marks region 1 blue and region 2 red. Images 3 and 4 isolate their exact pixels. Identify the fabric or background actually underneath each marked region. Mask shape is not garment identity: one SAM3 region can be many disconnected fabric islands. A shirt's sleeve, body, hem, neck, and printed graphic are parts of the SAME garment. A dress's bodice, mesh waist panel, sleeves and attached skirt are parts of ONE dress, not separate clothes merely because SAM3 split them. Two distinct pieces of clothing, such as a vest above a skirt or a jacket over a shirt, remain DIFFERENT even if their fabric matches or they are manufactured together. Compare source positions and actual fabric contents. A mask mixing unrelated garments is uncertain.\nReturn JSON only with four fields in this order. Keep each description under 15 words and the reason under 40 words. Do not repeat the instructions or debate the meaning of garment parts.\n{\"region1\":\"source contents\", \"region2\":\"source contents\", \"reason\":\"explanation using source positions and garment boundaries\", \"verdict\":\"A\"}\nUse verdict A for the same visually distinct garment, B for different garments/objects/background, or C for uncertain/mixed. The A in the schema is an example, not the answer.",
+            "code": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
+            "renderer": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "image": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce",
+            "partition": "0c8cc90a4769a809f6902ac980551edcbcd9fbfb2c8fab1d26cff1bfc92bebf3",
+            "a": 1,
+            "b": 2,
+            "context_views": [
+              {
+                "id": "control_00_similar_fabrics_v2",
+                "pixels": "eaa8bbb53371bc7a950ce2a7eab4c3ce7567f704c16d3664a8f61cdcbd071d29"
+              },
+              {
+                "id": "control_00_similar_fabrics_v1",
+                "pixels": "d221ec3943b245570971ddc3c37d5fbf67ddc5feac5b05d02dbc3c5069966fce"
+              },
+              {
+                "id": "control_00_similar_fabrics_v0",
+                "pixels": "9f4ea46268fee8c536115748a0e27f80443bb1552d4560eae387c0813a994e74"
+              }
+            ]
+          }
+        }
+      ],
+      "decision_basis": "reasoned comparison with every SKU photograph"
+    }
+  ],
   "presence_reviews": [],
   "decision_before_presence_review": {
     "status": "evaluated",
@@ -376,7 +921,7 @@
           1
         ],
         "kind": "garment",
-        "description": "light-colored button-down shirt with collar and buttons",
+        "description": "white button-up shirt",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -401,7 +946,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "white button-up shirt",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
@@ -424,7 +969,7 @@
           1
         ],
         "kind": "garment",
-        "description": "light-colored button-down shirt with collar and buttons",
+        "description": "white button-up shirt",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -449,7 +994,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "white button-up shirt",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
@@ -472,7 +1017,7 @@
           1
         ],
         "kind": "garment",
-        "description": "light-colored button-down shirt with collar and buttons",
+        "description": "white button-up shirt",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -532,16 +1077,17 @@
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
-  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 0.12293269671499729,
+  "presence_policy": "overview_visible_part_adjudication_v5",
+  "finalization_seconds": 12.914854088798165,
   "implementation_sha256": {
-    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
-    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "run_joint": "611db311a7c7eecdeef5ce7a7554824650b2de924887fb401140972441bea146",
+    "view_policy": "17bd78799255d10180cc5d83dd833605a25ab547f29a912114028d51f3ff1cbc",
+    "joint_unique": "bee6f6c70a84f519d2c316220c71160d03a341a3cd0579d523958fabd58b66ef",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
-    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
-    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "visible_presence": "d6366043146048d8d05a5c0bc206956c0adfce1aa1c9023f056e6128b261209b",
+    "presence_regions": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+    "fragment_completion": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+    "fragment_reasoning": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
     "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
     "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"

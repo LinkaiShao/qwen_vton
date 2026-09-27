@@ -1,5 +1,5 @@
 {
-  "protocol": "strict_partition_veto_joint_context_v1",
+  "protocol": "strict_partition_veto_overview_v5",
   "sku": "control_02_last_view_absent",
   "title": "last view absent",
   "cohort": "controlled",
@@ -62,7 +62,7 @@
           1
         ],
         "kind": "garment",
-        "description": "dark gray short-sleeve t-shirt",
+        "description": "dark gray short-sleeve top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -110,7 +110,7 @@
           1
         ],
         "kind": "garment",
-        "description": "dark gray short-sleeve t-shirt",
+        "description": "dark gray short-sleeve top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -158,7 +158,7 @@
           1
         ],
         "kind": "garment",
-        "description": "dark gray short-sleeve t-shirt",
+        "description": "dark gray short-sleeve top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -194,16 +194,60 @@
       ]
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
-    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+    "presence_policy": "overview_visible_part_adjudication_v5"
   },
+  "files": [
+    {
+      "view": "control_02_last_view_absent_v0",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 7275,
+      "removed_pixels": 6119,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_02_last_view_absent/control_02_last_view_absent_v0.npz",
+      "sha256": "08ad2365b1fd487c9e6a9ebdb12c0909f661688c82c8dafc1013464e955b2404"
+    },
+    {
+      "view": "control_02_last_view_absent_v1",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 9948,
+      "removed_pixels": 6761,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_02_last_view_absent/control_02_last_view_absent_v1.npz",
+      "sha256": "22f02427dfa465ff818e5471853f42024a063ee0b813944cb78cbc4893fa74de"
+    },
+    {
+      "view": "control_02_last_view_absent_v2",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 1,
+      "kept_pixels": 9126,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_02_last_view_absent/control_02_last_view_absent_v2.npz",
+      "sha256": "08983d426130ab102536a815bcd370684fb24213771d263cb622b8694c9b1f73"
+    }
+  ],
   "joint_evidence": {
     "forward": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_02_last_view_absent",
       "reverse": false,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_02_last_view_absent_v0",
@@ -226,16 +270,16 @@
           1
         ]
       },
-      "raw": "We are given three views (v0, v1, v2) of a clothing SKU. Each view includes an original photograph and a set of available mask regions (R001\u2013R005). The task is to identify garments that are **visibly present in at least one mask region in every view**. The same garment may appear in different ways (e.g., alone, from different angles, partially hidden), but must be consistent in fabric, construction, color, and context across all views.\n\n---\n\n### Step-by-step Analysis:\n\n#### VIEW control_02_last_view_absent_v0:\n- **Original photo**: Two garments \u2014 a light gray hoodie (left) and a dark gray short-sleeve t-shirt (right).\n- **Available regions**: R001 (dark gray t-shirt), R002 (light gray hoodie).\n\n#### VIEW control_02_last_view_absent_v1:\n- **Original photo**: Same two garments \u2014 light gray hoodie (left), dark gray t-shirt (right).\n- **Available regions**: R003 (dark gray t-shirt), R004 (light gray hoodie).\n\n#### VIEW control_02_last_view_absent_v2:\n- **Original photo**: Only the dark gray t-shirt is shown.\n- **Available regions**: R005 (dark gray t-shirt).\n\n---\n\n### Garment Identification:\n\nWe need to find garments that appear in **every view**.\n\n#### Garment 1: Dark gray short-sleeve t-shirt\n- Appears in **v0** \u2192 R001\n- Appears in **v1** \u2192 R003\n- Appears in **v2** \u2192 R005\n\u2192 **Present in every view.**\n\n#### Garment 2: Light gray hoodie\n- Appears in **v0** \u2192 R002\n- Appears in **v1** \u2192 R004\n- **Does NOT appear in v2** \u2192 No region for it in v2.\n\u2192 **Not present in every view.**\n\n---\n\n### Conclusion:\n\nOnly the **dark gray short-sleeve t-shirt** is visible in **every view** (via R001, R003, R005). The hoodie is absent in v2, so it cannot be tracked across all views.\n\nNote: Even though R001, R003, R005 are different region IDs, they all correspond to the **same garment** (dark gray t-shirt) as confirmed by consistent appearance across views.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"dark gray short-sleeve t-shirt\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"In VIEW control_02_last_view_absent_v0, two garments are visible: a light gray hoodie (R002) and a dark gray short-sleeve top (R001). In VIEW control_02_last_view_absent_v1, the same two garments appear with identical visual characteristics (R003 and R004). In VIEW control_02_last_view_absent_v2, only the dark gray short-sleeve top is visible (R005). The light gray hoodie is absent in the third view, so it cannot be tracked across all views. The dark gray short-sleeve top is present in all three views, appearing in R001 (v0), R003 (v1), and R005 (v2). Therefore, only one garment is consistently visible across all views.\", \"tracks\": [{\"garment\": \"dark gray short-sleeve top\", \"regions\": [\"R001\", \"R003\", \"R005\"]}]}.",
       "batch_size": 1,
-      "seconds": 79.79172709118575,
-      "batch_seconds": 79.79172709118575,
-      "input_signature": "05fcaf3f5ff83fcfe3543c5c01d965b3b0fc16b10b7d598f28ee606a1e7223f1",
+      "seconds": 10.7132265297696,
+      "batch_seconds": 10.7132265297696,
+      "input_signature": "521a04bb75aefd56ab5ada781ea67e9a707ded2815d1dccaced14b799c1056dd",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "dark gray short-sleeve t-shirt",
+          "garment": "dark gray short-sleeve top",
           "regions": [
             "R001",
             "R003",
@@ -260,12 +304,12 @@
       "valid": true
     },
     "reverse": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_02_last_view_absent",
       "reverse": true,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_02_last_view_absent_v2",
@@ -288,16 +332,16 @@
           1
         ]
       },
-      "raw": "We are given three views (v0, v1, v2) of a clothing SKU. Each view contains an original photograph and a set of available mask regions (R001\u2013R005). The goal is to identify garments that are **visibly present in at least one mask region in every view**.\n\n---\n\n### Step 1: Analyze each view and its regions\n\n#### VIEW control_02_last_view_absent_v2 (v2)\n- Original: Only the dark gray short-sleeve shirt is visible (right side).\n- Available region: **R001** \u2014 shows the same dark gray short-sleeve shirt, cropped to shoulder and upper arm.\n\n#### VIEW control_02_last_view_absent_v1 (v1)\n- Original: Two garments \u2014 a light gray hoodie (left) and the same dark gray short-sleeve shirt (right).\n- Available regions:\n  - **R002** \u2014 light gray hoodie.\n  - **R003** \u2014 dark gray short-sleeve shirt.\n\n#### VIEW control_02_last_view_absent_v0 (v0)\n- Original: Same two garments \u2014 light gray hoodie (left), dark gray short-sleeve shirt (right).\n- Available regions:\n  - **R004** \u2014 light gray hoodie.\n  - **R005** \u2014 dark gray short-sleeve shirt.\n\n---\n\n### Step 2: Track garments across all views\n\nWe need garments that appear in **at least one mask region in every view**.\n\n#### Garment 1: Dark gray short-sleeve shirt\n- v2: R001\n- v1: R003\n- v0: R005\n\u2192 Appears in every view \u2192 **Valid track**\n\n#### Garment 2: Light gray hoodie\n- v2: **No region** \u2014 only the dark shirt is shown, no hoodie in v2.\n- v1: R002\n- v0: R004\n\u2192 **Missing in v2** \u2192 **Not valid track**\n\n---\n\n### Step 3: Final tracks\n\nOnly the dark gray short-sleeve shirt is present in every view.\n\n---\n\n### JSON Output\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"dark gray short-sleeve shirt\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"In all three views, a dark gray short-sleeved t-shirt is consistently visible on the right side of the image. In view v02, it occupies R001. In view v01, it occupies R003. In view v00, it occupies R005. The garment is the same across all views, shown from a similar side angle, with consistent color, cut, and sleeve length. The light gray hoodie appears only in views v01 and v00 (R002 and R004), but is absent in v02, so it cannot be tracked across all views. Therefore, only the dark gray t-shirt is present in every view.\", \"tracks\": [{\"garment\": \"dark gray short-sleeved t-shirt shown from side angle\", \"regions\": [\"R001\", \"R003\", \"R005\"]}]}",
       "batch_size": 1,
-      "seconds": 17.253018802031875,
-      "batch_seconds": 17.253018802031875,
-      "input_signature": "05fcaf3f5ff83fcfe3543c5c01d965b3b0fc16b10b7d598f28ee606a1e7223f1",
+      "seconds": 9.34049483994022,
+      "batch_seconds": 9.34049483994022,
+      "input_signature": "521a04bb75aefd56ab5ada781ea67e9a707ded2815d1dccaced14b799c1056dd",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "dark gray short-sleeve shirt",
+          "garment": "dark gray short-sleeved t-shirt shown from side angle",
           "regions": [
             "R001",
             "R003",
@@ -323,12 +367,82 @@
     }
   },
   "pairs": [],
-  "seconds": 97.04474589321762,
+  "seconds": 20.05372136970982,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529824.337979,
+  "at": 1790532489.9086876,
   "training": false,
-  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
+  "all_view_rule": "Every eligible overview must support a visible part of the same garment. Closeups are excluded from both matching and context. No full silhouette is required.",
+  "eligible_views": [
+    "control_02_last_view_absent_v0",
+    "control_02_last_view_absent_v1",
+    "control_02_last_view_absent_v2"
+  ],
+  "excluded_views": [],
+  "view_selection": {
+    "policy": "overview_only_v1",
+    "eligible_views": [
+      "control_02_last_view_absent_v0",
+      "control_02_last_view_absent_v1",
+      "control_02_last_view_absent_v2"
+    ],
+    "excluded_views": [],
+    "aliases": {},
+    "records": {
+      "control_02_last_view_absent_v0": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "3c99893618cf6ebb34785468b5fbc9b9a9834fb1643549852a274e43be043515",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two complete garments \u2014 a hoodie and a t-shirt \u2014 shown in full view against a plain background. Both items are presented in a way that shows their overall shape and design, with no tight framing on specific details like fabric texture or fasteners. This constitutes a product-only photograph showing the overall object, fitting the definition of an overview.\"}",
+        "valid": true,
+        "seconds": 3.5602002567611635,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two complete garments \u2014 a hoodie and a t-shirt \u2014 shown in full view against a plain background. Both items are presented in a way that shows their overall shape and design, with no tight framing on specific details like fabric texture or fasteners. This constitutes a product-only photograph showing the overall object, fitting the definition of an overview."
+        }
+      },
+      "control_02_last_view_absent_v1": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "c72ffa2040e5dfff7d4896deac2b35cea319b9a70a94d476d0f0c5d25add3da6",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two complete garments \u2014 a hoodie and a t-shirt \u2014 shown in full view against a plain background. Both items are presented in their entirety, with no tight framing on specific details like fabric texture, fasteners, or labels. The composition is typical of a product-only photograph showing the overall object, fitting the definition of an overview.\"}",
+        "valid": true,
+        "seconds": 3.7143579870462418,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two complete garments \u2014 a hoodie and a t-shirt \u2014 shown in full view against a plain background. Both items are presented in their entirety, with no tight framing on specific details like fabric texture, fasteners, or labels. The composition is typical of a product-only photograph showing the overall object, fitting the definition of an overview."
+        }
+      },
+      "control_02_last_view_absent_v2": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "5264467fecf563924aec05c8ac4c3b770b237114cc74860246c4b40f227a20c5",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image shows a full side view of a T-shirt, including the shoulder, sleeve, and torso, with no visible details cropped out or emphasized. The garment is presented as a complete product, even though the model is cropped at the neck and waist, which is typical for product photography.\"}",
+        "valid": true,
+        "seconds": 3.1336140567436814,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image shows a full side view of a T-shirt, including the shoulder, sleeve, and torso, with no visible details cropped out or emphasized. The garment is presented as a complete product, even though the model is cropped at the neck and waist, which is typical for product photography."
+        }
+      }
+    },
+    "rule": "Only overview photographs participate. Closeups are neither required views nor context for the veto."
+  },
   "fragment_reviews": [],
   "presence_reviews": [],
   "decision_before_presence_review": {
@@ -341,7 +455,7 @@
           1
         ],
         "kind": "garment",
-        "description": "dark gray short-sleeve t-shirt",
+        "description": "dark gray short-sleeve top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -389,7 +503,7 @@
           1
         ],
         "kind": "garment",
-        "description": "dark gray short-sleeve t-shirt",
+        "description": "dark gray short-sleeve top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -437,7 +551,7 @@
           1
         ],
         "kind": "garment",
-        "description": "dark gray short-sleeve t-shirt",
+        "description": "dark gray short-sleeve top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -474,16 +588,17 @@
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
-  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 0.12407817272469401,
+  "presence_policy": "overview_visible_part_adjudication_v5",
+  "finalization_seconds": 0.1432052510790527,
   "implementation_sha256": {
-    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
-    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "run_joint": "611db311a7c7eecdeef5ce7a7554824650b2de924887fb401140972441bea146",
+    "view_policy": "17bd78799255d10180cc5d83dd833605a25ab547f29a912114028d51f3ff1cbc",
+    "joint_unique": "bee6f6c70a84f519d2c316220c71160d03a341a3cd0579d523958fabd58b66ef",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
-    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
-    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "visible_presence": "d6366043146048d8d05a5c0bc206956c0adfce1aa1c9023f056e6128b261209b",
+    "presence_regions": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+    "fragment_completion": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+    "fragment_reasoning": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
     "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
     "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"

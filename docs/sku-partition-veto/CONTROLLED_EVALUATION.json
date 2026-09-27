@@ -1,14 +1,14 @@
 {
   "protocol": "strict_partition_veto_overview_v5",
   "complete": false,
-  "skus": 3,
+  "skus": 14,
   "expected_skus": 32,
-  "persistent_parts": 15,
-  "persistent_parts_kept": 9,
-  "nonpersistent_parts": 5,
-  "nonpersistent_parts_removed": 4,
-  "retention": 0.6,
-  "removal": 0.8,
+  "persistent_parts": 66,
+  "persistent_parts_kept": 60,
+  "nonpersistent_parts": 26,
+  "nonpersistent_parts_removed": 23,
+  "retention": 0.9090909090909091,
+  "removal": 0.8846153846153846,
   "pass": false,
   "overview_classification_errors": [
     {
@@ -94,6 +94,85 @@
           "actual_keep": false
         }
       ]
+    },
+    {
+      "sku": "control_00_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": false,
+      "errors": [
+        {
+          "view": "control_00_similar_fabrics_v0",
+          "part": 2,
+          "expected_keep": false,
+          "actual_keep": true
+        },
+        {
+          "view": "control_00_similar_fabrics_v1",
+          "part": 2,
+          "expected_keep": false,
+          "actual_keep": true
+        }
+      ]
+    },
+    {
+      "sku": "control_01_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_01_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_01_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_01_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_02_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_02_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_02_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_02_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_03_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_03_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
     }
   ],
   "scope": "Constructed identity controls, not real-view semantic accuracy"
