@@ -1,0 +1,935 @@
+{
+  "cutouts": 186,
+  "records": [
+    {
+      "sku": "asos_210500263",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_21254507",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_13149003",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30650916",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30858414",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_16244822",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_20096931",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33583866",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36161641",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34232813",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_26592200",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35090986",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31376168",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_18299001",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33445739",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32340725",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30962776",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_20098568",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35846627",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_19992762",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_28075151",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32561274",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_21645502",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30145089",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33882785",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22686535",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_24121257",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_29118380",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_37301128",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30677488",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_19281099",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31898043",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36465475",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36347079",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_29010851",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_21688204",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36659125",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32140244",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34315446",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32020426",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_24354174",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_26519954",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31164040",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_38830481",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14958835",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32965946",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_29689999",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33165495",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35802368",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_37423497",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_26874751",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22284419",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34733134",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31058466",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35117120",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31790240",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35947039",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_25523958",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35217441",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_17945758",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22836880",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32574170",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32934420",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31754601",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34227055",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35941738",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36408382",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36592018",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34627554",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30682444",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_29742598",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_16325316",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_37024354",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36049508",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34179073",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_20231425",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14480592",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_19671898",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36639629",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31777449",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_27851709",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_29885080",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36106865",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_23558156",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_23608342",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32065503",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32533236",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_28699300",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_19935057",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22668122",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30387275",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_18987508",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_19663142",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22633314",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_26315036",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35132073",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30471500",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33433796",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34780336",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_28760829",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_29547688",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32171255",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_18022329",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_23261637",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_29849186",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33943459",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35686878",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36175180",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35181022",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32632709",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_29996075",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32757639",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33266750",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36697595",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_23346767",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34494320",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32347373",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35132369",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_38184599",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30267218",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_20664453",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_38353031",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32881494",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22829126",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36433635",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_28280749",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_38383777",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33285228",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34545706",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_37021383",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30870264",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_19077647",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34317699",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_11553544",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22837289",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_20937640",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14069460",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14944992",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34029134",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14052424",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36636981",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31933247",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33066544",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31550438",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_10804903",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31365133",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34449905",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_12757232",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32021756",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_36967310",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_37851031",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14069169",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_31884676",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_30904095",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_11422603",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_12584874",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_35242916",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_20907447",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_13583392",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_18843862",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_12443735",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_19319704",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_13339890",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_38114065",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14276796",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_12982496",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22057113",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14495753",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_14052469",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_33791076",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_13711602",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_12152694",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_38377833",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_13866169",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_11497203",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_17952371",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_13310801",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_27047475",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_10309111",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_32237278",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_13222693",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_22030644",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_12167521",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_34670448",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "farfetch_13745187",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    },
+    {
+      "sku": "asos_210698404",
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true
+    }
+  ]
+}
