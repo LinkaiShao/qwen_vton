@@ -1,0 +1,371 @@
+{
+  "sku": "farfetch_36932326",
+  "forward": null,
+  "reverse": "Track lacks evidence in at least one required view",
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36932326",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36932326_00",
+          1
+        ],
+        "R002": [
+          "36932326_00",
+          2
+        ],
+        "R003": [
+          "36932326_00",
+          3
+        ],
+        "R004": [
+          "36932326_01",
+          1
+        ],
+        "R005": [
+          "36932326_01",
+          2
+        ],
+        "R006": [
+          "36932326_01",
+          3
+        ],
+        "R007": [
+          "36932326_01",
+          4
+        ],
+        "R008": [
+          "36932326_01",
+          5
+        ],
+        "R009": [
+          "36932326_01",
+          6
+        ],
+        "R010": [
+          "36932326_01",
+          7
+        ],
+        "R011": [
+          "36932326_01",
+          8
+        ],
+        "R012": [
+          "36932326_01",
+          9
+        ],
+        "R013": [
+          "36932326_01",
+          10
+        ],
+        "R014": [
+          "36932326_01",
+          11
+        ],
+        "R015": [
+          "36932326_02",
+          1
+        ],
+        "R016": [
+          "36932326_02",
+          2
+        ],
+        "R017": [
+          "36932326_02",
+          3
+        ],
+        "R018": [
+          "36932326_02",
+          4
+        ],
+        "R019": [
+          "36932326_02",
+          5
+        ],
+        "R020": [
+          "36932326_02",
+          6
+        ],
+        "R021": [
+          "36932326_02",
+          7
+        ],
+        "R022": [
+          "36932326_02",
+          8
+        ],
+        "R023": [
+          "36932326_02",
+          9
+        ],
+        "R024": [
+          "36932326_02",
+          10
+        ],
+        "R025": [
+          "36932326_03",
+          1
+        ],
+        "R026": [
+          "36932326_03",
+          2
+        ],
+        "R027": [
+          "36932326_03",
+          3
+        ],
+        "R028": [
+          "36932326_03",
+          4
+        ],
+        "R029": [
+          "36932326_03",
+          5
+        ],
+        "R030": [
+          "36932326_03",
+          6
+        ],
+        "R031": [
+          "36932326_03",
+          7
+        ],
+        "R032": [
+          "36932326_03",
+          8
+        ],
+        "R033": [
+          "36932326_03",
+          9
+        ],
+        "R034": [
+          "36932326_03",
+          10
+        ],
+        "R035": [
+          "36932326_04",
+          1
+        ],
+        "R036": [
+          "36932326_04",
+          2
+        ],
+        "R037": [
+          "36932326_04",
+          3
+        ],
+        "R038": [
+          "36932326_04",
+          4
+        ],
+        "R039": [
+          "36932326_04",
+          5
+        ],
+        "R040": [
+          "36932326_04",
+          6
+        ]
+      },
+      "raw": "After analyzing all views and their corresponding mask regions, we are tasked with identifying **visually distinct garments** that have **visible pixels in an available mask in EVERY VIEW**.\n\n---\n\n### Step-by-step Analysis:\n\nWe have 5 views (00 to 04), each with its own set of mask regions.\n\nWe must find garments (defined by fabric, construction, color, context) that appear in **every single view** \u2014 meaning, for each view, at least one region from that view must belong to the same garment.\n\n---\n\n### View 00: Dress with two-tone fabric (black and brown)\n\n- **R001**: Black and brown draped fabric \u2014 likely the main dress.\n- **R002**: Brown sleeve \u2014 part of the dress.\n- **R003**: Black fabric \u2014 likely the black part of the dress.\n\n\u2192 This is a **two-tone dress** (black and brown), with draped fabric and long sleeves.\n\n---\n\n### View 01: Black heels (back view)\n\n- **R004\u2013R014**: All regions show parts of black heels \u2014 heel, toe, laces, etc.\n\n\u2192 This is a **pair of black high-heeled shoes** with ankle laces and a gathered toe.\n\n---\n\n### View 02: Black heels (side view)\n\n- **R015\u2013R024**: Again, all regions show parts of the same black heels \u2014 heel, laces, toe, etc.\n\n\u2192 Same shoes as View 01.\n\n---\n\n### View 03: Black heels (front/side view)\n\n- **R025\u2013R034**: Again, same black heels \u2014 different angles, but same construction.\n\n\u2192 Same shoes.\n\n---\n\n### View 04: Black heels (profile view)\n\n- **R035\u2013R040**: Again, same black heels \u2014 side profile.\n\n\u2192 Same shoes.\n\n---\n\n### Now, check for garments that appear in **every view**:\n\n- **The dress (from View 00)**: Appears **only in View 00**. Not present in Views 01\u201304. \u2192 **Excluded**.\n\n- **The black heels**: Appear in **Views 01, 02, 03, 04** \u2014 but **not in View 00**.\n\n\u2192 In View 00, the shoes are visible (in the original photo), and **regions R001, R002, R003** are from the dress, not the shoes. There are **no mask regions assigned to the shoes in View 00**.\n\n\u2192 Therefore, **the shoes do not appear in every view** \u2014 they are missing from View 00\u2019s mask regions.\n\n---\n\n### Conclusion:\n\nThere is **no garment** that has **visible pixels in an available mask in EVERY VIEW**.\n\nEven though the shoes appear in 4 out of 5 views, they are **not masked in View 00**, so they cannot be tracked across all views.\n\nThe dress appears only in View 00.\n\nNo other garments are visible across all views.\n\n---\n\n### Final Output:\n\n```json\n{\"tracks\":[]}\n```",
+      "batch_size": 1,
+      "seconds": 21.87855812581256,
+      "batch_seconds": 21.87855812581256,
+      "input_signature": "e8bac425742410aac1a16fbd40dc68b9f8d6ca66e60194411e8bf9fcf8f3335e",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_joint_context_v1",
+      "sku": "farfetch_36932326",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "36932326_04",
+          6
+        ],
+        "R002": [
+          "36932326_04",
+          5
+        ],
+        "R003": [
+          "36932326_04",
+          4
+        ],
+        "R004": [
+          "36932326_04",
+          3
+        ],
+        "R005": [
+          "36932326_04",
+          2
+        ],
+        "R006": [
+          "36932326_04",
+          1
+        ],
+        "R007": [
+          "36932326_03",
+          10
+        ],
+        "R008": [
+          "36932326_03",
+          9
+        ],
+        "R009": [
+          "36932326_03",
+          8
+        ],
+        "R010": [
+          "36932326_03",
+          7
+        ],
+        "R011": [
+          "36932326_03",
+          6
+        ],
+        "R012": [
+          "36932326_03",
+          5
+        ],
+        "R013": [
+          "36932326_03",
+          4
+        ],
+        "R014": [
+          "36932326_03",
+          3
+        ],
+        "R015": [
+          "36932326_03",
+          2
+        ],
+        "R016": [
+          "36932326_03",
+          1
+        ],
+        "R017": [
+          "36932326_02",
+          10
+        ],
+        "R018": [
+          "36932326_02",
+          9
+        ],
+        "R019": [
+          "36932326_02",
+          8
+        ],
+        "R020": [
+          "36932326_02",
+          7
+        ],
+        "R021": [
+          "36932326_02",
+          6
+        ],
+        "R022": [
+          "36932326_02",
+          5
+        ],
+        "R023": [
+          "36932326_02",
+          4
+        ],
+        "R024": [
+          "36932326_02",
+          3
+        ],
+        "R025": [
+          "36932326_02",
+          2
+        ],
+        "R026": [
+          "36932326_02",
+          1
+        ],
+        "R027": [
+          "36932326_01",
+          11
+        ],
+        "R028": [
+          "36932326_01",
+          10
+        ],
+        "R029": [
+          "36932326_01",
+          9
+        ],
+        "R030": [
+          "36932326_01",
+          8
+        ],
+        "R031": [
+          "36932326_01",
+          7
+        ],
+        "R032": [
+          "36932326_01",
+          6
+        ],
+        "R033": [
+          "36932326_01",
+          5
+        ],
+        "R034": [
+          "36932326_01",
+          4
+        ],
+        "R035": [
+          "36932326_01",
+          3
+        ],
+        "R036": [
+          "36932326_01",
+          2
+        ],
+        "R037": [
+          "36932326_01",
+          1
+        ],
+        "R038": [
+          "36932326_00",
+          3
+        ],
+        "R039": [
+          "36932326_00",
+          2
+        ],
+        "R040": [
+          "36932326_00",
+          1
+        ]
+      },
+      "raw": "```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Black leather high-heeled shoe with ruched toe, ankle lace-up, and block heel\",\n      \"regions\": [\n        \"R001\",\n        \"R002\",\n        \"R003\",\n        \"R004\",\n        \"R005\",\n        \"R006\",\n        \"R007\",\n        \"R008\",\n        \"R009\",\n        \"R010\",\n        \"R011\",\n        \"R012\",\n        \"R013\",\n        \"R014\",\n        \"R015\",\n        \"R016\",\n        \"R017\",\n        \"R018\",\n        \"R019\",\n        \"R020\",\n        \"R021\",\n        \"R022\",\n        \"R023\",\n        \"R024\",\n        \"R025\",\n        \"R026\",\n        \"R027\",\n        \"R028\",\n        \"R029\",\n        \"R030\",\n        \"R031\",\n        \"R032\",\n        \"R033\",\n        \"R034\",\n        \"R035\",\n        \"R036\",\n        \"R037\"\n      ]\n    }\n  ]\n}\n```",
+      "batch_size": 1,
+      "seconds": 10.776178614236414,
+      "batch_seconds": 10.776178614236414,
+      "input_signature": "e8bac425742410aac1a16fbd40dc68b9f8d6ca66e60194411e8bf9fcf8f3335e",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "After analyzing all five views and their corresponding mask regions, we are tasked with identifying **visually distinct garments** that have **visible pixels in an available mask in EVERY VIEW**.\n\n---\n\n### Step-by-step Analysis:\n\nWe are looking for garments that appear in **all five views** (00 to 04), even if partially visible, as long as they are the same garment (same fabric, construction, color, context).\n\n---\n\n#### View 00: Model wearing the shoes with a dress\n- **R038**: Black ruched toe cap of the shoe (part of the shoe)\n- **R039**: Brown sleeve of the dress\n- **R040**: Black and brown dress (main garment)\n\n\u2192 The **dress** is visible here (R039, R040). But we must check if it appears in all other views.\n\n\u2192 In **Views 01\u201304**, the dress is **not present** \u2014 only the shoes are shown. So the dress **does not appear in every view** \u2192 **excluded**.\n\n---\n\n#### View 01: Back view of the shoes\n- **R027**: Ruched toe cap (black)\n- **R028**: Laces (black)\n- **R029**: Heel and upper part of shoe\n- **R030**: Side of shoe\n- **R031**: Silhouette mask (both shoes)\n- **R032**: Laces\n- **R033**: Ruched toe cap\n- **R034**: Ruched toe cap\n- **R035**: Small fragments\n- **R036**: Heel and upper\n- **R037**: Small fragments\n\n\u2192 All regions are parts of the **same black leather shoe** with ruched toe, ankle lace-up, and block heel.\n\n---\n\n#### View 02: Side-back view of the shoes\n- **R017**: Heel\n- **R018**: Fragments\n- **R019**: Upper part of shoe\n- **R020**: Laces\n- **R021**: Ruched toe cap\n- **R022**: Silhouette mask\n- **R023**: Laces\n- **R024**: Fragments\n- **R025**: Heel\n- **R026**: Upper part of shoe\n\n\u2192 Again, all regions are parts of the **same black leather shoe**.\n\n---\n\n#### View 03: Front view of both shoes\n- **R007**: Upper part\n- **R008**: Heel\n- **R009**: Silhouette mask\n- **R010**: Fragments\n- **R011**: Laces\n- **R012**: Laces\n- **R013**: Ruched toe cap\n- **R014**: Ruched toe cap\n- **R015**: Upper part\n- **R016**: Upper part\n\n\u2192 All regions belong to the **same black leather shoe**.\n\n---\n\n#### View 04: Side view of one shoe\n- **R001**: Upper part\n- **R002**: Silhouette mask\n- **R003**: Heel and upper\n- **R004**: Laces\n- **R005**: Ruched toe cap\n- **R006**: Upper part\n\n\u2192 Again, all regions are parts of the **same black leather shoe**.\n\n---\n\n### Conclusion:\n\nThe **only garment** that appears in **every view** is the **black leather high-heeled shoe with ruched toe, ankle lace-up, and block heel**.\n\nAll regions across all views (R001\u2013R040) that belong to this shoe are included in the track.\n\nNote: R038\u2013R040 (from View 00) are **not** part of the shoe \u2014 they are parts of the dress, which does not appear in other views. So they are **excluded**.\n\nAlso, R031, R022, R009, R002 are silhouette masks \u2014 they are not fabric regions, but they are part of the same garment (the shoe) and are included as they are available masks for the shoe.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Black leather high-heeled shoe with ruched toe, ankle lace-up, and block heel\",\n      \"regions\": [\n        \"R001\",\n        \"R002\",\n        \"R003\",\n        \"R004\",\n        \"R005\",\n        \"R006\",\n        \"R007\",\n        \"R008\",\n        \"R009\",\n        \"R010\",\n        \"R011\",\n        \"R012\",\n        \"R013\",\n        \"R014\",\n        \"R015\",\n        \"R016\",\n        \"R017\",\n        \"R018\",\n        \"R019\",\n        \"R020\",\n        \"R021\",\n        \"R022\",\n        \"R023\",\n        \"R024\",\n        \"R025\",\n        \"R026\",\n        \"R027\",\n        \"R028\",\n        \"R029\",\n        \"R030\",\n        \"R031\",\n        \"R032\",\n        \"R033\",\n        \"R034\",\n        \"R035\",\n        \"R036\",\n        \"R037\"\n      ]\n    }\n  ]\n}\n```"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    }
+  },
+  "at": 1790529976.6866846
+}
