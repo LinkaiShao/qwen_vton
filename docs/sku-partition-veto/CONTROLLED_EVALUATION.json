@@ -1,0 +1,88 @@
+{
+  "protocol": "strict_partition_veto_joint_context_v1",
+  "complete": false,
+  "skus": 12,
+  "expected_skus": 32,
+  "persistent_parts": 54,
+  "persistent_parts_kept": 54,
+  "nonpersistent_parts": 24,
+  "nonpersistent_parts_removed": 24,
+  "retention": 1.0,
+  "removal": 1.0,
+  "pass": false,
+  "records": [
+    {
+      "sku": "control_00_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_00_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_00_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_00_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_01_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_01_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_01_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_01_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_02_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_02_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_02_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_02_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "scope": "Constructed identity controls, not real-view semantic accuracy"
+}

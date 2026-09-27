@@ -1,8 +1,8 @@
 {
   "complete": false,
   "expected_skus": 100,
-  "completed_skus": 16,
-  "checked_views": 56,
+  "completed_skus": 20,
+  "checked_views": 68,
   "whole_region_invariants_passed": true,
   "source_row_order_unchanged": true,
   "pending_skus": [
@@ -70,10 +70,6 @@
     "farfetch_36112926",
     "farfetch_36586113",
     "farfetch_36931889",
-    "control_03_all_present",
-    "control_03_last_view_absent",
-    "control_03_changing_distractors",
-    "control_03_similar_fabrics",
     "control_04_all_present",
     "control_04_last_view_absent",
     "control_04_changing_distractors",
@@ -94,5 +90,5 @@
   "processing_errors": [],
   "empty_skus": [],
   "natural_accuracy_measured": false,
-  "at": 1790492644.6303709
+  "at": 1790492836.202027
 }
