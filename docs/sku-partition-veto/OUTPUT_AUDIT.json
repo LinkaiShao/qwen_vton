@@ -1,17 +1,11 @@
 {
   "complete": false,
   "expected_skus": 100,
-  "completed_skus": 36,
-  "checked_views": 116,
+  "completed_skus": 42,
+  "checked_views": 135,
   "whole_region_invariants_passed": true,
   "source_row_order_unchanged": true,
   "pending_skus": [
-    "farfetch_36906158",
-    "farfetch_36730153",
-    "farfetch_36892437",
-    "farfetch_36545211",
-    "farfetch_36757952",
-    "farfetch_36718045",
     "farfetch_36824009",
     "farfetch_36601262",
     "farfetch_36791128",
@@ -74,5 +68,5 @@
   "processing_errors": [],
   "empty_skus": [],
   "natural_accuracy_measured": false,
-  "at": 1790494128.998485
+  "at": 1790494457.8850627
 }
