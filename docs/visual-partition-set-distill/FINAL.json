@@ -1,0 +1,498 @@
+{
+  "selected_step": 2000,
+  "candidate_checkpoint": "/mnt/nvme0/visual_partition/20260926_set_distill/checkpoints/structured/step_02000.pt",
+  "passed_quality": false,
+  "promote": null,
+  "selection": "validation PQ + hard IoU - cross-object collision, restricted to all quality gates when possible; named cases never select checkpoint",
+  "scores": {
+    "foreground_iou": 0.7980501608265286,
+    "pq": 0.3230428889300588,
+    "boundary_f1": 0.39153978859639665,
+    "merge_n": 1.5653061224489795,
+    "split_n": 1.9469387755102041,
+    "false_positive": 3.463265306122449,
+    "images": 490,
+    "parts": 2830,
+    "pair_iou": 0.36310410239762286,
+    "recall50": 0.3434628975265018,
+    "tiny": {
+      "n": 922,
+      "pair_iou": 0.13607160006377494,
+      "recall50": 0.0509761388286334
+    },
+    "small": {
+      "n": 763,
+      "pair_iou": 0.21155206040295865,
+      "recall50": 0.14154652686762778
+    },
+    "large": {
+      "n": 1145,
+      "pair_iou": 0.6469103689423709,
+      "recall50": 0.7135371179039302
+    },
+    "same_object_agreement": 0.6745312973029007,
+    "different_object_collision": 0.14837116146564558,
+    "false_internal_edge_fraction": 0.34923154167426695,
+    "hard": {
+      "n": 251,
+      "iou": 0.15593996276568628,
+      "recall50": 0.05179282868525897
+    },
+    "easy": {
+      "n": 25,
+      "iou": 0.7438940846815857,
+      "recall50": 0.88
+    }
+  },
+  "baseline": {
+    "foreground_iou": 0.7406495586618316,
+    "pq": 0.3683105193236315,
+    "boundary_f1": 0.27300554856588394,
+    "merge_n": 1.4040816326530612,
+    "split_n": 1.2979591836734694,
+    "false_positive": 1.2469387755102042,
+    "images": 490,
+    "parts": 2830,
+    "pair_iou": 0.29190136449129717,
+    "recall50": 0.29081272084805654,
+    "tiny": {
+      "n": 922,
+      "pair_iou": 0.06443347123755558,
+      "recall50": 0.03253796095444685
+    },
+    "small": {
+      "n": 763,
+      "pair_iou": 0.1295154521319079,
+      "recall50": 0.09305373525557012
+    },
+    "large": {
+      "n": 1145,
+      "pair_iou": 0.5832776515744096,
+      "recall50": 0.6305676855895197
+    },
+    "same_object_agreement": 0.6403780503483397,
+    "different_object_collision": 0.2189292263327085,
+    "false_internal_edge_fraction": 0.39245235496599784,
+    "hard": {
+      "n": 251,
+      "iou": 0.11726897770313277,
+      "recall50": 0.0
+    },
+    "easy": {
+      "n": 25,
+      "iou": 0.861711415264494,
+      "recall50": 1.0
+    }
+  },
+  "named": [
+    {
+      "store": "named",
+      "sku": "12416975",
+      "idx": -1,
+      "key": "named_12416975.npz",
+      "title": "Zanone roll neck sweatshirt",
+      "image": "staged/named/12416975.webp",
+      "image_sha256": "52cf934e15f68d07f3438b51e5bea32e34b879b45069f77989a1db8f53208e16",
+      "geometry": [
+        80,
+        0,
+        480,
+        640,
+        480,
+        640
+      ],
+      "parts": [
+        {
+          "teacher_id": 1,
+          "area": 0.06046875,
+          "iou": 0.9510223490252021,
+          "recovery": 0.9689922480620154,
+          "contamination": 0.019127023050514946,
+          "pred_id": 2,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 2,
+          "area": 0.0882421875,
+          "iou": 0.8181046676096181,
+          "recovery": 0.9601593625498008,
+          "contamination": 0.15314787701317711,
+          "pred_id": 1,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 3,
+          "area": 0.00462890625,
+          "iou": 0.17984189723320157,
+          "recovery": 0.19198312236286919,
+          "contamination": 0.26016260162601623,
+          "pred_id": 9,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 4,
+          "area": 0.00533203125,
+          "iou": 0.32739273927392737,
+          "recovery": 0.9084249084249084,
+          "contamination": 0.6614334470989761,
+          "pred_id": 4,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 5,
+          "area": 0.002705078125,
+          "iou": 0.0,
+          "recovery": 0.0,
+          "contamination": 1.0,
+          "pred_id": 8,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 6,
+          "area": 0.01439453125,
+          "iou": 0.6314943760042849,
+          "recovery": 0.7998643147896879,
+          "contamination": 0.25,
+          "pred_id": 3,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 7,
+          "area": 0.0037890625,
+          "iou": 0.0,
+          "recovery": 0.0,
+          "contamination": 1.0,
+          "pred_id": 10,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 8,
+          "area": 0.004140625,
+          "iou": 0.0,
+          "recovery": 0.0,
+          "contamination": 1.0,
+          "pred_id": -1,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 9,
+          "area": 0.002724609375,
+          "iou": 0.0,
+          "recovery": 0.0,
+          "contamination": 1.0,
+          "pred_id": -1,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 10,
+          "area": 0.002666015625,
+          "iou": 0.0,
+          "recovery": 0.0,
+          "contamination": 1.0,
+          "pred_id": -1,
+          "layered": true,
+          "concept": "named"
+        }
+      ],
+      "foreground_iou": 0.9754377061659477,
+      "boundary_precision": 0.69064039408867,
+      "boundary_recall": 0.44952681388012616,
+      "boundary_f1": 0.5445892036215992,
+      "pq": 0.2824260461928359,
+      "pred_n": 7,
+      "teacher_n": 10,
+      "false_positive": 4,
+      "merge_n": 2,
+      "split_n": 3,
+      "exclusive_residual": 0,
+      "same_object_agreement": 0.8626742079729528,
+      "different_object_collision": 0.2827131418565091,
+      "false_internal_edge_pixels": 173,
+      "predicted_internal_edge_pixels": 668
+    },
+    {
+      "store": "named",
+      "sku": "13643172",
+      "idx": -1,
+      "key": "named_13643172.npz",
+      "title": "Dolce & Gabbana ribbed tank top",
+      "image": "staged/named/13643172.webp",
+      "image_sha256": "05a30310773ced3984ac38337b5afd1f6c288fe89fa7cb915d3b315482b334e2",
+      "geometry": [
+        80,
+        0,
+        480,
+        640,
+        480,
+        640
+      ],
+      "parts": [
+        {
+          "teacher_id": 1,
+          "area": 0.054619140625,
+          "iou": 0.8824105830475257,
+          "recovery": 0.9660289647774003,
+          "contamination": 0.08933086128434187,
+          "pred_id": 2,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 2,
+          "area": 0.05421875,
+          "iou": 0.935973482205164,
+          "recovery": 0.9663184438040345,
+          "contamination": 0.0324616771866546,
+          "pred_id": 1,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 3,
+          "area": 0.00541015625,
+          "iou": 0.07916666666666666,
+          "recovery": 0.1371841155234657,
+          "contamination": 0.8423236514522822,
+          "pred_id": 4,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 4,
+          "area": 0.01642578125,
+          "iou": 0.44329104190695884,
+          "recovery": 0.6854934601664685,
+          "contamination": 0.44353281853281856,
+          "pred_id": 3,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 5,
+          "area": 0.002001953125,
+          "iou": 0.4166666666666667,
+          "recovery": 0.8536585365853658,
+          "contamination": 0.5512820512820513,
+          "pred_id": 9,
+          "layered": false,
+          "concept": "named"
+        }
+      ],
+      "foreground_iou": 0.9086201022146507,
+      "boundary_precision": 0.22531645569620254,
+      "boundary_recall": 0.6971830985915493,
+      "boundary_f1": 0.34056780627331235,
+      "pq": 0.3306152845913981,
+      "pred_n": 6,
+      "teacher_n": 5,
+      "false_positive": 4,
+      "merge_n": 1,
+      "split_n": 2,
+      "exclusive_residual": 0,
+      "same_object_agreement": 0.7385493743112523,
+      "different_object_collision": 0.0661042128343882,
+      "false_internal_edge_pixels": 172,
+      "predicted_internal_edge_pixels": 523
+    },
+    {
+      "store": "named",
+      "sku": "13643170",
+      "idx": -1,
+      "key": "named_13643170.npz",
+      "title": "Dolce & Gabbana ribbed tank top",
+      "image": "staged/named/13643170.webp",
+      "image_sha256": "fbbcc032b18a03fff4802674aeaa245798f50221eb79c25dd3a8b0f4bd20af9a",
+      "geometry": [
+        80,
+        0,
+        480,
+        640,
+        480,
+        640
+      ],
+      "parts": [
+        {
+          "teacher_id": 1,
+          "area": 0.08111328125,
+          "iou": 0.9224011713030746,
+          "recovery": 0.9860341921502528,
+          "contamination": 0.06538856555973982,
+          "pred_id": 1,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 2,
+          "area": 0.064150390625,
+          "iou": 0.9404286770140429,
+          "recovery": 0.9684883543918404,
+          "contamination": 0.02988716071973163,
+          "pred_id": 2,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 3,
+          "area": 0.00625,
+          "iou": 0.6085626911314985,
+          "recovery": 0.9328125,
+          "contamination": 0.36353944562899787,
+          "pred_id": 3,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 4,
+          "area": 0.002021484375,
+          "iou": 0.313915857605178,
+          "recovery": 0.9371980676328503,
+          "contamination": 0.6793388429752066,
+          "pred_id": 4,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 5,
+          "area": 0.003251953125,
+          "iou": 0.008403361344537815,
+          "recovery": 0.009009009009009009,
+          "contamination": 0.8888888888888888,
+          "pred_id": 10,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 6,
+          "area": 0.006123046875,
+          "iou": 0.0,
+          "recovery": 0.0,
+          "contamination": 1.0,
+          "pred_id": 5,
+          "layered": true,
+          "concept": "named"
+        }
+      ],
+      "foreground_iou": 0.9045836169729975,
+      "boundary_precision": 0.6749435665914221,
+      "boundary_recall": 0.6135181975736569,
+      "boundary_f1": 0.6427667036086778,
+      "pq": 0.4118987565747694,
+      "pred_n": 6,
+      "teacher_n": 6,
+      "false_positive": 3,
+      "merge_n": 2,
+      "split_n": 1,
+      "exclusive_residual": 0,
+      "same_object_agreement": 0.6665680413718346,
+      "different_object_collision": 0.07094488237207051,
+      "false_internal_edge_pixels": 50,
+      "predicted_internal_edge_pixels": 303
+    },
+    {
+      "store": "named",
+      "sku": "33791076",
+      "idx": -1,
+      "key": "named_33791076.npz",
+      "title": "GR10K logo-patch knitwear",
+      "image": "staged/named/33791076.webp",
+      "image_sha256": "1fed818e24e5fe799f485168878c0fc6612c129fe624e88768a808cf1424f5da",
+      "geometry": [
+        80,
+        0,
+        480,
+        640,
+        480,
+        640
+      ],
+      "parts": [
+        {
+          "teacher_id": 1,
+          "area": 0.058642578125,
+          "iou": 0.8748168647240762,
+          "recovery": 0.8949208992506245,
+          "contamination": 0.02503628447024675,
+          "pred_id": 2,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 2,
+          "area": 0.211884765625,
+          "iou": 0.7723890363833527,
+          "recovery": 0.9520210167304236,
+          "contamination": 0.19632713407516922,
+          "pred_id": 1,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 3,
+          "area": 0.14205078125,
+          "iou": 0.5993231594406487,
+          "recovery": 0.6452633026261515,
+          "contamination": 0.1061803637748786,
+          "pred_id": 3,
+          "layered": false,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 4,
+          "area": 0.002724609375,
+          "iou": 0.054404145077720206,
+          "recovery": 0.07526881720430108,
+          "contamination": 0.8359375,
+          "pred_id": 9,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 5,
+          "area": 0.003896484375,
+          "iou": 0.19730941704035873,
+          "recovery": 0.3308270676691729,
+          "contamination": 0.6716417910447761,
+          "pred_id": 4,
+          "layered": true,
+          "concept": "named"
+        },
+        {
+          "teacher_id": 6,
+          "area": 0.002294921875,
+          "iou": 0.022653721682847898,
+          "recovery": 0.029787234042553193,
+          "contamination": 0.9135802469135803,
+          "pred_id": 5,
+          "layered": true,
+          "concept": "named"
+        }
+      ],
+      "foreground_iou": 0.9647091071061468,
+      "boundary_precision": 0.18462096481682988,
+      "boundary_recall": 0.6376306620209059,
+      "boundary_f1": 0.2863356767607214,
+      "pq": 0.3209327229354396,
+      "pred_n": 8,
+      "teacher_n": 6,
+      "false_positive": 5,
+      "merge_n": 1,
+      "split_n": 1,
+      "exclusive_residual": 0,
+      "same_object_agreement": 0.3943025997033533,
+      "different_object_collision": 0.027661558777692406,
+      "false_internal_edge_pixels": 1225,
+      "predicted_internal_edge_pixels": 1802
+    }
+  ],
+  "matched_control_steps": 1000,
+  "finished_at": 1790476457.7448666,
+  "deadline": 1790481395.34889
+}

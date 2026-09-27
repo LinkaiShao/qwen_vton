@@ -1,0 +1,18 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "input": "cached GPU C-RADIO tokens and normalized RGB; CPU 640px labels output",
+  "teacher_branch_enabled": false,
+  "end_to_end_encoder_included": false,
+  "timings": {
+    "baseline": {
+      "median_ms": 5.98754950624425,
+      "p95_ms": 6.38969520732644,
+      "samples": 50
+    },
+    "selected": {
+      "median_ms": 6.305531998805236,
+      "p95_ms": 6.98406384253758,
+      "samples": 50
+    }
+  }
+}
