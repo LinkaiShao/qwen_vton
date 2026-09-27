@@ -1,140 +1,423 @@
 {
-  "verified_cutouts": 19,
+  "cutouts": 33,
   "records": [
     {
-      "view": "12416975_00",
-      "source_unchanged": true,
+      "target": "12416975_01",
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
     },
     {
-      "view": "13643172_00",
-      "source_unchanged": true,
+      "target": "12416975_02",
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
     },
     {
-      "view": "13643170_00",
-      "source_unchanged": true,
+      "target": "12416975_03",
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
     },
     {
-      "view": "33791076_04",
-      "source_unchanged": true,
+      "target": "13643172_01",
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
     },
     {
-      "view": "36892437_00",
-      "source_unchanged": true,
+      "target": "13643172_02",
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
     },
     {
-      "view": "36759063_00",
-      "source_unchanged": true,
+      "target": "13643172_03",
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
     },
     {
-      "view": "36640328_04",
-      "source_unchanged": true,
+      "target": "13643170_01",
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
     },
     {
-      "view": "36906158_00",
-      "source_unchanged": true,
+      "target": "13643170_02",
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
     },
     {
-      "view": "36545211_00",
-      "source_unchanged": true,
+      "target": "13643170_03",
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
     },
     {
-      "view": "36757952_02",
-      "source_unchanged": true,
+      "target": "33791076_00",
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
     },
     {
-      "view": "36718045_03",
-      "source_unchanged": true,
+      "target": "33791076_01",
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
     },
     {
-      "view": "36932326_01",
-      "source_unchanged": true,
+      "target": "33791076_02",
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002",
+        "C003"
+      ]
     },
     {
-      "view": "36932326_02",
-      "source_unchanged": true,
+      "target": "33791076_03",
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
     },
     {
-      "view": "36932326_03",
-      "source_unchanged": true,
+      "target": "36892437_01",
+      "reference_ids": [
+        "36892437_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
     },
     {
-      "view": "36932326_04",
-      "source_unchanged": true,
+      "target": "36892437_02",
+      "reference_ids": [
+        "36892437_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
     },
     {
-      "view": "36053615_05",
-      "source_unchanged": true,
+      "target": "36640328_00",
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002",
+        "C003"
+      ]
     },
     {
-      "view": "36152425_03",
-      "source_unchanged": true,
+      "target": "36640328_02",
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
     },
     {
-      "view": "36152425_05",
-      "source_unchanged": true,
+      "target": "36640328_03",
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C004",
+        "C005"
+      ]
     },
     {
-      "view": "36076478_00",
-      "source_unchanged": true,
+      "target": "36545211_01",
+      "reference_ids": [
+        "36545211_00"
+      ],
+      "source_rgb_preserved": true,
       "native_geometry_verified": true,
-      "rgb_unchanged_under_mask": true,
-      "single_image_only": true
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36545211_02",
+      "reference_ids": [
+        "36545211_00"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36757952_01",
+      "reference_ids": [
+        "36757952_02"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36718045_00",
+      "reference_ids": [
+        "36718045_03"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36053615_00",
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36053615_01",
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36053615_03",
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36053615_06",
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36152425_00",
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
+    },
+    {
+      "target": "36152425_01",
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
+    },
+    {
+      "target": "36152425_04",
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36076478_01",
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
+    },
+    {
+      "target": "36076478_03",
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001"
+      ]
+    },
+    {
+      "target": "36076478_04",
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
+    },
+    {
+      "target": "36076478_06",
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "source_rgb_preserved": true,
+      "native_geometry_verified": true,
+      "no_other_worn_reference": true,
+      "kept_candidates": [
+        "C001",
+        "C002"
+      ]
     }
   ],
-  "gt_accuracy_claim": false,
-  "at": 1790533109.176672
+  "semantic_accuracy_measured": false,
+  "at": 1790535337.3311536
 }

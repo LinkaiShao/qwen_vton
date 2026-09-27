@@ -1,0 +1,42 @@
+{
+  "scope": "Four fixed-mask reference swaps; tests reference dependence, not population accuracy",
+  "records": [
+    {
+      "target": "12416975_02",
+      "candidate": "C001",
+      "own_reference": "farfetch_12416975",
+      "foreign_reference": "farfetch_13643172",
+      "own_decision": "keep",
+      "foreign_decision": "reject",
+      "passed": true
+    },
+    {
+      "target": "13643172_02",
+      "candidate": "C001",
+      "own_reference": "farfetch_13643172",
+      "foreign_reference": "farfetch_13643170",
+      "own_decision": "keep",
+      "foreign_decision": "reject",
+      "passed": true
+    },
+    {
+      "target": "33791076_00",
+      "candidate": "C002",
+      "own_reference": "farfetch_33791076",
+      "foreign_reference": "farfetch_13643172",
+      "own_decision": "keep",
+      "foreign_decision": "reject",
+      "passed": true
+    },
+    {
+      "target": "36892437_01",
+      "candidate": "C001",
+      "own_reference": "farfetch_36892437",
+      "foreign_reference": "farfetch_33791076",
+      "own_decision": "keep",
+      "foreign_decision": "reject",
+      "passed": true
+    }
+  ],
+  "pass": true
+}
