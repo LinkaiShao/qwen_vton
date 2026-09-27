@@ -168,13 +168,13 @@
         "keep": true,
         "reasons": [],
         "evidence": {
-          "control_04_similar_fabrics_v0": {
+          "control_04_similar_fabrics_v1": {
             "status": "matched",
             "group": [
               1
             ]
           },
-          "control_04_similar_fabrics_v1": {
+          "control_04_similar_fabrics_v0": {
             "status": "matched",
             "group": [
               1
@@ -195,11 +195,11 @@
           "No consistent visible garment identity in every image under both view and region-ID orders"
         ],
         "evidence": {
-          "control_04_similar_fabrics_v0": {
+          "control_04_similar_fabrics_v1": {
             "status": "not_confirmed_in_both_sku_inspections",
             "group": null
           },
-          "control_04_similar_fabrics_v1": {
+          "control_04_similar_fabrics_v0": {
             "status": "not_confirmed_in_both_sku_inspections",
             "group": null
           }
@@ -222,7 +222,8 @@
         ]
       ]
     ],
-    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
+    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
   },
   "joint_evidence": {
     "forward": {
@@ -384,15 +385,994 @@
   "seconds": 34.328074369579554,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790494060.8532581,
+  "at": 1790529842.2088728,
   "training": false,
-  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
   "fragment_reviews": [],
-  "finalization_seconds": 0.147230367641896,
+  "presence_reviews": [
+    {
+      "candidate": {
+        "garment": "Black wide-leg cargo pants with drawstring waist",
+        "nodes": [
+          [
+            "control_04_similar_fabrics_v0",
+            2
+          ],
+          [
+            "control_04_similar_fabrics_v1",
+            2
+          ],
+          [
+            "control_04_similar_fabrics_v2",
+            2
+          ]
+        ],
+        "proposed_by": [
+          "reverse"
+        ]
+      },
+      "evidence": [
+        {
+          "identity": {
+            "policy": "any_visible_part_adjudication_v4_fixed_regions",
+            "mode": "fixed_region_comparisons",
+            "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "Black wide-leg cargo pants with drawstring waist",
+              "nodes": [
+                [
+                  "control_04_similar_fabrics_v0",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v1",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "proposed_by": [
+                "reverse"
+              ]
+            },
+            "reference_node": [
+              "control_04_similar_fabrics_v2",
+              2
+            ],
+            "reverse": false,
+            "mapping": {
+              "R001": [
+                "control_04_similar_fabrics_v0",
+                2
+              ],
+              "R002": [
+                "control_04_similar_fabrics_v1",
+                2
+              ],
+              "R003": [
+                "control_04_similar_fabrics_v2",
+                2
+              ]
+            },
+            "views": [
+              {
+                "id": "control_04_similar_fabrics_v0",
+                "pixel_sha256": "2c8635f8279522bc355f495df42b96d153b565d27942f4aba28f48eff68433ce",
+                "partition_sha256": "076acec2bdebf7c30e52b30be360a4e64c9f1778a35eec54e95209b4c5cd9a01"
+              },
+              {
+                "id": "control_04_similar_fabrics_v1",
+                "pixel_sha256": "3138c277009472a2bf19a61a0552df6870d002a377440f814a67ca7211583262",
+                "partition_sha256": "973e0fa2344015588f439f9b9d2ca85d474d14be33b41e981f5b7ccae43acbee"
+              },
+              {
+                "id": "control_04_similar_fabrics_v2",
+                "pixel_sha256": "fa9ccf8be7d0d9dd29aa33cf595749fb7cded43ae95c30e058bc0a3bada7675b",
+                "partition_sha256": "135d7ed77ba9c59d0e8c0f51b8c9256c5b0732cf043458ca077105e4d842b920"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "any_visible_part_adjudication_v4_fixed_regions",
+                "mode": "fixed_region_comparisons",
+                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "Black wide-leg cargo pants with drawstring waist",
+                  "nodes": [
+                    [
+                      "control_04_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v1",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_04_similar_fabrics_v0",
+                    2
+                  ],
+                  "R002": [
+                    "control_04_similar_fabrics_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_04_similar_fabrics_v2",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_04_similar_fabrics_v0",
+                    "pixel_sha256": "2c8635f8279522bc355f495df42b96d153b565d27942f4aba28f48eff68433ce",
+                    "partition_sha256": "076acec2bdebf7c30e52b30be360a4e64c9f1778a35eec54e95209b4c5cd9a01"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v1",
+                    "pixel_sha256": "3138c277009472a2bf19a61a0552df6870d002a377440f814a67ca7211583262",
+                    "partition_sha256": "973e0fa2344015588f439f9b9d2ca85d474d14be33b41e981f5b7ccae43acbee"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v2",
+                    "pixel_sha256": "fa9ccf8be7d0d9dd29aa33cf595749fb7cded43ae95c30e058bc0a3bada7675b",
+                    "partition_sha256": "135d7ed77ba9c59d0e8c0f51b8c9256c5b0732cf043458ca077105e4d842b920"
+                  }
+                ],
+                "node": [
+                  "control_04_similar_fabrics_v0",
+                  2
+                ]
+              },
+              "node": [
+                "control_04_similar_fabrics_v0",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v0",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black cargo pants with drawstring waist and side pocket\", \"region2\":\"black cargo pants with multiple pockets and buttoned waist\", \"reason\":\"Both masks show black cargo pants with similar pocket placement and waist details, indicating same garment.\", \"verdict\":\"A\"}",
+              "seconds": 2.1107551152817905,
+              "valid": true,
+              "explanation": {
+                "region1": "black cargo pants with drawstring waist and side pocket",
+                "region2": "black cargo pants with multiple pockets and buttoned waist",
+                "reason": "Both masks show black cargo pants with similar pocket placement and waist details, indicating same garment.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "any_visible_part_adjudication_v4_fixed_regions",
+                "mode": "fixed_region_comparisons",
+                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "Black wide-leg cargo pants with drawstring waist",
+                  "nodes": [
+                    [
+                      "control_04_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v1",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_04_similar_fabrics_v0",
+                    2
+                  ],
+                  "R002": [
+                    "control_04_similar_fabrics_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_04_similar_fabrics_v2",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_04_similar_fabrics_v0",
+                    "pixel_sha256": "2c8635f8279522bc355f495df42b96d153b565d27942f4aba28f48eff68433ce",
+                    "partition_sha256": "076acec2bdebf7c30e52b30be360a4e64c9f1778a35eec54e95209b4c5cd9a01"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v1",
+                    "pixel_sha256": "3138c277009472a2bf19a61a0552df6870d002a377440f814a67ca7211583262",
+                    "partition_sha256": "973e0fa2344015588f439f9b9d2ca85d474d14be33b41e981f5b7ccae43acbee"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v2",
+                    "pixel_sha256": "fa9ccf8be7d0d9dd29aa33cf595749fb7cded43ae95c30e058bc0a3bada7675b",
+                    "partition_sha256": "135d7ed77ba9c59d0e8c0f51b8c9256c5b0732cf043458ca077105e4d842b920"
+                  }
+                ],
+                "node": [
+                  "control_04_similar_fabrics_v1",
+                  2
+                ]
+              },
+              "node": [
+                "control_04_similar_fabrics_v1",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v1",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black cargo pants with drawstring waist and side pocket\", \"region2\":\"black wide-leg pants with front pockets and elastic waist\", \"reason\":\"Different pocket styles and waist details; one has cargo pocket, other has simple front pockets and no drawstring\", \"verdict\":\"B\"}",
+              "seconds": 2.232554336078465,
+              "valid": true,
+              "explanation": {
+                "region1": "black cargo pants with drawstring waist and side pocket",
+                "region2": "black wide-leg pants with front pockets and elastic waist",
+                "reason": "Different pocket styles and waist details; one has cargo pocket, other has simple front pockets and no drawstring",
+                "verdict": "B"
+              }
+            },
+            {
+              "identity": {
+                "policy": "any_visible_part_adjudication_v4_fixed_regions",
+                "mode": "fixed_region_comparisons",
+                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "Black wide-leg cargo pants with drawstring waist",
+                  "nodes": [
+                    [
+                      "control_04_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v1",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_04_similar_fabrics_v0",
+                    2
+                  ],
+                  "R002": [
+                    "control_04_similar_fabrics_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_04_similar_fabrics_v2",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_04_similar_fabrics_v0",
+                    "pixel_sha256": "2c8635f8279522bc355f495df42b96d153b565d27942f4aba28f48eff68433ce",
+                    "partition_sha256": "076acec2bdebf7c30e52b30be360a4e64c9f1778a35eec54e95209b4c5cd9a01"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v1",
+                    "pixel_sha256": "3138c277009472a2bf19a61a0552df6870d002a377440f814a67ca7211583262",
+                    "partition_sha256": "973e0fa2344015588f439f9b9d2ca85d474d14be33b41e981f5b7ccae43acbee"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v2",
+                    "pixel_sha256": "fa9ccf8be7d0d9dd29aa33cf595749fb7cded43ae95c30e058bc0a3bada7675b",
+                    "partition_sha256": "135d7ed77ba9c59d0e8c0f51b8c9256c5b0732cf043458ca077105e4d842b920"
+                  }
+                ],
+                "node": [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              },
+              "node": [
+                "control_04_similar_fabrics_v2",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black cargo pants with drawstring waist and side pocket\", \"region2\":\"black cargo pants with drawstring waist and side pocket\", \"reason\":\"Both masks show identical black cargo pants with matching drawstring, pocket, and fabric texture.\", \"verdict\":\"A\"}",
+              "seconds": 2.108226011041552,
+              "valid": true,
+              "explanation": {
+                "region1": "black cargo pants with drawstring waist and side pocket",
+                "region2": "black cargo pants with drawstring waist and side pocket",
+                "reason": "Both masks show identical black cargo pants with matching drawstring, pocket, and fabric texture.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 6.451535462401807,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_04_similar_fabrics_v0",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_04_similar_fabrics_v0",
+                  2
+                ]
+              ],
+              "evidence": "Region 2: Both masks show black cargo pants with similar pocket placement and waist details, indicating same garment."
+            },
+            {
+              "view": "control_04_similar_fabrics_v1",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 2: Different pocket styles and waist details; one has cargo pocket, other has simple front pockets and no drawstring"
+            },
+            {
+              "view": "control_04_similar_fabrics_v2",
+              "status": "visible_part",
+              "regions": [
+                "R003"
+              ],
+              "nodes": [
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "evidence": "Region 2: Both masks show identical black cargo pants with matching drawstring, pocket, and fabric texture."
+            }
+          ]
+        },
+        {
+          "identity": {
+            "policy": "any_visible_part_adjudication_v4_fixed_regions",
+            "mode": "fixed_region_comparisons",
+            "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "Black wide-leg cargo pants with drawstring waist",
+              "nodes": [
+                [
+                  "control_04_similar_fabrics_v0",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v1",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "proposed_by": [
+                "reverse"
+              ]
+            },
+            "reference_node": [
+              "control_04_similar_fabrics_v2",
+              2
+            ],
+            "reverse": true,
+            "mapping": {
+              "R001": [
+                "control_04_similar_fabrics_v2",
+                2
+              ],
+              "R002": [
+                "control_04_similar_fabrics_v1",
+                2
+              ],
+              "R003": [
+                "control_04_similar_fabrics_v0",
+                2
+              ]
+            },
+            "views": [
+              {
+                "id": "control_04_similar_fabrics_v0",
+                "pixel_sha256": "2c8635f8279522bc355f495df42b96d153b565d27942f4aba28f48eff68433ce",
+                "partition_sha256": "076acec2bdebf7c30e52b30be360a4e64c9f1778a35eec54e95209b4c5cd9a01"
+              },
+              {
+                "id": "control_04_similar_fabrics_v1",
+                "pixel_sha256": "3138c277009472a2bf19a61a0552df6870d002a377440f814a67ca7211583262",
+                "partition_sha256": "973e0fa2344015588f439f9b9d2ca85d474d14be33b41e981f5b7ccae43acbee"
+              },
+              {
+                "id": "control_04_similar_fabrics_v2",
+                "pixel_sha256": "fa9ccf8be7d0d9dd29aa33cf595749fb7cded43ae95c30e058bc0a3bada7675b",
+                "partition_sha256": "135d7ed77ba9c59d0e8c0f51b8c9256c5b0732cf043458ca077105e4d842b920"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "any_visible_part_adjudication_v4_fixed_regions",
+                "mode": "fixed_region_comparisons",
+                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "Black wide-leg cargo pants with drawstring waist",
+                  "nodes": [
+                    [
+                      "control_04_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v1",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_04_similar_fabrics_v2",
+                    2
+                  ],
+                  "R002": [
+                    "control_04_similar_fabrics_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_04_similar_fabrics_v0",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_04_similar_fabrics_v0",
+                    "pixel_sha256": "2c8635f8279522bc355f495df42b96d153b565d27942f4aba28f48eff68433ce",
+                    "partition_sha256": "076acec2bdebf7c30e52b30be360a4e64c9f1778a35eec54e95209b4c5cd9a01"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v1",
+                    "pixel_sha256": "3138c277009472a2bf19a61a0552df6870d002a377440f814a67ca7211583262",
+                    "partition_sha256": "973e0fa2344015588f439f9b9d2ca85d474d14be33b41e981f5b7ccae43acbee"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v2",
+                    "pixel_sha256": "fa9ccf8be7d0d9dd29aa33cf595749fb7cded43ae95c30e058bc0a3bada7675b",
+                    "partition_sha256": "135d7ed77ba9c59d0e8c0f51b8c9256c5b0732cf043458ca077105e4d842b920"
+                  }
+                ],
+                "node": [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              },
+              "node": [
+                "control_04_similar_fabrics_v2",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black cargo pants with drawstring waist and side pocket\", \"region2\":\"black cargo pants with drawstring waist and side pocket\", \"reason\":\"Both masks show identical pants with same fabric, pocket, and drawstring details.\", \"verdict\":\"A\"}",
+              "seconds": 2.048543937969953,
+              "valid": true,
+              "explanation": {
+                "region1": "black cargo pants with drawstring waist and side pocket",
+                "region2": "black cargo pants with drawstring waist and side pocket",
+                "reason": "Both masks show identical pants with same fabric, pocket, and drawstring details.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "any_visible_part_adjudication_v4_fixed_regions",
+                "mode": "fixed_region_comparisons",
+                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "Black wide-leg cargo pants with drawstring waist",
+                  "nodes": [
+                    [
+                      "control_04_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v1",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_04_similar_fabrics_v2",
+                    2
+                  ],
+                  "R002": [
+                    "control_04_similar_fabrics_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_04_similar_fabrics_v0",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_04_similar_fabrics_v0",
+                    "pixel_sha256": "2c8635f8279522bc355f495df42b96d153b565d27942f4aba28f48eff68433ce",
+                    "partition_sha256": "076acec2bdebf7c30e52b30be360a4e64c9f1778a35eec54e95209b4c5cd9a01"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v1",
+                    "pixel_sha256": "3138c277009472a2bf19a61a0552df6870d002a377440f814a67ca7211583262",
+                    "partition_sha256": "973e0fa2344015588f439f9b9d2ca85d474d14be33b41e981f5b7ccae43acbee"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v2",
+                    "pixel_sha256": "fa9ccf8be7d0d9dd29aa33cf595749fb7cded43ae95c30e058bc0a3bada7675b",
+                    "partition_sha256": "135d7ed77ba9c59d0e8c0f51b8c9256c5b0732cf043458ca077105e4d842b920"
+                  }
+                ],
+                "node": [
+                  "control_04_similar_fabrics_v1",
+                  2
+                ]
+              },
+              "node": [
+                "control_04_similar_fabrics_v1",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_04_similar_fabrics_v1",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black wide-leg pants with side pockets and elastic waistband\", \"region2\":\"black cargo pants with side pockets, drawstring, and elastic waistband\", \"reason\":\"Both masks show black pants with similar side pockets and elastic waist; slight design differences in pocket placement and drawstring suggest same garment type but different versions.\", \"verdict\":\"B\"}",
+              "seconds": 2.6324864169582725,
+              "valid": true,
+              "explanation": {
+                "region1": "black wide-leg pants with side pockets and elastic waistband",
+                "region2": "black cargo pants with side pockets, drawstring, and elastic waistband",
+                "reason": "Both masks show black pants with similar side pockets and elastic waist; slight design differences in pocket placement and drawstring suggest same garment type but different versions.",
+                "verdict": "B"
+              }
+            },
+            {
+              "identity": {
+                "policy": "any_visible_part_adjudication_v4_fixed_regions",
+                "mode": "fixed_region_comparisons",
+                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "Black wide-leg cargo pants with drawstring waist",
+                  "nodes": [
+                    [
+                      "control_04_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v1",
+                      2
+                    ],
+                    [
+                      "control_04_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_04_similar_fabrics_v2",
+                    2
+                  ],
+                  "R002": [
+                    "control_04_similar_fabrics_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_04_similar_fabrics_v0",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_04_similar_fabrics_v0",
+                    "pixel_sha256": "2c8635f8279522bc355f495df42b96d153b565d27942f4aba28f48eff68433ce",
+                    "partition_sha256": "076acec2bdebf7c30e52b30be360a4e64c9f1778a35eec54e95209b4c5cd9a01"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v1",
+                    "pixel_sha256": "3138c277009472a2bf19a61a0552df6870d002a377440f814a67ca7211583262",
+                    "partition_sha256": "973e0fa2344015588f439f9b9d2ca85d474d14be33b41e981f5b7ccae43acbee"
+                  },
+                  {
+                    "id": "control_04_similar_fabrics_v2",
+                    "pixel_sha256": "fa9ccf8be7d0d9dd29aa33cf595749fb7cded43ae95c30e058bc0a3bada7675b",
+                    "partition_sha256": "135d7ed77ba9c59d0e8c0f51b8c9256c5b0732cf043458ca077105e4d842b920"
+                  }
+                ],
+                "node": [
+                  "control_04_similar_fabrics_v0",
+                  2
+                ]
+              },
+              "node": [
+                "control_04_similar_fabrics_v0",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_04_similar_fabrics_v0",
+                  2
+                ],
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black cargo pants with multiple pockets and buttoned waist\", \"region2\":\"black relaxed-fit pants with drawstring waist and side pocket\", \"reason\":\"Different pocket styles, waist closures, and fabric draping indicate separate garments.\", \"verdict\":\"B\"}",
+              "seconds": 2.0482474202290177,
+              "valid": true,
+              "explanation": {
+                "region1": "black cargo pants with multiple pockets and buttoned waist",
+                "region2": "black relaxed-fit pants with drawstring waist and side pocket",
+                "reason": "Different pocket styles, waist closures, and fabric draping indicate separate garments.",
+                "verdict": "B"
+              }
+            }
+          ],
+          "seconds": 6.729277775157243,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_04_similar_fabrics_v0",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 2: Different pocket styles, waist closures, and fabric draping indicate separate garments."
+            },
+            {
+              "view": "control_04_similar_fabrics_v1",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 2: Both masks show black pants with similar side pockets and elastic waist; slight design differences in pocket placement and drawstring suggest same garment type but different versions."
+            },
+            {
+              "view": "control_04_similar_fabrics_v2",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_04_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "evidence": "Region 2: Both masks show identical pants with same fabric, pocket, and drawstring details."
+            }
+          ]
+        }
+      ],
+      "agreed_nodes": [],
+      "accepted": false,
+      "outcome": "not_confirmed_in_every_view"
+    }
+  ],
+  "decision_before_presence_review": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "control_04_similar_fabrics_v0",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Navy blue zip-up hoodie with front pockets and left sleeve patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_04_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_04_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v0",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_04_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_04_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v1",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Navy blue zip-up hoodie with front pockets and left sleeve patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_04_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_04_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v1",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_04_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_04_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Navy blue zip-up hoodie with front pockets and left sleeve patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_04_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_04_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_04_similar_fabrics_v2",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_04_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_04_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "control_04_similar_fabrics_v0",
+          1
+        ],
+        [
+          "control_04_similar_fabrics_v1",
+          1
+        ],
+        [
+          "control_04_similar_fabrics_v2",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
+  "finalization_seconds": 13.932575261220336,
   "implementation_sha256": {
-    "run_joint": "86671cbb7cb2bbdd1058e288015bfb385f9d9e4c2700f7de707a49bc55318593",
-    "joint_unique": "916ad163c46384f69d9df14b07570894a91ab12094a67b6e8d74f77f9f9bdbe2",
+    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
+    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
+    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
     "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
     "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",

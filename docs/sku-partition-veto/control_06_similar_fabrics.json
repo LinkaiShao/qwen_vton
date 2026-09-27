@@ -222,7 +222,8 @@
         ]
       ]
     ],
-    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
+    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
   },
   "joint_evidence": {
     "forward": {
@@ -362,15 +363,185 @@
   "seconds": 43.61546936724335,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790494064.1948555,
+  "at": 1790529845.635217,
   "training": false,
-  "all_view_rule": "A visible identity must span every distinct image and agree under both image/region orders and globally renamed IDs",
+  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
   "fragment_reviews": [],
-  "finalization_seconds": 0.12935121124610305,
+  "presence_reviews": [],
+  "decision_before_presence_review": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "control_06_similar_fabrics_v0",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Light-wash blue jeans with back pockets and brown leather patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_06_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_06_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_06_similar_fabrics_v0",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_06_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_06_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_06_similar_fabrics_v1",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Light-wash blue jeans with back pockets and brown leather patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_06_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_06_similar_fabrics_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_06_similar_fabrics_v1",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_06_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_06_similar_fabrics_v2": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      },
+      {
+        "view": "control_06_similar_fabrics_v2",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Light-wash blue jeans with back pockets and brown leather patch",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "control_06_similar_fabrics_v0": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "control_06_similar_fabrics_v1": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "control_06_similar_fabrics_v2",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
+        "evidence": {
+          "control_06_similar_fabrics_v0": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          },
+          "control_06_similar_fabrics_v1": {
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
+        [
+          "control_06_similar_fabrics_v0",
+          1
+        ],
+        [
+          "control_06_similar_fabrics_v1",
+          1
+        ],
+        [
+          "control_06_similar_fabrics_v2",
+          1
+        ]
+      ]
+    ],
+    "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
+  },
+  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
+  "finalization_seconds": 0.1315094931051135,
   "implementation_sha256": {
-    "run_joint": "86671cbb7cb2bbdd1058e288015bfb385f9d9e4c2700f7de707a49bc55318593",
-    "joint_unique": "916ad163c46384f69d9df14b07570894a91ab12094a67b6e8d74f77f9f9bdbe2",
+    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
+    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
+    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
+    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
     "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
     "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
