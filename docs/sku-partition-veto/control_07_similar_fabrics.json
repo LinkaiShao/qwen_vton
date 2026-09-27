@@ -1,5 +1,5 @@
 {
-  "protocol": "strict_partition_veto_joint_context_v1",
+  "protocol": "strict_partition_veto_overview_v5",
   "sku": "control_07_similar_fabrics",
   "title": "similar fabrics",
   "cohort": "controlled",
@@ -16,20 +16,6 @@
   "aliases": {},
   "groups": {
     "control_07_similar_fabrics_v0": [
-      {
-        "id": 1,
-        "parts": [
-          1
-        ]
-      },
-      {
-        "id": 2,
-        "parts": [
-          2
-        ]
-      }
-    ],
-    "control_07_similar_fabrics_v1": [
       {
         "id": 1,
         "parts": [
@@ -68,17 +54,11 @@
           1
         ],
         "kind": "garment",
-        "description": "Black cargo pants with elastic waist, drawstring, and side pockets",
+        "description": "black cargo-style pant with elastic waist and side pocket",
         "keep": true,
         "reasons": [],
         "evidence": {
           "control_07_similar_fabrics_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_07_similar_fabrics_v1": {
             "status": "matched",
             "group": [
               1
@@ -93,65 +73,13 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "black utility/tailored pant with buttoned pockets and structured waist",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
         ],
         "evidence": {
           "control_07_similar_fabrics_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_07_similar_fabrics_v1": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "control_07_similar_fabrics_v1",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "Black cargo pants with elastic waist, drawstring, and side pockets",
-        "keep": true,
-        "reasons": [],
-        "evidence": {
-          "control_07_similar_fabrics_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_07_similar_fabrics_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          }
-        }
-      },
-      {
-        "view": "control_07_similar_fabrics_v1",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "control_07_similar_fabrics_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_07_similar_fabrics_v0": {
             "status": "not_confirmed_in_both_sku_inspections",
             "group": null
           }
@@ -164,17 +92,11 @@
           1
         ],
         "kind": "garment",
-        "description": "Black cargo pants with elastic waist, drawstring, and side pockets",
+        "description": "black cargo-style pant with elastic waist and side pocket",
         "keep": true,
         "reasons": [],
         "evidence": {
           "control_07_similar_fabrics_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_07_similar_fabrics_v1": {
             "status": "matched",
             "group": [
               1
@@ -189,17 +111,13 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "black utility/tailored pant with buttoned pockets and structured waist",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
         ],
         "evidence": {
           "control_07_similar_fabrics_v0": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_07_similar_fabrics_v1": {
             "status": "not_confirmed_in_both_sku_inspections",
             "group": null
           }
@@ -213,26 +131,64 @@
           1
         ],
         [
-          "control_07_similar_fabrics_v1",
-          1
-        ],
-        [
           "control_07_similar_fabrics_v2",
           1
         ]
       ]
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
-    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+    "presence_policy": "overview_visible_part_adjudication_v5"
   },
+  "files": [
+    {
+      "view": "control_07_similar_fabrics_v0",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 13594,
+      "removed_pixels": 12948,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_07_similar_fabrics/control_07_similar_fabrics_v0.npz",
+      "sha256": "a530df29fdf024044e604feea47edd242925f23aead0eef4b628c85bcca94945"
+    },
+    {
+      "view": "control_07_similar_fabrics_v1",
+      "alias_of": null,
+      "keep_parts": [],
+      "source_parts": 2,
+      "kept_pixels": 0,
+      "removed_pixels": 0,
+      "ignored_pixels": 23240,
+      "status": "excluded_closeup",
+      "output": "joint_results/control_07_similar_fabrics/control_07_similar_fabrics_v1.npz",
+      "sha256": "cdb5499383570676ce4278901e47709d4163ca87e256ba3f2c64bcb52b7d26c9"
+    },
+    {
+      "view": "control_07_similar_fabrics_v2",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 13594,
+      "removed_pixels": 14952,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_07_similar_fabrics/control_07_similar_fabrics_v2.npz",
+      "sha256": "592eacab64c34ff12e39325a85a37e1c2c2b4a9738616e4064f866d3659a2197"
+    }
+  ],
   "joint_evidence": {
     "forward": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_07_similar_fabrics",
       "reverse": false,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_07_similar_fabrics_v0",
@@ -243,36 +199,27 @@
           2
         ],
         "R003": [
-          "control_07_similar_fabrics_v1",
-          1
-        ],
-        "R004": [
-          "control_07_similar_fabrics_v1",
-          2
-        ],
-        "R005": [
           "control_07_similar_fabrics_v2",
           1
         ],
-        "R006": [
+        "R004": [
           "control_07_similar_fabrics_v2",
           2
         ]
       },
-      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every view** (i.e., in at least one region per view) and are visually consistent across all views.\n\n---\n\n### Step-by-step Analysis:\n\n#### View 1: control_07_similar_fabrics_v0\n- **R001**: Black cargo-style pants with elastic waist, drawstring, and side pockets.\n- **R002**: Black cargo-style pants with buttoned waist, multiple pockets, and a more structured fit.\n\n\u2192 Two distinct garments.\n\n#### View 2: control_07_similar_fabrics_v1\n- **R003**: Same as R001 \u2014 black cargo pants with elastic waist and drawstring.\n- **R004**: Black satin-like fabric with lace trim \u2014 likely a skirt or dress detail.\n\n\u2192 R003 matches R001. R004 is a new garment (satin with lace).\n\n#### View 3: control_07_similar_fabrics_v2\n- **R005**: Same as R001/R003 \u2014 black cargo pants with elastic waist and drawstring.\n- **R006**: Black tailored pants with back pockets and belt loops \u2014 similar to R002 but shown from the back.\n\n\u2192 R005 matches R001/R003. R006 is a new garment (tailored pants), but visually similar to R002.\n\n---\n\n### Cross-View Matching:\n\nWe need garments that appear in **every view** (i.e., at least one region per view).\n\n- **Garment A**: Black cargo pants with elastic waist and drawstring.\n  - Appears in R001 (View 1), R003 (View 2), R005 (View 3).\n  - Consistent fabric, construction, and style across all views.\n  - **Track: R001, R003, R005**\n\n- **Garment B**: Black tailored pants with buttoned waist and structured fit.\n  - Appears in R002 (View 1), R006 (View 3).\n  - **Missing in View 2** \u2014 no region in View 2 corresponds to this garment.\n  - Therefore, **not present in every view** \u2192 **excluded**.\n\n- **Garment C**: Black satin fabric with lace trim.\n  - Appears in R004 (View 2).\n  - **Missing in View 1 and View 3** \u2192 **excluded**.\n\n---\n\n### Conclusion:\n\nOnly **one garment** appears in **every view** \u2014 the black cargo pants with elastic waist and drawstring, identified by regions R001, R003, and R005.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Black cargo pants with elastic waist, drawstring, and side pockets\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"In VIEW control_07_similar_fabrics_v0, R001 shows a black cargo-style pant with an elastic waist and side pocket, while R002 shows a black utility-style pant with buttoned pockets and a more structured waist. In VIEW control_07_similar_fabrics_v2, R003 is identical to R001 (same cargo pant), and R004 shows the back of a black tailored pant with a belt and back pockets, which matches the front view of R002. Thus, the cargo pant (R001/R003) and the utility/tailored pant (R002/R004) are two distinct garments, each appearing in both views. No other garments are consistently visible across both views.\", \"tracks\": [{\"garment\": \"black cargo-style pant with elastic waist and side pocket\", \"regions\": [\"R001\", \"R003\"]}, {\"garment\": \"black utility/tailored pant with buttoned pockets and structured waist\", \"regions\": [\"R002\", \"R004\"]}]}",
       "batch_size": 1,
-      "seconds": 21.823441301938146,
-      "batch_seconds": 21.823441301938146,
-      "input_signature": "65f304bc42b575896fb41c44454c59ad233d86fbdc015c3c016e7dc1ab4281b7",
+      "seconds": 8.272091687191278,
+      "batch_seconds": 8.272091687191278,
+      "input_signature": "58bba8b9968160944b15ac9fd7f1fc4ab78d8784ef796e13fca365670d4f202c",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "Black cargo pants with elastic waist, drawstring, and side pockets",
+          "garment": "black cargo-style pant with elastic waist and side pocket",
           "regions": [
             "R001",
-            "R003",
-            "R005"
+            "R003"
           ],
           "nodes": [
             [
@@ -280,12 +227,25 @@
               1
             ],
             [
-              "control_07_similar_fabrics_v1",
+              "control_07_similar_fabrics_v2",
               1
+            ]
+          ]
+        },
+        {
+          "garment": "black utility/tailored pant with buttoned pockets and structured waist",
+          "regions": [
+            "R002",
+            "R004"
+          ],
+          "nodes": [
+            [
+              "control_07_similar_fabrics_v0",
+              2
             ],
             [
               "control_07_similar_fabrics_v2",
-              1
+              2
             ]
           ]
         }
@@ -293,12 +253,12 @@
       "valid": true
     },
     "reverse": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_07_similar_fabrics",
       "reverse": true,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_07_similar_fabrics_v2",
@@ -309,44 +269,31 @@
           1
         ],
         "R003": [
-          "control_07_similar_fabrics_v1",
-          2
-        ],
-        "R004": [
-          "control_07_similar_fabrics_v1",
-          1
-        ],
-        "R005": [
           "control_07_similar_fabrics_v0",
           2
         ],
-        "R006": [
+        "R004": [
           "control_07_similar_fabrics_v0",
           1
         ]
       },
-      "raw": "After analyzing all three views and their corresponding mask regions, we must identify garments that appear in **every view** (i.e., in at least one region per view) and are visually consistent across all views in terms of fabric, construction, color, and context.\n\n---\n\n### Step-by-step Analysis:\n\n#### View v2 (R001, R002):\n- **R001**: Black tailored trousers with a structured back, belt loops, and a straight leg \u2014 likely a formal or business-style pant.\n- **R002**: Black relaxed-fit cargo-style trousers with a drawstring waist and large side pockets \u2014 casual, loose fit.\n\n#### View v1 (R003, R004):\n- **R003**: Black satin-like fabric with lace trim \u2014 appears to be a skirt or dress detail, not a trouser.\n- **R004**: Black relaxed-fit cargo-style trousers with drawstring waist and side pockets \u2014 **identical to R002**.\n\n#### View v0 (R005, R006):\n- **R005**: Black cargo-style trousers with multiple pockets, buttoned front, and a more structured fit \u2014 different from R002/R004.\n- **R006**: Black relaxed-fit cargo-style trousers with drawstring waist and side pockets \u2014 **identical to R002/R004**.\n\n---\n\n### Cross-View Matching:\n\nWe are looking for garments that appear in **every view**.\n\n- **R002 (v2)**, **R004 (v1)**, **R006 (v0)** \u2014 all show the **same garment**: black relaxed-fit cargo trousers with drawstring waist and side pockets. This is consistent in fabric, construction, and style across all three views.\n\n- **R001 (v2)** \u2014 formal tailored trousers \u2014 does not appear in v1 or v0.\n\n- **R003 (v1)** \u2014 satin with lace \u2014 does not appear in v0 or v2.\n\n- **R005 (v0)** \u2014 structured cargo trousers \u2014 does not appear in v1 or v2.\n\n---\n\n### Conclusion:\n\nOnly **one garment** appears in **every view** \u2014 the black relaxed-fit cargo trousers with drawstring waist and side pockets, represented by **R002, R004, R006**.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Black relaxed-fit cargo trousers with drawstring waist and side pockets\",\n      \"regions\": [\"R002\", \"R004\", \"R006\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"In VIEW control_07_similar_fabrics_v2, R001 shows a slim-fit, tailored black trouser with a back pocket and belt loops, while R002 shows a loose-fitting black cargo-style pant with a drawstring waist and side cargo pocket. In VIEW control_07_similar_fabrics_v0, R003 shows a black cargo pant with multiple pockets and a buttoned waist, while R004 shows the same loose-fitting black cargo-style pant as R002. The garment in R002 and R004 is visually identical: both are black, loose-fitting, with a drawstring waist and a large side cargo pocket. The garment in R001 is distinct due to its tailored fit and back pocket design. The garment in R003 is also distinct, with a different pocket configuration and buttoned waist. Therefore, only the cargo-style pant appears in both views, matching R002 and R004.\", \"tracks\": [{\"garment\": \"black loose-fitting cargo-style pants with drawstring waist and side cargo pocket\", \"regions\": [\"R002\", \"R004\"]}]}.",
       "batch_size": 1,
-      "seconds": 18.347490909975022,
-      "batch_seconds": 18.347490909975022,
-      "input_signature": "65f304bc42b575896fb41c44454c59ad233d86fbdc015c3c016e7dc1ab4281b7",
+      "seconds": 8.833283823449165,
+      "batch_seconds": 8.833283823449165,
+      "input_signature": "58bba8b9968160944b15ac9fd7f1fc4ab78d8784ef796e13fca365670d4f202c",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "Black relaxed-fit cargo trousers with drawstring waist and side pockets",
+          "garment": "black loose-fitting cargo-style pants with drawstring waist and side cargo pocket",
           "regions": [
             "R002",
-            "R004",
-            "R006"
+            "R004"
           ],
           "nodes": [
             [
               "control_07_similar_fabrics_v2",
-              1
-            ],
-            [
-              "control_07_similar_fabrics_v1",
               1
             ],
             [
@@ -360,14 +307,602 @@
     }
   },
   "pairs": [],
-  "seconds": 40.17093221191317,
+  "seconds": 17.105375510640442,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529847.3118958,
+  "at": 1790532994.9316938,
   "training": false,
-  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
+  "all_view_rule": "Every eligible overview must support a visible part of the same garment. Closeups are excluded from both matching and context. No full silhouette is required.",
+  "eligible_views": [
+    "control_07_similar_fabrics_v0",
+    "control_07_similar_fabrics_v2"
+  ],
+  "excluded_views": [
+    "control_07_similar_fabrics_v1"
+  ],
+  "view_selection": {
+    "policy": "overview_only_v1",
+    "eligible_views": [
+      "control_07_similar_fabrics_v0",
+      "control_07_similar_fabrics_v2"
+    ],
+    "excluded_views": [
+      "control_07_similar_fabrics_v1"
+    ],
+    "aliases": {},
+    "records": {
+      "control_07_similar_fabrics_v0": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "b33c6bea6deae644590a039de27843f75ed6919ac02d8e1fc159ce87fc73e249",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two full pairs of pants in their entirety, positioned side by side against a neutral background. The framing includes the full length of each garment from waist to hem, with no focus on specific details or subsections, indicating a complete product photograph.\"}",
+        "valid": true,
+        "seconds": 2.1209178478457034,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two full pairs of pants in their entirety, positioned side by side against a neutral background. The framing includes the full length of each garment from waist to hem, with no focus on specific details or subsections, indicating a complete product photograph."
+        }
+      },
+      "control_07_similar_fabrics_v1": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "174f9d38ba3810c9c51cf62c4474e8905b4fd22e976fd0dfed3e7ea22bb113e7",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"closeup\", \"reason\":\"The image displays two separate cropped sections: one showing the lower portion of black pants with a side pocket and drawstring waist, and another showing a close-up of a black fabric hem with lace trim. Neither section shows the full extent of the garments, and both are tightly framed on specific details, qualifying as closeup shots.\"}",
+        "valid": true,
+        "seconds": 2.6013642279431224,
+        "explanation": {
+          "role": "closeup",
+          "reason": "The image displays two separate cropped sections: one showing the lower portion of black pants with a side pocket and drawstring waist, and another showing a close-up of a black fabric hem with lace trim. Neither section shows the full extent of the garments, and both are tightly framed on specific details, qualifying as closeup shots."
+        }
+      },
+      "control_07_similar_fabrics_v2": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "d971d1775a02c08642f65750444e1f9d47de490d113ccd5178517747ec8f22ea",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two full-length pants side by side, showing their overall shape and design from the waist to the hem, with no close-up focus on specific details like fabric texture or fasteners. The framing includes the complete extent of both garments, consistent with a product overview.\"}",
+        "valid": true,
+        "seconds": 2.2352062091231346,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two full-length pants side by side, showing their overall shape and design from the waist to the hem, with no close-up focus on specific details like fabric texture or fasteners. The framing includes the complete extent of both garments, consistent with a product overview."
+        }
+      }
+    },
+    "rule": "Only overview photographs participate. Closeups are neither required views nor context for the veto."
+  },
   "fragment_reviews": [],
-  "presence_reviews": [],
+  "presence_reviews": [
+    {
+      "candidate": {
+        "garment": "black utility/tailored pant with buttoned pockets and structured waist",
+        "nodes": [
+          [
+            "control_07_similar_fabrics_v0",
+            2
+          ],
+          [
+            "control_07_similar_fabrics_v2",
+            2
+          ]
+        ],
+        "proposed_by": [
+          "forward"
+        ]
+      },
+      "evidence": [
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "black utility/tailored pant with buttoned pockets and structured waist",
+              "nodes": [
+                [
+                  "control_07_similar_fabrics_v0",
+                  2
+                ],
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "proposed_by": [
+                "forward"
+              ]
+            },
+            "reference_node": [
+              "control_07_similar_fabrics_v2",
+              2
+            ],
+            "reverse": false,
+            "mapping": {
+              "R001": [
+                "control_07_similar_fabrics_v0",
+                2
+              ],
+              "R002": [
+                "control_07_similar_fabrics_v2",
+                2
+              ]
+            },
+            "views": [
+              {
+                "id": "control_07_similar_fabrics_v0",
+                "pixel_sha256": "b33c6bea6deae644590a039de27843f75ed6919ac02d8e1fc159ce87fc73e249",
+                "partition_sha256": "f4b4ddb6aa71609e6e8c0c1bcfda46ced482d306773dc6687e26c5ea09ade40d"
+              },
+              {
+                "id": "control_07_similar_fabrics_v2",
+                "pixel_sha256": "d971d1775a02c08642f65750444e1f9d47de490d113ccd5178517747ec8f22ea",
+                "partition_sha256": "01f6fdbab2d1bea81d7cea6169e7f2351f09b721fa59dffb67ce8b36742d1942"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "black utility/tailored pant with buttoned pockets and structured waist",
+                  "nodes": [
+                    [
+                      "control_07_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_07_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_07_similar_fabrics_v0",
+                    2
+                  ],
+                  "R002": [
+                    "control_07_similar_fabrics_v2",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_07_similar_fabrics_v0",
+                    "pixel_sha256": "b33c6bea6deae644590a039de27843f75ed6919ac02d8e1fc159ce87fc73e249",
+                    "partition_sha256": "f4b4ddb6aa71609e6e8c0c1bcfda46ced482d306773dc6687e26c5ea09ade40d"
+                  },
+                  {
+                    "id": "control_07_similar_fabrics_v2",
+                    "pixel_sha256": "d971d1775a02c08642f65750444e1f9d47de490d113ccd5178517747ec8f22ea",
+                    "partition_sha256": "01f6fdbab2d1bea81d7cea6169e7f2351f09b721fa59dffb67ce8b36742d1942"
+                  }
+                ],
+                "node": [
+                  "control_07_similar_fabrics_v0",
+                  2
+                ]
+              },
+              "node": [
+                "control_07_similar_fabrics_v0",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ],
+                [
+                  "control_07_similar_fabrics_v0",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black tailored trousers with back pockets and belt loops\", \"region2\":\"black cargo trousers with side pockets and drawstring waist\", \"reason\":\"Different cut, pocket style, and waist closure; one tailored, one cargo-style\", \"verdict\":\"B\"}",
+              "seconds": 2.2412917097099125,
+              "valid": true,
+              "explanation": {
+                "region1": "black tailored trousers with back pockets and belt loops",
+                "region2": "black cargo trousers with side pockets and drawstring waist",
+                "reason": "Different cut, pocket style, and waist closure; one tailored, one cargo-style",
+                "verdict": "B"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "black utility/tailored pant with buttoned pockets and structured waist",
+                  "nodes": [
+                    [
+                      "control_07_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_07_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_07_similar_fabrics_v0",
+                    2
+                  ],
+                  "R002": [
+                    "control_07_similar_fabrics_v2",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_07_similar_fabrics_v0",
+                    "pixel_sha256": "b33c6bea6deae644590a039de27843f75ed6919ac02d8e1fc159ce87fc73e249",
+                    "partition_sha256": "f4b4ddb6aa71609e6e8c0c1bcfda46ced482d306773dc6687e26c5ea09ade40d"
+                  },
+                  {
+                    "id": "control_07_similar_fabrics_v2",
+                    "pixel_sha256": "d971d1775a02c08642f65750444e1f9d47de490d113ccd5178517747ec8f22ea",
+                    "partition_sha256": "01f6fdbab2d1bea81d7cea6169e7f2351f09b721fa59dffb67ce8b36742d1942"
+                  }
+                ],
+                "node": [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              },
+              "node": [
+                "control_07_similar_fabrics_v2",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ],
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black tailored trousers with back pockets and belt loops\", \"region2\":\"black tailored trousers with back pockets and belt loops\", \"reason\":\"Both masks show identical back view of same tailored trousers with matching pocket and seam details.\", \"verdict\":\"A\"}",
+              "seconds": 2.0268298657611012,
+              "valid": true,
+              "explanation": {
+                "region1": "black tailored trousers with back pockets and belt loops",
+                "region2": "black tailored trousers with back pockets and belt loops",
+                "reason": "Both masks show identical back view of same tailored trousers with matching pocket and seam details.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 4.268121575471014,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_07_similar_fabrics_v0",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 2: Different cut, pocket style, and waist closure; one tailored, one cargo-style"
+            },
+            {
+              "view": "control_07_similar_fabrics_v2",
+              "status": "visible_part",
+              "regions": [
+                "R002"
+              ],
+              "nodes": [
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "evidence": "Region 2: Both masks show identical back view of same tailored trousers with matching pocket and seam details."
+            }
+          ]
+        },
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "black utility/tailored pant with buttoned pockets and structured waist",
+              "nodes": [
+                [
+                  "control_07_similar_fabrics_v0",
+                  2
+                ],
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "proposed_by": [
+                "forward"
+              ]
+            },
+            "reference_node": [
+              "control_07_similar_fabrics_v2",
+              2
+            ],
+            "reverse": true,
+            "mapping": {
+              "R001": [
+                "control_07_similar_fabrics_v2",
+                2
+              ],
+              "R002": [
+                "control_07_similar_fabrics_v0",
+                2
+              ]
+            },
+            "views": [
+              {
+                "id": "control_07_similar_fabrics_v0",
+                "pixel_sha256": "b33c6bea6deae644590a039de27843f75ed6919ac02d8e1fc159ce87fc73e249",
+                "partition_sha256": "f4b4ddb6aa71609e6e8c0c1bcfda46ced482d306773dc6687e26c5ea09ade40d"
+              },
+              {
+                "id": "control_07_similar_fabrics_v2",
+                "pixel_sha256": "d971d1775a02c08642f65750444e1f9d47de490d113ccd5178517747ec8f22ea",
+                "partition_sha256": "01f6fdbab2d1bea81d7cea6169e7f2351f09b721fa59dffb67ce8b36742d1942"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "black utility/tailored pant with buttoned pockets and structured waist",
+                  "nodes": [
+                    [
+                      "control_07_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_07_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_07_similar_fabrics_v2",
+                    2
+                  ],
+                  "R002": [
+                    "control_07_similar_fabrics_v0",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_07_similar_fabrics_v0",
+                    "pixel_sha256": "b33c6bea6deae644590a039de27843f75ed6919ac02d8e1fc159ce87fc73e249",
+                    "partition_sha256": "f4b4ddb6aa71609e6e8c0c1bcfda46ced482d306773dc6687e26c5ea09ade40d"
+                  },
+                  {
+                    "id": "control_07_similar_fabrics_v2",
+                    "pixel_sha256": "d971d1775a02c08642f65750444e1f9d47de490d113ccd5178517747ec8f22ea",
+                    "partition_sha256": "01f6fdbab2d1bea81d7cea6169e7f2351f09b721fa59dffb67ce8b36742d1942"
+                  }
+                ],
+                "node": [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              },
+              "node": [
+                "control_07_similar_fabrics_v2",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ],
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black tailored trousers with rear pockets and belt loops\", \"region2\":\"black tailored trousers with rear pockets and belt loops\", \"reason\":\"Both masks show identical rear view of same trousers with matching fabric, pockets, and waist details.\", \"verdict\":\"A\"}",
+              "seconds": 2.097811065148562,
+              "valid": true,
+              "explanation": {
+                "region1": "black tailored trousers with rear pockets and belt loops",
+                "region2": "black tailored trousers with rear pockets and belt loops",
+                "reason": "Both masks show identical rear view of same trousers with matching fabric, pockets, and waist details.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "black utility/tailored pant with buttoned pockets and structured waist",
+                  "nodes": [
+                    [
+                      "control_07_similar_fabrics_v0",
+                      2
+                    ],
+                    [
+                      "control_07_similar_fabrics_v2",
+                      2
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_07_similar_fabrics_v2",
+                    2
+                  ],
+                  "R002": [
+                    "control_07_similar_fabrics_v0",
+                    2
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_07_similar_fabrics_v0",
+                    "pixel_sha256": "b33c6bea6deae644590a039de27843f75ed6919ac02d8e1fc159ce87fc73e249",
+                    "partition_sha256": "f4b4ddb6aa71609e6e8c0c1bcfda46ced482d306773dc6687e26c5ea09ade40d"
+                  },
+                  {
+                    "id": "control_07_similar_fabrics_v2",
+                    "pixel_sha256": "d971d1775a02c08642f65750444e1f9d47de490d113ccd5178517747ec8f22ea",
+                    "partition_sha256": "01f6fdbab2d1bea81d7cea6169e7f2351f09b721fa59dffb67ce8b36742d1942"
+                  }
+                ],
+                "node": [
+                  "control_07_similar_fabrics_v0",
+                  2
+                ]
+              },
+              "node": [
+                "control_07_similar_fabrics_v0",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_07_similar_fabrics_v0",
+                  2
+                ],
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black cargo pants with multiple pockets and drawstring waist\", \"region2\":\"black tailored trousers with rear pockets and belt loops\", \"reason\":\"Different cut, pocket style, and waist design indicate separate garments\", \"verdict\":\"B\"}",
+              "seconds": 1.9525072053074837,
+              "valid": true,
+              "explanation": {
+                "region1": "black cargo pants with multiple pockets and drawstring waist",
+                "region2": "black tailored trousers with rear pockets and belt loops",
+                "reason": "Different cut, pocket style, and waist design indicate separate garments",
+                "verdict": "B"
+              }
+            }
+          ],
+          "seconds": 4.050318270456046,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_07_similar_fabrics_v0",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 2: Different cut, pocket style, and waist design indicate separate garments"
+            },
+            {
+              "view": "control_07_similar_fabrics_v2",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_07_similar_fabrics_v2",
+                  2
+                ]
+              ],
+              "evidence": "Region 2: Both masks show identical rear view of same trousers with matching fabric, pockets, and waist details."
+            }
+          ]
+        }
+      ],
+      "agreed_nodes": [],
+      "accepted": false,
+      "outcome": "not_confirmed_in_every_view"
+    }
+  ],
   "decision_before_presence_review": {
     "status": "evaluated",
     "groups": [
@@ -378,17 +913,11 @@
           1
         ],
         "kind": "garment",
-        "description": "Black cargo pants with elastic waist, drawstring, and side pockets",
+        "description": "black cargo-style pant with elastic waist and side pocket",
         "keep": true,
         "reasons": [],
         "evidence": {
           "control_07_similar_fabrics_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_07_similar_fabrics_v1": {
             "status": "matched",
             "group": [
               1
@@ -403,65 +932,13 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "black utility/tailored pant with buttoned pockets and structured waist",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
         ],
         "evidence": {
           "control_07_similar_fabrics_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_07_similar_fabrics_v1": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "control_07_similar_fabrics_v1",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "Black cargo pants with elastic waist, drawstring, and side pockets",
-        "keep": true,
-        "reasons": [],
-        "evidence": {
-          "control_07_similar_fabrics_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_07_similar_fabrics_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          }
-        }
-      },
-      {
-        "view": "control_07_similar_fabrics_v1",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "control_07_similar_fabrics_v2": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_07_similar_fabrics_v0": {
             "status": "not_confirmed_in_both_sku_inspections",
             "group": null
           }
@@ -474,17 +951,11 @@
           1
         ],
         "kind": "garment",
-        "description": "Black cargo pants with elastic waist, drawstring, and side pockets",
+        "description": "black cargo-style pant with elastic waist and side pocket",
         "keep": true,
         "reasons": [],
         "evidence": {
           "control_07_similar_fabrics_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "control_07_similar_fabrics_v1": {
             "status": "matched",
             "group": [
               1
@@ -499,17 +970,13 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "black utility/tailored pant with buttoned pockets and structured waist",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
         ],
         "evidence": {
           "control_07_similar_fabrics_v0": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "control_07_similar_fabrics_v1": {
             "status": "not_confirmed_in_both_sku_inspections",
             "group": null
           }
@@ -523,10 +990,6 @@
           1
         ],
         [
-          "control_07_similar_fabrics_v1",
-          1
-        ],
-        [
           "control_07_similar_fabrics_v2",
           1
         ]
@@ -534,16 +997,17 @@
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
-  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 0.12246658792719245,
+  "presence_policy": "overview_visible_part_adjudication_v5",
+  "finalization_seconds": 8.78568140976131,
   "implementation_sha256": {
-    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
-    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "run_joint": "611db311a7c7eecdeef5ce7a7554824650b2de924887fb401140972441bea146",
+    "view_policy": "17bd78799255d10180cc5d83dd833605a25ab547f29a912114028d51f3ff1cbc",
+    "joint_unique": "bee6f6c70a84f519d2c316220c71160d03a341a3cd0579d523958fabd58b66ef",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
-    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
-    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "visible_presence": "d6366043146048d8d05a5c0bc206956c0adfce1aa1c9023f056e6128b261209b",
+    "presence_regions": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+    "fragment_completion": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+    "fragment_reasoning": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
     "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
     "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
