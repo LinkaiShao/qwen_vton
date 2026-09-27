@@ -1,5 +1,5 @@
 {
-  "protocol": "strict_partition_veto_joint_context_v1",
+  "protocol": "strict_partition_veto_overview_v5",
   "sku": "farfetch_36791128",
   "title": "Seafolly ruched drawstring swimsuit",
   "cohort": "validation",
@@ -24,20 +24,6 @@
         "id": 1,
         "parts": [
           1
-        ]
-      }
-    ],
-    "36791128_01": [
-      {
-        "id": 1,
-        "parts": [
-          1
-        ]
-      },
-      {
-        "id": 2,
-        "parts": [
-          2
         ]
       }
     ],
@@ -82,51 +68,11 @@
           1
         ],
         "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
         "keep": true,
         "reasons": [],
         "evidence": {
-          "36791128_01": {
-            "status": "matched",
-            "group": [
-              1,
-              2
-            ]
-          },
-          "36791128_02": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "36791128_03": {
-            "status": "matched",
-            "group": [
-              1,
-              2
-            ]
-          },
           "36791128_04": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          }
-        },
-        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
-      },
-      {
-        "view": "36791128_01",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": true,
-        "reasons": [],
-        "evidence": {
-          "36791128_00": {
             "status": "matched",
             "group": [
               1
@@ -144,54 +90,8 @@
               1,
               2
             ]
-          },
-          "36791128_04": {
-            "status": "matched",
-            "group": [
-              1
-            ]
           }
-        },
-        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
-      },
-      {
-        "view": "36791128_01",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": true,
-        "reasons": [],
-        "evidence": {
-          "36791128_00": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "36791128_02": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
-          "36791128_03": {
-            "status": "matched",
-            "group": [
-              1,
-              2
-            ]
-          },
-          "36791128_04": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          }
-        },
-        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
+        }
       },
       {
         "view": "36791128_02",
@@ -200,21 +100,20 @@
           1
         ],
         "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
         "keep": true,
         "reasons": [],
         "evidence": {
-          "36791128_00": {
+          "36791128_04": {
             "status": "matched",
             "group": [
               1
             ]
           },
-          "36791128_01": {
+          "36791128_00": {
             "status": "matched",
             "group": [
-              1,
-              2
+              1
             ]
           },
           "36791128_03": {
@@ -223,15 +122,8 @@
               1,
               2
             ]
-          },
-          "36791128_04": {
-            "status": "matched",
-            "group": [
-              1
-            ]
           }
-        },
-        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
+        }
       },
       {
         "view": "36791128_03",
@@ -240,21 +132,14 @@
           1
         ],
         "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
         "keep": true,
         "reasons": [],
         "evidence": {
-          "36791128_00": {
+          "36791128_04": {
             "status": "matched",
             "group": [
               1
-            ]
-          },
-          "36791128_01": {
-            "status": "matched",
-            "group": [
-              1,
-              2
             ]
           },
           "36791128_02": {
@@ -263,14 +148,13 @@
               1
             ]
           },
-          "36791128_04": {
+          "36791128_00": {
             "status": "matched",
             "group": [
               1
             ]
           }
-        },
-        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
+        }
       },
       {
         "view": "36791128_03",
@@ -279,21 +163,14 @@
           2
         ],
         "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
         "keep": true,
         "reasons": [],
         "evidence": {
-          "36791128_00": {
+          "36791128_04": {
             "status": "matched",
             "group": [
               1
-            ]
-          },
-          "36791128_01": {
-            "status": "matched",
-            "group": [
-              1,
-              2
             ]
           },
           "36791128_02": {
@@ -302,14 +179,13 @@
               1
             ]
           },
-          "36791128_04": {
+          "36791128_00": {
             "status": "matched",
             "group": [
               1
             ]
           }
-        },
-        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
+        }
       },
       {
         "view": "36791128_04",
@@ -318,24 +194,17 @@
           1
         ],
         "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
         "keep": true,
         "reasons": [],
         "evidence": {
-          "36791128_00": {
+          "36791128_02": {
             "status": "matched",
             "group": [
               1
             ]
           },
-          "36791128_01": {
-            "status": "matched",
-            "group": [
-              1,
-              2
-            ]
-          },
-          "36791128_02": {
+          "36791128_00": {
             "status": "matched",
             "group": [
               1
@@ -348,8 +217,7 @@
               2
             ]
           }
-        },
-        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
+        }
       }
     ],
     "tracks": [
@@ -357,14 +225,6 @@
         [
           "36791128_00",
           1
-        ],
-        [
-          "36791128_01",
-          1
-        ],
-        [
-          "36791128_01",
-          2
         ],
         [
           "36791128_02",
@@ -385,77 +245,130 @@
       ]
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
-    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+    "presence_policy": "overview_visible_part_adjudication_v5"
   },
+  "files": [
+    {
+      "view": "36791128_00",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 1,
+      "kept_pixels": 14783,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/farfetch_36791128/36791128_00.npz",
+      "sha256": "edeb73751b7cf8ade4342c6f28500ee4f1ddf4d8c90885d8ac4c465d27d1ba63"
+    },
+    {
+      "view": "36791128_01",
+      "alias_of": null,
+      "keep_parts": [],
+      "source_parts": 2,
+      "kept_pixels": 0,
+      "removed_pixels": 0,
+      "ignored_pixels": 25564,
+      "status": "excluded_closeup",
+      "output": "joint_results/farfetch_36791128/36791128_01.npz",
+      "sha256": "1007d90355e0c08fe87689afc932a58f415c8640c4e6c10b271bda4a4cc2ad14"
+    },
+    {
+      "view": "36791128_02",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 1,
+      "kept_pixels": 7835,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/farfetch_36791128/36791128_02.npz",
+      "sha256": "60c2cbe7678635040f555776270c3e6c809f3e9b17182bbffb76c95cf96d55fd"
+    },
+    {
+      "view": "36791128_03",
+      "alias_of": null,
+      "keep_parts": [
+        1,
+        2
+      ],
+      "source_parts": 2,
+      "kept_pixels": 14482,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/farfetch_36791128/36791128_03.npz",
+      "sha256": "e89342f7a1601be1890bbbca41b4da0ed7a26ab3db32878b64ceb1e48a8047d8"
+    },
+    {
+      "view": "36791128_04",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 1,
+      "kept_pixels": 10985,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/farfetch_36791128/36791128_04.npz",
+      "sha256": "d12dfbd2ed2ad0214e6db9175a8ba1d950c949f7dac50fecb4c676994941f332"
+    }
+  ],
   "joint_evidence": {
     "forward": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "farfetch_36791128",
       "reverse": false,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "36791128_00",
           1
         ],
         "R002": [
-          "36791128_01",
-          1
-        ],
-        "R003": [
-          "36791128_01",
-          2
-        ],
-        "R004": [
           "36791128_02",
           1
         ],
-        "R005": [
+        "R003": [
           "36791128_03",
           1
         ],
-        "R006": [
+        "R004": [
           "36791128_03",
           2
         ],
-        "R007": [
+        "R005": [
           "36791128_04",
           1
         ]
       },
-      "raw": "After analyzing all views and their corresponding mask regions, we are to identify any garment that has visible pixels in **at least one mask region in every view**. The garment must be consistent across all views in terms of fabric, construction, color, and context.\n\n---\n\n### Step-by-step Analysis:\n\nWe have 5 views (00 to 04), each with one or more mask regions.\n\n#### View 00: R001\n- Shows the full front of the red one-piece swimsuit with side ties.\n\n#### View 01: R002, R003\n- R002: Close-up of the side ruching and fabric texture.\n- R003: Close-up of the side tie detail.\n\n#### View 02: R004\n- Shows the back of the same red one-piece swimsuit, with thin straps and side tie.\n\n#### View 03: R005, R006\n- R005: Front view of the swimsuit, similar to View 00.\n- R006: Close-up of the side tie, similar to R003.\n\n#### View 04: R007\n- Side view of the swimsuit, showing the ruching and side tie.\n\n---\n\n### Garment Identification:\n\nAll regions (R001, R002, R003, R004, R005, R006, R007) show **the same red one-piece swimsuit** with:\n- Textured fabric (herringbone or waffle knit).\n- Thin spaghetti straps.\n- Side ruching with adjustable ties.\n- High-cut leg line.\n- Consistent color and construction across all views.\n\nEven though some regions are close-ups (R002, R003, R006), they are clearly parts of the same garment as shown in the full-body views (R001, R004, R005, R007).\n\n---\n\n### Check for Consistency Across All Views:\n\nEach view has **at least one region** that shows part of the same red one-piece swimsuit.\n\n- View 00: R001 \u2192 full front\n- View 01: R002 (fabric) and R003 (tie) \u2192 both parts of the same swimsuit\n- View 02: R004 \u2192 back view\n- View 03: R005 (front) and R006 (tie) \u2192 same swimsuit\n- View 04: R007 \u2192 side view\n\nThus, **all regions belong to the same garment**.\n\n---\n\n### Final Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Red textured one-piece swimsuit with side ruching and adjustable ties\",\n      \"regions\": [\"R001\", \"R002\", \"R003\", \"R004\", \"R005\", \"R006\", \"R007\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"The red one-piece swimsuit is consistently visible across all views. It features a textured fabric, thin spaghetti straps, a square neckline, and side tie details. In each view, the garment is shown from different angles (front, back, side), but the same continuous piece is present. The side ties are visible in multiple views and are part of the same garment. R001 (front view), R002 (back view), R003 (front view), R004 (side tie detail), and R005 (side view) all correspond to the same swimsuit. R004, while a close-up of the side tie, is part of the same garment as seen in R001, R003, and R005. The back view (R002) shows the same garment from behind, confirming continuity. Therefore, all regions belong to one garment.\", \"tracks\": [{\"garment\": \"Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details\", \"regions\": [\"R001\", \"R002\", \"R003\", \"R004\", \"R005\"]}]}",
       "batch_size": 1,
-      "seconds": 20.61186440102756,
-      "batch_seconds": 20.61186440102756,
-      "input_signature": "e08df25faa59cdacd24bb5dcdcaf3076f715e66e1db0fc53145b4f1b45821022",
+      "seconds": 8.32659257389605,
+      "batch_seconds": 8.32659257389605,
+      "input_signature": "e76a3454a0c191aab17e65bee949c18cad7f277329afb8ae2ba3d621fa7bf6ff",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
+          "garment": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
           "regions": [
             "R001",
             "R002",
             "R003",
             "R004",
-            "R005",
-            "R006",
-            "R007"
+            "R005"
           ],
           "nodes": [
             [
               "36791128_00",
               1
-            ],
-            [
-              "36791128_01",
-              1
-            ],
-            [
-              "36791128_01",
-              2
             ],
             [
               "36791128_02",
@@ -479,12 +392,12 @@
       "valid": true
     },
     "reverse": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "farfetch_36791128",
       "reverse": true,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "36791128_04",
@@ -503,118 +416,172 @@
           1
         ],
         "R005": [
-          "36791128_01",
-          2
-        ],
-        "R006": [
-          "36791128_01",
-          1
-        ],
-        "R007": [
           "36791128_00",
           1
         ]
       },
-      "raw": "After analyzing all views and their corresponding mask regions, we are to identify garments that are visible in **every view** (i.e., in at least one mask region per view). The key is to track the **same garment** across all views based on fabric, construction, color, and context \u2014 not just presence in a single view.\n\n---\n\n### Step-by-step Analysis:\n\nWe have 5 views (00 to 04), each with one or more mask regions. We must find a garment that appears in **at least one mask region in every view**.\n\nLet\u2019s list the mask regions per view:\n\n- **VIEW 04**: R001\n- **VIEW 03**: R002, R003\n- **VIEW 02**: R004\n- **VIEW 01**: R005, R006\n- **VIEW 00**: R007\n\nWe need to find a set of regions (from different views) that belong to the **same garment** and appear in **every view**.\n\n---\n\n### Examine the regions:\n\n- **R001 (VIEW 04)**: Side view of the red one-piece swimsuit, showing the side ruching and tie. This is a full garment silhouette.\n- **R002 (VIEW 03)**: A close-up of the side tie \u2014 only the tie portion, not the full garment.\n- **R003 (VIEW 03)**: Front view of the red one-piece swimsuit \u2014 full silhouette.\n- **R004 (VIEW 02)**: Back view of the red one-piece swimsuit \u2014 full silhouette.\n- **R005 (VIEW 01)**: Close-up of the side tie \u2014 only the tie.\n- **R006 (VIEW 01)**: Close-up of the side ruching \u2014 fabric detail, not full garment.\n- **R007 (VIEW 00)**: Front view of the red one-piece swimsuit \u2014 full silhouette.\n\n---\n\n### Identify the garment:\n\nAll regions (R001, R003, R004, R007) show the **same red one-piece swimsuit** with:\n- Thin spaghetti straps\n- Square neckline\n- Side ruching with tie\n- Textured fabric (herringbone or waffle knit)\n- High-cut leg line\n\nR002 and R005 are **only the side tie**, which is a **part** of the garment, not the full garment. R006 is a fabric detail \u2014 not sufficient to represent the full garment.\n\nHowever, the **full garment** is visible in **R001 (VIEW 04), R003 (VIEW 03), R004 (VIEW 02), R007 (VIEW 00)** \u2014 that\u2019s 4 out of 5 views.\n\nBut **VIEW 01** (the close-up) does **not** have a mask region showing the full garment \u2014 only R005 (tie) and R006 (ruching). Neither of these shows the full silhouette or enough context to confirm the same garment as in other views.\n\nTherefore, **no single garment is visible in every view** with a full or sufficient representation.\n\n---\n\n### Conclusion:\n\nWe cannot assign a track that covers **every view** with a visible region of the **same garment**, because **VIEW 01** does not contain a mask region showing the full garment or enough context to confidently link it to the others.\n\nEven though R005 and R006 are parts of the same garment, they are **not sufficient** to establish the full garment\u2019s presence in that view \u2014 and we cannot invent unseen pixels or boundaries.\n\nThus, **no garment is visible in every view** with a usable mask region.\n\n---\n\n### Final Output:\n\n```json\n{\"tracks\":[]}\n```",
+      "raw": "{\"reason\": \"The red one-piece swimsuit is consistently visible across all four views. It features a textured fabric, thin spaghetti straps, a square neckline, and side tie details. In each view, the garment is shown from different angles (front, side, back, and front three-quarter), but the same continuous garment is present. The side ties are visible in multiple views (R001, R002, R003, R005) and the back view (R004) shows the same garment from behind. The regions R001, R002, R003, R004, and R005 all correspond to parts of the same swimsuit, with no indication of separate garments or layers. Therefore, one track is formed using all available regions.\", \"tracks\": [{\"garment\": \"Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details\", \"regions\": [\"R001\", \"R002\", \"R003\", \"R004\", \"R005\"]}]}",
       "batch_size": 1,
-      "seconds": 25.404522636905313,
-      "batch_seconds": 25.404522636905313,
-      "input_signature": "e08df25faa59cdacd24bb5dcdcaf3076f715e66e1db0fc53145b4f1b45821022",
+      "seconds": 7.583115931134671,
+      "batch_seconds": 7.583115931134671,
+      "input_signature": "e76a3454a0c191aab17e65bee949c18cad7f277329afb8ae2ba3d621fa7bf6ff",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
-      "tracks": [],
+      "tracks": [
+        {
+          "garment": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
+          "regions": [
+            "R001",
+            "R002",
+            "R003",
+            "R004",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "36791128_04",
+              1
+            ],
+            [
+              "36791128_03",
+              2
+            ],
+            [
+              "36791128_03",
+              1
+            ],
+            [
+              "36791128_02",
+              1
+            ],
+            [
+              "36791128_00",
+              1
+            ]
+          ]
+        }
+      ],
       "valid": true
     }
   },
   "pairs": [],
-  "seconds": 46.01638703793287,
+  "seconds": 15.909708505030721,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529901.8753166,
+  "at": 1790531803.1455264,
   "training": false,
-  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
-  "fragment_reviews": [
-    {
-      "view": "36791128_01",
-      "part": 2,
-      "track": 0,
-      "anchor_part": 1,
-      "both_orders_same": true,
-      "evidence": [
-        {
-          "identity": {
-            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-            "model": "Qwen/Qwen3-VL-32B-Instruct",
-            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-            "quantization": "1",
-            "pixels": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-            "partition": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c",
-            "a": 2,
-            "b": 1,
-            "boxes_xyxy_in_640_source": {
-              "1": [
-                236,
-                236,
-                336,
-                602
-              ],
-              "2": [
-                228,
-                0,
-                560,
-                422
-              ]
-            }
-          },
-          "choice": "A",
-          "margin": 5.25,
-          "relative_logits": [
-            0.0,
-            -5.25,
-            -13.875
-          ],
-          "at": 1790528587.1806266
+  "all_view_rule": "Every eligible overview must support a visible part of the same garment. Closeups are excluded from both matching and context. No full silhouette is required.",
+  "eligible_views": [
+    "36791128_00",
+    "36791128_02",
+    "36791128_03",
+    "36791128_04"
+  ],
+  "excluded_views": [
+    "36791128_01"
+  ],
+  "view_selection": {
+    "policy": "overview_only_v1",
+    "eligible_views": [
+      "36791128_00",
+      "36791128_02",
+      "36791128_03",
+      "36791128_04"
+    ],
+    "excluded_views": [
+      "36791128_01"
+    ],
+    "aliases": {},
+    "records": {
+      "36791128_00": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
+          "quantization": "1"
         },
-        {
-          "identity": {
-            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-            "model": "Qwen/Qwen3-VL-32B-Instruct",
-            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-            "quantization": "1",
-            "pixels": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-            "partition": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c",
-            "a": 1,
-            "b": 2,
-            "boxes_xyxy_in_640_source": {
-              "1": [
-                228,
-                0,
-                560,
-                422
-              ],
-              "2": [
-                236,
-                236,
-                336,
-                602
-              ]
-            }
-          },
-          "choice": "A",
-          "margin": 4.25,
-          "relative_logits": [
-            0.0,
-            -4.25,
-            -12.875
-          ],
-          "at": 1790528587.1895592
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image shows the full extent of the one-piece swimsuit on a model, including the straps, torso, and side tie details, framed from the upper chest to mid-thigh. While the head is cropped, the garment's overall shape and design are clearly visible, consistent with a complete product photograph.\"}",
+        "valid": true,
+        "seconds": 2.2423269380815327,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image shows the full extent of the one-piece swimsuit on a model, including the straps, torso, and side tie details, framed from the upper chest to mid-thigh. While the head is cropped, the garment's overall shape and design are clearly visible, consistent with a complete product photograph."
         }
-      ],
-      "contextual_review": [],
-      "decision_basis": "both direct source comparisons agree"
+      },
+      "36791128_01": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"closeup\", \"reason\":\"The image focuses tightly on the side of the swimsuit, specifically highlighting the ruched side detail and the drawstring tie, with the overall garment extent outside the frame. This is a deliberate detail shot of a subsection of the garment.\"}",
+        "valid": true,
+        "seconds": 1.8778473059646785,
+        "explanation": {
+          "role": "closeup",
+          "reason": "The image focuses tightly on the side of the swimsuit, specifically highlighting the ruched side detail and the drawstring tie, with the overall garment extent outside the frame. This is a deliberate detail shot of a subsection of the garment."
+        }
+      },
+      "36791128_02": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image shows the full extent of the one-piece swimsuit on a model, including the back, sides, and front portion, with the garment clearly visible from the shoulders to the upper thighs. Although the head and lower legs are cropped, the overall garment is fully framed and presented in context, consistent with a standard product overview shot.\"}",
+        "valid": true,
+        "seconds": 2.4154269327409565,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image shows the full extent of the one-piece swimsuit on a model, including the back, sides, and front portion, with the garment clearly visible from the shoulders to the upper thighs. Although the head and lower legs are cropped, the overall garment is fully framed and presented in context, consistent with a standard product overview shot."
+        }
+      },
+      "36791128_03": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image shows the full extent of the one-piece swimsuit on a model, including the straps, torso, and side ties, with the garment clearly visible from top to bottom. The framing captures the overall product as worn, even though the head and lower legs are partially cropped, which does not qualify it as a closeup detail shot.\"}",
+        "valid": true,
+        "seconds": 2.4474009717814624,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image shows the full extent of the one-piece swimsuit on a model, including the straps, torso, and side ties, with the garment clearly visible from top to bottom. The framing captures the overall product as worn, even though the head and lower legs are partially cropped, which does not qualify it as a closeup detail shot."
+        }
+      },
+      "36791128_04": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image shows the full extent of the one-piece swimsuit on a model, including the straps, torso, and side tie detail, framed from the upper chest to mid-thigh. While the head and lower legs are cropped, the garment's overall shape and design are clearly visible, consistent with a standard product overview shot.\"}",
+        "valid": true,
+        "seconds": 2.3564686626195908,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image shows the full extent of the one-piece swimsuit on a model, including the straps, torso, and side tie detail, framed from the upper chest to mid-thigh. While the head and lower legs are cropped, the garment's overall shape and design are clearly visible, consistent with a standard product overview shot."
+        }
+      }
     },
+    "rule": "Only overview photographs participate. Closeups are neither required views nor context for the veto."
+  },
+  "fragment_reviews": [
     {
       "view": "36791128_03",
       "part": 2,
@@ -624,8 +591,8 @@
       "evidence": [
         {
           "identity": {
-            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. A dress's bodice and attached skirt are parts of ONE dress, including when separated by a waist seam or mesh panel. Use the source construction to distinguish these from two independent clothes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
             "model": "Qwen/Qwen3-VL-32B-Instruct",
             "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
             "quantization": "1",
@@ -649,18 +616,18 @@
             }
           },
           "choice": "A",
-          "margin": 0.5,
+          "margin": 2.5,
           "relative_logits": [
             0.0,
-            -0.5,
-            -8.875
+            -2.5,
+            -10.125
           ],
-          "at": 1790528587.1961615
+          "at": 1790531802.9660544
         },
         {
           "identity": {
-            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
-            "implementation": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
+            "prompt": "Image 1 is the unaltered full SOURCE photograph. Image 2 shows that same photograph with REGION 1 outlined blue and REGION 2 red. Images 3 and 4 isolate the two regions' exact pixels. All regions come from the SAME photograph. Are these pixels fragments of ONE visually distinct garment? First locate the marked pixels in the unaltered photograph and identify the fabric underneath them. SAM3 can split a plain fabric body into a main mask and many disconnected interior islands: an irregular or speckled mask shape does not mean background. A collar, sleeve, hem, printed graphic, or interior fabric island can belong to the main garment. Use the source positions and visible garment boundaries, not only crop colors or mask shapes. A dress's bodice and attached skirt are parts of ONE dress, including when separated by a waist seam or mesh panel. Use the source construction to distinguish these from two independent clothes. Separate upper and lower garments and neighboring layers remain DIFFERENT even when the fabric matches or the layers are sewn into one product. Do not join different clothes merely because they touch or share a color. Actual background pixels, mixed unrelated masks, and genuinely unidentifiable contents must not be joined.\nA: same visually distinct garment\nB: different garments, object or background\nC: uncertain or mixed\nAnswer one letter:",
+            "implementation": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
             "model": "Qwen/Qwen3-VL-32B-Instruct",
             "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
             "quantization": "1",
@@ -684,2381 +651,187 @@
             }
           },
           "choice": "A",
-          "margin": 3.5,
+          "margin": 5.0,
           "relative_logits": [
             0.0,
-            -3.5,
-            -13.0
+            -5.0,
+            -12.875
           ],
-          "at": 1790528587.2027855
+          "at": 1790531802.9744344
         }
       ],
       "contextual_review": [],
       "decision_basis": "both direct source comparisons agree"
     }
   ],
-  "presence_reviews": [
-    {
-      "candidate": {
-        "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "nodes": [
-          [
-            "36791128_00",
-            1
-          ],
-          [
-            "36791128_01",
-            1
-          ],
-          [
-            "36791128_01",
-            2
-          ],
-          [
-            "36791128_02",
-            1
-          ],
-          [
-            "36791128_03",
-            1
-          ],
-          [
-            "36791128_03",
-            2
-          ],
-          [
-            "36791128_04",
-            1
-          ]
+  "presence_reviews": [],
+  "decision_before_presence_review": {
+    "status": "evaluated",
+    "groups": [
+      {
+        "view": "36791128_00",
+        "group": 1,
+        "parts": [
+          1
         ],
-        "proposed_by": [
-          "forward"
-        ]
-      },
-      "evidence": [
-        {
-          "identity": {
-            "policy": "any_visible_part_adjudication_v4_fixed_regions",
-            "mode": "fixed_region_comparisons",
-            "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-            "model": "Qwen/Qwen3-VL-32B-Instruct",
-            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-            "quantization": "1",
-            "candidate": {
-              "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-              "nodes": [
-                [
-                  "36791128_00",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  2
-                ],
-                [
-                  "36791128_02",
-                  1
-                ],
-                [
-                  "36791128_03",
-                  1
-                ],
-                [
-                  "36791128_03",
-                  2
-                ],
-                [
-                  "36791128_04",
-                  1
-                ]
-              ],
-              "proposed_by": [
-                "forward"
-              ]
-            },
-            "reference_node": [
-              "36791128_01",
+        "kind": "garment",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36791128_04": {
+            "status": "matched",
+            "group": [
               1
-            ],
-            "reverse": false,
-            "mapping": {
-              "R001": [
-                "36791128_00",
-                1
-              ],
-              "R002": [
-                "36791128_01",
-                1
-              ],
-              "R003": [
-                "36791128_01",
-                2
-              ],
-              "R004": [
-                "36791128_02",
-                1
-              ],
-              "R005": [
-                "36791128_03",
-                1
-              ],
-              "R006": [
-                "36791128_03",
-                2
-              ],
-              "R007": [
-                "36791128_04",
-                1
-              ]
-            },
-            "views": [
-              {
-                "id": "36791128_00",
-                "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-              },
-              {
-                "id": "36791128_01",
-                "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-              },
-              {
-                "id": "36791128_02",
-                "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-              },
-              {
-                "id": "36791128_03",
-                "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-              },
-              {
-                "id": "36791128_04",
-                "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-              }
             ]
           },
-          "valid": true,
-          "region_comparisons": [
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": false,
-                "mapping": {
-                  "R001": [
-                    "36791128_00",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R003": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R006": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R007": [
-                    "36791128_04",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_00",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_00",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_00",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured swimsuit side with ruched tie detail\", \"region2\":\"red textured swimsuit front with side tie and straps\", \"reason\":\"Both show same red textured fabric, side tie, and ruched design; consistent with full garment in context photos.\", \"verdict\":\"A\"}",
-              "seconds": 5.7558894460089505,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured swimsuit side with ruched tie detail",
-                "region2": "red textured swimsuit front with side tie and straps",
-                "reason": "Both show same red textured fabric, side tie, and ruched design; consistent with full garment in context photos.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": false,
-                "mapping": {
-                  "R001": [
-                    "36791128_00",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R003": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R006": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R007": [
-                    "36791128_04",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_01",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_01",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured one-piece swimsuit with side tie detail\", \"region2\":\"red textured one-piece swimsuit with side tie detail\", \"reason\":\"Both masks show identical red textured fabric and side tie from the same swimsuit, confirmed by context photos.\", \"verdict\":\"A\"}",
-              "seconds": 5.450963497161865,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured one-piece swimsuit with side tie detail",
-                "region2": "red textured one-piece swimsuit with side tie detail",
-                "reason": "Both masks show identical red textured fabric and side tie from the same swimsuit, confirmed by context photos.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": false,
-                "mapping": {
-                  "R001": [
-                    "36791128_00",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R003": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R006": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R007": [
-                    "36791128_04",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_01",
-                  2
-                ]
-              },
-              "node": [
-                "36791128_01",
-                2
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  2
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured swimsuit side with ruched detail and side tie\",\"region2\":\"red side tie of the same textured swimsuit\",\"reason\":\"Both regions show parts of the same red textured swimsuit: the side ruching and matching tie.\",\"verdict\":\"A\"}",
-              "seconds": 5.389529849868268,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured swimsuit side with ruched detail and side tie",
-                "region2": "red side tie of the same textured swimsuit",
-                "reason": "Both regions show parts of the same red textured swimsuit: the side ruching and matching tie.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": false,
-                "mapping": {
-                  "R001": [
-                    "36791128_00",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R003": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R006": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R007": [
-                    "36791128_04",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_02",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_02",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_02",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured swimsuit side with ruched tie detail\",\"region2\":\"red textured swimsuit back with thin straps and side tie\",\"reason\":\"Both masks show same red textured fabric, matching ruched side tie and thin straps, consistent with one garment.\",\"verdict\":\"A\"}",
-              "seconds": 5.544697015080601,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured swimsuit side with ruched tie detail",
-                "region2": "red textured swimsuit back with thin straps and side tie",
-                "reason": "Both masks show same red textured fabric, matching ruched side tie and thin straps, consistent with one garment.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": false,
-                "mapping": {
-                  "R001": [
-                    "36791128_00",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R003": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R006": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R007": [
-                    "36791128_04",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_03",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_03",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_03",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured swimsuit side with ruched tie detail\", \"region2\":\"red textured swimsuit front with thin straps and side tie\", \"reason\":\"Both masks show same red textured fabric, side tie, and ruched design; consistent with full garment in context photos.\", \"verdict\":\"A\"}",
-              "seconds": 5.899186218157411,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured swimsuit side with ruched tie detail",
-                "region2": "red textured swimsuit front with thin straps and side tie",
-                "reason": "Both masks show same red textured fabric, side tie, and ruched design; consistent with full garment in context photos.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": false,
-                "mapping": {
-                  "R001": [
-                    "36791128_00",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R003": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R006": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R007": [
-                    "36791128_04",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_03",
-                  2
-                ]
-              },
-              "node": [
-                "36791128_03",
-                2
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_03",
-                  2
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured swimsuit side with ruched tie detail\", \"region2\":\"red textured swimsuit side tie with metallic aglet\", \"reason\":\"Both show matching red textured fabric and side tie with aglet, consistent with same swimsuit design.\", \"verdict\":\"A\"}",
-              "seconds": 5.329146744683385,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured swimsuit side with ruched tie detail",
-                "region2": "red textured swimsuit side tie with metallic aglet",
-                "reason": "Both show matching red textured fabric and side tie with aglet, consistent with same swimsuit design.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": false,
-                "mapping": {
-                  "R001": [
-                    "36791128_00",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R003": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R006": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R007": [
-                    "36791128_04",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_04",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_04",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_04",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured one-piece swimsuit with side tie detail\", \"region2\":\"red textured one-piece swimsuit with side tie and thin straps\", \"reason\":\"Both masks show matching red textured fabric, side tie, and consistent cut of the same swimsuit.\", \"verdict\":\"A\"}",
-              "seconds": 5.276418752036989,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured one-piece swimsuit with side tie detail",
-                "region2": "red textured one-piece swimsuit with side tie and thin straps",
-                "reason": "Both masks show matching red textured fabric, side tie, and consistent cut of the same swimsuit.",
-                "verdict": "A"
-              }
-            }
-          ],
-          "seconds": 38.64583152299747,
-          "view_decisions_derived_by_host": true,
-          "views": [
-            {
-              "view": "36791128_00",
-              "status": "visible_part",
-              "regions": [
-                "R001"
-              ],
-              "nodes": [
-                [
-                  "36791128_00",
-                  1
-                ]
-              ],
-              "evidence": "Region 1: Both show same red textured fabric, side tie, and ruched design; consistent with full garment in context photos."
-            },
-            {
-              "view": "36791128_01",
-              "status": "visible_part",
-              "regions": [
-                "R002",
-                "R003"
-              ],
-              "nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  2
-                ]
-              ],
-              "evidence": "Region 1: Both masks show identical red textured fabric and side tie from the same swimsuit, confirmed by context photos.; Region 2: Both regions show parts of the same red textured swimsuit: the side ruching and matching tie."
-            },
-            {
-              "view": "36791128_02",
-              "status": "visible_part",
-              "regions": [
-                "R004"
-              ],
-              "nodes": [
-                [
-                  "36791128_02",
-                  1
-                ]
-              ],
-              "evidence": "Region 1: Both masks show same red textured fabric, matching ruched side tie and thin straps, consistent with one garment."
-            },
-            {
-              "view": "36791128_03",
-              "status": "visible_part",
-              "regions": [
-                "R005",
-                "R006"
-              ],
-              "nodes": [
-                [
-                  "36791128_03",
-                  1
-                ],
-                [
-                  "36791128_03",
-                  2
-                ]
-              ],
-              "evidence": "Region 1: Both masks show same red textured fabric, side tie, and ruched design; consistent with full garment in context photos.; Region 2: Both show matching red textured fabric and side tie with aglet, consistent with same swimsuit design."
-            },
-            {
-              "view": "36791128_04",
-              "status": "visible_part",
-              "regions": [
-                "R007"
-              ],
-              "nodes": [
-                [
-                  "36791128_04",
-                  1
-                ]
-              ],
-              "evidence": "Region 1: Both masks show matching red textured fabric, side tie, and consistent cut of the same swimsuit."
-            }
-          ]
-        },
-        {
-          "identity": {
-            "policy": "any_visible_part_adjudication_v4_fixed_regions",
-            "mode": "fixed_region_comparisons",
-            "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-            "model": "Qwen/Qwen3-VL-32B-Instruct",
-            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-            "quantization": "1",
-            "candidate": {
-              "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-              "nodes": [
-                [
-                  "36791128_00",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  2
-                ],
-                [
-                  "36791128_02",
-                  1
-                ],
-                [
-                  "36791128_03",
-                  1
-                ],
-                [
-                  "36791128_03",
-                  2
-                ],
-                [
-                  "36791128_04",
-                  1
-                ]
-              ],
-              "proposed_by": [
-                "forward"
-              ]
-            },
-            "reference_node": [
-              "36791128_01",
+          "36791128_02": {
+            "status": "matched",
+            "group": [
               1
-            ],
-            "reverse": true,
-            "mapping": {
-              "R001": [
-                "36791128_04",
-                1
-              ],
-              "R002": [
-                "36791128_03",
-                2
-              ],
-              "R003": [
-                "36791128_03",
-                1
-              ],
-              "R004": [
-                "36791128_02",
-                1
-              ],
-              "R005": [
-                "36791128_01",
-                2
-              ],
-              "R006": [
-                "36791128_01",
-                1
-              ],
-              "R007": [
-                "36791128_00",
-                1
-              ]
-            },
-            "views": [
-              {
-                "id": "36791128_00",
-                "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-              },
-              {
-                "id": "36791128_01",
-                "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-              },
-              {
-                "id": "36791128_02",
-                "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-              },
-              {
-                "id": "36791128_03",
-                "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-              },
-              {
-                "id": "36791128_04",
-                "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-              }
             ]
           },
-          "valid": true,
-          "region_comparisons": [
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": true,
-                "mapping": {
-                  "R001": [
-                    "36791128_04",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R003": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R006": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R007": [
-                    "36791128_00",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_04",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_04",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_04",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured one-piece swimsuit with side tie and thin straps\",\"region2\":\"red textured swimsuit side with ruched detail and tie\",\"reason\":\"Both masks show matching red textured fabric, side tie, and ruched design from same swimsuit.\",\"verdict\":\"A\"}",
-              "seconds": 5.272508507128805,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured one-piece swimsuit with side tie and thin straps",
-                "region2": "red textured swimsuit side with ruched detail and tie",
-                "reason": "Both masks show matching red textured fabric, side tie, and ruched design from same swimsuit.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": true,
-                "mapping": {
-                  "R001": [
-                    "36791128_04",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R003": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R006": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R007": [
-                    "36791128_00",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_03",
-                  2
-                ]
-              },
-              "node": [
-                "36791128_03",
-                2
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_03",
-                  2
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red tie on side of swimsuit\", \"region2\":\"red ruched side panel of swimsuit with tie\", \"reason\":\"Both show red fabric with textured weave and matching tie, part of same one-piece swimsuit.\", \"verdict\":\"A\"}",
-              "seconds": 4.881083144340664,
-              "valid": true,
-              "explanation": {
-                "region1": "red tie on side of swimsuit",
-                "region2": "red ruched side panel of swimsuit with tie",
-                "reason": "Both show red fabric with textured weave and matching tie, part of same one-piece swimsuit.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": true,
-                "mapping": {
-                  "R001": [
-                    "36791128_04",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R003": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R006": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R007": [
-                    "36791128_00",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_03",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_03",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_03",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured one-piece swimsuit with thin straps and side ties\",\"region2\":\"red textured swimsuit side with ruched detail and tie\",\"reason\":\"Both show matching red textured fabric, side tie, and ruched design from same swimsuit\",\"verdict\":\"A\"}",
-              "seconds": 5.3982156361453235,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured one-piece swimsuit with thin straps and side ties",
-                "region2": "red textured swimsuit side with ruched detail and tie",
-                "reason": "Both show matching red textured fabric, side tie, and ruched design from same swimsuit",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": true,
-                "mapping": {
-                  "R001": [
-                    "36791128_04",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R003": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R006": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R007": [
-                    "36791128_00",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_02",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_02",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_02",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red one-piece swimsuit back with thin straps and side tie\", \"region2\":\"red one-piece swimsuit side with textured fabric and side tie\", \"reason\":\"Both masks show red textured swimsuit with matching side tie and fabric pattern; consistent with same garment across images.\", \"verdict\":\"A\"}",
-              "seconds": 5.821946178097278,
-              "valid": true,
-              "explanation": {
-                "region1": "red one-piece swimsuit back with thin straps and side tie",
-                "region2": "red one-piece swimsuit side with textured fabric and side tie",
-                "reason": "Both masks show red textured swimsuit with matching side tie and fabric pattern; consistent with same garment across images.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": true,
-                "mapping": {
-                  "R001": [
-                    "36791128_04",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R003": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R006": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R007": [
-                    "36791128_00",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_01",
-                  2
-                ]
-              },
-              "node": [
-                "36791128_01",
-                2
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  2
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red tie string from side of swimsuit\", \"region2\":\"red textured fabric of swimsuit side with ruching\", \"reason\":\"Both regions show parts of the same red one-piece swimsuit: the tie and adjacent ruched fabric.\", \"verdict\":\"A\"}",
-              "seconds": 5.4704378908500075,
-              "valid": true,
-              "explanation": {
-                "region1": "red tie string from side of swimsuit",
-                "region2": "red textured fabric of swimsuit side with ruching",
-                "reason": "Both regions show parts of the same red one-piece swimsuit: the tie and adjacent ruched fabric.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": true,
-                "mapping": {
-                  "R001": [
-                    "36791128_04",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R003": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R006": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R007": [
-                    "36791128_00",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_01",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_01",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_01",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured one-piece swimsuit with side ruching and tie detail\", \"region2\":\"red textured one-piece swimsuit with side ruching and tie detail\", \"reason\":\"Both masks show identical red textured fabric, ruching, and side tie detail of the same swimsuit.\", \"verdict\":\"A\"}",
-              "seconds": 6.122861833777279,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured one-piece swimsuit with side ruching and tie detail",
-                "region2": "red textured one-piece swimsuit with side ruching and tie detail",
-                "reason": "Both masks show identical red textured fabric, ruching, and side tie detail of the same swimsuit.",
-                "verdict": "A"
-              }
-            },
-            {
-              "identity": {
-                "policy": "any_visible_part_adjudication_v4_fixed_regions",
-                "mode": "fixed_region_comparisons",
-                "code": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
-                "model": "Qwen/Qwen3-VL-32B-Instruct",
-                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-                "quantization": "1",
-                "candidate": {
-                  "garment": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-                  "nodes": [
-                    [
-                      "36791128_00",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      1
-                    ],
-                    [
-                      "36791128_01",
-                      2
-                    ],
-                    [
-                      "36791128_02",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      1
-                    ],
-                    [
-                      "36791128_03",
-                      2
-                    ],
-                    [
-                      "36791128_04",
-                      1
-                    ]
-                  ],
-                  "proposed_by": [
-                    "forward"
-                  ]
-                },
-                "reference_node": [
-                  "36791128_01",
-                  1
-                ],
-                "reverse": true,
-                "mapping": {
-                  "R001": [
-                    "36791128_04",
-                    1
-                  ],
-                  "R002": [
-                    "36791128_03",
-                    2
-                  ],
-                  "R003": [
-                    "36791128_03",
-                    1
-                  ],
-                  "R004": [
-                    "36791128_02",
-                    1
-                  ],
-                  "R005": [
-                    "36791128_01",
-                    2
-                  ],
-                  "R006": [
-                    "36791128_01",
-                    1
-                  ],
-                  "R007": [
-                    "36791128_00",
-                    1
-                  ]
-                },
-                "views": [
-                  {
-                    "id": "36791128_00",
-                    "pixel_sha256": "38f72f6460b35ef8e445b15f6f14664c84ccda846145c52b08aabbd594fa5904",
-                    "partition_sha256": "2f161b8c4b8f846d19a8801e920b37668692e9a1bfbfb73541946a467a6d7b76"
-                  },
-                  {
-                    "id": "36791128_01",
-                    "pixel_sha256": "93e56d5e522e1b0cf1a97740c99b0e668e046fd3781cfeb2b2da88dfe7621d9f",
-                    "partition_sha256": "65f84e30874bae1fdab7b9eb5057cd5e532769364b9beefbf37490639b09d60c"
-                  },
-                  {
-                    "id": "36791128_02",
-                    "pixel_sha256": "dc622459ddf91c4fe48e64f55de56ac263563954e32203140a9f4d99d0c48805",
-                    "partition_sha256": "98d54c1db94348c09b7d5dc2f3453f355cfd2886685b05c3ce97cae68239af95"
-                  },
-                  {
-                    "id": "36791128_03",
-                    "pixel_sha256": "56c5b0c7adacda2f744e53767aa23f6b4096f39c50afd93d709089fd46d867b3",
-                    "partition_sha256": "7764c4e3b9d38ed3455f5f278658c8e65a050a34dae484e02297d5b2e3b4ab81"
-                  },
-                  {
-                    "id": "36791128_04",
-                    "pixel_sha256": "e5a259de9f4278109e222dc7facb7521e1a0abeffaffb1f51d26093f989a2309",
-                    "partition_sha256": "eb3eb429fa62b9187629a7c0d2bf9a382ec327a272aac31b45f44b9cdf698937"
-                  }
-                ],
-                "node": [
-                  "36791128_00",
-                  1
-                ]
-              },
-              "node": [
-                "36791128_00",
-                1
-              ],
-              "comparison_nodes": [
-                [
-                  "36791128_00",
-                  1
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "prompt": "The earlier images show ALL photographs of the SAME SKU for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
-              "raw": "{\"region1\":\"red textured one-piece swimsuit with side ties and thin straps\",\"region2\":\"red textured swimsuit side with ruched detail and tie\",\"reason\":\"Both masks show matching red textured fabric, side ruching, and tie detail from the same swimsuit.\",\"verdict\":\"A\"}",
-              "seconds": 5.609225146006793,
-              "valid": true,
-              "explanation": {
-                "region1": "red textured one-piece swimsuit with side ties and thin straps",
-                "region2": "red textured swimsuit side with ruched detail and tie",
-                "reason": "Both masks show matching red textured fabric, side ruching, and tie detail from the same swimsuit.",
-                "verdict": "A"
-              }
-            }
-          ],
-          "seconds": 38.57627833634615,
-          "view_decisions_derived_by_host": true,
-          "views": [
-            {
-              "view": "36791128_00",
-              "status": "visible_part",
-              "regions": [
-                "R007"
-              ],
-              "nodes": [
-                [
-                  "36791128_00",
-                  1
-                ]
-              ],
-              "evidence": "Region 1: Both masks show matching red textured fabric, side ruching, and tie detail from the same swimsuit."
-            },
-            {
-              "view": "36791128_01",
-              "status": "visible_part",
-              "regions": [
-                "R005",
-                "R006"
-              ],
-              "nodes": [
-                [
-                  "36791128_01",
-                  2
-                ],
-                [
-                  "36791128_01",
-                  1
-                ]
-              ],
-              "evidence": "Region 2: Both regions show parts of the same red one-piece swimsuit: the tie and adjacent ruched fabric.; Region 1: Both masks show identical red textured fabric, ruching, and side tie detail of the same swimsuit."
-            },
-            {
-              "view": "36791128_02",
-              "status": "visible_part",
-              "regions": [
-                "R004"
-              ],
-              "nodes": [
-                [
-                  "36791128_02",
-                  1
-                ]
-              ],
-              "evidence": "Region 1: Both masks show red textured swimsuit with matching side tie and fabric pattern; consistent with same garment across images."
-            },
-            {
-              "view": "36791128_03",
-              "status": "visible_part",
-              "regions": [
-                "R002",
-                "R003"
-              ],
-              "nodes": [
-                [
-                  "36791128_03",
-                  2
-                ],
-                [
-                  "36791128_03",
-                  1
-                ]
-              ],
-              "evidence": "Region 2: Both show red fabric with textured weave and matching tie, part of same one-piece swimsuit.; Region 1: Both show matching red textured fabric, side tie, and ruched design from same swimsuit"
-            },
-            {
-              "view": "36791128_04",
-              "status": "visible_part",
-              "regions": [
-                "R001"
-              ],
-              "nodes": [
-                [
-                  "36791128_04",
-                  1
-                ]
-              ],
-              "evidence": "Region 1: Both masks show matching red textured fabric, side tie, and ruched design from same swimsuit."
-            }
-          ]
+          "36791128_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2
+            ]
+          }
         }
-      ],
-      "agreed_nodes": [
+      },
+      {
+        "view": "36791128_02",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36791128_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36791128_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36791128_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2
+            ]
+          }
+        }
+      },
+      {
+        "view": "36791128_03",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36791128_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36791128_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36791128_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36791128_03",
+        "group": 2,
+        "parts": [
+          2
+        ],
+        "kind": "garment",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36791128_04": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36791128_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36791128_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "view": "36791128_04",
+        "group": 1,
+        "parts": [
+          1
+        ],
+        "kind": "garment",
+        "description": "Red textured one-piece swimsuit with thin spaghetti straps, square neckline, and side tie details",
+        "keep": true,
+        "reasons": [],
+        "evidence": {
+          "36791128_02": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36791128_00": {
+            "status": "matched",
+            "group": [
+              1
+            ]
+          },
+          "36791128_03": {
+            "status": "matched",
+            "group": [
+              1,
+              2
+            ]
+          }
+        }
+      }
+    ],
+    "tracks": [
+      [
         [
           "36791128_00",
           1
-        ],
-        [
-          "36791128_01",
-          1
-        ],
-        [
-          "36791128_01",
-          2
         ],
         [
           "36791128_02",
@@ -3076,245 +849,21 @@
           "36791128_04",
           1
         ]
-      ],
-      "accepted": true,
-      "outcome": "confirmed_visible_part_in_every_view"
-    }
-  ],
-  "decision_before_presence_review": {
-    "status": "evaluated",
-    "groups": [
-      {
-        "view": "36791128_00",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "36791128_04": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_02": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_01": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_03": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "36791128_01",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "36791128_04": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_02": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_03": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_00": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "36791128_01",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "36791128_04": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_02": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_03": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_00": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "36791128_02",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "36791128_04": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_00": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_01": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_03": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "36791128_03",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "36791128_04": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_02": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_01": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_00": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "36791128_03",
-        "group": 2,
-        "parts": [
-          2
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "36791128_04": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_02": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_01": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_00": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      },
-      {
-        "view": "36791128_04",
-        "group": 1,
-        "parts": [
-          1
-        ],
-        "kind": "garment",
-        "description": "Red textured one-piece swimsuit with side ruching and adjustable ties",
-        "keep": false,
-        "reasons": [
-          "No consistent visible garment identity in every image under both view and region-ID orders"
-        ],
-        "evidence": {
-          "36791128_00": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_02": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_01": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          },
-          "36791128_03": {
-            "status": "not_confirmed_in_both_sku_inspections",
-            "group": null
-          }
-        }
-      }
+      ]
     ],
-    "tracks": [],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
-  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 0.3921953518874943,
+  "presence_policy": "overview_visible_part_adjudication_v5",
+  "finalization_seconds": 0.9220614251680672,
   "implementation_sha256": {
-    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
-    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "run_joint": "b8130d9b8819534d5db94f457e152a4a0603858c2b5db14b1fcd9ff6beb618e3",
+    "view_policy": "17bd78799255d10180cc5d83dd833605a25ab547f29a912114028d51f3ff1cbc",
+    "joint_unique": "7d4319cc86ace83eb6c4ef7873d94ef58dd785255fcb589e7090013dadd05b14",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
-    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
-    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "visible_presence": "d6366043146048d8d05a5c0bc206956c0adfce1aa1c9023f056e6128b261209b",
+    "presence_regions": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+    "fragment_completion": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+    "fragment_reasoning": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
     "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
     "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"
