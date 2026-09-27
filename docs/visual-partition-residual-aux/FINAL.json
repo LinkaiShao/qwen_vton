@@ -1,0 +1,103 @@
+{
+  "selected_step": 5000,
+  "selected_arm": "control",
+  "additional_step": 1000,
+  "threshold": 0.35,
+  "candidate_checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_aux/checkpoints/control/step_01000.pt",
+  "passed_quality": true,
+  "promote": null,
+  "scores": {
+    "foreground_iou": 0.8012085430536018,
+    "pq": 0.44255026886888504,
+    "boundary_f1": 0.3681122776302327,
+    "merge_n": 1.273469387755102,
+    "split_n": 1.3061224489795917,
+    "false_positive": 1.779591836734694,
+    "images": 490,
+    "parts": 2830,
+    "pair_iou": 0.39254957649464867,
+    "recall50": 0.4148409893992933,
+    "tiny": {
+      "n": 922,
+      "pair_iou": 0.18514576873078575,
+      "recall50": 0.18655097613882862
+    },
+    "small": {
+      "n": 763,
+      "pair_iou": 0.24367464978329886,
+      "recall50": 0.2398427260812582
+    },
+    "large": {
+      "n": 1145,
+      "pair_iou": 0.658766065437043,
+      "recall50": 0.7152838427947599
+    },
+    "same_object_agreement": 0.7208008358679844,
+    "different_object_collision": 0.19545343873297694,
+    "false_internal_edge_fraction": 0.30383681283940694,
+    "hard": {
+      "n": 251,
+      "iou": 0.17426424238437677,
+      "recall50": 0.099601593625498
+    },
+    "easy": {
+      "n": 25,
+      "iou": 0.8620032387603347,
+      "recall50": 0.96
+    },
+    "retention650": {
+      "n": 650,
+      "iou": 0.9119391977741228,
+      "recall50": 0.9969230769230769
+    }
+  },
+  "baseline": {
+    "foreground_iou": 0.7406495586618316,
+    "pq": 0.3683105193236315,
+    "boundary_f1": 0.27300554856588394,
+    "merge_n": 1.4040816326530612,
+    "split_n": 1.2979591836734694,
+    "false_positive": 1.2469387755102042,
+    "images": 490,
+    "parts": 2830,
+    "pair_iou": 0.29190136449129717,
+    "recall50": 0.29081272084805654,
+    "tiny": {
+      "n": 922,
+      "pair_iou": 0.06443347123755558,
+      "recall50": 0.03253796095444685
+    },
+    "small": {
+      "n": 763,
+      "pair_iou": 0.1295154521319079,
+      "recall50": 0.09305373525557012
+    },
+    "large": {
+      "n": 1145,
+      "pair_iou": 0.5832776515744096,
+      "recall50": 0.6305676855895197
+    },
+    "same_object_agreement": 0.6403780503483397,
+    "different_object_collision": 0.2189292263327085,
+    "false_internal_edge_fraction": 0.39245235496599784,
+    "hard": {
+      "n": 251,
+      "iou": 0.11726897770313277,
+      "recall50": 0.0
+    },
+    "easy": {
+      "n": 25,
+      "iou": 0.861711415264494,
+      "recall50": 1.0
+    },
+    "retention650": {
+      "n": 650,
+      "iou": 0.9115136808859524,
+      "recall50": 1.0
+    }
+  },
+  "all_baseline_weights_unchanged": true,
+  "trained_steps": 4000,
+  "deadline": 1790481395.34889,
+  "at": 1790480344.8263144
+}
