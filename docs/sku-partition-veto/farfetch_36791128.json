@@ -530,7 +530,7 @@
   "seconds": 46.01638703793287,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529655.9540071,
+  "at": 1790529901.8753166,
   "training": false,
   "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
   "fragment_reviews": [
@@ -3306,7 +3306,7 @@
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
   "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 79.34502087906003,
+  "finalization_seconds": 0.3921953518874943,
   "implementation_sha256": {
     "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
     "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
