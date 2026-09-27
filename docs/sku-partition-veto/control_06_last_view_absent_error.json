@@ -1,0 +1,114 @@
+{
+  "sku": "control_06_last_view_absent",
+  "forward": null,
+  "reverse": "Track lacks evidence in at least one required view",
+  "protocol": "strict_partition_veto_overview_v5",
+  "evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "control_06_last_view_absent",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_06_last_view_absent_v0",
+          1
+        ],
+        "R002": [
+          "control_06_last_view_absent_v0",
+          2
+        ],
+        "R003": [
+          "control_06_last_view_absent_v1",
+          1
+        ],
+        "R004": [
+          "control_06_last_view_absent_v1",
+          2
+        ],
+        "R005": [
+          "control_06_last_view_absent_v2",
+          1
+        ]
+      },
+      "raw": "{\"reason\": \"In VIEW control_06_last_view_absent_v0, R001 shows a dark blue denim jeans from the back, and R002 shows a light-wash white denim jeans from the front. In VIEW control_06_last_view_absent_v1, R003 shows the same dark blue denim jeans from the back (matching R001), and R004 shows the same light-wash white denim jeans from the front (matching R002). In VIEW control_06_last_view_absent_v2, R005 shows the dark blue denim jeans from the back (matching R001 and R003). The white jeans are not visible in the third view, so they cannot be tracked across all views. The dark blue jeans are visible in all three views, with consistent back view and construction. Therefore, only the dark blue jeans can be tracked across all views.\", \"tracks\": [{\"garment\": \"dark blue denim jeans, back view\", \"regions\": [\"R001\", \"R003\", \"R005\"]}]}",
+      "batch_size": 1,
+      "seconds": 7.52728321403265,
+      "batch_seconds": 7.52728321403265,
+      "input_signature": "53f8ff9cc5f2274df9164015bc567f500d1d8688ea0b44c0c236b96404603e0b",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "dark blue denim jeans, back view",
+          "regions": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "control_06_last_view_absent_v0",
+              1
+            ],
+            [
+              "control_06_last_view_absent_v1",
+              1
+            ],
+            [
+              "control_06_last_view_absent_v2",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "control_06_last_view_absent",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_06_last_view_absent_v2",
+          1
+        ],
+        "R002": [
+          "control_06_last_view_absent_v1",
+          2
+        ],
+        "R003": [
+          "control_06_last_view_absent_v1",
+          1
+        ],
+        "R004": [
+          "control_06_last_view_absent_v0",
+          2
+        ],
+        "R005": [
+          "control_06_last_view_absent_v0",
+          1
+        ]
+      },
+      "raw": "{\"reason\": \"The blue jeans are consistently visible in every view: R001 in view v2, R003 in view v1, and R005 in view v0. The white jeans are also consistently visible: R002 in view v1 and R004 in view v0. Each garment is distinct in color and design, and both appear in every shown view with at least one region per view. No other garments are consistently visible across all views.\", \"tracks\": [{\"garment\": \"blue jeans\", \"regions\": [\"R001\", \"R003\", \"R005\"]}, {\"garment\": \"white jeans\", \"regions\": [\"R002\", \"R004\"]}]}",
+      "batch_size": 1,
+      "seconds": 5.281746195629239,
+      "batch_seconds": 5.281746195629239,
+      "input_signature": "53f8ff9cc5f2274df9164015bc567f500d1d8688ea0b44c0c236b96404603e0b",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "{\"reason\": \"The blue jeans are consistently visible in every view, appearing in R001 (view v2), R003 (view v1), and R005 (view v0). The white jeans are also consistently visible, appearing in R002 (view v1) and R004 (view v0). Each garment is distinct in color and design, and both are present in every view, with at least one region per view. No other garments are consistently visible across all views.\", \"tracks\": [{\"garment\": \"blue jeans\", \"regions\": [\"R001\", \"R003\", \"R005\"]}, {\"garment\": \"white jeans\", \"regions\": [\"R002\", \"R004\"]}]}"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    }
+  },
+  "at": 1790532862.960098
+}

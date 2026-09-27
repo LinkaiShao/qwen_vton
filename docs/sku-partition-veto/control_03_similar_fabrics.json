@@ -1,5 +1,5 @@
 {
-  "protocol": "strict_partition_veto_joint_context_v1",
+  "protocol": "strict_partition_veto_overview_v5",
   "sku": "control_03_similar_fabrics",
   "title": "similar fabrics",
   "cohort": "controlled",
@@ -68,7 +68,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Light yellow floral camisole with thin straps and front tie",
+        "description": "floral camisole top with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -116,7 +116,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Light yellow floral camisole with thin straps and front tie",
+        "description": "floral camisole top with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -164,7 +164,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Light yellow floral camisole with thin straps and front tie",
+        "description": "floral camisole top with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -223,16 +223,60 @@
       ]
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
-    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+    "presence_policy": "overview_visible_part_adjudication_v5"
   },
+  "files": [
+    {
+      "view": "control_03_similar_fabrics_v0",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 5359,
+      "removed_pixels": 6005,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_03_similar_fabrics/control_03_similar_fabrics_v0.npz",
+      "sha256": "55bcd1b6e5605ecc361b2fb783b7a885103b58d450325b3a569ea111576b23c7"
+    },
+    {
+      "view": "control_03_similar_fabrics_v1",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 4921,
+      "removed_pixels": 8067,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_03_similar_fabrics/control_03_similar_fabrics_v1.npz",
+      "sha256": "3ca0408d28d833dcbd90459fd17b11f71461d7c09b1b8c8eae9e6ec0b943921b"
+    },
+    {
+      "view": "control_03_similar_fabrics_v2",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 4850,
+      "removed_pixels": 5620,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_03_similar_fabrics/control_03_similar_fabrics_v2.npz",
+      "sha256": "909e67030a04446c405356a4a029099df290a0a0fc7f775816df5ba9365e7ea1"
+    }
+  ],
   "joint_evidence": {
     "forward": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_03_similar_fabrics",
       "reverse": false,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_03_similar_fabrics_v0",
@@ -259,16 +303,16 @@
           2
         ]
       },
-      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every view** (i.e., in at least one region per view) and are visually consistent across views.\n\n---\n\n### Step-by-step Analysis:\n\n#### View 1: control_03_similar_fabrics_v0\n- **R001**: Floral camisole (light yellow with small purple flowers, thin straps, front tie)\n- **R002**: Lace-trimmed off-white top with ruffled sleeves and matching skirt (likely a set)\n\n#### View 2: control_03_similar_fabrics_v1\n- **R003**: Same floral camisole as R001 (identical pattern, color, cut)\n- **R004**: Cream-colored sleeveless top with high neckline and front buttons (smooth fabric, no pattern)\n\n#### View 3: control_03_similar_fabrics_v2\n- **R005**: Same floral camisole as R001 and R003\n- **R006**: Cream-colored knitted top with openwork pattern (textured, not smooth like R004)\n\n---\n\n### Garment Tracking:\n\nWe are to find garments that appear in **every view** (i.e., at least one region per view).\n\n#### Candidate: Floral Camisole\n- Appears in **R001 (View 1)**, **R003 (View 2)**, **R005 (View 3)**\n- All three regions show the **same garment**: light yellow, thin straps, floral print, front tie.\n- **Consistent across all views** \u2192 qualifies for a track.\n\n#### Other garments:\n- **R002 (View 1)**: Lace-trimmed set \u2014 does **not** appear in View 2 or 3 \u2192 excluded.\n- **R004 (View 2)**: Smooth cream top \u2014 does **not** appear in View 1 or 3 \u2192 excluded.\n- **R006 (View 3)**: Knitted cream top \u2014 does **not** appear in View 1 or 2 \u2192 excluded.\n\n---\n\n### Conclusion:\n\nOnly **one garment** appears in **every view** \u2014 the floral camisole, represented by R001, R003, and R005.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Light yellow floral camisole with thin straps and front tie\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"The floral camisole top appears in all three views, consistently identified by its light yellow base with small purple floral print and thin spaghetti straps. In view v0, it is in R001; in view v1, it is in R003; in view v2, it is in R005. The other garments in each view (lace set, satin top, knitted top) do not appear in all views, so they cannot form a continuous track. Thus, only the floral camisole is present in every view.\", \"tracks\": [{\"garment\": \"floral camisole top with thin straps and front tie\", \"regions\": [\"R001\", \"R003\", \"R005\"]}]}",
       "batch_size": 1,
-      "seconds": 18.709218720905483,
-      "batch_seconds": 18.709218720905483,
-      "input_signature": "410f9dc3f0665f0d19b4d26a3c79b1aecc8564633437e3fb7070982247b641d8",
+      "seconds": 5.296700391918421,
+      "batch_seconds": 5.296700391918421,
+      "input_signature": "e20012814a985f02d66cff5abe0bcf2d6f44242e2e16e16e4ee4e1cb679cf440",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "Light yellow floral camisole with thin straps and front tie",
+          "garment": "floral camisole top with thin straps and front tie",
           "regions": [
             "R001",
             "R003",
@@ -293,12 +337,12 @@
       "valid": true
     },
     "reverse": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_03_similar_fabrics",
       "reverse": true,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_03_similar_fabrics_v2",
@@ -325,16 +369,16 @@
           1
         ]
       },
-      "raw": "After analyzing all three views and their corresponding mask regions, we identify the garments that appear in **every view** (i.e., in at least one region per view).\n\n---\n\n### Step-by-step Analysis:\n\n#### View v2 (R001, R002):\n- **R001**: Cream-colored knitted top with openwork/eyelet pattern, boat neckline.\n- **R002**: Pale yellow floral camisole with thin straps and front tie.\n\n#### View v1 (R003, R004):\n- **R003**: Cream-colored sleeveless top with high neckline and front buttons (possibly a vest or shell).\n- **R004**: Same pale yellow floral camisole as in R002.\n\n#### View v0 (R005, R006):\n- **R005**: Cream-colored ruffled top with lace trim and off-the-shoulder sleeves, paired with a matching skirt or dress.\n- **R006**: Same pale yellow floral camisole as in R002 and R004.\n\n---\n\n### Cross-View Identification:\n\nWe are to find garments that appear in **every view** \u2014 meaning, in **at least one region per view**.\n\n- The **pale yellow floral camisole** appears in:\n  - **R002** (v2)\n  - **R004** (v1)\n  - **R006** (v0)\n\n\u2192 This is a consistent garment across all three views. It is the **only** garment that appears in every view.\n\n- The other garments (knitted top, cream vest, ruffled lace top) appear in only one view each. They do **not** appear in all views.\n\n---\n\n### Final Decision:\n\nOnly **one garment** is visible in **every view**: the **pale yellow floral camisole**.\n\nIt is identified by regions: **R002, R004, R006**.\n\n---\n\n### JSON Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Pale yellow floral camisole with thin straps and front tie\",\n      \"regions\": [\"R002\", \"R004\", \"R006\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"The floral camisole top appears in all three views: in VIEW v2 as R002, in VIEW v1 as R004, and in VIEW v0 as R006. It is consistently identifiable by its light yellow base color, small purple and green floral print, thin spaghetti straps, and front tie detail. The other garments in each view are distinct and do not appear in all views, so only this one garment is visible across all views.\", \"tracks\": [{\"garment\": \"light yellow floral camisole with thin straps and front tie\", \"regions\": [\"R002\", \"R004\", \"R006\"]}]}",
       "batch_size": 1,
-      "seconds": 15.716367464978248,
-      "batch_seconds": 15.716367464978248,
-      "input_signature": "410f9dc3f0665f0d19b4d26a3c79b1aecc8564633437e3fb7070982247b641d8",
+      "seconds": 4.798611359205097,
+      "batch_seconds": 4.798611359205097,
+      "input_signature": "e20012814a985f02d66cff5abe0bcf2d6f44242e2e16e16e4ee4e1cb679cf440",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "Pale yellow floral camisole with thin straps and front tie",
+          "garment": "light yellow floral camisole with thin straps and front tie",
           "regions": [
             "R002",
             "R004",
@@ -360,12 +404,82 @@
     }
   },
   "pairs": [],
-  "seconds": 34.42558618588373,
+  "seconds": 10.095311751123518,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529826.7741425,
+  "at": 1790532639.2948165,
   "training": false,
-  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
+  "all_view_rule": "Every eligible overview must support a visible part of the same garment. Closeups are excluded from both matching and context. No full silhouette is required.",
+  "eligible_views": [
+    "control_03_similar_fabrics_v0",
+    "control_03_similar_fabrics_v1",
+    "control_03_similar_fabrics_v2"
+  ],
+  "excluded_views": [],
+  "view_selection": {
+    "policy": "overview_only_v1",
+    "eligible_views": [
+      "control_03_similar_fabrics_v0",
+      "control_03_similar_fabrics_v1",
+      "control_03_similar_fabrics_v2"
+    ],
+    "excluded_views": [],
+    "aliases": {},
+    "records": {
+      "control_03_similar_fabrics_v0": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "570f45445c032e7e43bd5e34755c3267814fac4d64d1729858014f78442b1487",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two complete garments side by side against a plain background, showing their full extent and overall design without focusing on any specific detail or subsection. The framing includes the entire visible structure of each item, consistent with a product overview.\"}",
+        "valid": true,
+        "seconds": 1.8184030898846686,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two complete garments side by side against a plain background, showing their full extent and overall design without focusing on any specific detail or subsection. The framing includes the entire visible structure of each item, consistent with a product overview."
+        }
+      },
+      "control_03_similar_fabrics_v1": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "b6d2e723ccd631dc6dde5bf568ed4e74d0ca276389cec34e06c651adec110bcc",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two complete garments side by side, showing their full front views without any tight framing on specific details like fabric texture, fasteners, or seams. The overall shape and design of each item are clearly visible, consistent with a product overview composition.\"}",
+        "valid": true,
+        "seconds": 1.937569646164775,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two complete garments side by side, showing their full front views without any tight framing on specific details like fabric texture, fasteners, or seams. The overall shape and design of each item are clearly visible, consistent with a product overview composition."
+        }
+      },
+      "control_03_similar_fabrics_v2": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "0054e0211dea02a803302201be3410799ee7a7b6214e762e723890a5cc6aca52",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two complete garments side by side, each shown in full from top to bottom within the frame, with no visible partial details or tight crops. The framing includes the entire extent of each item, consistent with a product-only overview photograph.\"}",
+        "valid": true,
+        "seconds": 1.8771594217978418,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two complete garments side by side, each shown in full from top to bottom within the frame, with no visible partial details or tight crops. The framing includes the entire extent of each item, consistent with a product-only overview photograph."
+        }
+      }
+    },
+    "rule": "Only overview photographs participate. Closeups are neither required views nor context for the veto."
+  },
   "fragment_reviews": [],
   "presence_reviews": [],
   "decision_before_presence_review": {
@@ -378,7 +492,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Light yellow floral camisole with thin straps and front tie",
+        "description": "floral camisole top with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -426,7 +540,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Light yellow floral camisole with thin straps and front tie",
+        "description": "floral camisole top with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -474,7 +588,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Light yellow floral camisole with thin straps and front tie",
+        "description": "floral camisole top with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -534,16 +648,17 @@
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
-  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 0.12326998170465231,
+  "presence_policy": "overview_visible_part_adjudication_v5",
+  "finalization_seconds": 0.16267905989661813,
   "implementation_sha256": {
-    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
-    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "run_joint": "611db311a7c7eecdeef5ce7a7554824650b2de924887fb401140972441bea146",
+    "view_policy": "17bd78799255d10180cc5d83dd833605a25ab547f29a912114028d51f3ff1cbc",
+    "joint_unique": "bee6f6c70a84f519d2c316220c71160d03a341a3cd0579d523958fabd58b66ef",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
-    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
-    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "visible_presence": "d6366043146048d8d05a5c0bc206956c0adfce1aa1c9023f056e6128b261209b",
+    "presence_regions": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+    "fragment_completion": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+    "fragment_reasoning": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
     "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
     "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"

@@ -1,0 +1,122 @@
+{
+  "sku": "control_04_changing_distractors",
+  "forward": null,
+  "reverse": "Track lacks evidence in at least one required view",
+  "protocol": "strict_partition_veto_overview_v5",
+  "evidence": {
+    "forward": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "control_04_changing_distractors",
+      "reverse": false,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_04_changing_distractors_v0",
+          1
+        ],
+        "R002": [
+          "control_04_changing_distractors_v0",
+          2
+        ],
+        "R003": [
+          "control_04_changing_distractors_v1",
+          1
+        ],
+        "R004": [
+          "control_04_changing_distractors_v1",
+          2
+        ],
+        "R005": [
+          "control_04_changing_distractors_v2",
+          1
+        ],
+        "R006": [
+          "control_04_changing_distractors_v2",
+          2
+        ]
+      },
+      "raw": "{\"reason\": \"The navy blue zip-up hoodie appears in all three views, consistently positioned and visually identical across R001 (v0), R003 (v1), and R005 (v2). The other garments (blue top, white top, white draped top) vary across views and do not appear in all three, so they cannot be tracked across all views. The hoodie is the only garment with a visible portion in every view.\", \"tracks\": [{\"garment\": \"navy blue zip-up hoodie\", \"regions\": [\"R001\", \"R003\", \"R005\"]}]}",
+      "batch_size": 1,
+      "seconds": 4.409262923989445,
+      "batch_seconds": 4.409262923989445,
+      "input_signature": "7eef4632fb10f6b0f1cddac6a7c4871617f58ffb92284e404b0ef936d7118ba2",
+      "max_new_tokens": 1400,
+      "format_retry_count": 0,
+      "tracks": [
+        {
+          "garment": "navy blue zip-up hoodie",
+          "regions": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "nodes": [
+            [
+              "control_04_changing_distractors_v0",
+              1
+            ],
+            [
+              "control_04_changing_distractors_v1",
+              1
+            ],
+            [
+              "control_04_changing_distractors_v2",
+              1
+            ]
+          ]
+        }
+      ],
+      "valid": true
+    },
+    "reverse": {
+      "protocol": "strict_partition_veto_overview_v5",
+      "sku": "control_04_changing_distractors",
+      "reverse": true,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
+      "mapping": {
+        "R001": [
+          "control_04_changing_distractors_v2",
+          2
+        ],
+        "R002": [
+          "control_04_changing_distractors_v2",
+          1
+        ],
+        "R003": [
+          "control_04_changing_distractors_v1",
+          2
+        ],
+        "R004": [
+          "control_04_changing_distractors_v1",
+          1
+        ],
+        "R005": [
+          "control_04_changing_distractors_v0",
+          2
+        ],
+        "R006": [
+          "control_04_changing_distractors_v0",
+          1
+        ]
+      },
+      "raw": "{\"reason\": \"The navy blue zip-up hoodie is consistently present in all three views, appearing in R002 (v2), R004 (v1), and R006 (v0). It maintains the same design, including the zipper, hood, and left sleeve patch, across all views. The white t-shirt is also consistently present, shown in R001 (v2, front view) and R003 (v1, side/back view), indicating the same garment from different angles. The blue perforated top in R005 (v0) is a distinct garment and does not appear in v1 or v2, so it cannot be tracked across all views. Therefore, only two garments are supported across all views: the navy hoodie and the white t-shirt.\", \"tracks\": [{\"garment\": \"navy blue zip-up hoodie\", \"regions\": [\"R002\", \"R004\", \"R006\"]}, {\"garment\": \"white t-shirt\", \"regions\": [\"R001\", \"R003\"]}]}",
+      "batch_size": 1,
+      "seconds": 7.474362947978079,
+      "batch_seconds": 7.474362947978079,
+      "input_signature": "7eef4632fb10f6b0f1cddac6a7c4871617f58ffb92284e404b0ef936d7118ba2",
+      "max_new_tokens": 1400,
+      "format_retry_count": 1,
+      "format_feedback": {
+        "error": "Track lacks evidence in at least one required view",
+        "previous_raw": "{\"reason\": \"The navy blue zip-up hoodie appears in all three views, consistently positioned on the right side of the image in v2, center-left in v1, and center-left in v0. It is visually identical across all views, with the same design, zipper, hood, and patch on the left sleeve. The white t-shirt in v2 (R001) and the white garment in v1 (R003) are the same item, shown from different angles (front vs. side/back), and both are distinct from the blue top in v0 (R005). The blue top in v0 is a separate garment with a different cut and design (straps, perforations). Thus, two garments are consistently present across all views: the navy hoodie and the white t-shirt. The blue top in v0 does not appear in v1 or v2, so it cannot be tracked across all views.\", \"tracks\": [{\"garment\": \"navy blue zip-up hoodie\", \"regions\": [\"R002\", \"R004\", \"R006\"]}, {\"garment\": \"white t-shirt\", \"regions\": [\"R001\", \"R003\"]}]}"
+      },
+      "valid": false,
+      "error": "Track lacks evidence in at least one required view"
+    }
+  },
+  "at": 1790532715.8912868
+}

@@ -1,5 +1,5 @@
 {
-  "protocol": "strict_partition_veto_joint_context_v1",
+  "protocol": "strict_partition_veto_overview_v5",
   "sku": "control_03_changing_distractors",
   "title": "changing distractors",
   "cohort": "controlled",
@@ -68,23 +68,26 @@
           1
         ],
         "kind": "garment",
-        "description": "Yellow floral camisole with thin spaghetti straps and front tie detail",
+        "description": "yellow floral camisole with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
-          "control_03_changing_distractors_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
           "control_03_changing_distractors_v1": {
             "status": "matched",
             "group": [
               1
-            ]
+            ],
+            "basis": "overview_visible_part_adjudication_v5"
+          },
+          "control_03_changing_distractors_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ],
+            "basis": "overview_visible_part_adjudication_v5"
           }
-        }
+        },
+        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
       },
       {
         "view": "control_03_changing_distractors_v0",
@@ -116,23 +119,26 @@
           1
         ],
         "kind": "garment",
-        "description": "Yellow floral camisole with thin spaghetti straps and front tie detail",
+        "description": "yellow floral camisole with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
-          "control_03_changing_distractors_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
-          },
           "control_03_changing_distractors_v0": {
             "status": "matched",
             "group": [
               1
-            ]
+            ],
+            "basis": "overview_visible_part_adjudication_v5"
+          },
+          "control_03_changing_distractors_v2": {
+            "status": "matched",
+            "group": [
+              1
+            ],
+            "basis": "overview_visible_part_adjudication_v5"
           }
-        }
+        },
+        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
       },
       {
         "view": "control_03_changing_distractors_v1",
@@ -141,7 +147,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "yellow floral camisole with tie-front and thin straps",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
@@ -164,7 +170,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Yellow floral camisole with thin spaghetti straps and front tie detail",
+        "description": "yellow floral camisole with thin straps and front tie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -172,15 +178,18 @@
             "status": "matched",
             "group": [
               1
-            ]
+            ],
+            "basis": "overview_visible_part_adjudication_v5"
           },
           "control_03_changing_distractors_v1": {
             "status": "matched",
             "group": [
               1
-            ]
+            ],
+            "basis": "overview_visible_part_adjudication_v5"
           }
-        }
+        },
+        "keep_basis": "Visible garment part confirmed in every image by both focused review orders"
       },
       {
         "view": "control_03_changing_distractors_v2",
@@ -223,16 +232,60 @@
       ]
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
-    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+    "presence_policy": "overview_visible_part_adjudication_v5"
   },
+  "files": [
+    {
+      "view": "control_03_changing_distractors_v0",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 5718,
+      "removed_pixels": 7329,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_03_changing_distractors/control_03_changing_distractors_v0.npz",
+      "sha256": "ff144772724b3a576cf02723f1f168103e47c6d5b9e1505eea464eacdc1f8c6c"
+    },
+    {
+      "view": "control_03_changing_distractors_v1",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 5646,
+      "removed_pixels": 5550,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_03_changing_distractors/control_03_changing_distractors_v1.npz",
+      "sha256": "eb0d01f6ea53d3055bb63f2032e8f967d2c56c2e779ec14826f47556ee6bf25b"
+    },
+    {
+      "view": "control_03_changing_distractors_v2",
+      "alias_of": null,
+      "keep_parts": [
+        1
+      ],
+      "source_parts": 2,
+      "kept_pixels": 5123,
+      "removed_pixels": 13863,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_03_changing_distractors/control_03_changing_distractors_v2.npz",
+      "sha256": "fc56baebe1e7f4c8180b93ea13fa0f28a434f2a42db09ed48382f65982774565"
+    }
+  ],
   "joint_evidence": {
     "forward": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_03_changing_distractors",
       "reverse": false,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_03_changing_distractors_v0",
@@ -259,19 +312,19 @@
           2
         ]
       },
-      "raw": "In analyzing the provided views, we are to identify garments that appear in **every view** and are represented by **at least one visible region** in each view. The regions are labeled R001 through R006, and each corresponds to a masked crop of a garment in a specific view.\n\n---\n\n### Step-by-step Analysis:\n\n#### View 0: control_03_changing_distractors_v0\n- **R001**: Yellow floral camisole (left)\n- **R002**: Navy sweatshirt with \"Los Angeles Track Club\" print (right)\n\n#### View 1: control_03_changing_distractors_v1\n- **R003**: Yellow floral camisole (right)\n- **R004**: Black T-shirt with small blue paw print (left)\n\n#### View 2: control_03_changing_distractors_v2\n- **R005**: Yellow floral camisole (right)\n- **R006**: Black distressed jeans (left)\n\n---\n\n### Garment Tracking:\n\nWe are to find garments that appear in **every view**.\n\n- **Yellow floral camisole**:\n  - Appears in View 0 (R001)\n  - Appears in View 1 (R003)\n  - Appears in View 2 (R005)\n  \u2192 **Present in all views**\n\n- **Navy sweatshirt (R002)**:\n  - Only in View 0 \u2192 Not in all views \u2192 **Excluded**\n\n- **Black T-shirt (R004)**:\n  - Only in View 1 \u2192 Not in all views \u2192 **Excluded**\n\n- **Black jeans (R006)**:\n  - Only in View 2 \u2192 Not in all views \u2192 **Excluded**\n\n---\n\n### Conclusion:\n\nOnly the **yellow floral camisole** is visible in every view, represented by regions R001, R003, and R005.\n\nThese regions all depict the same garment: a light yellow camisole with a floral print, thin spaghetti straps, and a front tie detail. The fabric, pattern, and construction are consistent across all three regions.\n\n---\n\n### Output:\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Yellow floral camisole with thin spaghetti straps and front tie detail\",\n      \"regions\": [\"R001\", \"R003\", \"R005\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"The yellow floral camisole appears in every view, consistently positioned on the right in v0, on the right in v1, and on the right in v2. It is visually identical across all views, with the same floral pattern, tie-front design, and thin straps. The regions R001 (v0), R004 (v1), and R005 (v2) all correspond to this same garment. No other garment is present in all three views.\", \"tracks\": [{\"garment\": \"yellow floral camisole with tie-front and thin straps\", \"regions\": [\"R001\", \"R004\", \"R005\"]}]}",
       "batch_size": 1,
-      "seconds": 17.451143977232277,
-      "batch_seconds": 17.451143977232277,
-      "input_signature": "83d604e312abe5f954df80d370bfce2b61386f35cba1ca1aa953176379aa4105",
+      "seconds": 4.868314409162849,
+      "batch_seconds": 4.868314409162849,
+      "input_signature": "46e0c788dbc11385158179028d064226cd93b15762ffbef8ae982030840e1073",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "Yellow floral camisole with thin spaghetti straps and front tie detail",
+          "garment": "yellow floral camisole with tie-front and thin straps",
           "regions": [
             "R001",
-            "R003",
+            "R004",
             "R005"
           ],
           "nodes": [
@@ -281,7 +334,7 @@
             ],
             [
               "control_03_changing_distractors_v1",
-              1
+              2
             ],
             [
               "control_03_changing_distractors_v2",
@@ -293,12 +346,12 @@
       "valid": true
     },
     "reverse": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_03_changing_distractors",
       "reverse": true,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_03_changing_distractors_v2",
@@ -325,16 +378,16 @@
           1
         ]
       },
-      "raw": "We are given three views (v0, v1, v2), each with an original photograph and a set of available mask regions (R001\u2013R006). The goal is to identify garments that appear in **every view**, using the mask regions as evidence. Each mask region corresponds to a garment in that view, and we must track garments that are visually consistent across all views.\n\n---\n\n### Step 1: Examine each view and identify garments by region\n\n#### VIEW control_03_changing_distractors_v2:\n- **R001**: Black distressed jeans (with rips and stitching details)\n- **R002**: Pale yellow floral camisole (with thin straps and tie-front)\n\n#### VIEW control_03_changing_distractors_v1:\n- **R003**: Black T-shirt (with small blue logo on chest)\n- **R004**: Pale yellow floral camisole (same as R002)\n\n#### VIEW control_03_changing_distractors_v0:\n- **R005**: Navy blue sweatshirt (with \"Los Angeles Track Club\" graphic)\n- **R006**: Pale yellow floral camisole (same as R002 and R004)\n\n---\n\n### Step 2: Identify garments that appear in **every view**\n\nWe need to find garments that are present in **all three views**.\n\n- **Pale yellow floral camisole**:\n  - Appears in v2 (R002)\n  - Appears in v1 (R004)\n  - Appears in v0 (R006)\n  \u2192 **Present in all views**\n\n- **Black distressed jeans (R001)**: Only in v2 \u2192 Not in v1 or v0 \u2192 \u274c\n- **Black T-shirt (R003)**: Only in v1 \u2192 Not in v2 or v0 \u2192 \u274c\n- **Navy sweatshirt (R005)**: Only in v0 \u2192 Not in v1 or v2 \u2192 \u274c\n\n---\n\n### Step 3: Assign region IDs to tracks\n\nOnly the **pale yellow floral camisole** appears in all three views. It is represented by:\n- R002 (v2)\n- R004 (v1)\n- R006 (v0)\n\nThese are all the same garment, confirmed by consistent fabric, color, pattern, and design (thin straps, tie-front, floral print).\n\n---\n\n### Final Output\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Pale yellow floral camisole with thin straps and tie-front\",\n      \"regions\": [\"R002\", \"R004\", \"R006\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"The yellow floral camisole appears in all three views, consistently positioned on the right side of the photograph in each view. In VIEW v2, it is shown as R002; in VIEW v1, as R004; and in VIEW v0, as R006. The garment is visually identical across all views: a light yellow, thin-strapped top with a floral pattern and a front tie detail. No other garment is present in all three views. The black jeans (R001) and black T-shirt (R003) appear only in their respective views, and the navy sweatshirt (R005) appears only in VIEW v0. Thus, only the floral camisole is consistently visible across all views.\", \"tracks\": [{\"garment\": \"yellow floral camisole with thin straps and front tie\", \"regions\": [\"R002\", \"R004\", \"R006\"]}]}",
       "batch_size": 1,
-      "seconds": 18.911442737095058,
-      "batch_seconds": 18.911442737095058,
-      "input_signature": "83d604e312abe5f954df80d370bfce2b61386f35cba1ca1aa953176379aa4105",
+      "seconds": 6.625486839096993,
+      "batch_seconds": 6.625486839096993,
+      "input_signature": "46e0c788dbc11385158179028d064226cd93b15762ffbef8ae982030840e1073",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "Pale yellow floral camisole with thin straps and tie-front",
+          "garment": "yellow floral camisole with thin straps and front tie",
           "regions": [
             "R002",
             "R004",
@@ -360,14 +413,1742 @@
     }
   },
   "pairs": [],
-  "seconds": 36.362586714327335,
+  "seconds": 11.493801248259842,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529826.3904037,
+  "at": 1790532622.8835318,
   "training": false,
-  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
+  "all_view_rule": "Every eligible overview must support a visible part of the same garment. Closeups are excluded from both matching and context. No full silhouette is required.",
+  "eligible_views": [
+    "control_03_changing_distractors_v0",
+    "control_03_changing_distractors_v1",
+    "control_03_changing_distractors_v2"
+  ],
+  "excluded_views": [],
+  "view_selection": {
+    "policy": "overview_only_v1",
+    "eligible_views": [
+      "control_03_changing_distractors_v0",
+      "control_03_changing_distractors_v1",
+      "control_03_changing_distractors_v2"
+    ],
+    "excluded_views": [],
+    "aliases": {},
+    "records": {
+      "control_03_changing_distractors_v0": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays two complete garments \u2014 a floral camisole and a navy sweatshirt \u2014 shown in full, side by side, against a plain background. The framing includes the entire extent of each item, with no focus on specific details or subsections, consistent with a product overview photograph.\"}",
+        "valid": true,
+        "seconds": 2.148484922014177,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays two complete garments \u2014 a floral camisole and a navy sweatshirt \u2014 shown in full, side by side, against a plain background. The framing includes the entire extent of each item, with no focus on specific details or subsections, consistent with a product overview photograph."
+        }
+      },
+      "control_03_changing_distractors_v1": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"Both garments are fully visible and presented in their entirety against a plain background, with no focus on specific details or subsections. The framing includes the complete shape and design of each item, consistent with a product overview shot.\"}",
+        "valid": true,
+        "seconds": 1.728447980247438,
+        "explanation": {
+          "role": "overview",
+          "reason": "Both garments are fully visible and presented in their entirety against a plain background, with no focus on specific details or subsections. The framing includes the complete shape and design of each item, consistent with a product overview shot."
+        }
+      },
+      "control_03_changing_distractors_v2": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays the full extent of both garments \u2014 a pair of jeans and a camisole \u2014 laid out flat against a plain background. The framing includes the entire length of the jeans and the full top, with no visible cropping of key features or focus on a specific detail. This constitutes a complete product photograph, fitting the definition of an overview.\"}",
+        "valid": true,
+        "seconds": 2.505852342117578,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays the full extent of both garments \u2014 a pair of jeans and a camisole \u2014 laid out flat against a plain background. The framing includes the entire length of the jeans and the full top, with no visible cropping of key features or focus on a specific detail. This constitutes a complete product photograph, fitting the definition of an overview."
+        }
+      }
+    },
+    "rule": "Only overview photographs participate. Closeups are neither required views nor context for the veto."
+  },
   "fragment_reviews": [],
-  "presence_reviews": [],
+  "presence_reviews": [
+    {
+      "candidate": {
+        "garment": "yellow floral camisole with tie-front and thin straps",
+        "nodes": [
+          [
+            "control_03_changing_distractors_v0",
+            1
+          ],
+          [
+            "control_03_changing_distractors_v1",
+            2
+          ],
+          [
+            "control_03_changing_distractors_v2",
+            1
+          ]
+        ],
+        "proposed_by": [
+          "forward"
+        ]
+      },
+      "evidence": [
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "yellow floral camisole with tie-front and thin straps",
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v1",
+                  2
+                ],
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "proposed_by": [
+                "forward"
+              ]
+            },
+            "reference_node": [
+              "control_03_changing_distractors_v0",
+              1
+            ],
+            "reverse": false,
+            "mapping": {
+              "R001": [
+                "control_03_changing_distractors_v0",
+                1
+              ],
+              "R002": [
+                "control_03_changing_distractors_v1",
+                2
+              ],
+              "R003": [
+                "control_03_changing_distractors_v2",
+                1
+              ]
+            },
+            "views": [
+              {
+                "id": "control_03_changing_distractors_v0",
+                "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+              },
+              {
+                "id": "control_03_changing_distractors_v1",
+                "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+              },
+              {
+                "id": "control_03_changing_distractors_v2",
+                "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with tie-front and thin straps",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      2
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v0",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with tie front and thin straps\", \"region2\":\"yellow floral camisole with tie front and thin straps\", \"reason\":\"Both masks show identical fabric, pattern, tie, and strap details of the same camisole.\", \"verdict\":\"A\"}",
+              "seconds": 2.2427165620028973,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with tie front and thin straps",
+                "region2": "yellow floral camisole with tie front and thin straps",
+                "reason": "Both masks show identical fabric, pattern, tie, and strap details of the same camisole.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with tie-front and thin straps",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      2
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v1",
+                  2
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v1",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v1",
+                  2
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with tie front and thin straps\",\"region2\":\"black short-sleeve t-shirt with small blue logo\",\"reason\":\"The masks show different garments: one is a floral camisole, the other a black t-shirt. They differ in color, pattern, and style.\",\"verdict\":\"B\"}",
+              "seconds": 2.4883906319737434,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with tie front and thin straps",
+                "region2": "black short-sleeve t-shirt with small blue logo",
+                "reason": "The masks show different garments: one is a floral camisole, the other a black t-shirt. They differ in color, pattern, and style.",
+                "verdict": "B"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with tie-front and thin straps",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      2
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v2",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with tie front and thin straps\",\"region2\":\"yellow floral camisole with tie front and thin straps\",\"reason\":\"Both masks show identical fabric pattern, tie detail, and strap shape, matching the same garment across images.\",\"verdict\":\"A\"}",
+              "seconds": 2.197869806084782,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with tie front and thin straps",
+                "region2": "yellow floral camisole with tie front and thin straps",
+                "reason": "Both masks show identical fabric pattern, tie detail, and strap shape, matching the same garment across images.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 6.928977000061423,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_03_changing_distractors_v0",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric, pattern, tie, and strap details of the same camisole."
+            },
+            {
+              "view": "control_03_changing_distractors_v1",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 2: The masks show different garments: one is a floral camisole, the other a black t-shirt. They differ in color, pattern, and style."
+            },
+            {
+              "view": "control_03_changing_distractors_v2",
+              "status": "visible_part",
+              "regions": [
+                "R003"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric pattern, tie detail, and strap shape, matching the same garment across images."
+            }
+          ]
+        },
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "yellow floral camisole with tie-front and thin straps",
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v1",
+                  2
+                ],
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "proposed_by": [
+                "forward"
+              ]
+            },
+            "reference_node": [
+              "control_03_changing_distractors_v0",
+              1
+            ],
+            "reverse": true,
+            "mapping": {
+              "R001": [
+                "control_03_changing_distractors_v2",
+                1
+              ],
+              "R002": [
+                "control_03_changing_distractors_v1",
+                2
+              ],
+              "R003": [
+                "control_03_changing_distractors_v0",
+                1
+              ]
+            },
+            "views": [
+              {
+                "id": "control_03_changing_distractors_v0",
+                "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+              },
+              {
+                "id": "control_03_changing_distractors_v1",
+                "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+              },
+              {
+                "id": "control_03_changing_distractors_v2",
+                "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with tie-front and thin straps",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      2
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v2",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with thin straps and front tie\", \"region2\":\"yellow floral camisole with thin straps and front tie\", \"reason\":\"Both masks show identical fabric pattern, tie, and strap details of the same camisole.\", \"verdict\":\"A\"}",
+              "seconds": 2.212902253959328,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with thin straps and front tie",
+                "region2": "yellow floral camisole with thin straps and front tie",
+                "reason": "Both masks show identical fabric pattern, tie, and strap details of the same camisole.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with tie-front and thin straps",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      2
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v1",
+                  2
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v1",
+                2
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v1",
+                  2
+                ],
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"black short-sleeve t-shirt with small blue logo on chest\",\"region2\":\"yellow floral camisole with thin straps and front tie\",\"reason\":\"The two masks show different garments: one is a black t-shirt, the other a floral camisole with distinct straps and pattern.\",\"verdict\":\"B\"}",
+              "seconds": 2.4270716491155326,
+              "valid": true,
+              "explanation": {
+                "region1": "black short-sleeve t-shirt with small blue logo on chest",
+                "region2": "yellow floral camisole with thin straps and front tie",
+                "reason": "The two masks show different garments: one is a black t-shirt, the other a floral camisole with distinct straps and pattern.",
+                "verdict": "B"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with tie-front and thin straps",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      2
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "forward"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    2
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v0",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with thin straps and front tie\", \"region2\":\"yellow floral camisole with thin straps and front tie\", \"reason\":\"Both masks show identical fabric, pattern, straps, and tie detail of the same camisole.\", \"verdict\":\"A\"}",
+              "seconds": 2.243044823873788,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with thin straps and front tie",
+                "region2": "yellow floral camisole with thin straps and front tie",
+                "reason": "Both masks show identical fabric, pattern, straps, and tie detail of the same camisole.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 6.883018726948649,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_03_changing_distractors_v0",
+              "status": "visible_part",
+              "regions": [
+                "R003"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric, pattern, straps, and tie detail of the same camisole."
+            },
+            {
+              "view": "control_03_changing_distractors_v1",
+              "status": "different_garment",
+              "regions": [],
+              "nodes": [],
+              "evidence": "Region 2: The two masks show different garments: one is a black t-shirt, the other a floral camisole with distinct straps and pattern."
+            },
+            {
+              "view": "control_03_changing_distractors_v2",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric pattern, tie, and strap details of the same camisole."
+            }
+          ]
+        }
+      ],
+      "agreed_nodes": [],
+      "accepted": false,
+      "outcome": "not_confirmed_in_every_view"
+    },
+    {
+      "candidate": {
+        "garment": "yellow floral camisole with thin straps and front tie",
+        "nodes": [
+          [
+            "control_03_changing_distractors_v0",
+            1
+          ],
+          [
+            "control_03_changing_distractors_v1",
+            1
+          ],
+          [
+            "control_03_changing_distractors_v2",
+            1
+          ]
+        ],
+        "proposed_by": [
+          "reverse"
+        ]
+      },
+      "evidence": [
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "yellow floral camisole with thin straps and front tie",
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "proposed_by": [
+                "reverse"
+              ]
+            },
+            "reference_node": [
+              "control_03_changing_distractors_v0",
+              1
+            ],
+            "reverse": false,
+            "mapping": {
+              "R001": [
+                "control_03_changing_distractors_v0",
+                1
+              ],
+              "R002": [
+                "control_03_changing_distractors_v1",
+                1
+              ],
+              "R003": [
+                "control_03_changing_distractors_v2",
+                1
+              ]
+            },
+            "views": [
+              {
+                "id": "control_03_changing_distractors_v0",
+                "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+              },
+              {
+                "id": "control_03_changing_distractors_v1",
+                "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+              },
+              {
+                "id": "control_03_changing_distractors_v2",
+                "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with thin straps and front tie",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    1
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v0",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with tie front and thin straps\", \"region2\":\"yellow floral camisole with tie front and thin straps\", \"reason\":\"Both masks show identical fabric, pattern, tie, and strap details of the same camisole.\", \"verdict\":\"A\"}",
+              "seconds": 2.244126259814948,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with tie front and thin straps",
+                "region2": "yellow floral camisole with tie front and thin straps",
+                "reason": "Both masks show identical fabric, pattern, tie, and strap details of the same camisole.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with thin straps and front tie",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    1
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v1",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v1",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v1",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with tie front and thin straps\",\"region2\":\"yellow floral camisole with tie front and thin straps\",\"reason\":\"Both masks show identical fabric pattern, tie detail, and strap structure matching the same garment.\",\"verdict\":\"A\"}",
+              "seconds": 2.0920574101619422,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with tie front and thin straps",
+                "region2": "yellow floral camisole with tie front and thin straps",
+                "reason": "Both masks show identical fabric pattern, tie detail, and strap structure matching the same garment.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with thin straps and front tie",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": false,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    1
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v2",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with tie front and thin straps\",\"region2\":\"yellow floral camisole with tie front and thin straps\",\"reason\":\"Both masks show identical fabric pattern, tie detail, and strap shape, matching the same garment across images.\",\"verdict\":\"A\"}",
+              "seconds": 2.18324337573722,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with tie front and thin straps",
+                "region2": "yellow floral camisole with tie front and thin straps",
+                "reason": "Both masks show identical fabric pattern, tie detail, and strap shape, matching the same garment across images.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 6.51942704571411,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_03_changing_distractors_v0",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric, pattern, tie, and strap details of the same camisole."
+            },
+            {
+              "view": "control_03_changing_distractors_v1",
+              "status": "visible_part",
+              "regions": [
+                "R002"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v1",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric pattern, tie detail, and strap structure matching the same garment."
+            },
+            {
+              "view": "control_03_changing_distractors_v2",
+              "status": "visible_part",
+              "regions": [
+                "R003"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric pattern, tie detail, and strap shape, matching the same garment across images."
+            }
+          ]
+        },
+        {
+          "identity": {
+            "policy": "overview_visible_part_adjudication_v5",
+            "mode": "fixed_region_comparisons",
+            "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+            "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+            "model": "Qwen/Qwen3-VL-32B-Instruct",
+            "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+            "quantization": "1",
+            "candidate": {
+              "garment": "yellow floral camisole with thin straps and front tie",
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "proposed_by": [
+                "reverse"
+              ]
+            },
+            "reference_node": [
+              "control_03_changing_distractors_v0",
+              1
+            ],
+            "reverse": true,
+            "mapping": {
+              "R001": [
+                "control_03_changing_distractors_v2",
+                1
+              ],
+              "R002": [
+                "control_03_changing_distractors_v1",
+                1
+              ],
+              "R003": [
+                "control_03_changing_distractors_v0",
+                1
+              ]
+            },
+            "views": [
+              {
+                "id": "control_03_changing_distractors_v0",
+                "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+              },
+              {
+                "id": "control_03_changing_distractors_v1",
+                "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+              },
+              {
+                "id": "control_03_changing_distractors_v2",
+                "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+              }
+            ]
+          },
+          "valid": true,
+          "region_comparisons": [
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with thin straps and front tie",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    1
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v2",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with thin straps and front tie\", \"region2\":\"yellow floral camisole with thin straps and front tie\", \"reason\":\"Both masks show identical fabric pattern, tie, and strap details of the same camisole.\", \"verdict\":\"A\"}",
+              "seconds": 2.2137917359359562,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with thin straps and front tie",
+                "region2": "yellow floral camisole with thin straps and front tie",
+                "reason": "Both masks show identical fabric pattern, tie, and strap details of the same camisole.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with thin straps and front tie",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    1
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v1",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v1",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v1",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with thin straps and front tie\", \"region2\":\"yellow floral camisole with thin straps and front tie\", \"reason\":\"Both masks show identical fabric, pattern, straps, and tie detail of the same camisole.\", \"verdict\":\"A\"}",
+              "seconds": 2.2441474278457463,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with thin straps and front tie",
+                "region2": "yellow floral camisole with thin straps and front tie",
+                "reason": "Both masks show identical fabric, pattern, straps, and tie detail of the same camisole.",
+                "verdict": "A"
+              }
+            },
+            {
+              "identity": {
+                "policy": "overview_visible_part_adjudication_v5",
+                "mode": "fixed_region_comparisons",
+                "code": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+                "renderer": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250",
+                "model": "Qwen/Qwen3-VL-32B-Instruct",
+                "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+                "quantization": "1",
+                "candidate": {
+                  "garment": "yellow floral camisole with thin straps and front tie",
+                  "nodes": [
+                    [
+                      "control_03_changing_distractors_v0",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v1",
+                      1
+                    ],
+                    [
+                      "control_03_changing_distractors_v2",
+                      1
+                    ]
+                  ],
+                  "proposed_by": [
+                    "reverse"
+                  ]
+                },
+                "reference_node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                "reverse": true,
+                "mapping": {
+                  "R001": [
+                    "control_03_changing_distractors_v2",
+                    1
+                  ],
+                  "R002": [
+                    "control_03_changing_distractors_v1",
+                    1
+                  ],
+                  "R003": [
+                    "control_03_changing_distractors_v0",
+                    1
+                  ]
+                },
+                "views": [
+                  {
+                    "id": "control_03_changing_distractors_v0",
+                    "pixel_sha256": "00e9d98950ff4bc5679be63557285cf5c585b8729ce17ac521e73c99d24fca96",
+                    "partition_sha256": "aa899dd871eb6a91e975aac124a3f15e813eb235b54176f28e02228b2232f98d"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v1",
+                    "pixel_sha256": "71fdcb59c188e978a6f9651c5ce07a7d92e95206c33d54fff99729c5c887602d",
+                    "partition_sha256": "b9bd9db8ca0a818a0963f995c6da26785dff31d3730b8bccd616cb495c8e9fbc"
+                  },
+                  {
+                    "id": "control_03_changing_distractors_v2",
+                    "pixel_sha256": "2bfa6d05197e0c721d74757bfc14dfaa05a2f6fa1eed1d374c971843b6b3b0a0",
+                    "partition_sha256": "96c0f8bfa6f423ba8e6c57381329c7c9e095e45f48cc35737d245c8bcf8de423"
+                  }
+                ],
+                "node": [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              },
+              "node": [
+                "control_03_changing_distractors_v0",
+                1
+              ],
+              "comparison_nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ],
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "prompt": "The earlier images show all eligible OVERVIEW photographs of the SAME SKU (closeups excluded) for context. The final TWO cards are the ONLY mask regions being compared. Each card has outlined source context on the left and EXACT MASK PIXELS on the right. Identify the garment underneath those exact pixels, not other clothes elsewhere in the photographs.\nDo the two exact mask regions show parts of ONE SAME visually distinct garment? Any identifiable visible part counts: fabric detail, tie, strap, collar, sleeve, hem or partly hidden strip. Full silhouettes and equal visible extents are NEVER required. Use the other photographs to link a detail to its garment. A dress's bodice, waist, sleeves and attached skirt are parts of ONE garment even when isolated masks have different shapes. Identify the whole garment from the source photographs before comparing its masked parts; do not call its upper and lower sections different garments. A transparent panel or waist seam alone does not separate garments. Two separate garments or layers remain DIFFERENT even if their colors match or they are sewn together. Background, mixed masks and uncertain identity must not be joined. A white shirt does not match a black skirt simply because both clothes appear elsewhere in the context photographs. Compare ONLY the two given masks; do not choose alternative regions.\nReturn JSON only: {\"region1\":\"actual mask contents\", \"region2\":\"actual mask contents\", \"reason\":\"visual identity comparison\", \"verdict\":\"A\"}.\nEach description must be under 12 words, reason under 25 words. A means SAME garment (including a visible part); B means DIFFERENT garment/object/background; C means uncertain or mixed. The A in the schema is an example, not an answer.",
+              "raw": "{\"region1\":\"yellow floral camisole with thin straps and front tie\", \"region2\":\"yellow floral camisole with thin straps and front tie\", \"reason\":\"Both masks show identical fabric, pattern, straps, and tie detail of the same camisole.\", \"verdict\":\"A\"}",
+              "seconds": 2.2458928180858493,
+              "valid": true,
+              "explanation": {
+                "region1": "yellow floral camisole with thin straps and front tie",
+                "region2": "yellow floral camisole with thin straps and front tie",
+                "reason": "Both masks show identical fabric, pattern, straps, and tie detail of the same camisole.",
+                "verdict": "A"
+              }
+            }
+          ],
+          "seconds": 6.703831981867552,
+          "view_decisions_derived_by_host": true,
+          "views": [
+            {
+              "view": "control_03_changing_distractors_v0",
+              "status": "visible_part",
+              "regions": [
+                "R003"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v0",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric, pattern, straps, and tie detail of the same camisole."
+            },
+            {
+              "view": "control_03_changing_distractors_v1",
+              "status": "visible_part",
+              "regions": [
+                "R002"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v1",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric, pattern, straps, and tie detail of the same camisole."
+            },
+            {
+              "view": "control_03_changing_distractors_v2",
+              "status": "visible_part",
+              "regions": [
+                "R001"
+              ],
+              "nodes": [
+                [
+                  "control_03_changing_distractors_v2",
+                  1
+                ]
+              ],
+              "evidence": "Region 1: Both masks show identical fabric pattern, tie, and strap details of the same camisole."
+            }
+          ]
+        }
+      ],
+      "agreed_nodes": [
+        [
+          "control_03_changing_distractors_v0",
+          1
+        ],
+        [
+          "control_03_changing_distractors_v1",
+          1
+        ],
+        [
+          "control_03_changing_distractors_v2",
+          1
+        ]
+      ],
+      "accepted": true,
+      "outcome": "confirmed_visible_part_in_every_view"
+    }
+  ],
   "decision_before_presence_review": {
     "status": "evaluated",
     "groups": [
@@ -378,9 +2159,11 @@
           1
         ],
         "kind": "garment",
-        "description": "Yellow floral camisole with thin spaghetti straps and front tie detail",
-        "keep": true,
-        "reasons": [],
+        "description": "yellow floral camisole with tie-front and thin straps",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
         "evidence": {
           "control_03_changing_distractors_v2": {
             "status": "matched",
@@ -389,10 +2172,8 @@
             ]
           },
           "control_03_changing_distractors_v1": {
-            "status": "matched",
-            "group": [
-              1
-            ]
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
           }
         }
       },
@@ -426,21 +2207,19 @@
           1
         ],
         "kind": "garment",
-        "description": "Yellow floral camisole with thin spaghetti straps and front tie detail",
-        "keep": true,
-        "reasons": [],
+        "description": "Unconfirmed SAM3 region",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
         "evidence": {
           "control_03_changing_distractors_v2": {
-            "status": "matched",
-            "group": [
-              1
-            ]
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
           },
           "control_03_changing_distractors_v0": {
-            "status": "matched",
-            "group": [
-              1
-            ]
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
           }
         }
       },
@@ -451,7 +2230,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Unconfirmed SAM3 region",
+        "description": "yellow floral camisole with tie-front and thin straps",
         "keep": false,
         "reasons": [
           "No consistent visible garment identity in every image under both view and region-ID orders"
@@ -474,9 +2253,11 @@
           1
         ],
         "kind": "garment",
-        "description": "Yellow floral camisole with thin spaghetti straps and front tie detail",
-        "keep": true,
-        "reasons": [],
+        "description": "yellow floral camisole with tie-front and thin straps",
+        "keep": false,
+        "reasons": [
+          "No consistent visible garment identity in every image under both view and region-ID orders"
+        ],
         "evidence": {
           "control_03_changing_distractors_v0": {
             "status": "matched",
@@ -485,10 +2266,8 @@
             ]
           },
           "control_03_changing_distractors_v1": {
-            "status": "matched",
-            "group": [
-              1
-            ]
+            "status": "not_confirmed_in_both_sku_inspections",
+            "group": null
           }
         }
       },
@@ -516,34 +2295,20 @@
         }
       }
     ],
-    "tracks": [
-      [
-        [
-          "control_03_changing_distractors_v0",
-          1
-        ],
-        [
-          "control_03_changing_distractors_v1",
-          1
-        ],
-        [
-          "control_03_changing_distractors_v2",
-          1
-        ]
-      ]
-    ],
+    "tracks": [],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
-  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 0.1423760219477117,
+  "presence_policy": "overview_visible_part_adjudication_v5",
+  "finalization_seconds": 28.21144817210734,
   "implementation_sha256": {
-    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
-    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "run_joint": "611db311a7c7eecdeef5ce7a7554824650b2de924887fb401140972441bea146",
+    "view_policy": "17bd78799255d10180cc5d83dd833605a25ab547f29a912114028d51f3ff1cbc",
+    "joint_unique": "bee6f6c70a84f519d2c316220c71160d03a341a3cd0579d523958fabd58b66ef",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
-    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
-    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "visible_presence": "d6366043146048d8d05a5c0bc206956c0adfce1aa1c9023f056e6128b261209b",
+    "presence_regions": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+    "fragment_completion": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+    "fragment_reasoning": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
     "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
     "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"

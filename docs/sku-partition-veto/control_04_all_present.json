@@ -1,5 +1,5 @@
 {
-  "protocol": "strict_partition_veto_joint_context_v1",
+  "protocol": "strict_partition_veto_overview_v5",
   "sku": "control_04_all_present",
   "title": "all present",
   "cohort": "controlled",
@@ -86,7 +86,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Navy blue zip-up hoodie with hood, side pockets, and patch on left sleeve",
+        "description": "navy blue zip-up hoodie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -111,7 +111,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Bright blue perforated mesh top with crisscross back straps and lace-up front",
+        "description": "bright blue perforated strappy top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -136,7 +136,7 @@
           3
         ],
         "kind": "garment",
-        "description": "White draped top with high neckline and voluminous shoulder",
+        "description": "white draped top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -161,7 +161,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Navy blue zip-up hoodie with hood, side pockets, and patch on left sleeve",
+        "description": "navy blue zip-up hoodie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -186,7 +186,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Bright blue perforated mesh top with crisscross back straps and lace-up front",
+        "description": "bright blue perforated strappy top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -211,7 +211,7 @@
           3
         ],
         "kind": "garment",
-        "description": "White draped top with high neckline and voluminous shoulder",
+        "description": "white draped top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -236,7 +236,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Navy blue zip-up hoodie with hood, side pockets, and patch on left sleeve",
+        "description": "navy blue zip-up hoodie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -261,7 +261,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Bright blue perforated mesh top with crisscross back straps and lace-up front",
+        "description": "bright blue perforated strappy top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -286,7 +286,7 @@
           3
         ],
         "kind": "garment",
-        "description": "White draped top with high neckline and voluminous shoulder",
+        "description": "white draped top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -350,16 +350,66 @@
       ]
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs; disputed whole identities receive two focused per-view visible-part inspections",
-    "presence_policy": "any_visible_part_adjudication_v4_fixed_regions"
+    "presence_policy": "overview_visible_part_adjudication_v5"
   },
+  "files": [
+    {
+      "view": "control_04_all_present_v0",
+      "alias_of": null,
+      "keep_parts": [
+        1,
+        2,
+        3
+      ],
+      "source_parts": 3,
+      "kept_pixels": 18964,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_04_all_present/control_04_all_present_v0.npz",
+      "sha256": "88c9d71f7c15f90ee180afa776f6327ea2706451cfae1d7e41a9eae311009fdd"
+    },
+    {
+      "view": "control_04_all_present_v1",
+      "alias_of": null,
+      "keep_parts": [
+        1,
+        2,
+        3
+      ],
+      "source_parts": 3,
+      "kept_pixels": 17779,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_04_all_present/control_04_all_present_v1.npz",
+      "sha256": "0542a6f545df2c4f0e03bc99ec4bc7b78ed3474945867d69b7e1a6105e1500b9"
+    },
+    {
+      "view": "control_04_all_present_v2",
+      "alias_of": null,
+      "keep_parts": [
+        1,
+        2,
+        3
+      ],
+      "source_parts": 3,
+      "kept_pixels": 19768,
+      "removed_pixels": 0,
+      "ignored_pixels": 0,
+      "status": "evaluated",
+      "output": "joint_results/control_04_all_present/control_04_all_present_v2.npz",
+      "sha256": "4d5632c3877341332689a83874150f216053cd2501dbc7b7e2d355c0902fbc03"
+    }
+  ],
   "joint_evidence": {
     "forward": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_04_all_present",
       "reverse": false,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_04_all_present_v0",
@@ -398,16 +448,16 @@
           3
         ]
       },
-      "raw": "In each of the three views, we are shown three garments: a navy blue zip-up hoodie, a bright blue perforated top with crisscross straps, and a white draped top. The available regions for each view are labeled R001\u2013R003, R004\u2013R006, and R007\u2013R009, respectively.\n\nWe must identify which garments are consistently present across all views by matching their visual characteristics (fabric, construction, color, context) and assigning each region ID to a single garment track. Since each region ID corresponds to one garment in its respective view, and the garments are shown in different arrangements (left-to-right order changes), we can match them by appearance.\n\n---\n\n**Analysis by garment:**\n\n1. **Navy Blue Hoodie**  \n   - Appears in R001 (View 0), R004 (View 1), R007 (View 2)  \n   - Consistent: dark navy, full-zip, hood, side pockets, small patch on left sleeve  \n   - Same garment across all views \u2014 matches by color, cut, and details\n\n2. **Bright Blue Perforated Top**  \n   - Appears in R002 (View 0), R005 (View 1), R008 (View 2)  \n   - Consistent: vibrant blue, perforated mesh fabric, crisscross back straps, lace-up front  \n   - Same garment across all views \u2014 matches by fabric texture, color, and design\n\n3. **White Draped Top**  \n   - Appears in R003 (View 0), R006 (View 1), R009 (View 2)  \n   - Consistent: off-white or cream, soft drape, high neckline, voluminous shoulder  \n   - Same garment across all views \u2014 matches by fabric drape, color, and silhouette\n\n---\n\nEach garment is visible in every view, and each region ID corresponds to one of these three garments. No region ID is shared between garments, and no garment is missing from any view.\n\n---\n\n**Output:**\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"Navy blue zip-up hoodie with hood, side pockets, and patch on left sleeve\",\n      \"regions\": [\"R001\", \"R004\", \"R007\"]\n    },\n    {\n      \"garment\": \"Bright blue perforated mesh top with crisscross back straps and lace-up front\",\n      \"regions\": [\"R002\", \"R005\", \"R008\"]\n    },\n    {\n      \"garment\": \"White draped top with high neckline and voluminous shoulder\",\n      \"regions\": [\"R003\", \"R006\", \"R009\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"In each view, three distinct garments are visible: a navy blue zip-up hoodie, a bright blue perforated strappy top, and a white draped top. These garments are consistently present across all three views, though their positions shift. The hoodie is always the same style and color, the blue top has a consistent cut and pattern, and the white top has a consistent draped silhouette. Each garment appears in exactly one region per view, and the regions are uniquely assigned per view (R001/R004/R007 for the hoodie, R002/R005/R008 for the blue top, R003/R006/R009 for the white top). No other garments are consistently visible in all views.\", \"tracks\": [{\"garment\": \"navy blue zip-up hoodie\", \"regions\": [\"R001\", \"R004\", \"R007\"]}, {\"garment\": \"bright blue perforated strappy top\", \"regions\": [\"R002\", \"R005\", \"R008\"]}, {\"garment\": \"white draped top\", \"regions\": [\"R003\", \"R006\", \"R009\"]}]}",
       "batch_size": 1,
-      "seconds": 20.053535283077508,
-      "batch_seconds": 20.053535283077508,
-      "input_signature": "859c09ebb0f1097f4a4e12f9f4e8baade4b8c030ccd209568130ac4718c26ece",
+      "seconds": 8.479725965298712,
+      "batch_seconds": 8.479725965298712,
+      "input_signature": "3e4af74c1ed978297154dd8fe4a39c810154fdc4717a1328b9515208b33ff85b",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
         {
-          "garment": "Navy blue zip-up hoodie with hood, side pockets, and patch on left sleeve",
+          "garment": "navy blue zip-up hoodie",
           "regions": [
             "R001",
             "R004",
@@ -429,7 +479,7 @@
           ]
         },
         {
-          "garment": "Bright blue perforated mesh top with crisscross back straps and lace-up front",
+          "garment": "bright blue perforated strappy top",
           "regions": [
             "R002",
             "R005",
@@ -451,7 +501,7 @@
           ]
         },
         {
-          "garment": "White draped top with high neckline and voluminous shoulder",
+          "garment": "white draped top",
           "regions": [
             "R003",
             "R006",
@@ -476,12 +526,12 @@
       "valid": true
     },
     "reverse": {
-      "protocol": "strict_partition_veto_joint_context_v1",
+      "protocol": "strict_partition_veto_overview_v5",
       "sku": "control_04_all_present",
       "reverse": true,
       "model": "Qwen/Qwen3-VL-32B-Instruct",
       "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-      "prompt": "These are every image in one clothing SKU. Each VIEW contains an original photograph and a sheet of its SAM3 mask regions. Every mask has a UNIQUE ID beginning with R; IDs never repeat in another view.\nFind every visually distinct garment that has visible pixels in an available mask in EVERY VIEW. The same garment may be shown alone, worn, from behind, as a fabric detail, or partly hidden under another layer. Use ALL views to establish identity. Do not require a small visible collar or undershirt strip to have the full garment silhouette. Match by fabric, construction, color and the context. A jacket and its undershirt remain separate garments even if the layers are sewn together. Similar colors alone are insufficient. A mask mixing different garments is not usable. Do not invent unseen pixels or new mask boundaries.\nFirst describe which garments are present and which disappear, using the region IDs printed on the crops. Then output JSON: {\"tracks\":[{\"garment\":\"description\",\"regions\":[\"R001\", \"R004\", ...]}]}. This is only an output schema, not an answer. List only supplied region IDs and assign each ID to at most one track. A track must cover EVERY VIEW with at least one visible region. Extra fragments of the SAME garment in a view may share a track. Unlisted regions are removed. Keep repeated styling too, if present in every view. Do not select by the item for sale. If nothing is visibly supported everywhere, return an empty tracks list.",
+      "prompt": "These are the eligible OVERVIEW photographs of one clothing SKU. Detail/closeup photographs have been excluded. Each VIEW contains its original photograph and SAM3 mask regions.\nR001, R002, etc. are UNIQUE addresses of pixels, NOT garment identities. Different views ALWAYS have different region IDs. Match the clothing visually across those DIFFERENT IDs. Never require an ID to repeat across views.\nFind each visually distinct garment with at least one usable region in EVERY shown VIEW. One garment may occupy MULTIPLE SAM3 masks in one view and ONE mask in another. A dress's bodice, waist panel, sleeves and attached skirt are parts of the SAME dress, not separate garments merely because SAM3 split them. A seam, change of transparency, pose or front/back appearance does not establish a different garment. Use the full photographs to identify construction and physical garment extent. In contrast, a separately visible shirt under a vest/jacket remains a distinct visual layer, even if sewn together. Matching color alone is insufficient. Mixed masks are not usable.\nOnly a visible portion is required in an overview; do not require full silhouettes. Keep repeated styling too when present in every shown view. Do not select by the item for sale. Do not invent new mask boundaries.\nReturn JSON only: {\"reason\":\"brief visual comparison\", \"tracks\":[{\"garment\":\"description\", \"regions\":[\"R001\", \"R004\"]}]}. The IDs here are schema examples, not an answer. Each track must list actual supplied IDs covering EVERY shown VIEW, including all confirmed parts of that garment. Assign a region to at most one track. Unlisted regions are removed. If no garment is visibly supported everywhere, return an empty tracks list.",
       "mapping": {
         "R001": [
           "control_04_all_present_v2",
@@ -520,11 +570,11 @@
           1
         ]
       },
-      "raw": "In analyzing the three views (v0, v1, v2), each contains three garments: a white draped top, a blue perforated top with crisscross straps, and a navy zip-up hoodie. The available regions for each view are labeled R001\u2013R003 (v2), R004\u2013R006 (v1), and R007\u2013R009 (v0). Each region corresponds to one of the three garments, and the mapping is consistent across views:\n\n- In **v2 (R001\u2013R003)**:\n  - R001 = white draped top\n  - R002 = blue perforated top\n  - R003 = navy hoodie\n\n- In **v1 (R004\u2013R006)**:\n  - R004 = white draped top\n  - R005 = blue perforated top\n  - R006 = navy hoodie\n\n- In **v0 (R007\u2013R009)**:\n  - R007 = white draped top\n  - R008 = blue perforated top\n  - R009 = navy hoodie\n\nEach garment appears in every view, and each region corresponds to the same garment across views. The garments are visually distinct by fabric, construction, and color:\n\n1. **White draped top**: Soft, flowing fabric, high neckline, visible draping \u2014 consistent across all views.\n2. **Blue perforated top**: Bright blue, with circular cutouts, crisscross back straps \u2014 consistent across all views.\n3. **Navy zip-up hoodie**: Dark navy, full-zip front, hood, side pockets, patch on sleeve \u2014 consistent across all views.\n\nNo garment is missing from any view. All regions are valid and correspond to one of the three garments. Each region ID is unique to its view and maps to the same garment type across views.\n\nThus, we assign each garment a track with all its corresponding region IDs.\n\n---\n\n```json\n{\n  \"tracks\": [\n    {\n      \"garment\": \"white draped top\",\n      \"regions\": [\"R001\", \"R004\", \"R007\"]\n    },\n    {\n      \"garment\": \"blue perforated top with crisscross straps\",\n      \"regions\": [\"R002\", \"R005\", \"R008\"]\n    },\n    {\n      \"garment\": \"navy zip-up hoodie\",\n      \"regions\": [\"R003\", \"R006\", \"R009\"]\n    }\n  ]\n}\n```",
+      "raw": "{\"reason\": \"In each view, the same three garments are present: a white draped top, a blue perforated strappy top, and a navy zip-up hoodie. The white top appears on the left in v0, center in v1, and right in v2. The blue top is on the left in v0, center in v1, and left in v2. The navy hoodie is on the right in v0, center in v1, and right in v2. Each garment is consistently visible in all views, and the regions assigned to each correspond to the same garment across views, despite different region IDs per view.\", \"tracks\": [{\"garment\": \"white draped top\", \"regions\": [\"R001\", \"R004\", \"R007\"]}, {\"garment\": \"blue perforated strappy top\", \"regions\": [\"R002\", \"R005\", \"R008\"]}, {\"garment\": \"navy zip-up hoodie\", \"regions\": [\"R003\", \"R006\", \"R009\"]}]}",
       "batch_size": 1,
-      "seconds": 18.023382417857647,
-      "batch_seconds": 18.023382417857647,
-      "input_signature": "859c09ebb0f1097f4a4e12f9f4e8baade4b8c030ccd209568130ac4718c26ece",
+      "seconds": 7.528235259000212,
+      "batch_seconds": 7.528235259000212,
+      "input_signature": "3e4af74c1ed978297154dd8fe4a39c810154fdc4717a1328b9515208b33ff85b",
       "max_new_tokens": 1400,
       "format_retry_count": 0,
       "tracks": [
@@ -551,7 +601,7 @@
           ]
         },
         {
-          "garment": "blue perforated top with crisscross straps",
+          "garment": "blue perforated strappy top",
           "regions": [
             "R002",
             "R005",
@@ -599,12 +649,82 @@
     }
   },
   "pairs": [],
-  "seconds": 38.076917700935155,
+  "seconds": 16.007961224298924,
   "model": "Qwen/Qwen3-VL-32B-Instruct",
   "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
-  "at": 1790529827.254452,
+  "at": 1790532661.6985595,
   "training": false,
-  "all_view_rule": "Any visible garment part in every distinct image; global disagreement receives focused per-view review in both orders. Full silhouettes are never required.",
+  "all_view_rule": "Every eligible overview must support a visible part of the same garment. Closeups are excluded from both matching and context. No full silhouette is required.",
+  "eligible_views": [
+    "control_04_all_present_v0",
+    "control_04_all_present_v1",
+    "control_04_all_present_v2"
+  ],
+  "excluded_views": [],
+  "view_selection": {
+    "policy": "overview_only_v1",
+    "eligible_views": [
+      "control_04_all_present_v0",
+      "control_04_all_present_v1",
+      "control_04_all_present_v2"
+    ],
+    "excluded_views": [],
+    "aliases": {},
+    "records": {
+      "control_04_all_present_v0": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "d4e0d0fafd19c77e770d0c18ecebfb7b79f1fbe88caba99c56a1c3315a23ab12",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays three complete garments side by side, each shown in full view with no framing focused on a specific detail or subsection. The overall shape and structure of each item are clearly visible, consistent with a product-only overview composition.\"}",
+        "valid": true,
+        "seconds": 1.7876985571347177,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays three complete garments side by side, each shown in full view with no framing focused on a specific detail or subsection. The overall shape and structure of each item are clearly visible, consistent with a product-only overview composition."
+        }
+      },
+      "control_04_all_present_v1": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "2a5240a30127eb145729a507d3cb57eb7b7b80bca9f6950cb0282f593ce6217f",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays three distinct garments\u2014white top, blue lace-up top, and navy hoodie\u2014each shown in full view against a plain background, with no focus on specific details or subsections. The framing includes the entire extent of each item, consistent with a product overview composition.\"}",
+        "valid": true,
+        "seconds": 2.086961187887937,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays three distinct garments\u2014white top, blue lace-up top, and navy hoodie\u2014each shown in full view against a plain background, with no focus on specific details or subsections. The framing includes the entire extent of each item, consistent with a product overview composition."
+        }
+      },
+      "control_04_all_present_v2": {
+        "identity": {
+          "policy": "overview_only_v1",
+          "model": "Qwen/Qwen3-VL-32B-Instruct",
+          "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb",
+          "prompt": "Classify this retail photograph by its photographic composition, NOT by the clothing category or whether the full person is visible.\nOVERVIEW: a normal front/back/side outfit or garment view, or a product-only photograph showing the overall object. A headless model, cropped legs, partial occlusion, or a small accessory filling the image does not by itself make a detail shot. A complete product photograph is an overview.\nCLOSEUP: a deliberate tight detail shot of only a garment subsection, such as fabric, neckline, shoulder/back opening, fastener, label, waist or hem. The overall garment extent is outside the frame. These detail photographs are excluded from a later matching task.\nUNCERTAIN: you cannot distinguish these photographic roles. Never guess based on file names or an item's title.\nReturn only JSON: {\"role\":\"overview|closeup|uncertain\", \"reason\":\"brief explanation of the visible framing\"}. Choose exactly one role.",
+          "pixels": "85eaf6de30be77d769ed8fc74586b9a1adf30a0c28c30e1c841a7a8dacaef17f",
+          "quantization": "1"
+        },
+        "raw": "{\"role\":\"overview\", \"reason\":\"The image displays three complete garments side by side against a plain background, each shown in full extent without cropping or focus on specific details. The framing includes the entire object for each item, consistent with a product overview composition.\"}",
+        "valid": true,
+        "seconds": 1.728420427069068,
+        "explanation": {
+          "role": "overview",
+          "reason": "The image displays three complete garments side by side against a plain background, each shown in full extent without cropping or focus on specific details. The framing includes the entire object for each item, consistent with a product overview composition."
+        }
+      }
+    },
+    "rule": "Only overview photographs participate. Closeups are neither required views nor context for the veto."
+  },
   "fragment_reviews": [],
   "presence_reviews": [],
   "decision_before_presence_review": {
@@ -617,7 +737,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Navy blue zip-up hoodie with hood, side pockets, and patch on left sleeve",
+        "description": "navy blue zip-up hoodie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -642,7 +762,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Bright blue perforated mesh top with crisscross back straps and lace-up front",
+        "description": "bright blue perforated strappy top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -667,7 +787,7 @@
           3
         ],
         "kind": "garment",
-        "description": "White draped top with high neckline and voluminous shoulder",
+        "description": "white draped top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -692,7 +812,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Navy blue zip-up hoodie with hood, side pockets, and patch on left sleeve",
+        "description": "navy blue zip-up hoodie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -717,7 +837,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Bright blue perforated mesh top with crisscross back straps and lace-up front",
+        "description": "bright blue perforated strappy top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -742,7 +862,7 @@
           3
         ],
         "kind": "garment",
-        "description": "White draped top with high neckline and voluminous shoulder",
+        "description": "white draped top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -767,7 +887,7 @@
           1
         ],
         "kind": "garment",
-        "description": "Navy blue zip-up hoodie with hood, side pockets, and patch on left sleeve",
+        "description": "navy blue zip-up hoodie",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -792,7 +912,7 @@
           2
         ],
         "kind": "garment",
-        "description": "Bright blue perforated mesh top with crisscross back straps and lace-up front",
+        "description": "bright blue perforated strappy top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -817,7 +937,7 @@
           3
         ],
         "kind": "garment",
-        "description": "White draped top with high neckline and voluminous shoulder",
+        "description": "white draped top",
         "keep": true,
         "reasons": [],
         "evidence": {
@@ -882,16 +1002,17 @@
     ],
     "evidence_type": "two joint all-SKU inspections with reversed image/region orders and renamed region IDs"
   },
-  "presence_policy": "any_visible_part_adjudication_v4_fixed_regions",
-  "finalization_seconds": 0.15573223493993282,
+  "presence_policy": "overview_visible_part_adjudication_v5",
+  "finalization_seconds": 0.17962281312793493,
   "implementation_sha256": {
-    "run_joint": "a7c4633e02c2a642c06192c8fe2fea53e94af506d367615e8a138f019d49998b",
-    "joint_unique": "de478a62fe052189557bffdc814b1eec016080eb71e1ff0b7e6aa37bfd062124",
+    "run_joint": "611db311a7c7eecdeef5ce7a7554824650b2de924887fb401140972441bea146",
+    "view_policy": "17bd78799255d10180cc5d83dd833605a25ab547f29a912114028d51f3ff1cbc",
+    "joint_unique": "bee6f6c70a84f519d2c316220c71160d03a341a3cd0579d523958fabd58b66ef",
     "joint_logic": "f7a832ffa7a4f824daaad9828bae11eb9a95735a2fcaeec2295ecdfbe96c8f58",
-    "visible_presence": "459d41dc71f1b77b9f32dd5e1aeda3a8b398b0edc4f5b83be83bce77f0475c91",
-    "presence_regions": "061b33633778c1fd3ee4eb9129ec541d7b139129787354c5ebbc0ef1874a1897",
-    "fragment_completion": "212334ad8f40b78acbfb341f6df657642e389089c0bf8a725dfd12f832c23b84",
-    "fragment_reasoning": "a643d55696037deed7084cec8f6bae1c5edfb54af579b67a92cea80d8c9b9688",
+    "visible_presence": "d6366043146048d8d05a5c0bc206956c0adfce1aa1c9023f056e6128b261209b",
+    "presence_regions": "1a52ef72e5357c433649e7a8b8ac8d7ee705774dbbfda6a658a89e9639e841e8",
+    "fragment_completion": "c6a662acda2851c3325077364fe5ce549d02aaf385e5d67f4c0cff70782e6944",
+    "fragment_reasoning": "0dabcb012c8d99d3d499bae390a1bdd437b4227bd005d6871e7704ddc56e56ec",
     "common": "912e27a410a3e4e37f7fa9155cd4f5714aca79c30394459113f6e9901cdb1b5f",
     "inventory": "85f3f0af820efd4090f36b4468183ca3bb927b720f0bb3e8856cfe43638dfc3e",
     "direct_matcher": "0f773b983f669bb238fb8de86c2824a71519b451504b1a3ea85190a052cf0250"

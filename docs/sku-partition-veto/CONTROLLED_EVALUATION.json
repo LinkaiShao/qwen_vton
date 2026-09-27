@@ -1,14 +1,14 @@
 {
   "protocol": "strict_partition_veto_overview_v5",
   "complete": false,
-  "skus": 14,
+  "skus": 27,
   "expected_skus": 32,
-  "persistent_parts": 66,
-  "persistent_parts_kept": 60,
-  "nonpersistent_parts": 26,
-  "nonpersistent_parts_removed": 23,
-  "retention": 0.9090909090909091,
-  "removal": 0.8846153846153846,
+  "persistent_parts": 129,
+  "persistent_parts_kept": 122,
+  "nonpersistent_parts": 51,
+  "nonpersistent_parts_removed": 43,
+  "retention": 0.9457364341085271,
+  "removal": 0.8431372549019608,
   "pass": false,
   "overview_classification_errors": [
     {
@@ -28,6 +28,12 @@
       "sku": "control_00_changing_distractors",
       "excluded_views": [
         "control_00_changing_distractors_v0"
+      ]
+    },
+    {
+      "sku": "control_05_last_view_absent",
+      "excluded_views": [
+        "control_05_last_view_absent_v2"
       ]
     }
   ],
@@ -171,6 +177,122 @@
     {
       "sku": "control_03_last_view_absent",
       "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_03_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_03_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_04_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_04_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_04_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": false,
+      "errors": [
+        {
+          "view": "control_04_similar_fabrics_v0",
+          "part": 2,
+          "expected_keep": false,
+          "actual_keep": true
+        },
+        {
+          "view": "control_04_similar_fabrics_v1",
+          "part": 2,
+          "expected_keep": false,
+          "actual_keep": true
+        },
+        {
+          "view": "control_04_similar_fabrics_v2",
+          "part": 2,
+          "expected_keep": false,
+          "actual_keep": true
+        }
+      ]
+    },
+    {
+      "sku": "control_05_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_05_last_view_absent",
+      "scenario": "last_view_absent",
+      "passed": false,
+      "errors": [
+        {
+          "view": "control_05_last_view_absent_v0",
+          "part": 2,
+          "expected_keep": false,
+          "actual_keep": true
+        },
+        {
+          "view": "control_05_last_view_absent_v1",
+          "part": 2,
+          "expected_keep": false,
+          "actual_keep": true
+        },
+        {
+          "view": "control_05_last_view_absent_v2",
+          "part": 1,
+          "expected_keep": true,
+          "actual_keep": false
+        }
+      ]
+    },
+    {
+      "sku": "control_05_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_05_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_06_all_present",
+      "scenario": "all_present",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_06_changing_distractors",
+      "scenario": "changing_distractors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_06_similar_fabrics",
+      "scenario": "similar_fabrics",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "sku": "control_07_all_present",
+      "scenario": "all_present",
       "passed": true,
       "errors": []
     }
