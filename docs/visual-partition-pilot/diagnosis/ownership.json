@@ -1,0 +1,51 @@
+{
+  "12416975": {
+    "dominant_query": 23,
+    "target_region3_pixels": 277,
+    "query_pixels_on_region3": 241,
+    "query_total_area": 1395,
+    "query_teacher_regions": {
+      "0": 96,
+      "2": 17,
+      "3": 241,
+      "4": 1012,
+      "7": 29
+    }
+  },
+  "13643172": {
+    "dominant_query": 12,
+    "target_region3_pixels": 554,
+    "query_pixels_on_region3": 334,
+    "query_total_area": 1831,
+    "query_teacher_regions": {
+      "0": 80,
+      "1": 24,
+      "3": 334,
+      "4": 1393
+    }
+  },
+  "13643170": {
+    "dominant_query": 3,
+    "target_region3_pixels": 350,
+    "query_pixels_on_region3": 161,
+    "query_total_area": 691,
+    "query_teacher_regions": {
+      "0": 23,
+      "1": 111,
+      "2": 394,
+      "3": 161,
+      "6": 2
+    }
+  },
+  "33791076": {
+    "dominant_query": 1,
+    "target_region3_pixels": 14785,
+    "query_pixels_on_region3": 11500,
+    "query_total_area": 28995,
+    "query_teacher_regions": {
+      "0": 8,
+      "2": 17487,
+      "3": 11500
+    }
+  }
+}

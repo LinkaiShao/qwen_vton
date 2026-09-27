@@ -1,0 +1,640 @@
+{
+  "train": {
+    "images": 18511,
+    "clothing_regions": 57931,
+    "added_accessory_regions": 51460,
+    "mean_regions_before": 3.129544595105613,
+    "mean_regions_after": 5.909513262384528,
+    "accessory_share_of_region_CE_terms": 0.47042261246354816,
+    "accessory_share_of_foreground_pixels": 0.215117736550843,
+    "groups": {
+      "area_le_4": {
+        "regions": 6075,
+        "share_of_accessory_regions": 0.11805285658764089,
+        "share_of_all_region_terms": 0.05553473320474262,
+        "share_of_foreground_pixels": 1.4134241345108851e-05
+      },
+      "area_le_16": {
+        "regions": 12892,
+        "share_of_accessory_regions": 0.25052467936261175,
+        "share_of_all_region_terms": 0.11785247415235257,
+        "share_of_foreground_pixels": 8.517592375316666e-05
+      },
+      "area_le_64": {
+        "regions": 20874,
+        "share_of_accessory_regions": 0.40563544500582976,
+        "share_of_all_region_terms": 0.19082008574745637,
+        "share_of_foreground_pixels": 0.00037856242139104124
+      },
+      "area_le_204": {
+        "regions": 25684,
+        "share_of_accessory_regions": 0.4991061018266615,
+        "share_of_all_region_terms": 0.23479079631779579,
+        "share_of_foreground_pixels": 0.001003271910535372
+      },
+      "source_iou_gt_0.7": {
+        "regions": 10959,
+        "share_of_accessory_regions": 0.21296152351340847,
+        "share_of_all_region_terms": 0.10018191624539496,
+        "share_of_foreground_pixels": 0.010623102888403938
+      },
+      "retained_le_10percent": {
+        "regions": 25299,
+        "share_of_accessory_regions": 0.49162456276719785,
+        "share_of_all_region_terms": 0.23127131116819483,
+        "share_of_foreground_pixels": 0.0055435572499339504
+      }
+    },
+    "duplicate_examples": [
+      {
+        "area": 1,
+        "original_area": 75918,
+        "retained_fraction": 1.3172106746753076e-05,
+        "source_to_clothing_iou": 0.9633135794322552,
+        "prompt": 1,
+        "score": 0.3786313831806183,
+        "idx": 11351
+      },
+      {
+        "area": 1,
+        "original_area": 69207,
+        "retained_fraction": 1.4449405406967503e-05,
+        "source_to_clothing_iou": 0.9926222566708293,
+        "prompt": 3,
+        "score": 0.9793145656585693,
+        "idx": 13899
+      },
+      {
+        "area": 1,
+        "original_area": 68161,
+        "retained_fraction": 1.4671146256657033e-05,
+        "source_to_clothing_iou": 0.9960834746010405,
+        "prompt": 3,
+        "score": 0.8444089889526367,
+        "idx": 10888
+      },
+      {
+        "area": 1,
+        "original_area": 67336,
+        "retained_fraction": 1.4850896994178448e-05,
+        "source_to_clothing_iou": 0.9647647159970195,
+        "prompt": 1,
+        "score": 0.31837916374206543,
+        "idx": 12161
+      },
+      {
+        "area": 1,
+        "original_area": 65990,
+        "retained_fraction": 1.5153811183512653e-05,
+        "source_to_clothing_iou": 0.9818557989997618,
+        "prompt": 3,
+        "score": 0.9722570776939392,
+        "idx": 16782
+      },
+      {
+        "area": 1,
+        "original_area": 61032,
+        "retained_fraction": 1.6384847293223228e-05,
+        "source_to_clothing_iou": 0.911235266876802,
+        "prompt": 1,
+        "score": 0.18877223134040833,
+        "idx": 15771
+      },
+      {
+        "area": 1,
+        "original_area": 58417,
+        "retained_fraction": 1.7118304603112106e-05,
+        "source_to_clothing_iou": 0.9053737774540044,
+        "prompt": 1,
+        "score": 0.2685575783252716,
+        "idx": 6164
+      },
+      {
+        "area": 1,
+        "original_area": 55861,
+        "retained_fraction": 1.790157712894506e-05,
+        "source_to_clothing_iou": 0.9767580140256379,
+        "prompt": 1,
+        "score": 0.22798456251621246,
+        "idx": 15137
+      },
+      {
+        "area": 1,
+        "original_area": 52766,
+        "retained_fraction": 1.8951597619679338e-05,
+        "source_to_clothing_iou": 0.8035271004979974,
+        "prompt": 1,
+        "score": 0.30321571230888367,
+        "idx": 12069
+      },
+      {
+        "area": 1,
+        "original_area": 51163,
+        "retained_fraction": 1.9545374587103963e-05,
+        "source_to_clothing_iou": 0.7603448275862069,
+        "prompt": 1,
+        "score": 0.23039987683296204,
+        "idx": 14129
+      },
+      {
+        "area": 1,
+        "original_area": 43442,
+        "retained_fraction": 2.301919801114129e-05,
+        "source_to_clothing_iou": 0.8825442644278657,
+        "prompt": 1,
+        "score": 0.27212125062942505,
+        "idx": 19377
+      },
+      {
+        "area": 1,
+        "original_area": 41349,
+        "retained_fraction": 2.4184381726281167e-05,
+        "source_to_clothing_iou": 0.7274902781932396,
+        "prompt": 3,
+        "score": 0.9614614844322205,
+        "idx": 16945
+      },
+      {
+        "area": 1,
+        "original_area": 41032,
+        "retained_fraction": 2.4371222460518618e-05,
+        "source_to_clothing_iou": 0.8589265513051494,
+        "prompt": 1,
+        "score": 0.298082560300827,
+        "idx": 19296
+      },
+      {
+        "area": 2,
+        "original_area": 76044,
+        "retained_fraction": 2.6300562832044607e-05,
+        "source_to_clothing_iou": 0.9916150485753407,
+        "prompt": 3,
+        "score": 0.9416541457176208,
+        "idx": 17980
+      },
+      {
+        "area": 2,
+        "original_area": 72667,
+        "retained_fraction": 2.7522809528396657e-05,
+        "source_to_clothing_iou": 0.9371856055720367,
+        "prompt": 3,
+        "score": 0.3948424458503723,
+        "idx": 18691
+      },
+      {
+        "area": 2,
+        "original_area": 71584,
+        "retained_fraction": 2.793920429146178e-05,
+        "source_to_clothing_iou": 0.7808893155586586,
+        "prompt": 3,
+        "score": 0.465934157371521,
+        "idx": 17640
+      },
+      {
+        "area": 1,
+        "original_area": 34614,
+        "retained_fraction": 2.8890044490668517e-05,
+        "source_to_clothing_iou": 0.946391921845497,
+        "prompt": 3,
+        "score": 0.9817007184028625,
+        "idx": 13278
+      },
+      {
+        "area": 2,
+        "original_area": 66103,
+        "retained_fraction": 3.0255812898053037e-05,
+        "source_to_clothing_iou": 0.9966527448999593,
+        "prompt": 3,
+        "score": 0.9665370583534241,
+        "idx": 17933
+      },
+      {
+        "area": 1,
+        "original_area": 31067,
+        "retained_fraction": 3.2188495831589787e-05,
+        "source_to_clothing_iou": 0.8965915322231521,
+        "prompt": 3,
+        "score": 0.9649212956428528,
+        "idx": 18152
+      },
+      {
+        "area": 2,
+        "original_area": 62132,
+        "retained_fraction": 3.218953196420524e-05,
+        "source_to_clothing_iou": 0.806274499623582,
+        "prompt": 3,
+        "score": 0.3942592740058899,
+        "idx": 10879
+      },
+      {
+        "area": 2,
+        "original_area": 61943,
+        "retained_fraction": 3.228774841386436e-05,
+        "source_to_clothing_iou": 0.9127820435352896,
+        "prompt": 1,
+        "score": 0.9912885427474976,
+        "idx": 11941
+      },
+      {
+        "area": 2,
+        "original_area": 61270,
+        "retained_fraction": 3.2642402480822586e-05,
+        "source_to_clothing_iou": 0.8548085510158517,
+        "prompt": 3,
+        "score": 0.48534050583839417,
+        "idx": 13638
+      },
+      {
+        "area": 1,
+        "original_area": 30554,
+        "retained_fraction": 3.272893892779996e-05,
+        "source_to_clothing_iou": 0.9962819216594371,
+        "prompt": 3,
+        "score": 0.8183016180992126,
+        "idx": 10094
+      },
+      {
+        "area": 1,
+        "original_area": 29404,
+        "retained_fraction": 3.4008978370289756e-05,
+        "source_to_clothing_iou": 0.9835369993211134,
+        "prompt": 1,
+        "score": 0.9509603977203369,
+        "idx": 4925
+      },
+      {
+        "area": 2,
+        "original_area": 58578,
+        "retained_fraction": 3.414251084024719e-05,
+        "source_to_clothing_iou": 0.9082605796517127,
+        "prompt": 2,
+        "score": 0.8577680587768555,
+        "idx": 4563
+      },
+      {
+        "area": 2,
+        "original_area": 57825,
+        "retained_fraction": 3.458711629917856e-05,
+        "source_to_clothing_iou": 0.9852893158500747,
+        "prompt": 3,
+        "score": 0.976669192314148,
+        "idx": 16011
+      },
+      {
+        "area": 1,
+        "original_area": 28740,
+        "retained_fraction": 3.479471120389701e-05,
+        "source_to_clothing_iou": 0.9949547668754349,
+        "prompt": 3,
+        "score": 0.9632996320724487,
+        "idx": 12674
+      },
+      {
+        "area": 1,
+        "original_area": 28581,
+        "retained_fraction": 3.49882789265596e-05,
+        "source_to_clothing_iou": 0.9876615746180963,
+        "prompt": 3,
+        "score": 0.9914224743843079,
+        "idx": 11035
+      },
+      {
+        "area": 2,
+        "original_area": 56264,
+        "retained_fraction": 3.5546708374804495e-05,
+        "source_to_clothing_iou": 0.8311715172108141,
+        "prompt": 1,
+        "score": 0.2041831612586975,
+        "idx": 13505
+      },
+      {
+        "area": 2,
+        "original_area": 56160,
+        "retained_fraction": 3.561253561253561e-05,
+        "source_to_clothing_iou": 0.990233854786299,
+        "prompt": 3,
+        "score": 0.9302051067352295,
+        "idx": 18490
+      }
+    ]
+  },
+  "val": {
+    "images": 490,
+    "clothing_regions": 1491,
+    "added_accessory_regions": 1444,
+    "mean_regions_before": 3.0428571428571427,
+    "mean_regions_after": 5.989795918367347,
+    "accessory_share_of_region_CE_terms": 0.4919931856899489,
+    "accessory_share_of_foreground_pixels": 0.2904559941468818,
+    "groups": {
+      "area_le_4": {
+        "regions": 211,
+        "share_of_accessory_regions": 0.1461218836565097,
+        "share_of_all_region_terms": 0.07189097103918228,
+        "share_of_foreground_pixels": 2.00297829165053e-05
+      },
+      "area_le_16": {
+        "regions": 418,
+        "share_of_accessory_regions": 0.2894736842105263,
+        "share_of_all_region_terms": 0.1424190800681431,
+        "share_of_foreground_pixels": 0.00010885943827910826
+      },
+      "area_le_64": {
+        "regions": 624,
+        "share_of_accessory_regions": 0.43213296398891965,
+        "share_of_all_region_terms": 0.21260647359454854,
+        "share_of_foreground_pixels": 0.00043844443134672523
+      },
+      "area_le_204": {
+        "regions": 747,
+        "share_of_accessory_regions": 0.5173130193905817,
+        "share_of_all_region_terms": 0.2545144804088586,
+        "share_of_foreground_pixels": 0.0010807239603647296
+      },
+      "source_iou_gt_0.7": {
+        "regions": 246,
+        "share_of_accessory_regions": 0.1703601108033241,
+        "share_of_all_region_terms": 0.08381601362862011,
+        "share_of_foreground_pixels": 0.003604962982264003
+      },
+      "retained_le_10percent": {
+        "regions": 671,
+        "share_of_accessory_regions": 0.4646814404432133,
+        "share_of_all_region_terms": 0.22862010221465076,
+        "share_of_foreground_pixels": 0.0025081886660522725
+      }
+    },
+    "duplicate_examples": [
+      {
+        "area": 1,
+        "original_area": 71598,
+        "retained_fraction": 1.3966870582977178e-05,
+        "source_to_clothing_iou": 0.8497454217453743,
+        "prompt": 1,
+        "score": 0.26683464646339417,
+        "idx": 17358
+      },
+      {
+        "area": 2,
+        "original_area": 44844,
+        "retained_fraction": 4.45990545000446e-05,
+        "source_to_clothing_iou": 0.8686459564737118,
+        "prompt": 1,
+        "score": 0.23988313972949982,
+        "idx": 17362
+      },
+      {
+        "area": 4,
+        "original_area": 55522,
+        "retained_fraction": 7.204351428262671e-05,
+        "source_to_clothing_iou": 0.7804339572230112,
+        "prompt": 1,
+        "score": 0.23810701072216034,
+        "idx": 17363
+      },
+      {
+        "area": 2,
+        "original_area": 14696,
+        "retained_fraction": 0.00013609145345672293,
+        "source_to_clothing_iou": 0.9972851907153523,
+        "prompt": 3,
+        "score": 0.9878528118133545,
+        "idx": 17146
+      },
+      {
+        "area": 7,
+        "original_area": 46871,
+        "retained_fraction": 0.00014934607753194938,
+        "source_to_clothing_iou": 0.8079808239493697,
+        "prompt": 1,
+        "score": 0.21568095684051514,
+        "idx": 17090
+      },
+      {
+        "area": 3,
+        "original_area": 8902,
+        "retained_fraction": 0.00033700292069197934,
+        "source_to_clothing_iou": 0.9828804948089243,
+        "prompt": 1,
+        "score": 0.7585106492042542,
+        "idx": 17539
+      },
+      {
+        "area": 7,
+        "original_area": 19835,
+        "retained_fraction": 0.00035291152004033276,
+        "source_to_clothing_iou": 0.9885263893045995,
+        "prompt": 3,
+        "score": 0.9933071732521057,
+        "idx": 16766
+      },
+      {
+        "area": 8,
+        "original_area": 22150,
+        "retained_fraction": 0.00036117381489841985,
+        "source_to_clothing_iou": 0.9828444444444444,
+        "prompt": 3,
+        "score": 0.9929336309432983,
+        "idx": 17049
+      },
+      {
+        "area": 11,
+        "original_area": 28940,
+        "retained_fraction": 0.0003800967519004838,
+        "source_to_clothing_iou": 0.9976886190361196,
+        "prompt": 3,
+        "score": 0.9878058433532715,
+        "idx": 17142
+      },
+      {
+        "area": 2,
+        "original_area": 4560,
+        "retained_fraction": 0.0004385964912280702,
+        "source_to_clothing_iou": 0.94649177597335,
+        "prompt": 2,
+        "score": 0.7282654047012329,
+        "idx": 17099
+      },
+      {
+        "area": 2,
+        "original_area": 3807,
+        "retained_fraction": 0.0005253480430785396,
+        "source_to_clothing_iou": 0.9660887302396737,
+        "prompt": 2,
+        "score": 0.4450470805168152,
+        "idx": 17755
+      },
+      {
+        "area": 8,
+        "original_area": 13869,
+        "retained_fraction": 0.0005768260148532699,
+        "source_to_clothing_iou": 0.9926818768833405,
+        "prompt": 2,
+        "score": 0.7189891934394836,
+        "idx": 17650
+      },
+      {
+        "area": 2,
+        "original_area": 3449,
+        "retained_fraction": 0.0005798782255726297,
+        "source_to_clothing_iou": 0.9878717874675137,
+        "prompt": 1,
+        "score": 0.5605233311653137,
+        "idx": 17827
+      },
+      {
+        "area": 34,
+        "original_area": 55154,
+        "retained_fraction": 0.0006164557421039272,
+        "source_to_clothing_iou": 0.95938202149339,
+        "prompt": 1,
+        "score": 0.21386933326721191,
+        "idx": 17758
+      },
+      {
+        "area": 3,
+        "original_area": 4673,
+        "retained_fraction": 0.0006419858763107211,
+        "source_to_clothing_iou": 0.9465011769741065,
+        "prompt": 3,
+        "score": 0.9735944867134094,
+        "idx": 17760
+      },
+      {
+        "area": 1,
+        "original_area": 1356,
+        "retained_fraction": 0.0007374631268436578,
+        "source_to_clothing_iou": 0.9678571428571429,
+        "prompt": 1,
+        "score": 0.9334307909011841,
+        "idx": 17002
+      },
+      {
+        "area": 4,
+        "original_area": 5157,
+        "retained_fraction": 0.0007756447547023463,
+        "source_to_clothing_iou": 0.8553615960099751,
+        "prompt": 2,
+        "score": 0.7463239431381226,
+        "idx": 17402
+      },
+      {
+        "area": 1,
+        "original_area": 1147,
+        "retained_fraction": 0.0008718395815170009,
+        "source_to_clothing_iou": 0.9904926534140017,
+        "prompt": 3,
+        "score": 0.863161027431488,
+        "idx": 16502
+      },
+      {
+        "area": 42,
+        "original_area": 44586,
+        "retained_fraction": 0.0009419997308572198,
+        "source_to_clothing_iou": 0.7183442082821888,
+        "prompt": 1,
+        "score": 0.2560870945453644,
+        "idx": 17752
+      },
+      {
+        "area": 3,
+        "original_area": 3137,
+        "retained_fraction": 0.000956327701625757,
+        "source_to_clothing_iou": 0.9496969696969697,
+        "prompt": 1,
+        "score": 0.37868884205818176,
+        "idx": 17827
+      },
+      {
+        "area": 6,
+        "original_area": 6164,
+        "retained_fraction": 0.000973393900064893,
+        "source_to_clothing_iou": 0.741692402717727,
+        "prompt": 1,
+        "score": 0.929568350315094,
+        "idx": 17351
+      },
+      {
+        "area": 1,
+        "original_area": 1026,
+        "retained_fraction": 0.0009746588693957114,
+        "source_to_clothing_iou": 0.9561567164179104,
+        "prompt": 1,
+        "score": 0.9296960830688477,
+        "idx": 17002
+      },
+      {
+        "area": 11,
+        "original_area": 10744,
+        "retained_fraction": 0.0010238272524199553,
+        "source_to_clothing_iou": 0.9775321947209791,
+        "prompt": 1,
+        "score": 0.5521473288536072,
+        "idx": 17474
+      },
+      {
+        "area": 2,
+        "original_area": 1737,
+        "retained_fraction": 0.0011514104778353484,
+        "source_to_clothing_iou": 0.9091386554621849,
+        "prompt": 2,
+        "score": 0.4711776375770569,
+        "idx": 17610
+      },
+      {
+        "area": 24,
+        "original_area": 20293,
+        "retained_fraction": 0.0011826738284137386,
+        "source_to_clothing_iou": 0.8600950521938385,
+        "prompt": 1,
+        "score": 0.3990502655506134,
+        "idx": 17143
+      },
+      {
+        "area": 6,
+        "original_area": 4941,
+        "retained_fraction": 0.0012143290831815423,
+        "source_to_clothing_iou": 0.761054958938724,
+        "prompt": 2,
+        "score": 0.8065480589866638,
+        "idx": 16562
+      },
+      {
+        "area": 1,
+        "original_area": 795,
+        "retained_fraction": 0.0012578616352201257,
+        "source_to_clothing_iou": 0.8668122270742358,
+        "prompt": 2,
+        "score": 0.5347340106964111,
+        "idx": 17599
+      },
+      {
+        "area": 1,
+        "original_area": 771,
+        "retained_fraction": 0.0012970168612191958,
+        "source_to_clothing_iou": 0.8932714617169374,
+        "prompt": 2,
+        "score": 0.35253605246543884,
+        "idx": 17601
+      },
+      {
+        "area": 1,
+        "original_area": 731,
+        "retained_fraction": 0.0013679890560875513,
+        "source_to_clothing_iou": 0.954248366013072,
+        "prompt": 1,
+        "score": 0.7375364303588867,
+        "idx": 16505
+      },
+      {
+        "area": 2,
+        "original_area": 1394,
+        "retained_fraction": 0.0014347202295552368,
+        "source_to_clothing_iou": 0.9942857142857143,
+        "prompt": 3,
+        "score": 0.4546840190887451,
+        "idx": 17537
+      }
+    ]
+  }
+}
