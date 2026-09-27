@@ -1,0 +1,23 @@
+{
+  "rows": 19001,
+  "max_regions": 12,
+  "mean_regions": 5.442766170201568,
+  "minimum_nonempty_region_area": 205,
+  "counts": {
+    "1": 199,
+    "2": 1318,
+    "3": 2669,
+    "4": 3370,
+    "5": 3114,
+    "6": 2615,
+    "7": 1986,
+    "8": 1471,
+    "9": 1049,
+    "10": 721,
+    "11": 353,
+    "12": 136
+  },
+  "source": "targets_part4",
+  "no_cross_export_subtraction": true,
+  "row_order_unchanged": true
+}

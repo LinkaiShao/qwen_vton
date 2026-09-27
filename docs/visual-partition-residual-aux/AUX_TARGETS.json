@@ -1,0 +1,11 @@
+{
+  "rows": 1024,
+  "regions": 5826,
+  "small_regions_under_2pct": 3467,
+  "mean_regions": 5.689453125,
+  "sam3_revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "elapsed": 131.59124326705933,
+  "at": 1790479215.6036298,
+  "complete": true,
+  "receipt_repair": "All 1024 exports completed; NumPy integer JSON conversion repaired without regenerating data."
+}

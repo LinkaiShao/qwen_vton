@@ -1,0 +1,6 @@
+{
+  "started_at": 1790474195.34889,
+  "deadline": 1790481395.34889,
+  "seconds": 7200,
+  "rule": "New corrective run authorized after completed pilot; all owned GPU workers stop after two hours; no extension."
+}

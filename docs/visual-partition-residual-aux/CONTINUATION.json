@@ -1,0 +1,11 @@
+{
+  "steps_per_arm": 2000,
+  "effective_batch": 12,
+  "aux_fraction": 0.4,
+  "lr_start": 0.0001,
+  "lr_end": 3e-05,
+  "starting_checkpoint": "/mnt/nvme0/visual_partition/20260926_residual_distill/checkpoints/step_04000.pt",
+  "parent_steps": 4000,
+  "deadline": 1790481395.34889,
+  "teacher_targets": "fresh automatic SAM3 single export; existing auxiliary masks ignored"
+}
