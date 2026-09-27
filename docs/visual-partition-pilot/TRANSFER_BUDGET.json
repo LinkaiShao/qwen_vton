@@ -1,0 +1,7 @@
+{
+  "per_source": 128,
+  "total_aux": 256,
+  "generated_aux": 1024,
+  "reason": "slow upstream transfer; preserve fixed 2h budget and both controlled arms",
+  "deadline_extended": false
+}

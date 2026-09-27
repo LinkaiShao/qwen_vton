@@ -1,0 +1,309 @@
+{
+  "checks": [
+    {
+      "idx": 16466,
+      "foreground_iou": 0.999899099971748,
+      "pair_iou": 0.9989745549973683,
+      "parts": [
+        {
+          "area_px": 41728,
+          "iou": 0.9999760352760736,
+          "symmetric_error_px": 1,
+          "passed": true
+        },
+        {
+          "area_px": 6496,
+          "iou": 0.9996922129886119,
+          "symmetric_error_px": 2,
+          "passed": true
+        },
+        {
+          "area_px": 268,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 1061,
+          "iou": 0.9962299717247879,
+          "symmetric_error_px": 4,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "idx": 16607,
+      "foreground_iou": 1.0,
+      "pair_iou": 1.0,
+      "parts": [
+        {
+          "area_px": 33309,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 10,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "idx": 16787,
+      "foreground_iou": 0.9998895576785024,
+      "pair_iou": 0.9994314004480709,
+      "parts": [
+        {
+          "area_px": 6714,
+          "iou": 0.9995533720410897,
+          "symmetric_error_px": 3,
+          "passed": true
+        },
+        {
+          "area_px": 1826,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 8225,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 635,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 421,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 283,
+          "iou": 0.9964664310954063,
+          "symmetric_error_px": 1,
+          "passed": true
+        },
+        {
+          "area_px": 3,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "idx": 17001,
+      "foreground_iou": 0.9996177056879932,
+      "pair_iou": 0.9164875408008917,
+      "parts": [
+        {
+          "area_px": 35541,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 37656,
+          "iou": 0.9992834965369,
+          "symmetric_error_px": 27,
+          "passed": true
+        },
+        {
+          "area_px": 3,
+          "iou": 0.6666666666666666,
+          "symmetric_error_px": 1,
+          "passed": true
+        },
+        {
+          "area_px": 15,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "idx": 17305,
+      "foreground_iou": 0.9995672461804772,
+      "pair_iou": 0.9998395692084484,
+      "parts": [
+        {
+          "area_px": 16868,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 227,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 212,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 35835,
+          "iou": 0.9993582768337937,
+          "symmetric_error_px": 23,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "idx": 17412,
+      "foreground_iou": 0.9994937136106657,
+      "pair_iou": 0.9963712959243634,
+      "parts": [
+        {
+          "area_px": 13103,
+          "iou": 0.9994658527279664,
+          "symmetric_error_px": 7,
+          "passed": true
+        },
+        {
+          "area_px": 14739,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 1476,
+          "iou": 0.997968855788761,
+          "symmetric_error_px": 3,
+          "passed": true
+        },
+        {
+          "area_px": 1638,
+          "iou": 0.9890243902439024,
+          "symmetric_error_px": 18,
+          "passed": true
+        },
+        {
+          "area_px": 335,
+          "iou": 0.9852941176470589,
+          "symmetric_error_px": 5,
+          "passed": true
+        },
+        {
+          "area_px": 261,
+          "iou": 0.9923664122137404,
+          "symmetric_error_px": 2,
+          "passed": true
+        },
+        {
+          "area_px": 1465,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 54,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 21,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 2458,
+          "iou": 0.9995933306222041,
+          "symmetric_error_px": 1,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "idx": 17597,
+      "foreground_iou": 0.9991684059483433,
+      "pair_iou": 0.9990648380088395,
+      "parts": [
+        {
+          "area_px": 17402,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 2166,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 559,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 417,
+          "iou": 0.9976076555023924,
+          "symmetric_error_px": 1,
+          "passed": true
+        },
+        {
+          "area_px": 379,
+          "iou": 0.9973614775725593,
+          "symmetric_error_px": 1,
+          "passed": true
+        },
+        {
+          "area_px": 3,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 360,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 499,
+          "iou": 0.9959919839679359,
+          "symmetric_error_px": 2,
+          "passed": true
+        },
+        {
+          "area_px": 275,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        },
+        {
+          "area_px": 39265,
+          "iou": 0.9987521010543473,
+          "symmetric_error_px": 49,
+          "passed": true
+        },
+        {
+          "area_px": 2,
+          "iou": 1.0,
+          "symmetric_error_px": 0,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "strict_pair_threshold_passed": false,
+  "tolerance": "Per-region IoU >.98 OR <=4 differing pixels at 320; tolerates observed 3-pixel vs 2-pixel overlap residual. Training and evaluation retain every region.",
+  "note": "Canonical cached fine clothing plus confident accessories; same composition used for auxiliary and named views."
+}

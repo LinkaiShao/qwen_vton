@@ -1,0 +1,12 @@
+{
+  "source_file": "/home/link/Desktop/Code/fashion_gen_testing/super_garment_net/06_experiments/sgn-distillation(claude)/partition.py",
+  "source_sha256": "7a56575d5947958eeacb9cef609fe1dbbbbd6647b69c59c8e76e837eae795ae0",
+  "checkpoint": "/home/link/Desktop/Code/fashion_gen_testing/super_garment_net/06_experiments/sgn-distillation(claude)/runs/shield/part_head_ep5.pt",
+  "checkpoint_sha256": "c8885de32e13b866e136245b8321fbc392bf4d06ef6512597690b96cf5a72bc5",
+  "named_eval_skus": [
+    "12416975",
+    "13643172",
+    "13643170",
+    "33791076"
+  ]
+}

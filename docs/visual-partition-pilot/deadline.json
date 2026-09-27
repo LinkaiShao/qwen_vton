@@ -1,0 +1,7 @@
+{
+  "started_at": 1790466088.9562304,
+  "deadline": 1790473288.9562304,
+  "seconds": 7200,
+  "rule": "all pilot GPU tasks stop; no automatic extension",
+  "local_gpu_uuid": "GPU-dbb7940e-7461-387e-c0c2-a2e33f9b78ac"
+}
