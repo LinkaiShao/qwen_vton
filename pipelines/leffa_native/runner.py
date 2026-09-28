@@ -1,4 +1,4 @@
-"""H200 worker: cache clean targets, verify real routing, train four matched arms."""
+"""GPU worker: cache clean targets, verify real routing, train four matched arms."""
 from __future__ import annotations
 import argparse
 import contextlib
@@ -41,9 +41,14 @@ def save_tensor(path,obj):
     tmp=path.with_suffix('.tmp');torch.save(obj,tmp);tmp.replace(path)
 
 
-def require_h200():
-    if not torch.cuda.is_available() or 'H200' not in torch.cuda.get_device_name():
-        raise RuntimeError('This worker is restricted to the authorized H200')
+def require_gpu():
+    if not torch.cuda.is_available():raise RuntimeError('CUDA is required')
+    expected=os.environ.get('LEFFA_EXPECTED_GPU')
+    actual=str(torch.cuda.get_device_properties(0).uuid)
+    if expected:
+        if actual!=expected:raise RuntimeError(f'Wrong GPU: expected {expected}, got {actual}')
+    elif 'H200' not in torch.cuda.get_device_name():
+        raise RuntimeError('Set LEFFA_EXPECTED_GPU to the explicitly selected GPU UUID')
     torch.set_num_threads(4)
     torch.manual_seed(SEED)
     torch.backends.cuda.matmul.allow_tf32=False
@@ -90,6 +95,7 @@ def cache(args):
     vae.to('cuda',dtype=torch.bfloat16).eval().requires_grad_(False)
     dino=DenseDINO(str(args.dino_weights))
     manifest=json.loads((args.data/'manifest.json').read_text());records=manifest['records']
+    if args.cache_bootstrap:records=[r for r in records if r['split']=='development'][:16]
     start=time.time();done=0;coverage=[]
     for row in records:
         dest=args.cache/(row['key']+'.pt')
@@ -120,7 +126,7 @@ def cache(args):
             atomic(args.output/'PROGRESS.json',progress);print('CACHE',json.dumps(progress),flush=True)
     missing=[r['key'] for r in records if not (args.cache/(r['key']+'.pt')).exists()]
     if missing:raise RuntimeError('Incomplete cache')
-    atomic(args.cache/'READY.json',dict(config,count=len(records),seconds=time.time()-start))
+    atomic(args.cache/('BOOTSTRAP_READY.json' if args.cache_bootstrap else 'READY.json'),dict(config,count=len(records),seconds=time.time()-start))
     print('CACHE_COMPLETE',len(records),flush=True)
 
 
@@ -318,8 +324,9 @@ def main():
     for name in ['data','cache','output','leffa-code','leffa-weights','dino-weights']:p.add_argument('--'+name,type=Path,required=True)
     p.add_argument('--steps',type=int,default=3000);p.add_argument('--accumulation',type=int,default=4)
     p.add_argument('--arm',choices=ARMS)
+    p.add_argument('--cache-bootstrap',action='store_true',help='Cache 16 development images for GPU verification before the full cache')
     args=p.parse_args();args.output.mkdir(parents=True,exist_ok=True)
-    require_h200()
+    require_gpu()
     try:
         if args.stage=='cache':cache(args);return
         config={'arguments':{k:str(v) if isinstance(v,Path) else v for k,v in vars(args).items()},

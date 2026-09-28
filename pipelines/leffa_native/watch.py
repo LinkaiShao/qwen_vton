@@ -88,21 +88,23 @@ def publish():
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--once',action='store_true');p.add_argument('--no-publish',action='store_true');args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--once',action='store_true');p.add_argument('--no-publish',action='store_true');p.add_argument('--local',action='store_true');args=p.parse_args()
     last=None;deadline=time.time()+24*3600
     while time.time()<deadline:
         try:
-            user=icrn.me()['name'];raw=getfile(user,'STATE.json')
+            user=None if args.local else icrn.me()['name']
+            raw=(remote.LOCAL/'STATE.json').read_bytes() if args.local else getfile(user,'STATE.json')
             if raw is None:time.sleep(30);continue
             state=json.loads(raw)
-            for path in ['run/PROGRESS.json','run/GRADIENT_VERIFICATION.json','run/TIMESTEP_VERIFICATION.json']:
-                getfile(user,path)
+            if not args.local:
+                for path in ['run/PROGRESS.json','run/GRADIENT_VERIFICATION.json','run/TIMESTEP_VERIFICATION.json']:
+                    getfile(user,path)
             current=state['stage']
-            if current!='waiting_for_data' and getfile(user,'DATA_READY.json') is not None:cleanup_transfer()
+            if not args.local and current!='waiting_for_data' and getfile(user,'DATA_READY.json') is not None:cleanup_transfer()
             progress_path=remote.LOCAL/'run/PROGRESS.json'
             progress=json.loads(progress_path.read_text()) if progress_path.exists() else {}
-            publication_key=(current,progress.get('arm'),progress.get('step',0)//250)
-            if current=='completed':collect_final(user)
+            publication_key=(current,progress.get('arm'),progress.get('step',0)//250,progress.get('newly_cached',0)//2000)
+            if current=='completed' and not args.local:collect_final(user)
             if publication_key!=last:
                 if args.no_publish:build(remote.LOCAL)
                 else:publish()

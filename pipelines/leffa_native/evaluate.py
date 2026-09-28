@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from torch.nn import functional as F
-from runner import Experiment, ARMS, SEED, image, save_image, atomic, require_h200
+from runner import Experiment, ARMS, SEED, image, save_image, atomic, require_gpu
 from core import GRID
 
 
@@ -162,7 +162,7 @@ if __name__=='__main__':
     p=argparse.ArgumentParser()
     for name in ['data','cache','output','leffa-code','leffa-weights','dino-weights']:p.add_argument('--'+name,type=Path,required=True)
     p.add_argument('--steps',type=int,default=3000);p.add_argument('--accumulation',type=int,default=4)
-    args=p.parse_args();require_h200()
+    args=p.parse_args();require_gpu()
     import lpips
     metric=lpips.LPIPS(net='alex',spatial=True).cuda().eval().requires_grad_(False)
     exp=Experiment(args)

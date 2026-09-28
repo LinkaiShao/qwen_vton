@@ -25,11 +25,14 @@ def build(root):
     if not result:
         parts.append('<p>No quality result is available yet. Training and evaluation must finish before these comparisons can establish improvement.</p>')
         if state.get('error'):parts.append('<p>'+html.escape(state['error'])+'</p>')
-        if 'free_gpu_mib' in state:parts.append(f'<p>H200 free memory at last check: {state["free_gpu_mib"]:,} MiB; job requires {state["required_free_mib"]:,} MiB before loading.</p>')
+        if state.get('gpu'):parts.append('<p>Execution device: '+html.escape(state['gpu'])+'</p>')
+        if 'free_gpu_mib' in state:parts.append(f'<p>Selected GPU free memory at last check: {state["free_gpu_mib"]:,} MiB; job requires {state["required_free_mib"]:,} MiB before loading.</p>')
         if (run/'PROGRESS.json').exists():
             progress=json.loads((run/'PROGRESS.json').read_text())
             if state['stage']=='train' and progress.get('arm'):
                 parts.append(f'<p>{html.escape(progress["arm"])}: {progress["step"]:,} / {progress["steps"]:,} updates; {progress["seconds_per_update"]:.2f} seconds/update.</p>')
+            elif state['stage']=='cache' and progress.get('stage')=='caching':
+                parts.append(f'<p>Clean feature preparation: {progress["newly_cached"]:,} newly cached / {progress["total"]:,} examples.</p>')
     parts.append('</div><p>Locations come from the same person–garment Q/K attention used by LeFFA to generate the image. Frozen DINO supervises automatic correspondence and dense image details in one sampled-timestep training forward. Named-part heads and Molmo are absent.</p>')
     if 'updated' in state:
         parts.append('<p><small>State checked '+datetime.fromtimestamp(state['updated'],timezone.utc).strftime('%Y-%m-%d %H:%M UTC')+'. The page updates when the job changes phase.</small></p>')
