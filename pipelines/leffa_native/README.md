@@ -53,7 +53,7 @@ Checkpoints every 250 updates allow deterministic replay from the last save.
 `test_core.py` runs meaningful CPU contracts for full-softmax probability/gradient
 equivalence, spatial reduction, observation parity, native value interventions,
 fixed-coordinate loss gradients, rejected matches and 1,000-step algebra.
-`runner.py verify` checks real H200 LeFFA output parity and native Q/K/V/output
+`runner.py verify` checks real GPU LeFFA output parity and native Q/K/V/output
 gradients. `runner.py sweep` tests all 1,000 scheduler timesteps on 16 rotating real
 development examples. Full sampling is performed ONLY by `evaluate.py`.
 
@@ -79,8 +79,7 @@ timestep forward; these estimates are clearly distinguished from full samples.
 
 ## Execution
 
-Use the existing pinned LeFFA/DINO assets and H200 environment recorded by the
-adjacent `leffa_single_step` experiment. The new pipeline is self-contained apart
+Use the existing pinned LeFFA/DINO assets. The new pipeline is self-contained apart
 from official LeFFA, the OOTD mask helper, pretrained assets and dataset.
 
 ```
@@ -93,10 +92,20 @@ python runner.py cache --data /path/to/job --cache /path/to/job/cache \
 ```
 
 The same path arguments apply to `verify`, `sweep`, `train`, and `evaluate.py`.
-`supervise.py` runs all phases and reporting, waits for 24 GiB of free shared H200
-memory, and stops its own worker at a 23-hour session deadline. It never kills
+`supervise.py` accepts explicit `--code`, `--leffa-code`, `--leffa-weights`,
+`--dino-weights`, and `--gpu GPU-UUID` paths/device selection. It runs all phases,
+checks 16 real development images before preparing the full cache, waits for
+24 GiB free on the selected GPU, and stops its own worker at a 23-hour session
+deadline (configurable with `--hours`). The selected UUID is checked in every
+GPU worker; on a multi-GPU machine selection is mandatory. It never kills
 another user's process. `remote.py` uses the private existing ICRN credential file
 without printing or copying credentials into experiment artifacts.
+
+The September 28 run was moved from a queued, full H200 to the available local
+RTX 5090. `watch.py --local` publishes local progress without polling or
+overwriting local artifacts with remote state. Training settings and pretrained
+snapshots are unchanged. Device, library versions and source hashes are recorded
+in each run's metadata.
 
 Research basis: [LeFFA](https://arxiv.org/html/2412.08486v2),
 [CORAL](https://arxiv.org/html/2602.17636v1),

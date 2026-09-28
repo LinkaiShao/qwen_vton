@@ -46,7 +46,8 @@ def require_gpu():
     expected=os.environ.get('LEFFA_EXPECTED_GPU')
     actual=str(torch.cuda.get_device_properties(0).uuid)
     if expected:
-        if actual!=expected:raise RuntimeError(f'Wrong GPU: expected {expected}, got {actual}')
+        if actual.removeprefix('GPU-')!=expected.removeprefix('GPU-'):
+            raise RuntimeError(f'Wrong GPU: expected {expected}, got {actual}')
     elif 'H200' not in torch.cuda.get_device_name():
         raise RuntimeError('Set LEFFA_EXPECTED_GPU to the explicitly selected GPU UUID')
     torch.set_num_threads(4)
