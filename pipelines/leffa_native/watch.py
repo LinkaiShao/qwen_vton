@@ -83,11 +83,14 @@ def main():
             for path in ['run/PROGRESS.json','run/GRADIENT_VERIFICATION.json','run/TIMESTEP_VERIFICATION.json']:
                 getfile(user,path)
             current=state['stage']
+            progress_path=remote.LOCAL/'run/PROGRESS.json'
+            progress=json.loads(progress_path.read_text()) if progress_path.exists() else {}
+            publication_key=(current,progress.get('arm'),progress.get('step',0)//250)
             if current=='completed':collect_final(user)
-            if current!=last:
+            if publication_key!=last:
                 if args.no_publish:build(remote.LOCAL)
                 else:publish()
-                last=current
+                last=publication_key
             print('WATCH',current,flush=True)
             if args.once or current in ['completed','failed']:return
         except Exception as exc:

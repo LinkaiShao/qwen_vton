@@ -4,7 +4,7 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 from core import (native_reference_attention, NativeAttentionTracker, reliable_matches,
-                  correspondence_loss, dense_detail_loss, reconstruct_x0, noise_weight)
+                  correspondence_loss, dense_detail_loss, reconstruct_x0, noise_weight, routing_diagnostics)
 
 
 class Attention(nn.Module):
@@ -79,6 +79,13 @@ class Contracts(unittest.TestCase):
         weight=noise_weight(alpha)
         self.assertTrue(((weight>0)&(weight<=1)).all())
         self.assertTrue((weight*((1-alpha)/alpha).sqrt()<=1.00001).all())
+
+    def test_conditional_confidence_does_not_hide_vanishing_reference_mass(self):
+        a=torch.zeros(1,12,12);a[:,:,4]=1e-5
+        result=routing_diagnostics(a,torch.ones(1,12,dtype=torch.bool))
+        torch.testing.assert_close(result['conditional_peak_probability'],torch.ones(1,12))
+        torch.testing.assert_close(result['reference_mass'],torch.full((1,12),1e-5))
+        self.assertTrue((result['conditional_entropy']==0).all())
 
 
 if __name__=='__main__':unittest.main(verbosity=2)

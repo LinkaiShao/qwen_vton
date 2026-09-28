@@ -53,8 +53,12 @@ def require_h200():
 def load_model(args):
     sys.path.insert(0,str(args.leffa_code))
     from leffa.model import LeffaModel
+    from diffusers import DDPMScheduler
     with torch.device('meta'):
         model=LeffaModel(str(args.leffa_weights/'stable-diffusion-inpainting'),dtype='float32',height=512,width=384)
+    # Scheduler tensors are not model parameters/state_dict entries. Recreate
+    # outside the meta context, otherwise alphas_cumprod remains unmaterialized.
+    model.noise_scheduler=DDPMScheduler.from_pretrained(args.leffa_weights/'stable-diffusion-inpainting',subfolder='scheduler')
     state=torch.load(args.leffa_weights/'virtual_tryon.pth',map_location='cpu',mmap=True,weights_only=True)
     model.load_state_dict(state,assign=True);del state
     model.to('cuda',dtype=torch.bfloat16).eval().requires_grad_(False)
