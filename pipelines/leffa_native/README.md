@@ -68,6 +68,9 @@ contain only local pixels: encoder features are contextual.
 in every noise band, and statistically supported DINO AND garment LPIPS gains
 against diffusion-only and correspondence-only controls. Otherwise a completed
 run is explicitly `COMPLETED_CRITERIA_NOT_ALL_MET`.
+The stronger claim that high-noise supervision helps additionally requires DINO
+and garment LPIPS improvements over `dino_low`; this is a separate required
+criterion, so improving over ordinary training alone cannot prove that claim.
 
 The HTML report shows the biggest improvements, biggest regressions and a fixed
 sample. Input, target and four model outputs use identical detail crops. Clicking

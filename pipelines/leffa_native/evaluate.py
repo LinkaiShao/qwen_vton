@@ -126,9 +126,12 @@ def compare(output):
     causal_result=json.loads((output/'causal/dino_all/RESULT.json').read_text())
     quality=all(comparisons[c][m] is not None and comparisons[c][m]['ci95'][1]<0
                 for c in ['diffusion','correspondence'] for m in ['dino','garment_lpips'])
+    all_t_advantage=all(comparisons['dino_low'][m] is not None and comparisons['dino_low'][m]['ci95'][1]<0
+                       for m in ['dino','garment_lpips'])
     sweep=json.loads((output/'TIMESTEP_VERIFICATION.json').read_text())
     criteria={'causal_localization_all_noise_bands':causal_result['passed'],
               'heldout_dino_and_independent_lpips_improvement':quality,'all_timestep_gradients_finite':sweep['passed'],
+              'all_timestep_advantage_over_low_noise_only':all_t_advantage,
               'native_gradient_path_verified':json.loads((output/'GRADIENT_VERIFICATION.json').read_text())['passed'],
               'training_complete':all((output/a/'COMPLETE.json').exists() for a in ARMS)}
     atomic(output/'RESULT.json',{'status':'SUCCESSFUL' if all(criteria.values()) else 'COMPLETED_CRITERIA_NOT_ALL_MET',
