@@ -1,0 +1,22 @@
+{
+  "hook_output_max_abs_difference": 0.0,
+  "prediction_type": "epsilon",
+  "dino_gradient_norm_existing_qk_projections": 0.6709177314282807,
+  "dino_gradient_norm_component_keys": 0.22798961841952883,
+  "dino_parameters_frozen": true,
+  "vae_parameters_frozen": true,
+  "denoiser_calls_per_prediction": 1,
+  "reference_encoder_calls_per_prediction": 1,
+  "image_size": [
+    1,
+    3,
+    512,
+    384
+  ],
+  "grid_size": [
+    64,
+    48
+  ],
+  "dino_distance": 0.30512797832489014,
+  "passed": true
+}

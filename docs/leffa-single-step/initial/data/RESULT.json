@@ -1,0 +1,57 @@
+{
+  "status": "COMPLETED_CRITERIA_NOT_ALL_MET",
+  "criteria": {
+    "localization_over_80pct_each_component_at_half": false,
+    "fixed_roi_dino_improves_over_initial": true,
+    "fixed_roi_dino_improves_over_matched_control": false,
+    "pointed_roi_dino_improves_over_matched_control": true,
+    "dino_gradient_path_verified": true,
+    "completed_at_least_1000_iterations_without_oom": true
+  },
+  "iterations": 1000,
+  "oom_count": 0,
+  "baseline": {
+    "tag": "baseline",
+    "mean_fixed_roi_dino_distance": 0.26565074799012167,
+    "mean_pointed_roi_dino_distance": 0.6837246904567796,
+    "mass_at_half": {
+      "collar_neckline": 0.02586577122565359,
+      "left_sleeve_cuff": 0.014525286542872587,
+      "right_sleeve_cuff": 0.014154034666717052
+    },
+    "fraction_regions_over_80pct_mass_at_half": 0.0,
+    "cross_image_shuffled_map_mass_at_half": 0.02087808959186077,
+    "own_image_mass_at_half": 0.020926013588905334
+  },
+  "control": {
+    "tag": "denoise_spatial_control_final",
+    "mean_fixed_roi_dino_distance": 0.2625395114324531,
+    "mean_pointed_roi_dino_distance": 0.35342005989989456,
+    "mass_at_half": {
+      "collar_neckline": 0.6825373768806458,
+      "left_sleeve_cuff": 0.5096912185351054,
+      "right_sleeve_cuff": 0.5588597257932028
+    },
+    "fraction_regions_over_80pct_mass_at_half": 0.21428571428571427,
+    "cross_image_shuffled_map_mass_at_half": 0.29796645045280457,
+    "own_image_mass_at_half": 0.6189966201782227
+  },
+  "joint": {
+    "tag": "denoise_spatial_dino_final",
+    "mean_fixed_roi_dino_distance": 0.26394420558092546,
+    "mean_pointed_roi_dino_distance": 0.34867975967270987,
+    "mass_at_half": {
+      "collar_neckline": 0.6747985258698463,
+      "left_sleeve_cuff": 0.504667599995931,
+      "right_sleeve_cuff": 0.5408258636792501
+    },
+    "fraction_regions_over_80pct_mass_at_half": 0.21428571428571427,
+    "cross_image_shuffled_map_mass_at_half": 0.29745128750801086,
+    "own_image_mass_at_half": 0.6096335649490356
+  },
+  "forward_calls": {
+    "denoiser": 1267,
+    "reference_encoder": 1267
+  },
+  "annotation_caveat": "Previously cached automatic proposals; not human ground truth. No Molmo is run in this experiment."
+}

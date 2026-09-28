@@ -1,0 +1,31 @@
+{
+  "arguments": {
+    "cpu_checks": false,
+    "data": "/home/linkais2/leffa_single_step/20260928_probe",
+    "output": "/home/linkais2/leffa_single_step/20260928_probe/run_v2",
+    "leffa_code": "/home/linkais2/vton_region_benchmark/20260924_eight_models/code/garment_structure_eval/benchmark/vendor/leffa",
+    "leffa_weights": "/home/linkais2/sgn/hf/hub/models--franciszzj--Leffa/snapshots/61d3390f444506f052feedb0b243cd5369c29c89",
+    "dino_weights": "/home/linkais2/sgn/hf/hub/models--facebook--dinov2-base/snapshots/f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "steps": 1500,
+    "height": 512,
+    "width": 384,
+    "lr": 2e-05,
+    "query_lr": 0.01,
+    "spatial_weight": 5.0,
+    "dino_weight": 1.0,
+    "pointed_mix": 0.1,
+    "aggregation": "full_logits",
+    "seed": 20260928,
+    "verify_only": false
+  },
+  "gpu": "NVIDIA H200 NVL",
+  "gpu_free_total_bytes": [
+    26292322304,
+    150120759296
+  ],
+  "torch": "2.8.0+cu128",
+  "code_sha256": "c74087ea52189189bbd1326e4a54a4ac689cb3f117ae5113d015d66cb99a396e",
+  "manifest_sha256": "457400977cf5794f698968cf2442ee20319eb150597403c639b15a7f7cef5242",
+  "annotation_regime": "Previously cached automatic proposals; not human ground truth. No Molmo is run in this experiment.",
+  "claims": "Single-timestep denoising estimates, not full diffusion samples; learned semantic readout, not native text attention."
+}

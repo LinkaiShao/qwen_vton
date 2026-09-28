@@ -1,0 +1,312 @@
+{
+  "purpose": "Post-training evaluation only. No multi-step sampling was used for training losses.",
+  "steps": 20,
+  "guidance_scale": 2.5,
+  "repaint": false,
+  "resolution": [
+    512,
+    384
+  ],
+  "cohort": "Same eight development garments; not an untouched final test set.",
+  "records": [
+    {
+      "arm": "baseline",
+      "id": "06742_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.23829758167266846,
+      "seed": 3088784591
+    },
+    {
+      "arm": "baseline",
+      "id": "06742_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.31208229064941406,
+      "seed": 3088784591
+    },
+    {
+      "arm": "baseline",
+      "id": "06742_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.2545117735862732,
+      "seed": 3088784591
+    },
+    {
+      "arm": "baseline",
+      "id": "07735_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.39545726776123047,
+      "seed": 806439107
+    },
+    {
+      "arm": "baseline",
+      "id": "05697_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.1134832501411438,
+      "seed": 2606332196
+    },
+    {
+      "arm": "baseline",
+      "id": "10337_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.17280125617980957,
+      "seed": 3343002623
+    },
+    {
+      "arm": "baseline",
+      "id": "03753_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.20096850395202637,
+      "seed": 2793490969
+    },
+    {
+      "arm": "baseline",
+      "id": "03753_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.135115385055542,
+      "seed": 2793490969
+    },
+    {
+      "arm": "baseline",
+      "id": "03753_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.14919567108154297,
+      "seed": 2793490969
+    },
+    {
+      "arm": "baseline",
+      "id": "10215_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.15205097198486328,
+      "seed": 4283518836
+    },
+    {
+      "arm": "baseline",
+      "id": "02993_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.10634291172027588,
+      "seed": 1027204882
+    },
+    {
+      "arm": "baseline",
+      "id": "08055_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.16783583164215088,
+      "seed": 3300549636
+    },
+    {
+      "arm": "baseline",
+      "id": "08055_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.6391018629074097,
+      "seed": 3300549636
+    },
+    {
+      "arm": "baseline",
+      "id": "08055_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.33682602643966675,
+      "seed": 3300549636
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "06742_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.18274348974227905,
+      "seed": 3088784591
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "06742_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.2698371410369873,
+      "seed": 3088784591
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "06742_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.24347847700119019,
+      "seed": 3088784591
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "07735_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.5482421517372131,
+      "seed": 806439107
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "05697_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.12124252319335938,
+      "seed": 2606332196
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "10337_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.19904398918151855,
+      "seed": 3343002623
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "03753_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.13440603017807007,
+      "seed": 2793490969
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "03753_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.11581534147262573,
+      "seed": 2793490969
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "03753_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.1493089199066162,
+      "seed": 2793490969
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "10215_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.15089064836502075,
+      "seed": 4283518836
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "02993_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.11418712139129639,
+      "seed": 1027204882
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "08055_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.1607685089111328,
+      "seed": 3300549636
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "08055_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.6513381004333496,
+      "seed": 3300549636
+    },
+    {
+      "arm": "denoise_spatial_control",
+      "id": "08055_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.2903973460197449,
+      "seed": 3300549636
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "06742_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.13860642910003662,
+      "seed": 3088784591
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "06742_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.28740453720092773,
+      "seed": 3088784591
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "06742_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.27747172117233276,
+      "seed": 3088784591
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "07735_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.3451716899871826,
+      "seed": 806439107
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "05697_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.0915600061416626,
+      "seed": 2606332196
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "10337_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.19381999969482422,
+      "seed": 3343002623
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "03753_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.15400731563568115,
+      "seed": 2793490969
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "03753_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.11424553394317627,
+      "seed": 2793490969
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "03753_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.16492825746536255,
+      "seed": 2793490969
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "10215_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.12967181205749512,
+      "seed": 4283518836
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "02993_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.09913134574890137,
+      "seed": 1027204882
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "08055_00",
+      "concept": "collar_neckline",
+      "fixed_roi_dino_distance": 0.1759873628616333,
+      "seed": 3300549636
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "08055_00",
+      "concept": "left_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.6755061149597168,
+      "seed": 3300549636
+    },
+    {
+      "arm": "denoise_spatial_dino",
+      "id": "08055_00",
+      "concept": "right_sleeve_cuff",
+      "fixed_roi_dino_distance": 0.3449903726577759,
+      "seed": 3300549636
+    }
+  ],
+  "mean_fixed_roi_dino_distance": {
+    "baseline": 0.24100504176957266,
+    "denoise_spatial_control": 0.23797855632645742,
+    "denoise_spatial_dino": 0.22803589275905065
+  }
+}

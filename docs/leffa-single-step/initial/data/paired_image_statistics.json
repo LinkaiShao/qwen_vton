@@ -1,0 +1,18 @@
+{
+  "joint_minus_control_fixed": {
+    "mean_paired_image_delta": 0.0006118714809417725,
+    "bootstrap_95pct_image_interval": [
+      -0.0008800877701668512,
+      0.0021196940204217317
+    ],
+    "images": 8
+  },
+  "joint_minus_initial_fixed": {
+    "mean_paired_image_delta": -0.0022587999701499935,
+    "bootstrap_95pct_image_interval": [
+      -0.010601956370685782,
+      0.005564252180712563
+    ],
+    "images": 8
+  }
+}

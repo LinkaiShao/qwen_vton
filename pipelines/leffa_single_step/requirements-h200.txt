@@ -1,0 +1,12 @@
+# Observed versions in the existing, tested H200 environment (Python 3.12).
+# Install CUDA wheels first with https://download.pytorch.org/whl/cu128.
+torch==2.8.0
+torchvision==0.23.0
+diffusers==0.31.0
+transformers==4.46.3
+accelerate==1.10.1
+peft==0.13.2
+safetensors==0.6.2
+Pillow==11.3.0
+numpy==1.26.4
+huggingface-hub==0.35.1

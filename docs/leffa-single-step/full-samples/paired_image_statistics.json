@@ -1,0 +1,8 @@
+{
+  "mean_paired_image_delta": -0.028654185434182487,
+  "bootstrap_95pct_image_interval": [
+    -0.08264412097632885,
+    0.006216478844483692
+  ],
+  "images": 8
+}

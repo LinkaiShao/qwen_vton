@@ -1,0 +1,3247 @@
+{
+  "concepts": [
+    "collar_neckline",
+    "left_sleeve_cuff",
+    "right_sleeve_cuff"
+  ],
+  "image_size": [
+    512,
+    384
+  ],
+  "label_source": "Previously cached automatic proposals; not human ground truth. No Molmo is run in this experiment.",
+  "input_preprocessing": "RGB Lanczos at 512x384; standard OOTD agnostic mask from supplied LIP parsing and pose keypoints; mask nearest resize.",
+  "records": [
+    {
+      "id": "04383_00",
+      "garment_id": "viton_cloth_sha256:a3192f256ee22ad9e4c90414bc1244709a3f4ea705fdce7515072dbde11e4cc7",
+      "boxes": [
+        [
+          0.4177697576992754,
+          0.21491858440896738,
+          0.5377697576992754,
+          0.3349185844089674
+        ],
+        [
+          0.15928583559782608,
+          0.33035527768342393,
+          0.27928583559782605,
+          0.4503552776834239
+        ],
+        [
+          0.651356148097826,
+          0.34907980213994566,
+          0.7713561480978259,
+          0.46907980213994566
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "caba8eb38389018217acb5df8e371c59e797618cc9c13a04f37ab87128664185",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "a3192f256ee22ad9e4c90414bc1244709a3f4ea705fdce7515072dbde11e4cc7",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "47bb6d63ce543478df4dc807c68282ce419e3dfe0458b17d01f6bdddce86122e",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4177697576992754,
+            0.21491858440896738,
+            0.5377697576992754,
+            0.3349185844089674
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.15928583559782608,
+            0.33035527768342393,
+            0.27928583559782605,
+            0.4503552776834239
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.651356148097826,
+            0.34907980213994566,
+            0.7713561480978259,
+            0.46907980213994566
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "00967_00",
+      "garment_id": "viton_cloth_sha256:a740a4b0f7d05f4b4dfc07b950c8d7c91a3a0eb6162716514e445cc5a2606767",
+      "boxes": [
+        [
+          0.4271490036231884,
+          0.27395943019701086,
+          0.5471490036231884,
+          0.39395943019701085
+        ],
+        [
+          0.21202219202898553,
+          0.6574315344769022,
+          0.33202219202898553,
+          0.7774315344769023
+        ],
+        [
+          0.6384261775362319,
+          0.6278996475883152,
+          0.758426177536232,
+          0.7478996475883153
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "a78e5f1374a34568047888e8be1330a00418c80e859453331100d78aa5c02d49",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "a740a4b0f7d05f4b4dfc07b950c8d7c91a3a0eb6162716514e445cc5a2606767",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "4f33776afb3dfcfe8215d9599cc0ea715dfd9c962084cc00d7d54a4f71424fc2",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4271490036231884,
+            0.27395943019701086,
+            0.5471490036231884,
+            0.39395943019701085
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.6384261775362319,
+            0.6278996475883152,
+            0.758426177536232,
+            0.7478996475883153
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.21202219202898553,
+            0.6574315344769022,
+            0.33202219202898553,
+            0.7774315344769023
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "06742_00",
+      "garment_id": "viton_cloth_sha256:7806239cfb1b8ca9034583d6532940576660373aaacc6e2985d2348aa947a9a9",
+      "boxes": [
+        [
+          0.3377256000905797,
+          0.22540877632472828,
+          0.6268832087862319,
+          0.36388003141983694
+        ],
+        [
+          0.21565019248188405,
+          0.64936279296875,
+          0.33565019248188405,
+          0.7693627929687501
+        ],
+        [
+          0.6619443500905797,
+          0.6088808806046195,
+          0.7819443500905796,
+          0.7288808806046196
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "e763e0cd2cb5ee1826c09e9eb987ea09fdd5c8a4cbd2d70b2a6a6f6d2f4ebba3",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "7806239cfb1b8ca9034583d6532940576660373aaacc6e2985d2348aa947a9a9",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "b4ea9605e2f5b9e607df3deba9333e64985ea9d5a262462b2972dd812b0166b3",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3377256000905797,
+            0.22540877632472828,
+            0.4577256000905797,
+            0.3454087763247283
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.506883208786232,
+            0.24388003141983694,
+            0.6268832087862319,
+            0.36388003141983694
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.6619443500905797,
+            0.6088808806046195,
+            0.7819443500905796,
+            0.7288808806046196
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.21565019248188405,
+            0.64936279296875,
+            0.33565019248188405,
+            0.7693627929687501
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "validation"
+    },
+    {
+      "id": "03354_00",
+      "garment_id": "viton_cloth_sha256:94b57cf6f9542ab4f64bc82378567b262f252c31ad1e5a72d561d71a1485a3f2",
+      "boxes": [
+        [
+          0.409619282155797,
+          0.2702092179008152,
+          0.529619282155797,
+          0.39929825492527177
+        ],
+        [
+          0.16590324954710148,
+          0.8083616041100543,
+          0.28590324954710145,
+          0.9283616041100542
+        ],
+        [
+          0.5558489017210144,
+          0.6184414274796195,
+          0.6758489017210145,
+          0.7384414274796196
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "2cf3b5c389060684afc3194664094c61dc3d91a88905fd907ec1bfc62016f221",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "94b57cf6f9542ab4f64bc82378567b262f252c31ad1e5a72d561d71a1485a3f2",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "8fd30fe614331b4233bf62ff28cbff626b284318bb80149c9430368900b675a9",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.409619282155797,
+            0.2702092179008152,
+            0.529619282155797,
+            0.3902092179008152
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.409619282155797,
+            0.27929825492527177,
+            0.529619282155797,
+            0.39929825492527177
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.5558489017210144,
+            0.6184414274796195,
+            0.6758489017210145,
+            0.7384414274796196
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.16590324954710148,
+            0.8083616041100543,
+            0.28590324954710145,
+            0.9283616041100542
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "04532_00",
+      "garment_id": "viton_cloth_sha256:b2abff38da445502185f9cc1503d4045cfff424f3249390c426822d79d281837",
+      "boxes": [
+        [
+          0.384287109375,
+          0.26505424167798913,
+          0.504287109375,
+          0.38505424167798913
+        ],
+        [
+          0.19879628057065218,
+          0.26805971891983693,
+          0.3187962805706522,
+          0.3880597189198369
+        ],
+        [
+          0.700608440896739,
+          0.34091977326766304,
+          0.8206084408967391,
+          0.46091977326766304
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "3d2b57adc15c5d90e1b5bcc6f1d9dd5af90f46b06a68f371e52922476b2e07d1",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "b2abff38da445502185f9cc1503d4045cfff424f3249390c426822d79d281837",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "dc7590d1640c41958641b6072f099b8ca8a89bceae81601798e479505f7ad5dc",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.384287109375,
+            0.26505424167798913,
+            0.504287109375,
+            0.38505424167798913
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.19879628057065218,
+            0.26805971891983693,
+            0.3187962805706522,
+            0.3880597189198369
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.700608440896739,
+            0.34091977326766304,
+            0.8206084408967391,
+            0.46091977326766304
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "03821_00",
+      "garment_id": "viton_cloth_sha256:0f9a7b0692b6a3c08a6a3501325ae19c1a33165db2b31902ca90798b51610ada",
+      "boxes": [
+        [
+          0.4568181046195651,
+          0.1579000901442308,
+          0.5768181046195651,
+          0.2779000901442308
+        ],
+        [
+          0.15372537364130437,
+          0.8006843449519232,
+          0.27372537364130434,
+          0.9206843449519231
+        ],
+        [
+          0.6983828691123188,
+          0.7970055588942309,
+          0.8183828691123187,
+          0.9170055588942307
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "55fe9a8587dee4e3af5653e80e81955d6201bf68a8a75400c828a00d64a2ced2",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "0f9a7b0692b6a3c08a6a3501325ae19c1a33165db2b31902ca90798b51610ada",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "f5c8ea56c419e1bc4062c2cd92deb6dba7850549141fc8d93eb6d95d9bd1c861",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4568181046195651,
+            0.1579000901442308,
+            0.5768181046195651,
+            0.2779000901442308
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.15372537364130437,
+            0.8006843449519232,
+            0.27372537364130434,
+            0.9206843449519231
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.6983828691123188,
+            0.7970055588942309,
+            0.8183828691123187,
+            0.9170055588942307
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "08439_00",
+      "garment_id": "viton_cloth_sha256:eb84b440fdcd1af779fc549a99b681ba95a00bbba9a248cf560ad2a566a65725",
+      "boxes": [
+        [
+          0.4524440953351449,
+          0.3088878455528846,
+          0.5724440953351448,
+          0.4288878455528846
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "9b83b713b9eb8bb02350f2db6b6a67b45525dcb0c317647b7564cb805be7dd1e",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "eb84b440fdcd1af779fc549a99b681ba95a00bbba9a248cf560ad2a566a65725",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "7695be95688d0a01365df084767a5a32179ce3ec0c0cb15274bdeaafd04aae40",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4524440953351449,
+            0.3088878455528846,
+            0.5724440953351448,
+            0.4288878455528846
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "08570_00",
+      "garment_id": "viton_cloth_sha256:9e577864ccbe9903bcddd9a3b5bf3c0570d452233ec624be1bea1f4098b5246b",
+      "boxes": [
+        [
+          0.4504752604166666,
+          0.30827223557692307,
+          0.5704752604166665,
+          0.42827223557692307
+        ],
+        [
+          0.11872707201086957,
+          0.49890925480769227,
+          0.23872707201086957,
+          0.6189092548076922
+        ],
+        [
+          0.7656360394021737,
+          0.44782752403846154,
+          0.8856360394021738,
+          0.5678275240384616
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "fe25c4120737465ee4aceb25bc50f198c3cc27073cc1c0938a54b6150505ac73",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "9e577864ccbe9903bcddd9a3b5bf3c0570d452233ec624be1bea1f4098b5246b",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "3739872d97098e51dfb4c8bbf4c4f80070b81b2930694c098fe4a83eb48c3161",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4504752604166666,
+            0.30827223557692307,
+            0.5704752604166665,
+            0.42827223557692307
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.7656360394021737,
+            0.44782752403846154,
+            0.8856360394021738,
+            0.5678275240384616
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.11872707201086957,
+            0.49890925480769227,
+            0.23872707201086957,
+            0.6189092548076922
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "07261_00",
+      "garment_id": "viton_cloth_sha256:c91d17999c1d7467ef728f80a6510d5ae3c63b5c03c5dad9047a7bfd2314da26",
+      "boxes": [
+        [
+          0.25247735507246377,
+          0.25826416015625003,
+          0.37247735507246377,
+          0.37826416015625003
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "c6773a7c783ac30c0e369809c080b2c615081c8e496bccc9c45d7b47708e2fea",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "c91d17999c1d7467ef728f80a6510d5ae3c63b5c03c5dad9047a7bfd2314da26",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "44601cede113e6948cda7628f8e5655d2ef34e5c2c2e31c745383a1b8d8696c0",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.25247735507246377,
+            0.25826416015625003,
+            0.37247735507246377,
+            0.37826416015625003
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "01080_00",
+      "garment_id": "viton_cloth_sha256:47e4a70a0f33149650bf740c20623d48338f77dcaf6dae14d721d6bf316571fe",
+      "boxes": [
+        [
+          0.3801832823822464,
+          0.4131795601222826,
+          0.5720243149909421,
+          0.5516862686820652
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "c7659cb11a196a6d51b98415f8654631d930eced674a1280b2c24bfe3bbb9f89",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "47e4a70a0f33149650bf740c20623d48338f77dcaf6dae14d721d6bf316571fe",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "22fdf812505a1d7339ba25ab08c3de550c4e315ea93c484da5d24450f8e4dbdb",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3801832823822464,
+            0.4131795601222826,
+            0.5001832823822464,
+            0.5331795601222826
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.45202431499094203,
+            0.4316862686820652,
+            0.5720243149909421,
+            0.5516862686820652
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "07735_00",
+      "garment_id": "viton_cloth_sha256:317cb801d25042cbaa3a052f7a07fc0f7c523a1f520f4ecf9905ab9fb95e5635",
+      "boxes": [
+        [
+          0.3766649682971014,
+          0.33292914496527776,
+          0.4966649682971014,
+          0.45292914496527775
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "90af01217f79e5f71874ef5dba283436e880a8af8129d564da2842c86d5014e6",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "317cb801d25042cbaa3a052f7a07fc0f7c523a1f520f4ecf9905ab9fb95e5635",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "82ab85a3de4184a156c653112d01b1209c052015e0f31f037a22f18cff2dedfa",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3766649682971014,
+            0.33292914496527776,
+            0.4966649682971014,
+            0.45292914496527775
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "validation"
+    },
+    {
+      "id": "05697_00",
+      "garment_id": "viton_cloth_sha256:437c972f5d4c952f3e59e73c30604463c32014a86bea0011ca843c37bd551faf",
+      "boxes": [
+        [
+          0.45766601562500003,
+          0.21398737980769234,
+          0.577666015625,
+          0.33398737980769233
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "9620fa2f5220b637826b1f51ebf455c75e538f8d97cc248a8556c9e3092ee668",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "437c972f5d4c952f3e59e73c30604463c32014a86bea0011ca843c37bd551faf",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "16267471410b3aea3b58e50460219a392c0368712793cee628b9bf6973aa862d",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.45766601562500003,
+            0.21398737980769234,
+            0.577666015625,
+            0.33398737980769233
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "validation"
+    },
+    {
+      "id": "05213_00",
+      "garment_id": "viton_cloth_sha256:87c52d475a2410b9a3967e539dd889fcbcb49bfd2c34044bcbe424bcda6e86ea",
+      "boxes": [
+        [
+          0.2997005208333333,
+          0.3055694110576923,
+          0.49352864583333333,
+          0.4598927283653846
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "12c8e7d72f5b28e7a88bfc798add8dc9633424461cad8c4a7a7b9a44916e3b7c",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "87c52d475a2410b9a3967e539dd889fcbcb49bfd2c34044bcbe424bcda6e86ea",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "a1a9bc4240c930fca10b39285b2b5c57a0e37d649c5c230ffb1990ce78a07d6e",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.2997005208333333,
+            0.3055694110576923,
+            0.4197005208333333,
+            0.4255694110576923
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.37352864583333334,
+            0.3398927283653846,
+            0.49352864583333333,
+            0.4598927283653846
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "08320_00",
+      "garment_id": "viton_cloth_sha256:bd3d26f24d3732adb426d68ff1d558fc6f42b2d5e68e88069219325c2fff9200",
+      "boxes": [
+        [
+          0.4191772762345679,
+          0.4081996221127717,
+          0.6250183256172839,
+          0.541046726392663
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "cd3f653cd2e4a77a8ee053daf122d24f47779a865707ff4efa19d0b1cf9930bb",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "bd3d26f24d3732adb426d68ff1d558fc6f42b2d5e68e88069219325c2fff9200",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "dac57e2e60a8ff3e97ecd48a32d8944800a88f33afe07573b5e9130c4689e6d5",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4191772762345679,
+            0.4081996221127717,
+            0.5391772762345679,
+            0.5281996221127717
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.505018325617284,
+            0.42104672639266305,
+            0.6250183256172839,
+            0.541046726392663
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "10337_00",
+      "garment_id": "viton_cloth_sha256:0766ce7e72068b400ba50b5ed5dc9708e4117310ecf0eac3e3eada35fad27f0b",
+      "boxes": [
+        [
+          0.40298672441123196,
+          0.18894658627717392,
+          0.522986724411232,
+          0.3089465862771739
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "a3ec470a4c2183ac87df81c0b42cfc2dbd513461118c2dfceb9dc0c4a27da99f",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "0766ce7e72068b400ba50b5ed5dc9708e4117310ecf0eac3e3eada35fad27f0b",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "fc5effb0ae27c011c42a12ecfd243a164f56cdf380c5050d91b9d5aadaa16736",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.40298672441123196,
+            0.18894658627717392,
+            0.522986724411232,
+            0.3089465862771739
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "validation"
+    },
+    {
+      "id": "00313_00",
+      "garment_id": "viton_cloth_sha256:54dccd0f727f268f6eb2805ba325633453458cd80de4c2adb16bde23de2eac1a",
+      "boxes": [
+        [
+          0.44446897644927535,
+          0.32523002292798914,
+          0.5644689764492754,
+          0.44523002292798913
+        ],
+        [
+          0.20397984601449276,
+          0.7968948496942934,
+          0.32397984601449276,
+          0.9168948496942935
+        ],
+        [
+          0.716088088768116,
+          0.830494968580163,
+          0.8360880887681159,
+          0.9504949685801631
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "0930872c5c5777c84728cccfeb2d72e90d35f4c6c912f5d8bb9cd93707af988a",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "54dccd0f727f268f6eb2805ba325633453458cd80de4c2adb16bde23de2eac1a",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "38e46907a7395fe77cfb8eb4dcb841737106fbba34ddc0bbdc1f554c96ee272f",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.44446897644927535,
+            0.32523002292798914,
+            0.5644689764492754,
+            0.44523002292798913
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.20397984601449276,
+            0.7968948496942934,
+            0.32397984601449276,
+            0.9168948496942935
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.716088088768116,
+            0.830494968580163,
+            0.8360880887681159,
+            0.9504949685801631
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "13645_00",
+      "garment_id": "viton_cloth_sha256:8608658a58c650821683aca3511ae2f83f36eaea53240bde24e1837cbe7b47c6",
+      "boxes": [
+        [
+          0.40037081068840574,
+          0.17886827256944446,
+          0.6563513360507247,
+          0.34150499131944445
+        ],
+        [
+          0.2254387454710145,
+          0.36234700520833335,
+          0.3454387454710145,
+          0.48234700520833335
+        ],
+        [
+          0.6491242074275363,
+          0.42636610243055556,
+          0.7691242074275362,
+          0.5463661024305555
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "9f898c3dda7b0a7f61751c6dcd1bd642cacc4882184a8526e5c099bc6f8a7bf3",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "8608658a58c650821683aca3511ae2f83f36eaea53240bde24e1837cbe7b47c6",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "2a8ef7d7040148427ab276dfef7a8f359b1c4c44e2ee9ceaf24ec3d9816a067a",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.40037081068840574,
+            0.17886827256944446,
+            0.5203708106884057,
+            0.2988682725694445
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.5363513360507246,
+            0.22150499131944446,
+            0.6563513360507247,
+            0.34150499131944445
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.2254387454710145,
+            0.36234700520833335,
+            0.3454387454710145,
+            0.48234700520833335
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.6491242074275363,
+            0.42636610243055556,
+            0.7691242074275362,
+            0.5463661024305555
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "14138_00",
+      "garment_id": "viton_cloth_sha256:032bd993b4b8490e0665aed5032ae48a07165a0eb21f9eec4067e8108f012c75",
+      "boxes": [
+        [
+          0.3692255015432098,
+          0.33811427904211955,
+          0.4892255015432098,
+          0.45811427904211954
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "a6253c309625f79c96935ed289a642b4166ad5d05157c79e39df0f48964998f9",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "032bd993b4b8490e0665aed5032ae48a07165a0eb21f9eec4067e8108f012c75",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "d3a39e76bdaae31a37344983595584e42a962e4a4480e1cea15b18ddc41bafb4",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3692255015432098,
+            0.33811427904211955,
+            0.4892255015432098,
+            0.45811427904211954
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "03753_00",
+      "garment_id": "viton_cloth_sha256:1846a7fb78fff59e7681c9b5f66e1ada5553a3b0bd12d5d3716d81ac28c0c17b",
+      "boxes": [
+        [
+          0.44551333220108685,
+          0.2581661854619565,
+          0.5655133322010868,
+          0.3781661854619565
+        ],
+        [
+          0.19283245584239128,
+          0.2711587126358696,
+          0.3128324558423913,
+          0.3911587126358696
+        ],
+        [
+          0.7121171591938407,
+          0.3188412873641304,
+          0.8321171591938405,
+          0.4388412873641304
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "0884b5d3a636d03a7a69dc968b5ab9044f52efe055defd658f2e829bb37abd6c",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "1846a7fb78fff59e7681c9b5f66e1ada5553a3b0bd12d5d3716d81ac28c0c17b",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "35c931db0d88a20a501acb5168ff8bf15ffc2f01d514399d439bdc9c41fc22ea",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.44551333220108685,
+            0.2581661854619565,
+            0.5655133322010868,
+            0.3781661854619565
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.19283245584239128,
+            0.2711587126358696,
+            0.3128324558423913,
+            0.3911587126358696
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.7121171591938407,
+            0.3188412873641304,
+            0.8321171591938405,
+            0.4388412873641304
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "validation"
+    },
+    {
+      "id": "04390_00",
+      "garment_id": "viton_cloth_sha256:13a7a4dc93040a5cc8fbef23d49a735b95df79dfc5a84f55734d6d680648348e",
+      "boxes": [
+        [
+          0.4275807773919753,
+          0.3005027488425926,
+          0.7086446277006173,
+          0.48198567708333334
+        ],
+        [
+          0.30826268325617284,
+          0.48916449652777777,
+          0.42826268325617284,
+          0.6091644965277778
+        ],
+        [
+          0.5521949749228394,
+          0.502330005787037,
+          0.6721949749228395,
+          0.6223300057870371
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "2c823a4ed7a803c8afc8536a2ac2471257810f66462a5751a0301f15c22abd52",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "13a7a4dc93040a5cc8fbef23d49a735b95df79dfc5a84f55734d6d680648348e",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "59a712a2240e5942f287311e3947b549d4ec72a57b62f9c05c269cc559983c99",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.5886446277006172,
+            0.3005027488425926,
+            0.7086446277006173,
+            0.4205027488425926
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4275807773919753,
+            0.36198567708333335,
+            0.5475807773919753,
+            0.48198567708333334
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.30826268325617284,
+            0.48916449652777777,
+            0.42826268325617284,
+            0.6091644965277778
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.5521949749228394,
+            0.502330005787037,
+            0.6721949749228395,
+            0.6223300057870371
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "12917_00",
+      "garment_id": "viton_cloth_sha256:1cc254d5fb0db283e7b727dcbbb49cb0aba41d7a7a3ae7b0e9102f0767987984",
+      "boxes": [
+        [
+          0.4018001302083334,
+          0.2966252335258152,
+          0.5218001302083334,
+          0.4166252335258152
+        ],
+        [
+          0.17402669270833335,
+          0.4284325110394022,
+          0.29402669270833337,
+          0.5484325110394022
+        ],
+        [
+          0.6752376302083334,
+          0.4456285028872283,
+          0.7952376302083333,
+          0.5656285028872283
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "651274309fb3e029722b83c5857bd679960e8b00a4e1d386e3b6c4d433415221",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "1cc254d5fb0db283e7b727dcbbb49cb0aba41d7a7a3ae7b0e9102f0767987984",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "4f03150739c2e9bfd72e3fba4f5c787edbcc8e82861efe110cfb0cda7fbfaa04",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4018001302083334,
+            0.2966252335258152,
+            0.5218001302083334,
+            0.4166252335258152
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.17402669270833335,
+            0.4284325110394022,
+            0.29402669270833337,
+            0.5484325110394022
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.6752376302083334,
+            0.4456285028872283,
+            0.7952376302083333,
+            0.5656285028872283
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "13785_00",
+      "garment_id": "viton_cloth_sha256:a0302e5fb46fec61adf2ef5fe0b2cca42e1209d523b93cea38eb5efa447e99ca",
+      "boxes": [
+        [
+          0.36753552423007246,
+          0.23597753906250002,
+          0.6230489979619565,
+          0.3633251953125
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "86f9bcb86cbc7095ef1fae0add21f77b8a570ef7d6dd87dcd2c703100f0a6875",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "a0302e5fb46fec61adf2ef5fe0b2cca42e1209d523b93cea38eb5efa447e99ca",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "b69528e9a1f6a45691289f4c95270f72a4ebf64cb936f501dd906561b7ab1709",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.36753552423007246,
+            0.23597753906250002,
+            0.48753552423007246,
+            0.3559775390625
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.5030489979619566,
+            0.24332519531250002,
+            0.6230489979619565,
+            0.3633251953125
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "10645_00",
+      "garment_id": "viton_cloth_sha256:58e6dadb3062630d4db7fbd1045ad96a024fc52790432b86048538cd4a7d08e4",
+      "boxes": [
+        [
+          0.44462239583333335,
+          0.27677208533653846,
+          0.5646223958333334,
+          0.39677208533653846
+        ],
+        [
+          0.13387171648550727,
+          0.8269854266826924,
+          0.25387171648550727,
+          0.9469854266826923
+        ],
+        [
+          0.70951709692029,
+          0.7162582632211538,
+          0.8295170969202899,
+          0.8362582632211539
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "1bfd892edafa6d06c53bf7629914d8e2ec20c4f47b1be9b8dcaff331c7fb4c6c",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "58e6dadb3062630d4db7fbd1045ad96a024fc52790432b86048538cd4a7d08e4",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "b424129bbe803edeb4588a9869f075f2c7a5aa2a4209a3716bed83bfb4824093",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.44462239583333335,
+            0.27677208533653846,
+            0.5646223958333334,
+            0.39677208533653846
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.70951709692029,
+            0.7162582632211538,
+            0.8295170969202899,
+            0.8362582632211539
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.13387171648550727,
+            0.8269854266826924,
+            0.25387171648550727,
+            0.9469854266826923
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "10215_00",
+      "garment_id": "viton_cloth_sha256:91195a6def683de572747eba1703b533f4fca4f3b4063ce1dda8ed916b7b85a0",
+      "boxes": [
+        [
+          0.3537001811594203,
+          0.28055112092391304,
+          0.5641893115942029,
+          0.4688255774456522
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "64007072c9a9479f590d230256fadd6469ef510839fc6b1e9b223b0c930c1911",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "91195a6def683de572747eba1703b533f4fca4f3b4063ce1dda8ed916b7b85a0",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "60884c9534c83862864c1ed6de875366ecb3f81a82696122c072364e7fc9fb2b",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3537001811594203,
+            0.28055112092391304,
+            0.4737001811594203,
+            0.40055112092391304
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4441893115942029,
+            0.3488255774456522,
+            0.5641893115942029,
+            0.4688255774456522
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "validation"
+    },
+    {
+      "id": "11369_00",
+      "garment_id": "viton_cloth_sha256:a2f19a6b4da60c018cb1b644fd02a5ca12aebd7b2b98baedd328b1710dbf99cd",
+      "boxes": [
+        [
+          0.3813411458333334,
+          0.2950230618990385,
+          0.5013411458333334,
+          0.4150230618990385
+        ],
+        [
+          0.3335546875,
+          0.8865896183894231,
+          0.4535546875,
+          1
+        ],
+        [
+          0.6765234375,
+          0.7640335787259616,
+          0.7965234374999999,
+          0.8840335787259617
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "6839610fd402f919a7bf0211e359fca158698637864e6e4106596b99bc223581",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "a2f19a6b4da60c018cb1b644fd02a5ca12aebd7b2b98baedd328b1710dbf99cd",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "97ca523c300e4ea89ca0973448e89d9eb9cba23bd489ce9b7688b0e6dad8a0dd",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3813411458333334,
+            0.2950230618990385,
+            0.5013411458333334,
+            0.4150230618990385
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.6765234375,
+            0.7640335787259616,
+            0.7965234374999999,
+            0.8840335787259617
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3335546875,
+            0.8865896183894231,
+            0.4535546875,
+            1
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "08384_00",
+      "garment_id": "viton_cloth_sha256:03278c9c00e3f9d718a3b34af412a3ec8a4cecc5260671f91eb6f634a1ec1909",
+      "boxes": [
+        [
+          0.3851392663043478,
+          0.2972539487092391,
+          0.5051392663043478,
+          0.4172539487092391
+        ],
+        [
+          0.2336311141304348,
+          0.6225779127038042,
+          0.3536311141304348,
+          0.7425779127038044
+        ],
+        [
+          0.7191519474637682,
+          0.7337786599864131,
+          0.8391519474637681,
+          0.853778659986413
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "e24dffe26a616f08303b0e22e29ed5ca6132cfb753207e1432f98c33385fba7a",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "03278c9c00e3f9d718a3b34af412a3ec8a4cecc5260671f91eb6f634a1ec1909",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "cc59b6ee769d171748e53748248a11f4d811a5d3793c90026deef31fb7174732",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3851392663043478,
+            0.2972539487092391,
+            0.5051392663043478,
+            0.4172539487092391
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.2336311141304348,
+            0.6225779127038042,
+            0.3536311141304348,
+            0.7425779127038044
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.7191519474637682,
+            0.7337786599864131,
+            0.8391519474637681,
+            0.853778659986413
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "07853_00",
+      "garment_id": "viton_cloth_sha256:9aaee29fb6fbe86c8e31f4715886aedbd1004c3abdca03df68b3474d058a3b97",
+      "boxes": [
+        [
+          0.3406736865942029,
+          0.34849142323369564,
+          0.630510643115942,
+          0.5095919667119565
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "e2564b91548ceea43dc811067b415d2b8341dcdc220b885c113e09371921a500",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "9aaee29fb6fbe86c8e31f4715886aedbd1004c3abdca03df68b3474d058a3b97",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "2006eb4375df961e0f79cb12569bf81e4340d7ba8f8f430579ad8ba89ac789e5",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.5105106431159421,
+            0.34849142323369564,
+            0.630510643115942,
+            0.46849142323369564
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3406736865942029,
+            0.3895919667119565,
+            0.4606736865942029,
+            0.5095919667119565
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "02993_00",
+      "garment_id": "viton_cloth_sha256:39bfe7f9415182ba7b8592233df0412f6fa2b94660ab84d3ae7b464d904fc65b",
+      "boxes": [
+        [
+          0.27472294560185184,
+          0.27912724247685183,
+          0.6438650173611111,
+          0.42531358506944444
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "8d39a95ed94297de35ae11d7c164c714de581ecf4ec3b3b24c20ea8ca0573347",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "39bfe7f9415182ba7b8592233df0412f6fa2b94660ab84d3ae7b464d904fc65b",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "a8b61a7062f10835958704acb09c3fa5aa8be39a2767d113f94ebf1e78e09951",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.27472294560185184,
+            0.27912724247685183,
+            0.39472294560185184,
+            0.39912724247685183
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.5238650173611112,
+            0.30531358506944445,
+            0.6438650173611111,
+            0.42531358506944444
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "validation"
+    },
+    {
+      "id": "08055_00",
+      "garment_id": "viton_cloth_sha256:827735d0d348a79a5ebbbf4bed8e7c830740c5e1989ea3a3bfb05932b2d534b6",
+      "boxes": [
+        [
+          0.3845776721014492,
+          0.18240541811342592,
+          0.5045776721014492,
+          0.3024054181134259
+        ],
+        [
+          0.3180015851449275,
+          0.42216200086805555,
+          0.4380015851449275,
+          0.5421620008680555
+        ],
+        [
+          0.7211197916666667,
+          0.3734062138310185,
+          0.8411197916666668,
+          0.4934062138310185
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "ddf475faa9af0a7a11986285ad3e0ee2434ceb6474c51ac720a3ff82cce6add3",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "827735d0d348a79a5ebbbf4bed8e7c830740c5e1989ea3a3bfb05932b2d534b6",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "60faf725da527ae11d93da4cd624a5908af5df7705ff9765bbb9eec4b600bd60",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3845776721014492,
+            0.18240541811342592,
+            0.5045776721014492,
+            0.3024054181134259
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.7211197916666667,
+            0.3734062138310185,
+            0.8411197916666668,
+            0.4934062138310185
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.3180015851449275,
+            0.42216200086805555,
+            0.4380015851449275,
+            0.5421620008680555
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "validation"
+    },
+    {
+      "id": "11817_00",
+      "garment_id": "viton_cloth_sha256:8db640d5e6c8d0e8ea0320470e2cb1b7e6a27b07a1d4467cb05d40d09d294b23",
+      "boxes": [
+        [
+          0.4013620923913044,
+          0.25029725060096153,
+          0.5213620923913044,
+          0.3702972506009615
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "visible": [
+        true,
+        false,
+        false
+      ],
+      "sources": {
+        "target": {
+          "sha256": "8e2ed60b0b5de9c63b41ce57b0f8a2ee1db97eafc861f8551c3a78333bd9cdf4",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "8db640d5e6c8d0e8ea0320470e2cb1b7e6a27b07a1d4467cb05d40d09d294b23",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "389a0d56a4bed7e3679e92bfb3b38d900a0bad3a1426cf781b483d66e2ce7552",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4013620923913044,
+            0.25029725060096153,
+            0.5213620923913044,
+            0.3702972506009615
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "12056_00",
+      "garment_id": "viton_cloth_sha256:50864fdb361bd091ee4690d5a09062f6a79cafe64a52ba7c2ba7d8655d7a6225",
+      "boxes": [
+        [
+          0.4371478713768116,
+          0.2760482124660326,
+          0.5571478713768117,
+          0.3960482124660326
+        ],
+        [
+          0.24353374094202895,
+          0.44975808848505433,
+          0.36353374094202895,
+          0.5697580884850544
+        ],
+        [
+          0.695300045289855,
+          0.42951416015625005,
+          0.8153000452898551,
+          0.5495141601562501
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "69e87c64c9b31848f1fb361e6b6f07972a8f35fad75c55e32307f63591bf10fd",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "50864fdb361bd091ee4690d5a09062f6a79cafe64a52ba7c2ba7d8655d7a6225",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "3c80dc4635788366039f10599b39178f9569f961c0ac96d54736f47834133e7a",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.4371478713768116,
+            0.2760482124660326,
+            0.5571478713768117,
+            0.3960482124660326
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.695300045289855,
+            0.42951416015625005,
+            0.8153000452898551,
+            0.5495141601562501
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.24353374094202895,
+            0.44975808848505433,
+            0.36353374094202895,
+            0.5697580884850544
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    },
+    {
+      "id": "03825_00",
+      "garment_id": "viton_cloth_sha256:9cf81c0ef50a053150977b3a9ed0f143f11f0901054b0d0bfd694f6d78874a32",
+      "boxes": [
+        [
+          0.29564424818840573,
+          0.22007080078125002,
+          0.7528679800724638,
+          0.36592847741168477
+        ],
+        [
+          0.16783401268115944,
+          0.7673485266644022,
+          0.28783401268115943,
+          0.8873485266644021
+        ],
+        [
+          0.7200509510869566,
+          0.5950071119225544,
+          0.8400509510869565,
+          0.7150071119225543
+        ]
+      ],
+      "visible": [
+        true,
+        true,
+        true
+      ],
+      "sources": {
+        "target": {
+          "sha256": "ea97d07bd8632d0c744af4380a346d9a967382d9de89fb4c787dbddd7bbef6e2",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "garment": {
+          "sha256": "9cf81c0ef50a053150977b3a9ed0f143f11f0901054b0d0bfd694f6d78874a32",
+          "native_size": [
+            768,
+            1024
+          ]
+        },
+        "densepose": {
+          "sha256": "6252a8e22592ddc90174d66085f1037ae651240355b4d67029c77f77e9d7d976",
+          "native_size": [
+            768,
+            1024
+          ]
+        }
+      },
+      "annotation_regime": "cached_MolmoPoint_pseudo_boxes_no_live_Molmo",
+      "box_records": [
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.29564424818840573,
+            0.22007080078125002,
+            0.41564424818840573,
+            0.34007080078125
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.6328679800724637,
+            0.24592847741168478,
+            0.7528679800724638,
+            0.36592847741168477
+          ],
+          "concept": "collar_neckline",
+          "id": "collar_neckline_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.7200509510869566,
+            0.5950071119225544,
+            0.8400509510869565,
+            0.7150071119225543
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_0",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        },
+        {
+          "automatic_supervision": true,
+          "box": [
+            0.16783401268115944,
+            0.7673485266644022,
+            0.28783401268115943,
+            0.8873485266644021
+          ],
+          "concept": "sleeve_cuff",
+          "id": "sleeve_cuff_1",
+          "label": "uncertain",
+          "model_revision": "188130f961c8e0888a34e11121a1423c461a01ba",
+          "owner": "uncertain",
+          "proposal_source": "allenai/MolmoPoint-8B",
+          "reviewed": false,
+          "reviewer": "",
+          "visibility": "uncertain"
+        }
+      ],
+      "split": "train"
+    }
+  ]
+}

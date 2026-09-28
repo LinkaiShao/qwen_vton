@@ -1,0 +1,85 @@
+{
+  "paired_image_and_timestep_schedules_identical": true,
+  "arms": {
+    "denoise_spatial_control": {
+      "updates": 500,
+      "optimizer_steps": [
+        500
+      ],
+      "projection_updates": [
+        {
+          "parameter": "unet.up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_q.weight",
+          "elements": 409600,
+          "update_l2": 1.5167348384857178,
+          "relative_update_l2": 0.032286805529220766,
+          "update_max_abs": 0.01163296028971672
+        },
+        {
+          "parameter": "unet.up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_k.weight",
+          "elements": 409600,
+          "update_l2": 1.4825499057769775,
+          "relative_update_l2": 0.032214406845832336,
+          "update_max_abs": 0.009856142103672028
+        },
+        {
+          "parameter": "unet.up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_q.weight",
+          "elements": 102400,
+          "update_l2": 0.9555703401565552,
+          "relative_update_l2": 0.02683053134828606,
+          "update_max_abs": 0.01173005998134613
+        },
+        {
+          "parameter": "unet.up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_k.weight",
+          "elements": 102400,
+          "update_l2": 1.084489107131958,
+          "relative_update_l2": 0.03455813350643257,
+          "update_max_abs": 0.011688921600580215
+        }
+      ],
+      "median_seconds_per_update_excluding_evaluation": 0.2607736587524414,
+      "peak_cuda_gib": 8.38681173324585,
+      "first_50_mean_training_mass": 0.09390273094177248,
+      "last_50_mean_training_mass": 0.7356573182344437
+    },
+    "denoise_spatial_dino": {
+      "updates": 500,
+      "optimizer_steps": [
+        500
+      ],
+      "projection_updates": [
+        {
+          "parameter": "unet.up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_q.weight",
+          "elements": 409600,
+          "update_l2": 1.4899080991744995,
+          "relative_update_l2": 0.03171574347331839,
+          "update_max_abs": 0.011237934231758118
+        },
+        {
+          "parameter": "unet.up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_k.weight",
+          "elements": 409600,
+          "update_l2": 1.4405895471572876,
+          "relative_update_l2": 0.031302647950766135,
+          "update_max_abs": 0.009436838328838348
+        },
+        {
+          "parameter": "unet.up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_q.weight",
+          "elements": 102400,
+          "update_l2": 0.9110593199729919,
+          "relative_update_l2": 0.025580749650181422,
+          "update_max_abs": 0.01100422814488411
+        },
+        {
+          "parameter": "unet.up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_k.weight",
+          "elements": 102400,
+          "update_l2": 1.0378661155700684,
+          "relative_update_l2": 0.033072453699905004,
+          "update_max_abs": 0.010893013328313828
+        }
+      ],
+      "median_seconds_per_update_excluding_evaluation": 0.32965660095214844,
+      "peak_cuda_gib": 8.411490440368652,
+      "first_50_mean_training_mass": 0.07809499502182005,
+      "last_50_mean_training_mass": 0.7232661999762058
+    }
+  }
+}
