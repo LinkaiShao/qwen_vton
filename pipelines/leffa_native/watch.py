@@ -11,6 +11,8 @@ from pathlib import Path
 import shutil
 import subprocess
 import time
+import os
+import signal
 import requests
 import remote
 import icrn
@@ -50,6 +52,19 @@ def collect_final(user):
                 for suffix in ['.png','.npz']:getfile(user,f'run/traces/{arm}/{key}{suffix}',True)
 
 
+def cleanup_transfer():
+    transport=remote.LOCAL/'transport';marker=transport/'CLEANED.json';pidfile=transport/'PIDS.json'
+    if marker.exists() or not pidfile.exists():return
+    for name,pid in json.loads(pidfile.read_text()).items():
+        proc=Path('/proc')/str(pid)/'cmdline'
+        if not proc.exists():continue
+        cmd=proc.read_bytes().replace(b'\x00',b' ').decode()
+        expected='leffa_native/transfer.py serve' if name=='server' else str(transport/'cloudflared')+' tunnel'
+        if expected in cmd:os.kill(pid,signal.SIGTERM)
+    (transport/'secret').unlink(missing_ok=True)
+    marker.write_text(json.dumps({'cleaned':time.time()}))
+
+
 def publish():
     build(remote.LOCAL)
     LOCK.parent.mkdir(parents=True,exist_ok=True)
@@ -83,6 +98,7 @@ def main():
             for path in ['run/PROGRESS.json','run/GRADIENT_VERIFICATION.json','run/TIMESTEP_VERIFICATION.json']:
                 getfile(user,path)
             current=state['stage']
+            if current!='waiting_for_data' and getfile(user,'DATA_READY.json') is not None:cleanup_transfer()
             progress_path=remote.LOCAL/'run/PROGRESS.json'
             progress=json.loads(progress_path.read_text()) if progress_path.exists() else {}
             publication_key=(current,progress.get('arm'),progress.get('step',0)//250)

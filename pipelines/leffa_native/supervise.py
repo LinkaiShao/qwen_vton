@@ -40,6 +40,10 @@ def main():
 
     try:
         execute('cpu_checks',[sys.executable,str(code/'test_core.py')])
+        execute('architecture_checks',[sys.executable,str(code/'verify_architecture.py'),
+                '--leffa-code',common[common.index('--leffa-code')+1],
+                '--leffa-weights',common[common.index('--leffa-weights')+1],
+                '--output',str(root/'ARCHITECTURE_VERIFICATION.json')])
         # Install only the independent scorer into a private directory. The
         # existing LeFFA environment and its pinned torch are never upgraded.
         execute('evaluation_dependency',[sys.executable,'-m','pip','install','--no-deps','--target',str(root/'deps'),'lpips==0.1.4'])
