@@ -1,0 +1,5529 @@
+{
+  "records": [
+    {
+      "seconds": 0.11682420200008892,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "queries": [
+        "turtleneck sweater"
+      ],
+      "candidates": [
+        {
+          "query": "turtleneck sweater",
+          "primary": "turtleneck sweater",
+          "score": 0.69921875,
+          "pixels": 19326,
+          "color_support": 1.0,
+          "feature_pixels": 20,
+          "appearance_margin": 0.12309570610523224,
+          "appearance_cosine": 0.27649450302124023,
+          "foreground_similarity": 0.604809582233429,
+          "component_scores": [
+            {
+              "margin": 0.12309570610523224,
+              "cosine": 0.27649450302124023,
+              "foreground_similarity": 0.604809582233429
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        },
+        {
+          "query": "turtleneck sweater",
+          "primary": "turtleneck sweater",
+          "score": 0.78515625,
+          "pixels": 18412,
+          "color_support": 1.0,
+          "feature_pixels": 19,
+          "appearance_margin": 0.12772409617900848,
+          "appearance_cosine": 0.26927196979522705,
+          "foreground_similarity": 0.6141807436943054,
+          "component_scores": [
+            {
+              "margin": 0.12772409617900848,
+              "cosine": 0.26927196979522705,
+              "foreground_similarity": 0.6141807436943054
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "turtleneck sweater",
+          "presence": 0.94921875,
+          "max_instance_score": 0.828125,
+          "max_final_score": 0.78607177734375,
+          "threshold": 0.2,
+          "instances": 2,
+          "strong_spatial_hypotheses": 2,
+          "primary": "turtleneck sweater",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "12416975_00",
+          "queries": [
+            "turtleneck sweater"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.94140625,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.9303741455078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "48558cfb8634f2b29af771b63b193e0f3e693f8964e4f816a023a418d7650ad0",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            3148036
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_12416975",
+      "view": "12416975_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/12416975/12416975_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 19409,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_12416975/12416975_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        587,
+        32,
+        1032,
+        1204
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        445,
+        1172
+      ],
+      "mask_pixels": 19409,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "425042e599f07413a5054b90623014aad6c4153698fd243c7e51f6e5ee792247"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0a8e19c205094c060b68a3c8702db539cfdce75e9014b11f63283b81ab183c1b"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "eede462ab7809f04ea019d3b6eb46cfc7c30f351a59c3e3b1a4b61acbadaaebe"
+        }
+      }
+    },
+    {
+      "seconds": 0.10659492000013415,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "queries": [
+        "turtleneck sweater"
+      ],
+      "candidates": [
+        {
+          "query": "turtleneck sweater",
+          "primary": "turtleneck sweater",
+          "score": 0.98828125,
+          "pixels": 1888219,
+          "color_support": 1.0,
+          "feature_pixels": 1996,
+          "appearance_margin": 0.18126560747623444,
+          "appearance_cosine": 0.9764522314071655,
+          "foreground_similarity": 0.8208597302436829,
+          "component_scores": [
+            {
+              "margin": 0.18126560747623444,
+              "cosine": 0.9764522314071655,
+              "foreground_similarity": 0.8208597302436829
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        },
+        {
+          "query": "turtleneck sweater",
+          "primary": "turtleneck sweater",
+          "score": 0.234375,
+          "pixels": 68434,
+          "color_support": 1.0,
+          "feature_pixels": 73,
+          "appearance_margin": 0.20992080867290497,
+          "appearance_cosine": 0.5227166414260864,
+          "foreground_similarity": 0.8386464715003967,
+          "component_scores": [
+            {
+              "margin": 0.20992080867290497,
+              "cosine": 0.5227166414260864,
+              "foreground_similarity": 0.8386464715003967
+            }
+          ],
+          "matched_reference_components": [],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": false,
+          "keep": false
+        }
+      ],
+      "attempts": [
+        {
+          "query": "turtleneck sweater",
+          "presence": 0.99609375,
+          "max_instance_score": 0.9921875,
+          "max_final_score": 0.988311767578125,
+          "threshold": 0.2,
+          "instances": 2,
+          "strong_spatial_hypotheses": 1,
+          "primary": "turtleneck sweater",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "12416975_00",
+          "queries": [
+            "turtleneck sweater"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.94140625,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.9303741455078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "48558cfb8634f2b29af771b63b193e0f3e693f8964e4f816a023a418d7650ad0",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            3148036
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_12416975",
+      "view": "12416975_02",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/12416975/12416975_02.webp",
+      "status": "cut",
+      "before_iou": 0.9999115646906935,
+      "before_pixels": 1888386,
+      "retained_previous_fraction": 0.9999115646906935,
+      "output_dir": "regression33/farfetch_12416975/12416975_02",
+      "repeats_identical": true,
+      "box_xyxy": [
+        379,
+        106,
+        1599,
+        2187
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        1220,
+        2081
+      ],
+      "mask_pixels": 1888219,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "18c06c39936cecd948dc61f53b39a4a7ac03d0a4a2e814eb9836cbcb353e6cd4"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "bbc1ebf5cd99a32e7b8b85a21b0c6a9adeb28aaf3df707a70983176a59ccf4dc"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "00ca54f8aa11c96757ba4bb0cc7b254c16bc20282d8fe4d074bd9657d09805f7"
+        }
+      }
+    },
+    {
+      "seconds": 0.11873262700009946,
+      "reference_ids": [
+        "12416975_00"
+      ],
+      "queries": [
+        "turtleneck sweater"
+      ],
+      "candidates": [
+        {
+          "query": "turtleneck sweater",
+          "primary": "turtleneck sweater",
+          "score": 0.96875,
+          "pixels": 2406841,
+          "color_support": 1.0,
+          "feature_pixels": 2520,
+          "appearance_margin": 0.1858031302690506,
+          "appearance_cosine": 0.983913242816925,
+          "foreground_similarity": 0.839195728302002,
+          "component_scores": [
+            {
+              "margin": 0.1858031302690506,
+              "cosine": 0.983913242816925,
+              "foreground_similarity": 0.839195728302002
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        },
+        {
+          "query": "turtleneck sweater",
+          "primary": "turtleneck sweater",
+          "score": 0.2021484375,
+          "pixels": 51651,
+          "color_support": 1.0,
+          "feature_pixels": 59,
+          "appearance_margin": 0.13547736406326294,
+          "appearance_cosine": 0.3729264736175537,
+          "foreground_similarity": 0.7809934616088867,
+          "component_scores": [
+            {
+              "margin": 0.13547736406326294,
+              "cosine": 0.3729264736175537,
+              "foreground_similarity": 0.7809934616088867
+            }
+          ],
+          "matched_reference_components": [],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": false,
+          "keep": false
+        }
+      ],
+      "attempts": [
+        {
+          "query": "turtleneck sweater",
+          "presence": 0.9765625,
+          "max_instance_score": 0.9921875,
+          "max_final_score": 0.96893310546875,
+          "threshold": 0.2,
+          "instances": 2,
+          "strong_spatial_hypotheses": 1,
+          "primary": "turtleneck sweater",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "12416975_00",
+          "queries": [
+            "turtleneck sweater"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.94140625,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.9303741455078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "48558cfb8634f2b29af771b63b193e0f3e693f8964e4f816a023a418d7650ad0",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            3148036
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_12416975",
+      "view": "12416975_03",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/12416975/12416975_03.webp",
+      "status": "cut",
+      "before_iou": 0.9998757862027136,
+      "before_pixels": 2407140,
+      "retained_previous_fraction": 0.9998757862027136,
+      "output_dir": "regression33/farfetch_12416975/12416975_03",
+      "repeats_identical": true,
+      "box_xyxy": [
+        268,
+        0,
+        1648,
+        2189
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        1380,
+        2189
+      ],
+      "mask_pixels": 2406841,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "eeeea47b4106d8613b87875a32ce10c741caca1e00338420f51d9fbc2ea706f3"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "8f160383fc00176c87bb77d362155f4acfae09b5adff59f80463809bd3d945ef"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "8bf0fa4b3fe612f0765484098b13206d2edecf32aec0a91bc383c3becfb86f24"
+        }
+      }
+    },
+    {
+      "seconds": 0.08412847799991141,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "primary": "tank top",
+          "score": 0.65625,
+          "pixels": 36237,
+          "color_support": 0.946236559139785,
+          "feature_pixels": 39,
+          "appearance_margin": 0.05123197287321091,
+          "appearance_cosine": 0.4584290087223053,
+          "foreground_similarity": 0.5297476053237915,
+          "component_scores": [
+            {
+              "margin": 0.05123197287321091,
+              "cosine": 0.4584290087223053,
+              "foreground_similarity": 0.5297476053237915
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "tank top",
+          "presence": 0.6875,
+          "max_instance_score": 0.95703125,
+          "max_final_score": 0.657958984375,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "tank top",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "13643172_00",
+          "queries": [
+            "tank top"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.90625,
+              "max_instance_score": 0.984375,
+              "max_final_score": 0.89208984375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "0b86447fa6c11cc09a6bfa055ecef1c0444a9e078846126b30278122354c60f5",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2573590
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_13643172",
+      "view": "13643172_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/13643172/13643172_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 36237,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_13643172/13643172_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        748,
+        317,
+        959,
+        679
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        211,
+        362
+      ],
+      "mask_pixels": 36237,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "274806a99bb8dcde3f9893688b1051d940bdb9e8a079fc78b011cd039be5a14d"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "2becc1b0d104a52baa9b945da0534c59286a1970c21cd382e07e164ad3cd8757"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "8a48b959e8c56593821145c376bd179783fc071bca8544b0b0f3e334200ad2a3"
+        }
+      }
+    },
+    {
+      "seconds": 0.08350809599983222,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "primary": "tank top",
+          "score": 0.98046875,
+          "pixels": 857852,
+          "color_support": 0.9986541049798116,
+          "feature_pixels": 907,
+          "appearance_margin": 0.18150927126407623,
+          "appearance_cosine": 0.934353768825531,
+          "foreground_similarity": 0.809062659740448,
+          "component_scores": [
+            {
+              "margin": 0.18150927126407623,
+              "cosine": 0.934353768825531,
+              "foreground_similarity": 0.809062659740448
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "tank top",
+          "presence": 0.9921875,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.980560302734375,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "tank top",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "13643172_00",
+          "queries": [
+            "tank top"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.90625,
+              "max_instance_score": 0.984375,
+              "max_final_score": 0.89208984375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "0b86447fa6c11cc09a6bfa055ecef1c0444a9e078846126b30278122354c60f5",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2573590
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_13643172",
+      "view": "13643172_02",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/13643172/13643172_02.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 857852,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_13643172/13643172_02",
+      "repeats_identical": true,
+      "box_xyxy": [
+        595,
+        350,
+        1427,
+        1833
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        832,
+        1483
+      ],
+      "mask_pixels": 857852,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "435c455a01dfecdc0f0db3b69d6c79bbdd9b17b6d6d99ed7ab77666424f1121d"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "8a01db4d73125f0242a3fb730e9db53ab9eeb875e70e7017611fda9e63d2dca6"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "fc966789209074c56610680d39b3871448d5b699fda00cd4a95cd356e5acbd58"
+        }
+      }
+    },
+    {
+      "seconds": 0.08266273100002763,
+      "reference_ids": [
+        "13643172_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "primary": "tank top",
+          "score": 0.9765625,
+          "pixels": 899470,
+          "color_support": 1.0,
+          "feature_pixels": 943,
+          "appearance_margin": 0.1758633255958557,
+          "appearance_cosine": 0.9284546375274658,
+          "foreground_similarity": 0.81049644947052,
+          "component_scores": [
+            {
+              "margin": 0.1758633255958557,
+              "cosine": 0.9284546375274658,
+              "foreground_similarity": 0.81049644947052
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "tank top",
+          "presence": 0.9921875,
+          "max_instance_score": 0.984375,
+          "max_final_score": 0.9766845703125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "tank top",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "13643172_00",
+          "queries": [
+            "tank top"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.90625,
+              "max_instance_score": 0.984375,
+              "max_final_score": 0.89208984375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "0b86447fa6c11cc09a6bfa055ecef1c0444a9e078846126b30278122354c60f5",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2573590
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_13643172",
+      "view": "13643172_03",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/13643172/13643172_03.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 899470,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_13643172/13643172_03",
+      "repeats_identical": true,
+      "box_xyxy": [
+        468,
+        262,
+        1391,
+        1819
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        923,
+        1557
+      ],
+      "mask_pixels": 899470,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "a60f9c8f2b95aa4b50fb7baacc5e039fb883553e39ad731f99318e880edc5958"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "6d413e47fc001fb97db0f4d038e78c5b15cb5e8a96336c62c84b31e40eeb551c"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "42fc6bbc87fb5a588ef57e47d1bd7c8db46f07670911e20c3f782975aaa3b1fc"
+        }
+      }
+    },
+    {
+      "seconds": 0.08311496000010266,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "primary": "tank top",
+          "score": 0.73046875,
+          "pixels": 9500,
+          "color_support": 1.0,
+          "feature_pixels": 10,
+          "appearance_margin": 0.11582031100988388,
+          "appearance_cosine": 0.23408852517604828,
+          "foreground_similarity": 0.4852050840854645,
+          "component_scores": [
+            {
+              "margin": 0.11582031100988388,
+              "cosine": 0.23408852517604828,
+              "foreground_similarity": 0.4852050840854645
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "tank top",
+          "presence": 0.83203125,
+          "max_instance_score": 0.87890625,
+          "max_final_score": 0.7312774658203125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "tank top",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "13643170_00",
+          "queries": [
+            "tank top"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9296875,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.918792724609375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "c7d1265ec5816928bc7cae65a03bf16a87ce2c5ae431beaad9df70693f3ca63f",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2693711
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_13643170",
+      "view": "13643170_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/13643170/13643170_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 9500,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_13643170/13643170_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        808,
+        261,
+        939,
+        455
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        131,
+        194
+      ],
+      "mask_pixels": 9500,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "89c6c9ce3af780cdfcf8dfdec6f3b12c6d88ef86c0f2e85e9df31010e6f7f957"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "45dd1302fece1ee3abc93557e5255c00c92cb73abd0d057ff7356badb133ba66"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "a34f789d3aeb3d88b06bc02d3304c4fa603d3af8decd442731e0c8c620630065"
+        }
+      }
+    },
+    {
+      "seconds": 0.08505175400000553,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "primary": "tank top",
+          "score": 0.984375,
+          "pixels": 780504,
+          "color_support": 0.9948339483394834,
+          "feature_pixels": 820,
+          "appearance_margin": 0.17620611190795898,
+          "appearance_cosine": 0.9081840515136719,
+          "foreground_similarity": 0.7857829928398132,
+          "component_scores": [
+            {
+              "margin": 0.17620611190795898,
+              "cosine": 0.9081840515136719,
+              "foreground_similarity": 0.7857829928398132
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "tank top",
+          "presence": 0.99609375,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.9844207763671875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "tank top",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "13643170_00",
+          "queries": [
+            "tank top"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9296875,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.918792724609375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "c7d1265ec5816928bc7cae65a03bf16a87ce2c5ae431beaad9df70693f3ca63f",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2693711
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_13643170",
+      "view": "13643170_02",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/13643170/13643170_02.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 780504,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_13643170/13643170_02",
+      "repeats_identical": true,
+      "box_xyxy": [
+        577,
+        326,
+        1417,
+        1746
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        840,
+        1420
+      ],
+      "mask_pixels": 780504,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "d18ccf010b65ed91f7761c0f1a1e96298fb78747db620187d388c23417dc2c5c"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "9ebe6318adadb89dfd9504eb5faa8f41bad7f164ac7c6eccd0f1663870ec575a"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "975c358563e2abc7492da9856bb9e3f54c7a03d512b8181c41770f8e03aedac8"
+        }
+      }
+    },
+    {
+      "seconds": 0.08469209800000499,
+      "reference_ids": [
+        "13643170_00"
+      ],
+      "queries": [
+        "tank top"
+      ],
+      "candidates": [
+        {
+          "query": "tank top",
+          "primary": "tank top",
+          "score": 0.9765625,
+          "pixels": 905478,
+          "color_support": 0.9934419293420774,
+          "feature_pixels": 953,
+          "appearance_margin": 0.17624902725219727,
+          "appearance_cosine": 0.8922625780105591,
+          "foreground_similarity": 0.7912189960479736,
+          "component_scores": [
+            {
+              "margin": 0.17624902725219727,
+              "cosine": 0.8922625780105591,
+              "foreground_similarity": 0.7912189960479736
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "tank top",
+          "presence": 0.9921875,
+          "max_instance_score": 0.984375,
+          "max_final_score": 0.9766845703125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "tank top",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "13643170_00",
+          "queries": [
+            "tank top"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9296875,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.918792724609375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "c7d1265ec5816928bc7cae65a03bf16a87ce2c5ae431beaad9df70693f3ca63f",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2693711
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_13643170",
+      "view": "13643170_03",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/13643170/13643170_03.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 905478,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_13643170/13643170_03",
+      "repeats_identical": true,
+      "box_xyxy": [
+        480,
+        280,
+        1353,
+        1806
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        873,
+        1526
+      ],
+      "mask_pixels": 905478,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "e9b4e19aeb1f6bf71c0a001b0732dd4c29dc6b9bc6e2279525ee851d5b4b1239"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "33261a86ace250ea8e5e8a3ac81db17c0df11a8c9e797ceef62c4d047dccd9a6"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "8eaef9a2d7aeabfc2cfbff6ba0ca0c35f32fade78c84eb7c734d20970bdd34d5"
+        }
+      }
+    },
+    {
+      "seconds": 0.1073158130000138,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.408203125,
+          "pixels": 1383803,
+          "color_support": 1.0,
+          "feature_pixels": 1463,
+          "appearance_margin": 0.19648079574108124,
+          "appearance_cosine": 0.9752505421638489,
+          "foreground_similarity": 0.8516435623168945,
+          "component_scores": [
+            {
+              "margin": 0.1846572458744049,
+              "cosine": 0.9507826566696167,
+              "foreground_similarity": 0.8398200273513794
+            },
+            {
+              "margin": 0.030713656917214394,
+              "cosine": 0.7628442645072937,
+              "foreground_similarity": 0.6858764290809631
+            },
+            {
+              "margin": 0.19648079574108124,
+              "cosine": 0.9752505421638489,
+              "foreground_similarity": 0.8516435623168945
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            2
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        },
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.66015625,
+          "pixels": 945171,
+          "color_support": 1.0,
+          "feature_pixels": 993,
+          "appearance_margin": 0.22952808439731598,
+          "appearance_cosine": 0.9830349087715149,
+          "foreground_similarity": 0.8494687676429749,
+          "component_scores": [
+            {
+              "margin": 0.21801315248012543,
+              "cosine": 0.8943799138069153,
+              "foreground_similarity": 0.8379538059234619
+            },
+            {
+              "margin": 0.22952808439731598,
+              "cosine": 0.9830349087715149,
+              "foreground_similarity": 0.8494687676429749
+            },
+            {
+              "margin": 0.07170972973108292,
+              "cosine": 0.7349317073822021,
+              "foreground_similarity": 0.691650390625
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            1
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "sweater",
+          "presence": 0.6953125,
+          "max_instance_score": 0.94921875,
+          "max_final_score": 0.660003662109375,
+          "threshold": 0.2,
+          "instances": 2,
+          "strong_spatial_hypotheses": 2,
+          "primary": "sweater",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "33791076_04",
+          "queries": [
+            "sweater"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9609375,
+              "max_instance_score": 0.96484375,
+              "max_final_score": 0.927154541015625,
+              "threshold": 0.35,
+              "instances": 2,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "23229947f9000a295f2f2c2124b1694d04bc7b2ef672eba63845beedb1d2b489",
+          "component_ids": [
+            0,
+            1,
+            2
+          ],
+          "component_pixels": [
+            2392745,
+            966506,
+            1417773
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_33791076",
+      "view": "33791076_00",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/33791076/33791076_00.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 2328974,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_33791076/33791076_00",
+      "repeats_identical": true,
+      "box_xyxy": [
+        269,
+        271,
+        1651,
+        2227
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1382,
+        1956
+      ],
+      "mask_pixels": 2328974,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "a28e89f4ed300d2db88bec580e8130b388cf8c87dc2e2e3023d9c7c04df09c70"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "2c43b7ecab56b8dbc7d42f312017b596052539afe83a81207c8ea37794b6fb36"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "d193c3355c391486393623c80bf84e9ae88de7d638e1f81213f9f43a5d3843d7"
+        }
+      }
+    },
+    {
+      "seconds": 0.10573795900018013,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.5390625,
+          "pixels": 994142,
+          "color_support": 1.0,
+          "feature_pixels": 1049,
+          "appearance_margin": 0.19712528586387634,
+          "appearance_cosine": 0.9649595022201538,
+          "foreground_similarity": 0.8305792212486267,
+          "component_scores": [
+            {
+              "margin": 0.18586456775665283,
+              "cosine": 0.9354908466339111,
+              "foreground_similarity": 0.8193184733390808
+            },
+            {
+              "margin": 0.035159043967723846,
+              "cosine": 0.7429904937744141,
+              "foreground_similarity": 0.6686129570007324
+            },
+            {
+              "margin": 0.19712528586387634,
+              "cosine": 0.9649595022201538,
+              "foreground_similarity": 0.8305792212486267
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            2
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        },
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.80859375,
+          "pixels": 669227,
+          "color_support": 1.0,
+          "feature_pixels": 706,
+          "appearance_margin": 0.2142116129398346,
+          "appearance_cosine": 0.9798917770385742,
+          "foreground_similarity": 0.825478196144104,
+          "component_scores": [
+            {
+              "margin": 0.19986402988433838,
+              "cosine": 0.8768337965011597,
+              "foreground_similarity": 0.8111305832862854
+            },
+            {
+              "margin": 0.2142116129398346,
+              "cosine": 0.9798917770385742,
+              "foreground_similarity": 0.825478196144104
+            },
+            {
+              "margin": 0.052128519862890244,
+              "cosine": 0.7098349332809448,
+              "foreground_similarity": 0.66339510679245
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            1
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "sweater",
+          "presence": 0.84375,
+          "max_instance_score": 0.95703125,
+          "max_final_score": 0.8074951171875,
+          "threshold": 0.2,
+          "instances": 2,
+          "strong_spatial_hypotheses": 2,
+          "primary": "sweater",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "33791076_04",
+          "queries": [
+            "sweater"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9609375,
+              "max_instance_score": 0.96484375,
+              "max_final_score": 0.927154541015625,
+              "threshold": 0.35,
+              "instances": 2,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "23229947f9000a295f2f2c2124b1694d04bc7b2ef672eba63845beedb1d2b489",
+          "component_ids": [
+            0,
+            1,
+            2
+          ],
+          "component_pixels": [
+            2392745,
+            966506,
+            1417773
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_33791076",
+      "view": "33791076_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/33791076/33791076_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 1663366,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_33791076/33791076_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        355,
+        291,
+        1558,
+        2064
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1203,
+        1773
+      ],
+      "mask_pixels": 1663366,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "fbe4b19e749118db7f925be69e78e266cb17a6c3f895588b79481fbe086ffeae"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "425a35d7e184d676b68ee239ef4064ac6bb35342537efea7231431bc7dff6801"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "3596f57dff2302f1d58c2a42000a1779d4b2a818cb9b09f01f1b0abdcecce767"
+        }
+      }
+    },
+    {
+      "seconds": 0.10357172700014416,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.625,
+          "pixels": 401763,
+          "color_support": 1.0,
+          "feature_pixels": 418,
+          "appearance_margin": 0.16778066754341125,
+          "appearance_cosine": 0.8565272092819214,
+          "foreground_similarity": 0.7542718648910522,
+          "component_scores": [
+            {
+              "margin": 0.16778066754341125,
+              "cosine": 0.8565272092819214,
+              "foreground_similarity": 0.7542718648910522
+            },
+            {
+              "margin": 0.05941962078213692,
+              "cosine": 0.7744878530502319,
+              "foreground_similarity": 0.6459107995033264
+            },
+            {
+              "margin": 0.15733753144741058,
+              "cosine": 0.8191890716552734,
+              "foreground_similarity": 0.7438287138938904
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            2
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        },
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.54296875,
+          "pixels": 251679,
+          "color_support": 1.0,
+          "feature_pixels": 264,
+          "appearance_margin": 0.20419219136238098,
+          "appearance_cosine": 0.9126404523849487,
+          "foreground_similarity": 0.7979080080986023,
+          "component_scores": [
+            {
+              "margin": 0.18814827501773834,
+              "cosine": 0.7294957637786865,
+              "foreground_similarity": 0.7818640470504761
+            },
+            {
+              "margin": 0.20419219136238098,
+              "cosine": 0.9126404523849487,
+              "foreground_similarity": 0.7979080080986023
+            },
+            {
+              "margin": 0.011396003887057304,
+              "cosine": 0.5242631435394287,
+              "foreground_similarity": 0.6051117777824402
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            1
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "sweater",
+          "presence": 0.6875,
+          "max_instance_score": 0.90625,
+          "max_final_score": 0.623046875,
+          "threshold": 0.2,
+          "instances": 2,
+          "strong_spatial_hypotheses": 2,
+          "primary": "sweater",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "33791076_04",
+          "queries": [
+            "sweater"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9609375,
+              "max_instance_score": 0.96484375,
+              "max_final_score": 0.927154541015625,
+              "threshold": 0.35,
+              "instances": 2,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "23229947f9000a295f2f2c2124b1694d04bc7b2ef672eba63845beedb1d2b489",
+          "component_ids": [
+            0,
+            1,
+            2
+          ],
+          "component_pixels": [
+            2392745,
+            966506,
+            1417773
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_33791076",
+      "view": "33791076_02",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/33791076/33791076_02.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 593553,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_33791076/33791076_02",
+      "repeats_identical": true,
+      "box_xyxy": [
+        527,
+        159,
+        1377,
+        1105
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        850,
+        946
+      ],
+      "mask_pixels": 593553,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "de47e5b301d409261c9e51b46732b6c2f522c81b210d94cc37c7074d2c26fd0e"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0a2f69ae162726bd6920fd512e1986c1c0db45b4fdcbabb5e6f3a18d44f96980"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "b3e731e35dd0a44115f2ead60d0512a231c3470488a10623f2c03b484bf06916"
+        }
+      }
+    },
+    {
+      "seconds": 0.10461763500006782,
+      "reference_ids": [
+        "33791076_04"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.5625,
+          "pixels": 1066764,
+          "color_support": 1.0,
+          "feature_pixels": 1122,
+          "appearance_margin": 0.21364174783229828,
+          "appearance_cosine": 0.973552405834198,
+          "foreground_similarity": 0.81883305311203,
+          "component_scores": [
+            {
+              "margin": 0.200837641954422,
+              "cosine": 0.9127049446105957,
+              "foreground_similarity": 0.8060289621353149
+            },
+            {
+              "margin": 0.21364174783229828,
+              "cosine": 0.973552405834198,
+              "foreground_similarity": 0.81883305311203
+            },
+            {
+              "margin": 0.08400113135576248,
+              "cosine": 0.7699975967407227,
+              "foreground_similarity": 0.6891924142837524
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            1
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        },
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.3125,
+          "pixels": 1645863,
+          "color_support": 1.0,
+          "feature_pixels": 1735,
+          "appearance_margin": 0.15454861521720886,
+          "appearance_cosine": 0.9660472273826599,
+          "foreground_similarity": 0.8015515208244324,
+          "component_scores": [
+            {
+              "margin": 0.1438700258731842,
+              "cosine": 0.9256958961486816,
+              "foreground_similarity": 0.7908729314804077
+            },
+            {
+              "margin": 0.0017890512244775891,
+              "cosine": 0.7178573608398438,
+              "foreground_similarity": 0.6487919688224792
+            },
+            {
+              "margin": 0.15454861521720886,
+              "cosine": 0.9660472273826599,
+              "foreground_similarity": 0.8015515208244324
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            2
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "sweater",
+          "presence": 0.59765625,
+          "max_instance_score": 0.94140625,
+          "max_final_score": 0.5626373291015625,
+          "threshold": 0.2,
+          "instances": 2,
+          "strong_spatial_hypotheses": 2,
+          "primary": "sweater",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "33791076_04",
+          "queries": [
+            "sweater"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9609375,
+              "max_instance_score": 0.96484375,
+              "max_final_score": 0.927154541015625,
+              "threshold": 0.35,
+              "instances": 2,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "23229947f9000a295f2f2c2124b1694d04bc7b2ef672eba63845beedb1d2b489",
+          "component_ids": [
+            0,
+            1,
+            2
+          ],
+          "component_pixels": [
+            2392745,
+            966506,
+            1417773
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_33791076",
+      "view": "33791076_03",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/33791076/33791076_03.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 2712522,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_33791076/33791076_03",
+      "repeats_identical": true,
+      "box_xyxy": [
+        153,
+        332,
+        1771,
+        2560
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1618,
+        2228
+      ],
+      "mask_pixels": 2712522,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "9dacb0d05424b5ab7618ea71887e4ab016872d6f8c48d8bc4f5ca259e059e7c6"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "10bb049778a67e0a296cdfbc6d0d0bdc4336d1e2078a25bf1769cd812614af54"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "925b90b9c942ee2dc02e29ba11ab2dae7fe435e9edfdefb46681643a36509943"
+        }
+      }
+    },
+    {
+      "seconds": 0.0822706090000338,
+      "reference_ids": [
+        "36892437_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "primary": "T-shirt",
+          "score": 0.9921875,
+          "pixels": 2173130,
+          "color_support": 0.949297765215087,
+          "feature_pixels": 2295,
+          "appearance_margin": 0.20853428542613983,
+          "appearance_cosine": 0.9661657810211182,
+          "foreground_similarity": 0.8319482803344727,
+          "component_scores": [
+            {
+              "margin": 0.20853428542613983,
+              "cosine": 0.9661657810211182,
+              "foreground_similarity": 0.8319482803344727
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "T-shirt",
+          "presence": 1.0,
+          "max_instance_score": 0.9921875,
+          "max_final_score": 0.9921875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "T-shirt",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36892437_00",
+          "queries": [
+            "T-shirt"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.81640625,
+              "max_instance_score": 0.984375,
+              "max_final_score": 0.80364990234375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "32df040bab5b139b1074eb582ec9e45381ff3f2ade5dd7aae5b9d18ffa995469",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1505002
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36892437",
+      "view": "36892437_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36892437/36892437_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 2173130,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36892437/36892437_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        111,
+        193,
+        1773,
+        2104
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1662,
+        1911
+      ],
+      "mask_pixels": 2173130,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "5c9fc13e26dd392b896969c7c1c01c0f812ab12944479c923e8d877313ce68f9"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "4cbdda6012f0f67636d44bbe51a1efcac6606d53e47bbe27d456370a217c1efd"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "dfa6c364500f7922fd794e79d7b3b39faa4aa3da652db72e2985291a2cf8c696"
+        }
+      }
+    },
+    {
+      "seconds": 0.08360779800000273,
+      "reference_ids": [
+        "36892437_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "primary": "T-shirt",
+          "score": 0.984375,
+          "pixels": 503770,
+          "color_support": 0.9671755725190839,
+          "feature_pixels": 531,
+          "appearance_margin": 0.21101795136928558,
+          "appearance_cosine": 0.874338686466217,
+          "foreground_similarity": 0.774821400642395,
+          "component_scores": [
+            {
+              "margin": 0.21101795136928558,
+              "cosine": 0.874338686466217,
+              "foreground_similarity": 0.774821400642395
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "T-shirt",
+          "presence": 0.99609375,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.9844207763671875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "T-shirt",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36892437_00",
+          "queries": [
+            "T-shirt"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.81640625,
+              "max_instance_score": 0.984375,
+              "max_final_score": 0.80364990234375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "32df040bab5b139b1074eb582ec9e45381ff3f2ade5dd7aae5b9d18ffa995469",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1505002
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36892437",
+      "view": "36892437_02",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36892437/36892437_02.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 503770,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36892437/36892437_02",
+      "repeats_identical": true,
+      "box_xyxy": [
+        566,
+        138,
+        1391,
+        1066
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        825,
+        928
+      ],
+      "mask_pixels": 503770,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "0a1e3ff43152ca75191293c0fdbfa8b674228374c00beefbe1207c1f988cf852"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "a73e4b86b9a1b6382ca8fc39eb4e6b96fbcda771aeb44148d234b43a72371f9a"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "e1c412a6aa710b82c7bf5b5820106e455dfef923dca107ff05c2967b0bc66e16"
+        }
+      }
+    },
+    {
+      "seconds": 0.08448918799990679,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "primary": "dress",
+          "score": 0.97265625,
+          "pixels": 630113,
+          "color_support": 0.9993911719939117,
+          "feature_pixels": 662,
+          "appearance_margin": 0.17583546042442322,
+          "appearance_cosine": 0.929924488067627,
+          "foreground_similarity": 0.7482404708862305,
+          "component_scores": [
+            {
+              "margin": 0.17583546042442322,
+              "cosine": 0.929924488067627,
+              "foreground_similarity": 0.7482404708862305
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "dress",
+          "presence": 0.9921875,
+          "max_instance_score": 0.98046875,
+          "max_final_score": 0.972808837890625,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "dress",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36640328_04",
+          "queries": [
+            "dress"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.70703125,
+              "max_instance_score": 0.9765625,
+              "max_final_score": 0.690460205078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "d7b8df940d9767306b68a83c0a54324a173cccc831c62739aef2eaef29cee79d",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1003778
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36640328",
+      "view": "36640328_00",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36640328/36640328_00.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 630113,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36640328/36640328_00",
+      "repeats_identical": true,
+      "box_xyxy": [
+        655,
+        192,
+        1219,
+        1770
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        564,
+        1578
+      ],
+      "mask_pixels": 630113,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "4ac1c1c62ea3b54728eae83e7f8ca9a8ea43946439b3727df284f892a83f1b9b"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "5e3f1336436b6254f1debe8197bd2cb2fd03feb0572380ba79dac13db90efa0d"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "19a989ffb5803108c07d67b509593c15f2a2c2137a63b5005028e3ad5030e9ca"
+        }
+      }
+    },
+    {
+      "seconds": 0.08875286700003926,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "primary": "dress",
+          "score": 0.9609375,
+          "pixels": 668508,
+          "color_support": 1.0,
+          "feature_pixels": 707,
+          "appearance_margin": 0.1622285097837448,
+          "appearance_cosine": 0.9137048125267029,
+          "foreground_similarity": 0.7337979674339294,
+          "component_scores": [
+            {
+              "margin": 0.1622285097837448,
+              "cosine": 0.9137048125267029,
+              "foreground_similarity": 0.7337979674339294
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "dress",
+          "presence": 0.98828125,
+          "max_instance_score": 0.97265625,
+          "max_final_score": 0.9612579345703125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "dress",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36640328_04",
+          "queries": [
+            "dress"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.70703125,
+              "max_instance_score": 0.9765625,
+              "max_final_score": 0.690460205078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "d7b8df940d9767306b68a83c0a54324a173cccc831c62739aef2eaef29cee79d",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1003778
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36640328",
+      "view": "36640328_02",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36640328/36640328_02.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 668508,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36640328/36640328_02",
+      "repeats_identical": true,
+      "box_xyxy": [
+        614,
+        160,
+        1259,
+        1709
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        645,
+        1549
+      ],
+      "mask_pixels": 668508,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "1a8fd8ea18ebd160af1ffb54757ec7695bd3c6e89863b6357d58d8600450e426"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "cab63f0b12545704cd526b4c6bd170999cc1a4cd827fb11b6940239aa2e98ccf"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "19a5562c15c8911e9c5930d41738dae099ec7baf403714981d561d4dae7861ef"
+        }
+      }
+    },
+    {
+      "seconds": 0.08394884500012267,
+      "reference_ids": [
+        "36640328_04"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "primary": "dress",
+          "score": 0.86328125,
+          "pixels": 507629,
+          "color_support": 1.0,
+          "feature_pixels": 527,
+          "appearance_margin": 0.16955219209194183,
+          "appearance_cosine": 0.9542924165725708,
+          "foreground_similarity": 0.7605559229850769,
+          "component_scores": [
+            {
+              "margin": 0.16955219209194183,
+              "cosine": 0.9542924165725708,
+              "foreground_similarity": 0.7605559229850769
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "dress",
+          "presence": 0.9140625,
+          "max_instance_score": 0.9453125,
+          "max_final_score": 0.86407470703125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "dress",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36640328_04",
+          "queries": [
+            "dress"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.70703125,
+              "max_instance_score": 0.9765625,
+              "max_final_score": 0.690460205078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "d7b8df940d9767306b68a83c0a54324a173cccc831c62739aef2eaef29cee79d",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1003778
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36640328",
+      "view": "36640328_03",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36640328/36640328_03.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 507629,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36640328/36640328_03",
+      "repeats_identical": true,
+      "box_xyxy": [
+        632,
+        194,
+        1272,
+        1810
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        640,
+        1616
+      ],
+      "mask_pixels": 507629,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "03c8766a04ba6422eda6b6ba2f90a0e15bcf73ece1d4ec87f84439e5b2c15de1"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "889fe63dd35eee2f6a940749ae779a59c9ec4bd5d06cc339e81b692cc3583d0b"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "c407d247e1bcb15d55448cbd70098727fe3619307da970f8105ea2e2a45e9693"
+        }
+      }
+    },
+    {
+      "seconds": 0.08566501300015261,
+      "reference_ids": [
+        "36545211_00"
+      ],
+      "queries": [
+        "shorts"
+      ],
+      "candidates": [
+        {
+          "query": "shorts",
+          "primary": "shorts",
+          "score": 0.92578125,
+          "pixels": 781468,
+          "color_support": 1.0,
+          "feature_pixels": 824,
+          "appearance_margin": 0.1570979803800583,
+          "appearance_cosine": 0.9162464737892151,
+          "foreground_similarity": 0.754547119140625,
+          "component_scores": [
+            {
+              "margin": 0.1570979803800583,
+              "cosine": 0.9162464737892151,
+              "foreground_similarity": 0.754547119140625
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "shorts",
+          "presence": 0.94140625,
+          "max_instance_score": 0.984375,
+          "max_final_score": 0.92669677734375,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "shorts",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36545211_00",
+          "queries": [
+            "shorts"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.85546875,
+              "max_instance_score": 0.984375,
+              "max_final_score": 0.84210205078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "76ecb92ded93c76cfe53ffb99304413b53b04a1e937d0a2e4f756ee1a5a6d0ae",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2262943
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36545211",
+      "view": "36545211_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36545211/36545211_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 781468,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36545211/36545211_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        532,
+        24,
+        1399,
+        1130
+      ],
+      "source_size": [
+        1920,
+        2563
+      ],
+      "cutout_size": [
+        867,
+        1106
+      ],
+      "mask_pixels": 781468,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "9008088e67b2986ed93306f7a3cda7915e390c5bb77c8c18c0343e9154d38d4c"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "8660694080d2bb8c0db08609682de7bdb12f890d5237b71065c39e7317f49b8e"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "c0a0c65e7c17dc07b2e6b954b67ef1f6a620c6b082cf7ef797f3d6cf19b394b0"
+        }
+      }
+    },
+    {
+      "seconds": 0.08538554799997655,
+      "reference_ids": [
+        "36545211_00"
+      ],
+      "queries": [
+        "shorts"
+      ],
+      "candidates": [
+        {
+          "query": "shorts",
+          "primary": "shorts",
+          "score": 0.96484375,
+          "pixels": 839651,
+          "color_support": 1.0,
+          "feature_pixels": 880,
+          "appearance_margin": 0.15878073871135712,
+          "appearance_cosine": 0.9420374631881714,
+          "foreground_similarity": 0.7265524864196777,
+          "component_scores": [
+            {
+              "margin": 0.15878073871135712,
+              "cosine": 0.9420374631881714,
+              "foreground_similarity": 0.7265524864196777
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "shorts",
+          "presence": 0.9765625,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.965118408203125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "shorts",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36545211_00",
+          "queries": [
+            "shorts"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.85546875,
+              "max_instance_score": 0.984375,
+              "max_final_score": 0.84210205078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "76ecb92ded93c76cfe53ffb99304413b53b04a1e937d0a2e4f756ee1a5a6d0ae",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2262943
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36545211",
+      "view": "36545211_02",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36545211/36545211_02.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 839651,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36545211/36545211_02",
+      "repeats_identical": true,
+      "box_xyxy": [
+        621,
+        0,
+        1438,
+        1172
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        817,
+        1172
+      ],
+      "mask_pixels": 839651,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "7d03c942b7e888dc4d3b1ddb7ed21087d578e44614557ffbae9742a3e744836f"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "fe936adc2e7cbf0521f93cc9cda1fc349b7396316e3f3eb007c51175692fa7ee"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "df24d3f300c1bc55e20ea5c74517bb8ad28ffb54545edba45e2e2f804425c4ba"
+        }
+      }
+    },
+    {
+      "seconds": 0.08641181300004064,
+      "reference_ids": [
+        "36757952_02"
+      ],
+      "queries": [
+        "shirt"
+      ],
+      "candidates": [
+        {
+          "query": "shirt",
+          "primary": "shirt",
+          "score": 0.953125,
+          "pixels": 2099606,
+          "color_support": 0.9869987181834828,
+          "feature_pixels": 2213,
+          "appearance_margin": 0.25073251128196716,
+          "appearance_cosine": 0.9841858744621277,
+          "foreground_similarity": 0.8044083714485168,
+          "component_scores": [
+            {
+              "margin": 0.25073251128196716,
+              "cosine": 0.9841858744621277,
+              "foreground_similarity": 0.8044083714485168
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "shirt",
+          "presence": 0.96484375,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.9535369873046875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "shirt",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36757952_02",
+          "queries": [
+            "shirt"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9765625,
+              "max_instance_score": 0.9921875,
+              "max_final_score": 0.96893310546875,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "aaf1909123c2c06f61135ad4a3d7b7a75ff5765821a98c18ee44264d441e6117",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            2510377
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36757952",
+      "view": "36757952_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36757952/36757952_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 2099606,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36757952/36757952_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        282,
+        230,
+        1638,
+        2124
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1356,
+        1894
+      ],
+      "mask_pixels": 2099606,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "5f51b66ce23a0621d10a6f7c2eac80cee03af1f13bdf7efa97770a48b1c96a3b"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "9e77c144c34985abe1622b275fe1d88f00af46459e0e8f599e1cebde086512ed"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "0e0d3066d4c1fb48cd745800f9a791fed2197abd31805cb9402bef4e79ca5f34"
+        }
+      }
+    },
+    {
+      "seconds": 0.08419781899988266,
+      "reference_ids": [
+        "36718045_03"
+      ],
+      "queries": [
+        "sweater"
+      ],
+      "candidates": [
+        {
+          "query": "sweater",
+          "primary": "sweater",
+          "score": 0.73046875,
+          "pixels": 1485257,
+          "color_support": 1.0,
+          "feature_pixels": 1557,
+          "appearance_margin": 0.18837668001651764,
+          "appearance_cosine": 0.9497808218002319,
+          "foreground_similarity": 0.8189605474472046,
+          "component_scores": [
+            {
+              "margin": 0.18837668001651764,
+              "cosine": 0.9497808218002319,
+              "foreground_similarity": 0.8189605474472046
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "sweater",
+          "presence": 0.7421875,
+          "max_instance_score": 0.984375,
+          "max_final_score": 0.7305908203125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "sweater",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36718045_03",
+          "queries": [
+            "sweater"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.94921875,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.9380950927734375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "c0f8490585dcc1203253a13206d8426916f2de686acfdd9994b1f73d56a15cb4",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1714938
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36718045",
+      "view": "36718045_00",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36718045/36718045_00.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 1485257,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36718045/36718045_00",
+      "repeats_identical": true,
+      "box_xyxy": [
+        316,
+        237,
+        1619,
+        1807
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1303,
+        1570
+      ],
+      "mask_pixels": 1485257,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "3ad492d1160155ba24ad620eb337728be85d21e68b7081f5ea4cf7f0a68262a3"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "1d3b7ce090f0fe78bb9d6b1c1abf3a2f3ec3a1da86d80ca5fe188beeddd79762"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "56d56f02f0a47a81fa18b846ca6d1d3bb07c1b5597b1ae47ea035ff5502b072d"
+        }
+      }
+    },
+    {
+      "seconds": 0.0900781850000385,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "primary": "dress",
+          "score": 0.97265625,
+          "pixels": 666968,
+          "color_support": 0.9971223021582734,
+          "feature_pixels": 703,
+          "appearance_margin": 0.16829554736614227,
+          "appearance_cosine": 0.9469608068466187,
+          "foreground_similarity": 0.7546237111091614,
+          "component_scores": [
+            {
+              "margin": 0.16829554736614227,
+              "cosine": 0.9469608068466187,
+              "foreground_similarity": 0.7546237111091614
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "dress",
+          "presence": 0.9921875,
+          "max_instance_score": 0.98046875,
+          "max_final_score": 0.972808837890625,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "dress",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36053615_05",
+          "queries": [
+            "dress"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.6484375,
+              "max_instance_score": 0.97265625,
+              "max_final_score": 0.630706787109375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "b55fb6371767a6e5ca8e16d41425dc366a6018ce08c6fba30ed0fc53db61c404",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            820710
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36053615",
+      "view": "36053615_00",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36053615/36053615_00.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 666968,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36053615/36053615_00",
+      "repeats_identical": true,
+      "box_xyxy": [
+        801,
+        150,
+        1452,
+        2148
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        651,
+        1998
+      ],
+      "mask_pixels": 666968,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "3282f507a5aa18c0fb4185ce5921f04b2f32def98f1e2ae3a0118575be4c9539"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0a01919babbbeadb75f94bcf98d72025b9122ca824efda84a66ab8fff73fa423"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "e9f20679c48d6863bcbe47dfcb0754537602539664806bc3021fd5e6e7e73b87"
+        }
+      }
+    },
+    {
+      "seconds": 0.08194526800002677,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "primary": "dress",
+          "score": 0.98046875,
+          "pixels": 841808,
+          "color_support": 1.0,
+          "feature_pixels": 878,
+          "appearance_margin": 0.17974089086055756,
+          "appearance_cosine": 0.963460385799408,
+          "foreground_similarity": 0.7921345829963684,
+          "component_scores": [
+            {
+              "margin": 0.17974089086055756,
+              "cosine": 0.963460385799408,
+              "foreground_similarity": 0.7921345829963684
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "dress",
+          "presence": 0.99609375,
+          "max_instance_score": 0.984375,
+          "max_final_score": 0.98052978515625,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "dress",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36053615_05",
+          "queries": [
+            "dress"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.6484375,
+              "max_instance_score": 0.97265625,
+              "max_final_score": 0.630706787109375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "b55fb6371767a6e5ca8e16d41425dc366a6018ce08c6fba30ed0fc53db61c404",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            820710
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36053615",
+      "view": "36053615_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36053615/36053615_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 841808,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36053615/36053615_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        678,
+        176,
+        1219,
+        2171
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        541,
+        1995
+      ],
+      "mask_pixels": 841808,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "8f5e42f180e5713061ae969b888a5276cb67616eda6b0c57acafc7438cb53f73"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "d33c985a6f14d5e5d2c49cac82ae67e61174917a9d626e44e0eb5ef08f324e38"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "e15a9d6f9c5633aaa45ccff72e65493cc096b39edc61d574c4f10a3e298854c7"
+        }
+      }
+    },
+    {
+      "seconds": 0.08287024000014753,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "primary": "dress",
+          "score": 0.9453125,
+          "pixels": 689793,
+          "color_support": 0.9997218358831711,
+          "feature_pixels": 728,
+          "appearance_margin": 0.19321316480636597,
+          "appearance_cosine": 0.9693285226821899,
+          "foreground_similarity": 0.8041808009147644,
+          "component_scores": [
+            {
+              "margin": 0.19321316480636597,
+              "cosine": 0.9693285226821899,
+              "foreground_similarity": 0.8041808009147644
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "dress",
+          "presence": 0.96875,
+          "max_instance_score": 0.9765625,
+          "max_final_score": 0.946044921875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "dress",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36053615_05",
+          "queries": [
+            "dress"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.6484375,
+              "max_instance_score": 0.97265625,
+              "max_final_score": 0.630706787109375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "b55fb6371767a6e5ca8e16d41425dc366a6018ce08c6fba30ed0fc53db61c404",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            820710
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36053615",
+      "view": "36053615_03",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36053615/36053615_03.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 689793,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36053615/36053615_03",
+      "repeats_identical": true,
+      "box_xyxy": [
+        687,
+        214,
+        1224,
+        2182
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        537,
+        1968
+      ],
+      "mask_pixels": 689793,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "65f5644293fd54c9a897f52114f3d2ed204f26c09bc200f235bbeb229cbec991"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "e00c33d2843ca8419fe7397d3e114cd2a01dd0be0fc79b38aac6dcb97a131c1a"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "63070463dc630daaebb9d86ac5ed63ff2f0f208419aca12e2d435fea535c0192"
+        }
+      }
+    },
+    {
+      "seconds": 0.0857818419999603,
+      "reference_ids": [
+        "36053615_05"
+      ],
+      "queries": [
+        "dress"
+      ],
+      "candidates": [
+        {
+          "query": "dress",
+          "primary": "dress",
+          "score": 0.96484375,
+          "pixels": 882034,
+          "color_support": 0.9997822299651568,
+          "feature_pixels": 929,
+          "appearance_margin": 0.17762400209903717,
+          "appearance_cosine": 0.9640285968780518,
+          "foreground_similarity": 0.7940738201141357,
+          "component_scores": [
+            {
+              "margin": 0.17762400209903717,
+              "cosine": 0.9640285968780518,
+              "foreground_similarity": 0.7940738201141357
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "dress",
+          "presence": 0.98046875,
+          "max_instance_score": 0.984375,
+          "max_final_score": 0.96514892578125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "dress",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36053615_05",
+          "queries": [
+            "dress"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.6484375,
+              "max_instance_score": 0.97265625,
+              "max_final_score": 0.630706787109375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "b55fb6371767a6e5ca8e16d41425dc366a6018ce08c6fba30ed0fc53db61c404",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            820710
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36053615",
+      "view": "36053615_06",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36053615/36053615_06.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 882034,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36053615/36053615_06",
+      "repeats_identical": true,
+      "box_xyxy": [
+        654,
+        168,
+        1304,
+        2135
+      ],
+      "source_size": [
+        1920,
+        2562
+      ],
+      "cutout_size": [
+        650,
+        1967
+      ],
+      "mask_pixels": 882034,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "e06d3fc50b5fed00570b6de3145d5f0c85c501b489df0ec86e111c6b29400a63"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "3629c72bba21539c39ab012bccf0dac3a298093db6ef3bbc9daf13c6d03b104f"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "1b174221c7e1f01e18dd3aa243333be3dbbdf13b72cae948245e37ded43d82d4"
+        }
+      }
+    },
+    {
+      "seconds": 0.08415557400007856,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "queries": [
+        "jeans"
+      ],
+      "candidates": [
+        {
+          "query": "jeans",
+          "primary": "jeans",
+          "score": 0.9765625,
+          "pixels": 587576,
+          "color_support": 0.9990186457311089,
+          "feature_pixels": 618,
+          "appearance_margin": 0.18890559673309326,
+          "appearance_cosine": 0.943229079246521,
+          "foreground_similarity": 0.7615180611610413,
+          "component_scores": [
+            {
+              "margin": 0.17611666023731232,
+              "cosine": 0.9411307573318481,
+              "foreground_similarity": 0.7480196356773376
+            },
+            {
+              "margin": 0.18890559673309326,
+              "cosine": 0.943229079246521,
+              "foreground_similarity": 0.7615180611610413
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            1
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "jeans",
+          "presence": 0.98828125,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.9766998291015625,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "jeans",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36152425_03",
+          "queries": [
+            "jeans"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9140625,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.903350830078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "c362fc2507afe26af920793e0b8f9157ec750fcc1bc062e04d05e998362666e9",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1002552
+          ]
+        },
+        {
+          "id": "36152425_05",
+          "queries": [
+            "jeans"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.91796875,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.9072113037109375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "9fbb20ba98dfaa5b134824d3eb872cc60084ba2f96ab980ee5483ccb3de34378",
+          "component_ids": [
+            1
+          ],
+          "component_pixels": [
+            1007124
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36152425",
+      "view": "36152425_00",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36152425/36152425_00.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 587576,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36152425/36152425_00",
+      "repeats_identical": true,
+      "box_xyxy": [
+        713,
+        752,
+        1306,
+        2315
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        593,
+        1563
+      ],
+      "mask_pixels": 587576,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "17fd3e9b24ad01b773df6b6c654031bd6789433ca8267548c186bec104a7bb2d"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "a9a9b64b26b52acc45d1247ccbb264da984c1b141e8ecfdde1d8d87a17477fa2"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "0b3c6276720ada593d9bebd82cd35e11c022156f8935519c61f9911f498d4a2f"
+        }
+      }
+    },
+    {
+      "seconds": 0.0825133769999411,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "queries": [
+        "jeans"
+      ],
+      "candidates": [
+        {
+          "query": "jeans",
+          "primary": "jeans",
+          "score": 0.97265625,
+          "pixels": 1056165,
+          "color_support": 0.9992731237506814,
+          "feature_pixels": 1115,
+          "appearance_margin": 0.21551595628261566,
+          "appearance_cosine": 0.9717931747436523,
+          "foreground_similarity": 0.8204166889190674,
+          "component_scores": [
+            {
+              "margin": 0.1868128925561905,
+              "cosine": 0.9692755937576294,
+              "foreground_similarity": 0.7840701937675476
+            },
+            {
+              "margin": 0.21551595628261566,
+              "cosine": 0.9717931747436523,
+              "foreground_similarity": 0.8204166889190674
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            1
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "jeans",
+          "presence": 0.984375,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.97283935546875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "jeans",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36152425_03",
+          "queries": [
+            "jeans"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9140625,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.903350830078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "c362fc2507afe26af920793e0b8f9157ec750fcc1bc062e04d05e998362666e9",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1002552
+          ]
+        },
+        {
+          "id": "36152425_05",
+          "queries": [
+            "jeans"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.91796875,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.9072113037109375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "9fbb20ba98dfaa5b134824d3eb872cc60084ba2f96ab980ee5483ccb3de34378",
+          "component_ids": [
+            1
+          ],
+          "component_pixels": [
+            1007124
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36152425",
+      "view": "36152425_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36152425/36152425_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 1056165,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36152425/36152425_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        568,
+        173,
+        1336,
+        2225
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        768,
+        2052
+      ],
+      "mask_pixels": 1056165,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "e88f964403235ed56255e9461ba74d95d80729fe809f3c1cefa308fb24e11d64"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0b50563118335e95ca7cf6bfdb444f6b6435547a0fc0f495edc1aecaaeb0aa50"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "c6158f4c41e9fff110242c29bf0348752389b4d2721064aa50c410a6cb689c72"
+        }
+      }
+    },
+    {
+      "seconds": 0.08494605099986074,
+      "reference_ids": [
+        "36152425_03",
+        "36152425_05"
+      ],
+      "queries": [
+        "jeans"
+      ],
+      "candidates": [
+        {
+          "query": "jeans",
+          "primary": "jeans",
+          "score": 0.97265625,
+          "pixels": 424121,
+          "color_support": 1.0,
+          "feature_pixels": 442,
+          "appearance_margin": 0.2109375149011612,
+          "appearance_cosine": 0.939882755279541,
+          "foreground_similarity": 0.7902837991714478,
+          "component_scores": [
+            {
+              "margin": 0.2109375149011612,
+              "cosine": 0.939882755279541,
+              "foreground_similarity": 0.7902837991714478
+            },
+            {
+              "margin": 0.21039067208766937,
+              "cosine": 0.9397931694984436,
+              "foreground_similarity": 0.7885234355926514
+            }
+          ],
+          "matched_reference_components": [
+            0,
+            1
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "jeans",
+          "presence": 0.984375,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.97283935546875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "jeans",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36152425_03",
+          "queries": [
+            "jeans"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.9140625,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.903350830078125,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "c362fc2507afe26af920793e0b8f9157ec750fcc1bc062e04d05e998362666e9",
+          "component_ids": [
+            0
+          ],
+          "component_pixels": [
+            1002552
+          ]
+        },
+        {
+          "id": "36152425_05",
+          "queries": [
+            "jeans"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.91796875,
+              "max_instance_score": 0.98828125,
+              "max_final_score": 0.9072113037109375,
+              "threshold": 0.35,
+              "instances": 1,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "9fbb20ba98dfaa5b134824d3eb872cc60084ba2f96ab980ee5483ccb3de34378",
+          "component_ids": [
+            1
+          ],
+          "component_pixels": [
+            1007124
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36152425",
+      "view": "36152425_04",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36152425/36152425_04.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 424121,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36152425/36152425_04",
+      "repeats_identical": true,
+      "box_xyxy": [
+        583,
+        1228,
+        1153,
+        2385
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        570,
+        1157
+      ],
+      "mask_pixels": 424121,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "d4ecbecd417e6b3f640b41cb81de9dfcadde3d15dbc1e281f73064a953a23c89"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "6fde1157c3adeb39a7420cbccc024edc27c42f8aab8ebe39bb94d88e8e46d9af"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "6a95880891fe56bb249e402262f04c0564ccb8d0dc2bf42f10d5e58b1e0db02f"
+        }
+      }
+    },
+    {
+      "seconds": 0.08339890000002015,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "primary": "T-shirt",
+          "score": 0.9765625,
+          "pixels": 427681,
+          "color_support": 0.9959605026929982,
+          "feature_pixels": 447,
+          "appearance_margin": 0.18903857469558716,
+          "appearance_cosine": 0.8189272880554199,
+          "foreground_similarity": 0.6935614347457886,
+          "component_scores": [
+            {
+              "margin": 0.18903857469558716,
+              "cosine": 0.8189272880554199,
+              "foreground_similarity": 0.6935614347457886
+            },
+            {
+              "margin": -0.013616165146231651,
+              "cosine": 0.7729108333587646,
+              "foreground_similarity": 0.4909067153930664
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "T-shirt",
+          "presence": 0.99609375,
+          "max_instance_score": 0.98046875,
+          "max_final_score": 0.9766387939453125,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "T-shirt",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36076478_00",
+          "queries": [
+            "T-shirt"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.90234375,
+              "max_instance_score": 0.9609375,
+              "max_final_score": 0.867095947265625,
+              "threshold": 0.35,
+              "instances": 2,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "4fb08f0dde25854c9d1c54c2fdb2cca2e5f93d5013abca7a403fe333a53fea73",
+          "component_ids": [
+            0,
+            1
+          ],
+          "component_pixels": [
+            2012752,
+            38097
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36076478",
+      "view": "36076478_01",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36076478/36076478_01.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 427681,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36076478/36076478_01",
+      "repeats_identical": true,
+      "box_xyxy": [
+        651,
+        173,
+        1385,
+        1096
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        734,
+        923
+      ],
+      "mask_pixels": 427681,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "724cab0255536fe01e41fb1afa91268993375dc0f650463df91186c42e8de2f8"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "0eec9b0204c72b2ee5455259741b6eb3b9b7b163ab5b03a1e0ad793d6a0555f6"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "627cbfb890267c8b1bb64fc28a682d8535c175a5e416775225b5e2ca0cce52d8"
+        }
+      }
+    },
+    {
+      "seconds": 0.08472249999999804,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "primary": "T-shirt",
+          "score": 0.984375,
+          "pixels": 505472,
+          "color_support": 0.9901440485216073,
+          "feature_pixels": 536,
+          "appearance_margin": 0.21786156296730042,
+          "appearance_cosine": 0.8254395723342896,
+          "foreground_similarity": 0.7288777232170105,
+          "component_scores": [
+            {
+              "margin": 0.21786156296730042,
+              "cosine": 0.8254395723342896,
+              "foreground_similarity": 0.7288777232170105
+            },
+            {
+              "margin": -0.03464838117361069,
+              "cosine": 0.7717755436897278,
+              "foreground_similarity": 0.4763677716255188
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "T-shirt",
+          "presence": 0.99609375,
+          "max_instance_score": 0.98828125,
+          "max_final_score": 0.9844207763671875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "T-shirt",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36076478_00",
+          "queries": [
+            "T-shirt"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.90234375,
+              "max_instance_score": 0.9609375,
+              "max_final_score": 0.867095947265625,
+              "threshold": 0.35,
+              "instances": 2,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "4fb08f0dde25854c9d1c54c2fdb2cca2e5f93d5013abca7a403fe333a53fea73",
+          "component_ids": [
+            0,
+            1
+          ],
+          "component_pixels": [
+            2012752,
+            38097
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36076478",
+      "view": "36076478_03",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36076478/36076478_03.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 505472,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36076478/36076478_03",
+      "repeats_identical": true,
+      "box_xyxy": [
+        526,
+        148,
+        1393,
+        1092
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        867,
+        944
+      ],
+      "mask_pixels": 505472,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "4cb84bdd353c15597d29d2526b603f6ffa6aff1ce56374d1c9f501913e5c749e"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "1e33362dba326fe282002568cffc6609e099de17d06683378b55cf3e90840f3c"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "327083751db9acee9ed7e1b7987595948f47e11551b10ede71bca2f46dfad72b"
+        }
+      }
+    },
+    {
+      "seconds": 0.08448320999991665,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "primary": "T-shirt",
+          "score": 0.9921875,
+          "pixels": 1832096,
+          "color_support": 0.9881588598973069,
+          "feature_pixels": 1936,
+          "appearance_margin": 0.2214212268590927,
+          "appearance_cosine": 0.9593535661697388,
+          "foreground_similarity": 0.7893075942993164,
+          "component_scores": [
+            {
+              "margin": 0.2214212268590927,
+              "cosine": 0.9593535661697388,
+              "foreground_similarity": 0.7893075942993164
+            },
+            {
+              "margin": -0.124117411673069,
+              "cosine": 0.6478427648544312,
+              "foreground_similarity": 0.4437689781188965
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "T-shirt",
+          "presence": 1.0,
+          "max_instance_score": 0.9921875,
+          "max_final_score": 0.9921875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "T-shirt",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36076478_00",
+          "queries": [
+            "T-shirt"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.90234375,
+              "max_instance_score": 0.9609375,
+              "max_final_score": 0.867095947265625,
+              "threshold": 0.35,
+              "instances": 2,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "4fb08f0dde25854c9d1c54c2fdb2cca2e5f93d5013abca7a403fe333a53fea73",
+          "component_ids": [
+            0,
+            1
+          ],
+          "component_pixels": [
+            2012752,
+            38097
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36076478",
+      "view": "36076478_04",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36076478/36076478_04.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 1832096,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36076478/36076478_04",
+      "repeats_identical": true,
+      "box_xyxy": [
+        142,
+        279,
+        1777,
+        2067
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1635,
+        1788
+      ],
+      "mask_pixels": 1832096,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "cb204f5f1a96527e0737540dffbbe2f5b113eb5b635891c219d92540b4fb198d"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "bc6805d8bdc8886de88a260c88e67d7c2b61266f9b199bc71c2a31c065701d78"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "6fb8fe8568e2f9255143bdd020c287c4acc5680821f244cb8513852ec1f745d7"
+        }
+      }
+    },
+    {
+      "seconds": 0.08274942100001681,
+      "reference_ids": [
+        "36076478_00"
+      ],
+      "queries": [
+        "T-shirt"
+      ],
+      "candidates": [
+        {
+          "query": "T-shirt",
+          "primary": "T-shirt",
+          "score": 0.9921875,
+          "pixels": 1435010,
+          "color_support": 0.9941113490364025,
+          "feature_pixels": 1517,
+          "appearance_margin": 0.1737544983625412,
+          "appearance_cosine": 0.9397561550140381,
+          "foreground_similarity": 0.7319853901863098,
+          "component_scores": [
+            {
+              "margin": 0.1737544983625412,
+              "cosine": 0.9397561550140381,
+              "foreground_similarity": 0.7319853901863098
+            },
+            {
+              "margin": -0.1097445860505104,
+              "cosine": 0.6437972784042358,
+              "foreground_similarity": 0.448486328125
+            }
+          ],
+          "matched_reference_components": [
+            0
+          ],
+          "retry_anchor_iou": null,
+          "retry_anchor_keep": true,
+          "appearance_keep": true,
+          "keep": true
+        }
+      ],
+      "attempts": [
+        {
+          "query": "T-shirt",
+          "presence": 1.0,
+          "max_instance_score": 0.9921875,
+          "max_final_score": 0.9921875,
+          "threshold": 0.2,
+          "instances": 1,
+          "strong_spatial_hypotheses": 1,
+          "primary": "T-shirt",
+          "retry": false
+        }
+      ],
+      "reference_evidence": [
+        {
+          "id": "36076478_00",
+          "queries": [
+            "T-shirt"
+          ],
+          "recovered_reference": false,
+          "attempts": [
+            {
+              "query": "clothing",
+              "presence": 0.90234375,
+              "max_instance_score": 0.9609375,
+              "max_final_score": 0.867095947265625,
+              "threshold": 0.35,
+              "instances": 2,
+              "role": "reference_component_coverage"
+            }
+          ],
+          "source_sha256": "4fb08f0dde25854c9d1c54c2fdb2cca2e5f93d5013abca7a403fe333a53fea73",
+          "component_ids": [
+            0,
+            1
+          ],
+          "component_pixels": [
+            2012752,
+            38097
+          ]
+        }
+      ],
+      "visual_encoder_passes": 1,
+      "per_target_vlm_calls": 0,
+      "sku": "farfetch_36076478",
+      "view": "36076478_06",
+      "source": "/mnt/nvme0/fashion_encoder_data/retailer/farfetch/images/36076478/36076478_06.webp",
+      "status": "cut",
+      "before_iou": 1.0,
+      "before_pixels": 1435010,
+      "retained_previous_fraction": 1.0,
+      "output_dir": "regression33/farfetch_36076478/36076478_06",
+      "repeats_identical": true,
+      "box_xyxy": [
+        346,
+        254,
+        1572,
+        2082
+      ],
+      "source_size": [
+        1920,
+        2560
+      ],
+      "cutout_size": [
+        1226,
+        1828
+      ],
+      "mask_pixels": 1435010,
+      "alpha": "binary SAM3 segmentation; not transparency matting",
+      "outputs": {
+        "mask.png": {
+          "file": "mask.png",
+          "sha256": "0b7b631c2e88125789cf41f746c69acaded79382a9c7ddf9e93867b1925340cf"
+        },
+        "cutout.png": {
+          "file": "cutout.png",
+          "sha256": "75873dd61604482a48735885d232c389187dfd324521be6ab4be6561e0087672"
+        },
+        "crop.jpg": {
+          "file": "crop.jpg",
+          "sha256": "3144671b977b6dbe0f0c6c4ff92e7bc7ab6a9c474817753007acd939a19c4c33"
+        }
+      }
+    }
+  ],
+  "probes": [
+    {
+      "target": "12416975_02",
+      "foreign_reference": "farfetch_13643172",
+      "pixels": 0,
+      "passed": true,
+      "evidence": {
+        "seconds": 0.162728320000042,
+        "reference_ids": [
+          "13643172_00"
+        ],
+        "queries": [
+          "tank top"
+        ],
+        "candidates": [
+          {
+            "query": "top",
+            "primary": "tank top",
+            "score": 0.9453125,
+            "pixels": 1884769,
+            "color_support": 0.012438825448613376,
+            "feature_pixels": 1994,
+            "appearance_margin": 0.1492231786251068,
+            "appearance_cosine": 0.9373691082000732,
+            "foreground_similarity": 0.7550795674324036,
+            "component_scores": [
+              {
+                "margin": 0.1492231786251068,
+                "cosine": 0.9373691082000732,
+                "foreground_similarity": 0.7550795674324036
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.9989975094795227,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          },
+          {
+            "query": "top",
+            "primary": "tank top",
+            "score": 0.2421875,
+            "pixels": 1883870,
+            "color_support": 0.012441362431164593,
+            "feature_pixels": 1992,
+            "appearance_margin": 0.149343341588974,
+            "appearance_cosine": 0.9373198747634888,
+            "foreground_similarity": 0.7551819682121277,
+            "component_scores": [
+              {
+                "margin": 0.149343341588974,
+                "cosine": 0.9373198747634888,
+                "foreground_similarity": 0.7551819682121277
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.9989969730377197,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          },
+          {
+            "query": "shirt",
+            "primary": "tank top",
+            "score": 0.376953125,
+            "pixels": 1887515,
+            "color_support": 0.013647010897240045,
+            "feature_pixels": 1995,
+            "appearance_margin": 0.14913614094257355,
+            "appearance_cosine": 0.9373376369476318,
+            "foreground_similarity": 0.7550228834152222,
+            "component_scores": [
+              {
+                "margin": 0.14913614094257355,
+                "cosine": 0.9373376369476318,
+                "foreground_similarity": 0.7550228834152222
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.999498724937439,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          }
+        ],
+        "attempts": [
+          {
+            "query": "tank top",
+            "presence": 0.007354736328125,
+            "max_instance_score": 0.9140625,
+            "max_final_score": 0.006722688674926758,
+            "threshold": 0.2,
+            "instances": 0,
+            "strong_spatial_hypotheses": 1,
+            "primary": "tank top",
+            "retry": false
+          },
+          {
+            "query": "top",
+            "presence": 0.953125,
+            "max_instance_score": 0.9921875,
+            "max_final_score": 0.9456787109375,
+            "threshold": 0.2,
+            "instances": 2,
+            "primary": "tank top",
+            "retry": true
+          },
+          {
+            "query": "shirt",
+            "presence": 0.390625,
+            "max_instance_score": 0.96484375,
+            "max_final_score": 0.37689208984375,
+            "threshold": 0.2,
+            "instances": 1,
+            "primary": "tank top",
+            "retry": true
+          }
+        ],
+        "reference_evidence": [
+          {
+            "id": "13643172_00",
+            "queries": [
+              "tank top"
+            ],
+            "recovered_reference": false,
+            "attempts": [
+              {
+                "query": "clothing",
+                "presence": 0.90625,
+                "max_instance_score": 0.984375,
+                "max_final_score": 0.89208984375,
+                "threshold": 0.35,
+                "instances": 1,
+                "role": "reference_component_coverage"
+              }
+            ],
+            "source_sha256": "0b86447fa6c11cc09a6bfa055ecef1c0444a9e078846126b30278122354c60f5",
+            "component_ids": [
+              0
+            ],
+            "component_pixels": [
+              2573590
+            ]
+          }
+        ],
+        "visual_encoder_passes": 1,
+        "per_target_vlm_calls": 0
+      }
+    },
+    {
+      "target": "13643172_02",
+      "foreign_reference": "farfetch_13643170",
+      "pixels": 0,
+      "passed": true,
+      "evidence": {
+        "seconds": 0.133011875999955,
+        "reference_ids": [
+          "13643170_00"
+        ],
+        "queries": [
+          "tank top"
+        ],
+        "candidates": [
+          {
+            "query": "tank top",
+            "primary": "tank top",
+            "score": 0.98046875,
+            "pixels": 857852,
+            "color_support": 0.0,
+            "feature_pixels": 907,
+            "appearance_margin": 0.17820408940315247,
+            "appearance_cosine": 0.8988481760025024,
+            "foreground_similarity": 0.7772064805030823,
+            "component_scores": [
+              {
+                "margin": 0.17820408940315247,
+                "cosine": 0.8988481760025024,
+                "foreground_similarity": 0.7772064805030823
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": null,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          },
+          {
+            "query": "top",
+            "primary": "tank top",
+            "score": 0.93359375,
+            "pixels": 856189,
+            "color_support": 0.0,
+            "feature_pixels": 905,
+            "appearance_margin": 0.17850618064403534,
+            "appearance_cosine": 0.898898720741272,
+            "foreground_similarity": 0.7773749828338623,
+            "component_scores": [
+              {
+                "margin": 0.17850618064403534,
+                "cosine": 0.898898720741272,
+                "foreground_similarity": 0.7773749828338623
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.9988962411880493,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          }
+        ],
+        "attempts": [
+          {
+            "query": "tank top",
+            "presence": 0.9921875,
+            "max_instance_score": 0.98828125,
+            "max_final_score": 0.980560302734375,
+            "threshold": 0.2,
+            "instances": 1,
+            "strong_spatial_hypotheses": 1,
+            "primary": "tank top",
+            "retry": false
+          },
+          {
+            "query": "top",
+            "presence": 0.9453125,
+            "max_instance_score": 0.98828125,
+            "max_final_score": 0.934234619140625,
+            "threshold": 0.2,
+            "instances": 1,
+            "primary": "tank top",
+            "retry": true
+          },
+          {
+            "query": "shirt",
+            "presence": 0.0306396484375,
+            "max_instance_score": 0.87890625,
+            "max_final_score": 0.026929378509521484,
+            "threshold": 0.2,
+            "instances": 0,
+            "primary": "tank top",
+            "retry": true
+          }
+        ],
+        "reference_evidence": [
+          {
+            "id": "13643170_00",
+            "queries": [
+              "tank top"
+            ],
+            "recovered_reference": false,
+            "attempts": [
+              {
+                "query": "clothing",
+                "presence": 0.9296875,
+                "max_instance_score": 0.98828125,
+                "max_final_score": 0.918792724609375,
+                "threshold": 0.35,
+                "instances": 1,
+                "role": "reference_component_coverage"
+              }
+            ],
+            "source_sha256": "c7d1265ec5816928bc7cae65a03bf16a87ce2c5ae431beaad9df70693f3ca63f",
+            "component_ids": [
+              0
+            ],
+            "component_pixels": [
+              2693711
+            ]
+          }
+        ],
+        "visual_encoder_passes": 1,
+        "per_target_vlm_calls": 0
+      }
+    },
+    {
+      "target": "33791076_00",
+      "foreign_reference": "farfetch_13643172",
+      "pixels": 0,
+      "passed": true,
+      "evidence": {
+        "seconds": 0.1900882279999223,
+        "reference_ids": [
+          "13643172_00"
+        ],
+        "queries": [
+          "tank top"
+        ],
+        "candidates": [
+          {
+            "query": "top",
+            "primary": "tank top",
+            "score": 0.8828125,
+            "pixels": 1381369,
+            "color_support": 0.9976392167754479,
+            "feature_pixels": 1463,
+            "appearance_margin": 0.11643288284540176,
+            "appearance_cosine": 0.9101824760437012,
+            "foreground_similarity": 0.7496708631515503,
+            "component_scores": [
+              {
+                "margin": 0.11643288284540176,
+                "cosine": 0.9101824760437012,
+                "foreground_similarity": 0.7496708631515503
+              }
+            ],
+            "matched_reference_components": [
+              0
+            ],
+            "retry_anchor_iou": 0.5947712659835815,
+            "retry_anchor_keep": false,
+            "appearance_keep": true,
+            "keep": false
+          },
+          {
+            "query": "top",
+            "primary": "tank top",
+            "score": 0.310546875,
+            "pixels": 1372395,
+            "color_support": 0.9977619247447196,
+            "feature_pixels": 1439,
+            "appearance_margin": 0.1182858794927597,
+            "appearance_cosine": 0.9097909927368164,
+            "foreground_similarity": 0.7514879703521729,
+            "component_scores": [
+              {
+                "margin": 0.1182858794927597,
+                "cosine": 0.9097909927368164,
+                "foreground_similarity": 0.7514879703521729
+              }
+            ],
+            "matched_reference_components": [
+              0
+            ],
+            "retry_anchor_iou": 0.5882112383842468,
+            "retry_anchor_keep": false,
+            "appearance_keep": true,
+            "keep": false
+          },
+          {
+            "query": "top",
+            "primary": "tank top",
+            "score": 0.859375,
+            "pixels": 943500,
+            "color_support": 0.006704591629418936,
+            "feature_pixels": 992,
+            "appearance_margin": 0.14770826697349548,
+            "appearance_cosine": 0.8618109226226807,
+            "foreground_similarity": 0.7468950748443604,
+            "component_scores": [
+              {
+                "margin": 0.14770826697349548,
+                "cosine": 0.8618109226226807,
+                "foreground_similarity": 0.7468950748443604
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.9949748516082764,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          },
+          {
+            "query": "shirt",
+            "primary": "tank top",
+            "score": 0.8359375,
+            "pixels": 1383475,
+            "color_support": 0.9976460814178898,
+            "feature_pixels": 1453,
+            "appearance_margin": 0.1169910803437233,
+            "appearance_cosine": 0.9093577861785889,
+            "foreground_similarity": 0.750449001789093,
+            "component_scores": [
+              {
+                "margin": 0.1169910803437233,
+                "cosine": 0.9093577861785889,
+                "foreground_similarity": 0.750449001789093
+              }
+            ],
+            "matched_reference_components": [
+              0
+            ],
+            "retry_anchor_iou": 0.588739275932312,
+            "retry_anchor_keep": false,
+            "appearance_keep": true,
+            "keep": false
+          },
+          {
+            "query": "shirt",
+            "primary": "tank top",
+            "score": 0.2197265625,
+            "pixels": 948663,
+            "color_support": 0.008308004052684904,
+            "feature_pixels": 997,
+            "appearance_margin": 0.14702481031417847,
+            "appearance_cosine": 0.8614863157272339,
+            "foreground_similarity": 0.7460682988166809,
+            "component_scores": [
+              {
+                "margin": 0.14702481031417847,
+                "cosine": 0.8614863157272339,
+                "foreground_similarity": 0.7460682988166809
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.9959879517555237,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          }
+        ],
+        "attempts": [
+          {
+            "query": "tank top",
+            "presence": 0.049560546875,
+            "max_instance_score": 0.87109375,
+            "max_final_score": 0.04317188262939453,
+            "threshold": 0.2,
+            "instances": 0,
+            "strong_spatial_hypotheses": 2,
+            "primary": "tank top",
+            "retry": false
+          },
+          {
+            "query": "top",
+            "presence": 0.94921875,
+            "max_instance_score": 0.9296875,
+            "max_final_score": 0.882476806640625,
+            "threshold": 0.2,
+            "instances": 3,
+            "primary": "tank top",
+            "retry": true
+          },
+          {
+            "query": "shirt",
+            "presence": 0.8671875,
+            "max_instance_score": 0.96484375,
+            "max_final_score": 0.836700439453125,
+            "threshold": 0.2,
+            "instances": 2,
+            "primary": "tank top",
+            "retry": true
+          }
+        ],
+        "reference_evidence": [
+          {
+            "id": "13643172_00",
+            "queries": [
+              "tank top"
+            ],
+            "recovered_reference": false,
+            "attempts": [
+              {
+                "query": "clothing",
+                "presence": 0.90625,
+                "max_instance_score": 0.984375,
+                "max_final_score": 0.89208984375,
+                "threshold": 0.35,
+                "instances": 1,
+                "role": "reference_component_coverage"
+              }
+            ],
+            "source_sha256": "0b86447fa6c11cc09a6bfa055ecef1c0444a9e078846126b30278122354c60f5",
+            "component_ids": [
+              0
+            ],
+            "component_pixels": [
+              2573590
+            ]
+          }
+        ],
+        "visual_encoder_passes": 1,
+        "per_target_vlm_calls": 0
+      }
+    },
+    {
+      "target": "36892437_01",
+      "foreign_reference": "farfetch_33791076",
+      "pixels": 0,
+      "passed": true,
+      "evidence": {
+        "seconds": 0.16226282300021921,
+        "reference_ids": [
+          "33791076_04"
+        ],
+        "queries": [
+          "sweater"
+        ],
+        "candidates": [
+          {
+            "query": "turtleneck",
+            "primary": "sweater",
+            "score": 0.21875,
+            "pixels": 2180571,
+            "color_support": 0.02492733198273584,
+            "feature_pixels": 2302,
+            "appearance_margin": 0.16170302033424377,
+            "appearance_cosine": 0.9586673378944397,
+            "foreground_similarity": 0.7463378310203552,
+            "component_scores": [
+              {
+                "margin": 0.16170302033424377,
+                "cosine": 0.9586673378944397,
+                "foreground_similarity": 0.7463378310203552
+              },
+              {
+                "margin": 0.14692890644073486,
+                "cosine": 0.9319314956665039,
+                "foreground_similarity": 0.7315636873245239
+              },
+              {
+                "margin": 0.1295187771320343,
+                "cosine": 0.8710248470306396,
+                "foreground_similarity": 0.7141535878181458
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.9934952259063721,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          },
+          {
+            "query": "turtleneck",
+            "primary": "sweater",
+            "score": 0.68359375,
+            "pixels": 46725,
+            "color_support": 0.02066115702479339,
+            "feature_pixels": 54,
+            "appearance_margin": 0.13087746500968933,
+            "appearance_cosine": 0.6252099275588989,
+            "foreground_similarity": 0.7667733430862427,
+            "component_scores": [
+              {
+                "margin": 0.10925745218992233,
+                "cosine": 0.5420379638671875,
+                "foreground_similarity": 0.7451533675193787
+              },
+              {
+                "margin": 0.13087746500968933,
+                "cosine": 0.6252099275588989,
+                "foreground_similarity": 0.7667733430862427
+              },
+              {
+                "margin": 0.025548864156007767,
+                "cosine": 0.4229643642902374,
+                "foreground_similarity": 0.6614447832107544
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.021748585626482964,
+            "retry_anchor_keep": false,
+            "appearance_keep": false,
+            "keep": false
+          },
+          {
+            "query": "top",
+            "primary": "sweater",
+            "score": 0.94140625,
+            "pixels": 2168647,
+            "color_support": 0.02317968680881182,
+            "feature_pixels": 2288,
+            "appearance_margin": 0.16258415579795837,
+            "appearance_cosine": 0.958443820476532,
+            "foreground_similarity": 0.7467517852783203,
+            "component_scores": [
+              {
+                "margin": 0.16258415579795837,
+                "cosine": 0.958443820476532,
+                "foreground_similarity": 0.7467517852783203
+              },
+              {
+                "margin": 0.1482602059841156,
+                "cosine": 0.9317255020141602,
+                "foreground_similarity": 0.7324278354644775
+              },
+              {
+                "margin": 0.13041414320468903,
+                "cosine": 0.8708375692367554,
+                "foreground_similarity": 0.7145817875862122
+              }
+            ],
+            "matched_reference_components": [],
+            "retry_anchor_iou": 0.9960801601409912,
+            "retry_anchor_keep": true,
+            "appearance_keep": false,
+            "keep": false
+          }
+        ],
+        "attempts": [
+          {
+            "query": "sweater",
+            "presence": 0.006683349609375,
+            "max_instance_score": 0.83984375,
+            "max_final_score": 0.005612969398498535,
+            "threshold": 0.2,
+            "instances": 0,
+            "strong_spatial_hypotheses": 1,
+            "primary": "sweater",
+            "retry": false
+          },
+          {
+            "query": "turtleneck",
+            "presence": 0.73046875,
+            "max_instance_score": 0.93359375,
+            "max_final_score": 0.6819610595703125,
+            "threshold": 0.2,
+            "instances": 2,
+            "primary": "sweater",
+            "retry": true
+          },
+          {
+            "query": "top",
+            "presence": 0.94921875,
+            "max_instance_score": 0.9921875,
+            "max_final_score": 0.941802978515625,
+            "threshold": 0.2,
+            "instances": 1,
+            "primary": "sweater",
+            "retry": true
+          }
+        ],
+        "reference_evidence": [
+          {
+            "id": "33791076_04",
+            "queries": [
+              "sweater"
+            ],
+            "recovered_reference": false,
+            "attempts": [
+              {
+                "query": "clothing",
+                "presence": 0.9609375,
+                "max_instance_score": 0.96484375,
+                "max_final_score": 0.927154541015625,
+                "threshold": 0.35,
+                "instances": 2,
+                "role": "reference_component_coverage"
+              }
+            ],
+            "source_sha256": "23229947f9000a295f2f2c2124b1694d04bc7b2ef672eba63845beedb1d2b489",
+            "component_ids": [
+              0,
+              1,
+              2
+            ],
+            "component_pixels": [
+              2392745,
+              966506,
+              1417773
+            ]
+          }
+        ],
+        "visual_encoder_passes": 1,
+        "per_target_vlm_calls": 0
+      }
+    }
+  ],
+  "count": 33,
+  "nonempty": 33,
+  "swap_pass": 4,
+  "all_repeats_identical": true,
+  "paired_timing": {
+    "observations": 99,
+    "before_mean": 0.08951263019190779,
+    "after_mean": 0.09005909572729619,
+    "before_p95": 0.10963306909998206,
+    "after_p95": 0.11683571830008077,
+    "records": [
+      {
+        "view": "12416975_01",
+        "repeat": 0,
+        "before": 0.10911588199996913,
+        "after": 0.15552910599990355
+      },
+      {
+        "view": "12416975_01",
+        "repeat": 1,
+        "before": 0.11594952700011163,
+        "after": 0.1175945090001278
+      },
+      {
+        "view": "12416975_01",
+        "repeat": 2,
+        "before": 0.11428775300009875,
+        "after": 0.11682420200008892
+      },
+      {
+        "view": "12416975_02",
+        "repeat": 0,
+        "before": 0.10284756499981995,
+        "after": 0.10548845799985429
+      },
+      {
+        "view": "12416975_02",
+        "repeat": 1,
+        "before": 0.10389488800001345,
+        "after": 0.10468574199990144
+      },
+      {
+        "view": "12416975_02",
+        "repeat": 2,
+        "before": 0.10520442099982574,
+        "after": 0.10659492000013415
+      },
+      {
+        "view": "12416975_03",
+        "repeat": 0,
+        "before": 0.11965411699998185,
+        "after": 0.12103082300018286
+      },
+      {
+        "view": "12416975_03",
+        "repeat": 1,
+        "before": 0.11629666499993618,
+        "after": 0.11693936500000746
+      },
+      {
+        "view": "12416975_03",
+        "repeat": 2,
+        "before": 0.11546555700010686,
+        "after": 0.11873262700009946
+      },
+      {
+        "view": "13643172_01",
+        "repeat": 0,
+        "before": 0.08307214399997065,
+        "after": 0.08374535300004027
+      },
+      {
+        "view": "13643172_01",
+        "repeat": 1,
+        "before": 0.08466472700001759,
+        "after": 0.08299700800012033
+      },
+      {
+        "view": "13643172_01",
+        "repeat": 2,
+        "before": 0.08485742700008814,
+        "after": 0.08412847799991141
+      },
+      {
+        "view": "13643172_02",
+        "repeat": 0,
+        "before": 0.08662343900004998,
+        "after": 0.08490462499980822
+      },
+      {
+        "view": "13643172_02",
+        "repeat": 1,
+        "before": 0.08456490200001099,
+        "after": 0.08431218999999146
+      },
+      {
+        "view": "13643172_02",
+        "repeat": 2,
+        "before": 0.0841655560000163,
+        "after": 0.08350809599983222
+      },
+      {
+        "view": "13643172_03",
+        "repeat": 0,
+        "before": 0.0821428020001349,
+        "after": 0.08214117800002896
+      },
+      {
+        "view": "13643172_03",
+        "repeat": 1,
+        "before": 0.08346206100009113,
+        "after": 0.08272742100007235
+      },
+      {
+        "view": "13643172_03",
+        "repeat": 2,
+        "before": 0.08333559499988041,
+        "after": 0.08266273100002763
+      },
+      {
+        "view": "13643170_01",
+        "repeat": 0,
+        "before": 0.08175462699978198,
+        "after": 0.08199477900006968
+      },
+      {
+        "view": "13643170_01",
+        "repeat": 1,
+        "before": 0.08298132100003386,
+        "after": 0.08129141100016568
+      },
+      {
+        "view": "13643170_01",
+        "repeat": 2,
+        "before": 0.08132686600015404,
+        "after": 0.08311496000010266
+      },
+      {
+        "view": "13643170_02",
+        "repeat": 0,
+        "before": 0.09172020599999087,
+        "after": 0.08921987400003673
+      },
+      {
+        "view": "13643170_02",
+        "repeat": 1,
+        "before": 0.08907875099998819,
+        "after": 0.08834353999986888
+      },
+      {
+        "view": "13643170_02",
+        "repeat": 2,
+        "before": 0.09040573499987659,
+        "after": 0.08505175400000553
+      },
+      {
+        "view": "13643170_03",
+        "repeat": 0,
+        "before": 0.08367901899987373,
+        "after": 0.08412916800011772
+      },
+      {
+        "view": "13643170_03",
+        "repeat": 1,
+        "before": 0.08393400400018436,
+        "after": 0.08261243000015384
+      },
+      {
+        "view": "13643170_03",
+        "repeat": 2,
+        "before": 0.08290487499994015,
+        "after": 0.08469209800000499
+      },
+      {
+        "view": "33791076_00",
+        "repeat": 0,
+        "before": 0.10418834300003255,
+        "after": 0.10822928299990053
+      },
+      {
+        "view": "33791076_00",
+        "repeat": 1,
+        "before": 0.10504722299992864,
+        "after": 0.10614505000012286
+      },
+      {
+        "view": "33791076_00",
+        "repeat": 2,
+        "before": 0.10494073400013804,
+        "after": 0.1073158130000138
+      },
+      {
+        "view": "33791076_01",
+        "repeat": 0,
+        "before": 0.1032005989998197,
+        "after": 0.10419496600002276
+      },
+      {
+        "view": "33791076_01",
+        "repeat": 1,
+        "before": 0.10308061299997462,
+        "after": 0.10411279700019804
+      },
+      {
+        "view": "33791076_01",
+        "repeat": 2,
+        "before": 0.10197446999995918,
+        "after": 0.10573795900018013
+      },
+      {
+        "view": "33791076_02",
+        "repeat": 0,
+        "before": 0.103242143999978,
+        "after": 0.1045512560001498
+      },
+      {
+        "view": "33791076_02",
+        "repeat": 1,
+        "before": 0.10185193999996045,
+        "after": 0.10364410600004703
+      },
+      {
+        "view": "33791076_02",
+        "repeat": 2,
+        "before": 0.10198338500003956,
+        "after": 0.10357172700014416
+      },
+      {
+        "view": "33791076_03",
+        "repeat": 0,
+        "before": 0.10412168199991356,
+        "after": 0.10521072300002743
+      },
+      {
+        "view": "33791076_03",
+        "repeat": 1,
+        "before": 0.10420511799998167,
+        "after": 0.10526609700013978
+      },
+      {
+        "view": "33791076_03",
+        "repeat": 2,
+        "before": 0.10417651799980376,
+        "after": 0.10461763500006782
+      },
+      {
+        "view": "36892437_01",
+        "repeat": 0,
+        "before": 0.08362702699992042,
+        "after": 0.0839682629998606
+      },
+      {
+        "view": "36892437_01",
+        "repeat": 1,
+        "before": 0.08496331900005316,
+        "after": 0.08378675499989185
+      },
+      {
+        "view": "36892437_01",
+        "repeat": 2,
+        "before": 0.08529011799987529,
+        "after": 0.0822706090000338
+      },
+      {
+        "view": "36892437_02",
+        "repeat": 0,
+        "before": 0.0838034719999996,
+        "after": 0.08248486299999058
+      },
+      {
+        "view": "36892437_02",
+        "repeat": 1,
+        "before": 0.08112595800002964,
+        "after": 0.08230503699996916
+      },
+      {
+        "view": "36892437_02",
+        "repeat": 2,
+        "before": 0.08401415499997711,
+        "after": 0.08360779800000273
+      },
+      {
+        "view": "36640328_00",
+        "repeat": 0,
+        "before": 0.08468127600008302,
+        "after": 0.08506309800009149
+      },
+      {
+        "view": "36640328_00",
+        "repeat": 1,
+        "before": 0.08361243199988166,
+        "after": 0.08360666099997616
+      },
+      {
+        "view": "36640328_00",
+        "repeat": 2,
+        "before": 0.08463566099999298,
+        "after": 0.08448918799990679
+      },
+      {
+        "view": "36640328_02",
+        "repeat": 0,
+        "before": 0.09049877699999342,
+        "after": 0.08842978699999549
+      },
+      {
+        "view": "36640328_02",
+        "repeat": 1,
+        "before": 0.09061885699998129,
+        "after": 0.08762305300001572
+      },
+      {
+        "view": "36640328_02",
+        "repeat": 2,
+        "before": 0.08920007100005023,
+        "after": 0.08875286700003926
+      },
+      {
+        "view": "36640328_03",
+        "repeat": 0,
+        "before": 0.08247165999978279,
+        "after": 0.08308850100002019
+      },
+      {
+        "view": "36640328_03",
+        "repeat": 1,
+        "before": 0.08355389899998045,
+        "after": 0.08645006100005048
+      },
+      {
+        "view": "36640328_03",
+        "repeat": 2,
+        "before": 0.08200878800016653,
+        "after": 0.08394884500012267
+      },
+      {
+        "view": "36545211_01",
+        "repeat": 0,
+        "before": 0.08405057200002375,
+        "after": 0.08562710199998946
+      },
+      {
+        "view": "36545211_01",
+        "repeat": 1,
+        "before": 0.08263910899995608,
+        "after": 0.08546234499999628
+      },
+      {
+        "view": "36545211_01",
+        "repeat": 2,
+        "before": 0.08237581699995644,
+        "after": 0.08566501300015261
+      },
+      {
+        "view": "36545211_02",
+        "repeat": 0,
+        "before": 0.08387413299988111,
+        "after": 0.08446130800007268
+      },
+      {
+        "view": "36545211_02",
+        "repeat": 1,
+        "before": 0.084790324000096,
+        "after": 0.0840602000000672
+      },
+      {
+        "view": "36545211_02",
+        "repeat": 2,
+        "before": 0.08450163899988183,
+        "after": 0.08538554799997655
+      },
+      {
+        "view": "36757952_01",
+        "repeat": 0,
+        "before": 0.08314703199994256,
+        "after": 0.08517010599985042
+      },
+      {
+        "view": "36757952_01",
+        "repeat": 1,
+        "before": 0.08184669599995686,
+        "after": 0.08452281900008529
+      },
+      {
+        "view": "36757952_01",
+        "repeat": 2,
+        "before": 0.08338910399993438,
+        "after": 0.08641181300004064
+      },
+      {
+        "view": "36718045_00",
+        "repeat": 0,
+        "before": 0.08316695600001367,
+        "after": 0.08414006099997096
+      },
+      {
+        "view": "36718045_00",
+        "repeat": 1,
+        "before": 0.08406108300005144,
+        "after": 0.08571620199995778
+      },
+      {
+        "view": "36718045_00",
+        "repeat": 2,
+        "before": 0.08314931299992168,
+        "after": 0.08419781899988266
+      },
+      {
+        "view": "36053615_00",
+        "repeat": 0,
+        "before": 0.09193582000011702,
+        "after": 0.08974629599993023
+      },
+      {
+        "view": "36053615_00",
+        "repeat": 1,
+        "before": 0.0896187779999309,
+        "after": 0.08808321400010755
+      },
+      {
+        "view": "36053615_00",
+        "repeat": 2,
+        "before": 0.090243203,
+        "after": 0.0900781850000385
+      },
+      {
+        "view": "36053615_01",
+        "repeat": 0,
+        "before": 0.08461681600010706,
+        "after": 0.08281710500000372
+      },
+      {
+        "view": "36053615_01",
+        "repeat": 1,
+        "before": 0.08409396699994431,
+        "after": 0.08263606700006676
+      },
+      {
+        "view": "36053615_01",
+        "repeat": 2,
+        "before": 0.08348144500018861,
+        "after": 0.08194526800002677
+      },
+      {
+        "view": "36053615_03",
+        "repeat": 0,
+        "before": 0.08283649100008006,
+        "after": 0.0837293370000225
+      },
+      {
+        "view": "36053615_03",
+        "repeat": 1,
+        "before": 0.08313480099991466,
+        "after": 0.08414372000015646
+      },
+      {
+        "view": "36053615_03",
+        "repeat": 2,
+        "before": 0.0826883810000254,
+        "after": 0.08287024000014753
+      },
+      {
+        "view": "36053615_06",
+        "repeat": 0,
+        "before": 0.08613278699999682,
+        "after": 0.08271179400003348
+      },
+      {
+        "view": "36053615_06",
+        "repeat": 1,
+        "before": 0.09060181599988937,
+        "after": 0.08569994899994526
+      },
+      {
+        "view": "36053615_06",
+        "repeat": 2,
+        "before": 0.09021439200000714,
+        "after": 0.0857818419999603
+      },
+      {
+        "view": "36152425_00",
+        "repeat": 0,
+        "before": 0.08373895699992318,
+        "after": 0.08401828799992472
+      },
+      {
+        "view": "36152425_00",
+        "repeat": 1,
+        "before": 0.08258188800004973,
+        "after": 0.08328951900011816
+      },
+      {
+        "view": "36152425_00",
+        "repeat": 2,
+        "before": 0.08544159399980344,
+        "after": 0.08415557400007856
+      },
+      {
+        "view": "36152425_01",
+        "repeat": 0,
+        "before": 0.08354819699979998,
+        "after": 0.08222838500000762
+      },
+      {
+        "view": "36152425_01",
+        "repeat": 1,
+        "before": 0.08456626699990011,
+        "after": 0.08245875400007208
+      },
+      {
+        "view": "36152425_01",
+        "repeat": 2,
+        "before": 0.08401515900004597,
+        "after": 0.0825133769999411
+      },
+      {
+        "view": "36152425_04",
+        "repeat": 0,
+        "before": 0.08407766499999525,
+        "after": 0.0836867580001126
+      },
+      {
+        "view": "36152425_04",
+        "repeat": 1,
+        "before": 0.08168201100011174,
+        "after": 0.08346232299982148
+      },
+      {
+        "view": "36152425_04",
+        "repeat": 2,
+        "before": 0.08341874100005953,
+        "after": 0.08494605099986074
+      },
+      {
+        "view": "36076478_01",
+        "repeat": 0,
+        "before": 0.09050901199998407,
+        "after": 0.09194205499989039
+      },
+      {
+        "view": "36076478_01",
+        "repeat": 1,
+        "before": 0.0832852629998797,
+        "after": 0.08594871199989029
+      },
+      {
+        "view": "36076478_01",
+        "repeat": 2,
+        "before": 0.08800262399995518,
+        "after": 0.08339890000002015
+      },
+      {
+        "view": "36076478_03",
+        "repeat": 0,
+        "before": 0.0834929860000102,
+        "after": 0.08532710800000132
+      },
+      {
+        "view": "36076478_03",
+        "repeat": 1,
+        "before": 0.09302760700006729,
+        "after": 0.08375680800008922
+      },
+      {
+        "view": "36076478_03",
+        "repeat": 2,
+        "before": 0.08769756100014092,
+        "after": 0.08472249999999804
+      },
+      {
+        "view": "36076478_04",
+        "repeat": 0,
+        "before": 0.082429010000169,
+        "after": 0.08465298500004792
+      },
+      {
+        "view": "36076478_04",
+        "repeat": 1,
+        "before": 0.08278535099998408,
+        "after": 0.08376865600007477
+      },
+      {
+        "view": "36076478_04",
+        "repeat": 2,
+        "before": 0.08302389699997548,
+        "after": 0.08448320999991665
+      },
+      {
+        "view": "36076478_06",
+        "repeat": 0,
+        "before": 0.08291577499994673,
+        "after": 0.0828006600002027
+      },
+      {
+        "view": "36076478_06",
+        "repeat": 1,
+        "before": 0.08491791500000545,
+        "after": 0.08300743600011629
+      },
+      {
+        "view": "36076478_06",
+        "repeat": 2,
+        "before": 0.08249376300000222,
+        "after": 0.08274942100001681
+      }
+    ]
+  },
+  "note": "Agreement with previous development masks is not correctness; inspect changed product components."
+}
