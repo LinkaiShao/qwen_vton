@@ -255,14 +255,16 @@ class Experiment:
                 row=self.row(self.rows['development'][t%16])
                 _,_,x0,a=self.predict(row,t,SEED+t)
                 dino,_,_,_=self.detail(row,x0,a);corr=self.corr(row,a)
-                grads=torch.autograd.grad(noise_weight(self.alpha[t])*dino+.1*corr,list(self.params.values()),allow_unused=True)
+                # Test DINO's own path: correspondence gradients must not hide
+                # a disconnected or zero appearance gradient at any timestep.
+                grads=torch.autograd.grad(noise_weight(self.alpha[t])*dino,list(self.params.values()),allow_unused=True)
                 norms=self.norms(grads)
-                if not torch.isfinite(dino+corr) or not all(math.isfinite(v) for v in norms.values()) or sum(norms.values())<=0:
+                if not torch.isfinite(dino+corr) or not all(math.isfinite(v) and v>0 for v in norms.values()):
                     raise RuntimeError('Missing/nonfinite timestep gradient '+str(t))
-                f.write(json.dumps({'t':t,'weight':float(noise_weight(self.alpha[t])),'dino':float(dino.detach()),'gradient_norms':norms})+'\n');f.flush()
+                f.write(json.dumps({'t':t,'weight':float(noise_weight(self.alpha[t])),'dino':float(dino.detach()),'dino_gradient_norms':norms})+'\n');f.flush()
                 del grads,dino,corr,x0,a;self.tracker.clear()
                 if t%50==0:print('TIMESTEP_SWEEP',t,flush=True)
-        atomic(self.args.output/'TIMESTEP_VERIFICATION.json',{'timesteps':len(self.alpha),'passed':True,'seconds':time.time()-start})
+        atomic(self.args.output/'TIMESTEP_VERIFICATION.json',{'timesteps':len(self.alpha),'passed':True,'objective_tested':'weighted DINO alone, without correspondence or diffusion gradients','seconds':time.time()-start})
 
     def train(self,arm):
         out=self.args.output/arm;out.mkdir(parents=True,exist_ok=True)

@@ -1,0 +1,55 @@
+{
+  "output_max_difference": 0.0,
+  "correspondence_gradient_norms": {
+    "to_q": 0.6629329323768616,
+    "to_k": 0.642310619354248,
+    "to_v": 1.1582809686660767,
+    "to_out": 1.1990927457809448
+  },
+  "dino_gradient_norms": {
+    "to_q": 0.386288046836853,
+    "to_k": 0.43552955985069275,
+    "to_v": 0.7776311039924622,
+    "to_out": 0.8407253623008728
+  },
+  "parameters": 6146880,
+  "parameter_names": [
+    "up_blocks.2.attentions.0.transformer_blocks.0.attn1.to_q.weight",
+    "up_blocks.2.attentions.0.transformer_blocks.0.attn1.to_k.weight",
+    "up_blocks.2.attentions.0.transformer_blocks.0.attn1.to_v.weight",
+    "up_blocks.2.attentions.0.transformer_blocks.0.attn1.to_out.0.weight",
+    "up_blocks.2.attentions.0.transformer_blocks.0.attn1.to_out.0.bias",
+    "up_blocks.2.attentions.1.transformer_blocks.0.attn1.to_q.weight",
+    "up_blocks.2.attentions.1.transformer_blocks.0.attn1.to_k.weight",
+    "up_blocks.2.attentions.1.transformer_blocks.0.attn1.to_v.weight",
+    "up_blocks.2.attentions.1.transformer_blocks.0.attn1.to_out.0.weight",
+    "up_blocks.2.attentions.1.transformer_blocks.0.attn1.to_out.0.bias",
+    "up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_q.weight",
+    "up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_k.weight",
+    "up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_v.weight",
+    "up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_out.0.weight",
+    "up_blocks.2.attentions.2.transformer_blocks.0.attn1.to_out.0.bias",
+    "up_blocks.3.attentions.0.transformer_blocks.0.attn1.to_q.weight",
+    "up_blocks.3.attentions.0.transformer_blocks.0.attn1.to_k.weight",
+    "up_blocks.3.attentions.0.transformer_blocks.0.attn1.to_v.weight",
+    "up_blocks.3.attentions.0.transformer_blocks.0.attn1.to_out.0.weight",
+    "up_blocks.3.attentions.0.transformer_blocks.0.attn1.to_out.0.bias",
+    "up_blocks.3.attentions.1.transformer_blocks.0.attn1.to_q.weight",
+    "up_blocks.3.attentions.1.transformer_blocks.0.attn1.to_k.weight",
+    "up_blocks.3.attentions.1.transformer_blocks.0.attn1.to_v.weight",
+    "up_blocks.3.attentions.1.transformer_blocks.0.attn1.to_out.0.weight",
+    "up_blocks.3.attentions.1.transformer_blocks.0.attn1.to_out.0.bias",
+    "up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_q.weight",
+    "up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_k.weight",
+    "up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_v.weight",
+    "up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_out.0.weight",
+    "up_blocks.3.attentions.2.transformer_blocks.0.attn1.to_out.0.bias"
+  ],
+  "frozen_networks_verified": true,
+  "model_calls_per_prediction": {
+    "unet": 1,
+    "reference": 1
+  },
+  "peak_gib": 8.106291770935059,
+  "passed": true
+}

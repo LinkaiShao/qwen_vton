@@ -34,6 +34,12 @@ def build(root):
             elif state['stage']=='cache' and progress.get('stage')=='caching':
                 parts.append(f'<p>Clean feature preparation: {progress["newly_cached"]:,} newly cached / {progress["total"]:,} examples.</p>')
     parts.append('</div><p>Locations come from the same person–garment Q/K attention used by LeFFA to generate the image. Frozen DINO supervises automatic correspondence and dense image details in one sampled-timestep training forward. Named-part heads and Molmo are absent.</p>')
+    verification=run/'GRADIENT_VERIFICATION.json'
+    if verification.exists():
+        proof=json.loads(verification.read_text())
+        if proof.get('passed'):
+            shutil.copy2(verification,dest/'GRADIENT_VERIFICATION.json')
+            parts.append(f'<p>Real-image gradient check passed: attention recording changes the denoiser output by {proof["output_max_difference"]:g}; DINO reaches existing Q/K/V/output projections. Peak allocated memory in this check: {proof["peak_gib"]:.1f} GiB. <a href="GRADIENT_VERIFICATION.json">Verification measurements</a>. This checks the implementation; it does not establish improved output quality.</p>')
     if 'updated' in state:
         parts.append('<p><small>State checked '+datetime.fromtimestamp(state['updated'],timezone.utc).strftime('%Y-%m-%d %H:%M UTC')+'. The page updates when the job changes phase.</small></p>')
     if result:
