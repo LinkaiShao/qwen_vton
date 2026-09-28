@@ -47,7 +47,7 @@ class Contracts(unittest.TestCase):
         before=tracker.mean().detach().clone()
         tracker.intervention=('a',3)
         with torch.no_grad():changed=model['a'](x)
-        self.assertGreater(float((changed-reference).abs().max()),0)
+        self.assertGreater(float((changed-reference).detach().abs().max()),0)
         torch.testing.assert_close(tracker.mean(),before)
         tracker.close()
 

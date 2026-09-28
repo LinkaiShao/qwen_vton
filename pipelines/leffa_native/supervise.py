@@ -47,9 +47,11 @@ def main():
         # Install only the independent scorer into a private directory. The
         # existing LeFFA environment and its pinned torch are never upgraded.
         execute('evaluation_dependency',[sys.executable,'-m','pip','install','--no-deps','--target',str(root/'deps'),'lpips==0.1.4'])
+        if (root/'dataset.tar').exists() and not ((root/'DATA_READY.json').exists() and (root/'data/train_00000_00/target.png').exists()):
+            execute('restore_data',[sys.executable,'-u',str(code/'transfer.py'),'receive','--root',str(root)])
         while True:
             if time.time()>deadline:raise TimeoutError('No H200 capacity/data before session deadline')
-            data_ready=(root/'DATA_READY.json').exists()
+            data_ready=(root/'DATA_READY.json').exists() and (root/'data/train_00000_00/target.png').exists()
             r=subprocess.run(['nvidia-smi','--query-gpu=memory.free','--format=csv,noheader,nounits'],capture_output=True,text=True,check=True)
             free=int(r.stdout.strip().splitlines()[0])
             if data_ready and free>=24576:break

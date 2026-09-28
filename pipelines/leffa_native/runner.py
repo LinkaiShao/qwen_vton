@@ -306,10 +306,10 @@ class Experiment:
                 if (step+1)%1000==0:self.evaluate(arm+'_'+str(step+1),count=64)
         del optimizer
         changed={k:float((p.detach().cpu()-self.initial[k]).norm()) for k,p in self.params.items()}
+        self.evaluate(arm+'_final',count=len(self.rows['development']))
         atomic(out/'COMPLETE.json',{'arm':arm,'steps':self.args.steps,'accumulation':self.args.accumulation,
                                   'schedule_sha256':schedule_hash,'seconds_this_session':time.time()-start,
                                   'parameter_update_norms':changed,'oom_count':0})
-        self.evaluate(arm+'_final',count=len(self.rows['development']))
 
 
 def main():
@@ -325,6 +325,8 @@ def main():
         config={'arguments':{k:str(v) if isinstance(v,Path) else v for k,v in vars(args).items()},
                 'manifest_sha256':digest(args.data/'manifest.json'),
                 'code_sha256':{p.name:digest(p) for p in Path(__file__).parent.glob('*.py')},
+                'leffa_source_sha256':{name:digest(args.leffa_code/name) for name in
+                    ['leffa/model.py','leffa/diffusion_model/attention_gen.py','leffa/pipeline.py']},
                 'torch':torch.__version__,'gpu':torch.cuda.get_device_name(),'seed':SEED}
         atomic(args.output/('RUN_'+args.stage+('_'+args.arm if args.arm else '')+'.json'),config)
         exp=Experiment(args)

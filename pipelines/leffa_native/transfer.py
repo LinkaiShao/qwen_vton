@@ -11,6 +11,7 @@ from pathlib import Path
 import secrets
 import tarfile
 import time
+import shutil
 
 
 def pack(root):
@@ -60,11 +61,11 @@ def serve(root):
 def receive(root):
     import requests
     config=json.loads((root/'transport.json').read_text())
-    token=(root/'.transport_secret').read_text()
     dest=root/'dataset.tar';total=config['bytes'];start=time.time()
     for attempt in range(20):
         offset=dest.stat().st_size if dest.exists() else 0
         if offset==total:break
+        token=(root/'.transport_secret').read_text()
         headers={'Authorization':'Bearer '+token}
         if offset:headers['Range']=f'bytes={offset}-'
         try:
@@ -83,11 +84,21 @@ def receive(root):
     with dest.open('rb') as f:
         for chunk in iter(lambda:f.read(8<<20),b''):h.update(chunk)
     if h.hexdigest()!=config['sha256']:raise RuntimeError('Archive checksum mismatch')
-    with tarfile.open(dest) as tar:tar.extractall(root,filter='data')
+    # Avoid tens of thousands of synchronous small writes to Harbor NFS. The
+    # authenticated, checksummed archive stays persistent for future restores.
+    staging=Path('/tmp')/('leffa_native_'+config['sha256'][:16]);staging.mkdir(exist_ok=True)
+    (root/'DATA_READY.json').unlink(missing_ok=True)
+    with tarfile.open(dest) as tar:tar.extractall(staging,filter='data')
+    target=root/'data'
+    if target.is_symlink():target.unlink()
+    elif target.exists():target.rename(root/('data_partial_'+str(int(time.time()))))
+    target.symlink_to(staging/'data',target_is_directory=True)
+    shutil.copy2(staging/'manifest.json',root/'manifest.json')
     manifest=json.loads((root/'manifest.json').read_text())
     assert all((root/'data'/r['key']/'READY.json').exists() for r in manifest['records'])
-    (root/'DATA_READY.json').write_text(json.dumps({'archive_sha256':config['sha256'],'counts':manifest['counts'],'transport_seconds':time.time()-start}))
-    (root/'.transport_secret').unlink();dest.unlink()
+    (root/'DATA_READY.json').write_text(json.dumps({'archive_sha256':config['sha256'],'counts':manifest['counts'],
+                                                 'transport_seconds':time.time()-start,'data_location':str(staging/'data')}))
+    (root/'.transport_secret').unlink(missing_ok=True)
     print('TRANSFER_COMPLETE',manifest['counts'],flush=True)
 
 

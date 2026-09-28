@@ -91,6 +91,9 @@ def run():
     code=f'''import subprocess,time,json,os,signal
 from pathlib import Path
 p=Path.home()/{REMOTE!r};log=p/'controller.log'
+if (p/'EXIT.json').exists():
+    (p/'attempts').mkdir(exist_ok=True)
+    (p/'EXIT.json').rename(p/'attempts'/('exit_'+str(int(time.time()))+'.json'))
 python=Path.home()/'vton_region_benchmark/20260924_eight_models/job/envs/leffa/bin/python'
 env=dict(os.environ,PYTHONUNBUFFERED='1',HF_HOME=str(Path.home()/'sgn/hf'),HF_HUB_OFFLINE='1',TOKENIZERS_PARALLELISM='false',OMP_NUM_THREADS='4',PYTHONPATH=str(p/'deps'))
 with log.open('a') as f:
