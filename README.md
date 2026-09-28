@@ -76,3 +76,10 @@ final = prediction   inside  grey_hole(agnostic)
 [Open the interactive comparison](https://LinkaiShao.github.io/qwen_vton/molmo-20260922/) · [Report files](docs/molmo-20260922/)
 
 Three selected training examples show full original generation, ground truth, and new generation, followed by marked detail crops and an original/new slider. The earlier overnight run shows a raised leopard neckline, removal of an extra line on a sheer chest, and a smaller button appearance improvement. These report images are raw full-frame renders without reference-pixel compositing. This illustrative selection does not establish held-out improvement or isolate Molmo’s effect.
+
+
+## Flatlay-reference worn-garment cutter
+
+[Runnable pipeline and setup instructions](pipelines/flatlay_cutter/) · [Before/after gallery](https://linkaishao.github.io/qwen_vton/flatlay-cutter/repair/)
+
+Frozen SAM3 cuts the garment from a worn photograph using product-only reference components for selection. Automatic Qwen preparation selects references, excludes closeups, and supplies garment nouns; the fast cutting stage makes no VLM calls. The portable package reproduces all 190 reviewed masks pixel for pixel on RTX 5090. Model weights and datasets are obtained separately.

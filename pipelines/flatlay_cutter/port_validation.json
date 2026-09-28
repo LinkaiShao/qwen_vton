@@ -1,0 +1,30 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "reviewed_engine_sha256": "6706026238924835e18cc5054baaa9858c9fe8d37af1dda3217cd5aaf7fc6565",
+  "portable_engine_sha256": "aa127ab577bd239e5d53de73ca41e7e634144e04f231a781d9f957d0f6d5791c",
+  "replay_inputs": "Same automatically prepared product-only images, reference masks, nouns and worn targets as the reviewed 190-case gallery. Reference masks regenerated only where absent in original run.",
+  "mask_parity": {
+    "count": 190,
+    "pixel_identical": 190,
+    "differences": []
+  },
+  "installed_package_fresh_setup": {
+    "sku": "farfetch_14069460",
+    "setup_status": "ready",
+    "queries": [
+      [
+        "sweatshirt"
+      ]
+    ],
+    "cut_status": "cut",
+    "fresh_reference_iou_vs_reviewed": 1.0,
+    "fresh_reference_pixel_identical": true
+  },
+  "cpu_contract_tests": {
+    "passed": 4,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "wheel_build_and_console_entrypoint": "passed",
+  "training": false,
+  "note": "Parity validates packaging consistency on this development cohort; it is not new ground-truth accuracy or an H200 benchmark."
+}

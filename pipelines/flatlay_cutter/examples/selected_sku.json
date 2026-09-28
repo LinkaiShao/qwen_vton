@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "skus": [
+    {
+      "key": "example_product",
+      "references": [{"id": "product", "source": "images/product.jpg"}],
+      "targets": [
+        {"id": "front", "source": "images/front.jpg"},
+        {"id": "back", "source": "images/back.jpg"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skus": [
+    {
+      "key": "example_product",
+      "views": [
+        {"id": "front", "source": "images/front.jpg"},
+        {"id": "back", "source": "images/back.jpg"},
+        {"id": "product", "source": "images/product.jpg"},
+        {"id": "detail", "source": "images/detail.jpg"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "count": 190,
+  "counts": {
+    "cut": 190
+  },
+  "before_mean_iou": 0.8852930820466707,
+  "mean_iou": 0.9102643723253643,
+  "before_pass": 185,
+  "after_pass": 190,
+  "regressions": 0,
+  "fixed_failures": 5,
+  "iou_gains_over_02": 11,
+  "iou_drops_over_02": 0,
+  "mean_mask_seconds": 0.08975698735262923,
+  "mean_file_export_seconds": 0.32034551471053396,
+  "note": "Development regression batch, not an untouched test set. Error cases count as zero IoU in both means.",
+  "gallery": "https://linkaishao.github.io/qwen_vton/flatlay-cutter/repair/",
+  "limitations": "Development cohort, permissive rubric, imperfect annotations; nonempty output does not establish correct segmentation."
+}

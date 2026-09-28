@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flatlay-reference-cutter"
+version = "0.1.0"
+description = "SAM3 worn-garment cutouts selected by product-only reference features"
+requires-python = ">=3.11"
+dependencies = [
+  "torch==2.10.0",
+  "torchvision==0.25.0",
+  "transformers==5.2.0",
+  "numpy==2.2.6",
+  "Pillow>=10.2.0,<13",
+  "pillow-avif-plugin==1.6.0",
+  "opencv-python-headless==4.12.0.88",
+  "scipy==1.16.2",
+  "accelerate==1.11.0",
+  "safetensors==0.6.2",
+  "huggingface-hub==1.4.1",
+]
+
+[project.scripts]
+flatlay-cut = "flatlay_cutter.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["flatlay_cutter*"]
