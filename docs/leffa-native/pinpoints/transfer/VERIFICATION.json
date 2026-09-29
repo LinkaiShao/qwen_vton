@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "fixed_points": 83,
+  "cases": 6,
+  "forward_steps": 120,
+  "source_coordinate_changes": 0,
+  "all_latent_and_image_differences": 0,
+  "original_demo_identical": true,
+  "exact_geometric_accuracy_verified": false
+}

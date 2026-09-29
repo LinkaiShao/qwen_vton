@@ -1,0 +1,6 @@
+{
+  "cases": 6,
+  "seconds": 73.81814694404602,
+  "peak_gpu_gib": 6.245595455169678,
+  "training": false
+}

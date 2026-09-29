@@ -1,0 +1,771 @@
+{
+  "created": 1790715108.620673,
+  "methods": {
+    "baseline": "Equal mean of six independently spatial-normalized layer maps; per-point argmax.",
+    "consensus": "Geometric mean of the same six spatial-normalized native attention maps; per-point argmax. Floor 1e-12.",
+    "flow_inverse": "Six-layer mean of mean-head reference-conditional attention coordinate expectations at temperature 2; nearest inverse source coordinate."
+  },
+  "semantic_labels_used_for_readout": false,
+  "source_points_modified": false,
+  "target_localizer": false,
+  "training": false,
+  "selection": "Development case plus all available ready-mask cases in previously fixed 32-case Molmo audit order. No selection by transfer quality.",
+  "single_timestep_readout": true,
+  "temporal_smoothing": false,
+  "source_pixel_centers": "normalized XY with align_corners=False",
+  "seed": 42,
+  "steps": 20,
+  "layers": [
+    "up_blocks.2.attentions.0.transformer_blocks.0.attn1",
+    "up_blocks.2.attentions.1.transformer_blocks.0.attn1",
+    "up_blocks.2.attentions.2.transformer_blocks.0.attn1",
+    "up_blocks.3.attentions.0.transformer_blocks.0.attn1",
+    "up_blocks.3.attentions.1.transformer_blocks.0.attn1",
+    "up_blocks.3.attentions.2.transformer_blocks.0.attn1"
+  ],
+  "interpretation": "Experimental correspondence estimates, not certified exact correspondences. No forced separation or semantic coordinate priors.",
+  "cases": [
+    {
+      "id": "train_05504_00",
+      "role": "development: known failure",
+      "source_points_hash": "da36fe3e582a4b0ea5d5d2fbc65967ccc670b47d886703629514af38b17e8397",
+      "points": [
+        {
+          "label": "collar",
+          "instance": 1,
+          "source_xy": [
+            0.41,
+            0.11
+          ]
+        },
+        {
+          "label": "collar",
+          "instance": 2,
+          "source_xy": [
+            0.551,
+            0.11
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 1,
+          "source_xy": [
+            0.401,
+            0.111
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 2,
+          "source_xy": [
+            0.561,
+            0.111
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 1,
+          "source_xy": [
+            0.155,
+            0.871
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 2,
+          "source_xy": [
+            0.843,
+            0.865
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 1,
+          "source_xy": [
+            0.151,
+            0.652
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 2,
+          "source_xy": [
+            0.845,
+            0.652
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 1,
+          "source_xy": [
+            0.21,
+            0.179
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 2,
+          "source_xy": [
+            0.7859999999999999,
+            0.179
+          ]
+        }
+      ],
+      "image_hashes": {
+        "flatlay": "53cbdb045e8d4602e490c6623b24ca6fe5641767505d53efa9b09fc87eca38b4",
+        "person": "6d54885629e128ecdbfd449e4da89356b9aafc33b11453d073e947aca7d2d89d",
+        "densepose": "f39d7d559b9b18b0734845c4c9b05cff06d2bc35dac52a80ca280a9dc44e3fcf",
+        "mask": "337b93d17fa760d6864887c540a6a340ca72e38edffa81ebbf5ace57de396d55"
+      }
+    },
+    {
+      "id": "test_04430_00",
+      "role": "heldout: fixed audit order, existing verified mask",
+      "source_points_hash": "aa19c4904d2bda3fdd5799b933d2b58e5ebb8842f0a69ca52da1d000ef9c0c68",
+      "points": [
+        {
+          "label": "collar",
+          "instance": 1,
+          "source_xy": [
+            0.418,
+            0.215
+          ]
+        },
+        {
+          "label": "collar",
+          "instance": 2,
+          "source_xy": [
+            0.586,
+            0.21
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 1,
+          "source_xy": [
+            0.41,
+            0.218
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 2,
+          "source_xy": [
+            0.586,
+            0.218
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 1,
+          "source_xy": [
+            0.17,
+            0.743
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 2,
+          "source_xy": [
+            0.84,
+            0.743
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 1,
+          "source_xy": [
+            0.32,
+            0.595
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 2,
+          "source_xy": [
+            0.321,
+            0.55
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 3,
+          "source_xy": [
+            0.32299999999999995,
+            0.512
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 4,
+          "source_xy": [
+            0.324,
+            0.475
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 5,
+          "source_xy": [
+            0.325,
+            0.43799999999999994
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 6,
+          "source_xy": [
+            0.326,
+            0.39899999999999997
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 7,
+          "source_xy": [
+            0.67,
+            0.43799999999999994
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 8,
+          "source_xy": [
+            0.67,
+            0.475
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 9,
+          "source_xy": [
+            0.67,
+            0.512
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 10,
+          "source_xy": [
+            0.67,
+            0.55
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 11,
+          "source_xy": [
+            0.6709999999999999,
+            0.39899999999999997
+          ]
+        },
+        {
+          "label": "button hole",
+          "instance": 12,
+          "source_xy": [
+            0.6709999999999999,
+            0.6
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 1,
+          "source_xy": [
+            0.182,
+            0.561
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 2,
+          "source_xy": [
+            0.81,
+            0.561
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 1,
+          "source_xy": [
+            0.26,
+            0.225
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 2,
+          "source_xy": [
+            0.735,
+            0.225
+          ]
+        }
+      ],
+      "image_hashes": {
+        "flatlay": "3907acf64bcb2c8c03633d66baa619975149c35cc62bfcbf28ec67bdef8006e5",
+        "person": "21e8a9f6f630495cd57f4c1bf7b63a06428a031da46f581252e3edf164dd596b",
+        "densepose": "165dd4ea2884485e4358545ead4b75399d7864b5c9429f0b7d6affbbb5ff8e5c",
+        "mask": "bbc77c2af4d495c1066fe41f64ca8a75256ccc17b0091957a2ccb97f9b441a6e"
+      }
+    },
+    {
+      "id": "test_14173_00",
+      "role": "heldout: fixed audit order, existing verified mask",
+      "source_points_hash": "b71534d92e387458f6c0d5a6fa82fc88f5c76c96b985b2b5f08e1588ff209882",
+      "points": [
+        {
+          "label": "collar",
+          "instance": 1,
+          "source_xy": [
+            0.39899999999999997,
+            0.14
+          ]
+        },
+        {
+          "label": "collar",
+          "instance": 2,
+          "source_xy": [
+            0.604,
+            0.138
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 1,
+          "source_xy": [
+            0.396,
+            0.335
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 2,
+          "source_xy": [
+            0.599,
+            0.36
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 1,
+          "source_xy": [
+            0.165,
+            0.858
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 2,
+          "source_xy": [
+            0.84,
+            0.851
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 1,
+          "source_xy": [
+            0.16,
+            0.61
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 2,
+          "source_xy": [
+            0.84,
+            0.61
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 1,
+          "source_xy": [
+            0.23,
+            0.154
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 2,
+          "source_xy": [
+            0.754,
+            0.16
+          ]
+        },
+        {
+          "label": "logo",
+          "instance": 1,
+          "source_xy": [
+            0.486,
+            0.14
+          ]
+        },
+        {
+          "label": "logo",
+          "instance": 2,
+          "source_xy": [
+            0.621,
+            0.132
+          ]
+        }
+      ],
+      "image_hashes": {
+        "flatlay": "1464d1f51bc87d04b72313a888fc4b6e89d193001e7c2f7a10ea1bd0a46ec7a4",
+        "person": "1c09197e94d98bdfd845c13b0084cf1648607cbb28509aa6a224038632c84d17",
+        "densepose": "8e52ddcc7fa972bf6753b3b0b55dfb7d717de60a73e00872bebb7c7f5da9efc1",
+        "mask": "342bebd50a3f070540553c2620178ac63c9316abbe8c77bc5fff62a42e47f257"
+      }
+    },
+    {
+      "id": "test_02743_00",
+      "role": "heldout: fixed audit order, existing verified mask",
+      "source_points_hash": "1b3a80579738466f6b8dd2424e474a6893c55690d5b4503c2272378f1eee81df",
+      "points": [
+        {
+          "label": "collar",
+          "instance": 1,
+          "source_xy": [
+            0.36,
+            0.1
+          ]
+        },
+        {
+          "label": "collar",
+          "instance": 2,
+          "source_xy": [
+            0.486,
+            0.12
+          ]
+        },
+        {
+          "label": "collar",
+          "instance": 3,
+          "source_xy": [
+            0.501,
+            0.071
+          ]
+        },
+        {
+          "label": "collar",
+          "instance": 4,
+          "source_xy": [
+            0.61,
+            0.11
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 1,
+          "source_xy": [
+            0.265,
+            0.162
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 2,
+          "source_xy": [
+            0.715,
+            0.162
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 1,
+          "source_xy": [
+            0.136,
+            0.904
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 2,
+          "source_xy": [
+            0.865,
+            0.904
+          ]
+        },
+        {
+          "label": "pocket",
+          "instance": 1,
+          "source_xy": [
+            0.158,
+            0.902
+          ]
+        },
+        {
+          "label": "pocket",
+          "instance": 2,
+          "source_xy": [
+            0.8420000000000001,
+            0.902
+          ]
+        },
+        {
+          "label": "zipper",
+          "instance": 1,
+          "source_xy": [
+            0.162,
+            0.909
+          ]
+        },
+        {
+          "label": "zipper",
+          "instance": 2,
+          "source_xy": [
+            0.252,
+            0.451
+          ]
+        },
+        {
+          "label": "zipper",
+          "instance": 3,
+          "source_xy": [
+            0.8320000000000001,
+            0.909
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 1,
+          "source_xy": [
+            0.16,
+            0.546
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 2,
+          "source_xy": [
+            0.8290000000000001,
+            0.546
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 1,
+          "source_xy": [
+            0.24600000000000002,
+            0.154
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 2,
+          "source_xy": [
+            0.7170000000000001,
+            0.154
+          ]
+        },
+        {
+          "label": "logo",
+          "instance": 1,
+          "source_xy": [
+            0.6729999999999999,
+            0.27899999999999997
+          ]
+        },
+        {
+          "label": "logo",
+          "instance": 2,
+          "source_xy": [
+            0.715,
+            0.8740000000000001
+          ]
+        }
+      ],
+      "image_hashes": {
+        "flatlay": "2ac0efedde41717767e287130abb771eb51866efda1db3cd8d5c02903814a2db",
+        "person": "fc0c5a15b13dcd7c56160468ca7722cca185d193de7b5a1251e21c6e10442be7",
+        "densepose": "e3ecf97d3b14adca7cf97cbfa72b444cfc87b53d907df46f8349bc7d9d6dde65",
+        "mask": "c33c2169ab8712c468b2bd0a7162c3db64883d27f47ca769c517903039fae3db"
+      }
+    },
+    {
+      "id": "test_06730_00",
+      "role": "heldout: fixed audit order, existing verified mask",
+      "source_points_hash": "94d1aebd1adc52c8d4ec39d0bd0de221a79e3d0a097c0088f365657404a64439",
+      "points": [
+        {
+          "label": "collar",
+          "instance": 1,
+          "source_xy": [
+            0.45399999999999996,
+            0.10099999999999999
+          ]
+        },
+        {
+          "label": "collar",
+          "instance": 2,
+          "source_xy": [
+            0.552,
+            0.10099999999999999
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 1,
+          "source_xy": [
+            0.452,
+            0.10099999999999999
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 2,
+          "source_xy": [
+            0.552,
+            0.10099999999999999
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 1,
+          "source_xy": [
+            0.15,
+            0.938
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 2,
+          "source_xy": [
+            0.855,
+            0.938
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 1,
+          "source_xy": [
+            0.155,
+            0.496
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 2,
+          "source_xy": [
+            0.84,
+            0.501
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 1,
+          "source_xy": [
+            0.25,
+            0.13
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 2,
+          "source_xy": [
+            0.74,
+            0.13
+          ]
+        }
+      ],
+      "image_hashes": {
+        "flatlay": "ec9bef0b925c5fa16ac2488e5ca7d6f2fe09729b512acbafa4cd0ea8a048a166",
+        "person": "e99a1f0de6dd6252b6bf59725c460f1fab7e081ee83f96fd1b0da2ba0b9bb338",
+        "densepose": "a7569307d2c68292e5c0c5dacb834d86fe85e9e242bdbfc137f9c727cc923ef9",
+        "mask": "dd2e351dee2186c503363bec1c56dcf624daa08e17162ea655cefa8886978253"
+      }
+    },
+    {
+      "id": "test_08158_00",
+      "role": "heldout: fixed audit order, existing verified mask",
+      "source_points_hash": "115ea5aa5741ebce43818e6518e3b5dc1b631c2df8baec5b42d7dd3b7ff85feb",
+      "points": [
+        {
+          "label": "collar",
+          "instance": 1,
+          "source_xy": [
+            0.34,
+            0.135
+          ]
+        },
+        {
+          "label": "collar",
+          "instance": 2,
+          "source_xy": [
+            0.6579999999999999,
+            0.133
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 1,
+          "source_xy": [
+            0.33,
+            0.135
+          ]
+        },
+        {
+          "label": "lapel",
+          "instance": 2,
+          "source_xy": [
+            0.6579999999999999,
+            0.133
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 1,
+          "source_xy": [
+            0.16,
+            0.48
+          ]
+        },
+        {
+          "label": "cuff",
+          "instance": 2,
+          "source_xy": [
+            0.8290000000000001,
+            0.47700000000000004
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 1,
+          "source_xy": [
+            0.165,
+            0.405
+          ]
+        },
+        {
+          "label": "sleeve",
+          "instance": 2,
+          "source_xy": [
+            0.815,
+            0.386
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 1,
+          "source_xy": [
+            0.205,
+            0.14800000000000002
+          ]
+        },
+        {
+          "label": "shoulder",
+          "instance": 2,
+          "source_xy": [
+            0.77,
+            0.14800000000000002
+          ]
+        }
+      ],
+      "image_hashes": {
+        "flatlay": "118ee9064999785ce573b63e5b806cf4b983358e8916064cd97e53ef4eade5c9",
+        "person": "0c99d45f744b5392e2313dd58daa864b71322b69169c09d831e04d713fb25349",
+        "densepose": "e6ca5994372fcc7bd1be7bd50615a67f872c82b13d820b042b8ba989321f7908",
+        "mask": "20f52c1b1af05e7761bb9edd31cf5d1e61b2d9c8a961fa5deba137804feb2a11"
+      }
+    }
+  ]
+}
