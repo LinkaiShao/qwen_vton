@@ -1,0 +1,811 @@
+{
+  "all": {
+    "checks": 960,
+    "assessable": 901,
+    "failed": 377,
+    "passed": 524,
+    "unresolved": 59,
+    "failure_pct": 41.84239733629301,
+    "correct_points": 466,
+    "wrong_points": 878,
+    "uncertain_points": 114,
+    "wrong_point_pct": 65.32738095238095,
+    "error_counts": {
+      "false_positive": 341,
+      "missed": 9,
+      "mislocalized": 30,
+      "partial_coverage": 12,
+      "protocol": 2
+    },
+    "present": 249,
+    "absent": 664,
+    "reference_uncertain": 47
+  },
+  "views": {
+    "flatlay": {
+      "checks": 320,
+      "assessable": 294,
+      "failed": 89,
+      "passed": 205,
+      "unresolved": 26,
+      "failure_pct": 30.272108843537413,
+      "correct_points": 174,
+      "wrong_points": 194,
+      "uncertain_points": 35,
+      "wrong_point_pct": 52.71739130434783,
+      "error_counts": {
+        "false_positive": 83,
+        "missed": 4,
+        "mislocalized": 2
+      },
+      "present": 89,
+      "absent": 209,
+      "reference_uncertain": 22,
+      "images_with_known_failure": 32,
+      "present_only": {
+        "checks": 89,
+        "assessable": 85,
+        "failed": 6,
+        "passed": 79,
+        "unresolved": 4,
+        "failure_pct": 7.0588235294117645,
+        "correct_points": 174,
+        "wrong_points": 2,
+        "uncertain_points": 8,
+        "wrong_point_pct": 1.1363636363636365,
+        "error_counts": {
+          "missed": 4,
+          "mislocalized": 2
+        },
+        "present": 89,
+        "absent": 0,
+        "reference_uncertain": 0
+      },
+      "absent_only": {
+        "checks": 209,
+        "assessable": 209,
+        "failed": 83,
+        "passed": 126,
+        "unresolved": 0,
+        "failure_pct": 39.71291866028708,
+        "correct_points": 0,
+        "wrong_points": 192,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 83
+        },
+        "present": 0,
+        "absent": 209,
+        "reference_uncertain": 0
+      },
+      "cluster_bootstrap_95pct_ci": [
+        26.73611111111111,
+        34.12162162162162
+      ]
+    },
+    "worn": {
+      "checks": 320,
+      "assessable": 304,
+      "failed": 147,
+      "passed": 157,
+      "unresolved": 16,
+      "failure_pct": 48.35526315789474,
+      "correct_points": 144,
+      "wrong_points": 372,
+      "uncertain_points": 46,
+      "wrong_point_pct": 72.09302325581395,
+      "error_counts": {
+        "false_positive": 131,
+        "mislocalized": 15,
+        "partial_coverage": 7,
+        "missed": 2,
+        "protocol": 2
+      },
+      "present": 80,
+      "absent": 228,
+      "reference_uncertain": 12,
+      "images_with_known_failure": 32,
+      "present_only": {
+        "checks": 80,
+        "assessable": 76,
+        "failed": 16,
+        "passed": 60,
+        "unresolved": 4,
+        "failure_pct": 21.05263157894737,
+        "correct_points": 144,
+        "wrong_points": 19,
+        "uncertain_points": 5,
+        "wrong_point_pct": 11.656441717791411,
+        "error_counts": {
+          "mislocalized": 15,
+          "partial_coverage": 7,
+          "missed": 2
+        },
+        "present": 80,
+        "absent": 0,
+        "reference_uncertain": 0
+      },
+      "absent_only": {
+        "checks": 228,
+        "assessable": 228,
+        "failed": 131,
+        "passed": 97,
+        "unresolved": 0,
+        "failure_pct": 57.45614035087719,
+        "correct_points": 0,
+        "wrong_points": 353,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 131,
+          "protocol": 2
+        },
+        "present": 0,
+        "absent": 228,
+        "reference_uncertain": 0
+      },
+      "cluster_bootstrap_95pct_ci": [
+        41.967213114754095,
+        54.27702378877657
+      ]
+    },
+    "generated": {
+      "checks": 320,
+      "assessable": 303,
+      "failed": 141,
+      "passed": 162,
+      "unresolved": 17,
+      "failure_pct": 46.53465346534654,
+      "correct_points": 148,
+      "wrong_points": 312,
+      "uncertain_points": 33,
+      "wrong_point_pct": 67.82608695652173,
+      "error_counts": {
+        "false_positive": 127,
+        "mislocalized": 13,
+        "partial_coverage": 5,
+        "missed": 3
+      },
+      "present": 80,
+      "absent": 227,
+      "reference_uncertain": 13,
+      "images_with_known_failure": 32,
+      "present_only": {
+        "checks": 80,
+        "assessable": 76,
+        "failed": 14,
+        "passed": 62,
+        "unresolved": 4,
+        "failure_pct": 18.42105263157895,
+        "correct_points": 148,
+        "wrong_points": 18,
+        "uncertain_points": 4,
+        "wrong_point_pct": 10.843373493975903,
+        "error_counts": {
+          "mislocalized": 13,
+          "partial_coverage": 5,
+          "missed": 3
+        },
+        "present": 80,
+        "absent": 0,
+        "reference_uncertain": 0
+      },
+      "absent_only": {
+        "checks": 227,
+        "assessable": 227,
+        "failed": 127,
+        "passed": 100,
+        "unresolved": 0,
+        "failure_pct": 55.947136563876654,
+        "correct_points": 0,
+        "wrong_points": 294,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 127
+        },
+        "present": 0,
+        "absent": 227,
+        "reference_uncertain": 0
+      },
+      "cluster_bootstrap_95pct_ci": [
+        39.869281045751634,
+        52.666666666666664
+      ]
+    }
+  },
+  "concepts": {
+    "flatlay": {
+      "collar": {
+        "checks": 32,
+        "assessable": 31,
+        "failed": 22,
+        "passed": 9,
+        "unresolved": 1,
+        "failure_pct": 70.96774193548387,
+        "correct_points": 23,
+        "wrong_points": 55,
+        "uncertain_points": 2,
+        "wrong_point_pct": 70.51282051282051,
+        "error_counts": {
+          "false_positive": 22
+        },
+        "present": 9,
+        "absent": 23,
+        "reference_uncertain": 0
+      },
+      "lapel": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 32,
+        "passed": 0,
+        "unresolved": 0,
+        "failure_pct": 100.0,
+        "correct_points": 0,
+        "wrong_points": 65,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 32
+        },
+        "present": 0,
+        "absent": 32,
+        "reference_uncertain": 0
+      },
+      "cuff": {
+        "checks": 32,
+        "assessable": 27,
+        "failed": 20,
+        "passed": 7,
+        "unresolved": 5,
+        "failure_pct": 74.07407407407408,
+        "correct_points": 14,
+        "wrong_points": 43,
+        "uncertain_points": 10,
+        "wrong_point_pct": 75.43859649122807,
+        "error_counts": {
+          "false_positive": 20
+        },
+        "present": 7,
+        "absent": 20,
+        "reference_uncertain": 5
+      },
+      "button hole": {
+        "checks": 32,
+        "assessable": 28,
+        "failed": 4,
+        "passed": 24,
+        "unresolved": 4,
+        "failure_pct": 14.285714285714286,
+        "correct_points": 0,
+        "wrong_points": 18,
+        "uncertain_points": 10,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 4
+        },
+        "present": 0,
+        "absent": 28,
+        "reference_uncertain": 4
+      },
+      "button": {
+        "checks": 32,
+        "assessable": 29,
+        "failed": 1,
+        "passed": 28,
+        "unresolved": 3,
+        "failure_pct": 3.4482758620689653,
+        "correct_points": 10,
+        "wrong_points": 2,
+        "uncertain_points": 0,
+        "wrong_point_pct": 16.666666666666668,
+        "error_counts": {
+          "false_positive": 1
+        },
+        "present": 2,
+        "absent": 27,
+        "reference_uncertain": 3
+      },
+      "pocket": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 1,
+        "passed": 31,
+        "unresolved": 0,
+        "failure_pct": 3.125,
+        "correct_points": 0,
+        "wrong_points": 2,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 1
+        },
+        "present": 0,
+        "absent": 32,
+        "reference_uncertain": 0
+      },
+      "zipper": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 2,
+        "passed": 30,
+        "unresolved": 0,
+        "failure_pct": 6.25,
+        "correct_points": 0,
+        "wrong_points": 3,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "missed": 1,
+          "false_positive": 1
+        },
+        "present": 1,
+        "absent": 31,
+        "reference_uncertain": 0
+      },
+      "sleeve": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 2,
+        "passed": 30,
+        "unresolved": 0,
+        "failure_pct": 6.25,
+        "correct_points": 53,
+        "wrong_points": 4,
+        "uncertain_points": 0,
+        "wrong_point_pct": 7.017543859649122,
+        "error_counts": {
+          "false_positive": 2
+        },
+        "present": 27,
+        "absent": 5,
+        "reference_uncertain": 0
+      },
+      "shoulder": {
+        "checks": 32,
+        "assessable": 29,
+        "failed": 1,
+        "passed": 28,
+        "unresolved": 3,
+        "failure_pct": 3.4482758620689653,
+        "correct_points": 54,
+        "wrong_points": 0,
+        "uncertain_points": 6,
+        "wrong_point_pct": 0.0,
+        "error_counts": {
+          "missed": 1
+        },
+        "present": 30,
+        "absent": 1,
+        "reference_uncertain": 1
+      },
+      "logo": {
+        "checks": 32,
+        "assessable": 22,
+        "failed": 4,
+        "passed": 18,
+        "unresolved": 10,
+        "failure_pct": 18.181818181818183,
+        "correct_points": 20,
+        "wrong_points": 2,
+        "uncertain_points": 7,
+        "wrong_point_pct": 9.090909090909092,
+        "error_counts": {
+          "missed": 2,
+          "mislocalized": 2
+        },
+        "present": 13,
+        "absent": 10,
+        "reference_uncertain": 9
+      }
+    },
+    "worn": {
+      "collar": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 19,
+        "passed": 13,
+        "unresolved": 0,
+        "failure_pct": 59.375,
+        "correct_points": 18,
+        "wrong_points": 38,
+        "uncertain_points": 0,
+        "wrong_point_pct": 67.85714285714286,
+        "error_counts": {
+          "false_positive": 19
+        },
+        "present": 9,
+        "absent": 23,
+        "reference_uncertain": 0
+      },
+      "lapel": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 29,
+        "passed": 3,
+        "unresolved": 0,
+        "failure_pct": 90.625,
+        "correct_points": 0,
+        "wrong_points": 78,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 29,
+          "protocol": 1
+        },
+        "present": 0,
+        "absent": 32,
+        "reference_uncertain": 0
+      },
+      "cuff": {
+        "checks": 32,
+        "assessable": 27,
+        "failed": 21,
+        "passed": 6,
+        "unresolved": 5,
+        "failure_pct": 77.77777777777777,
+        "correct_points": 12,
+        "wrong_points": 41,
+        "uncertain_points": 10,
+        "wrong_point_pct": 77.35849056603773,
+        "error_counts": {
+          "false_positive": 19,
+          "mislocalized": 2
+        },
+        "present": 7,
+        "absent": 20,
+        "reference_uncertain": 5
+      },
+      "button hole": {
+        "checks": 32,
+        "assessable": 29,
+        "failed": 19,
+        "passed": 10,
+        "unresolved": 3,
+        "failure_pct": 65.51724137931035,
+        "correct_points": 0,
+        "wrong_points": 74,
+        "uncertain_points": 21,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 19,
+          "protocol": 1
+        },
+        "present": 0,
+        "absent": 29,
+        "reference_uncertain": 3
+      },
+      "button": {
+        "checks": 32,
+        "assessable": 31,
+        "failed": 18,
+        "passed": 13,
+        "unresolved": 1,
+        "failure_pct": 58.064516129032256,
+        "correct_points": 10,
+        "wrong_points": 56,
+        "uncertain_points": 6,
+        "wrong_point_pct": 84.84848484848484,
+        "error_counts": {
+          "false_positive": 17,
+          "mislocalized": 1
+        },
+        "present": 2,
+        "absent": 29,
+        "reference_uncertain": 1
+      },
+      "pocket": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 21,
+        "passed": 11,
+        "unresolved": 0,
+        "failure_pct": 65.625,
+        "correct_points": 0,
+        "wrong_points": 48,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 21
+        },
+        "present": 0,
+        "absent": 32,
+        "reference_uncertain": 0
+      },
+      "zipper": {
+        "checks": 32,
+        "assessable": 31,
+        "failed": 3,
+        "passed": 28,
+        "unresolved": 1,
+        "failure_pct": 9.67741935483871,
+        "correct_points": 0,
+        "wrong_points": 8,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 3
+        },
+        "present": 0,
+        "absent": 31,
+        "reference_uncertain": 1
+      },
+      "sleeve": {
+        "checks": 32,
+        "assessable": 30,
+        "failed": 1,
+        "passed": 29,
+        "unresolved": 2,
+        "failure_pct": 3.3333333333333335,
+        "correct_points": 51,
+        "wrong_points": 1,
+        "uncertain_points": 2,
+        "wrong_point_pct": 1.9230769230769231,
+        "error_counts": {
+          "mislocalized": 1
+        },
+        "present": 27,
+        "absent": 5,
+        "reference_uncertain": 0
+      },
+      "shoulder": {
+        "checks": 32,
+        "assessable": 29,
+        "failed": 11,
+        "passed": 18,
+        "unresolved": 3,
+        "failure_pct": 37.93103448275862,
+        "correct_points": 46,
+        "wrong_points": 13,
+        "uncertain_points": 5,
+        "wrong_point_pct": 22.033898305084747,
+        "error_counts": {
+          "mislocalized": 10,
+          "partial_coverage": 7,
+          "missed": 1,
+          "false_positive": 1
+        },
+        "present": 30,
+        "absent": 1,
+        "reference_uncertain": 1
+      },
+      "logo": {
+        "checks": 32,
+        "assessable": 31,
+        "failed": 5,
+        "passed": 26,
+        "unresolved": 1,
+        "failure_pct": 16.129032258064516,
+        "correct_points": 7,
+        "wrong_points": 15,
+        "uncertain_points": 2,
+        "wrong_point_pct": 68.18181818181819,
+        "error_counts": {
+          "false_positive": 3,
+          "mislocalized": 1,
+          "missed": 1
+        },
+        "present": 5,
+        "absent": 26,
+        "reference_uncertain": 1
+      }
+    },
+    "generated": {
+      "collar": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 16,
+        "passed": 16,
+        "unresolved": 0,
+        "failure_pct": 50.0,
+        "correct_points": 18,
+        "wrong_points": 33,
+        "uncertain_points": 0,
+        "wrong_point_pct": 64.70588235294117,
+        "error_counts": {
+          "false_positive": 16
+        },
+        "present": 9,
+        "absent": 23,
+        "reference_uncertain": 0
+      },
+      "lapel": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 28,
+        "passed": 4,
+        "unresolved": 0,
+        "failure_pct": 87.5,
+        "correct_points": 0,
+        "wrong_points": 56,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 28
+        },
+        "present": 0,
+        "absent": 32,
+        "reference_uncertain": 0
+      },
+      "cuff": {
+        "checks": 32,
+        "assessable": 27,
+        "failed": 19,
+        "passed": 8,
+        "unresolved": 5,
+        "failure_pct": 70.37037037037037,
+        "correct_points": 13,
+        "wrong_points": 36,
+        "uncertain_points": 10,
+        "wrong_point_pct": 73.46938775510205,
+        "error_counts": {
+          "false_positive": 17,
+          "mislocalized": 2
+        },
+        "present": 7,
+        "absent": 20,
+        "reference_uncertain": 5
+      },
+      "button hole": {
+        "checks": 32,
+        "assessable": 29,
+        "failed": 20,
+        "passed": 9,
+        "unresolved": 3,
+        "failure_pct": 68.96551724137932,
+        "correct_points": 0,
+        "wrong_points": 56,
+        "uncertain_points": 9,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 20
+        },
+        "present": 0,
+        "absent": 29,
+        "reference_uncertain": 3
+      },
+      "button": {
+        "checks": 32,
+        "assessable": 31,
+        "failed": 19,
+        "passed": 12,
+        "unresolved": 1,
+        "failure_pct": 61.29032258064516,
+        "correct_points": 9,
+        "wrong_points": 51,
+        "uncertain_points": 3,
+        "wrong_point_pct": 85.0,
+        "error_counts": {
+          "false_positive": 17,
+          "mislocalized": 2
+        },
+        "present": 2,
+        "absent": 29,
+        "reference_uncertain": 1
+      },
+      "pocket": {
+        "checks": 32,
+        "assessable": 32,
+        "failed": 22,
+        "passed": 10,
+        "unresolved": 0,
+        "failure_pct": 68.75,
+        "correct_points": 0,
+        "wrong_points": 45,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 22
+        },
+        "present": 0,
+        "absent": 32,
+        "reference_uncertain": 0
+      },
+      "zipper": {
+        "checks": 32,
+        "assessable": 31,
+        "failed": 3,
+        "passed": 28,
+        "unresolved": 1,
+        "failure_pct": 9.67741935483871,
+        "correct_points": 0,
+        "wrong_points": 12,
+        "uncertain_points": 0,
+        "wrong_point_pct": 100.0,
+        "error_counts": {
+          "false_positive": 3
+        },
+        "present": 0,
+        "absent": 31,
+        "reference_uncertain": 1
+      },
+      "sleeve": {
+        "checks": 32,
+        "assessable": 31,
+        "failed": 0,
+        "passed": 31,
+        "unresolved": 1,
+        "failure_pct": 0.0,
+        "correct_points": 53,
+        "wrong_points": 0,
+        "uncertain_points": 1,
+        "wrong_point_pct": 0.0,
+        "error_counts": {},
+        "present": 27,
+        "absent": 5,
+        "reference_uncertain": 0
+      },
+      "shoulder": {
+        "checks": 32,
+        "assessable": 28,
+        "failed": 10,
+        "passed": 18,
+        "unresolved": 4,
+        "failure_pct": 35.714285714285715,
+        "correct_points": 46,
+        "wrong_points": 13,
+        "uncertain_points": 5,
+        "wrong_point_pct": 22.033898305084747,
+        "error_counts": {
+          "mislocalized": 9,
+          "partial_coverage": 5,
+          "missed": 2,
+          "false_positive": 1
+        },
+        "present": 30,
+        "absent": 1,
+        "reference_uncertain": 1
+      },
+      "logo": {
+        "checks": 32,
+        "assessable": 30,
+        "failed": 4,
+        "passed": 26,
+        "unresolved": 2,
+        "failure_pct": 13.333333333333334,
+        "correct_points": 9,
+        "wrong_points": 10,
+        "uncertain_points": 5,
+        "wrong_point_pct": 52.63157894736842,
+        "error_counts": {
+          "false_positive": 3,
+          "missed": 1
+        },
+        "present": 5,
+        "absent": 25,
+        "reference_uncertain": 2
+      }
+    }
+  },
+  "inference": {
+    "count": 96,
+    "seconds": 918.7185306549072,
+    "manifest_sha256": "692403c25e46d8c3b6355005cafb8a9adfbbdc14cec6a9ffa70b707ea15b98e6",
+    "gpu": "GPU-dbb7940e-7461-387e-c0c2-a2e33f9b78ac",
+    "peak_gpu_gib": 16.382420539855957
+  },
+  "paired_differences": {
+    "worn minus flatlay": {
+      "percentage_points": 18.083154314357326,
+      "cluster_bootstrap_95pct_ci": [
+        12.00466594101846,
+        24.078252042143273
+      ]
+    },
+    "generated minus flatlay": {
+      "percentage_points": 16.262544621809123,
+      "cluster_bootstrap_95pct_ci": [
+        10.194574509451385,
+        21.889881023556278
+      ]
+    },
+    "generated minus worn": {
+      "percentage_points": -1.820609692548203,
+      "cluster_bootstrap_95pct_ci": [
+        -4.996389041637618,
+        1.3524445219457975
+      ]
+    }
+  }
+}

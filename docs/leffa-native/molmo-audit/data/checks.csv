@@ -1,0 +1,961 @@
+id,view,concept,visible_reference,minimum_instances,outcome,errors,correct_points,wrong_points,uncertain_points
+09845_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+09845_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+09845_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+09845_00,flatlay,button hole,absent,0,pass,,0,0,0
+09845_00,flatlay,button,absent,0,pass,,0,0,0
+09845_00,flatlay,pocket,absent,0,pass,,0,0,0
+09845_00,flatlay,zipper,absent,0,pass,,0,0,0
+09845_00,flatlay,sleeve,absent,0,pass,,0,0,0
+09845_00,flatlay,shoulder,present,2,fail,missed,0,0,0
+09845_00,flatlay,logo,uncertain,,unresolved,,0,0,0
+09845_00,worn,collar,absent,0,fail,false_positive,0,2,0
+09845_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+09845_00,worn,cuff,absent,0,pass,,0,0,0
+09845_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+09845_00,worn,button,absent,0,fail,false_positive,0,2,0
+09845_00,worn,pocket,absent,0,pass,,0,0,0
+09845_00,worn,zipper,absent,0,pass,,0,0,0
+09845_00,worn,sleeve,absent,0,pass,,0,0,0
+09845_00,worn,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+09845_00,worn,logo,absent,0,pass,,0,0,0
+09845_00,generated,collar,absent,0,fail,false_positive,0,2,0
+09845_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+09845_00,generated,cuff,absent,0,pass,,0,0,0
+09845_00,generated,button hole,absent,0,fail,false_positive,0,3,0
+09845_00,generated,button,absent,0,fail,false_positive,0,2,0
+09845_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+09845_00,generated,zipper,absent,0,pass,,0,0,0
+09845_00,generated,sleeve,absent,0,pass,,0,0,0
+09845_00,generated,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+09845_00,generated,logo,absent,0,pass,,0,0,0
+10495_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+10495_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+10495_00,flatlay,cuff,absent,0,fail,false_positive,0,3,0
+10495_00,flatlay,button hole,absent,0,fail,false_positive,0,2,0
+10495_00,flatlay,button,absent,0,fail,false_positive,0,2,0
+10495_00,flatlay,pocket,absent,0,pass,,0,0,0
+10495_00,flatlay,zipper,absent,0,pass,,0,0,0
+10495_00,flatlay,sleeve,absent,0,fail,false_positive,0,2,0
+10495_00,flatlay,shoulder,present,2,pass,,2,0,0
+10495_00,flatlay,logo,uncertain,,unresolved,,0,0,0
+10495_00,worn,collar,absent,0,fail,false_positive,0,2,0
+10495_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+10495_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+10495_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+10495_00,worn,button,absent,0,fail,false_positive,0,2,0
+10495_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+10495_00,worn,zipper,absent,0,fail,false_positive,0,2,0
+10495_00,worn,sleeve,absent,0,pass,,0,0,0
+10495_00,worn,shoulder,present,2,fail,mislocalized;missed,0,2,0
+10495_00,worn,logo,absent,0,pass,,0,0,0
+10495_00,generated,collar,absent,0,fail,false_positive,0,2,0
+10495_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+10495_00,generated,cuff,absent,0,pass,,0,0,0
+10495_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+10495_00,generated,button,absent,0,fail,false_positive,0,2,0
+10495_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+10495_00,generated,zipper,absent,0,fail,false_positive,0,2,0
+10495_00,generated,sleeve,absent,0,pass,,0,0,0
+10495_00,generated,shoulder,present,1,fail,mislocalized;missed,0,2,0
+10495_00,generated,logo,uncertain,,unresolved,,0,0,0
+05961_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+05961_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+05961_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+05961_00,flatlay,button hole,absent,0,pass,,0,0,0
+05961_00,flatlay,button,absent,0,pass,,0,0,0
+05961_00,flatlay,pocket,absent,0,pass,,0,0,0
+05961_00,flatlay,zipper,absent,0,pass,,0,0,0
+05961_00,flatlay,sleeve,present,2,pass,,2,0,0
+05961_00,flatlay,shoulder,present,2,pass,,2,0,0
+05961_00,flatlay,logo,absent,0,pass,,0,0,0
+05961_00,worn,collar,absent,0,fail,false_positive,0,2,0
+05961_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+05961_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+05961_00,worn,button hole,absent,0,fail,false_positive,0,4,0
+05961_00,worn,button,absent,0,fail,false_positive,0,4,0
+05961_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+05961_00,worn,zipper,absent,0,pass,,0,0,0
+05961_00,worn,sleeve,present,2,pass,,2,0,0
+05961_00,worn,shoulder,present,2,pass,,2,0,0
+05961_00,worn,logo,absent,0,pass,,0,0,0
+05961_00,generated,collar,absent,0,fail,false_positive,0,2,0
+05961_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+05961_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+05961_00,generated,button hole,absent,0,fail,false_positive,0,4,0
+05961_00,generated,button,absent,0,fail,false_positive,0,4,0
+05961_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+05961_00,generated,zipper,absent,0,pass,,0,0,0
+05961_00,generated,sleeve,present,2,pass,,2,0,0
+05961_00,generated,shoulder,present,2,pass,,2,0,0
+05961_00,generated,logo,absent,0,pass,,0,0,0
+02400_00,flatlay,collar,absent,0,pass,,0,0,0
+02400_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+02400_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+02400_00,flatlay,button hole,absent,0,fail,false_positive,0,2,0
+02400_00,flatlay,button,absent,0,pass,,0,0,0
+02400_00,flatlay,pocket,absent,0,pass,,0,0,0
+02400_00,flatlay,zipper,absent,0,pass,,0,0,0
+02400_00,flatlay,sleeve,present,2,pass,,2,0,0
+02400_00,flatlay,shoulder,uncertain,,unresolved,,0,0,2
+02400_00,flatlay,logo,absent,0,pass,,0,0,0
+02400_00,worn,collar,absent,0,fail,false_positive,0,2,0
+02400_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+02400_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+02400_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+02400_00,worn,button,absent,0,fail,false_positive,0,4,0
+02400_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+02400_00,worn,zipper,absent,0,pass,,0,0,0
+02400_00,worn,sleeve,present,2,pass,,2,0,0
+02400_00,worn,shoulder,uncertain,,unresolved,,0,0,2
+02400_00,worn,logo,absent,0,pass,,0,0,0
+02400_00,generated,collar,absent,0,pass,,0,0,0
+02400_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+02400_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+02400_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+02400_00,generated,button,absent,0,fail,false_positive,0,4,0
+02400_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+02400_00,generated,zipper,absent,0,pass,,0,0,0
+02400_00,generated,sleeve,present,2,pass,,2,0,0
+02400_00,generated,shoulder,uncertain,,unresolved,,0,0,2
+02400_00,generated,logo,absent,0,pass,,0,0,0
+14651_00,flatlay,collar,absent,0,fail,false_positive,0,3,0
+14651_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+14651_00,flatlay,cuff,uncertain,,unresolved,,0,0,2
+14651_00,flatlay,button hole,absent,0,pass,,0,0,0
+14651_00,flatlay,button,absent,0,pass,,0,0,0
+14651_00,flatlay,pocket,absent,0,pass,,0,0,0
+14651_00,flatlay,zipper,absent,0,pass,,0,0,0
+14651_00,flatlay,sleeve,present,2,pass,,2,0,0
+14651_00,flatlay,shoulder,present,2,pass,,2,0,0
+14651_00,flatlay,logo,uncertain,,unresolved,,0,0,2
+14651_00,worn,collar,absent,0,fail,false_positive,0,2,0
+14651_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+14651_00,worn,cuff,uncertain,,unresolved,,0,0,2
+14651_00,worn,button hole,absent,0,fail,false_positive,0,3,0
+14651_00,worn,button,absent,0,fail,false_positive,0,2,0
+14651_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+14651_00,worn,zipper,absent,0,pass,,0,0,0
+14651_00,worn,sleeve,present,2,pass,,2,0,0
+14651_00,worn,shoulder,present,2,pass,,2,0,0
+14651_00,worn,logo,absent,0,fail,false_positive,0,1,0
+14651_00,generated,collar,absent,0,fail,false_positive,0,2,0
+14651_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+14651_00,generated,cuff,uncertain,,unresolved,,0,0,2
+14651_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+14651_00,generated,button,absent,0,fail,false_positive,0,1,0
+14651_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+14651_00,generated,zipper,absent,0,pass,,0,0,0
+14651_00,generated,sleeve,present,2,pass,,2,0,0
+14651_00,generated,shoulder,present,2,pass,,2,0,0
+14651_00,generated,logo,absent,0,fail,false_positive,0,2,0
+01994_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+01994_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+01994_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+01994_00,flatlay,button hole,absent,0,pass,,0,0,0
+01994_00,flatlay,button,absent,0,pass,,0,0,0
+01994_00,flatlay,pocket,absent,0,pass,,0,0,0
+01994_00,flatlay,zipper,absent,0,pass,,0,0,0
+01994_00,flatlay,sleeve,present,2,pass,,2,0,0
+01994_00,flatlay,shoulder,present,2,pass,,2,0,0
+01994_00,flatlay,logo,present,1,fail,missed,0,0,0
+01994_00,worn,collar,absent,0,pass,,0,0,0
+01994_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+01994_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+01994_00,worn,button hole,absent,0,fail,false_positive,0,3,0
+01994_00,worn,button,absent,0,fail,false_positive,0,2,0
+01994_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+01994_00,worn,zipper,absent,0,pass,,0,0,0
+01994_00,worn,sleeve,present,2,pass,,2,0,0
+01994_00,worn,shoulder,present,2,pass,,2,0,0
+01994_00,worn,logo,absent,0,pass,,0,0,0
+01994_00,generated,collar,absent,0,fail,false_positive,0,2,0
+01994_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+01994_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+01994_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+01994_00,generated,button,absent,0,fail,false_positive,0,1,0
+01994_00,generated,pocket,absent,0,pass,,0,0,0
+01994_00,generated,zipper,absent,0,pass,,0,0,0
+01994_00,generated,sleeve,present,2,pass,,2,0,0
+01994_00,generated,shoulder,present,2,pass,,2,0,0
+01994_00,generated,logo,absent,0,pass,,0,0,0
+08232_00,flatlay,collar,present,1,pass,,2,0,0
+08232_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+08232_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+08232_00,flatlay,button hole,uncertain,,unresolved,,0,0,7
+08232_00,flatlay,button,present,1,pass,,7,0,0
+08232_00,flatlay,pocket,absent,0,pass,,0,0,0
+08232_00,flatlay,zipper,absent,0,pass,,0,0,0
+08232_00,flatlay,sleeve,present,2,pass,,2,0,0
+08232_00,flatlay,shoulder,present,2,pass,,2,0,0
+08232_00,flatlay,logo,present,1,fail,missed,0,0,0
+08232_00,worn,collar,present,1,pass,,2,0,0
+08232_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+08232_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+08232_00,worn,button hole,uncertain,,unresolved,,0,0,6
+08232_00,worn,button,present,1,pass,,7,0,0
+08232_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+08232_00,worn,zipper,absent,0,pass,,0,0,0
+08232_00,worn,sleeve,present,2,pass,,2,0,0
+08232_00,worn,shoulder,present,2,pass,,2,0,0
+08232_00,worn,logo,absent,0,pass,,0,0,0
+08232_00,generated,collar,present,1,pass,,2,0,0
+08232_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+08232_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+08232_00,generated,button hole,uncertain,,unresolved,,0,0,3
+08232_00,generated,button,present,1,fail,mislocalized,6,1,0
+08232_00,generated,pocket,absent,0,pass,,0,0,0
+08232_00,generated,zipper,absent,0,pass,,0,0,0
+08232_00,generated,sleeve,present,2,pass,,2,0,0
+08232_00,generated,shoulder,present,2,pass,,2,0,0
+08232_00,generated,logo,absent,0,pass,,0,0,0
+12541_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+12541_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+12541_00,flatlay,cuff,absent,0,fail,false_positive,0,3,0
+12541_00,flatlay,button hole,absent,0,pass,,0,0,0
+12541_00,flatlay,button,uncertain,,unresolved,,0,0,0
+12541_00,flatlay,pocket,absent,0,pass,,0,0,0
+12541_00,flatlay,zipper,absent,0,pass,,0,0,0
+12541_00,flatlay,sleeve,absent,0,pass,,0,0,0
+12541_00,flatlay,shoulder,present,2,pass,,2,0,0
+12541_00,flatlay,logo,present,1,pass,,2,0,0
+12541_00,worn,collar,absent,0,fail,false_positive,0,2,0
+12541_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+12541_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+12541_00,worn,button hole,absent,0,pass,,0,0,0
+12541_00,worn,button,absent,0,pass,,0,0,0
+12541_00,worn,pocket,absent,0,pass,,0,0,0
+12541_00,worn,zipper,absent,0,pass,,0,0,0
+12541_00,worn,sleeve,absent,0,pass,,0,0,0
+12541_00,worn,shoulder,present,2,fail,mislocalized;partial_coverage,0,1,1
+12541_00,worn,logo,absent,0,fail,false_positive,0,4,0
+12541_00,generated,collar,absent,0,fail,false_positive,0,2,0
+12541_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+12541_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+12541_00,generated,button hole,absent,0,pass,,0,0,0
+12541_00,generated,button,absent,0,pass,,0,0,0
+12541_00,generated,pocket,absent,0,pass,,0,0,0
+12541_00,generated,zipper,absent,0,pass,,0,0,0
+12541_00,generated,sleeve,absent,0,pass,,0,0,0
+12541_00,generated,shoulder,present,2,fail,mislocalized;missed,0,2,0
+12541_00,generated,logo,absent,0,fail,false_positive,0,1,0
+04430_00,flatlay,collar,present,1,pass,,2,0,0
+04430_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+04430_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+04430_00,flatlay,button hole,absent,0,fail,false_positive,0,12,0
+04430_00,flatlay,button,absent,0,pass,,0,0,0
+04430_00,flatlay,pocket,absent,0,pass,,0,0,0
+04430_00,flatlay,zipper,present,1,fail,missed,0,0,0
+04430_00,flatlay,sleeve,present,2,pass,,2,0,0
+04430_00,flatlay,shoulder,present,2,pass,,2,0,0
+04430_00,flatlay,logo,uncertain,,unresolved,,0,0,0
+04430_00,worn,collar,present,1,pass,,2,0,0
+04430_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+04430_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+04430_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+04430_00,worn,button,absent,0,fail,false_positive,0,2,0
+04430_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+04430_00,worn,zipper,uncertain,,unresolved,,0,0,0
+04430_00,worn,sleeve,present,2,pass,,2,0,0
+04430_00,worn,shoulder,present,2,pass,,2,0,0
+04430_00,worn,logo,absent,0,pass,,0,0,0
+04430_00,generated,collar,present,1,pass,,2,0,0
+04430_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+04430_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+04430_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+04430_00,generated,button,absent,0,fail,false_positive,0,2,0
+04430_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+04430_00,generated,zipper,uncertain,,unresolved,,0,0,0
+04430_00,generated,sleeve,present,2,pass,,2,0,0
+04430_00,generated,shoulder,present,2,pass,,2,0,0
+04430_00,generated,logo,absent,0,pass,,0,0,0
+00494_00,flatlay,collar,absent,0,fail,false_positive,0,4,0
+00494_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+00494_00,flatlay,cuff,present,2,pass,,2,0,0
+00494_00,flatlay,button hole,absent,0,pass,,0,0,0
+00494_00,flatlay,button,absent,0,pass,,0,0,0
+00494_00,flatlay,pocket,absent,0,pass,,0,0,0
+00494_00,flatlay,zipper,absent,0,pass,,0,0,0
+00494_00,flatlay,sleeve,present,2,pass,,2,0,0
+00494_00,flatlay,shoulder,present,2,pass,,2,0,0
+00494_00,flatlay,logo,present,1,pass,,2,0,0
+00494_00,worn,collar,absent,0,fail,false_positive,0,2,0
+00494_00,worn,lapel,absent,0,pass,,0,0,0
+00494_00,worn,cuff,present,2,pass,,2,0,0
+00494_00,worn,button hole,absent,0,pass,,0,0,0
+00494_00,worn,button,absent,0,pass,,0,0,0
+00494_00,worn,pocket,absent,0,pass,,0,0,0
+00494_00,worn,zipper,absent,0,pass,,0,0,0
+00494_00,worn,sleeve,present,2,pass,,2,0,0
+00494_00,worn,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+00494_00,worn,logo,present,1,fail,mislocalized,1,1,0
+00494_00,generated,collar,absent,0,fail,false_positive,0,2,0
+00494_00,generated,lapel,absent,0,pass,,0,0,0
+00494_00,generated,cuff,present,2,pass,,2,0,0
+00494_00,generated,button hole,absent,0,pass,,0,0,0
+00494_00,generated,button,absent,0,pass,,0,0,0
+00494_00,generated,pocket,absent,0,pass,,0,0,0
+00494_00,generated,zipper,absent,0,pass,,0,0,0
+00494_00,generated,sleeve,present,2,pass,,2,0,0
+00494_00,generated,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+00494_00,generated,logo,present,1,pass,,1,0,0
+08316_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+08316_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+08316_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+08316_00,flatlay,button hole,uncertain,,unresolved,,0,0,3
+08316_00,flatlay,button,present,3,pass,,3,0,0
+08316_00,flatlay,pocket,absent,0,pass,,0,0,0
+08316_00,flatlay,zipper,absent,0,pass,,0,0,0
+08316_00,flatlay,sleeve,present,2,pass,,2,0,0
+08316_00,flatlay,shoulder,present,2,pass,,2,0,0
+08316_00,flatlay,logo,present,1,fail,mislocalized,3,1,0
+08316_00,worn,collar,absent,0,fail,false_positive,0,2,0
+08316_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+08316_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+08316_00,worn,button hole,uncertain,,unresolved,,0,0,4
+08316_00,worn,button,present,3,fail,mislocalized,3,4,0
+08316_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+08316_00,worn,zipper,absent,0,pass,,0,0,0
+08316_00,worn,sleeve,present,2,pass,,2,0,0
+08316_00,worn,shoulder,present,2,pass,,2,0,0
+08316_00,worn,logo,absent,0,pass,,0,0,0
+08316_00,generated,collar,absent,0,pass,,0,0,0
+08316_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+08316_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+08316_00,generated,button hole,uncertain,,unresolved,,0,0,4
+08316_00,generated,button,present,3,fail,mislocalized,3,4,0
+08316_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+08316_00,generated,zipper,absent,0,pass,,0,0,0
+08316_00,generated,sleeve,present,2,pass,,2,0,0
+08316_00,generated,shoulder,present,2,pass,,2,0,0
+08316_00,generated,logo,absent,0,pass,,0,0,0
+14173_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+14173_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+14173_00,flatlay,cuff,uncertain,,unresolved,,0,0,2
+14173_00,flatlay,button hole,absent,0,pass,,0,0,0
+14173_00,flatlay,button,absent,0,pass,,0,0,0
+14173_00,flatlay,pocket,absent,0,pass,,0,0,0
+14173_00,flatlay,zipper,absent,0,pass,,0,0,0
+14173_00,flatlay,sleeve,present,2,pass,,2,0,0
+14173_00,flatlay,shoulder,present,2,pass,,2,0,0
+14173_00,flatlay,logo,present,1,unresolved,,1,0,1
+14173_00,worn,collar,absent,0,fail,false_positive,0,2,0
+14173_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+14173_00,worn,cuff,uncertain,,unresolved,,0,0,2
+14173_00,worn,button hole,absent,0,fail,false_positive,0,4,0
+14173_00,worn,button,absent,0,pass,,0,0,0
+14173_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+14173_00,worn,zipper,absent,0,pass,,0,0,0
+14173_00,worn,sleeve,present,2,pass,,2,0,0
+14173_00,worn,shoulder,present,1,pass,,2,0,0
+14173_00,worn,logo,absent,0,pass,,0,0,0
+14173_00,generated,collar,absent,0,fail,false_positive,0,2,0
+14173_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+14173_00,generated,cuff,uncertain,,unresolved,,0,0,2
+14173_00,generated,button hole,absent,0,fail,false_positive,0,3,0
+14173_00,generated,button,absent,0,pass,,0,0,0
+14173_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+14173_00,generated,zipper,absent,0,pass,,0,0,0
+14173_00,generated,sleeve,present,2,pass,,2,0,0
+14173_00,generated,shoulder,present,1,unresolved,,1,0,1
+14173_00,generated,logo,absent,0,pass,,0,0,0
+01917_00,flatlay,collar,present,1,unresolved,,1,0,2
+01917_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+01917_00,flatlay,cuff,uncertain,,unresolved,,0,0,2
+01917_00,flatlay,button hole,absent,0,pass,,0,0,0
+01917_00,flatlay,button,absent,0,pass,,0,0,0
+01917_00,flatlay,pocket,absent,0,pass,,0,0,0
+01917_00,flatlay,zipper,absent,0,pass,,0,0,0
+01917_00,flatlay,sleeve,present,2,pass,,2,0,0
+01917_00,flatlay,shoulder,present,2,unresolved,,0,0,2
+01917_00,flatlay,logo,absent,0,pass,,0,0,0
+01917_00,worn,collar,present,1,pass,,2,0,0
+01917_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+01917_00,worn,cuff,uncertain,,unresolved,,0,0,2
+01917_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+01917_00,worn,button,absent,0,fail,false_positive,0,3,0
+01917_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+01917_00,worn,zipper,absent,0,fail,false_positive,0,3,0
+01917_00,worn,sleeve,present,2,pass,,2,0,0
+01917_00,worn,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+01917_00,worn,logo,absent,0,pass,,0,0,0
+01917_00,generated,collar,present,1,pass,,2,0,0
+01917_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+01917_00,generated,cuff,uncertain,,unresolved,,0,0,2
+01917_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+01917_00,generated,button,absent,0,fail,false_positive,0,3,0
+01917_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+01917_00,generated,zipper,absent,0,pass,,0,0,0
+01917_00,generated,sleeve,present,2,pass,,2,0,0
+01917_00,generated,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+01917_00,generated,logo,absent,0,pass,,0,0,0
+04893_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+04893_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+04893_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+04893_00,flatlay,button hole,absent,0,pass,,0,0,0
+04893_00,flatlay,button,absent,0,pass,,0,0,0
+04893_00,flatlay,pocket,absent,0,pass,,0,0,0
+04893_00,flatlay,zipper,absent,0,pass,,0,0,0
+04893_00,flatlay,sleeve,present,2,pass,,2,0,0
+04893_00,flatlay,shoulder,present,2,pass,,2,0,0
+04893_00,flatlay,logo,present,1,pass,,1,0,0
+04893_00,worn,collar,absent,0,fail,false_positive,0,2,0
+04893_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+04893_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+04893_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+04893_00,worn,button,absent,0,pass,,0,0,0
+04893_00,worn,pocket,absent,0,pass,,0,0,0
+04893_00,worn,zipper,absent,0,pass,,0,0,0
+04893_00,worn,sleeve,present,2,pass,,2,0,0
+04893_00,worn,shoulder,present,2,pass,,2,0,0
+04893_00,worn,logo,absent,0,pass,,0,0,0
+04893_00,generated,collar,absent,0,fail,false_positive,0,2,0
+04893_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+04893_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+04893_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+04893_00,generated,button,absent,0,pass,,0,0,0
+04893_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+04893_00,generated,zipper,absent,0,pass,,0,0,0
+04893_00,generated,sleeve,present,2,pass,,2,0,0
+04893_00,generated,shoulder,present,2,pass,,2,0,0
+04893_00,generated,logo,absent,0,pass,,0,0,0
+02743_00,flatlay,collar,present,1,pass,,4,0,0
+02743_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+02743_00,flatlay,cuff,present,2,pass,,2,0,0
+02743_00,flatlay,button hole,absent,0,pass,,0,0,0
+02743_00,flatlay,button,absent,0,pass,,0,0,0
+02743_00,flatlay,pocket,absent,0,fail,false_positive,0,2,0
+02743_00,flatlay,zipper,absent,0,fail,false_positive,0,3,0
+02743_00,flatlay,sleeve,present,2,pass,,2,0,0
+02743_00,flatlay,shoulder,present,2,unresolved,,0,0,2
+02743_00,flatlay,logo,present,1,pass,,2,0,0
+02743_00,worn,collar,present,1,pass,,2,0,0
+02743_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+02743_00,worn,cuff,present,2,pass,,2,0,0
+02743_00,worn,button hole,absent,0,pass,,0,0,0
+02743_00,worn,button,absent,0,pass,,0,0,0
+02743_00,worn,pocket,absent,0,pass,,0,0,0
+02743_00,worn,zipper,absent,0,pass,,0,0,0
+02743_00,worn,sleeve,present,2,pass,,2,0,0
+02743_00,worn,shoulder,present,2,unresolved,,1,0,1
+02743_00,worn,logo,present,1,pass,,3,0,0
+02743_00,generated,collar,present,1,pass,,2,0,0
+02743_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+02743_00,generated,cuff,present,2,pass,,2,0,0
+02743_00,generated,button hole,absent,0,pass,,0,0,0
+02743_00,generated,button,absent,0,pass,,0,0,0
+02743_00,generated,pocket,absent,0,pass,,0,0,0
+02743_00,generated,zipper,absent,0,pass,,0,0,0
+02743_00,generated,sleeve,present,2,pass,,2,0,0
+02743_00,generated,shoulder,present,2,unresolved,,1,0,1
+02743_00,generated,logo,present,1,pass,,2,0,0
+06730_00,flatlay,collar,present,1,pass,,2,0,0
+06730_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+06730_00,flatlay,cuff,present,2,pass,,2,0,0
+06730_00,flatlay,button hole,uncertain,,unresolved,,0,0,0
+06730_00,flatlay,button,uncertain,,unresolved,,0,0,0
+06730_00,flatlay,pocket,absent,0,pass,,0,0,0
+06730_00,flatlay,zipper,absent,0,pass,,0,0,0
+06730_00,flatlay,sleeve,present,2,pass,,2,0,0
+06730_00,flatlay,shoulder,present,2,pass,,2,0,0
+06730_00,flatlay,logo,absent,0,pass,,0,0,0
+06730_00,worn,collar,present,1,pass,,2,0,0
+06730_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+06730_00,worn,cuff,present,1,fail,mislocalized,1,1,0
+06730_00,worn,button hole,absent,0,pass,,0,0,0
+06730_00,worn,button,absent,0,pass,,0,0,0
+06730_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+06730_00,worn,zipper,absent,0,pass,,0,0,0
+06730_00,worn,sleeve,present,1,fail,mislocalized,1,1,0
+06730_00,worn,shoulder,present,2,pass,,2,0,0
+06730_00,worn,logo,absent,0,pass,,0,0,0
+06730_00,generated,collar,present,1,pass,,2,0,0
+06730_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+06730_00,generated,cuff,present,1,fail,mislocalized,1,1,0
+06730_00,generated,button hole,absent,0,pass,,0,0,0
+06730_00,generated,button,absent,0,pass,,0,0,0
+06730_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+06730_00,generated,zipper,absent,0,pass,,0,0,0
+06730_00,generated,sleeve,present,1,pass,,2,0,0
+06730_00,generated,shoulder,present,2,pass,,2,0,0
+06730_00,generated,logo,absent,0,pass,,0,0,0
+08158_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+08158_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+08158_00,flatlay,cuff,present,2,pass,,2,0,0
+08158_00,flatlay,button hole,absent,0,pass,,0,0,0
+08158_00,flatlay,button,absent,0,pass,,0,0,0
+08158_00,flatlay,pocket,absent,0,pass,,0,0,0
+08158_00,flatlay,zipper,absent,0,pass,,0,0,0
+08158_00,flatlay,sleeve,present,2,pass,,2,0,0
+08158_00,flatlay,shoulder,present,2,pass,,2,0,0
+08158_00,flatlay,logo,uncertain,,unresolved,,0,0,0
+08158_00,worn,collar,absent,0,fail,false_positive,0,2,0
+08158_00,worn,lapel,absent,0,pass,,0,0,0
+08158_00,worn,cuff,present,2,pass,,2,0,0
+08158_00,worn,button hole,absent,0,pass,,0,0,0
+08158_00,worn,button,absent,0,pass,,0,0,0
+08158_00,worn,pocket,absent,0,pass,,0,0,0
+08158_00,worn,zipper,absent,0,pass,,0,0,0
+08158_00,worn,sleeve,present,2,pass,,2,0,0
+08158_00,worn,shoulder,present,2,pass,,2,0,0
+08158_00,worn,logo,absent,0,pass,,0,0,0
+08158_00,generated,collar,absent,0,fail,false_positive,0,2,0
+08158_00,generated,lapel,absent,0,pass,,0,0,0
+08158_00,generated,cuff,present,2,pass,,2,0,0
+08158_00,generated,button hole,absent,0,pass,,0,0,0
+08158_00,generated,button,absent,0,pass,,0,0,0
+08158_00,generated,pocket,absent,0,pass,,0,0,0
+08158_00,generated,zipper,absent,0,pass,,0,0,0
+08158_00,generated,sleeve,present,2,pass,,2,0,0
+08158_00,generated,shoulder,present,2,pass,,2,0,0
+08158_00,generated,logo,absent,0,pass,,0,0,0
+11709_00,flatlay,collar,present,1,pass,,3,0,0
+11709_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+11709_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+11709_00,flatlay,button hole,absent,0,fail,false_positive,0,2,0
+11709_00,flatlay,button,absent,0,pass,,0,0,0
+11709_00,flatlay,pocket,absent,0,pass,,0,0,0
+11709_00,flatlay,zipper,absent,0,pass,,0,0,0
+11709_00,flatlay,sleeve,present,2,pass,,2,0,0
+11709_00,flatlay,shoulder,present,2,pass,,2,0,0
+11709_00,flatlay,logo,absent,0,pass,,0,0,0
+11709_00,worn,collar,present,1,pass,,2,0,0
+11709_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+11709_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+11709_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+11709_00,worn,button,absent,0,fail,false_positive,0,2,0
+11709_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+11709_00,worn,zipper,absent,0,pass,,0,0,0
+11709_00,worn,sleeve,present,1,unresolved,,1,0,1
+11709_00,worn,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+11709_00,worn,logo,absent,0,pass,,0,0,0
+11709_00,generated,collar,present,1,pass,,2,0,0
+11709_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+11709_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+11709_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+11709_00,generated,button,absent,0,fail,false_positive,0,2,0
+11709_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+11709_00,generated,zipper,absent,0,pass,,0,0,0
+11709_00,generated,sleeve,present,1,unresolved,,1,0,1
+11709_00,generated,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+11709_00,generated,logo,absent,0,pass,,0,0,0
+01877_00,flatlay,collar,absent,0,fail,false_positive,0,4,0
+01877_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+01877_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+01877_00,flatlay,button hole,absent,0,pass,,0,0,0
+01877_00,flatlay,button,absent,0,pass,,0,0,0
+01877_00,flatlay,pocket,absent,0,pass,,0,0,0
+01877_00,flatlay,zipper,absent,0,pass,,0,0,0
+01877_00,flatlay,sleeve,present,2,pass,,2,0,0
+01877_00,flatlay,shoulder,present,2,pass,,2,0,0
+01877_00,flatlay,logo,uncertain,,unresolved,,0,0,3
+01877_00,worn,collar,absent,0,fail,false_positive,0,2,0
+01877_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+01877_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+01877_00,worn,button hole,absent,0,fail,false_positive,0,7,0
+01877_00,worn,button,absent,0,fail,false_positive,0,9,0
+01877_00,worn,pocket,absent,0,fail,false_positive,0,7,0
+01877_00,worn,zipper,absent,0,fail,false_positive,0,3,0
+01877_00,worn,sleeve,present,2,pass,,2,0,0
+01877_00,worn,shoulder,present,1,pass,,2,0,0
+01877_00,worn,logo,uncertain,,unresolved,,0,0,2
+01877_00,generated,collar,absent,0,pass,,0,0,0
+01877_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+01877_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+01877_00,generated,button hole,absent,0,fail,false_positive,0,8,0
+01877_00,generated,button,absent,0,fail,false_positive,0,8,0
+01877_00,generated,pocket,absent,0,fail,false_positive,0,3,0
+01877_00,generated,zipper,absent,0,fail,false_positive,0,8,0
+01877_00,generated,sleeve,present,2,pass,,2,0,0
+01877_00,generated,shoulder,present,1,pass,,2,0,0
+01877_00,generated,logo,uncertain,,unresolved,,0,0,5
+11993_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+11993_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+11993_00,flatlay,cuff,uncertain,,unresolved,,0,0,2
+11993_00,flatlay,button hole,absent,0,pass,,0,0,0
+11993_00,flatlay,button,absent,0,pass,,0,0,0
+11993_00,flatlay,pocket,absent,0,pass,,0,0,0
+11993_00,flatlay,zipper,absent,0,pass,,0,0,0
+11993_00,flatlay,sleeve,present,2,pass,,2,0,0
+11993_00,flatlay,shoulder,present,2,pass,,2,0,0
+11993_00,flatlay,logo,present,1,fail,mislocalized,1,1,1
+11993_00,worn,collar,absent,0,pass,,0,0,0
+11993_00,worn,lapel,absent,0,fail,false_positive;protocol,0,22,0
+11993_00,worn,cuff,uncertain,,unresolved,,0,0,2
+11993_00,worn,button hole,absent,0,fail,false_positive;protocol,0,22,0
+11993_00,worn,button,absent,0,fail,false_positive,0,3,0
+11993_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+11993_00,worn,zipper,absent,0,pass,,0,0,0
+11993_00,worn,sleeve,present,2,pass,,2,0,0
+11993_00,worn,shoulder,present,1,pass,,2,0,0
+11993_00,worn,logo,absent,0,fail,false_positive,0,9,0
+11993_00,generated,collar,absent,0,fail,false_positive,0,2,0
+11993_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+11993_00,generated,cuff,uncertain,,unresolved,,0,0,2
+11993_00,generated,button hole,absent,0,fail,false_positive,0,4,0
+11993_00,generated,button,absent,0,fail,false_positive,0,3,0
+11993_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+11993_00,generated,zipper,absent,0,fail,false_positive,0,2,0
+11993_00,generated,sleeve,present,2,pass,,2,0,0
+11993_00,generated,shoulder,present,1,pass,,2,0,0
+11993_00,generated,logo,absent,0,fail,false_positive,0,7,0
+07599_00,flatlay,collar,present,1,pass,,3,0,0
+07599_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+07599_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+07599_00,flatlay,button hole,absent,0,pass,,0,0,0
+07599_00,flatlay,button,absent,0,pass,,0,0,0
+07599_00,flatlay,pocket,absent,0,pass,,0,0,0
+07599_00,flatlay,zipper,absent,0,pass,,0,0,0
+07599_00,flatlay,sleeve,absent,0,pass,,0,0,0
+07599_00,flatlay,shoulder,absent,0,pass,,0,0,0
+07599_00,flatlay,logo,absent,0,pass,,0,0,0
+07599_00,worn,collar,present,1,pass,,2,0,0
+07599_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+07599_00,worn,cuff,absent,0,fail,false_positive,0,3,0
+07599_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+07599_00,worn,button,absent,0,fail,false_positive,0,2,0
+07599_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+07599_00,worn,zipper,absent,0,pass,,0,0,0
+07599_00,worn,sleeve,absent,0,pass,,0,0,0
+07599_00,worn,shoulder,absent,0,fail,false_positive,0,2,0
+07599_00,worn,logo,absent,0,pass,,0,0,0
+07599_00,generated,collar,present,1,pass,,2,0,0
+07599_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+07599_00,generated,cuff,absent,0,pass,,0,0,0
+07599_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+07599_00,generated,button,absent,0,fail,false_positive,0,2,0
+07599_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+07599_00,generated,zipper,absent,0,pass,,0,0,0
+07599_00,generated,sleeve,absent,0,pass,,0,0,0
+07599_00,generated,shoulder,absent,0,fail,false_positive,0,2,0
+07599_00,generated,logo,absent,0,pass,,0,0,0
+12365_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+12365_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+12365_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+12365_00,flatlay,button hole,absent,0,pass,,0,0,0
+12365_00,flatlay,button,absent,0,pass,,0,0,0
+12365_00,flatlay,pocket,absent,0,pass,,0,0,0
+12365_00,flatlay,zipper,absent,0,pass,,0,0,0
+12365_00,flatlay,sleeve,absent,0,fail,false_positive,0,2,0
+12365_00,flatlay,shoulder,present,2,pass,,2,0,0
+12365_00,flatlay,logo,absent,0,pass,,0,0,0
+12365_00,worn,collar,absent,0,fail,false_positive,0,2,0
+12365_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+12365_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+12365_00,worn,button hole,absent,0,pass,,0,0,0
+12365_00,worn,button,absent,0,pass,,0,0,0
+12365_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+12365_00,worn,zipper,absent,0,pass,,0,0,0
+12365_00,worn,sleeve,absent,0,pass,,0,0,0
+12365_00,worn,shoulder,present,2,unresolved,,1,0,1
+12365_00,worn,logo,absent,0,pass,,0,0,0
+12365_00,generated,collar,absent,0,fail,false_positive,0,2,0
+12365_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+12365_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+12365_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+12365_00,generated,button,absent,0,fail,false_positive,0,2,0
+12365_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+12365_00,generated,zipper,absent,0,pass,,0,0,0
+12365_00,generated,sleeve,absent,0,pass,,0,0,0
+12365_00,generated,shoulder,present,2,pass,,2,0,0
+12365_00,generated,logo,absent,0,pass,,0,0,0
+03013_00,flatlay,collar,absent,0,fail,false_positive,0,3,0
+03013_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+03013_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+03013_00,flatlay,button hole,absent,0,pass,,0,0,0
+03013_00,flatlay,button,absent,0,pass,,0,0,0
+03013_00,flatlay,pocket,absent,0,pass,,0,0,0
+03013_00,flatlay,zipper,absent,0,pass,,0,0,0
+03013_00,flatlay,sleeve,present,2,pass,,2,0,0
+03013_00,flatlay,shoulder,present,2,pass,,2,0,0
+03013_00,flatlay,logo,uncertain,,unresolved,,0,0,0
+03013_00,worn,collar,absent,0,fail,false_positive,0,2,0
+03013_00,worn,lapel,absent,0,pass,,0,0,0
+03013_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+03013_00,worn,button hole,absent,0,pass,,0,0,0
+03013_00,worn,button,absent,0,pass,,0,0,0
+03013_00,worn,pocket,absent,0,pass,,0,0,0
+03013_00,worn,zipper,absent,0,pass,,0,0,0
+03013_00,worn,sleeve,present,2,pass,,2,0,0
+03013_00,worn,shoulder,present,2,pass,,2,0,0
+03013_00,worn,logo,absent,0,pass,,0,0,0
+03013_00,generated,collar,absent,0,pass,,0,0,0
+03013_00,generated,lapel,absent,0,pass,,0,0,0
+03013_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+03013_00,generated,button hole,absent,0,pass,,0,0,0
+03013_00,generated,button,absent,0,pass,,0,0,0
+03013_00,generated,pocket,absent,0,pass,,0,0,0
+03013_00,generated,zipper,absent,0,pass,,0,0,0
+03013_00,generated,sleeve,present,2,pass,,2,0,0
+03013_00,generated,shoulder,present,2,pass,,2,0,0
+03013_00,generated,logo,absent,0,pass,,0,0,0
+14181_00,flatlay,collar,absent,0,fail,false_positive,0,3,0
+14181_00,flatlay,lapel,absent,0,fail,false_positive,0,3,0
+14181_00,flatlay,cuff,present,2,pass,,2,0,0
+14181_00,flatlay,button hole,absent,0,pass,,0,0,0
+14181_00,flatlay,button,absent,0,pass,,0,0,0
+14181_00,flatlay,pocket,absent,0,pass,,0,0,0
+14181_00,flatlay,zipper,absent,0,pass,,0,0,0
+14181_00,flatlay,sleeve,present,2,pass,,2,0,0
+14181_00,flatlay,shoulder,present,2,pass,,2,0,0
+14181_00,flatlay,logo,present,1,pass,,2,0,0
+14181_00,worn,collar,absent,0,fail,false_positive,0,2,0
+14181_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+14181_00,worn,cuff,present,1,fail,mislocalized,1,1,0
+14181_00,worn,button hole,absent,0,fail,false_positive,0,3,0
+14181_00,worn,button,absent,0,fail,false_positive,0,3,0
+14181_00,worn,pocket,absent,0,pass,,0,0,0
+14181_00,worn,zipper,absent,0,pass,,0,0,0
+14181_00,worn,sleeve,present,1,unresolved,,1,0,1
+14181_00,worn,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+14181_00,worn,logo,present,1,pass,,1,0,0
+14181_00,generated,collar,absent,0,fail,false_positive,0,3,0
+14181_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+14181_00,generated,cuff,present,2,fail,mislocalized,2,1,0
+14181_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+14181_00,generated,button,absent,0,pass,,0,0,0
+14181_00,generated,pocket,absent,0,pass,,0,0,0
+14181_00,generated,zipper,absent,0,pass,,0,0,0
+14181_00,generated,sleeve,present,2,pass,,2,0,0
+14181_00,generated,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+14181_00,generated,logo,present,1,pass,,1,0,0
+12661_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+12661_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+12661_00,flatlay,cuff,absent,0,fail,false_positive,0,3,0
+12661_00,flatlay,button hole,absent,0,pass,,0,0,0
+12661_00,flatlay,button,absent,0,pass,,0,0,0
+12661_00,flatlay,pocket,absent,0,pass,,0,0,0
+12661_00,flatlay,zipper,absent,0,pass,,0,0,0
+12661_00,flatlay,sleeve,present,1,pass,,1,0,0
+12661_00,flatlay,shoulder,present,1,pass,,2,0,0
+12661_00,flatlay,logo,absent,0,pass,,0,0,0
+12661_00,worn,collar,absent,0,pass,,0,0,0
+12661_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+12661_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+12661_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+12661_00,worn,button,absent,0,fail,false_positive,0,2,0
+12661_00,worn,pocket,absent,0,pass,,0,0,0
+12661_00,worn,zipper,absent,0,pass,,0,0,0
+12661_00,worn,sleeve,present,2,pass,,2,0,0
+12661_00,worn,shoulder,present,1,pass,,2,0,0
+12661_00,worn,logo,absent,0,pass,,0,0,0
+12661_00,generated,collar,absent,0,pass,,0,0,0
+12661_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+12661_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+12661_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+12661_00,generated,button,absent,0,fail,false_positive,0,1,0
+12661_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+12661_00,generated,zipper,absent,0,pass,,0,0,0
+12661_00,generated,sleeve,present,2,pass,,2,0,0
+12661_00,generated,shoulder,present,1,pass,,2,0,0
+12661_00,generated,logo,absent,0,pass,,0,0,0
+07150_00,flatlay,collar,absent,0,fail,false_positive,0,3,0
+07150_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+07150_00,flatlay,cuff,uncertain,,unresolved,,0,0,2
+07150_00,flatlay,button hole,absent,0,pass,,0,0,0
+07150_00,flatlay,button,absent,0,pass,,0,0,0
+07150_00,flatlay,pocket,absent,0,pass,,0,0,0
+07150_00,flatlay,zipper,absent,0,pass,,0,0,0
+07150_00,flatlay,sleeve,present,2,pass,,2,0,0
+07150_00,flatlay,shoulder,present,2,pass,,2,0,0
+07150_00,flatlay,logo,present,1,pass,,2,0,0
+07150_00,worn,collar,absent,0,fail,false_positive,0,2,0
+07150_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+07150_00,worn,cuff,uncertain,,unresolved,,0,0,2
+07150_00,worn,button hole,absent,0,pass,,0,0,0
+07150_00,worn,button,absent,0,pass,,0,0,0
+07150_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+07150_00,worn,zipper,absent,0,pass,,0,0,0
+07150_00,worn,sleeve,present,2,pass,,2,0,0
+07150_00,worn,shoulder,present,2,pass,,2,0,0
+07150_00,worn,logo,present,1,fail,missed,0,0,0
+07150_00,generated,collar,absent,0,fail,false_positive,0,2,0
+07150_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+07150_00,generated,cuff,uncertain,,unresolved,,0,0,2
+07150_00,generated,button hole,absent,0,pass,,0,0,0
+07150_00,generated,button,absent,0,pass,,0,0,0
+07150_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+07150_00,generated,zipper,absent,0,pass,,0,0,0
+07150_00,generated,sleeve,present,2,pass,,2,0,0
+07150_00,generated,shoulder,present,2,pass,,2,0,0
+07150_00,generated,logo,present,1,fail,missed,0,0,0
+03935_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+03935_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+03935_00,flatlay,cuff,present,2,pass,,2,0,0
+03935_00,flatlay,button hole,absent,0,pass,,0,0,0
+03935_00,flatlay,button,absent,0,pass,,0,0,0
+03935_00,flatlay,pocket,absent,0,pass,,0,0,0
+03935_00,flatlay,zipper,absent,0,pass,,0,0,0
+03935_00,flatlay,sleeve,present,2,pass,,2,0,0
+03935_00,flatlay,shoulder,present,2,pass,,2,0,0
+03935_00,flatlay,logo,uncertain,,unresolved,,0,0,0
+03935_00,worn,collar,absent,0,fail,false_positive,0,2,0
+03935_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+03935_00,worn,cuff,present,2,pass,,2,0,0
+03935_00,worn,button hole,absent,0,fail,false_positive,0,4,0
+03935_00,worn,button,absent,0,fail,false_positive,0,2,0
+03935_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+03935_00,worn,zipper,absent,0,pass,,0,0,0
+03935_00,worn,sleeve,present,2,pass,,2,0,0
+03935_00,worn,shoulder,present,2,fail,mislocalized;partial_coverage,1,1,0
+03935_00,worn,logo,absent,0,pass,,0,0,0
+03935_00,generated,collar,absent,0,pass,,0,0,0
+03935_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+03935_00,generated,cuff,present,2,pass,,2,0,0
+03935_00,generated,button hole,absent,0,fail,false_positive,0,4,0
+03935_00,generated,button,absent,0,fail,false_positive,0,2,0
+03935_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+03935_00,generated,zipper,absent,0,pass,,0,0,0
+03935_00,generated,sleeve,present,2,pass,,2,0,0
+03935_00,generated,shoulder,present,1,fail,mislocalized,1,1,0
+03935_00,generated,logo,absent,0,pass,,0,0,0
+09412_00,flatlay,collar,present,1,pass,,4,0,0
+09412_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+09412_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+09412_00,flatlay,button hole,absent,0,pass,,0,0,0
+09412_00,flatlay,button,absent,0,pass,,0,0,0
+09412_00,flatlay,pocket,absent,0,pass,,0,0,0
+09412_00,flatlay,zipper,absent,0,pass,,0,0,0
+09412_00,flatlay,sleeve,present,2,pass,,2,0,0
+09412_00,flatlay,shoulder,present,2,pass,,2,0,0
+09412_00,flatlay,logo,absent,0,pass,,0,0,0
+09412_00,worn,collar,present,1,pass,,2,0,0
+09412_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+09412_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+09412_00,worn,button hole,absent,0,pass,,0,0,0
+09412_00,worn,button,absent,0,pass,,0,0,0
+09412_00,worn,pocket,absent,0,pass,,0,0,0
+09412_00,worn,zipper,absent,0,pass,,0,0,0
+09412_00,worn,sleeve,present,2,pass,,2,0,0
+09412_00,worn,shoulder,present,1,fail,mislocalized,1,1,0
+09412_00,worn,logo,absent,0,pass,,0,0,0
+09412_00,generated,collar,present,1,pass,,2,0,0
+09412_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+09412_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+09412_00,generated,button hole,absent,0,pass,,0,0,0
+09412_00,generated,button,absent,0,pass,,0,0,0
+09412_00,generated,pocket,absent,0,pass,,0,0,0
+09412_00,generated,zipper,absent,0,pass,,0,0,0
+09412_00,generated,sleeve,present,2,pass,,2,0,0
+09412_00,generated,shoulder,present,1,fail,mislocalized,1,1,0
+09412_00,generated,logo,absent,0,pass,,0,0,0
+04847_00,flatlay,collar,absent,0,fail,false_positive,0,4,0
+04847_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+04847_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+04847_00,flatlay,button hole,absent,0,pass,,0,0,0
+04847_00,flatlay,button,absent,0,pass,,0,0,0
+04847_00,flatlay,pocket,absent,0,pass,,0,0,0
+04847_00,flatlay,zipper,absent,0,pass,,0,0,0
+04847_00,flatlay,sleeve,present,2,pass,,2,0,0
+04847_00,flatlay,shoulder,present,2,pass,,2,0,0
+04847_00,flatlay,logo,present,1,pass,,3,0,0
+04847_00,worn,collar,absent,0,fail,false_positive,0,2,0
+04847_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+04847_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+04847_00,worn,button hole,absent,0,fail,false_positive,0,2,0
+04847_00,worn,button,absent,0,fail,false_positive,0,2,0
+04847_00,worn,pocket,absent,0,fail,false_positive,0,3,0
+04847_00,worn,zipper,absent,0,pass,,0,0,0
+04847_00,worn,sleeve,present,2,pass,,2,0,0
+04847_00,worn,shoulder,present,2,pass,,2,0,0
+04847_00,worn,logo,present,1,pass,,2,0,0
+04847_00,generated,collar,absent,0,fail,false_positive,0,2,0
+04847_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+04847_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+04847_00,generated,button hole,absent,0,fail,false_positive,0,2,0
+04847_00,generated,button,absent,0,fail,false_positive,0,2,0
+04847_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+04847_00,generated,zipper,absent,0,pass,,0,0,0
+04847_00,generated,sleeve,present,2,pass,,2,0,0
+04847_00,generated,shoulder,present,2,pass,,2,0,0
+04847_00,generated,logo,present,1,pass,,5,0,0
+11438_00,flatlay,collar,absent,0,fail,false_positive,0,3,0
+11438_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+11438_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+11438_00,flatlay,button hole,absent,0,pass,,0,0,0
+11438_00,flatlay,button,absent,0,pass,,0,0,0
+11438_00,flatlay,pocket,absent,0,pass,,0,0,0
+11438_00,flatlay,zipper,absent,0,pass,,0,0,0
+11438_00,flatlay,sleeve,present,2,pass,,2,0,0
+11438_00,flatlay,shoulder,present,2,pass,,2,0,0
+11438_00,flatlay,logo,uncertain,,unresolved,,0,0,0
+11438_00,worn,collar,absent,0,fail,false_positive,0,2,0
+11438_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+11438_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+11438_00,worn,button hole,absent,0,pass,,0,0,0
+11438_00,worn,button,absent,0,pass,,0,0,0
+11438_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+11438_00,worn,zipper,absent,0,pass,,0,0,0
+11438_00,worn,sleeve,present,2,pass,,2,0,0
+11438_00,worn,shoulder,present,1,fail,mislocalized,1,1,0
+11438_00,worn,logo,absent,0,pass,,0,0,0
+11438_00,generated,collar,absent,0,fail,false_positive,0,2,0
+11438_00,generated,lapel,absent,0,pass,,0,0,0
+11438_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+11438_00,generated,button hole,absent,0,pass,,0,0,0
+11438_00,generated,button,absent,0,pass,,0,0,0
+11438_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+11438_00,generated,zipper,absent,0,pass,,0,0,0
+11438_00,generated,sleeve,present,2,pass,,2,0,0
+11438_00,generated,shoulder,present,1,pass,,2,0,0
+11438_00,generated,logo,absent,0,pass,,0,0,0
+10731_00,flatlay,collar,present,1,pass,,2,0,0
+10731_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+10731_00,flatlay,cuff,present,2,pass,,2,0,0
+10731_00,flatlay,button hole,uncertain,,unresolved,,0,0,0
+10731_00,flatlay,button,uncertain,,unresolved,,0,0,0
+10731_00,flatlay,pocket,absent,0,pass,,0,0,0
+10731_00,flatlay,zipper,absent,0,pass,,0,0,0
+10731_00,flatlay,sleeve,present,2,pass,,2,0,0
+10731_00,flatlay,shoulder,present,2,pass,,2,0,0
+10731_00,flatlay,logo,present,1,pass,,1,0,0
+10731_00,worn,collar,present,1,pass,,2,0,0
+10731_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+10731_00,worn,cuff,present,2,pass,,2,0,0
+10731_00,worn,button hole,uncertain,,unresolved,,0,0,11
+10731_00,worn,button,uncertain,,unresolved,,0,0,6
+10731_00,worn,pocket,absent,0,pass,,0,0,0
+10731_00,worn,zipper,absent,0,pass,,0,0,0
+10731_00,worn,sleeve,present,2,pass,,2,0,0
+10731_00,worn,shoulder,present,2,pass,,2,0,0
+10731_00,worn,logo,absent,0,pass,,0,0,0
+10731_00,generated,collar,present,1,pass,,2,0,0
+10731_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+10731_00,generated,cuff,present,2,pass,,2,0,0
+10731_00,generated,button hole,uncertain,,unresolved,,0,0,2
+10731_00,generated,button,uncertain,,unresolved,,0,0,3
+10731_00,generated,pocket,absent,0,pass,,0,0,0
+10731_00,generated,zipper,absent,0,pass,,0,0,0
+10731_00,generated,sleeve,present,2,pass,,2,0,0
+10731_00,generated,shoulder,present,2,unresolved,,1,0,1
+10731_00,generated,logo,absent,0,pass,,0,0,0
+08314_00,flatlay,collar,absent,0,fail,false_positive,0,2,0
+08314_00,flatlay,lapel,absent,0,fail,false_positive,0,2,0
+08314_00,flatlay,cuff,absent,0,fail,false_positive,0,2,0
+08314_00,flatlay,button hole,absent,0,pass,,0,0,0
+08314_00,flatlay,button,absent,0,pass,,0,0,0
+08314_00,flatlay,pocket,absent,0,pass,,0,0,0
+08314_00,flatlay,zipper,absent,0,pass,,0,0,0
+08314_00,flatlay,sleeve,present,2,pass,,2,0,0
+08314_00,flatlay,shoulder,present,2,pass,,2,0,0
+08314_00,flatlay,logo,absent,0,pass,,0,0,0
+08314_00,worn,collar,absent,0,pass,,0,0,0
+08314_00,worn,lapel,absent,0,fail,false_positive,0,2,0
+08314_00,worn,cuff,absent,0,fail,false_positive,0,2,0
+08314_00,worn,button hole,absent,0,fail,false_positive,0,4,0
+08314_00,worn,button,absent,0,fail,false_positive,0,6,0
+08314_00,worn,pocket,absent,0,fail,false_positive,0,2,0
+08314_00,worn,zipper,absent,0,pass,,0,0,0
+08314_00,worn,sleeve,present,2,pass,,2,0,0
+08314_00,worn,shoulder,present,2,pass,,2,0,0
+08314_00,worn,logo,absent,0,pass,,0,0,0
+08314_00,generated,collar,absent,0,pass,,0,0,0
+08314_00,generated,lapel,absent,0,fail,false_positive,0,2,0
+08314_00,generated,cuff,absent,0,fail,false_positive,0,2,0
+08314_00,generated,button hole,absent,0,fail,false_positive,0,4,0
+08314_00,generated,button,absent,0,fail,false_positive,0,5,0
+08314_00,generated,pocket,absent,0,fail,false_positive,0,2,0
+08314_00,generated,zipper,absent,0,pass,,0,0,0
+08314_00,generated,sleeve,present,2,pass,,2,0,0
+08314_00,generated,shoulder,present,2,pass,,2,0,0
+08314_00,generated,logo,absent,0,pass,,0,0,0

@@ -1,0 +1,2524 @@
+{
+  "judge": "assistant visual point inspection",
+  "records": [
+    {
+      "id": "09845_00",
+      "view": "flatlay",
+      "parts": {},
+      "note": "Absent collar/lapel reported on lace neckline; cuffs reported on bottom hem; both shoulder straps missed.",
+      "reviewed_at": 1790711645.757732
+    },
+    {
+      "id": "09845_00",
+      "view": "worn",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "One shoulder point lands on bare skin beside the strap. Buttons/buttonholes are on the trousers; neckline is mislabeled collar/lapel.",
+      "reviewed_at": 1790711645.7577362
+    },
+    {
+      "id": "09845_00",
+      "view": "generated",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "One shoulder point lands on bare skin beside the strap. Buttons/buttonholes/pockets are on trousers; neckline mislabeled collar/lapel.",
+      "reviewed_at": 1790711645.757741
+    },
+    {
+      "id": "10495_00",
+      "view": "flatlay",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Shoulders are on straps. False sleeve points are on torso side seams; cuffs on bottom hem; buttons/buttonholes on lace.",
+      "reviewed_at": 1790711645.7577426
+    },
+    {
+      "id": "10495_00",
+      "view": "worn",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 0
+        }
+      },
+      "note": "Both shoulder points target skin/hair away from garment straps. Other fastening/pocket/zipper points target trousers; cuffs target torso hem.",
+      "reviewed_at": 1790711645.7577438
+    },
+    {
+      "id": "10495_00",
+      "view": "generated",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 0
+        }
+      },
+      "note": "Both shoulder points target skin/hair away from garment straps. Fastening/pocket/zipper points target trousers.",
+      "reviewed_at": 1790711645.7577453
+    },
+    {
+      "id": "05961_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves and shoulders correct. Neck binding mislabeled collar/lapel; sleeve hems mislabeled cuffs.",
+      "reviewed_at": 1790711645.7577472
+    },
+    {
+      "id": "05961_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves and shoulders correct. Cuffs/buttons/buttonholes/pockets target shorts instead of the product top.",
+      "reviewed_at": 1790711645.757749
+    },
+    {
+      "id": "05961_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves and shoulders correct. Cuffs/buttons/buttonholes/pockets target shorts instead of the product top.",
+      "reviewed_at": 1790711645.7577505
+    },
+    {
+      "id": "02400_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves correct. Lapels are invented at the straight off-shoulder neckline and buttonholes at underarms.",
+      "reviewed_at": 1790711645.7577517
+    },
+    {
+      "id": "02400_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves correct. Collar/lapel at off-shoulder neck edge, cuffs at ordinary sleeve hems; fasteners and pockets from jeans.",
+      "reviewed_at": 1790711645.757753
+    },
+    {
+      "id": "02400_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves correct. Lapels at off-shoulder neck edge, cuffs at ordinary sleeve hems; fasteners and pockets from jeans.",
+      "reviewed_at": 1790711645.757754
+    },
+    {
+      "id": "14651_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correctly located. Lapels are placed on cap sleeves; collar points trace ordinary neck binding.",
+      "reviewed_at": 1790711683.2130783
+    },
+    {
+      "id": "14651_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Lapels/buttonholes/buttons/pockets target trousers. Logo points to decorative slogan under the strict brand-logo definition.",
+      "reviewed_at": 1790711683.2130835
+    },
+    {
+      "id": "14651_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Lapels/buttonholes/buttons/pockets target trousers. Logo points to decorative slogan.",
+      "reviewed_at": 1790711683.2130861
+    },
+    {
+      "id": "01994_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct; readable interior brand label missed. Wrap neckline mislabeled lapels and collar.",
+      "reviewed_at": 1790711683.213088
+    },
+    {
+      "id": "01994_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Buttons/buttonholes/pockets are from trousers; wrap neckline mislabeled lapels.",
+      "reviewed_at": 1790711683.2130897
+    },
+    {
+      "id": "01994_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Buttons/buttonholes target trousers; wrap neckline mislabeled collar/lapels.",
+      "reviewed_at": 1790711683.2130919
+    },
+    {
+      "id": "08232_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "button": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 7
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar, buttons, sleeves and shoulders correct. Interior logo missed. Actual collar also labeled as nonexistent lapels.",
+      "reviewed_at": 1790711683.213095
+    },
+    {
+      "id": "08232_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "button": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 7
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar, buttons, sleeves and shoulders correct. Extra pocket detections are on trousers. Collar also labeled lapels.",
+      "reviewed_at": 1790711683.213099
+    },
+    {
+      "id": "08232_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "button": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 6
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Six shirt buttons correct; seventh button is on jeans. Buttonholes target jeans. Collar also labeled lapels.",
+      "reviewed_at": 1790711683.2131023
+    },
+    {
+      "id": "12541_00",
+      "view": "flatlay",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Shoulder straps and interior label found. Nonexistent cuffs placed at hip/crotch hems; neckline mislabeled collar/lapels.",
+      "reviewed_at": 1790711683.2131045
+    },
+    {
+      "id": "12541_00",
+      "view": "worn",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "uncertain",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 0
+        }
+      },
+      "note": "One shoulder point is just outside the strap boundary (unresolved); other is clearly on skin. Logos and cuffs target waistband of other garment.",
+      "reviewed_at": 1790711683.213106
+    },
+    {
+      "id": "12541_00",
+      "view": "generated",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 0
+        }
+      },
+      "note": "Both shoulder points are on bare skin outside straps. Logo/cuffs target waistband of other garment.",
+      "reviewed_at": 1790711683.2131073
+    },
+    {
+      "id": "04430_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar/sleeves/shoulders correct; visible rear zipper missed. Twelve buttonholes hallucinated on leopard spots.",
+      "reviewed_at": 1790711742.127554
+    },
+    {
+      "id": "04430_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar/sleeves/shoulders correct. Fasteners/pockets target trousers; lapels invented at neck.",
+      "reviewed_at": 1790711742.127559
+    },
+    {
+      "id": "04430_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar/sleeves/shoulders correct. One lapel on shoulder, other at neck; fasteners/pockets target trousers.",
+      "reviewed_at": 1790711742.1275623
+    },
+    {
+      "id": "00494_00",
+      "view": "flatlay",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Cuffs/sleeves/shoulders and both interior/chest brand graphics correct. Ordinary crewneck mislabeled collar/lapel.",
+      "reviewed_at": 1790711742.1275678
+    },
+    {
+      "id": "00494_00",
+      "view": "worn",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "One shoulder point lies in background outside fabric. Chest graphic found, but second logo is a circular retail size sticker at hem (zoom checked).",
+      "reviewed_at": 1790711742.1275709
+    },
+    {
+      "id": "00494_00",
+      "view": "generated",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "logo": {
+          "point_judgments": [
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "One shoulder point lies in background outside fabric. Cuffs/sleeves/chest graphic correct.",
+      "reviewed_at": 1790711742.127574
+    },
+    {
+      "id": "08316_00",
+      "view": "flatlay",
+      "parts": {
+        "button": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 3
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Buttons/sleeves/shoulders correct. Logos include interior brand label and small hem emblem, but also one shirt button incorrectly called a logo (zoom checked).",
+      "reviewed_at": 1790711742.1275773
+    },
+    {
+      "id": "08316_00",
+      "view": "worn",
+      "parts": {
+        "button": {
+          "point_judgments": [
+            "wrong",
+            "wrong",
+            "wrong",
+            "wrong",
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 3
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Three shirt buttons correct, four extra buttons from jeans. Sleeve/shoulder points correct.",
+      "reviewed_at": 1790711742.1275804
+    },
+    {
+      "id": "08316_00",
+      "view": "generated",
+      "parts": {
+        "button": {
+          "point_judgments": [
+            "wrong",
+            "wrong",
+            "wrong",
+            "wrong",
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 3
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Three shirt buttons correct, four extra buttons from jeans. Sleeve/shoulder points correct.",
+      "reviewed_at": 1790711742.1275835
+    },
+    {
+      "id": "14173_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "uncertain"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Sleeves/shoulders correct. Interior KHUJO label found; second logo point on tiny neck-edge speck is unresolved after zoom.",
+      "reviewed_at": 1790711742.1275868
+    },
+    {
+      "id": "14173_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders on visible fabric. Lapels invented at wrap opening; pockets/buttonholes from jeans.",
+      "reviewed_at": 1790711742.1275887
+    },
+    {
+      "id": "14173_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "uncertain",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "First shoulder point on left garment boundary is unresolved; right point is visible fabric adjacent to hair. Lapels at wrap; pockets/buttonholes from jeans.",
+      "reviewed_at": 1790711742.1275911
+    },
+    {
+      "id": "01917_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "uncertain",
+            "correct",
+            "uncertain"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "uncertain",
+            "uncertain"
+          ],
+          "distinct_visible_instances_covered": 0
+        }
+      },
+      "note": "Central collar point correct; two lower points at indistinct collar/chest boundary unresolved after enlarged overlay. Shoulder boundaries white-on-white and unresolved.",
+      "reviewed_at": 1790711787.747466,
+      "refinements": [
+        {
+          "before": {
+            "point_judgments": [
+              "uncertain",
+              "correct",
+              "uncertain"
+            ],
+            "distinct_visible_instances_covered": 1
+          },
+          "reason": "Full-resolution zoom shows indistinct neck-band seam; two low collar points cannot be confidently classified.",
+          "at": 1790711873.5222774
+        }
+      ]
+    },
+    {
+      "id": "01917_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Left shoulder point outside fabric in background; other shoulder and sleeves correct. Extra zipper/button/pocket predictions target shorts.",
+      "reviewed_at": 1790711787.7475088
+    },
+    {
+      "id": "01917_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Left shoulder point outside fabric in background; other shoulder and sleeves correct. Extra fastening/pocket predictions target shorts.",
+      "reviewed_at": 1790711787.7475128
+    },
+    {
+      "id": "04893_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Sleeves/shoulders and interior label found; lapels invented at shoulder seam and cuffs at sleeve drawstrings.",
+      "reviewed_at": 1790711787.7475169
+    },
+    {
+      "id": "04893_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Lapels and cuffs target ruched sleeve ends; buttonholes target jeans.",
+      "reviewed_at": 1790711787.7475195
+    },
+    {
+      "id": "04893_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Lapels/cuffs target sleeve ties; pocket points target jeans and hand.",
+      "reviewed_at": 1790711787.7475226
+    },
+    {
+      "id": "02743_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "uncertain",
+            "uncertain"
+          ],
+          "distinct_visible_instances_covered": 0
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar/cuffs/sleeves and two brand marks correct. Shoulder points on white-on-white boundary unresolved. Thumbholes called pockets/zippers, side seam called zipper.",
+      "reviewed_at": 1790711787.7475266
+    },
+    {
+      "id": "02743_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "uncertain",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 3
+        }
+      },
+      "note": "Collar/cuffs/sleeves and three visible brand tags correct. One shoulder boundary point unresolved. Collar also labeled lapels.",
+      "reviewed_at": 1790711787.7475302
+    },
+    {
+      "id": "02743_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "uncertain",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar/cuffs/sleeves and two brand tags correct. One shoulder boundary point unresolved. Lapels invented on upper edge.",
+      "reviewed_at": 1790711787.7475343
+    },
+    {
+      "id": "06730_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar/cuffs/sleeves/shoulders correct. Collar also mislabeled lapels.",
+      "reviewed_at": 1790711787.7475374
+    },
+    {
+      "id": "06730_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Near sleeve/cuff correct; invented far sleeve/cuff are on torso hem, where arm is hidden. Pockets also on hem/torso.",
+      "reviewed_at": 1790711787.747541
+    },
+    {
+      "id": "06730_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Upper far-sleeve sliver and near sleeve are visible and correctly pointed. First cuff is falsely on torso hem; second cuff correct. Pockets invented on torso.",
+      "reviewed_at": 1790711787.747544
+    },
+    {
+      "id": "08158_00",
+      "view": "flatlay",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Cuffs/sleeves/shoulders correct. Boatneck edge called collar and lapels.",
+      "reviewed_at": 1790711873.5353987
+    },
+    {
+      "id": "08158_00",
+      "view": "worn",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Cuffs/sleeves/shoulders correct. Ordinary boatneck edge called collar.",
+      "reviewed_at": 1790711873.5354047
+    },
+    {
+      "id": "08158_00",
+      "view": "generated",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Cuffs/sleeves/shoulders correct. Ordinary boatneck edge called collar.",
+      "reviewed_at": 1790711873.53541
+    },
+    {
+      "id": "11709_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "All three collar points checked on enlarged overlay and valid. Sleeves/shoulders correct. Buttonholes invented at underarms.",
+      "reviewed_at": 1790711873.5354133
+    },
+    {
+      "id": "11709_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "uncertain",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Near sleeve correct; far sleeve/torso edge unresolved after zoom. Left shoulder point in background. Lapels on chest; other fasteners/pockets on trousers.",
+      "reviewed_at": 1790711873.5354164
+    },
+    {
+      "id": "11709_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "uncertain",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Near sleeve correct; far sleeve/torso edge unresolved. Left shoulder point in background. Other fasteners/pockets on trousers.",
+      "reviewed_at": 1790711873.5354195
+    },
+    {
+      "id": "01877_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Crewneck mislabeled collar/lapels; logo category unresolved by pre-review.",
+      "reviewed_at": 1790711873.5354218
+    },
+    {
+      "id": "01877_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Numerous lapel/fastener/pocket/zipper points target trousers.",
+      "reviewed_at": 1790711873.5354245
+    },
+    {
+      "id": "01877_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Numerous lapel/fastener/pocket/zipper points target trousers.",
+      "reviewed_at": 1790711873.535427
+    },
+    {
+      "id": "11993_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "uncertain",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Brand emblem on inner label correct. Adjacent white label unresolved; S size tag is not a brand logo (zoom checked).",
+      "reviewed_at": 1790711873.5354307
+    },
+    {
+      "id": "11993_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. All-over hearts falsely called logos. Lapels/fasteners/pockets target jeans.",
+      "reviewed_at": 1790711873.5354335
+    },
+    {
+      "id": "11993_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. All-over hearts falsely called logos. Lapels/fasteners/pockets/zippers target jeans.",
+      "reviewed_at": 1790711873.5354364
+    },
+    {
+      "id": "07599_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "High neck correctly found. Same neck band falsely called cuffs/lapels. Correctly returns no shoulder points on this halter flatlay.",
+      "reviewed_at": 1790711911.1065497
+    },
+    {
+      "id": "07599_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Collar correct. Both shoulder points target bare skin on a halter top. Cuffs at neck and jeans; fasteners/pockets on jeans.",
+      "reviewed_at": 1790711911.106555
+    },
+    {
+      "id": "07599_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Collar correct. Both shoulder points target bare skin on a halter top. Lapels invented at armholes; fasteners/pockets on jeans.",
+      "reviewed_at": 1790711911.1065583
+    },
+    {
+      "id": "12365_00",
+      "view": "flatlay",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Shoulder straps correct. Same straps falsely called sleeves/collars/lapels; hips called cuffs.",
+      "reviewed_at": 1790711911.106561
+    },
+    {
+      "id": "12365_00",
+      "view": "worn",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "uncertain",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "One shoulder point near strap/skin boundary unresolved; other on strap. Cuffs/pockets target shorts.",
+      "reviewed_at": 1790711911.1065633
+    },
+    {
+      "id": "12365_00",
+      "view": "generated",
+      "parts": {
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Both shoulder straps correctly located. Cuffs/pockets/buttons/buttonholes target shorts instead of tank top.",
+      "reviewed_at": 1790711911.106566
+    },
+    {
+      "id": "03013_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Neck binding called collar/lapels and ordinary sleeve hems called cuffs.",
+      "reviewed_at": 1790711911.1065698
+    },
+    {
+      "id": "03013_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Neck binding called collar and ordinary sleeve hems called cuffs.",
+      "reviewed_at": 1790711911.1065733
+    },
+    {
+      "id": "03013_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Ordinary sleeve hems called cuffs; no other extraneous detections.",
+      "reviewed_at": 1790711911.1065764
+    },
+    {
+      "id": "14181_00",
+      "view": "flatlay",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Cuffs/sleeves/shoulders and interior/chest logos correct. Cuffs and neck binding also mislabeled collars/lapels.",
+      "reviewed_at": 1790711911.10658
+    },
+    {
+      "id": "14181_00",
+      "view": "worn",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "uncertain",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "logo": {
+          "point_judgments": [
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "One cuff is falsely on neckline; near cuff correct. Far sleeve boundary unresolved. One shoulder in background; logo correct; fasteners on jeans.",
+      "reviewed_at": 1790711911.106584
+    },
+    {
+      "id": "14181_00",
+      "view": "generated",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "logo": {
+          "point_judgments": [
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Two cuffs correctly located plus false cuff on neckline. Sleeves and logo correct; one shoulder in background. Buttonholes on jeans.",
+      "reviewed_at": 1790711911.1065881
+    },
+    {
+      "id": "12661_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Visible sleeve and shoulder fabric correctly located. Bottom torso hem called cuffs; layered V opening called lapels.",
+      "reviewed_at": 1790711950.4324894
+    },
+    {
+      "id": "12661_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Layered neckline called lapels; button/buttonhole points target trousers.",
+      "reviewed_at": 1790711950.4324958
+    },
+    {
+      "id": "12661_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Layered neckline called lapels; fasteners/pockets target trousers.",
+      "reviewed_at": 1790711950.4324996
+    },
+    {
+      "id": "07150_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders and chest/interior logos correct. Ordinary V-neck binding mislabeled collar/lapels.",
+      "reviewed_at": 1790711950.4325042
+    },
+    {
+      "id": "07150_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct but visible Hummel chest logo missed. Pockets target trousers.",
+      "reviewed_at": 1790711950.4325073
+    },
+    {
+      "id": "07150_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct but chest logo missed. Pockets target trousers.",
+      "reviewed_at": 1790711950.4325106
+    },
+    {
+      "id": "03935_00",
+      "view": "flatlay",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Cuffs/sleeves/shoulders correct. Ordinary neck binding mislabeled collar/lapels.",
+      "reviewed_at": 1790711950.432514
+    },
+    {
+      "id": "03935_00",
+      "view": "worn",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Left shoulder point in background outside fabric; remaining part points correct. Fasteners/pockets on jeans.",
+      "reviewed_at": 1790711950.4325185
+    },
+    {
+      "id": "03935_00",
+      "view": "generated",
+      "parts": {
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Left shoulder point in background outside fabric; remaining part points correct. Lapels invented at torso hem; fasteners/pockets on jeans.",
+      "reviewed_at": 1790711950.432522
+    },
+    {
+      "id": "09412_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Collar/sleeves/shoulders correct. Collar also labeled lapels; ordinary sleeve ends called cuffs.",
+      "reviewed_at": 1790711950.4325259
+    },
+    {
+      "id": "09412_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Collar/sleeves correct. One shoulder point targets hair/background where fabric is hidden; other correct.",
+      "reviewed_at": 1790711950.4325294
+    },
+    {
+      "id": "09412_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "wrong",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Collar/sleeves correct. One shoulder point targets hair/background where fabric is hidden; other correct.",
+      "reviewed_at": 1790711950.4325335
+    },
+    {
+      "id": "04847_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 3
+        }
+      },
+      "note": "Sleeves/shoulders, interior label, chest branding and small side tag found. Ordinary neck/wrist bindings mislabeled collar/lapels/cuffs.",
+      "reviewed_at": 1790711987.186747
+    },
+    {
+      "id": "04847_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Sleeves/shoulders/chest branding correct. Extra fastener/pocket detections target jeans.",
+      "reviewed_at": 1790711987.1867568
+    },
+    {
+      "id": "04847_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct",
+            "correct",
+            "correct",
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Sleeves/shoulders/chest branding correct; multiple points on one flag/text graphic allowed. Extra fastener/pocket detections target jeans.",
+      "reviewed_at": 1790711987.1867669
+    },
+    {
+      "id": "11438_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Lapels invented at underarms; ordinary neck/sleeve edges called collar/cuffs.",
+      "reviewed_at": 1790711987.1867898
+    },
+    {
+      "id": "11438_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "wrong"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Sleeves and one shoulder correct; second shoulder point is on hair. Lapels/pockets at trouser waistband.",
+      "reviewed_at": 1790711987.1868074
+    },
+    {
+      "id": "11438_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Pockets target trouser waistband; collar/cuffs at ordinary neck/sleeve edges.",
+      "reviewed_at": 1790711987.1868205
+    },
+    {
+      "id": "10731_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "logo": {
+          "point_judgments": [
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Shirt collar/cuffs/sleeves/shoulders and interior EVANS label correct. Collar also mislabeled lapels.",
+      "reviewed_at": 1790711987.1868548
+    },
+    {
+      "id": "10731_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Shirt collar/cuffs/sleeves/shoulders correct. Tiny fasteners unresolved and excluded; collar also labeled lapels.",
+      "reviewed_at": 1790711987.1868725
+    },
+    {
+      "id": "10731_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 1
+        },
+        "cuff": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "uncertain"
+          ],
+          "distinct_visible_instances_covered": 1
+        }
+      },
+      "note": "Shirt collar/cuffs/sleeves correct. One shoulder boundary point unresolved; fasteners unresolved and excluded.",
+      "reviewed_at": 1790711987.1868923
+    },
+    {
+      "id": "08314_00",
+      "view": "flatlay",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Neck edge called collar; underarms called lapels; ordinary sleeve ends called cuffs.",
+      "reviewed_at": 1790711987.1869044
+    },
+    {
+      "id": "08314_00",
+      "view": "worn",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Lapels/buttons/buttonholes/pockets target trousers; sleeve ends called cuffs.",
+      "reviewed_at": 1790711987.1869113
+    },
+    {
+      "id": "08314_00",
+      "view": "generated",
+      "parts": {
+        "sleeve": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        },
+        "shoulder": {
+          "point_judgments": [
+            "correct",
+            "correct"
+          ],
+          "distinct_visible_instances_covered": 2
+        }
+      },
+      "note": "Sleeves/shoulders correct. Lapels/buttons/buttonholes/pockets target trousers; sleeve ends called cuffs.",
+      "reviewed_at": 1790711987.1869166
+    }
+  ],
+  "tolerance": "Points clearly on the visible component or its immediate antialiased boundary count as correct. Points clearly on skin, background, another garment or another component count as wrong. Ambiguous boundary/occlusion points are unresolved, not credited as correct."
+}

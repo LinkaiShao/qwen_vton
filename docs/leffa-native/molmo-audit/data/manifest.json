@@ -1,0 +1,463 @@
+{
+  "model": "allenai/Molmo-7B-D-0924",
+  "revision": "cab33fb7f1a40091911f81165f8481920621948f",
+  "concepts": [
+    "collar",
+    "lapel",
+    "cuff",
+    "button hole",
+    "button",
+    "pocket",
+    "zipper",
+    "sleeve",
+    "shoulder",
+    "logo"
+  ],
+  "selection": "First 32 complete matched triplets in SHA256(molmo-view-audit-20260929:+ID) order from the existing 128-case official-test benchmark. No selection by model outputs or error.",
+  "prompt": "Point to all the {plural} on the garment.",
+  "max_crops": 12,
+  "max_new_tokens": 384,
+  "views": [
+    "flatlay",
+    "worn",
+    "generated"
+  ],
+  "generated_model": "LeFFA, existing benchmark outputs, no regeneration",
+  "judge": "Assistant visual review of the actual images; no SAM3 or DINO used as localization ground truth. Automatic/AI-reviewed audit, not human-validated ground truth.",
+  "rules": {
+    "scope": "Upper-body product garment. Points on pants, jewelry, skin, or background are incorrect.",
+    "collar": "Separate standing or folded fabric neck band; a plain neckline is not a collar.",
+    "lapel": "Folded-back front panel of a jacket; a collar is not a lapel.",
+    "cuff": "Distinct sleeve-end band or folded cuff; a plain sleeve hem, armhole or bare wrist is not a cuff.",
+    "button hole": "Visibly identifiable fastening slit, not an inferred slit hidden by a fastened button.",
+    "button": "Visible garment fastening button, not jewelry or printed motifs.",
+    "pocket": "Visible patch compartment or identifiable pocket opening, not a fold.",
+    "zipper": "Visible zipper teeth/track or identifiable zipper pull.",
+    "sleeve": "Sleeve fabric covering part of an arm; thin straps and bare arms do not count.",
+    "shoulder": "Visible garment shoulder section or strap, not bare skin.",
+    "logo": "Recognizable brand emblem/name/mark; generic decorative print is not automatically a logo.",
+    "uncertain": "Occluded, too small, or semantically ambiguous details are unresolved and excluded from binary error rates.",
+    "failure": "At least one clearly wrong emitted point, no point for a clearly visible component, or a missed distinct visible instance. Report errors per image-concept and per emitted point separately.",
+    "coverage": "Multiple points on the same component are allowed (e.g. two ends of one collar); two distinct visible sleeves/cuffs/shoulders must both be covered.",
+    "blinding": "Record visible component presence/instances from unmarked images before inspecting Molmo predictions. Then visually adjudicate returned points."
+  },
+  "records": [
+    {
+      "id": "09845_00",
+      "hashes": {
+        "flatlay": "d89906c7ec466476f6e1fcc3739b982174998aa80f4abeee5dbde7aaf809dd63",
+        "worn": "89aa5a66da4b4040300aa0bf840eec4881d40271ab07d53bac82bd8519dcc475",
+        "generated": "332f6fb2afc3c15a61bfcd802de4f71bf0f3281e86901afcb21adddda1244239"
+      },
+      "images": {
+        "flatlay": "images/09845_00_flatlay.jpg",
+        "worn": "images/09845_00_worn.jpg",
+        "generated": "images/09845_00_generated.jpg"
+      }
+    },
+    {
+      "id": "10495_00",
+      "hashes": {
+        "flatlay": "caa180165037237326de24d1081af97d0d914e663306b6e7dac640338ecc8fab",
+        "worn": "740ce59072dff217d307ef659a8ab6259084958c5179a6337fa85d4c9faa69bd",
+        "generated": "28f6498a871c09fe5d14e05f4e2a6dcb0a843fbe08340e6c9240b9cc68c88eab"
+      },
+      "images": {
+        "flatlay": "images/10495_00_flatlay.jpg",
+        "worn": "images/10495_00_worn.jpg",
+        "generated": "images/10495_00_generated.jpg"
+      }
+    },
+    {
+      "id": "05961_00",
+      "hashes": {
+        "flatlay": "530016d9d3c0240dbadeed9e945cac1fff0f96fe739e90cf0c489ac02f8702a1",
+        "worn": "2995dd0362ad553e6e54708a5a93114e04e30cc292cbdbe47fd3f5286f10778a",
+        "generated": "6a693d775a43d6832d1829171c1e6bc42781f5fb16f8178b6f2d44b6b94d2a1a"
+      },
+      "images": {
+        "flatlay": "images/05961_00_flatlay.jpg",
+        "worn": "images/05961_00_worn.jpg",
+        "generated": "images/05961_00_generated.jpg"
+      }
+    },
+    {
+      "id": "02400_00",
+      "hashes": {
+        "flatlay": "d10b7d9c1cc996dfd8fe7a5389a55a90f84a6581af10471d5cd6cd895ced83c7",
+        "worn": "24dd24d2d204e1e140f7f279f71da874ddc0f7f0f01f2171a309e8d6a5fd3e4d",
+        "generated": "81c42ffe696bf7e6671039c05296c7a0bb15e2e3ef335e16f8110bed1e0aaffc"
+      },
+      "images": {
+        "flatlay": "images/02400_00_flatlay.jpg",
+        "worn": "images/02400_00_worn.jpg",
+        "generated": "images/02400_00_generated.jpg"
+      }
+    },
+    {
+      "id": "14651_00",
+      "hashes": {
+        "flatlay": "c0c3180d032b717a9e00accaf8e6935eb4bbf81baeaea31a7434fb3a5347bebc",
+        "worn": "c92fb87c13d1cf482e1ab337253db4f84f2f01a640ed9c03fe3dfa62b5bea9e1",
+        "generated": "66367f435b0f058afa1198f114298d76300562b47e976cc3784eb7221ef7e8fc"
+      },
+      "images": {
+        "flatlay": "images/14651_00_flatlay.jpg",
+        "worn": "images/14651_00_worn.jpg",
+        "generated": "images/14651_00_generated.jpg"
+      }
+    },
+    {
+      "id": "01994_00",
+      "hashes": {
+        "flatlay": "802be01d23a1bfa358e6b06cda5e5dbe561c0d4512348ad44e1af05aaab3ca2b",
+        "worn": "60cdce3e0b7c7c96a32b940ce59d1ad172792588b61e65579c6be1a6e2827cd0",
+        "generated": "64685445e43b1c33231fdcc6a9e985bba66ad6bdf8f52908740b5e0f9ed718a8"
+      },
+      "images": {
+        "flatlay": "images/01994_00_flatlay.jpg",
+        "worn": "images/01994_00_worn.jpg",
+        "generated": "images/01994_00_generated.jpg"
+      }
+    },
+    {
+      "id": "08232_00",
+      "hashes": {
+        "flatlay": "5ee6e651a0fd13902c92d7004de2acc525e61050e9fefe787d1b88901de81f69",
+        "worn": "5fce4976412228548b245ac439c2d550ba7f71c307e9c335f487daf884e16831",
+        "generated": "94b8cc78c99ee2050b73a92b65aea07cb68baa45152bb5ebad8c12edc8ac7eee"
+      },
+      "images": {
+        "flatlay": "images/08232_00_flatlay.jpg",
+        "worn": "images/08232_00_worn.jpg",
+        "generated": "images/08232_00_generated.jpg"
+      }
+    },
+    {
+      "id": "12541_00",
+      "hashes": {
+        "flatlay": "f215cafb7171c15ef117ee2d4d50013be243b620544b98e1f184dd62e835682d",
+        "worn": "499b3cc6112f5b554ed3dea846f374fba326f769f8e2c380703ca6e586f8d1ee",
+        "generated": "d2080236a301adc86be36c01300a0c34149c91e51fa136fb88fadab771596380"
+      },
+      "images": {
+        "flatlay": "images/12541_00_flatlay.jpg",
+        "worn": "images/12541_00_worn.jpg",
+        "generated": "images/12541_00_generated.jpg"
+      }
+    },
+    {
+      "id": "04430_00",
+      "hashes": {
+        "flatlay": "3907acf64bcb2c8c03633d66baa619975149c35cc62bfcbf28ec67bdef8006e5",
+        "worn": "21e8a9f6f630495cd57f4c1bf7b63a06428a031da46f581252e3edf164dd596b",
+        "generated": "fc8777a5869491d64941d8c93d38f63843834ea4c4295fa2533de828458b8807"
+      },
+      "images": {
+        "flatlay": "images/04430_00_flatlay.jpg",
+        "worn": "images/04430_00_worn.jpg",
+        "generated": "images/04430_00_generated.jpg"
+      }
+    },
+    {
+      "id": "00494_00",
+      "hashes": {
+        "flatlay": "d0651a4121b3befa591f623451f2de1d721b01ea2262610b27f9069b59da7104",
+        "worn": "c1a892811b23e17cbad9a159ed4bb7599b44988e0d7786c3605a2e0f5a436c12",
+        "generated": "cfdf7eb76e22a37ffe0d0a424d3c226cd1cd86d2ef44dc9085e4e884658391b4"
+      },
+      "images": {
+        "flatlay": "images/00494_00_flatlay.jpg",
+        "worn": "images/00494_00_worn.jpg",
+        "generated": "images/00494_00_generated.jpg"
+      }
+    },
+    {
+      "id": "08316_00",
+      "hashes": {
+        "flatlay": "214e251573e101d72ecd3de2c737ff4d7a815a2f9f8b270eac021a4997431fea",
+        "worn": "836773c68562c5c7a63effd87d27140f2e311d87218de4c38339eecaed34be9a",
+        "generated": "6fda3b375d6a5ae5516e91416e2bdc32b39b31073278cc3f507e041a3da13e21"
+      },
+      "images": {
+        "flatlay": "images/08316_00_flatlay.jpg",
+        "worn": "images/08316_00_worn.jpg",
+        "generated": "images/08316_00_generated.jpg"
+      }
+    },
+    {
+      "id": "14173_00",
+      "hashes": {
+        "flatlay": "1464d1f51bc87d04b72313a888fc4b6e89d193001e7c2f7a10ea1bd0a46ec7a4",
+        "worn": "1c09197e94d98bdfd845c13b0084cf1648607cbb28509aa6a224038632c84d17",
+        "generated": "645cefc72f91d41f924878a3b3dc1818ce3a5f588a9520b0d97acedc6d34e3eb"
+      },
+      "images": {
+        "flatlay": "images/14173_00_flatlay.jpg",
+        "worn": "images/14173_00_worn.jpg",
+        "generated": "images/14173_00_generated.jpg"
+      }
+    },
+    {
+      "id": "01917_00",
+      "hashes": {
+        "flatlay": "18aa41d6793f6b8718485175127c71698cbaa484601976edb8dd0df6ab9a96b2",
+        "worn": "cb6153586f6a278b2450c748fd3fde03b629bff0fb916dfa916dd658b9f634aa",
+        "generated": "66cb78cac95e5a0015bfebada9e4c27728a4a46f1cb4357769528e99ca64491c"
+      },
+      "images": {
+        "flatlay": "images/01917_00_flatlay.jpg",
+        "worn": "images/01917_00_worn.jpg",
+        "generated": "images/01917_00_generated.jpg"
+      }
+    },
+    {
+      "id": "04893_00",
+      "hashes": {
+        "flatlay": "952b15b4942fc6d08c3f1050a9563832b9adb040768f2177f6328c24a9da50c3",
+        "worn": "485eebd181e3e338afd4d4f80cd32d7e52cb3dddf5a59d69d63a5ba26cf03dc3",
+        "generated": "195e29af508ecc0dec88042b42fcae1f6534b12e49a1a56ec396607b8d102177"
+      },
+      "images": {
+        "flatlay": "images/04893_00_flatlay.jpg",
+        "worn": "images/04893_00_worn.jpg",
+        "generated": "images/04893_00_generated.jpg"
+      }
+    },
+    {
+      "id": "02743_00",
+      "hashes": {
+        "flatlay": "2ac0efedde41717767e287130abb771eb51866efda1db3cd8d5c02903814a2db",
+        "worn": "fc0c5a15b13dcd7c56160468ca7722cca185d193de7b5a1251e21c6e10442be7",
+        "generated": "8d64b92ba3a62eeb12adaca3c1654980678da4a83e7d479091491fb0ab7b1002"
+      },
+      "images": {
+        "flatlay": "images/02743_00_flatlay.jpg",
+        "worn": "images/02743_00_worn.jpg",
+        "generated": "images/02743_00_generated.jpg"
+      }
+    },
+    {
+      "id": "06730_00",
+      "hashes": {
+        "flatlay": "ec9bef0b925c5fa16ac2488e5ca7d6f2fe09729b512acbafa4cd0ea8a048a166",
+        "worn": "e99a1f0de6dd6252b6bf59725c460f1fab7e081ee83f96fd1b0da2ba0b9bb338",
+        "generated": "9d6bd61eabe8dd4071fdcf16eb0970157970c4ef64c64435c9446819226c3bd6"
+      },
+      "images": {
+        "flatlay": "images/06730_00_flatlay.jpg",
+        "worn": "images/06730_00_worn.jpg",
+        "generated": "images/06730_00_generated.jpg"
+      }
+    },
+    {
+      "id": "08158_00",
+      "hashes": {
+        "flatlay": "118ee9064999785ce573b63e5b806cf4b983358e8916064cd97e53ef4eade5c9",
+        "worn": "0c99d45f744b5392e2313dd58daa864b71322b69169c09d831e04d713fb25349",
+        "generated": "6c76ed308bc18d8f5f969c34961592b9a52d04aaf7545a8885475504baf88a68"
+      },
+      "images": {
+        "flatlay": "images/08158_00_flatlay.jpg",
+        "worn": "images/08158_00_worn.jpg",
+        "generated": "images/08158_00_generated.jpg"
+      }
+    },
+    {
+      "id": "11709_00",
+      "hashes": {
+        "flatlay": "16253bb3f3dd072e52f0ed56ea6413a6426d08bab355aa5760f8af476756eb62",
+        "worn": "fc99be3765984c4b79e3bd8ae77e7deac80ba650addd09ae4fbaf802e9c52a41",
+        "generated": "a6818cbb1b11bce8d9e02952b4f1f7e0790c75ef1c98a42052e8bda7bfb8cac5"
+      },
+      "images": {
+        "flatlay": "images/11709_00_flatlay.jpg",
+        "worn": "images/11709_00_worn.jpg",
+        "generated": "images/11709_00_generated.jpg"
+      }
+    },
+    {
+      "id": "01877_00",
+      "hashes": {
+        "flatlay": "7683391f0e2b3419d26ad01de37e54d5c5c5d2c7bc53fda4d2fc809ad2839812",
+        "worn": "d880d38f8a85589aacabcadf28b1740d624331f2a8d27a224df5a825b812f66c",
+        "generated": "d7f0d5787d5aaf8b15cbcc7997037146bb10d79476df28d23bdaf95f3f080dbb"
+      },
+      "images": {
+        "flatlay": "images/01877_00_flatlay.jpg",
+        "worn": "images/01877_00_worn.jpg",
+        "generated": "images/01877_00_generated.jpg"
+      }
+    },
+    {
+      "id": "11993_00",
+      "hashes": {
+        "flatlay": "5c2ac36954498ad32d9fd63b58520926b65672df76c50fbbc70582ec2d3512ef",
+        "worn": "57daba3d62be24087835543a32fdff43b5654bf885ecfde5227e9530f06f5c89",
+        "generated": "d790186ee26c1976179f394ee83645d3ec81ccc3e5c7f8a0315e69f4fc3aa8de"
+      },
+      "images": {
+        "flatlay": "images/11993_00_flatlay.jpg",
+        "worn": "images/11993_00_worn.jpg",
+        "generated": "images/11993_00_generated.jpg"
+      }
+    },
+    {
+      "id": "07599_00",
+      "hashes": {
+        "flatlay": "9b3f086f39f2e10e642654b555113eb43ce52186ab634835990eb374497b3970",
+        "worn": "2f19d1aa5caac7caabcb9e7b8fc22bf82fbb659ed4745f09719796b6b70597b0",
+        "generated": "b0b4ac5efbcd73f84148372dbca7abc6b942d835f24764084f57fa9129a1964e"
+      },
+      "images": {
+        "flatlay": "images/07599_00_flatlay.jpg",
+        "worn": "images/07599_00_worn.jpg",
+        "generated": "images/07599_00_generated.jpg"
+      }
+    },
+    {
+      "id": "12365_00",
+      "hashes": {
+        "flatlay": "d7e2e10243777b034b6522fbb8647f99cee6e9684950ea8a00852229521e5256",
+        "worn": "00f1e24b837fa1058d81686fe2600ac59d5ef01566e71bd33fdf1c2c561d9af5",
+        "generated": "c58016502dcd8aa50d9ccf368a21139efbfcf79f0cdb434eff69f18d3c83b5f8"
+      },
+      "images": {
+        "flatlay": "images/12365_00_flatlay.jpg",
+        "worn": "images/12365_00_worn.jpg",
+        "generated": "images/12365_00_generated.jpg"
+      }
+    },
+    {
+      "id": "03013_00",
+      "hashes": {
+        "flatlay": "fc7be8f5f216b9b91d03816ff724298000c0070abf20d0d3d4d70a7f8ffdac8d",
+        "worn": "6912bf7bcd2da4d0a172694e0487b2fc30f597ee09a97fc7940b944619e8837f",
+        "generated": "0a03359d6bacb54336732faab7d2767e10be04c35ac788de9fb3dc937ceaf7c3"
+      },
+      "images": {
+        "flatlay": "images/03013_00_flatlay.jpg",
+        "worn": "images/03013_00_worn.jpg",
+        "generated": "images/03013_00_generated.jpg"
+      }
+    },
+    {
+      "id": "14181_00",
+      "hashes": {
+        "flatlay": "ee674be6e5266720cb18ac40f2b531fdf1467cdfc285987bd52ea61e96f1b49d",
+        "worn": "5273e31bc151fbd76fdc6fc75acfad7a88dd27cf23bf1a111f8807364e8721c0",
+        "generated": "61284d0838329ec77352909b97ccdfe021b806ae50ef477adb80b71457e1644c"
+      },
+      "images": {
+        "flatlay": "images/14181_00_flatlay.jpg",
+        "worn": "images/14181_00_worn.jpg",
+        "generated": "images/14181_00_generated.jpg"
+      }
+    },
+    {
+      "id": "12661_00",
+      "hashes": {
+        "flatlay": "88bb5269297691653460f8a7e47b903e4ded9c8b9f45504e4f8fb5a08b30dfb7",
+        "worn": "77fc51558c001851b19d1b0cdb49e7bda215cff50071c4157d78a58d5f73a791",
+        "generated": "b50fd4f1ce0c818f9ffbb7366ea48697d95b65af9dfcdfbb602889d4916a5aec"
+      },
+      "images": {
+        "flatlay": "images/12661_00_flatlay.jpg",
+        "worn": "images/12661_00_worn.jpg",
+        "generated": "images/12661_00_generated.jpg"
+      }
+    },
+    {
+      "id": "07150_00",
+      "hashes": {
+        "flatlay": "5c3641749a4213a40cd2ab514d590f181c1567b3156410b7a99dd147f3e30eee",
+        "worn": "63b74c311ced111d0471a6629ca075f2ec3d61293c22bd07d2ae7276b4c982ed",
+        "generated": "4f9ce0852fb54f9fe3ba44e6c6588e70240df9eb10249cd8dda7e0ede72bd593"
+      },
+      "images": {
+        "flatlay": "images/07150_00_flatlay.jpg",
+        "worn": "images/07150_00_worn.jpg",
+        "generated": "images/07150_00_generated.jpg"
+      }
+    },
+    {
+      "id": "03935_00",
+      "hashes": {
+        "flatlay": "a783219fe926b004a0c8e3ba1e6f152512b98c1fc99cfa633c8426cd6dacca86",
+        "worn": "6fdc2cb1899dd5c3079e57207e5325ff5fbaf6e9df9ca5fb8238a4cc8e20e69c",
+        "generated": "7ea387000e7b65548b3ecca3d6ecdb666f3868b1a15d671b68d82875cc0935a8"
+      },
+      "images": {
+        "flatlay": "images/03935_00_flatlay.jpg",
+        "worn": "images/03935_00_worn.jpg",
+        "generated": "images/03935_00_generated.jpg"
+      }
+    },
+    {
+      "id": "09412_00",
+      "hashes": {
+        "flatlay": "85fab262aa1d0fe86decb9f6059044758ac6b70383d9e3716af1e86e2266add7",
+        "worn": "6c5af1eff3b5a97a9470a2788c2f5574453de51ff9863e66b5cf880ebff19bc3",
+        "generated": "2e5975fa1e3f90528eef9ebd17e14bbb2c7703852ab592c8cc2c465543be1e1f"
+      },
+      "images": {
+        "flatlay": "images/09412_00_flatlay.jpg",
+        "worn": "images/09412_00_worn.jpg",
+        "generated": "images/09412_00_generated.jpg"
+      }
+    },
+    {
+      "id": "04847_00",
+      "hashes": {
+        "flatlay": "0b5b87bfd3f82ca8741bc8294b1e6c841eb6dd66729ed8147a40cb575ed94407",
+        "worn": "404424894859698aa006c27441af5c919845e20e3433b77839e6c8aee335092b",
+        "generated": "5cb8c54f3237e06e06e8899d6fdd3f5649f7f3d2bee122327a544d27ca8828d3"
+      },
+      "images": {
+        "flatlay": "images/04847_00_flatlay.jpg",
+        "worn": "images/04847_00_worn.jpg",
+        "generated": "images/04847_00_generated.jpg"
+      }
+    },
+    {
+      "id": "11438_00",
+      "hashes": {
+        "flatlay": "a2cee87536f7f80112b95f9299ec2111fc2feebf90b167941275873f6b755aa3",
+        "worn": "8d31b8d6f0bea7a3d1935f4560b30f0d06ba795783d3c6f9443c7b42dc6c2839",
+        "generated": "d4d635088a9076318806f7ce24c9c7604898a95656025bd61ac0e3ddb9de042f"
+      },
+      "images": {
+        "flatlay": "images/11438_00_flatlay.jpg",
+        "worn": "images/11438_00_worn.jpg",
+        "generated": "images/11438_00_generated.jpg"
+      }
+    },
+    {
+      "id": "10731_00",
+      "hashes": {
+        "flatlay": "d0ce2e03d44fd0865af124fb43648891812b437b1cc5e2f3c0500efb13db1f3c",
+        "worn": "6e0df299c17bf5e714a423aa08ff24b3cd598ea82c122877b9340488503dcf3e",
+        "generated": "23ba1012ecae07c208eed175e49b3f49cf2ca2c67aa1fde038e285c28cac170d"
+      },
+      "images": {
+        "flatlay": "images/10731_00_flatlay.jpg",
+        "worn": "images/10731_00_worn.jpg",
+        "generated": "images/10731_00_generated.jpg"
+      }
+    },
+    {
+      "id": "08314_00",
+      "hashes": {
+        "flatlay": "c9cc93bda322ace670ff97498251a9070602fe59ca07775680362de05d456f9e",
+        "worn": "f62601ff7357f4e077c0be73da4b1a446ca5643342e3cda97a95196233f25c71",
+        "generated": "2425c8bfd4541229a85d7e0ad489236cacfd33964decbc9c4b3ceaf0e0835ad9"
+      },
+      "images": {
+        "flatlay": "images/08314_00_flatlay.jpg",
+        "worn": "images/08314_00_worn.jpg",
+        "generated": "images/08314_00_generated.jpg"
+      }
+    }
+  ],
+  "image_note": "Browser images are JPEG presentation copies. Coordinates refer to the original full-resolution images; hashes identify those originals."
+}

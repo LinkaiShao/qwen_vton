@@ -1,0 +1,4711 @@
+{
+  "judge": "assistant visual inspection",
+  "records": [
+    {
+      "id": "09845_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "Thin shoulder straps; lace neckline is not a collar; center back tag is not a visible zipper. Interior tag too small to resolve brand mark.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.7786458
+    },
+    {
+      "id": "09845_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Thin shoulder straps; lace neckline is not a collar; center back tag is not a visible zipper.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.7786489
+    },
+    {
+      "id": "09845_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Thin shoulder straps; lace neckline is not a collar; center back tag is not a visible zipper.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.7786505
+    },
+    {
+      "id": "10495_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "Navy camisole. Flatlay metal hem plate is too small to identify as a brand. Generated far strap obscured by hair; require only the clearly visible strap.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.7786531
+    },
+    {
+      "id": "10495_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Navy camisole. Flatlay metal hem plate is too small to identify as a brand. Generated far strap obscured by hair; require only the clearly visible strap.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.778654
+    },
+    {
+      "id": "10495_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "Navy camisole. Flatlay metal hem plate is too small to identify as a brand. Generated far strap obscured by hair; require only the clearly visible strap.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.7786555
+    },
+    {
+      "id": "05961_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Plain scoop-neck short-sleeve top; trousers, buttons and necklace excluded.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.7786577
+    },
+    {
+      "id": "05961_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Plain scoop-neck short-sleeve top; trousers, buttons and necklace excluded.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.778659
+    },
+    {
+      "id": "05961_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Plain scoop-neck short-sleeve top; trousers, buttons and necklace excluded.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.7786603
+    },
+    {
+      "id": "02400_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Off-shoulder construction: shoulder semantics ambiguous, excluded; neckline and plain sleeve hems are not collar/cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.778662
+    },
+    {
+      "id": "02400_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Off-shoulder construction: shoulder semantics ambiguous, excluded; neckline and plain sleeve hems are not collar/cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.778663
+    },
+    {
+      "id": "02400_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Off-shoulder construction: shoulder semantics ambiguous, excluded; neckline and plain sleeve hems are not collar/cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711081.7786639
+    },
+    {
+      "id": "14651_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "Very short sleeves; folded-edge versus ordinary hem ambiguous, cuff excluded. Chest phrase is generic decorative text, not a recognizable brand logo. Interior flatlay label too small.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800212
+    },
+    {
+      "id": "14651_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Very short sleeves; folded-edge versus ordinary hem ambiguous, cuff excluded. Chest phrase is generic decorative text, not a recognizable brand logo. Interior flatlay label too small.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.280024
+    },
+    {
+      "id": "14651_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Very short sleeves; folded-edge versus ordinary hem ambiguous, cuff excluded. Chest phrase is generic decorative text, not a recognizable brand logo. Interior flatlay label too small.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800255
+    },
+    {
+      "id": "01994_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Blue wrap blouse, plain sleeve ends. Readable interior brand label only visible on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800286
+    },
+    {
+      "id": "01994_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Blue wrap blouse, plain sleeve ends. Readable interior brand label only visible on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800298
+    },
+    {
+      "id": "01994_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Blue wrap blouse, plain sleeve ends. Readable interior brand label only visible on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.280031
+    },
+    {
+      "id": "08232_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "White button-front knit shirt. Plain wrist hems do not form distinct cuffs. Buttons clearly visible; tiny fastening holes unresolved. Interior Marc O Polo label visible only on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800333
+    },
+    {
+      "id": "08232_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White button-front knit shirt. Plain wrist hems do not form distinct cuffs. Buttons clearly visible; tiny fastening holes unresolved. Interior Marc O Polo label visible only on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800353
+    },
+    {
+      "id": "08232_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White button-front knit shirt. Plain wrist hems do not form distinct cuffs. Buttons clearly visible; tiny fastening holes unresolved. Interior Marc O Polo label visible only on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.280037
+    },
+    {
+      "id": "12541_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Black scalloped bodysuit. Interior NEW LOOK mark visible on flatlay; crotch fasteners unresolved. Worn belt/jewelry are separate accessories.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800386
+    },
+    {
+      "id": "12541_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Black scalloped bodysuit. Interior NEW LOOK mark visible on flatlay; crotch fasteners unresolved. Worn belt/jewelry are separate accessories.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800398
+    },
+    {
+      "id": "12541_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Black scalloped bodysuit. Interior NEW LOOK mark visible on flatlay; crotch fasteners unresolved. Worn belt/jewelry are separate accessories.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711141.2800407
+    },
+    {
+      "id": "04430_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "Leopard standing-neck top. Rear zipper visible through flatlay neck opening; not visible in worn views. Plain sleeve ends.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.507555
+    },
+    {
+      "id": "04430_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Leopard standing-neck top. Rear zipper visible through flatlay neck opening; not visible in worn views. Plain sleeve ends.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075583
+    },
+    {
+      "id": "04430_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Leopard standing-neck top. Rear zipper visible through flatlay neck opening; not visible in worn views. Plain sleeve ends.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075603
+    },
+    {
+      "id": "00494_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Crewneck is not a standing/folded collar. Distinct wide wrist bands. Branded chest emblem; readable inside HOLLISTER print also on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075626
+    },
+    {
+      "id": "00494_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Crewneck is not a standing/folded collar. Distinct wide wrist bands. Branded chest emblem; readable inside HOLLISTER print also on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075643
+    },
+    {
+      "id": "00494_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Crewneck is not a standing/folded collar. Distinct wide wrist bands. Branded chest emblem; readable inside HOLLISTER print also on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075657
+    },
+    {
+      "id": "08316_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "present",
+          "visible_instances": 3
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "White Henley; three front buttons, tiny holes unresolved. Plain ribbed sleeve hems, no separate cuffs. Interior HOLLISTER logo visible only flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075681
+    },
+    {
+      "id": "08316_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "present",
+          "visible_instances": 3
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White Henley; three front buttons, tiny holes unresolved. Plain ribbed sleeve hems, no separate cuffs. Interior HOLLISTER logo visible only flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.50757
+    },
+    {
+      "id": "08316_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "present",
+          "visible_instances": 3
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White Henley; three front buttons, tiny holes unresolved. Plain ribbed sleeve hems, no separate cuffs. Interior HOLLISTER logo visible only flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075715
+    },
+    {
+      "id": "14173_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Black wrap top. Gathering versus distinct wrist cuff ambiguous. Far shoulder obscured by hair in worn/generated views; one clearly visible shoulder required. Interior KHUJO branding visible on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075734
+    },
+    {
+      "id": "14173_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Black wrap top. Gathering versus distinct wrist cuff ambiguous. Far shoulder obscured by hair in worn/generated views; one clearly visible shoulder required. Interior KHUJO branding visible on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.507575
+    },
+    {
+      "id": "14173_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Black wrap top. Gathering versus distinct wrist cuff ambiguous. Far shoulder obscured by hair in worn/generated views; one clearly visible shoulder required. Interior KHUJO branding visible on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711182.5075762
+    },
+    {
+      "id": "01917_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White ribbed mock neck. Wrist hems/folds ambiguous as distinct cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606158
+    },
+    {
+      "id": "01917_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White ribbed mock neck. Wrist hems/folds ambiguous as distinct cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606184
+    },
+    {
+      "id": "01917_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White ribbed mock neck. Wrist hems/folds ambiguous as distinct cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606203
+    },
+    {
+      "id": "04893_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Coral ruched short sleeves, plain neckline. Shoulder ties are not buttons or zippers. Interior simply be brand label on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606227
+    },
+    {
+      "id": "04893_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Coral ruched short sleeves, plain neckline. Shoulder ties are not buttons or zippers. Interior simply be brand label on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606236
+    },
+    {
+      "id": "04893_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Coral ruched short sleeves, plain neckline. Shoulder ties are not buttons or zippers. Interior simply be brand label on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606246
+    },
+    {
+      "id": "02743_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Thermal top with high neck, distinct thumbhole cuffs, and visible Eivy branding. Thumb holes are not buttonholes.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.060627
+    },
+    {
+      "id": "02743_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Thermal top with high neck, distinct thumbhole cuffs, and visible Eivy branding. Thumb holes are not buttonholes.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606287
+    },
+    {
+      "id": "02743_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Thermal top with high neck, distinct thumbhole cuffs, and visible Eivy branding. Thumb holes are not buttonholes.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606313
+    },
+    {
+      "id": "06730_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Floral blouse with ruffled standing neck and shirred cuffs. Far sleeve/cuff partially hidden behind body in worn views; only one clear sleeve/cuff required. Tiny back-neck fastening unresolved on flatlay; large keyhole is not buttonhole.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606337
+    },
+    {
+      "id": "06730_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Floral blouse with ruffled standing neck and shirred cuffs. Far sleeve/cuff partially hidden behind body in worn views; only one clear sleeve/cuff required. Tiny back-neck fastening unresolved on flatlay; large keyhole is not buttonhole.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.060635
+    },
+    {
+      "id": "06730_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Floral blouse with ruffled standing neck and shirred cuffs. Far sleeve/cuff partially hidden behind body in worn views; only one clear sleeve/cuff required. Tiny back-neck fastening unresolved on flatlay; large keyhole is not buttonhole.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711221.0606368
+    },
+    {
+      "id": "08158_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "Navy boatneck top with clearly folded wide short-sleeve cuffs. Partially hidden interior brand text unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546532
+    },
+    {
+      "id": "08158_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Navy boatneck top with clearly folded wide short-sleeve cuffs. Partially hidden interior brand text unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.554656
+    },
+    {
+      "id": "08158_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Navy boatneck top with clearly folded wide short-sleeve cuffs. Partially hidden interior brand text unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546577
+    },
+    {
+      "id": "11709_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Fine sheer standing-neck knit; plain sleeve ends. Far sleeve substantially hidden in side pose; one clear sleeve required.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546598
+    },
+    {
+      "id": "11709_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Fine sheer standing-neck knit; plain sleeve ends. Far sleeve substantially hidden in side pose; one clear sleeve required.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.554661
+    },
+    {
+      "id": "11709_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Fine sheer standing-neck knit; plain sleeve ends. Far sleeve substantially hidden in side pose; one clear sleeve required.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546634
+    },
+    {
+      "id": "01877_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "SEE BY GIRL chest typography; brand-logo versus decorative slogan ambiguous. Far shoulder under hair in worn/generated views. Plain neckline and hems.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546653
+    },
+    {
+      "id": "01877_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "SEE BY GIRL chest typography; brand-logo versus decorative slogan ambiguous. Far shoulder under hair in worn/generated views. Plain neckline and hems.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546668
+    },
+    {
+      "id": "01877_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "SEE BY GIRL chest typography; brand-logo versus decorative slogan ambiguous. Far shoulder under hair in worn/generated views. Plain neckline and hems.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546684
+    },
+    {
+      "id": "11993_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Heart print is not a logo. Flatlay interior brand label has visible emblem. Very narrow sleeve binding/turn-up ambiguous as cuff; far shoulder obscured by hair.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546706
+    },
+    {
+      "id": "11993_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Heart print is not a logo. Flatlay interior brand label has visible emblem. Very narrow sleeve binding/turn-up ambiguous as cuff; far shoulder obscured by hair.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546722
+    },
+    {
+      "id": "11993_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Heart print is not a logo. Flatlay interior brand label has visible emblem. Very narrow sleeve binding/turn-up ambiguous as cuff; far shoulder obscured by hair.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711263.5546734
+    },
+    {
+      "id": "07599_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Halter mock-neck top: bare shoulders, no shoulder straps or sleeves. High folded neck counts as collar.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196495
+    },
+    {
+      "id": "07599_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Halter mock-neck top: bare shoulders, no shoulder straps or sleeves. High folded neck counts as collar.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196521
+    },
+    {
+      "id": "07599_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Halter mock-neck top: bare shoulders, no shoulder straps or sleeves. High folded neck counts as collar.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196545
+    },
+    {
+      "id": "12365_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Plain black tank bodysuit: shoulder straps only; no visible fasteners or other named components.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196562
+    },
+    {
+      "id": "12365_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Plain black tank bodysuit: shoulder straps only; no visible fasteners or other named components.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196574
+    },
+    {
+      "id": "12365_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Plain black tank bodysuit: shoulder straps only; no visible fasteners or other named components.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196583
+    },
+    {
+      "id": "03013_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "Plain green tee; crew binding and plain sleeve hems excluded as collar/cuff. Faint interior label unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196605
+    },
+    {
+      "id": "03013_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Plain green tee; crew binding and plain sleeve hems excluded as collar/cuff. Faint interior label unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.519662
+    },
+    {
+      "id": "03013_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Plain green tee; crew binding and plain sleeve hems excluded as collar/cuff. Faint interior label unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.519663
+    },
+    {
+      "id": "14181_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Tommy ringer tee. Distinct blue sleeve-end bands count as cuffs. Far sleeve almost hidden in real worn pose; require only clearly visible near sleeve/cuff. Generated far blue cuff is visible. Chest brand flag visible in all views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196652
+    },
+    {
+      "id": "14181_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Tommy ringer tee. Distinct blue sleeve-end bands count as cuffs. Far sleeve almost hidden in real worn pose; require only clearly visible near sleeve/cuff. Generated far blue cuff is visible. Chest brand flag visible in all views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196664
+    },
+    {
+      "id": "14181_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Tommy ringer tee. Distinct blue sleeve-end bands count as cuffs. Far sleeve almost hidden in real worn pose; require only clearly visible near sleeve/cuff. Generated far blue cuff is visible. Chest brand flag visible in all views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711301.5196683
+    },
+    {
+      "id": "12661_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Angled maternity product shot, only near sleeve/shoulder fully visible. Plain V-neck layered nursing opening is not lapel or pocket. Hair obscures upper shoulder areas in worn views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169465
+    },
+    {
+      "id": "12661_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Angled maternity product shot, only near sleeve/shoulder fully visible. Plain V-neck layered nursing opening is not lapel or pocket. Hair obscures upper shoulder areas in worn views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169496
+    },
+    {
+      "id": "12661_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Angled maternity product shot, only near sleeve/shoulder fully visible. Plain V-neck layered nursing opening is not lapel or pocket. Hair obscures upper shoulder areas in worn views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169513
+    },
+    {
+      "id": "07150_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Hummel sports top, branded chest text. V-neck binding is not a standing/folded collar. Dark wrist-end band distinction unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169541
+    },
+    {
+      "id": "07150_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Hummel sports top, branded chest text. V-neck binding is not a standing/folded collar. Dark wrist-end band distinction unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169556
+    },
+    {
+      "id": "07150_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Hummel sports top, branded chest text. V-neck binding is not a standing/folded collar. Dark wrist-end band distinction unresolved.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169575
+    },
+    {
+      "id": "03935_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "Blue polka-dot top with visible turned-up sleeve cuffs. Interior label too small to resolve branding. Generated far shoulder hidden by hair.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169594
+    },
+    {
+      "id": "03935_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Blue polka-dot top with visible turned-up sleeve cuffs. Interior label too small to resolve branding. Generated far shoulder hidden by hair.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.316961
+    },
+    {
+      "id": "03935_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Blue polka-dot top with visible turned-up sleeve cuffs. Interior label too small to resolve branding. Generated far shoulder hidden by hair.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169622
+    },
+    {
+      "id": "09412_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Olive turtleneck with plain sleeve hems; no distinct wrist bands. Hair obscures far shoulder in worn images.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169649
+    },
+    {
+      "id": "09412_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Olive turtleneck with plain sleeve hems; no distinct wrist bands. Hair obscures far shoulder in worn images.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.316966
+    },
+    {
+      "id": "09412_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Olive turtleneck with plain sleeve hems; no distinct wrist bands. Hair obscures far shoulder in worn images.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711341.3169675
+    },
+    {
+      "id": "04847_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Napapijri branded chest graphic visible in all three images. Crew binding and ordinary sleeve hems do not count as collar or cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1619902
+    },
+    {
+      "id": "04847_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Napapijri branded chest graphic visible in all three images. Crew binding and ordinary sleeve hems do not count as collar or cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1619976
+    },
+    {
+      "id": "04847_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Napapijri branded chest graphic visible in all three images. Crew binding and ordinary sleeve hems do not count as collar or cuffs.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1620018
+    },
+    {
+      "id": "11438_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "uncertain",
+          "visible_instances": null
+        }
+      },
+      "note": "White ribbed top with ordinary neck and wrist hems. Tiny interior label unresolved in flatlay; hair obscures one shoulder in worn views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1620076
+    },
+    {
+      "id": "11438_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White ribbed top with ordinary neck and wrist hems. Tiny interior label unresolved in flatlay; hair obscures one shoulder in worn views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1620126
+    },
+    {
+      "id": "11438_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "White ribbed top with ordinary neck and wrist hems. Tiny interior label unresolved in flatlay; hair obscures one shoulder in worn views.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1620162
+    },
+    {
+      "id": "10731_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "present",
+          "visible_instances": 1
+        }
+      },
+      "note": "Floral button blouse with a distinct shirt collar and cuff panels. Tiny fasteners blend with print and are unresolved. Interior EVANS label visible only on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1620212
+    },
+    {
+      "id": "10731_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Floral button blouse with a distinct shirt collar and cuff panels. Tiny fasteners blend with print and are unresolved. Interior EVANS label visible only on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.162026
+    },
+    {
+      "id": "10731_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "present",
+          "visible_instances": 1
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "button hole": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "button": {
+          "status": "uncertain",
+          "visible_instances": null
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Floral button blouse with a distinct shirt collar and cuff panels. Tiny fasteners blend with print and are unresolved. Interior EVANS label visible only on flatlay.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.16203
+    },
+    {
+      "id": "08314_00",
+      "view": "flatlay",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Marble-print scoop-neck bodysuit. Ordinary sleeve ends and neckline are not separate cuffs or collar. Generic all-over print is not a logo; no visible crotch fasteners.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1620343
+    },
+    {
+      "id": "08314_00",
+      "view": "worn",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Marble-print scoop-neck bodysuit. Ordinary sleeve ends and neckline are not separate cuffs or collar. Generic all-over print is not a logo; no visible crotch fasteners.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1620371
+    },
+    {
+      "id": "08314_00",
+      "view": "generated",
+      "parts": {
+        "collar": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "lapel": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "cuff": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button hole": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "button": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "pocket": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "zipper": {
+          "status": "absent",
+          "visible_instances": 0
+        },
+        "sleeve": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "shoulder": {
+          "status": "present",
+          "visible_instances": 2
+        },
+        "logo": {
+          "status": "absent",
+          "visible_instances": 0
+        }
+      },
+      "note": "Marble-print scoop-neck bodysuit. Ordinary sleeve ends and neckline are not separate cuffs or collar. Generic all-over print is not a logo; no visible crotch fasteners.",
+      "reviewed_before_prediction_inspection": true,
+      "reviewed_at": 1790711552.1620412
+    }
+  ],
+  "instance_count_note": "Visible_instances is a verified minimum, not an exhaustive count of tiny fasteners. Distinct left/right sleeve, cuff and shoulder coverage is reviewed separately. Readable interior brand labels count as logo only in views where visible.",
+  "complete": true
+}
