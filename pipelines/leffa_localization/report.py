@@ -57,6 +57,7 @@ def build(root):
             is_smoke=False
             if not npz.exists():npz=root/'smoke'/key/f'{t}.npz';png=npz.with_suffix('.png');is_smoke=True
             if not (npz.exists() and png.exists()):continue
+            if not is_smoke and not receipt.exists():continue
             with np.load(npz) as pack:
                 maps=pack['maps'];separate=pack['instance_maps'] if 'instance_maps' in pack else None
                 names=pack['candidates'].tolist() if 'candidates' in pack else None

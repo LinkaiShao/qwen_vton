@@ -2,14 +2,24 @@
 import numpy as np
 from PIL import Image
 from scipy.ndimage import binary_dilation
+from functools import lru_cache
 
 def target_support(mask,grid=(64,48),tolerance=8):
+    mask=np.ascontiguousarray(mask,dtype=bool)
+    return _target_support(mask.tobytes(),mask.shape,tuple(grid),tolerance)
+
+@lru_cache(maxsize=64)
+def _target_support(data,shape,grid,tolerance):
+    # A target/timestep is scored against many heads. Geometry is identical;
+    # cache the exact mask operation rather than repeating full-image dilation.
+    mask=np.frombuffer(data,dtype=bool).reshape(shape)
     yy,xx=np.ogrid[-tolerance:tolerance+1,-tolerance:tolerance+1]
     expanded=binary_dilation(mask,structure=xx*xx+yy*yy<=tolerance*tolerance)
     # Cell-center sampling defines the 8-pixel location tolerance precisely.
     h,w=expanded.shape;ys=np.minimum(h-1,((np.arange(grid[0])+.5)*h/grid[0]).astype(int))
     xs=np.minimum(w-1,((np.arange(grid[1])+.5)*w/grid[1]).astype(int))
-    return expanded[ys[:,None],xs[None,:]]
+    support=expanded[ys[:,None],xs[None,:]];support.setflags(write=False)
+    return support
 
 def footprint(a):
     flat=np.maximum(np.asarray(a,dtype=np.float64).reshape(-1),0);total=flat.sum()

@@ -5,7 +5,7 @@ from torch import nn
 from torch.nn import functional as F
 from attention import DetailTracker,part_attention
 from masks import construct_masks
-from metrics import footprint,score_map
+from metrics import footprint,score_map,target_support
 from annotate import agreement_masks,instance_masks
 
 class Attention(nn.Module):
@@ -66,5 +66,13 @@ class Contracts(unittest.TestCase):
         regions,names=instance_masks(masks)
         self.assertEqual(len(names),2);self.assertFalse(regions[:,:,7:13].any())
         np.testing.assert_array_equal(regions.any(0),masks[2])
+    def test_cached_scoring_geometry_is_exact(self):
+        from scipy.ndimage import binary_dilation
+        mask=np.zeros((512,384),bool);mask[155:182,105:191]=1
+        yy,xx=np.ogrid[-8:9,-8:9];expanded=binary_dilation(mask,structure=xx*xx+yy*yy<=64)
+        expected=expanded[np.arange(4,512,8)[:,None],np.arange(4,384,8)[None,:]]
+        got=target_support(mask);np.testing.assert_array_equal(got,expected)
+        self.assertIs(got,target_support(mask.copy()))
+        self.assertFalse(got.flags.writeable)
 
 if __name__=='__main__':unittest.main(verbosity=2)
