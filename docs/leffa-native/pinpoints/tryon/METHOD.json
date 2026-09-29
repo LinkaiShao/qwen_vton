@@ -1,0 +1,37 @@
+{
+  "script_sha256": "5549aae62c5ce137d4851dbfc47eabb257080f8c3c963a287fb8d2fceae6eb8b",
+  "model": "franciszzj/Leffa virtual_tryon.pth",
+  "model_revision": "61d3390f444506f052feedb0b243cd5369c29c89",
+  "image_size": [
+    768,
+    1024
+  ],
+  "steps": 20,
+  "seed": 42,
+  "guidance_scale": 2.5,
+  "ref_acceleration": false,
+  "repaint": false,
+  "gpu": "GPU-dbb7940e-7461-387e-c0c2-a2e33f9b78ac",
+  "molmo": "allenai/Molmo-7B-D-0924",
+  "molmo_revision": "cab33fb7f1a40091911f81165f8481920621948f",
+  "source_points_sha256": "da36fe3e582a4b0ea5d5d2fbc65967ccc670b47d886703629514af38b17e8397",
+  "person_source": "/home/link/Desktop/Code/fashion_gen_testing/VITON-HD-dataset/train/image/05504_00.jpg",
+  "paired_example": true,
+  "mask": "/mnt/nvme0/leffa_native/localization_v2/data/train_05504_00/inpaint.png",
+  "mask_sha256": "a9e43c638a89ff0e7d368dead0cc757cfb50534f5fa04b141f6076ad1c0c91a5",
+  "target_teacher_used_for_locations": false,
+  "DINO_loaded": false,
+  "training": false,
+  "layers": [
+    "up_blocks.2.attentions.0.transformer_blocks.0.attn1",
+    "up_blocks.2.attentions.1.transformer_blocks.0.attn1",
+    "up_blocks.2.attentions.2.transformer_blocks.0.attn1",
+    "up_blocks.3.attentions.0.transformer_blocks.0.attn1",
+    "up_blocks.3.attentions.1.transformer_blocks.0.attn1",
+    "up_blocks.3.attentions.2.transformer_blocks.0.attn1"
+  ],
+  "branch": "conditional CFG branch only",
+  "readout": "Bilinearly sample source reference attention at each Molmo point. Full person+reference softmax. Mean heads; normalize each layer map over generated locations; equal mean over six layers. Global peak; no target masks, coordinate editing, or location restrictions.",
+  "rule_selected_before_generation": true,
+  "interpretation": "Attention correspondences, not independently verified semantic landmarks. Source lapel detections are known false positives and remain visible."
+}

@@ -1,0 +1,221 @@
+{
+  "model": "allenai/Molmo-7B-D-0924",
+  "revision": "cab33fb7f1a40091911f81165f8481920621948f",
+  "source": "/home/link/Desktop/Code/fashion_gen_testing/VITON-HD-dataset/train/cloth/05504_00.jpg",
+  "source_sha256": "78951f1e0acc51a0f2e99d1ca09f7abeecebf1bb8f0fd8bd066f6ea01d266468",
+  "image_size": [
+    768,
+    1024
+  ],
+  "concepts": [
+    "collar",
+    "lapel",
+    "cuff",
+    "button hole",
+    "button",
+    "pocket",
+    "zipper",
+    "sleeve",
+    "shoulder",
+    "logo"
+  ],
+  "coordinate_format": "normalized XY, same convention as StructureExperts pts",
+  "segmentation_used": false,
+  "manual_coordinate_edits": false,
+  "gpu": "GPU-dbb7940e-7461-387e-c0c2-a2e33f9b78ac",
+  "records": [
+    {
+      "concept": "collar",
+      "prompt": "Point to all the collars on the garment.",
+      "points": [
+        [
+          0.41,
+          0.11
+        ],
+        [
+          0.551,
+          0.11
+        ]
+      ],
+      "pixel_points": [
+        [
+          314.88,
+          112.64
+        ],
+        [
+          423.168,
+          112.64
+        ]
+      ],
+      "raw": " <points x1=\"41.0\" y1=\"11.0\" x2=\"55.1\" y2=\"11.0\" alt=\"collars on the garment.\">collars on the garment.</points>",
+      "invalid_raw_coordinates": [],
+      "seconds": 2.0159785747528076,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "lapel",
+      "prompt": "Point to all the lapels on the garment.",
+      "points": [
+        [
+          0.401,
+          0.111
+        ],
+        [
+          0.561,
+          0.111
+        ]
+      ],
+      "pixel_points": [
+        [
+          307.968,
+          113.664
+        ],
+        [
+          430.84800000000007,
+          113.664
+        ]
+      ],
+      "raw": " <points x1=\"40.1\" y1=\"11.1\" x2=\"56.1\" y2=\"11.1\" alt=\"lapels on the garment.\">lapels on the garment.</points>",
+      "invalid_raw_coordinates": [],
+      "seconds": 1.2596337795257568,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "cuff",
+      "prompt": "Point to all the cuffs on the garment.",
+      "points": [
+        [
+          0.155,
+          0.871
+        ],
+        [
+          0.843,
+          0.865
+        ]
+      ],
+      "pixel_points": [
+        [
+          119.03999999999999,
+          891.904
+        ],
+        [
+          647.424,
+          885.76
+        ]
+      ],
+      "raw": " <points x1=\"15.5\" y1=\"87.1\" x2=\"84.3\" y2=\"86.5\" alt=\"cuffs on the garment.\">cuffs on the garment.</points>",
+      "invalid_raw_coordinates": [],
+      "seconds": 1.2534079551696777,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "button hole",
+      "prompt": "Point to all the button holes on the garment.",
+      "points": [],
+      "pixel_points": [],
+      "raw": " There are none.",
+      "invalid_raw_coordinates": [],
+      "seconds": 0.34203004837036133,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "button",
+      "prompt": "Point to all the buttons on the garment.",
+      "points": [],
+      "pixel_points": [],
+      "raw": " There are none.",
+      "invalid_raw_coordinates": [],
+      "seconds": 0.36353302001953125,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "pocket",
+      "prompt": "Point to all the pockets on the garment.",
+      "points": [],
+      "pixel_points": [],
+      "raw": " There are none.",
+      "invalid_raw_coordinates": [],
+      "seconds": 0.3490583896636963,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "zipper",
+      "prompt": "Point to all the zippers on the garment.",
+      "points": [],
+      "pixel_points": [],
+      "raw": " There are none.",
+      "invalid_raw_coordinates": [],
+      "seconds": 0.3453819751739502,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "sleeve",
+      "prompt": "Point to all the sleeves on the garment.",
+      "points": [
+        [
+          0.151,
+          0.652
+        ],
+        [
+          0.845,
+          0.652
+        ]
+      ],
+      "pixel_points": [
+        [
+          115.96799999999999,
+          667.648
+        ],
+        [
+          648.96,
+          667.648
+        ]
+      ],
+      "raw": " <points x1=\"15.1\" y1=\"65.2\" x2=\"84.5\" y2=\"65.2\" alt=\"sleeves on the garment.\">sleeves on the garment.</points>",
+      "invalid_raw_coordinates": [],
+      "seconds": 1.306133508682251,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "shoulder",
+      "prompt": "Point to all the shoulders on the garment.",
+      "points": [
+        [
+          0.21,
+          0.179
+        ],
+        [
+          0.7859999999999999,
+          0.179
+        ]
+      ],
+      "pixel_points": [
+        [
+          161.28,
+          183.296
+        ],
+        [
+          603.6479999999999,
+          183.296
+        ]
+      ],
+      "raw": " <points x1=\"21.0\" y1=\"17.9\" x2=\"78.6\" y2=\"17.9\" alt=\"shoulders on the garment.\">shoulders on the garment.</points>",
+      "invalid_raw_coordinates": [],
+      "seconds": 1.2712328433990479,
+      "token_limit_reached": false
+    },
+    {
+      "concept": "logo",
+      "prompt": "Point to all the logos on the garment.",
+      "points": [],
+      "pixel_points": [],
+      "raw": " There are none.",
+      "invalid_raw_coordinates": [],
+      "seconds": 0.3476872444152832,
+      "token_limit_reached": false
+    }
+  ],
+  "complete": true,
+  "seconds": 21.57161521911621,
+  "peak_gpu_gib": 16.379188060760498
+}
