@@ -42,10 +42,17 @@ def evaluate(root):
         bybin={};visible_keys={r['key'] for r in observations if r['part']==p and r['intended_visible']}
         for b in range(5):
             group=[r for r in observations if r['part']==p and r['bin']==b and r['intended_visible']]
+            raw=[r for r in group if r['intended'] is not None]
+            actual_raw=[r for r in raw if r['actual'] is not None]
             accepted=[r for r in group if r['confident'] and r['intended'] is not None]
             actual=[r for r in accepted if r['actual'] is not None]
             cs=[r for r in causal if r['part']==p and r['bin']==b]
             metrics={'expected_visible':len(group),'confident':len(accepted),'coverage':len(accepted)/max(1,len(group)),
+                     'unfiltered_count':len(raw),
+                     'unfiltered_peak_hit':float(np.mean([r['intended']['peak_hit'] for r in raw])) if raw else 0.,
+                     'unfiltered_inside_mass':float(np.mean([r['intended']['inside_mass'] for r in raw])) if raw else 0.,
+                     'unfiltered_actual_count':len(actual_raw),
+                     'unfiltered_actual_peak_hit':float(np.mean([r['actual']['peak_hit'] for r in actual_raw])) if actual_raw else 0.,
                      'peak_hit':float(np.mean([r['intended']['peak_hit'] for r in accepted])) if accepted else 0.,
                      'inside_mass':float(np.mean([r['intended']['inside_mass'] for r in accepted])) if accepted else 0.,
                      'actual_coverage':len(actual)/max(1,len(group)),
