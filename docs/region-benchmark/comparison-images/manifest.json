@@ -1,0 +1,478 @@
+{
+  "source_hashes": {
+    "summary.json": "efee10d199fa190e71447cd7b95cec0ee544cf09f8c195df74ef162813026093",
+    "scores.json": "2a5909ff822c9cdb6d37a1f98f4cde299041301781bd25c2d7228be8614c4284",
+    "scores.csv": "d009e8cb39304b0b6842c86e23cb4dafec6371becd8d9c312d7d8609ac8d4933"
+  },
+  "scores_changed": false,
+  "models_retrained": false,
+  "graphs": [
+    "Heatmap of unchanged means",
+    "Grouped bars with 95% bootstrap intervals",
+    "Original unchanged line chart"
+  ],
+  "source_scoring": "Full-image 224x224 DINO; 16x16 patch grid; 5x5 token windows; up to four points",
+  "selections": [
+    {
+      "concept": "collar",
+      "case": "14009_00",
+      "selection": "largest_model_score_spread",
+      "spread": 0.5467740595340729,
+      "gt_points": [
+        [
+          0.5881980298913043,
+          0.41344312584918474
+        ]
+      ],
+      "crop_point_index": 0,
+      "crop_box_pixels": [
+        336,
+        256,
+        576,
+        576
+      ],
+      "target_sha256": "87a0bce2077c66a995e6b1bd7ea667a5ca830f4ed4165c0ddd875ea2f8111ad6",
+      "models": [
+        {
+          "model": "coral",
+          "distance": 0.44909536838531494,
+          "image_sha256": "24c3597065374e2aa0117fe55cf85786a6113b1419a9f3678c11d6ab2ecba1fb"
+        },
+        {
+          "model": "deco",
+          "distance": 0.5994371771812439,
+          "image_sha256": "7da304d727b97250c56edfcd1bf0053ce0e057e3fd4c3ba1fd53bd4e2e1206e3"
+        },
+        {
+          "model": "fastfit",
+          "distance": 0.6970772743225098,
+          "image_sha256": "876f4cb873bef914e0bc4becf2cba9e0549714a3c1980d0380f3932ba72ffd53"
+        },
+        {
+          "model": "leffa",
+          "distance": 0.415761798620224,
+          "image_sha256": "9a9f032b31884a1875c6f37c4b215f4c9883a96f04b4d3013ac3df198714da4c"
+        },
+        {
+          "model": "catflux",
+          "distance": 0.43751269578933716,
+          "image_sha256": "0b896d4944cbc732cfa14ef9a2585c95d3bd2753bc2a65b93b73abbe831df5fd"
+        },
+        {
+          "model": "catvton",
+          "distance": 0.9625358581542969,
+          "image_sha256": "26f70588463e426bb84fdfe4a30593545c55fce3387e4462a72317d6c21075d5"
+        },
+        {
+          "model": "idm",
+          "distance": 0.6196777820587158,
+          "image_sha256": "3b3b07dbac8222afa73a2fd534a746986617fd5ac91335b742b7c04b3f694616"
+        },
+        {
+          "model": "ootd",
+          "distance": 0.5812187194824219,
+          "image_sha256": "8395175b0fc8fc7d64832499d5b3524c4f7c8ab00ad10c526f0d91e9dccbc9de"
+        }
+      ],
+      "image": "collar.png"
+    },
+    {
+      "concept": "shoulder",
+      "case": "05910_00",
+      "selection": "largest_model_score_spread",
+      "spread": 0.7503592371940613,
+      "gt_points": [
+        [
+          0.5662342900815218,
+          0.2908797554347826
+        ],
+        [
+          0.2359014096467391,
+          0.3037873641304348
+        ]
+      ],
+      "crop_point_index": 0,
+      "crop_box_pixels": [
+        336,
+        128,
+        576,
+        448
+      ],
+      "target_sha256": "e395c7c0b28ea701a7102ca06735c14ef147c4d8609118f8aaadd4b84331c8d9",
+      "models": [
+        {
+          "model": "coral",
+          "distance": 0.631096363067627,
+          "image_sha256": "112a83a7ceab97c8ad8b159931b6fb0a8cc0aeb583502e5dca61cc33cefb8676"
+        },
+        {
+          "model": "deco",
+          "distance": 0.4366767704486847,
+          "image_sha256": "dc4df7ef854b5a426b6ac66bcd89add48fde55c0911ddea55c898bd49aec1700"
+        },
+        {
+          "model": "fastfit",
+          "distance": 0.5526137948036194,
+          "image_sha256": "a52f3e95b6c542011e65115bd3cad493bb29011d5322360e98f34471d4441564"
+        },
+        {
+          "model": "leffa",
+          "distance": 0.35112443566322327,
+          "image_sha256": "f9747e2ab5649b9245b5555f4d7246cd95b3fbed2174d68e6329cadec5462592"
+        },
+        {
+          "model": "catflux",
+          "distance": 0.3316618800163269,
+          "image_sha256": "c560083806d99a77ae40d5bea09647c4e418e80e670b1267a588b23b31d8569b"
+        },
+        {
+          "model": "catvton",
+          "distance": 0.595975399017334,
+          "image_sha256": "116c91ca38cb2f3c352ab5b637696c04f873d5bd690e146b42805c4e5375d2a9"
+        },
+        {
+          "model": "idm",
+          "distance": 0.5451074838638306,
+          "image_sha256": "1415ad2086cb55cf0c25f07d671e9bed7e032287eeef469b6d9ba3577639a416"
+        },
+        {
+          "model": "ootd",
+          "distance": 1.0820211172103882,
+          "image_sha256": "93ab8af912f2a12220c96d4757e3e71afa53a2f24ed7c83a1631e274d13fefef"
+        }
+      ],
+      "image": "shoulder.png"
+    },
+    {
+      "concept": "sleeve",
+      "case": "12749_00",
+      "selection": "largest_model_score_spread",
+      "spread": 0.4711334705352783,
+      "gt_points": [
+        [
+          0.6236469655797102,
+          0.3679045222355769
+        ]
+      ],
+      "crop_point_index": 0,
+      "crop_box_pixels": [
+        336,
+        192,
+        576,
+        512
+      ],
+      "target_sha256": "d02655627a957ce97a1102ecc10f353a194458de9c59340f4cd6a5c973ab3991",
+      "models": [
+        {
+          "model": "coral",
+          "distance": 0.3843419849872589,
+          "image_sha256": "b8409587fb7f465246f627c4a452b7be6268ea1e28625f8bdf2eb4b12f1a3e81"
+        },
+        {
+          "model": "deco",
+          "distance": 0.3790947496891022,
+          "image_sha256": "7ca802032c60acdb9d2f69d7968be70afb139c9fc548287c960c4118dc1a8dec"
+        },
+        {
+          "model": "fastfit",
+          "distance": 0.6481107473373413,
+          "image_sha256": "34a32fc4ff659709a689ddc53ca6f43149d7b4b2a66e9fc003bbe7cfa2bd13f5"
+        },
+        {
+          "model": "leffa",
+          "distance": 0.2812338173389435,
+          "image_sha256": "7614cace03431de1b75f52f02ed0efc2728c76bb56c7d0a74915d7a735d824cb"
+        },
+        {
+          "model": "catflux",
+          "distance": 0.20241981744766235,
+          "image_sha256": "8ab65c7a8809640b54652a701c9e1181729e2a8343fc848e6322f0b15fcdc592"
+        },
+        {
+          "model": "catvton",
+          "distance": 0.6735532879829407,
+          "image_sha256": "1e1a3ca293cce6e670efe0bbd6d31fb9da5eb7a662984267f02f36cea4cb201d"
+        },
+        {
+          "model": "idm",
+          "distance": 0.33249205350875854,
+          "image_sha256": "0b9877fa36c0b233371c7692b996f7d20d58f95150a049bd8ff323224f407ef8"
+        },
+        {
+          "model": "ootd",
+          "distance": 0.3645176291465759,
+          "image_sha256": "e4bec7c8f851b3b4eb384948813c927958810f4988183ee20ee111c90a5724ac"
+        }
+      ],
+      "image": "sleeve.png"
+    },
+    {
+      "concept": "cuff",
+      "case": "02253_00",
+      "selection": "largest_model_score_spread",
+      "spread": 0.5769886076450348,
+      "gt_points": [
+        [
+          0.34545403079710146,
+          0.7827900390625
+        ],
+        [
+          0.7698607336956521,
+          0.894789287860577
+        ]
+      ],
+      "crop_point_index": 0,
+      "crop_box_pixels": [
+        144,
+        640,
+        384,
+        960
+      ],
+      "target_sha256": "064d899c64b8f59bb79141b7b46d335c7f24bc219b28e6b2ce55e70dbe3f0cd6",
+      "models": [
+        {
+          "model": "coral",
+          "distance": 0.888597309589386,
+          "image_sha256": "569aab8e390836a86b612c696d9a9e39b5bc10c4229c7c11ef9531a8f70bfc21"
+        },
+        {
+          "model": "deco",
+          "distance": 0.5383191108703613,
+          "image_sha256": "f0054666f3f1398c9fe5eb463701c9b2bd5fabf60ba3da186bdbf7d6b4b0a80d"
+        },
+        {
+          "model": "fastfit",
+          "distance": 0.355569064617157,
+          "image_sha256": "18301ac90a1094171f42b085c28b90615ab63385602816758e066da7a7490f87"
+        },
+        {
+          "model": "leffa",
+          "distance": 0.3116087019443512,
+          "image_sha256": "4561238f4cde2dcdce3379c002bf1c0468a875301260322a1341fc39875d37ed"
+        },
+        {
+          "model": "catflux",
+          "distance": 0.35408884286880493,
+          "image_sha256": "4c28297f678f77c76e04332785400644661b8cd4bc18795c11057aa38371acd7"
+        },
+        {
+          "model": "catvton",
+          "distance": 0.5546671748161316,
+          "image_sha256": "f2bdc2a234eb4503307b31ce211bfee1b8bc93788493438b51fe367f940b7967"
+        },
+        {
+          "model": "idm",
+          "distance": 0.6253591775894165,
+          "image_sha256": "c7122fe67d204e26aa638633529083abd688492682c9d869e816b89229da7e65"
+        },
+        {
+          "model": "ootd",
+          "distance": 0.3836446702480316,
+          "image_sha256": "ca83f613edaeff7069bb69fdf1ef22c021b23740bf78926314ccf4c078bb023d"
+        }
+      ],
+      "image": "cuff.png"
+    },
+    {
+      "concept": "button",
+      "case": "07212_00",
+      "selection": "largest_model_score_spread",
+      "spread": 0.427738755941391,
+      "gt_points": [
+        [
+          0.543719429347826,
+          0.38539746093750005
+        ],
+        [
+          0.5068376358695652,
+          0.4164521484375
+        ],
+        [
+          0.5068376358695652,
+          0.4509228515625
+        ],
+        [
+          0.5022792119565217,
+          0.4889130859375
+        ]
+      ],
+      "crop_point_index": 0,
+      "crop_box_pixels": [
+        288,
+        256,
+        528,
+        576
+      ],
+      "target_sha256": "5032191a9b38bf497c5a57dd30b7e1a4c14421e5a829143a59b0c34256a48366",
+      "models": [
+        {
+          "model": "coral",
+          "distance": 0.4028407633304596,
+          "image_sha256": "69e8b0776d59daf5a314a5fe814e4eb435f64c80c6b4888255985769d45c3de1"
+        },
+        {
+          "model": "deco",
+          "distance": 0.23843684792518616,
+          "image_sha256": "6088f8d261a448252318c4a84a0091351d5df4504641e5a210c759355bcf3a0f"
+        },
+        {
+          "model": "fastfit",
+          "distance": 0.6045148372650146,
+          "image_sha256": "ae6888031e435288b705c100c45151213b5c9bd610d6ead6bd2880379ce8dffc"
+        },
+        {
+          "model": "leffa",
+          "distance": 0.41606542468070984,
+          "image_sha256": "73284d251471674545bd64029bb723e2379b78966ba4d1690ec10ba74fa4d8bf"
+        },
+        {
+          "model": "catflux",
+          "distance": 0.3418823778629303,
+          "image_sha256": "588e7da496a2c23c8c7a82af85a5df9b1c1742808b575ce622ee8f419836e20f"
+        },
+        {
+          "model": "catvton",
+          "distance": 0.6661756038665771,
+          "image_sha256": "51ddb3ae053198a8fa91ba1fb5aa9966247e3cdeec104467e35a626f09262055"
+        },
+        {
+          "model": "idm",
+          "distance": 0.40653476119041443,
+          "image_sha256": "7f3e9c13bd92c41ad30c85b0ceda8b589de6b7f044daf17da6da2dda4fa28d42"
+        },
+        {
+          "model": "ootd",
+          "distance": 0.6019865870475769,
+          "image_sha256": "1944b7c95874a403afaf221dbbfed88b309f50bb690a572abfe00c9f963bc14e"
+        }
+      ],
+      "image": "button.png"
+    },
+    {
+      "concept": "pocket",
+      "case": "02810_00",
+      "selection": "largest_model_score_spread",
+      "spread": 0.30417439341545105,
+      "gt_points": [
+        [
+          0.5970799365942029,
+          0.5744978215144231
+        ]
+      ],
+      "crop_point_index": 0,
+      "crop_box_pixels": [
+        336,
+        448,
+        576,
+        768
+      ],
+      "target_sha256": "507219d19a1132da445d6e80d4781ca403f64d9d108357181553f4017537a165",
+      "models": [
+        {
+          "model": "coral",
+          "distance": 0.3784612715244293,
+          "image_sha256": "f1e030e25b93f37dd7eda3b55adbc37e3c425ca5209bb5929d4872f26043e648"
+        },
+        {
+          "model": "deco",
+          "distance": 0.39179474115371704,
+          "image_sha256": "c54be0dafa4b76c356c50dde1f16a8998ec16e90641b2337d2a44bb7fabe232b"
+        },
+        {
+          "model": "fastfit",
+          "distance": 0.5993317365646362,
+          "image_sha256": "37def71a8b6718353e751efe0d97563e816e15c1682a9f076c1a18b41435379d"
+        },
+        {
+          "model": "leffa",
+          "distance": 0.3895787000656128,
+          "image_sha256": "3db5513a97b6dc7badea7becc7ff0f7c0ef7f1fd82e834f6d8ae20d5e64bc2ed"
+        },
+        {
+          "model": "catflux",
+          "distance": 0.3853934705257416,
+          "image_sha256": "f0ad88648dcf26e10c280f6f8179aea34952010b3a439092023990d7aee63e8d"
+        },
+        {
+          "model": "catvton",
+          "distance": 0.4104906916618347,
+          "image_sha256": "f96921a772e109b22cc0225af74e5a638fcf01ba53a57b73b620866742534bb1"
+        },
+        {
+          "model": "idm",
+          "distance": 0.4129738509654999,
+          "image_sha256": "7108c9cbf9afbe136d072c6c615a82b5e6a913e8cfd0ba1bfaaa501e9db5f071"
+        },
+        {
+          "model": "ootd",
+          "distance": 0.6826356649398804,
+          "image_sha256": "c5640b4ea693c6708003776b9821da94cbf9c3946ba19b2bf13b6afa6ac42365"
+        }
+      ],
+      "image": "pocket.png"
+    },
+    {
+      "concept": "logo",
+      "case": "04847_00",
+      "selection": "largest_model_score_spread",
+      "spread": 0.5364976525306702,
+      "gt_points": [
+        [
+          0.484425243432971,
+          0.5555305739182692
+        ]
+      ],
+      "crop_point_index": 0,
+      "crop_box_pixels": [
+        240,
+        384,
+        480,
+        704
+      ],
+      "target_sha256": "404424894859698aa006c27441af5c919845e20e3433b77839e6c8aee335092b",
+      "models": [
+        {
+          "model": "coral",
+          "distance": 0.7470569610595703,
+          "image_sha256": "47916e35454d750d58dfc74ae8d871c270e66aac2fef76b44912746c551f66d9"
+        },
+        {
+          "model": "deco",
+          "distance": 0.7803881168365479,
+          "image_sha256": "8d0e2515bc883d057634cadab6f2bf9b5b6bb9fceb67a42cf858aeecab9bb428"
+        },
+        {
+          "model": "fastfit",
+          "distance": 1.0013209581375122,
+          "image_sha256": "503686651fd931e9e94d0a47743205c18f8b8fa78788f7c9bee63f2fb649eb79"
+        },
+        {
+          "model": "leffa",
+          "distance": 0.6874241828918457,
+          "image_sha256": "5cb8c54f3237e06e06e8899d6fdd3f5649f7f3d2bee122327a544d27ca8828d3"
+        },
+        {
+          "model": "catflux",
+          "distance": 0.46482330560684204,
+          "image_sha256": "0715674ee6aad9acabf88d60e4e162f20f5ff5099f99fe8c941f14d0c8706d27"
+        },
+        {
+          "model": "catvton",
+          "distance": 0.5937642455101013,
+          "image_sha256": "ce43534b587a3928f47e1063b46c0f75d3edc63fcdaade0052dc0111f85fee4c"
+        },
+        {
+          "model": "idm",
+          "distance": 0.7101970314979553,
+          "image_sha256": "2a6c2a17f5d5d22f5ce42a6846912ff17d484744ddbe751538f606f2029c67ac"
+        },
+        {
+          "model": "ootd",
+          "distance": 0.8736884593963623,
+          "image_sha256": "1a71c09d7037bbd41135d9db0caddf3013e440d09b1a6dd49090b2d1ee4c498a"
+        }
+      ],
+      "image": "logo.png"
+    }
+  ]
+}

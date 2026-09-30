@@ -1,5 +1,7 @@
 # Qwen-VTON — stable long-form virtual try-on
 
+**[Eight-model VTON detail comparison — graph and GT/model image sheets](docs/region-benchmark/README.md)** · [Model training table](docs/region-benchmark/model-training.md)
+
 A single model that dresses a person in a new garment from a flat product photo — and, unlike our earlier runs, keeps **skin, garment, and background all correct at the same time, over long training.**
 
 Built on **Qwen-Image-Edit** (frozen) with a trained LoRA adapter, on the VITON-HD benchmark.
