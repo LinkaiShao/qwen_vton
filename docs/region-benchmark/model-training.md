@@ -2,6 +2,8 @@
 
 Updated 2026-09-29. Training dimensions are height × width.
 
+[Architecture report: where concatenation happens, which attention transfers the garment, and which models have a garment network](architecture-report.md) · [Graphs and image comparisons](README.md)
+
 Our benchmark is inference only: 128 shared paired VITON-HD test cases, eight released checkpoints, 1,024 outputs at 1024×768 on H200. No model was retrained for this comparison.
 
 | Model | Backbone | What is trained / objective | Data and training setup | Conditioning |

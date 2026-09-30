@@ -2,7 +2,7 @@
 
 GT versus eight released VTON models on 128 matched VITON-HD test images. The graph and image sheets render directly on GitHub. Click an image to enlarge it.
 
-[Training and conditioning table](model-training.md) · [Raw regional scores](scores.csv) · [Image provenance](comparison-images/manifest.json)
+[Architecture report — warping, attention and garment networks](architecture-report.md) · [Training and conditioning table](model-training.md) · [Raw regional scores](scores.csv) · [Image provenance](comparison-images/manifest.json)
 
 ## Three graph options
 

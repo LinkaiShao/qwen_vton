@@ -1,6 +1,6 @@
 # Qwen-VTON — stable long-form virtual try-on
 
-**[Eight-model VTON detail comparison — graph and GT/model image sheets](docs/region-benchmark/README.md)** · [Model training table](docs/region-benchmark/model-training.md)
+**[Eight-model VTON detail comparison — graph and GT/model image sheets](docs/region-benchmark/README.md)** · [Architecture report](docs/region-benchmark/architecture-report.md) · [Model training table](docs/region-benchmark/model-training.md)
 
 A single model that dresses a person in a new garment from a flat product photo — and, unlike our earlier runs, keeps **skin, garment, and background all correct at the same time, over long training.**
 
