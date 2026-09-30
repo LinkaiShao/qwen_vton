@@ -1,0 +1,37 @@
+{
+  "model": "HR-VITON",
+  "inference_only": true,
+  "repository": "https://github.com/sangyun884/HR-VITON",
+  "revision": "2715bdd687b3a07b8b8bcb3e44aa5533b28c1f15",
+  "weights": {
+    "condition.pth": {
+      "sha256": "1af3d469a5a97773df825535036f999f8ba713086290c1dd75611aab948789ae",
+      "google_drive_id": "1XJTCdRBOPVgVTmqzhVGFAgMm2NLkw5uQ"
+    },
+    "generator.pth": {
+      "sha256": "f92ad96dbe8e97947da1c64544d990cddc9692d11ebc364a7dc97b1b5a3d6163",
+      "google_drive_id": "1T5_YDUhYSSKPC_nZMk2NeC-XXUFoYeNy"
+    }
+  },
+  "cohort_sha256": "68cafa3a8aa76b3c41edea2bb7c8d67c0aee528e8484ac849afdc9b70856a8fc",
+  "source": "/mnt/nvme0/vton_region_benchmark/20260925_eight_models_v2",
+  "samples": 128,
+  "primary": "Shared benchmark agnostic mask, gray 127 fill; native parse-agnostic and DensePose conditions",
+  "secondary": "Official native HR-VITON agnostic construction; identical cases and seeds",
+  "size": [
+    1024,
+    768
+  ],
+  "dtype": "float32",
+  "occlusion": true,
+  "clothmask_composition": "warp_grad",
+  "sampling": "Official grid_sample default align_corners=False; no geometry changes",
+  "scoring": "Primary fixed-GT-point frozen expert distance only; reuse original Molmo GT coordinates",
+  "preprocessing_note": "Required native parse-agnostic and cloth-mask conditions retained; no extra final RGB compositing",
+  "implementation": {
+    "hrviton_extension.py": "18800da3c17aef7f89b42a55a369fb649e00b6e8d4273905883452658f15d3a2",
+    "publish_hrviton.py": "099a37544d4cc8b2d06867d9258d7dd5d7c808c4f35fdc7bbaffc98469046cec"
+  },
+  "dino_revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+  "torch": "2.10.0+cu128"
+}

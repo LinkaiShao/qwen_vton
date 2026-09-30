@@ -2,6 +2,8 @@
 
 GT versus eight released VTON models on 128 matched VITON-HD test images. The graph and image sheets render directly on GitHub. Click an image to enlarge it.
 
+**New: [HR-VITON explicit-warping test — nine-model graphs and flatlay → warp → result comparisons](../warp-benchmark/README.md).** The original eight-model results below are preserved.
+
 [Architecture report — warping, attention and garment networks](architecture-report.md) · [Training and conditioning table](model-training.md) · [Raw regional scores](scores.csv) · [Image provenance](comparison-images/manifest.json)
 
 ## Three graph options

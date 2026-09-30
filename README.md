@@ -2,6 +2,8 @@
 
 **[Eight-model VTON detail comparison — graph and GT/model image sheets](docs/region-benchmark/README.md)** · [Architecture report](docs/region-benchmark/architecture-report.md) · [Model training table](docs/region-benchmark/model-training.md)
 
+**[New: HR-VITON explicit garment-warping baseline — 128 cases, nine-model graphs, intermediate warps](docs/warp-benchmark/README.md)**
+
 A single model that dresses a person in a new garment from a flat product photo — and, unlike our earlier runs, keeps **skin, garment, and background all correct at the same time, over long training.**
 
 Built on **Qwen-Image-Edit** (frozen) with a trained LoRA adapter, on the VITON-HD benchmark.

@@ -2,6 +2,8 @@
 
 Updated 2026-09-29. This report describes the eight releases in [our detail comparison](README.md), using their papers and the official code revisions used for inference. [Training schedules, datasets and exact checkpoints](model-training.md) are documented separately.
 
+**Follow-up: an explicit warping model is now tested.** [HR-VITON results](../warp-benchmark/README.md) add a ninth model on the same 128 cases. Its convolutional condition network jointly predicts garment flow and segmentation; `grid_sample` explicitly warps cloth RGB, then a SPADE generator consumes the warped cloth, agnostic person and DensePose. Garment transfer uses this flow and convolutional synthesis, rather than the reference-token attention paths in the table below. [Official condition network](https://github.com/sangyun884/HR-VITON/blob/2715bdd687b3a07b8b8bcb3e44aa5533b28c1f15/networks.py), [warp and synthesis](https://github.com/sangyun884/HR-VITON/blob/2715bdd687b3a07b8b8bcb3e44aa5533b28c1f15/test_generator.py#L203-L217).
+
 **They all learn to synthesize the garment on the person. None of these eight inference pipelines first produces an explicitly warped garment with a separate geometric warping network.** Their differences are how they represent the reference garment, how its features enter the generator, and what training encourages those features to preserve. LeFFA does use a garment warp to calculate an auxiliary **training loss**; that is different from a warp-and-paste inference pipeline.
 
 **“Concatenation” and “attention” are compatible operations.** Concatenation assembles the input; attention lets one location read information from another. There are three distinct kinds of concatenation here:

@@ -1,0 +1,816 @@
+{
+  "common_n": 128,
+  "models": [
+    "coral",
+    "deco",
+    "fastfit",
+    "leffa",
+    "catflux",
+    "catvton",
+    "idm",
+    "ootd",
+    "hrviton",
+    "hrviton_native"
+  ],
+  "plotted_models": [
+    "coral",
+    "deco",
+    "fastfit",
+    "leffa",
+    "catflux",
+    "catvton",
+    "idm",
+    "ootd",
+    "hrviton"
+  ],
+  "cells": [
+    {
+      "model": "coral",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.386702974361402,
+      "low": 0.3432205562583274,
+      "high": 0.4332899271131114
+    },
+    {
+      "model": "deco",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.38042218555454854,
+      "low": 0.3429797136017846,
+      "high": 0.42028833464201953
+    },
+    {
+      "model": "fastfit",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.46224220207443945,
+      "low": 0.41513372959776057,
+      "high": 0.5122912592151099
+    },
+    {
+      "model": "leffa",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.36673761076397365,
+      "low": 0.32714532036334276,
+      "high": 0.41039240798326554
+    },
+    {
+      "model": "catflux",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.38161619117966405,
+      "low": 0.3468478507948694,
+      "high": 0.4187295183263443
+    },
+    {
+      "model": "catvton",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.4531717231428182,
+      "low": 0.4124318441583051,
+      "high": 0.4986169258753458
+    },
+    {
+      "model": "idm",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.40801594847882233,
+      "low": 0.3650117263197899,
+      "high": 0.45624270613684687
+    },
+    {
+      "model": "ootd",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.4427271314241268,
+      "low": 0.3995848862661256,
+      "high": 0.49056815038676616
+    },
+    {
+      "model": "hrviton",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.5352601624197431,
+      "low": 0.4955748200140618,
+      "high": 0.5786388023308029
+    },
+    {
+      "model": "hrviton_native",
+      "concept": "collar",
+      "n": 54,
+      "mean": 0.5387195078311143,
+      "low": 0.5018525542760337,
+      "high": 0.5809779635872002
+    },
+    {
+      "model": "coral",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.3860094842852139,
+      "low": 0.36228729941439436,
+      "high": 0.4100256140328577
+    },
+    {
+      "model": "deco",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.37510392265241654,
+      "low": 0.3530965641354684,
+      "high": 0.3984172178218599
+    },
+    {
+      "model": "fastfit",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.43444160433089146,
+      "low": 0.4098171765931317,
+      "high": 0.4619357325045056
+    },
+    {
+      "model": "leffa",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.3460093034339733,
+      "low": 0.3247543711184723,
+      "high": 0.3684182651524172
+    },
+    {
+      "model": "catflux",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.3755692443886741,
+      "low": 0.35415407468977034,
+      "high": 0.3982003862832169
+    },
+    {
+      "model": "catvton",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.44986499259706403,
+      "low": 0.42483557267267197,
+      "high": 0.47662381066894927
+    },
+    {
+      "model": "idm",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.3940664607970441,
+      "low": 0.36897317658132706,
+      "high": 0.4198250606961426
+    },
+    {
+      "model": "ootd",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.4320180563897383,
+      "low": 0.4093253144841702,
+      "high": 0.45689869705648695
+    },
+    {
+      "model": "hrviton",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.5144485015361036,
+      "low": 0.4845054786072158,
+      "high": 0.5456401622472483
+    },
+    {
+      "model": "hrviton_native",
+      "concept": "shoulder",
+      "n": 122,
+      "mean": 0.517176720451136,
+      "low": 0.48901116778371767,
+      "high": 0.547438911293618
+    },
+    {
+      "model": "coral",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.37768797148572336,
+      "low": 0.3516967370995495,
+      "high": 0.40350251827794725
+    },
+    {
+      "model": "deco",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.3458322125791323,
+      "low": 0.3233906128508325,
+      "high": 0.36950486345898986
+    },
+    {
+      "model": "fastfit",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.4174747734081627,
+      "low": 0.39217125720316826,
+      "high": 0.44411986683043514
+    },
+    {
+      "model": "leffa",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.32737116663172694,
+      "low": 0.305965268257821,
+      "high": 0.34925561125694526
+    },
+    {
+      "model": "catflux",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.3657433145707197,
+      "low": 0.3409442146151963,
+      "high": 0.39118973022271497
+    },
+    {
+      "model": "catvton",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.4387792770815368,
+      "low": 0.4095055212405059,
+      "high": 0.4687625283725781
+    },
+    {
+      "model": "idm",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.3677648594326312,
+      "low": 0.344548821323874,
+      "high": 0.3898760491133769
+    },
+    {
+      "model": "ootd",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.41113628063461566,
+      "low": 0.3868769742364045,
+      "high": 0.4370772204481729
+    },
+    {
+      "model": "hrviton",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.5328793133249378,
+      "low": 0.5001860928933809,
+      "high": 0.567567511087302
+    },
+    {
+      "model": "hrviton_native",
+      "concept": "sleeve",
+      "n": 101,
+      "mean": 0.5236713473159488,
+      "low": 0.49241208023954147,
+      "high": 0.5564717173576355
+    },
+    {
+      "model": "coral",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.388664624420926,
+      "low": 0.33691454806248655,
+      "high": 0.4450213603849988
+    },
+    {
+      "model": "deco",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.36516432370990515,
+      "low": 0.31591635652584954,
+      "high": 0.4184894775040445
+    },
+    {
+      "model": "fastfit",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.4092593230307102,
+      "low": 0.36083662549499423,
+      "high": 0.4607007445534691
+    },
+    {
+      "model": "leffa",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.34414671221747994,
+      "low": 0.2972225099569187,
+      "high": 0.39410981874680145
+    },
+    {
+      "model": "catflux",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.3740428239107132,
+      "low": 0.3265758466324769,
+      "high": 0.4234431114397011
+    },
+    {
+      "model": "catvton",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.44337200187146664,
+      "low": 0.38295194432139396,
+      "high": 0.5067993073840625
+    },
+    {
+      "model": "idm",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.37673856620676816,
+      "low": 0.3314281921891961,
+      "high": 0.42382919060764834
+    },
+    {
+      "model": "ootd",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.41329260263592005,
+      "low": 0.3670736235915683,
+      "high": 0.45909835157217455
+    },
+    {
+      "model": "hrviton",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.542794949375093,
+      "low": 0.4806364907650277,
+      "high": 0.6055933866649866
+    },
+    {
+      "model": "hrviton_native",
+      "concept": "cuff",
+      "n": 32,
+      "mean": 0.5375130865722895,
+      "low": 0.47677806017454716,
+      "high": 0.6001946124248206
+    },
+    {
+      "model": "coral",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.3789357915520668,
+      "low": 0.3342234053649008,
+      "high": 0.42461615800857544
+    },
+    {
+      "model": "deco",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.36259649507701397,
+      "low": 0.29907059627585114,
+      "high": 0.44027094761840996
+    },
+    {
+      "model": "fastfit",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.4430174119770527,
+      "low": 0.39231260064989326,
+      "high": 0.5054554548114537
+    },
+    {
+      "model": "leffa",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.3486592769622803,
+      "low": 0.29509875969961286,
+      "high": 0.4096043930388987
+    },
+    {
+      "model": "catflux",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.4067997559905052,
+      "low": 0.3525845993310213,
+      "high": 0.46351385693997144
+    },
+    {
+      "model": "catvton",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.4704713113605976,
+      "low": 0.3918169289827347,
+      "high": 0.5601219500415026
+    },
+    {
+      "model": "idm",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.3586930651217699,
+      "low": 0.3033779952675104,
+      "high": 0.41470557479187836
+    },
+    {
+      "model": "ootd",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.40368901565670967,
+      "low": 0.3484029368497431,
+      "high": 0.47560568898916245
+    },
+    {
+      "model": "hrviton",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.6083112768828869,
+      "low": 0.5065408135764301,
+      "high": 0.7032631687819958
+    },
+    {
+      "model": "hrviton_native",
+      "concept": "button",
+      "n": 8,
+      "mean": 0.5992941968142986,
+      "low": 0.4908884082920849,
+      "high": 0.7052124542184174
+    },
+    {
+      "model": "coral",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.37479205926259357,
+      "low": 0.24508246779441833,
+      "high": 0.5008324384689331
+    },
+    {
+      "model": "deco",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.3967459996541341,
+      "low": 0.233928382396698,
+      "high": 0.5645148754119873
+    },
+    {
+      "model": "fastfit",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.43716542919476825,
+      "low": 0.26974838972091675,
+      "high": 0.5993317365646362
+    },
+    {
+      "model": "leffa",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.3535947998364766,
+      "low": 0.2551575303077698,
+      "high": 0.41604816913604736
+    },
+    {
+      "model": "catflux",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.3406748374303182,
+      "low": 0.17662060260772705,
+      "high": 0.46001043915748596
+    },
+    {
+      "model": "catvton",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.36549322803815204,
+      "low": 0.3141946494579315,
+      "high": 0.4104906916618347
+    },
+    {
+      "model": "idm",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.3921178877353668,
+      "low": 0.19555425643920898,
+      "high": 0.5678255558013916
+    },
+    {
+      "model": "ootd",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.5153652826944987,
+      "low": 0.3341757655143738,
+      "high": 0.6826356649398804
+    },
+    {
+      "model": "hrviton",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.6749239265918732,
+      "low": 0.4981483519077301,
+      "high": 0.9459922909736633
+    },
+    {
+      "model": "hrviton_native",
+      "concept": "pocket",
+      "n": 3,
+      "mean": 0.6547150413195292,
+      "low": 0.4183616042137146,
+      "high": 0.995708167552948
+    },
+    {
+      "model": "coral",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.377387856061642,
+      "low": 0.3011612147092819,
+      "high": 0.4649035352353866
+    },
+    {
+      "model": "deco",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.36732686253694385,
+      "low": 0.2809175384732393,
+      "high": 0.46272366330600684
+    },
+    {
+      "model": "fastfit",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.4167282592791777,
+      "low": 0.32733643837273124,
+      "high": 0.5348664823346413
+    },
+    {
+      "model": "leffa",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.32455872572385347,
+      "low": 0.25752497891393994,
+      "high": 0.4051447101510487
+    },
+    {
+      "model": "catflux",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.35637058317661285,
+      "low": 0.2894509306893899,
+      "high": 0.4281115727069286
+    },
+    {
+      "model": "catvton",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.39888442708895755,
+      "low": 0.3337338157571279,
+      "high": 0.47058021764342595
+    },
+    {
+      "model": "idm",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.3884118153498723,
+      "low": 0.3281506807185136,
+      "high": 0.4578810357703612
+    },
+    {
+      "model": "ootd",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.4084290506748053,
+      "low": 0.3188903881380191,
+      "high": 0.5171591219993737
+    },
+    {
+      "model": "hrviton",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.4890024409844325,
+      "low": 0.4018280459711185,
+      "high": 0.5958488041964861
+    },
+    {
+      "model": "hrviton_native",
+      "concept": "logo",
+      "n": 13,
+      "mean": 0.49658461946707505,
+      "low": 0.40898599355266646,
+      "high": 0.6029482650642211
+    }
+  ],
+  "paired_differences": [
+    {
+      "concept": "collar",
+      "reference": "leffa",
+      "n": 54,
+      "delta": 0.16852255165576935,
+      "low": 0.13277177390538988,
+      "high": 0.20347971897572276,
+      "hrviton_lower_count": 3
+    },
+    {
+      "concept": "collar",
+      "reference": "ootd",
+      "n": 54,
+      "delta": 0.0925330309956162,
+      "low": 0.05513839846545907,
+      "high": 0.13099661817153296,
+      "hrviton_lower_count": 12
+    },
+    {
+      "concept": "collar",
+      "reference": "hrviton_native",
+      "n": 54,
+      "delta": -0.0034593454113713016,
+      "low": -0.015900968401520353,
+      "high": 0.008165698277729517,
+      "hrviton_lower_count": 31
+    },
+    {
+      "concept": "shoulder",
+      "reference": "leffa",
+      "n": 122,
+      "delta": 0.16843919810213026,
+      "low": 0.1399464488670719,
+      "high": 0.19815849380292858,
+      "hrviton_lower_count": 15
+    },
+    {
+      "concept": "shoulder",
+      "reference": "ootd",
+      "n": 122,
+      "delta": 0.08243044514636524,
+      "low": 0.0491170995578658,
+      "high": 0.11479653536845916,
+      "hrviton_lower_count": 39
+    },
+    {
+      "concept": "shoulder",
+      "reference": "hrviton_native",
+      "n": 122,
+      "delta": -0.0027282189150325585,
+      "low": -0.011923807291466759,
+      "high": 0.006736432125822419,
+      "hrviton_lower_count": 65
+    },
+    {
+      "concept": "sleeve",
+      "reference": "leffa",
+      "n": 101,
+      "delta": 0.2055081466932108,
+      "low": 0.17612987865168267,
+      "high": 0.23758443118543315,
+      "hrviton_lower_count": 11
+    },
+    {
+      "concept": "sleeve",
+      "reference": "ootd",
+      "n": 101,
+      "delta": 0.12174303269032205,
+      "low": 0.08925927074828943,
+      "high": 0.15570295172752716,
+      "hrviton_lower_count": 26
+    },
+    {
+      "concept": "sleeve",
+      "reference": "hrviton_native",
+      "n": 101,
+      "delta": 0.009207966008988938,
+      "low": -0.0013659735201018847,
+      "high": 0.020801690228209664,
+      "hrviton_lower_count": 42
+    },
+    {
+      "concept": "cuff",
+      "reference": "leffa",
+      "n": 32,
+      "delta": 0.19864823715761304,
+      "low": 0.14681058282731102,
+      "high": 0.2479322147089988,
+      "hrviton_lower_count": 4
+    },
+    {
+      "concept": "cuff",
+      "reference": "ootd",
+      "n": 32,
+      "delta": 0.12950234673917294,
+      "low": 0.06755515779368579,
+      "high": 0.1903576968470588,
+      "hrviton_lower_count": 7
+    },
+    {
+      "concept": "cuff",
+      "reference": "hrviton_native",
+      "n": 32,
+      "delta": 0.005281862802803516,
+      "low": -0.010654375120066107,
+      "high": 0.021838579117320463,
+      "hrviton_lower_count": 15
+    },
+    {
+      "concept": "button",
+      "reference": "leffa",
+      "n": 8,
+      "delta": 0.2596519999206066,
+      "low": 0.16549460217356682,
+      "high": 0.35662283729761834,
+      "hrviton_lower_count": 0
+    },
+    {
+      "concept": "button",
+      "reference": "ootd",
+      "n": 8,
+      "delta": 0.20462226122617722,
+      "low": 0.09808094380423427,
+      "high": 0.29992092279717325,
+      "hrviton_lower_count": 1
+    },
+    {
+      "concept": "button",
+      "reference": "hrviton_native",
+      "n": 8,
+      "delta": 0.009017080068588257,
+      "low": -0.021483870595693587,
+      "high": 0.03841017279773949,
+      "hrviton_lower_count": 3
+    },
+    {
+      "concept": "pocket",
+      "reference": "leffa",
+      "n": 3,
+      "delta": 0.32132912675539654,
+      "low": 0.10856965184211731,
+      "high": 0.6908347606658936,
+      "hrviton_lower_count": 0
+    },
+    {
+      "concept": "pocket",
+      "reference": "ootd",
+      "n": 3,
+      "delta": 0.15955864389737448,
+      "low": -0.18448731303215027,
+      "high": 0.6118165254592896,
+      "hrviton_lower_count": 1
+    },
+    {
+      "concept": "pocket",
+      "reference": "hrviton_native",
+      "n": 3,
+      "delta": 0.020208885272343952,
+      "low": -0.04971587657928467,
+      "high": 0.0797867476940155,
+      "hrviton_lower_count": 1
+    },
+    {
+      "concept": "logo",
+      "reference": "leffa",
+      "n": 13,
+      "delta": 0.16444371526057905,
+      "low": 0.09744346520075435,
+      "high": 0.23100896999239923,
+      "hrviton_lower_count": 1
+    },
+    {
+      "concept": "logo",
+      "reference": "ootd",
+      "n": 13,
+      "delta": 0.08057339030962724,
+      "low": 0.02674239905407799,
+      "high": 0.12300107387396002,
+      "hrviton_lower_count": 1
+    },
+    {
+      "concept": "logo",
+      "reference": "hrviton_native",
+      "n": 13,
+      "delta": -0.007582178482642541,
+      "low": -0.021626141896614662,
+      "high": 0.007805680999389045,
+      "hrviton_lower_count": 8
+    }
+  ],
+  "timing": {
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "warp_median_s": 0.014686702500057436,
+    "synthesis_median_s": 0.09907739500022217,
+    "total_median_s": 0.11366798350036333,
+    "peak_allocated_gib": 3.5396885871887207
+  },
+  "scorer_validation": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "07884_00",
+        "prior_score_max_error": 5.21540641784668e-07,
+        "gt_self_error": 0.0
+      },
+      {
+        "id": "07966_00",
+        "prior_score_max_error": 7.152557373046875e-07,
+        "gt_self_error": 0.0
+      },
+      {
+        "id": "13517_00",
+        "prior_score_max_error": 9.238719940185547e-07,
+        "gt_self_error": 0.0
+      },
+      {
+        "id": "01917_00",
+        "prior_score_max_error": 1.0728836059570312e-06,
+        "gt_self_error": 0.0
+      }
+    ],
+    "expert_sha256": "88373a448b4bf91d47d18b068e8872043489a042321272f659ebd4eaf4e22fc6",
+    "frozen": true,
+    "torch": "2.10.0+cu128"
+  },
+  "score": "Frozen regional expert L2 at original GT points; lower is better",
+  "source_summary_sha256": "efee10d199fa190e71447cd7b95cec0ee544cf09f8c195df74ef162813026093"
+}
