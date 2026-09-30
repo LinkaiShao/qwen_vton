@@ -2,7 +2,7 @@
 
 HR-VITON explicitly predicts a flow field and resamples the garment pixels, then a SPADE image generator synthesizes the person wearing that warped garment. Official pretrained weights; no training performed.
 
-[Live report](https://linkaishao.github.io/qwen_vton/warp-benchmark/) · [Original comparison](../region-benchmark/README.md) · [Official HR-VITON](https://github.com/sangyun884/HR-VITON) · [Run provenance](provenance.json) · [Raw scores](scores.csv)
+[Live report](https://linkaishao.github.io/qwen_vton/warp-benchmark/) · [Inference and scoring code](../../pipelines/vton_benchmark/README.md) · [Original comparison](../region-benchmark/README.md) · [Official HR-VITON](https://github.com/sangyun884/HR-VITON) · [Run provenance](provenance.json) · [Raw scores](scores.csv)
 
 Result: HR-VITON has higher (worse) mean expert distance than LeFFA in all seven measured regions. Native masking does not reverse this result. This older warping baseline is fast, but it does not improve the measured regional fidelity in this test.
 

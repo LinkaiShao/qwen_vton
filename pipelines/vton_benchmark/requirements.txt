@@ -1,0 +1,10 @@
+# Install torch/torchvision using the CUDA wheel command in README.md first.
+numpy==2.2.6
+Pillow==10.2.0
+opencv-python==4.12.0.88
+torchgeometry==0.1.2
+matplotlib==3.10.7
+transformers==5.2.0
+huggingface-hub==1.4.1
+gdown==6.1.0
+scipy==1.16.2

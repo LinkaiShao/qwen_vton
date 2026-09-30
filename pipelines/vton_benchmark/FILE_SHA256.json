@@ -1,0 +1,22 @@
+{
+  ".gitignore": "a79db3809d00b57c047c1ec69e7c544cfedd472195813a2ddba4ab009d5251ac",
+  "README.md": "89c702f62c1a9515c8ded10d48d33046102df5e18916ebcd8c38befd13fbe53b",
+  "bootstrap.py": "c828b564a58309bd6aa6b023ad8adaf521db6be32b814e06d8b0c3b64917eccf",
+  "garment_structure_eval/__init__.py": "0afaa7675ba564df505efbffbe70a0cdfaad535244907d3cd8264dfd0a3acff9",
+  "garment_structure_eval/benchmark/__init__.py": "5533ed2ba56b6f5f5c6fc3df78ba8bcbd017f161a17d4e2767c1e2d0b9a6e23a",
+  "garment_structure_eval/benchmark/common.py": "8d0acfb38ae33d1c7ca1bfc55a2151561f34168e135537d280d93041ac82db63",
+  "garment_structure_eval/benchmark/export_comparison_images.py": "469118222fb8096eb88f25d63c1d43917249d23e4355205fbd727911c948f5e7",
+  "garment_structure_eval/benchmark/hrviton_extension.py": "18800da3c17aef7f89b42a55a369fb649e00b6e8d4273905883452658f15d3a2",
+  "garment_structure_eval/benchmark/prepare.py": "37f425deb786f855b110f6d8d60d42dcedcf0da92f5aa1ac8c83e34e4c0d0747",
+  "garment_structure_eval/benchmark/publish_hrviton.py": "099a37544d4cc8b2d06867d9258d7dd5d7c808c4f35fdc7bbaffc98469046cec",
+  "garment_structure_eval/benchmark/publish_profiles.py": "5282435cfd5814fe06fbdf447f537d2252b3f3f792f321504fe7c3bb6bd35dc0",
+  "garment_structure_eval/experts.py": "ef741ad3e38882eb537bd99247c4a6b7d7eacc179c78a394139df74ecee3b98f",
+  "garment_structure_eval/fidelity/__init__.py": "a0f134a536e51e0c713cc6b89c12347a6d316efd94d24e022e047db086822d9d",
+  "garment_structure_eval/fidelity/detail_protocol.py": "448dd0a97aa580caae4640bad37fe44bc7716b0baee3a1203feb9185e9194d38",
+  "garment_structure_eval/fidelity/schema.py": "7fbf8f8c15ba9fe679c0a8d63ecfc9aecc06c27fafc77195fb218a1026fc06c7",
+  "garment_structure_eval/fidelity/structure_loss.py": "9cfee15895a7c52d26b590bd1a92d3f2435a46527c8809962e8751194e7aa417",
+  "requirements.txt": "444d69fef11c6f6ee6c0471939a5caca4e538426719da136b4a15d901b5a0189",
+  "run_reference/manifest.jsonl": "68cafa3a8aa76b3c41edea2bb7c8d67c0aee528e8484ac849afdc9b70856a8fc",
+  "run_reference/provenance.json": "d7d069053fda3bc78f843d46b214a029a10e432f1ef2c583b4ce10c67895e923",
+  "run_reference/scorer_validation.json": "ff6eded48cb7c11eb054ddefbd632b82a80c1b67deec37cefa57ccd16d8cd703"
+}

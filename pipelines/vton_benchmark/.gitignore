@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+runs/
+garment_structure_eval/benchmark/vendor/
+*.pth
+*.pt

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "id": "07884_00",
+      "prior_score_max_error": 5.21540641784668e-07,
+      "gt_self_error": 0.0
+    },
+    {
+      "id": "07966_00",
+      "prior_score_max_error": 7.152557373046875e-07,
+      "gt_self_error": 0.0
+    },
+    {
+      "id": "13517_00",
+      "prior_score_max_error": 9.238719940185547e-07,
+      "gt_self_error": 0.0
+    },
+    {
+      "id": "01917_00",
+      "prior_score_max_error": 1.0728836059570312e-06,
+      "gt_self_error": 0.0
+    }
+  ],
+  "expert_sha256": "88373a448b4bf91d47d18b068e8872043489a042321272f659ebd4eaf4e22fc6",
+  "frozen": true,
+  "torch": "2.10.0+cu128"
+}
